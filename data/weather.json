@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-23T16:56:37.390842+00:00",
+  "updatedAt": "2026-07-23T18:07:21.418225+00:00",
   "city": "서울",
   "current": {
-    "temp": 25.0,
+    "temp": 24.8,
     "weatherLabel": "대체로 맑음",
     "windSpeed": 4.3,
     "precipitation": 0.0
@@ -16,32 +16,32 @@
   "days": [
     {
       "date": "2026-07-24",
-      "tMax": 30.1,
-      "tMin": 24.9,
+      "tMax": 30.7,
+      "tMin": 24.8,
       "precipProb": 81,
       "weatherCode": 51,
       "weatherLabel": "가벼운 이슬비"
     },
     {
       "date": "2026-07-25",
-      "tMax": 29.0,
+      "tMax": 28.8,
       "tMin": 24.7,
       "precipProb": 95,
-      "weatherCode": 63,
-      "weatherLabel": "비"
+      "weatherCode": 55,
+      "weatherLabel": "강한 이슬비"
     },
     {
       "date": "2026-07-26",
-      "tMax": 29.6,
-      "tMin": 24.1,
+      "tMax": 29.3,
+      "tMin": 24.3,
       "precipProb": 93,
-      "weatherCode": 95,
-      "weatherLabel": "뇌우"
+      "weatherCode": 61,
+      "weatherLabel": "약한 비"
     },
     {
       "date": "2026-07-27",
       "tMax": 29.5,
-      "tMin": 24.1,
+      "tMin": 24.3,
       "precipProb": 85,
       "weatherCode": 95,
       "weatherLabel": "뇌우"
