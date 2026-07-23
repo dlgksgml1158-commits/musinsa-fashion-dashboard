@@ -220,7 +220,7 @@
     <div class="card">
       <h2>카테고리별 평균 가격대 <span class="tag">무신사 기준</span></h2>
       <div class="bar-chart" id="price-chart"><div class="loading">불러오는 중...</div></div>
-      <div class="muted-note">※ 전체 시장 평균가로, 특정 브랜드 데이터는 포함하지 않습니다.</div>
+      <div class="muted-note">※ 무신사+29CM 실시간 랭킹 상품 기준 평균가이며, 표본 3개 미만 카테고리는 제외했습니다. 특정 브랜드 데이터는 포함하지 않습니다.</div>
     </div>
   </div>
 
@@ -383,22 +383,26 @@ function renderDiscountList() {
   `).join("");
 }
 
+const MIN_SAMPLE_SIZE = 3;
+
 function renderPriceChart() {
   const el = document.getElementById("price-chart");
-  const data = currentPlatformData();
-  if (!data) { el.innerHTML = "<div class='loading'>데이터 없음</div>"; return; }
+  const combined = [...(state.musinsa?.items || []), ...(state.cm29?.items || [])];
+  if (!combined.length) { el.innerHTML = "<div class='loading'>데이터 없음</div>"; return; }
   const byCat = {};
-  data.items.forEach(i => {
+  combined.forEach(i => {
     if (!i.categoryLabel) return;
     (byCat[i.categoryLabel] ||= []).push(i.finalPrice);
   });
   const avgs = Object.entries(byCat)
-    .map(([cat, prices]) => ({ cat, avg: Math.round(prices.reduce((a, b) => a + b, 0) / prices.length) }))
+    .map(([cat, prices]) => ({ cat, n: prices.length, avg: Math.round(prices.reduce((a, b) => a + b, 0) / prices.length) }))
+    .filter(a => a.n >= MIN_SAMPLE_SIZE)
     .sort((a, b) => b.avg - a.avg);
+  if (!avgs.length) { el.innerHTML = "<div class='muted-note'>표본이 충분한 카테고리가 없습니다.</div>"; return; }
   const max = Math.max(...avgs.map(a => a.avg), 1);
   el.innerHTML = avgs.map(a => `
     <div class="bar-row">
-      <div>${a.cat}</div>
+      <div>${a.cat} <span class="tag">(n=${a.n})</span></div>
       <div class="bar-track"><div class="bar-fill" style="width:${(a.avg / max * 100).toFixed(1)}%"></div></div>
       <div class="bar-value">${a.avg.toLocaleString("ko-KR")}</div>
     </div>
