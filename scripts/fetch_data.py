@@ -42,6 +42,8 @@ def sync_public_upstream_files():
     for name in PUBLIC_UPSTREAM_FILES:
         try:
             data = fetch_json(f"{UPSTREAM_BASE}/{name}?t={int(time.time() * 1000)}")
+            # brandPriceStats holds the seller's own brand pricing stats (proprietary) — never publish it
+            data.pop("brandPriceStats", None)
             (DATA_DIR / name).write_text(json.dumps(data, ensure_ascii=False, indent=2))
             print(f"synced {name}")
         except Exception as e:

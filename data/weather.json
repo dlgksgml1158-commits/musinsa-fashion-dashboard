@@ -1,50 +1,50 @@
 {
-  "updatedAt": "2026-07-23T04:31:31.504778+00:00",
+  "updatedAt": "2026-07-23T06:32:12.410676+00:00",
   "city": "서울",
   "current": {
-    "temp": 28.3,
-    "weatherLabel": "대체로 맑음",
-    "windSpeed": 5.7,
-    "precipitation": 0.0
+    "temp": 28.2,
+    "weatherLabel": "이슬비",
+    "windSpeed": 5.4,
+    "precipitation": 0.2
   },
   "week": {
-    "avgMax": 30,
+    "avgMax": 29,
     "avgMin": 25,
     "rainDays": 7,
-    "summary": "2026-07-23 ~ 2026-07-29 서울 주간 날씨: 평균 최고 30°C, 최저 25°C. 비 오는 날 7일 포함."
+    "summary": "2026-07-23 ~ 2026-07-29 서울 주간 날씨: 평균 최고 29°C, 최저 25°C. 비 오는 날 7일 포함."
   },
   "days": [
     {
       "date": "2026-07-23",
-      "tMax": 28.7,
+      "tMax": 29.0,
       "tMin": 24.9,
       "precipProb": 100,
-      "weatherCode": 61,
-      "weatherLabel": "약한 비"
-    },
-    {
-      "date": "2026-07-24",
-      "tMax": 27.4,
-      "tMin": 25.1,
-      "precipProb": 82,
       "weatherCode": 55,
       "weatherLabel": "강한 이슬비"
     },
     {
-      "date": "2026-07-25",
-      "tMax": 30.8,
-      "tMin": 23.9,
-      "precipProb": 87,
+      "date": "2026-07-24",
+      "tMax": 28.7,
+      "tMin": 25.0,
+      "precipProb": 82,
       "weatherCode": 51,
       "weatherLabel": "가벼운 이슬비"
     },
     {
+      "date": "2026-07-25",
+      "tMax": 29.0,
+      "tMin": 24.0,
+      "precipProb": 87,
+      "weatherCode": 63,
+      "weatherLabel": "비"
+    },
+    {
       "date": "2026-07-26",
-      "tMax": 29.9,
-      "tMin": 24.4,
+      "tMax": 29.8,
+      "tMin": 24.1,
       "precipProb": 84,
-      "weatherCode": 96,
-      "weatherLabel": "-"
+      "weatherCode": 95,
+      "weatherLabel": "뇌우"
     },
     {
       "date": "2026-07-27",
@@ -74,7 +74,7 @@
   "suggestions": [
     {
       "item": "반팔 티셔츠 / 린넨 셔츠",
-      "reason": "주간 최고 30°C 내외 — 통기성 좋은 여름 상의 수요 증가 예상"
+      "reason": "주간 최고 29°C 내외 — 통기성 좋은 여름 상의 수요 증가 예상"
     },
     {
       "item": "반바지 / 숏 팬츠",
