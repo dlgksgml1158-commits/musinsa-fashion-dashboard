@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-07-23T09:43:29.463429+00:00",
+  "updatedAt": "2026-07-23T11:43:14.281949+00:00",
   "city": "서울",
   "current": {
-    "temp": 26.5,
-    "weatherLabel": "가벼운 이슬비",
-    "windSpeed": 5.7,
-    "precipitation": 0.1
+    "temp": 25.9,
+    "weatherLabel": "부분적으로 흐림",
+    "windSpeed": 3.9,
+    "precipitation": 0.0
   },
   "week": {
     "avgMax": 30,
@@ -24,17 +24,17 @@
     },
     {
       "date": "2026-07-24",
-      "tMax": 28.7,
-      "tMin": 25.0,
-      "precipProb": 82,
+      "tMax": 29.4,
+      "tMin": 24.8,
+      "precipProb": 75,
       "weatherCode": 51,
       "weatherLabel": "가벼운 이슬비"
     },
     {
       "date": "2026-07-25",
       "tMax": 29.0,
-      "tMin": 24.0,
-      "precipProb": 87,
+      "tMin": 24.2,
+      "precipProb": 90,
       "weatherCode": 63,
       "weatherLabel": "비"
     },
@@ -42,7 +42,7 @@
       "date": "2026-07-26",
       "tMax": 29.5,
       "tMin": 24.1,
-      "precipProb": 84,
+      "precipProb": 90,
       "weatherCode": 96,
       "weatherLabel": "-"
     },
@@ -50,7 +50,7 @@
       "date": "2026-07-27",
       "tMax": 30.9,
       "tMin": 25.0,
-      "precipProb": 71,
+      "precipProb": 67,
       "weatherCode": 51,
       "weatherLabel": "가벼운 이슬비"
     },
@@ -58,7 +58,7 @@
       "date": "2026-07-28",
       "tMax": 30.9,
       "tMin": 24.9,
-      "precipProb": 61,
+      "precipProb": 59,
       "weatherCode": 51,
       "weatherLabel": "가벼운 이슬비"
     },
@@ -66,7 +66,7 @@
       "date": "2026-07-29",
       "tMax": 30.4,
       "tMin": 24.9,
-      "precipProb": 60,
+      "precipProb": 56,
       "weatherCode": 51,
       "weatherLabel": "가벼운 이슬비"
     }
