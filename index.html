@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>패션 마켓 대시보드</title>
+<style>
+  :root {
+    color-scheme: light;
+    --surface-1:      #fcfcfb;
+    --page:           #f9f9f7;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --gridline:       #e1e0d9;
+    --border:         rgba(11,11,11,0.10);
+    --series-blue:    #2a78d6;
+    --series-green:   #008300;
+    --series-magenta: #e87ba4;
+    --series-yellow:  #eda100;
+    --series-aqua:    #1baf7a;
+    --series-orange:  #eb6834;
+    --series-red:     #e34948;
+    --card-shadow: 0 1px 2px rgba(11,11,11,0.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --surface-1:      #1a1a19;
+      --page:           #0d0d0d;
+      --text-primary:   #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted:     #898781;
+      --gridline:       #2c2c2a;
+      --border:         rgba(255,255,255,0.10);
+      --series-blue:    #3987e5;
+      --series-green:   #008300;
+      --series-magenta: #d55181;
+      --series-yellow:  #c98500;
+      --series-aqua:    #199e70;
+      --series-orange:  #d95926;
+      --series-red:     #e66767;
+      --card-shadow: 0 1px 2px rgba(0,0,0,0.4);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --surface-1:      #1a1a19;
+    --page:           #0d0d0d;
+    --text-primary:   #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted:     #898781;
+    --gridline:       #2c2c2a;
+    --border:         rgba(255,255,255,0.10);
+    --series-blue:    #3987e5;
+    --card-shadow: 0 1px 2px rgba(0,0,0,0.4);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--page);
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 14px;
+  }
+  a { color: inherit; text-decoration: none; }
+  .wrap { max-width: 1400px; margin: 0 auto; padding: 20px 20px 60px; }
+
+  header.top {
+    display: flex; align-items: baseline; justify-content: space-between;
+    margin-bottom: 20px; flex-wrap: wrap; gap: 8px;
+  }
+  header.top h1 { font-size: 20px; margin: 0; }
+  header.top .sub { color: var(--text-muted); font-size: 12px; }
+  header.top .badge {
+    font-size: 11px; color: var(--text-muted); border: 1px solid var(--border);
+    border-radius: 999px; padding: 4px 10px;
+  }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; margin-bottom: 16px; }
+  .grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
+  @media (max-width: 900px) { .grid.cols-3 { grid-template-columns: 1fr; } }
+
+  .card {
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px;
+    padding: 16px; box-shadow: var(--card-shadow);
+  }
+  .card h2 {
+    font-size: 14px; margin: 0 0 12px; display: flex; align-items: baseline; justify-content: space-between;
+  }
+  .card h2 .tag { font-size: 11px; color: var(--text-muted); font-weight: 400; }
+
+  .weather-temp { font-size: 34px; font-weight: 700; line-height: 1; }
+  .weather-row { display: flex; align-items: center; gap: 14px; margin-bottom: 10px; }
+  .weather-label { color: var(--text-secondary); font-size: 13px; }
+  .weather-stats { display: flex; gap: 16px; font-size: 12px; color: var(--text-secondary); margin-bottom: 10px; }
+  .weather-stats b { color: var(--text-primary); }
+  .weather-summary { font-size: 12.5px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 10px; }
+  .suggest-item { padding: 8px 0; border-top: 1px solid var(--gridline); font-size: 12.5px; }
+  .suggest-item b { display: inline-block; margin-right: 6px; }
+  .suggest-item span { color: var(--text-secondary); }
+
+  .news-item { padding: 9px 0; border-top: 1px solid var(--gridline); }
+  .news-item:first-child { border-top: none; }
+  .news-item a { display: block; font-size: 13px; margin-bottom: 3px; }
+  .news-item a:hover { color: var(--series-blue); }
+  .news-item .meta { font-size: 11px; color: var(--text-muted); }
+
+  .kw-list { list-style: none; margin: 0; padding: 0; }
+  .kw-list li {
+    display: flex; align-items: center; gap: 8px; padding: 6px 0;
+    border-top: 1px solid var(--gridline); font-size: 13px;
+  }
+  .kw-list li:first-child { border-top: none; }
+  .kw-rank { width: 18px; color: var(--text-muted); font-size: 12px; text-align: right; }
+  .kw-word { flex: 1; }
+  .kw-delta { font-size: 11px; }
+  .kw-delta.up { color: var(--series-red); }
+  .kw-delta.down { color: var(--series-blue); }
+  .kw-cat-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+
+  .tabs { display: flex; gap: 6px; margin-bottom: 12px; flex-wrap: wrap; }
+  .tab-btn {
+    border: 1px solid var(--border); background: transparent; color: var(--text-secondary);
+    padding: 6px 12px; border-radius: 999px; font-size: 12.5px; cursor: pointer;
+  }
+  .tab-btn.active { background: var(--series-blue); color: #fff; border-color: var(--series-blue); }
+
+  table.rank-table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+  table.rank-table th {
+    text-align: left; color: var(--text-muted); font-weight: 500; font-size: 11px;
+    padding: 6px 8px; border-bottom: 1px solid var(--gridline);
+  }
+  table.rank-table td { padding: 8px; border-bottom: 1px solid var(--gridline); vertical-align: middle; }
+  table.rank-table img { width: 40px; height: 40px; object-fit: cover; border-radius: 6px; }
+  .prod-name { max-width: 320px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: block; }
+  .prod-brand { color: var(--text-muted); font-size: 11px; }
+  .price-final { font-weight: 600; }
+  .price-orig { color: var(--text-muted); text-decoration: line-through; font-size: 11px; margin-left: 6px; }
+  .discount { color: var(--series-red); font-weight: 600; }
+  .new-badge { background: var(--series-green); color: #fff; font-size: 10px; padding: 1px 6px; border-radius: 4px; margin-left: 6px; }
+
+  .product-card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+  .product-card { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+  .product-card img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; }
+  .product-card .pc-body { padding: 8px; }
+  .product-card .pc-brand { font-size: 11px; color: var(--text-muted); }
+  .product-card .pc-name {
+    font-size: 12px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+    overflow: hidden; height: 2.6em; margin: 2px 0 4px;
+  }
+  .product-card .pc-price { font-size: 12.5px; font-weight: 600; }
+  .product-card .pc-discount { color: var(--series-red); font-size: 12px; margin-right: 4px; }
+
+  .bar-chart { display: flex; flex-direction: column; gap: 10px; }
+  .bar-row { display: grid; grid-template-columns: 96px 1fr 60px; align-items: center; gap: 10px; font-size: 12px; }
+  .bar-track { background: var(--gridline); border-radius: 4px; height: 14px; overflow: hidden; }
+  .bar-fill { background: var(--series-blue); height: 100%; border-radius: 4px 0 0 4px; }
+  .bar-value { text-align: right; color: var(--text-secondary); font-variant-numeric: tabular-nums; }
+
+  .legend { display: flex; gap: 14px; font-size: 11px; color: var(--text-secondary); margin-bottom: 10px; }
+  .legend .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 4px; }
+
+  .muted-note { font-size: 11px; color: var(--text-muted); margin-top: 8px; }
+  .loading { color: var(--text-muted); font-size: 12.5px; padding: 20px 0; text-align: center; }
+  footer.foot { text-align: center; color: var(--text-muted); font-size: 11px; padding: 24px 0 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>패션 마켓 대시보드</h1>
+      <div class="sub">무신사 · 29CM 공개 데이터 기반 실시간 트렌드</div>
+    </div>
+    <div class="badge" id="updated-badge">불러오는 중...</div>
+  </header>
+
+  <div class="grid cols-3">
+    <div class="card" id="weather-card"><h2>서울 날씨</h2><div class="loading">불러오는 중...</div></div>
+    <div class="card" id="news-card"><h2>패션 이슈</h2><div class="loading">불러오는 중...</div></div>
+    <div class="card">
+      <h2>검색어 트렌드</h2>
+      <div class="tabs" id="kw-tabs">
+        <button class="tab-btn active" data-kw="ms-pop">무신사 인기</button>
+        <button class="tab-btn" data-kw="ms-rise">무신사 급상승</button>
+        <button class="tab-btn" data-kw="naver">네이버 인기</button>
+      </div>
+      <ul class="kw-list" id="kw-list"><li class="loading">불러오는 중...</li></ul>
+    </div>
+  </div>
+
+  <div class="card" style="margin-bottom:16px;">
+    <h2>실시간 랭킹 <span class="tag" id="rank-updated"></span></h2>
+    <div class="tabs" id="platform-tabs">
+      <button class="tab-btn active" data-platform="musinsa">무신사</button>
+      <button class="tab-btn" data-platform="29cm">29CM</button>
+    </div>
+    <div class="tabs" id="category-tabs"></div>
+    <div id="rank-table-wrap"><div class="loading">불러오는 중...</div></div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>인기 급상승 <span class="tag">TOP 5</span></h2>
+      <div class="product-card-grid" id="hot-products"><div class="loading">불러오는 중...</div></div>
+    </div>
+    <div class="card">
+      <h2>신규 진입 브랜드</h2>
+      <div class="product-card-grid" id="new-products"><div class="loading">불러오는 중...</div></div>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>할인 특가 <span class="tag">할인율 TOP 10</span></h2>
+      <ul class="kw-list" id="discount-list"><li class="loading">불러오는 중...</li></ul>
+    </div>
+    <div class="card">
+      <h2>카테고리별 평균 가격대 <span class="tag">무신사 기준</span></h2>
+      <div class="bar-chart" id="price-chart"><div class="loading">불러오는 중...</div></div>
+      <div class="muted-note">※ 전체 시장 평균가로, 특정 브랜드 데이터는 포함하지 않습니다.</div>
+    </div>
+  </div>
+
+  <footer class="foot">공개 데이터 기반 자동 생성 대시보드 · 자사 매출/브랜드 정보는 포함하지 않습니다.</footer>
+</div>
+
+<script>
+const DATA_BASE = "data";
+const state = { musinsa: null, cm29: null, searchTrends: null, naverTrends: null, weather: null, news: null };
+
+async function loadJson(name) {
+  try {
+    const res = await fetch(`${DATA_BASE}/${name}?t=${Date.now()}`);
+    if (!res.ok) throw new Error(res.status);
+    return await res.json();
+  } catch (e) {
+    console.error("failed to load", name, e);
+    return null;
+  }
+}
+
+function fmtPrice(n) { return n == null ? "-" : n.toLocaleString("ko-KR") + "원"; }
+function timeAgo(iso) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  return d.toLocaleString("ko-KR", { month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" });
+}
+
+function renderWeather(w) {
+  const el = document.getElementById("weather-card");
+  if (!w) { el.innerHTML = "<h2>서울 날씨</h2><div class='loading'>데이터 없음</div>"; return; }
+  const sug = (w.suggestions || []).map(s => `
+    <div class="suggest-item"><b>${s.item}</b><span>${s.reason}</span></div>
+  `).join("");
+  el.innerHTML = `
+    <h2>서울 날씨 <span class="tag">${w.days?.[0]?.date || ""}</span></h2>
+    <div class="weather-row">
+      <div class="weather-temp">${Math.round(w.current.temp)}°C</div>
+      <div class="weather-label">${w.current.weatherLabel}</div>
+    </div>
+    <div class="weather-stats">
+      <span>최고 <b>${w.week.avgMax}°C</b></span>
+      <span>최저 <b>${w.week.avgMin}°C</b></span>
+      <span>바람 <b>${w.current.windSpeed}km/h</b></span>
+    </div>
+    <div class="weather-summary">${w.week.summary}</div>
+    ${sug || "<div class='muted-note'>특이 판매 예측 없음</div>"}
+  `;
+}
+
+function renderNews(n) {
+  const el = document.getElementById("news-card");
+  if (!n || !n.items?.length) { el.innerHTML = "<h2>패션 이슈</h2><div class='loading'>데이터 없음</div>"; return; }
+  el.innerHTML = `<h2>패션 이슈</h2>` + n.items.slice(0, 8).map(item => `
+    <div class="news-item">
+      <a href="${item.link}" target="_blank" rel="noopener">${item.title}</a>
+      <div class="meta">${item.source || ""}</div>
+    </div>
+  `).join("");
+}
+
+function renderKeywords(kind) {
+  const el = document.getElementById("kw-list");
+  let list = [];
+  if (kind === "ms-pop") list = (state.searchTrends?.popular || []).map(k => ({ word: k.keyword, delta: k.rankIncrement }));
+  if (kind === "ms-rise") list = (state.searchTrends?.rising || []).map(k => ({ word: k.keyword, delta: k.rankIncrement }));
+  if (kind === "naver") list = (state.naverTrends?.musinsa || []).map(k => ({ word: k.keyword, delta: k.change, cat: k.cat, catColor: k.catColor }));
+  if (!list.length) { el.innerHTML = "<li class='loading'>데이터 없음</li>"; return; }
+  el.innerHTML = list.slice(0, 10).map((k, i) => `
+    <li>
+      <span class="kw-rank">${i + 1}</span>
+      ${k.catColor ? `<span class="kw-cat-dot" style="background:${k.catColor}"></span>` : ""}
+      <span class="kw-word">${k.word}</span>
+      ${k.delta ? `<span class="kw-delta ${k.delta > 0 ? "up" : "down"}">${k.delta > 0 ? "▲" : "▼"}${Math.abs(k.delta)}</span>` : ""}
+    </li>
+  `).join("");
+}
+
+function currentPlatformData() {
+  const platform = document.querySelector("#platform-tabs .tab-btn.active").dataset.platform;
+  return platform === "29cm" ? state.cm29 : state.musinsa;
+}
+
+function renderCategoryTabs() {
+  const data = currentPlatformData();
+  const el = document.getElementById("category-tabs");
+  if (!data) return;
+  const cats = [...new Set(data.items.map(i => i.categoryLabel))];
+  el.innerHTML = `<button class="tab-btn active" data-cat="__all__">전체</button>` +
+    cats.map(c => `<button class="tab-btn" data-cat="${c}">${c}</button>`).join("");
+  el.querySelectorAll(".tab-btn").forEach(btn => btn.addEventListener("click", () => {
+    el.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    renderRankTable();
+  }));
+}
+
+function renderRankTable() {
+  const data = currentPlatformData();
+  const wrap = document.getElementById("rank-table-wrap");
+  const updatedEl = document.getElementById("rank-updated");
+  if (!data) { wrap.innerHTML = "<div class='loading'>데이터 없음</div>"; return; }
+  updatedEl.textContent = timeAgo(data.updatedAt) + " 기준";
+  const activeCat = document.querySelector("#category-tabs .tab-btn.active")?.dataset.cat || "__all__";
+  const rows = data.items.filter(i => activeCat === "__all__" || i.categoryLabel === activeCat).slice(0, 20);
+  wrap.innerHTML = `
+    <table class="rank-table">
+      <thead><tr><th>순위</th><th>상품</th><th>가격</th><th>할인율</th></tr></thead>
+      <tbody>
+        ${rows.map(item => `
+          <tr>
+            <td>${item.rank}</td>
+            <td>
+              <div style="display:flex; align-items:center; gap:8px;">
+                <img src="${item.imgUrl}" loading="lazy" alt="">
+                <div>
+                  <a href="${item.productUrl}" target="_blank" rel="noopener" class="prod-name">${item.name}</a>
+                  <div class="prod-brand">${item.brand}${item.change === "NEW" ? "<span class='new-badge'>NEW</span>" : ""}</div>
+                </div>
+              </div>
+            </td>
+            <td><span class="price-final">${fmtPrice(item.finalPrice)}</span>${item.discountRate ? `<span class="price-orig">${fmtPrice(item.originalPrice)}</span>` : ""}</td>
+            <td>${item.discountRate ? `<span class="discount">-${item.discountRate}%</span>` : "-"}</td>
+          </tr>
+        `).join("")}
+      </tbody>
+    </table>
+  `;
+}
+
+function renderProductCards(elId, items) {
+  const el = document.getElementById(elId);
+  if (!items?.length) { el.innerHTML = "<div class='loading'>데이터 없음</div>"; return; }
+  el.innerHTML = items.map(item => `
+    <a class="product-card" href="${item.productUrl}" target="_blank" rel="noopener">
+      <img src="${item.imgUrl}" loading="lazy" alt="">
+      <div class="pc-body">
+        <div class="pc-brand">${item.brand}</div>
+        <div class="pc-name">${item.name}</div>
+        <div class="pc-price">
+          ${item.discountRate ? `<span class="pc-discount">-${item.discountRate}%</span>` : ""}
+          ${fmtPrice(item.finalPrice)}
+        </div>
+      </div>
+    </a>
+  `).join("");
+}
+
+function renderDiscountList() {
+  const el = document.getElementById("discount-list");
+  const data = currentPlatformData();
+  if (!data) { el.innerHTML = "<li class='loading'>데이터 없음</li>"; return; }
+  const top = [...data.items].sort((a, b) => b.discountRate - a.discountRate).slice(0, 10);
+  el.innerHTML = top.map((item, i) => `
+    <li>
+      <span class="kw-rank">${i + 1}</span>
+      <span class="kw-word"><a href="${item.productUrl}" target="_blank" rel="noopener">${item.name}</a> <span class="prod-brand">${item.brand}</span></span>
+      <span class="discount">-${item.discountRate}%</span>
+    </li>
+  `).join("");
+}
+
+function renderPriceChart() {
+  const el = document.getElementById("price-chart");
+  const data = currentPlatformData();
+  if (!data) { el.innerHTML = "<div class='loading'>데이터 없음</div>"; return; }
+  const byCat = {};
+  data.items.forEach(i => {
+    if (!i.categoryLabel) return;
+    (byCat[i.categoryLabel] ||= []).push(i.finalPrice);
+  });
+  const avgs = Object.entries(byCat)
+    .map(([cat, prices]) => ({ cat, avg: Math.round(prices.reduce((a, b) => a + b, 0) / prices.length) }))
+    .sort((a, b) => b.avg - a.avg);
+  const max = Math.max(...avgs.map(a => a.avg), 1);
+  el.innerHTML = avgs.map(a => `
+    <div class="bar-row">
+      <div>${a.cat}</div>
+      <div class="bar-track"><div class="bar-fill" style="width:${(a.avg / max * 100).toFixed(1)}%"></div></div>
+      <div class="bar-value">${a.avg.toLocaleString("ko-KR")}</div>
+    </div>
+  `).join("");
+}
+
+function renderAll() {
+  renderCategoryTabs();
+  renderRankTable();
+  const data = currentPlatformData();
+  if (data) {
+    renderProductCards("hot-products", data.items.slice(0, 5));
+    renderProductCards("new-products", data.items.filter(i => i.change === "NEW").slice(0, 5));
+  }
+  renderDiscountList();
+  renderPriceChart();
+}
+
+async function init() {
+  const [musinsa, cm29, searchTrends, naverTrends, weather, news, meta] = await Promise.all([
+    loadJson("musinsa.json"), loadJson("29cm.json"), loadJson("musinsa_search_trends.json"),
+    loadJson("naver_trends.json"), loadJson("weather.json"), loadJson("fashion_news.json"), loadJson("meta.json"),
+  ]);
+  Object.assign(state, { musinsa, cm29, searchTrends, naverTrends, weather, news });
+
+  document.getElementById("updated-badge").textContent = meta ? `${timeAgo(meta.updatedAt)} 갱신` : "";
+  renderWeather(weather);
+  renderNews(news);
+  renderKeywords("ms-pop");
+  renderAll();
+
+  document.querySelectorAll("#kw-tabs .tab-btn").forEach(btn => btn.addEventListener("click", () => {
+    document.querySelectorAll("#kw-tabs .tab-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    renderKeywords(btn.dataset.kw);
+  }));
+
+  document.querySelectorAll("#platform-tabs .tab-btn").forEach(btn => btn.addEventListener("click", () => {
+    document.querySelectorAll("#platform-tabs .tab-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    renderAll();
+  }));
+}
+
+init();
+</script>
+</body>
+</html>
