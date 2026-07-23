@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-23T11:43:14.281949+00:00",
+  "updatedAt": "2026-07-23T13:15:45.024664+00:00",
   "city": "서울",
   "current": {
-    "temp": 25.9,
-    "weatherLabel": "부분적으로 흐림",
-    "windSpeed": 3.9,
+    "temp": 25.3,
+    "weatherLabel": "대체로 맑음",
+    "windSpeed": 3.1,
     "precipitation": 0.0
   },
   "week": {
     "avgMax": 30,
-    "avgMin": 25,
+    "avgMin": 24,
     "rainDays": 7,
-    "summary": "2026-07-23 ~ 2026-07-29 서울 주간 날씨: 평균 최고 30°C, 최저 25°C. 비 오는 날 7일 포함."
+    "summary": "2026-07-23 ~ 2026-07-29 서울 주간 날씨: 평균 최고 30°C, 최저 24°C. 비 오는 날 7일 포함."
   },
   "days": [
     {
@@ -24,8 +24,8 @@
     },
     {
       "date": "2026-07-24",
-      "tMax": 29.4,
-      "tMin": 24.8,
+      "tMax": 30.1,
+      "tMin": 24.9,
       "precipProb": 75,
       "weatherCode": 51,
       "weatherLabel": "가벼운 이슬비"
@@ -33,39 +33,39 @@
     {
       "date": "2026-07-25",
       "tMax": 29.0,
-      "tMin": 24.2,
+      "tMin": 24.7,
       "precipProb": 90,
       "weatherCode": 63,
       "weatherLabel": "비"
     },
     {
       "date": "2026-07-26",
-      "tMax": 29.5,
+      "tMax": 29.6,
       "tMin": 24.1,
       "precipProb": 90,
-      "weatherCode": 96,
-      "weatherLabel": "-"
+      "weatherCode": 95,
+      "weatherLabel": "뇌우"
     },
     {
       "date": "2026-07-27",
-      "tMax": 30.9,
-      "tMin": 25.0,
+      "tMax": 29.5,
+      "tMin": 24.1,
       "precipProb": 67,
-      "weatherCode": 51,
-      "weatherLabel": "가벼운 이슬비"
+      "weatherCode": 95,
+      "weatherLabel": "뇌우"
     },
     {
       "date": "2026-07-28",
-      "tMax": 30.9,
-      "tMin": 24.9,
+      "tMax": 31.5,
+      "tMin": 24.1,
       "precipProb": 59,
-      "weatherCode": 51,
-      "weatherLabel": "가벼운 이슬비"
+      "weatherCode": 3,
+      "weatherLabel": "흐림"
     },
     {
       "date": "2026-07-29",
-      "tMax": 30.4,
-      "tMin": 24.9,
+      "tMax": 30.7,
+      "tMin": 24.2,
       "precipProb": 56,
       "weatherCode": 51,
       "weatherLabel": "가벼운 이슬비"
