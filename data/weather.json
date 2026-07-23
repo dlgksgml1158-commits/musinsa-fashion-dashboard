@@ -1,32 +1,32 @@
 {
-  "updatedAt": "2026-07-23T22:42:43.311229+00:00",
+  "updatedAt": "2026-07-23T23:44:55.998518+00:00",
   "city": "서울",
   "current": {
-    "temp": 25.5,
+    "temp": 26.6,
     "weatherLabel": "대체로 맑음",
-    "windSpeed": 4.0,
+    "windSpeed": 4.3,
     "precipitation": 0.0
   },
   "week": {
-    "avgMax": 30,
+    "avgMax": 31,
     "avgMin": 25,
     "rainDays": 7,
-    "summary": "2026-07-24 ~ 2026-07-30 서울 주간 날씨: 평균 최고 30°C, 최저 25°C. 비 오는 날 7일 포함."
+    "summary": "2026-07-24 ~ 2026-07-30 서울 주간 날씨: 평균 최고 31°C, 최저 25°C. 비 오는 날 7일 포함."
   },
   "days": [
     {
       "date": "2026-07-24",
-      "tMax": 30.8,
+      "tMax": 30.9,
       "tMin": 24.3,
-      "precipProb": 81,
+      "precipProb": 86,
       "weatherCode": 2,
       "weatherLabel": "부분적으로 흐림"
     },
     {
       "date": "2026-07-25",
-      "tMax": 28.5,
+      "tMax": 29.5,
       "tMin": 24.8,
-      "precipProb": 95,
+      "precipProb": 74,
       "weatherCode": 53,
       "weatherLabel": "이슬비"
     },
@@ -34,7 +34,7 @@
       "date": "2026-07-26",
       "tMax": 29.3,
       "tMin": 24.3,
-      "precipProb": 93,
+      "precipProb": 88,
       "weatherCode": 61,
       "weatherLabel": "약한 비"
     },
@@ -42,7 +42,7 @@
       "date": "2026-07-27",
       "tMax": 31.7,
       "tMin": 23.8,
-      "precipProb": 85,
+      "precipProb": 65,
       "weatherCode": 96,
       "weatherLabel": "-"
     },
@@ -50,7 +50,7 @@
       "date": "2026-07-28",
       "tMax": 30.8,
       "tMin": 25.0,
-      "precipProb": 46,
+      "precipProb": 45,
       "weatherCode": 3,
       "weatherLabel": "흐림"
     },
@@ -58,7 +58,7 @@
       "date": "2026-07-29",
       "tMax": 30.6,
       "tMin": 24.9,
-      "precipProb": 58,
+      "precipProb": 66,
       "weatherCode": 95,
       "weatherLabel": "뇌우"
     },
@@ -66,7 +66,7 @@
       "date": "2026-07-30",
       "tMax": 31.1,
       "tMin": 25.0,
-      "precipProb": 43,
+      "precipProb": 56,
       "weatherCode": 51,
       "weatherLabel": "가벼운 이슬비"
     }
@@ -74,7 +74,7 @@
   "suggestions": [
     {
       "item": "반팔 티셔츠 / 린넨 셔츠",
-      "reason": "주간 최고 30°C 내외 — 통기성 좋은 여름 상의 수요 증가 예상"
+      "reason": "주간 최고 31°C 내외 — 통기성 좋은 여름 상의 수요 증가 예상"
     },
     {
       "item": "반바지 / 숏 팬츠",
