@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-07-23T18:07:21.418225+00:00",
+  "updatedAt": "2026-07-23T19:52:10.057827+00:00",
   "city": "서울",
   "current": {
-    "temp": 24.8,
+    "temp": 24.4,
     "weatherLabel": "대체로 맑음",
-    "windSpeed": 4.3,
+    "windSpeed": 4.7,
     "precipitation": 0.0
   },
   "week": {
     "avgMax": 30,
-    "avgMin": 24,
+    "avgMin": 25,
     "rainDays": 7,
-    "summary": "2026-07-24 ~ 2026-07-30 서울 주간 날씨: 평균 최고 30°C, 최저 24°C. 비 오는 날 7일 포함."
+    "summary": "2026-07-24 ~ 2026-07-30 서울 주간 날씨: 평균 최고 30°C, 최저 25°C. 비 오는 날 7일 포함."
   },
   "days": [
     {
       "date": "2026-07-24",
-      "tMax": 30.7,
-      "tMin": 24.8,
+      "tMax": 30.8,
+      "tMin": 24.3,
       "precipProb": 81,
-      "weatherCode": 51,
-      "weatherLabel": "가벼운 이슬비"
+      "weatherCode": 2,
+      "weatherLabel": "부분적으로 흐림"
     },
     {
       "date": "2026-07-25",
-      "tMax": 28.8,
-      "tMin": 24.7,
+      "tMax": 28.5,
+      "tMin": 24.8,
       "precipProb": 95,
-      "weatherCode": 55,
-      "weatherLabel": "강한 이슬비"
+      "weatherCode": 53,
+      "weatherLabel": "이슬비"
     },
     {
       "date": "2026-07-26",
@@ -40,35 +40,35 @@
     },
     {
       "date": "2026-07-27",
-      "tMax": 29.5,
-      "tMin": 24.3,
+      "tMax": 31.7,
+      "tMin": 23.8,
       "precipProb": 85,
-      "weatherCode": 95,
-      "weatherLabel": "뇌우"
+      "weatherCode": 96,
+      "weatherLabel": "-"
     },
     {
       "date": "2026-07-28",
-      "tMax": 31.5,
-      "tMin": 24.1,
+      "tMax": 30.8,
+      "tMin": 25.0,
       "precipProb": 46,
       "weatherCode": 3,
       "weatherLabel": "흐림"
     },
     {
       "date": "2026-07-29",
-      "tMax": 30.7,
-      "tMin": 24.2,
+      "tMax": 30.6,
+      "tMin": 24.9,
       "precipProb": 58,
-      "weatherCode": 51,
-      "weatherLabel": "가벼운 이슬비"
+      "weatherCode": 95,
+      "weatherLabel": "뇌우"
     },
     {
       "date": "2026-07-30",
-      "tMax": 31.3,
+      "tMax": 31.1,
       "tMin": 25.0,
       "precipProb": 43,
-      "weatherCode": 95,
-      "weatherLabel": "뇌우"
+      "weatherCode": 51,
+      "weatherLabel": "가벼운 이슬비"
     }
   ],
   "suggestions": [
