@@ -218,7 +218,7 @@
       <ul class="kw-list" id="discount-list"><li class="loading">불러오는 중...</li></ul>
     </div>
     <div class="card">
-      <h2>카테고리별 평균 가격대 <span class="tag">무신사 기준</span></h2>
+      <h2>카테고리별 평균 가격대 <span class="tag">카테고리 구분 상품 기준</span></h2>
       <div class="bar-chart" id="price-chart"><div class="loading">불러오는 중...</div></div>
       <div class="muted-note">※ 무신사+29CM 실시간 랭킹 상품 기준 평균가이며, 표본 3개 미만 카테고리는 제외했습니다. 특정 브랜드 데이터는 포함하지 않습니다.</div>
     </div>
@@ -391,7 +391,7 @@ function renderPriceChart() {
   if (!combined.length) { el.innerHTML = "<div class='loading'>데이터 없음</div>"; return; }
   const byCat = {};
   combined.forEach(i => {
-    if (!i.categoryLabel) return;
+    if (!i.category || !i.categoryLabel || i.categoryLabel === "전체") return;
     (byCat[i.categoryLabel] ||= []).push(i.finalPrice);
   });
   const avgs = Object.entries(byCat)
