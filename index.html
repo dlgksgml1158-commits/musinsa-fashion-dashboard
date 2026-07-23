@@ -292,7 +292,6 @@ function renderKeywords(kind) {
   el.innerHTML = list.slice(0, 10).map((k, i) => `
     <li>
       <span class="kw-rank">${i + 1}</span>
-      ${k.catColor ? `<span class="kw-cat-dot" style="background:${k.catColor}"></span>` : ""}
       <span class="kw-word">${k.word}</span>
       ${k.delta ? `<span class="kw-delta ${k.delta > 0 ? "up" : "down"}">${k.delta > 0 ? "▲" : "▼"}${Math.abs(k.delta)}</span>` : ""}
     </li>
