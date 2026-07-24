@@ -471,7 +471,7 @@ function renderPriceChart() {
   const max = Math.max(...avgs.map(a => a.avg), 1);
   el.innerHTML = avgs.map(a => `
     <div class="bar-row">
-      <div>${a.cat} <span class="tag">(n=${a.n})</span></div>
+      <div>${a.cat}</div>
       <div class="bar-track"><div class="bar-fill" style="width:${(a.avg / max * 100).toFixed(1)}%"></div></div>
       <div class="bar-value">${a.avg.toLocaleString("ko-KR")}</div>
     </div>
