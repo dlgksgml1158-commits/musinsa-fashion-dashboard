@@ -2,14 +2,16 @@
 
 Sources reused (public, already-computed): musinsa/29cm real-time ranking + search trend feeds,
 synced from the author's own already-public GitHub Pages data endpoint.
-Sources fetched fresh (public APIs, no auth): weather (open-meteo), fashion news (Google News RSS).
+Sources fetched fresh (public, no auth): weather (Naver Weather search widget), fashion news (Google News RSS).
 """
 import json
 import re
 import time
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
+
+from bs4 import BeautifulSoup
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
@@ -50,38 +52,66 @@ def sync_public_upstream_files():
             print(f"failed {name}: {e}")
 
 
-WMO = {
-    0: "맑음", 1: "대체로 맑음", 2: "부분적으로 흐림", 3: "흐림",
-    45: "안개", 48: "짙은 안개",
-    51: "가벼운 이슬비", 53: "이슬비", 55: "강한 이슬비",
-    61: "약한 비", 63: "비", 65: "강한 비",
-    71: "약한 눈", 73: "눈", 75: "폭설",
-    80: "약한 소나기", 81: "소나기", 82: "강한 소나기",
-    95: "뇌우",
-}
+def _parse_naver_date(md_text, today):
+    # md_text like "7.24." -> nearest matching date on/after `today`
+    month, day = (int(x) for x in md_text.strip(".").split("."))
+    year = today.year
+    candidate = datetime(year, month, day).date()
+    if candidate < today - timedelta(days=180):
+        candidate = datetime(year + 1, month, day).date()
+    return candidate.isoformat()
 
 
 def fetch_weather():
-    lat, lon = 37.5665, 126.978
-    url = (
-        f"https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}"
-        "&current=temperature_2m,weather_code,wind_speed_10m,precipitation"
-        "&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weather_code"
-        "&timezone=Asia%2FSeoul&forecast_days=7"
-    )
-    data = fetch_json(url)
+    html = fetch_text("https://search.naver.com/search.naver?query=%EC%84%9C%EC%9A%B8%EB%82%A0%EC%94%A8")
+    soup = BeautifulSoup(html, "html.parser")
+    today = datetime.now(timezone.utc).astimezone().date()
+
+    cur_temp_el = soup.select_one(".temperature_text")
+    cur_temp = None
+    if cur_temp_el:
+        m = re.search(r"-?\d+(\.\d+)?", cur_temp_el.get_text())
+        cur_temp = float(m.group()) if m else None
+    cur_label_el = soup.select_one(".weather_main .blind")
+    cur_label = cur_label_el.get_text(strip=True) if cur_label_el else "-"
+    cur_detail_el = soup.select_one(".temperature_wrap .summary_list") or soup.select_one(".summary_list")
+    feels_like = humidity = wind_speed = None
+    if cur_detail_el:
+        detail_text = cur_detail_el.get_text(" ", strip=True)
+        m = re.search(r"체감\s*(-?\d+(\.\d+)?)", detail_text)
+        feels_like = float(m.group(1)) if m else None
+        m = re.search(r"습도\s*(\d+)", detail_text)
+        humidity = int(m.group(1)) if m else None
+        m = re.search(r"(\d+(\.\d+)?)\s*m/s", detail_text)
+        wind_speed = float(m.group(1)) if m else None
 
     days = []
-    for i, date in enumerate(data["daily"]["time"]):
-        code = data["daily"]["weather_code"][i]
+    for item in soup.select(".list_box._weekly_weather .week_item")[:7]:
+        day_label = item.select_one(".day")
+        date_el = item.select_one(".date")
+        lowest_el = item.select_one(".lowest")
+        highest_el = item.select_one(".highest")
+        weather_blocks = item.select(".cell_weather .weather_inner")
+        pm_block = weather_blocks[-1] if weather_blocks else None
+        pm_icon_label = pm_block.select_one("i.wt_icon .blind") if pm_block else None
+        pm_rain_el = pm_block.select_one(".rainfall") if pm_block else None
+
+        if not (date_el and lowest_el and highest_el):
+            continue
+        t_min = float(re.search(r"-?\d+", lowest_el.get_text()).group())
+        t_max = float(re.search(r"-?\d+", highest_el.get_text()).group())
+        precip_prob = int(re.search(r"\d+", pm_rain_el.get_text()).group()) if pm_rain_el else 0
         days.append({
-            "date": date,
-            "tMax": data["daily"]["temperature_2m_max"][i],
-            "tMin": data["daily"]["temperature_2m_min"][i],
-            "precipProb": data["daily"]["precipitation_probability_max"][i],
-            "weatherCode": code,
-            "weatherLabel": WMO.get(code, "-"),
+            "date": _parse_naver_date(date_el.get_text(), today),
+            "dayLabel": day_label.get_text(strip=True) if day_label else "",
+            "tMax": t_max,
+            "tMin": t_min,
+            "precipProb": precip_prob,
+            "weatherLabel": pm_icon_label.get_text(strip=True) if pm_icon_label else "-",
         })
+
+    if not days:
+        raise RuntimeError("failed to parse Naver weekly weather forecast")
 
     avg_max = round(sum(d["tMax"] for d in days) / len(days))
     avg_min = round(sum(d["tMin"] for d in days) / len(days))
@@ -97,15 +127,16 @@ def fetch_weather():
     if avg_max >= 27:
         suggestions.append({"item": "선글라스 / 모자", "reason": "맑고 더운 날 지속 — 자외선 차단 잡화 판매 상승 기대"})
 
-    code = data["current"]["weather_code"]
     return {
         "updatedAt": datetime.now(timezone.utc).isoformat(),
+        "source": "네이버 날씨",
         "city": "서울",
         "current": {
-            "temp": data["current"]["temperature_2m"],
-            "weatherLabel": WMO.get(code, "-"),
-            "windSpeed": data["current"]["wind_speed_10m"],
-            "precipitation": data["current"]["precipitation"],
+            "temp": cur_temp,
+            "weatherLabel": cur_label,
+            "feelsLike": feels_like,
+            "humidity": humidity,
+            "windSpeed": wind_speed,
         },
         "week": {
             "avgMax": avg_max,
