@@ -164,6 +164,13 @@
   .product-card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
   #hot-products { grid-template-columns: repeat(5, 1fr); }
   @media (max-width: 700px) { #hot-products { grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); } }
+  #new-products {
+    display: flex; overflow-x: auto; gap: 12px; scroll-snap-type: x proximity;
+    cursor: grab;
+  }
+  #new-products.dragging { cursor: grabbing; scroll-snap-type: none; user-select: none; }
+  #new-products .product-card { flex: 0 0 calc((100% - 4 * 12px) / 5); scroll-snap-align: start; }
+  @media (max-width: 700px) { #new-products .product-card { flex-basis: 110px; } }
   .product-card { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
   .product-card img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; }
   .product-card .pc-body { padding: 8px; }
@@ -440,6 +447,26 @@ function renderRankTable() {
   `;
 }
 
+function enableDragScroll(el) {
+  let isDown = false, startX = 0, scrollLeft = 0, moved = false;
+  el.addEventListener("mousedown", (e) => {
+    isDown = true; moved = false;
+    el.classList.add("dragging");
+    startX = e.pageX;
+    scrollLeft = el.scrollLeft;
+  });
+  window.addEventListener("mouseup", () => { isDown = false; el.classList.remove("dragging"); });
+  el.addEventListener("mousemove", (e) => {
+    if (!isDown) return;
+    const dx = e.pageX - startX;
+    if (Math.abs(dx) > 5) moved = true;
+    el.scrollLeft = scrollLeft - dx;
+  });
+  el.addEventListener("click", (e) => {
+    if (moved) { e.preventDefault(); e.stopPropagation(); }
+  }, true);
+}
+
 function renderProductCards(elId, items) {
   const el = document.getElementById(elId);
   if (!items?.length) { el.innerHTML = "<div class='loading'>데이터 없음</div>"; return; }
@@ -507,12 +534,14 @@ function renderAll() {
   const data = currentPlatformData();
   if (data) {
     renderProductCards("hot-products", data.items.slice(0, 5));
-    renderProductCards("new-products", data.items.filter(i => i.change === "NEW").slice(0, 5));
+    renderProductCards("new-products", data.items.filter(i => i.change === "NEW"));
   }
   renderDiscountList();
 }
 
 async function init() {
+  enableDragScroll(document.getElementById("new-products"));
+
   const [musinsa, cm29, searchTrends, naverTrends, weather, news, meta, categoryPriceByGender] = await Promise.all([
     loadJson("musinsa.json"), loadJson("29cm.json"), loadJson("musinsa_search_trends.json"),
     loadJson("naver_trends.json"), loadJson("weather.json"), loadJson("fashion_news.json"), loadJson("meta.json"),
