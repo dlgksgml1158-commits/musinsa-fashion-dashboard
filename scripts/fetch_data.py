@@ -187,6 +187,24 @@ def fetch_musinsa_category_goods(code):
     return target["state"]["data"]["pages"][0]["data"]["list"]
 
 
+def _normalize_item(raw, rank, code, label):
+    return {
+        "rank": rank,
+        "id": f"ms-{raw.get('goodsNo')}",
+        "brand": raw.get("brandName") or raw.get("brand") or "",
+        "name": raw.get("goodsName", ""),
+        "price": raw.get("normalPrice"),
+        "originalPrice": raw.get("normalPrice"),
+        "discountRate": raw.get("finalDiscount") or 0,
+        "finalPrice": raw.get("finalPrice"),
+        "category": code,
+        "categoryLabel": label,
+        "imgUrl": raw.get("thumbnail", ""),
+        "productUrl": raw.get("goodsLinkUrl", ""),
+        "displayGenderText": raw.get("displayGenderText", ""),
+    }
+
+
 def fetch_category_price_by_gender():
     categories = {}
     for code, label in MUSINSA_CATEGORY_LABELS.items():
@@ -195,11 +213,13 @@ def fetch_category_price_by_gender():
         except Exception as e:
             print(f"failed musinsa category {code}: {e}")
             continue
+        normalized = [_normalize_item(it, i + 1, code, label) for i, it in enumerate(items)]
         categories[code] = {
             "label": label,
             "all": _price_stats(items),
             "male": _price_stats([i for i in items if i.get("displayGenderText") == "남성"]),
             "female": _price_stats([i for i in items if i.get("displayGenderText") == "여성"]),
+            "items": normalized[:20],
         }
         time.sleep(0.5)
     return {"updatedAt": datetime.now(timezone.utc).isoformat(), "categories": categories}

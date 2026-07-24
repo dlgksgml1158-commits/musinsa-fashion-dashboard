@@ -400,13 +400,27 @@ function currentPlatformData() {
   return platform === "29cm" ? state.cm29 : state.musinsa;
 }
 
+function isMusinsaPlatform() {
+  return document.querySelector("#platform-tabs .tab-btn.active").dataset.platform !== "29cm";
+}
+
 function renderCategoryTabs() {
-  const data = currentPlatformData();
   const el = document.getElementById("category-tabs");
-  if (!data) return;
-  const codes = Object.keys(data.categories || {}).filter(c => c !== "");
+  let codes, labelOf;
+  if (isMusinsaPlatform()) {
+    // 커넥트킨록's old scraped codes drifted from Musinsa's current taxonomy (Musinsa renumbered
+    // subcategories since); this freshly-scraped, code-verified set replaces it for 무신사 tabs.
+    const cats = state.categoryPriceByGender?.categories || {};
+    codes = Object.keys(cats);
+    labelOf = code => cats[code].label;
+  } else {
+    const data = currentPlatformData();
+    if (!data) return;
+    codes = Object.keys(data.categories || {}).filter(c => c !== "");
+    labelOf = code => data.categories[code][0]?.categoryLabel || code;
+  }
   el.innerHTML = `<button class="tab-btn active" data-cat="__all__">전체</button>` +
-    codes.map(code => `<button class="tab-btn" data-cat="${code}">${data.categories[code][0]?.categoryLabel || code}</button>`).join("");
+    codes.map(code => `<button class="tab-btn" data-cat="${code}">${labelOf(code)}</button>`).join("");
   el.querySelectorAll(".tab-btn").forEach(btn => btn.addEventListener("click", () => {
     el.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
     btn.classList.add("active");
@@ -419,9 +433,18 @@ function renderRankTable() {
   const wrap = document.getElementById("rank-table-wrap");
   const updatedEl = document.getElementById("rank-updated");
   if (!data) { wrap.innerHTML = "<div class='loading'>데이터 없음</div>"; return; }
-  updatedEl.textContent = timeAgo(data.updatedAt) + " 기준";
   const activeCat = document.querySelector("#category-tabs .tab-btn.active")?.dataset.cat || "__all__";
-  const rows = (activeCat === "__all__" ? data.items : (data.categories?.[activeCat] || [])).slice(0, 20);
+
+  let rows, updatedAt;
+  if (isMusinsaPlatform() && activeCat !== "__all__") {
+    const cat = state.categoryPriceByGender?.categories?.[activeCat];
+    rows = (cat?.items || []).slice(0, 20);
+    updatedAt = state.categoryPriceByGender?.updatedAt;
+  } else {
+    rows = (activeCat === "__all__" ? data.items : (data.categories?.[activeCat] || [])).slice(0, 20);
+    updatedAt = data.updatedAt;
+  }
+  updatedEl.textContent = timeAgo(updatedAt) + " 기준";
   wrap.innerHTML = `
     <table class="rank-table">
       <thead><tr><th>순위</th><th>상품</th><th>가격</th><th>할인율</th></tr></thead>
