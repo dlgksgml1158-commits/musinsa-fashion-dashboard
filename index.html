@@ -78,7 +78,7 @@
     border-radius: 999px; padding: 4px 10px;
   }
 
-  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; margin-bottom: 16px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; margin-bottom: 16px; align-items: start; }
   .grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
   @media (max-width: 900px) { .grid.cols-3 { grid-template-columns: 1fr; } }
 
@@ -98,8 +98,13 @@
   .weather-stats b { color: var(--text-primary); }
   .weather-summary { font-size: 12.5px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 10px; }
   .week-forecast { display: flex; gap: 4px; overflow-x: auto; margin-bottom: 12px; padding-bottom: 2px; }
-  .week-day-cell { flex: 1 0 0; min-width: 56px; text-align: center; padding: 6px 2px; border-radius: 6px; }
-  .week-day-cell.is-today { background: var(--gridline); }
+  .week-day-cell { flex: 1 0 0; min-width: 56px; text-align: center; padding: 6px 2px; border-radius: 6px; cursor: pointer; }
+  .week-day-cell:hover { background: var(--gridline); }
+  .week-day-cell.is-selected { background: var(--series-blue); }
+  .week-day-cell.is-selected .wd-label, .week-day-cell.is-selected .wd-date,
+  .week-day-cell.is-selected .wd-icon, .week-day-cell.is-selected .wd-temp,
+  .week-day-cell.is-selected .wd-temp .wd-min, .week-day-cell.is-selected .wd-rain { color: #fff; }
+  .day-detail-title { font-size: 12px; font-weight: 600; padding: 8px 0 4px; border-top: 1px solid var(--gridline); margin-top: 4px; }
   .wd-label { font-size: 11px; color: var(--text-secondary); font-weight: 600; }
   .wd-date { font-size: 10px; color: var(--text-muted); margin-bottom: 4px; }
   .wd-icon { font-size: 10.5px; color: var(--text-secondary); height: 2.4em; line-height: 1.2; margin-bottom: 4px; }
@@ -259,14 +264,63 @@ function timeAgo(iso) {
   return d.toLocaleString("ko-KR", { month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" });
 }
 
+function buildDaySuggestions(day) {
+  const items = [];
+  const tMax = Math.round(day.tMax), tMin = Math.round(day.tMin), precip = day.precipProb, label = day.weatherLabel || "";
+
+  if (tMax >= 30) {
+    items.push({ item: "반팔 티셔츠 / 린넨 셔츠", reason: `최고 ${tMax}°C — 무더운 날씨, 통기성 좋은 여름 상의 수요 증가 예상` });
+    items.push({ item: "반바지 / 숏 팬츠", reason: "더운 날씨로 시원한 하의 카테고리 인기 상승 전망" });
+  } else if (tMax >= 25) {
+    items.push({ item: "반팔 티셔츠", reason: `최고 ${tMax}°C — 무난한 여름 날씨` });
+  } else if (tMax >= 18) {
+    items.push({ item: "얇은 긴팔 / 가디건", reason: `최고 ${tMax}°C — 선선한 날씨, 얇은 겉옷 수요` });
+  } else if (tMax >= 10) {
+    items.push({ item: "자켓 / 니트", reason: `최고 ${tMax}°C — 쌀쌀한 날씨, 보온 아이템 수요` });
+  } else {
+    items.push({ item: "패딩 / 두꺼운 아우터", reason: `최고 ${tMax}°C — 추운 날씨, 방한 아이템 수요 증가` });
+  }
+
+  if (precip >= 60) {
+    items.push({ item: "우산 / 방수 재킷", reason: `강수확률 ${precip}% — 비 대비 아이템 수요 기대` });
+  } else if (precip >= 30) {
+    items.push({ item: "가벼운 방수 아우터", reason: `강수확률 ${precip}% — 갑작스런 비 대비 수요` });
+  }
+
+  if (label.includes("눈")) {
+    items.push({ item: "방한 부츠 / 장갑", reason: "눈 예보 — 방한/방설 잡화 수요 기대" });
+  }
+
+  if (tMax - tMin >= 10) {
+    items.push({ item: "가벼운 겉옷", reason: `일교차 ${tMax - tMin}°C — 아침/저녁용 겉옷 수요` });
+  }
+
+  if (tMax >= 27 && !label.includes("비") && !label.includes("눈")) {
+    items.push({ item: "선글라스 / 모자", reason: "맑고 더운 날 — 자외선 차단 잡화 판매 상승 기대" });
+  }
+
+  return items;
+}
+
+function renderDayDetail(idx) {
+  const w = state.weather;
+  if (!w?.days?.[idx]) return;
+  state.selectedDayIdx = idx;
+  document.querySelectorAll(".week-day-cell").forEach((el, i) => el.classList.toggle("is-selected", i === idx));
+  const day = w.days[idx];
+  const items = buildDaySuggestions(day);
+  const box = document.getElementById("day-suggestions");
+  box.innerHTML = `
+    <div class="day-detail-title">${day.dayLabel} (${day.date.slice(5).replace("-", ".")}) · ${day.weatherLabel} · ${Math.round(day.tMin)}° / ${Math.round(day.tMax)}° · 강수 ${day.precipProb}%</div>
+    ${items.map(s => `<div class="suggest-item"><b>${s.item}</b><span>${s.reason}</span></div>`).join("") || "<div class='muted-note'>특이 판매 예측 없음</div>"}
+  `;
+}
+
 function renderWeather(w) {
   const el = document.getElementById("weather-card");
   if (!w) { el.innerHTML = "<h2>서울 날씨</h2><div class='loading'>데이터 없음</div>"; return; }
-  const sug = (w.suggestions || []).map(s => `
-    <div class="suggest-item"><b>${s.item}</b><span>${s.reason}</span></div>
-  `).join("");
   const week = (w.days || []).map((d, i) => `
-    <div class="week-day-cell ${i === 0 ? "is-today" : ""}">
+    <div class="week-day-cell ${i === 0 ? "is-selected" : ""}" data-day-idx="${i}">
       <div class="wd-label">${d.dayLabel}</div>
       <div class="wd-date">${d.date.slice(5).replace("-", ".")}</div>
       <div class="wd-icon">${d.weatherLabel}</div>
@@ -287,8 +341,12 @@ function renderWeather(w) {
     </div>
     <div class="week-forecast">${week}</div>
     <div class="weather-summary">${w.week.summary}</div>
-    ${sug || "<div class='muted-note'>특이 판매 예측 없음</div>"}
+    <div id="day-suggestions"></div>
   `;
+  el.querySelectorAll(".week-day-cell").forEach(cell => {
+    cell.addEventListener("click", () => renderDayDetail(Number(cell.dataset.dayIdx)));
+  });
+  renderDayDetail(0);
 }
 
 function renderNews(n) {

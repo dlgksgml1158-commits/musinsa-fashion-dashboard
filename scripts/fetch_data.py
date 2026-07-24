@@ -116,16 +116,6 @@ def fetch_weather():
     avg_max = round(sum(d["tMax"] for d in days) / len(days))
     avg_min = round(sum(d["tMin"] for d in days) / len(days))
     rain_days = sum(1 for d in days if d["precipProb"] >= 40)
-    hot_days = sum(1 for d in days if d["tMax"] >= 28)
-
-    suggestions = []
-    if hot_days >= 4:
-        suggestions.append({"item": "반팔 티셔츠 / 린넨 셔츠", "reason": f"주간 최고 {avg_max}°C 내외 — 통기성 좋은 여름 상의 수요 증가 예상"})
-        suggestions.append({"item": "반바지 / 숏 팬츠", "reason": "무더운 날씨로 시원한 하의 카테고리 인기 상승 전망"})
-    if rain_days >= 2:
-        suggestions.append({"item": "방수 재킷 / 우비", "reason": f"이번 주 {rain_days}일 강수 확률 40%↑ — 우천 대비 아이템 수요 기대"})
-    if avg_max >= 27:
-        suggestions.append({"item": "선글라스 / 모자", "reason": "맑고 더운 날 지속 — 자외선 차단 잡화 판매 상승 기대"})
 
     return {
         "updatedAt": datetime.now(timezone.utc).isoformat(),
@@ -145,7 +135,6 @@ def fetch_weather():
             "summary": f"{days[0]['date']} ~ {days[-1]['date']} 서울 주간 날씨: 평균 최고 {avg_max}°C, 최저 {avg_min}°C. 비 오는 날 {rain_days}일 포함.",
         },
         "days": days,
-        "suggestions": suggestions,
     }
 
 
