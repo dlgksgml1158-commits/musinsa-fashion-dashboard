@@ -161,6 +161,8 @@
   .new-badge { background: var(--series-green); color: #fff; font-size: 10px; padding: 1px 6px; border-radius: 4px; margin-left: 6px; }
 
   .product-card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+  #hot-products { grid-template-columns: repeat(5, 1fr); }
+  @media (max-width: 700px) { #hot-products { grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); } }
   .product-card { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
   .product-card img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; }
   .product-card .pc-body { padding: 8px; }
@@ -239,7 +241,6 @@
     <div class="card">
       <h2>카테고리별 평균 가격대 <span class="tag">무신사 기준</span></h2>
       <div class="bar-chart" id="price-chart"><div class="loading">불러오는 중...</div></div>
-      <div class="muted-note">※ 무신사 각 카테고리별 실시간 랭킹 TOP 30 상품 기준 평균가입니다. 특정 브랜드 데이터는 포함하지 않습니다.</div>
     </div>
   </div>
 
