@@ -233,9 +233,9 @@
       <ul class="kw-list" id="discount-list"><li class="loading">불러오는 중...</li></ul>
     </div>
     <div class="card">
-      <h2>카테고리별 평균 가격대 <span class="tag">카테고리 구분 상품 기준</span></h2>
+      <h2>카테고리별 평균 가격대 <span class="tag">무신사 기준</span></h2>
       <div class="bar-chart" id="price-chart"><div class="loading">불러오는 중...</div></div>
-      <div class="muted-note">※ 무신사+29CM 각 카테고리별 실시간 랭킹 TOP 30 상품 기준 평균가입니다. 특정 브랜드 데이터는 포함하지 않습니다.</div>
+      <div class="muted-note">※ 무신사 각 카테고리별 실시간 랭킹 TOP 30 상품 기준 평균가입니다. 특정 브랜드 데이터는 포함하지 않습니다.</div>
     </div>
   </div>
 
@@ -463,15 +463,11 @@ function renderDiscountList() {
 function renderPriceChart() {
   const el = document.getElementById("price-chart");
   const msStats = state.musinsa?.priceStats || {};
-  const cmStats = state.cm29?.priceStats || {};
-  const codes = [...new Set([...Object.keys(msStats), ...Object.keys(cmStats)])].filter(c => c !== "");
+  const codes = Object.keys(msStats).filter(c => c !== "");
   if (!codes.length) { el.innerHTML = "<div class='loading'>데이터 없음</div>"; return; }
-  const avgs = codes.map(code => {
-    const a = msStats[code], b = cmStats[code];
-    const n = (a?.count || 0) + (b?.count || 0);
-    const avg = Math.round(((a?.avg || 0) * (a?.count || 0) + (b?.avg || 0) * (b?.count || 0)) / n);
-    return { cat: (a || b).label, n, avg };
-  }).sort((x, y) => y.avg - x.avg);
+  const avgs = codes
+    .map(code => ({ cat: msStats[code].label, n: msStats[code].count, avg: msStats[code].avg }))
+    .sort((x, y) => y.avg - x.avg);
   const max = Math.max(...avgs.map(a => a.avg), 1);
   el.innerHTML = avgs.map(a => `
     <div class="bar-row">
