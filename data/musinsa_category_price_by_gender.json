@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T09:40:55.798217+00:00",
+  "updatedAt": "2026-07-24T11:27:57.251018+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 38852,
+        "avg": 37892,
         "min": 11000,
         "max": 159900,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 18
       },
       "female": {
-        "avg": 36203,
+        "avg": 34687,
         "min": 11000,
         "max": 79380,
         "count": 38
@@ -650,16 +650,16 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 60722,
+        "avg": 59772,
         "min": 7500,
         "max": 307990,
         "count": 60
       },
       "male": {
-        "avg": 75873,
+        "avg": 75005,
         "min": 7500,
         "max": 307990,
-        "count": 23
+        "count": 22
       },
       "female": {
         "avg": 68487,
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 67116,
+        "avg": 66775,
         "min": 9900,
         "max": 495000,
         "count": 60
@@ -1103,8 +1103,8 @@
           "name": "[다나옷PICK] [10COLORS] 퍼니 풀오버 후디",
           "price": 89900,
           "originalPrice": 89900,
-          "discountRate": 24,
-          "finalPrice": 68330,
+          "discountRate": 47,
+          "finalPrice": 47920,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250812/5315438/5315438_17679363095804_500.jpg",
@@ -1296,19 +1296,19 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 42667,
+        "avg": 42371,
         "min": 14250,
         "max": 124200,
         "count": 60
       },
       "male": {
-        "avg": 48972,
-        "min": 23890,
+        "avg": 48563,
+        "min": 21850,
         "max": 124200,
         "count": 28
       },
       "female": {
-        "avg": 37449,
+        "avg": 37245,
         "min": 14250,
         "max": 91130,
         "count": 31
@@ -1576,8 +1576,8 @@
           "name": "[CP] 시에라 스트라이프 클래식 베이직 반팔 셔츠 [PINK] 여름 ver.",
           "price": 45000,
           "originalPrice": 45000,
-          "discountRate": 20,
-          "finalPrice": 36000,
+          "discountRate": 34,
+          "finalPrice": 29690,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240514/4129489/4129489_17162577981553_500.jpg",
@@ -1591,8 +1591,8 @@
           "name": "올 데이 린넨 라이크 하프 셔츠-5Color",
           "price": 49000,
           "originalPrice": 49000,
-          "discountRate": 33,
-          "finalPrice": 32900,
+          "discountRate": 43,
+          "finalPrice": 27900,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250331/4969899/4969899_17800407991122_500.jpg",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 35771,
+        "avg": 35885,
         "min": 10060,
         "max": 92650,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 31
       },
       "female": {
-        "avg": 31546,
+        "avg": 31857,
         "min": 10060,
         "max": 70300,
         "count": 22
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 70287,
+        "avg": 69950,
         "min": 11930,
         "max": 427500,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 13
       },
       "female": {
-        "avg": 47838,
+        "avg": 47602,
         "min": 11930,
         "max": 146990,
         "count": 38
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-97480",
+          "id": "ms-96806",
           "brand": "",
           "name": "",
           "price": null,
@@ -2052,6 +2052,21 @@
         },
         {
           "rank": 7,
+          "id": "ms-4321179",
+          "brand": "팬쇼",
+          "name": "POCKET HOODED ZIPUP - MELANGE",
+          "price": 89000,
+          "originalPrice": 89000,
+          "discountRate": 19,
+          "finalPrice": 72090,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240812/4321179/4321179_17249128910171_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4321179",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 8,
           "id": "ms-4652853",
           "brand": "무신사 스탠다드",
           "name": "[시티 레저] 에어웨이트 시어 윈드브레이커 재킷 [클라우디 블루]",
@@ -2066,7 +2081,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "id": "ms-4719977",
           "brand": "어반디타입",
           "name": "에어라이트 하이넥 윈드브레이커_크림",
@@ -2081,7 +2096,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-6319969",
           "brand": "드헤베",
           "name": "Airy Raglan Cardigan [Sky Blue]",
@@ -2096,7 +2111,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-6744803",
           "brand": "나이키",
           "name": "ACG 에어리즈 UV 차단 트레일 러닝 재킷 W - 블랙:서밋 화이트 / IQ8124-010",
@@ -2111,7 +2126,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-6695701",
           "brand": "오도어",
           "name": "Molly V-neck hoodie - Loose ver.",
@@ -2126,7 +2141,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-6795528",
           "brand": "웨이브걸",
           "name": "Saint Zip Hoodie (3color)",
@@ -2141,7 +2156,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-5059063",
           "brand": "에잇세컨즈",
           "name": "리본 스트랩 네트 카디건  블랙",
@@ -2156,7 +2171,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-5104486",
           "brand": "웬즈데이오아시스 포 우먼",
           "name": "썸머 시스루 니트 가디건_6COLOR(WC25-KN29)",
@@ -2171,7 +2186,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-6273570",
           "brand": "로엠",
           "name": "올데이 린넨 긴팔 골지가디건 RMCKG25R98",
@@ -2186,7 +2201,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-6684666",
           "brand": "스파오",
           "name": "[울산 HD FC] 배색 윈드브레이커(Dark Blue)_SPJJG37U01",
@@ -2201,7 +2216,7 @@
           "displayGenderText": ""
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-6005543",
           "brand": "디키즈",
           "name": "그리드 체크 라이트 윈드브레이커 Sky Blue",
@@ -2216,7 +2231,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-2398609",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 라이트웨이트 크롭 반팔 블레이저 [블랙]",
@@ -2231,7 +2246,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-6127744",
           "brand": "미쏘",
           "name": "[에센셜] 썸머 시스루 가디건_MIWCKG520T",
@@ -2244,28 +2259,13 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260313/6127744/6127744_17808793138921_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6127744",
           "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6401861",
-          "brand": "커스텀어클락 우먼",
-          "name": "린넨 시스루 골지 라운드 가디건 5 COLOR COWCD008",
-          "price": 62000,
-          "originalPrice": 62000,
-          "discountRate": 36,
-          "finalPrice": 39680,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260429/6401861/6401861_17828682812404_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6401861",
-          "displayGenderText": "여성"
         }
       ]
     },
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 46808,
+        "avg": 46283,
         "min": 17400,
         "max": 124000,
         "count": 60
@@ -2277,7 +2277,7 @@
         "count": 34
       },
       "female": {
-        "avg": 51513,
+        "avg": 49763,
         "min": 17400,
         "max": 124000,
         "count": 18
@@ -2588,7 +2588,7 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 35718,
+        "avg": 35502,
         "min": 7920,
         "max": 96850,
         "count": 60
@@ -2703,8 +2703,8 @@
           "name": "원턱 와이드 슬랙스[딥브라운]",
           "price": 59000,
           "originalPrice": 59000,
-          "discountRate": 32,
-          "finalPrice": 39900,
+          "discountRate": 44,
+          "finalPrice": 32900,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20210910/2124438/2124438_17761500767603_500.jpg",
@@ -2911,16 +2911,16 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 46797,
+        "avg": 46812,
         "min": 9900,
         "max": 179000,
         "count": 60
       },
       "male": {
-        "avg": 51121,
+        "avg": 51537,
         "min": 25890,
         "max": 179000,
-        "count": 16
+        "count": 15
       },
       "female": {
         "avg": 49345,
@@ -2946,21 +2946,6 @@
         },
         {
           "rank": 2,
-          "id": "ms-4210175",
-          "brand": "무신사 스탠다드",
-          "name": "나일론 원 턱 파라슈트 카고 팬츠 [블랙]",
-          "price": 59900,
-          "originalPrice": 59900,
-          "discountRate": 35,
-          "finalPrice": 38890,
-          "category": "003004",
-          "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240620/4210175/4210175_17312934662847_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4210175",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 3,
           "id": "ms-6729879",
           "brand": "섭듀드",
           "name": "윙즈 커프스 팬츠 (펄 그레이 멜란지) (펄 그레이 멜란지)",
@@ -2975,7 +2960,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 4,
+          "rank": 3,
           "id": "ms-6754165",
           "brand": "어반드레스",
           "name": "88 사이드 플래시 릴랙스 새깅 팬츠_3COL",
@@ -2990,7 +2975,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "id": "ms-6697020",
           "brand": "썬번프로젝트",
           "name": "SUNBURN X PAUL FRANK COTTON BANDING PANTS, MULTI",
@@ -3005,7 +2990,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "id": "ms-4702364",
           "brand": "엑스컨테이너",
           "name": "[여름용] 사이드 라인 나일론 트랙 팬츠 (BLACK)",
@@ -3020,7 +3005,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-3943088",
           "brand": "음",
           "name": "배색라인 와이드 트레이닝 트랙팬츠",
@@ -3035,7 +3020,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-3837942",
           "brand": "아디다스",
           "name": "아디브레이크 팬츠 - 블랙 / IU2519",
@@ -3050,7 +3035,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-3274287",
           "brand": "드로우핏",
           "name": "카고 파라슈트 치노 팬츠 [KHAKI]",
@@ -3065,7 +3050,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-6706357",
           "brand": "더트",
           "name": "MOVE SWEATPANTS (IVORY)",
@@ -3080,7 +3065,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-6753906",
           "brand": "어반드레스",
           "name": "88 펠트 3D 피그먼트 와이드 새깅 팬츠_2COL",
@@ -3095,7 +3080,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-5562241",
           "brand": "코이리스",
           "name": "코르빈 핀턱 와이드 밴딩 팬츠 (3컬러)",
@@ -3110,7 +3095,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-5170138",
           "brand": "파르티멘토 우먼",
           "name": "PWC 에브리데이 벌룬 조거 팬츠_18컬러",
@@ -3125,7 +3110,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-6336948",
           "brand": "아디다스",
           "name": "새틴 레이스 파이어버드 루즈 트랙 팬츠 - 나이트인디고 / LF2674",
@@ -3140,7 +3125,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-5156702",
           "brand": "줄리아페페",
           "name": "[양양,지똥 PICK] Natural Stripe Pants (Blue)",
@@ -3155,7 +3140,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-5386361",
           "brand": "엘리메노",
           "name": "EL 베이직 절개 테이핑 트랙 팬츠 2Color",
@@ -3170,7 +3155,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-5363832",
           "brand": "토피",
           "name": "사이드 라인 트랙 팬츠 (NAVY)",
@@ -3185,7 +3170,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6697007",
           "brand": "썬번프로젝트",
           "name": "SUNBURN X PAUL FRANK COTTON BANDING PANTS, BLUE",
@@ -3200,7 +3185,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6004700",
           "brand": "슈퍼서브",
           "name": "와이드 배기 파이핑 팬츠 - 블랙",
@@ -3215,7 +3200,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-4430592",
           "brand": "아디다스",
           "name": "(x크세니아) 투인원 트랙 스웨트 팬츠 - 그레이:블루 / IW5670",
@@ -3228,20 +3213,35 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240911/4430592/4430592_17262042729858_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4430592",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5337147",
+          "brand": "빼빼",
+          "name": "맞춤 2기장 2WAY 사이드핀턱  밑단스냅버튼 밴딩 스트링 와이드 트레이닝 스웻 팬츠 4COLOR (숏/ 롱 2TYPE 길이)",
+          "price": 59900,
+          "originalPrice": 59900,
+          "discountRate": 47,
+          "finalPrice": 31950,
+          "category": "003004",
+          "categoryLabel": "트레이닝/조거",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250819/5337147/5337147_17555823136124_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5337147",
+          "displayGenderText": "여성"
         }
       ]
     },
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 42234,
-        "min": 9990,
+        "avg": 41667,
+        "min": 9900,
         "max": 170050,
         "count": 60
       },
       "male": {
-        "avg": 46290,
-        "min": 19300,
+        "avg": 45157,
+        "min": 9900,
         "max": 170050,
         "count": 30
       },
