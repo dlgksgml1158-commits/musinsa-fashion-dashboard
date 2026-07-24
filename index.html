@@ -141,6 +141,11 @@
   .discount-price .price-orig { color: var(--text-muted); text-decoration: line-through; font-size: 11px; margin-left: 0; }
 
   .tabs { display: flex; gap: 6px; margin-bottom: 12px; flex-wrap: wrap; }
+  .mode-select-row { margin-bottom: 12px; }
+  .mode-select {
+    font-size: 12.5px; padding: 6px 10px; border-radius: 8px; border: 1px solid var(--border);
+    background: var(--surface-1); color: var(--text-primary); cursor: pointer;
+  }
   .tab-btn {
     border: 1px solid var(--border); background: transparent; color: var(--text-secondary);
     padding: 6px 12px; border-radius: 999px; font-size: 12.5px; cursor: pointer;
@@ -222,19 +227,19 @@
   </div>
 
   <div class="card" style="margin-bottom:16px;">
-    <h2>실시간 랭킹 <span class="tag" id="rank-updated"></span></h2>
+    <h2 id="rank-section-title">실시간 랭킹 <span class="tag" id="rank-updated"></span></h2>
+    <div class="mode-select-row">
+      <select id="rank-mode-select" class="mode-select">
+        <option value="live">실시간 순위</option>
+        <option value="sales">카테고리별 판매량 TOP</option>
+      </select>
+    </div>
     <div class="tabs" id="platform-tabs">
       <button class="tab-btn active" data-platform="musinsa">무신사</button>
       <button class="tab-btn" data-platform="29cm">29CM</button>
     </div>
     <div class="tabs" id="category-tabs"></div>
     <div id="rank-table-wrap"><div class="loading">불러오는 중...</div></div>
-  </div>
-
-  <div class="card" style="margin-bottom:16px;">
-    <h2>카테고리별 판매량 TOP <span class="tag" id="sales-updated"></span></h2>
-    <div class="tabs" id="sales-category-tabs"></div>
-    <div id="sales-table-wrap"><div class="loading">불러오는 중...</div></div>
   </div>
 
   <div class="grid">
@@ -410,12 +415,21 @@ function isMusinsaPlatform() {
   return document.querySelector("#platform-tabs .tab-btn.active").dataset.platform !== "29cm";
 }
 
+function isSalesMode() {
+  return document.getElementById("rank-mode-select").value === "sales";
+}
+
 function renderCategoryTabs() {
   const el = document.getElementById("category-tabs");
+  document.getElementById("platform-tabs").style.display = isSalesMode() ? "none" : "";
   let codes, labelOf;
-  if (isMusinsaPlatform()) {
+  if (isSalesMode()) {
+    const cats = state.categorySalesRanking?.categories || {};
+    codes = Object.keys(cats);
+    labelOf = code => cats[code].label;
+  } else if (isMusinsaPlatform()) {
     // 커넥트킨록's old scraped codes drifted from Musinsa's current taxonomy (Musinsa renumbered
-    // subcategories since); this freshly-scraped, code-verified set replaces it for 무신사 tabs.
+    // subcategories since); this freshly-scraped, code-verified set replaces it for 무신사 탭.
     const cats = state.categoryPriceByGender?.categories || {};
     codes = Object.keys(cats);
     labelOf = code => cats[code].label;
@@ -425,8 +439,9 @@ function renderCategoryTabs() {
     codes = Object.keys(data.categories || {}).filter(c => c !== "");
     labelOf = code => data.categories[code][0]?.categoryLabel || code;
   }
-  el.innerHTML = `<button class="tab-btn active" data-cat="__all__">전체</button>` +
-    codes.map(code => `<button class="tab-btn" data-cat="${code}">${labelOf(code)}</button>`).join("");
+  const showAllTab = !isSalesMode();
+  el.innerHTML = (showAllTab ? `<button class="tab-btn active" data-cat="__all__">전체</button>` : "") +
+    codes.map((code, i) => `<button class="tab-btn ${!showAllTab && i === 0 ? "active" : ""}" data-cat="${code}">${labelOf(code)}</button>`).join("");
   el.querySelectorAll(".tab-btn").forEach(btn => btn.addEventListener("click", () => {
     el.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
     btn.classList.add("active");
@@ -435,19 +450,30 @@ function renderCategoryTabs() {
 }
 
 function renderRankTable() {
-  const data = currentPlatformData();
   const wrap = document.getElementById("rank-table-wrap");
   const updatedEl = document.getElementById("rank-updated");
+  const activeCat = document.querySelector("#category-tabs .tab-btn.active")?.dataset.cat;
+
+  if (isSalesMode()) {
+    const data = state.categorySalesRanking;
+    if (!data) { wrap.innerHTML = "<div class='loading'>데이터 없음</div>"; return; }
+    const cat = activeCat || Object.keys(data.categories)[0];
+    updatedEl.textContent = `${data.period} · ${timeAgo(data.updatedAt)} 기준`;
+    wrap.innerHTML = renderProductTableHtml((data.categories[cat]?.items || []).slice(0, 20));
+    return;
+  }
+
+  const data = currentPlatformData();
   if (!data) { wrap.innerHTML = "<div class='loading'>데이터 없음</div>"; return; }
-  const activeCat = document.querySelector("#category-tabs .tab-btn.active")?.dataset.cat || "__all__";
+  const cat = activeCat || "__all__";
 
   let rows, updatedAt;
-  if (isMusinsaPlatform() && activeCat !== "__all__") {
-    const cat = state.categoryPriceByGender?.categories?.[activeCat];
-    rows = (cat?.items || []).slice(0, 20);
+  if (isMusinsaPlatform() && cat !== "__all__") {
+    const c = state.categoryPriceByGender?.categories?.[cat];
+    rows = (c?.items || []).slice(0, 20);
     updatedAt = state.categoryPriceByGender?.updatedAt;
   } else {
-    rows = (activeCat === "__all__" ? data.items : (data.categories?.[activeCat] || [])).slice(0, 20);
+    rows = (cat === "__all__" ? data.items : (data.categories?.[cat] || [])).slice(0, 20);
     updatedAt = data.updatedAt;
   }
   updatedEl.textContent = timeAgo(updatedAt) + " 기준";
@@ -478,30 +504,6 @@ function renderProductTableHtml(rows) {
       </tbody>
     </table>
   `;
-}
-
-function renderSalesCategoryTabs() {
-  const el = document.getElementById("sales-category-tabs");
-  const cats = state.categorySalesRanking?.categories || {};
-  const codes = Object.keys(cats);
-  if (!codes.length) return;
-  el.innerHTML = codes.map((code, i) => `<button class="tab-btn ${i === 0 ? "active" : ""}" data-cat="${code}">${cats[code].label}</button>`).join("");
-  el.querySelectorAll(".tab-btn").forEach(btn => btn.addEventListener("click", () => {
-    el.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
-    btn.classList.add("active");
-    renderSalesTable();
-  }));
-}
-
-function renderSalesTable() {
-  const wrap = document.getElementById("sales-table-wrap");
-  const updatedEl = document.getElementById("sales-updated");
-  const data = state.categorySalesRanking;
-  if (!data) { wrap.innerHTML = "<div class='loading'>데이터 없음</div>"; return; }
-  const activeCat = document.querySelector("#sales-category-tabs .tab-btn.active")?.dataset.cat || Object.keys(data.categories)[0];
-  updatedEl.textContent = `${data.period} · ${timeAgo(data.updatedAt)} 기준`;
-  const rows = (data.categories[activeCat]?.items || []).slice(0, 20);
-  wrap.innerHTML = renderProductTableHtml(rows);
 }
 
 function enableDragScroll(el) {
@@ -612,8 +614,6 @@ async function init() {
   renderKeywords("ms-pop");
   renderAll();
   renderPriceChart();
-  renderSalesCategoryTabs();
-  renderSalesTable();
 
   document.querySelectorAll("#kw-tabs .tab-btn").forEach(btn => btn.addEventListener("click", () => {
     document.querySelectorAll("#kw-tabs .tab-btn").forEach(b => b.classList.remove("active"));
@@ -626,6 +626,11 @@ async function init() {
     btn.classList.add("active");
     renderAll();
   }));
+
+  document.getElementById("rank-mode-select").addEventListener("change", () => {
+    renderCategoryTabs();
+    renderRankTable();
+  });
 
   document.querySelectorAll("#gender-tabs .tab-btn").forEach(btn => btn.addEventListener("click", () => {
     document.querySelectorAll("#gender-tabs .tab-btn").forEach(b => b.classList.remove("active"));
