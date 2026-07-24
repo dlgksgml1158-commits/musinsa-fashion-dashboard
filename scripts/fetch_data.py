@@ -225,6 +225,37 @@ def fetch_category_price_by_gender():
     return {"updatedAt": datetime.now(timezone.utc).isoformat(), "categories": categories}
 
 
+def fetch_musinsa_sales_ranking(code, sort_code="SALE_ONE_WEEK_COUNT", size=20):
+    # Found by watching the real sort dropdown on musinsa.com (판매수량순 → 1주일) fire this
+    # exact request in the browser network log — plain HTTP, no session/auth needed.
+    url = (
+        "https://api.musinsa.com/api2/dp/v2/plp/goods"
+        f"?gf=A&sortCode={sort_code}&category={code}&size={size}&testGroup=&caller=CATEGORY&page=1&seen=0&seenAds="
+    )
+    data = fetch_json(url, headers=BROWSER_HEADERS)
+    return data["data"]["list"]
+
+
+def fetch_category_sales_ranking():
+    categories = {}
+    for code, label in MUSINSA_CATEGORY_LABELS.items():
+        try:
+            items = fetch_musinsa_sales_ranking(code)
+        except Exception as e:
+            print(f"failed sales ranking for {code}: {e}")
+            continue
+        categories[code] = {
+            "label": label,
+            "items": [_normalize_item(it, i + 1, code, label) for i, it in enumerate(items)],
+        }
+        time.sleep(0.5)
+    return {
+        "updatedAt": datetime.now(timezone.utc).isoformat(),
+        "period": "최근 1주일 판매량순",
+        "categories": categories,
+    }
+
+
 ENTITY_MAP = {"&amp;": "&", "&lt;": "<", "&gt;": ">", "&quot;": '"', "&#39;": "'"}
 
 
@@ -278,6 +309,15 @@ def main():
         print("synced musinsa_category_price_by_gender.json")
     except Exception as e:
         print(f"failed musinsa_category_price_by_gender.json: {e}")
+
+    try:
+        sales_ranking = fetch_category_sales_ranking()
+        (DATA_DIR / "musinsa_category_sales_ranking.json").write_text(
+            json.dumps(sales_ranking, ensure_ascii=False, indent=2)
+        )
+        print("synced musinsa_category_sales_ranking.json")
+    except Exception as e:
+        print(f"failed musinsa_category_sales_ranking.json: {e}")
 
     (DATA_DIR / "meta.json").write_text(
         json.dumps({"updatedAt": datetime.now(timezone.utc).isoformat()}, ensure_ascii=False, indent=2)

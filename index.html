@@ -231,6 +231,12 @@
     <div id="rank-table-wrap"><div class="loading">불러오는 중...</div></div>
   </div>
 
+  <div class="card" style="margin-bottom:16px;">
+    <h2>카테고리별 판매량 TOP <span class="tag" id="sales-updated"></span></h2>
+    <div class="tabs" id="sales-category-tabs"></div>
+    <div id="sales-table-wrap"><div class="loading">불러오는 중...</div></div>
+  </div>
+
   <div class="grid">
     <div class="card">
       <h2>인기 급상승 <span class="tag">TOP 5</span></h2>
@@ -263,7 +269,7 @@
 
 <script>
 const DATA_BASE = "data";
-const state = { musinsa: null, cm29: null, searchTrends: null, naverTrends: null, weather: null, news: null, categoryPriceByGender: null };
+const state = { musinsa: null, cm29: null, searchTrends: null, naverTrends: null, weather: null, news: null, categoryPriceByGender: null, categorySalesRanking: null };
 
 async function loadJson(name) {
   try {
@@ -445,7 +451,11 @@ function renderRankTable() {
     updatedAt = data.updatedAt;
   }
   updatedEl.textContent = timeAgo(updatedAt) + " 기준";
-  wrap.innerHTML = `
+  wrap.innerHTML = renderProductTableHtml(rows);
+}
+
+function renderProductTableHtml(rows) {
+  return `
     <table class="rank-table">
       <thead><tr><th>순위</th><th>상품</th><th>가격</th><th>할인율</th></tr></thead>
       <tbody>
@@ -468,6 +478,30 @@ function renderRankTable() {
       </tbody>
     </table>
   `;
+}
+
+function renderSalesCategoryTabs() {
+  const el = document.getElementById("sales-category-tabs");
+  const cats = state.categorySalesRanking?.categories || {};
+  const codes = Object.keys(cats);
+  if (!codes.length) return;
+  el.innerHTML = codes.map((code, i) => `<button class="tab-btn ${i === 0 ? "active" : ""}" data-cat="${code}">${cats[code].label}</button>`).join("");
+  el.querySelectorAll(".tab-btn").forEach(btn => btn.addEventListener("click", () => {
+    el.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    renderSalesTable();
+  }));
+}
+
+function renderSalesTable() {
+  const wrap = document.getElementById("sales-table-wrap");
+  const updatedEl = document.getElementById("sales-updated");
+  const data = state.categorySalesRanking;
+  if (!data) { wrap.innerHTML = "<div class='loading'>데이터 없음</div>"; return; }
+  const activeCat = document.querySelector("#sales-category-tabs .tab-btn.active")?.dataset.cat || Object.keys(data.categories)[0];
+  updatedEl.textContent = `${data.period} · ${timeAgo(data.updatedAt)} 기준`;
+  const rows = (data.categories[activeCat]?.items || []).slice(0, 20);
+  wrap.innerHTML = renderProductTableHtml(rows);
 }
 
 function enableDragScroll(el) {
@@ -565,12 +599,12 @@ function renderAll() {
 async function init() {
   enableDragScroll(document.getElementById("new-products"));
 
-  const [musinsa, cm29, searchTrends, naverTrends, weather, news, meta, categoryPriceByGender] = await Promise.all([
+  const [musinsa, cm29, searchTrends, naverTrends, weather, news, meta, categoryPriceByGender, categorySalesRanking] = await Promise.all([
     loadJson("musinsa.json"), loadJson("29cm.json"), loadJson("musinsa_search_trends.json"),
     loadJson("naver_trends.json"), loadJson("weather.json"), loadJson("fashion_news.json"), loadJson("meta.json"),
-    loadJson("musinsa_category_price_by_gender.json"),
+    loadJson("musinsa_category_price_by_gender.json"), loadJson("musinsa_category_sales_ranking.json"),
   ]);
-  Object.assign(state, { musinsa, cm29, searchTrends, naverTrends, weather, news, categoryPriceByGender });
+  Object.assign(state, { musinsa, cm29, searchTrends, naverTrends, weather, news, categoryPriceByGender, categorySalesRanking });
 
   document.getElementById("updated-badge").textContent = meta ? `${timeAgo(meta.updatedAt)} 갱신` : "";
   renderWeather(weather);
@@ -578,6 +612,8 @@ async function init() {
   renderKeywords("ms-pop");
   renderAll();
   renderPriceChart();
+  renderSalesCategoryTabs();
+  renderSalesTable();
 
   document.querySelectorAll("#kw-tabs .tab-btn").forEach(btn => btn.addEventListener("click", () => {
     document.querySelectorAll("#kw-tabs .tab-btn").forEach(b => b.classList.remove("active"));

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T04:47:08.378804+00:00",
+  "updatedAt": "2026-07-24T05:12:48.466704+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-97480",
+          "id": "ms-96846",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,22 +2265,22 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 46251,
-        "min": 11990,
+        "avg": 46976,
+        "min": 17400,
         "max": 124000,
         "count": 60
       },
       "male": {
-        "avg": 46710,
-        "min": 11990,
+        "avg": 47731,
+        "min": 22430,
         "max": 115200,
-        "count": 35
+        "count": 34
       },
       "female": {
-        "avg": 51475,
+        "avg": 51695,
         "min": 17400,
         "max": 124000,
-        "count": 17
+        "count": 18
       },
       "items": [
         {
@@ -2345,21 +2345,6 @@
         },
         {
           "rank": 5,
-          "id": "ms-3793221",
-          "brand": "무신사 스탠다드",
-          "name": "라이트웨이트 와이드 데님 팬츠 [로우 블랙]",
-          "price": 49900,
-          "originalPrice": 49900,
-          "discountRate": 76,
-          "finalPrice": 11990,
-          "category": "003002",
-          "categoryLabel": "데님 팬츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240112/3793221/3793221_17171280727970_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3793221",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 6,
           "id": "ms-6810186",
           "brand": "에잇세컨즈",
           "name": "5부 데님쇼츠  스카이 블루",
@@ -2374,7 +2359,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-6723562",
           "brand": "토피",
           "name": "[2PACK][여름 기획 원단] 커브드 배럴 데님 팬츠 (2 COLORUS)",
@@ -2389,7 +2374,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-3791988",
           "brand": "필루미네이트",
           "name": "데미지 워시드 데님 팬츠-미디엄 블루",
@@ -2404,7 +2389,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-3201942",
           "brand": "토피",
           "name": "내츄럴 린넨 데님 와이드 팬츠 (OFF WHITE)",
@@ -2419,7 +2404,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-4276989",
           "brand": "에잇세컨즈",
           "name": "세미 와이드 워싱 데님 팬츠  스카이블루 (324721LPHQ)",
@@ -2434,7 +2419,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-5358816",
           "brand": "드로우핏",
           "name": "[서강준 PICK] 유주얼 세미 와이드 데님 팬츠 [RAW BLACK]",
@@ -2449,7 +2434,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-4933453",
           "brand": "플랙",
           "name": "[메르고X플랙] 셀비지 베를린 K94 블랙 로우",
@@ -2464,7 +2449,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-6733025",
           "brand": "애즈온",
           "name": "SUNFADE DENIM PANTS / LIGHT BLUE",
@@ -2479,7 +2464,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-2303284",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 스트레이트 데님 팬츠 [미디엄 인디고]",
@@ -2494,7 +2479,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-5946738",
           "brand": "커스텀어클락 우먼",
           "name": "루즈핏 부츠컷 데님 팬츠 화이트 COWPT002WHITE",
@@ -2509,7 +2494,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6390295",
           "brand": "밀리언코르",
           "name": "[여름원단]르체 다크그레이 원 턱 와이드 팬츠",
@@ -2524,7 +2509,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-3856803",
           "brand": "언탭트 스튜디오",
           "name": "바이오 워싱 와이드 청바지 데님 팬츠 8 COLOR",
@@ -2539,7 +2524,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-3051675",
           "brand": "무신사 스탠다드",
           "name": "린넨 라이크 와이드 데님 팬츠 [로우 블랙]",
@@ -2554,7 +2539,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5371284",
           "brand": "애습",
           "name": "커브드 와이드 데님 - 중청",
@@ -2569,7 +2554,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-2351467",
           "brand": "트릴리온",
           "name": "바이오스톤 워싱 와이드 데님 팬츠 (BLUE GRAY)",
@@ -2581,6 +2566,21 @@
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20220210/2351467/2351467_2_500.jpg",
           "productUrl": "https://www.musinsa.com/products/2351467",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5682041",
+          "brand": "텍스",
+          "name": "TX308 커브드 배기 벌룬 데님 (베이지)",
+          "price": 85000,
+          "originalPrice": 85000,
+          "discountRate": 65,
+          "finalPrice": 29900,
+          "category": "003002",
+          "categoryLabel": "데님 팬츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20251104/5682041/5682041_17629156054392_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5682041",
           "displayGenderText": "남성"
         }
       ]
