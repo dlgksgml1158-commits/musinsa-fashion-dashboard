@@ -389,9 +389,9 @@ function renderCategoryTabs() {
   const data = currentPlatformData();
   const el = document.getElementById("category-tabs");
   if (!data) return;
-  const cats = [...new Set(data.items.map(i => i.categoryLabel))];
+  const codes = Object.keys(data.categories || {}).filter(c => c !== "");
   el.innerHTML = `<button class="tab-btn active" data-cat="__all__">전체</button>` +
-    cats.map(c => `<button class="tab-btn" data-cat="${c}">${c}</button>`).join("");
+    codes.map(code => `<button class="tab-btn" data-cat="${code}">${data.categories[code][0]?.categoryLabel || code}</button>`).join("");
   el.querySelectorAll(".tab-btn").forEach(btn => btn.addEventListener("click", () => {
     el.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
     btn.classList.add("active");
@@ -406,7 +406,7 @@ function renderRankTable() {
   if (!data) { wrap.innerHTML = "<div class='loading'>데이터 없음</div>"; return; }
   updatedEl.textContent = timeAgo(data.updatedAt) + " 기준";
   const activeCat = document.querySelector("#category-tabs .tab-btn.active")?.dataset.cat || "__all__";
-  const rows = data.items.filter(i => activeCat === "__all__" || i.categoryLabel === activeCat).slice(0, 20);
+  const rows = (activeCat === "__all__" ? data.items : (data.categories?.[activeCat] || [])).slice(0, 20);
   wrap.innerHTML = `
     <table class="rank-table">
       <thead><tr><th>순위</th><th>상품</th><th>가격</th><th>할인율</th></tr></thead>
