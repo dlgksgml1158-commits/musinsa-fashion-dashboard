@@ -24,20 +24,24 @@ PUBLIC_UPSTREAM_FILES = [
 ]
 
 HEADERS = {"User-Agent": "musinsa-fashion-dashboard-bot"}
+BROWSER_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Accept-Language": "ko-KR,ko;q=0.9",
+}
 
 
-def fetch(url):
-    req = urllib.request.Request(url, headers=HEADERS)
+def fetch(url, headers=None):
+    req = urllib.request.Request(url, headers=headers or HEADERS)
     with urllib.request.urlopen(req, timeout=20) as resp:
         return resp.read()
 
 
-def fetch_json(url):
-    return json.loads(fetch(url))
+def fetch_json(url, headers=None):
+    return json.loads(fetch(url, headers))
 
 
-def fetch_text(url):
-    return fetch(url).decode("utf-8", errors="replace")
+def fetch_text(url, headers=None):
+    return fetch(url, headers).decode("utf-8", errors="replace")
 
 
 def sync_public_upstream_files():
