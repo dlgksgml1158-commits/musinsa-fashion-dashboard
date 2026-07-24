@@ -142,18 +142,21 @@ def fetch_weather():
     }
 
 
+# Verified against musinsa.com's live category tree (category/Category query under
+# parents 001/002/003) — the seller's old dashboard used a stale code set that Musinsa
+# has since renumbered (e.g. old "003002"="슬랙스" now resolves to "데님 팬츠").
 MUSINSA_CATEGORY_LABELS = {
     "001001": "반소매 티셔츠",
-    "001002": "긴소매 티셔츠",
-    "001003": "맨투맨/스웨트",
+    "001010": "긴소매 티셔츠",
+    "001005": "맨투맨/스웨트",
     "001004": "후드 티셔츠",
-    "001005": "셔츠/블라우스",
+    "001002": "셔츠/블라우스",
     "001006": "니트/스웨터",
     "002": "아우터",
-    "003001": "데님 팬츠",
-    "003002": "슬랙스",
-    "003003": "트레이닝/조거",
-    "003005": "반바지",
+    "003002": "데님 팬츠",
+    "003008": "슬랙스",
+    "003004": "트레이닝/조거",
+    "003009": "반바지",
 }
 
 
