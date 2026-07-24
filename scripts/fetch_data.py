@@ -142,6 +142,66 @@ def fetch_weather():
     }
 
 
+MUSINSA_CATEGORY_LABELS = {
+    "001001": "반소매 티셔츠",
+    "001002": "긴소매 티셔츠",
+    "001003": "맨투맨/스웨트",
+    "001004": "후드 티셔츠",
+    "001005": "셔츠/블라우스",
+    "001006": "니트/스웨터",
+    "002": "아우터",
+    "003001": "데님 팬츠",
+    "003002": "슬랙스",
+    "003003": "트레이닝/조거",
+    "003005": "반바지",
+}
+
+
+def _price_stats(items):
+    prices = [i["finalPrice"] for i in items if i.get("finalPrice")]
+    if not prices:
+        return None
+    return {
+        "avg": round(sum(prices) / len(prices)),
+        "min": min(prices),
+        "max": max(prices),
+        "count": len(prices),
+    }
+
+
+def fetch_musinsa_category_goods(code):
+    # gf= in the URL is ignored by the server-rendered payload (always returns the
+    # unfiltered popular list) — each item carries its own displayGenderText instead,
+    # so gender split happens by grouping that field client-side (below).
+    url = f"https://www.musinsa.com/category/{code}/goods?gf=A"
+    html = fetch_text(url, headers=BROWSER_HEADERS)
+    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
+    if not m:
+        raise RuntimeError(f"no __NEXT_DATA__ for category {code}")
+    data = json.loads(m.group(1))
+    queries = data["props"]["pageProps"]["dehydratedState"]["queries"]
+    target = next(q for q in queries if isinstance(q.get("queryKey"), list) and q["queryKey"][0] == code)
+    return target["state"]["data"]["pages"][0]["data"]["list"]
+
+
+def fetch_category_price_by_gender():
+    categories = {}
+    for code, label in MUSINSA_CATEGORY_LABELS.items():
+        try:
+            items = fetch_musinsa_category_goods(code)
+        except Exception as e:
+            print(f"failed musinsa category {code}: {e}")
+            continue
+        categories[code] = {
+            "label": label,
+            "all": _price_stats(items),
+            "male": _price_stats([i for i in items if i.get("displayGenderText") == "남성"]),
+            "female": _price_stats([i for i in items if i.get("displayGenderText") == "여성"]),
+        }
+        time.sleep(0.5)
+    return {"updatedAt": datetime.now(timezone.utc).isoformat(), "categories": categories}
+
+
 ENTITY_MAP = {"&amp;": "&", "&lt;": "<", "&gt;": ">", "&quot;": '"', "&#39;": "'"}
 
 
@@ -186,6 +246,15 @@ def main():
         print("synced fashion_news.json")
     except Exception as e:
         print(f"failed fashion_news.json: {e}")
+
+    try:
+        gender_price = fetch_category_price_by_gender()
+        (DATA_DIR / "musinsa_category_price_by_gender.json").write_text(
+            json.dumps(gender_price, ensure_ascii=False, indent=2)
+        )
+        print("synced musinsa_category_price_by_gender.json")
+    except Exception as e:
+        print(f"failed musinsa_category_price_by_gender.json: {e}")
 
     (DATA_DIR / "meta.json").write_text(
         json.dumps({"updatedAt": datetime.now(timezone.utc).isoformat()}, ensure_ascii=False, indent=2)

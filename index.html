@@ -122,7 +122,8 @@
   .news-item a:hover { color: var(--series-blue); }
   .news-item .meta { font-size: 11px; color: var(--text-muted); }
 
-  .kw-list { list-style: none; margin: 0; padding: 0; }
+  .scroll-box { max-height: 340px; overflow-y: auto; }
+  .kw-list { list-style: none; margin: 0; padding: 0; max-height: 340px; overflow-y: auto; }
   .kw-list li {
     display: flex; align-items: center; gap: 8px; padding: 6px 0;
     border-top: 1px solid var(--gridline); font-size: 13px;
@@ -174,7 +175,8 @@
   .product-card .pc-price { font-size: 12.5px; font-weight: 600; }
   .product-card .pc-discount { color: var(--series-red); font-size: 12px; margin-right: 4px; }
 
-  .bar-chart { display: flex; flex-direction: column; gap: 10px; }
+  .bar-chart { display: flex; flex-direction: column; gap: 10px; max-height: 340px; overflow-y: auto; }
+  #rank-table-wrap { max-height: 480px; overflow-y: auto; }
   .bar-row { display: grid; grid-template-columns: 96px 1fr 60px; align-items: center; gap: 10px; font-size: 12px; }
   .bar-track { background: var(--gridline); border-radius: 4px; height: 14px; overflow: hidden; }
   .bar-fill { background: var(--series-blue); height: 100%; border-radius: 4px 0 0 4px; }
@@ -240,6 +242,11 @@
     </div>
     <div class="card">
       <h2>카테고리별 평균 가격대 <span class="tag">무신사 기준</span></h2>
+      <div class="tabs" id="gender-tabs">
+        <button class="tab-btn active" data-gender="all">전체</button>
+        <button class="tab-btn" data-gender="male">남자</button>
+        <button class="tab-btn" data-gender="female">여자</button>
+      </div>
       <div class="bar-chart" id="price-chart"><div class="loading">불러오는 중...</div></div>
     </div>
   </div>
@@ -249,7 +256,7 @@
 
 <script>
 const DATA_BASE = "data";
-const state = { musinsa: null, cm29: null, searchTrends: null, naverTrends: null, weather: null, news: null };
+const state = { musinsa: null, cm29: null, searchTrends: null, naverTrends: null, weather: null, news: null, categoryPriceByGender: null };
 
 async function loadJson(name) {
   try {
@@ -357,12 +364,12 @@ function renderWeather(w) {
 function renderNews(n) {
   const el = document.getElementById("news-card");
   if (!n || !n.items?.length) { el.innerHTML = "<h2>패션 이슈</h2><div class='loading'>데이터 없음</div>"; return; }
-  el.innerHTML = `<h2>패션 이슈</h2>` + n.items.slice(0, 8).map(item => `
+  el.innerHTML = `<h2>패션 이슈</h2><div class="scroll-box">` + n.items.slice(0, 8).map(item => `
     <div class="news-item">
       <a href="${item.link}" target="_blank" rel="noopener">${item.title}</a>
       <div class="meta">${item.source || ""}</div>
     </div>
-  `).join("");
+  `).join("") + `</div>`;
 }
 
 function renderKeywords(kind) {
@@ -473,14 +480,17 @@ function renderDiscountList() {
   `).join("");
 }
 
-function renderPriceChart() {
+function renderPriceChart(gender = "all") {
   const el = document.getElementById("price-chart");
-  const msStats = state.musinsa?.priceStats || {};
-  const codes = Object.keys(msStats).filter(c => c !== "");
+  const categories = state.categoryPriceByGender?.categories || {};
+  const codes = Object.keys(categories);
   if (!codes.length) { el.innerHTML = "<div class='loading'>데이터 없음</div>"; return; }
   const avgs = codes
-    .map(code => ({ cat: msStats[code].label, n: msStats[code].count, avg: msStats[code].avg }))
+    .map(code => ({ cat: categories[code].label, stat: categories[code][gender] }))
+    .filter(a => a.stat)
+    .map(a => ({ cat: a.cat, n: a.stat.count, avg: a.stat.avg }))
     .sort((x, y) => y.avg - x.avg);
+  if (!avgs.length) { el.innerHTML = "<div class='muted-note'>표본이 없습니다.</div>"; return; }
   const max = Math.max(...avgs.map(a => a.avg), 1);
   el.innerHTML = avgs.map(a => `
     <div class="bar-row">
@@ -500,21 +510,22 @@ function renderAll() {
     renderProductCards("new-products", data.items.filter(i => i.change === "NEW").slice(0, 5));
   }
   renderDiscountList();
-  renderPriceChart();
 }
 
 async function init() {
-  const [musinsa, cm29, searchTrends, naverTrends, weather, news, meta] = await Promise.all([
+  const [musinsa, cm29, searchTrends, naverTrends, weather, news, meta, categoryPriceByGender] = await Promise.all([
     loadJson("musinsa.json"), loadJson("29cm.json"), loadJson("musinsa_search_trends.json"),
     loadJson("naver_trends.json"), loadJson("weather.json"), loadJson("fashion_news.json"), loadJson("meta.json"),
+    loadJson("musinsa_category_price_by_gender.json"),
   ]);
-  Object.assign(state, { musinsa, cm29, searchTrends, naverTrends, weather, news });
+  Object.assign(state, { musinsa, cm29, searchTrends, naverTrends, weather, news, categoryPriceByGender });
 
   document.getElementById("updated-badge").textContent = meta ? `${timeAgo(meta.updatedAt)} 갱신` : "";
   renderWeather(weather);
   renderNews(news);
   renderKeywords("ms-pop");
   renderAll();
+  renderPriceChart();
 
   document.querySelectorAll("#kw-tabs .tab-btn").forEach(btn => btn.addEventListener("click", () => {
     document.querySelectorAll("#kw-tabs .tab-btn").forEach(b => b.classList.remove("active"));
@@ -526,6 +537,12 @@ async function init() {
     document.querySelectorAll("#platform-tabs .tab-btn").forEach(b => b.classList.remove("active"));
     btn.classList.add("active");
     renderAll();
+  }));
+
+  document.querySelectorAll("#gender-tabs .tab-btn").forEach(btn => btn.addEventListener("click", () => {
+    document.querySelectorAll("#gender-tabs .tab-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    renderPriceChart(btn.dataset.gender);
   }));
 }
 
