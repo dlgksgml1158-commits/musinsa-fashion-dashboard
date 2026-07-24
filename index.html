@@ -134,6 +134,10 @@
   .kw-delta.up { color: var(--series-red); }
   .kw-delta.down { color: var(--series-blue); }
   .kw-cat-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+  .li-thumb { width: 36px; height: 36px; object-fit: cover; border-radius: 6px; flex-shrink: 0; }
+  .discount-price { display: flex; flex-direction: column; align-items: flex-end; font-size: 12px; white-space: nowrap; flex-shrink: 0; }
+  .discount-price .price-final { font-weight: 600; margin-left: 0; }
+  .discount-price .price-orig { color: var(--text-muted); text-decoration: line-through; font-size: 11px; margin-left: 0; }
 
   .tabs { display: flex; gap: 6px; margin-bottom: 12px; flex-wrap: wrap; }
   .tab-btn {
@@ -452,9 +456,17 @@ function renderDiscountList() {
   if (!data) { el.innerHTML = "<li class='loading'>데이터 없음</li>"; return; }
   const top = [...data.items].sort((a, b) => b.discountRate - a.discountRate).slice(0, 10);
   el.innerHTML = top.map((item, i) => `
-    <li>
+    <li class="discount-row">
       <span class="kw-rank">${i + 1}</span>
-      <span class="kw-word"><a href="${item.productUrl}" target="_blank" rel="noopener">${item.name}</a> <span class="prod-brand">${item.brand}</span></span>
+      <img class="li-thumb" src="${item.imgUrl}" loading="lazy" alt="">
+      <span class="kw-word">
+        <a href="${item.productUrl}" target="_blank" rel="noopener">${item.name}</a>
+        <span class="prod-brand">${item.brand}</span>
+      </span>
+      <span class="discount-price">
+        <span class="price-final">${fmtPrice(item.finalPrice)}</span>
+        <span class="price-orig">${fmtPrice(item.originalPrice)}</span>
+      </span>
       <span class="discount">-${item.discountRate}%</span>
     </li>
   `).join("");
