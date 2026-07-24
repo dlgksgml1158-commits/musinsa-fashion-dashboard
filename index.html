@@ -144,26 +144,25 @@
   .mode-select-row { margin-bottom: 12px; text-align: right; position: relative; }
   .dropdown-select { position: relative; display: inline-block; }
   .dropdown-select-toggle {
-    display: flex; align-items: center; gap: 4px; font-size: 12.5px; padding: 6px 12px;
-    border-radius: 999px; border: 1px solid var(--border); background: var(--surface-1);
-    color: var(--text-primary); cursor: pointer;
+    display: inline-flex; align-items: center; gap: 3px; font-size: 13px; padding: 0;
+    border: none; background: none; color: var(--text-primary); cursor: pointer;
   }
-  .dropdown-select-toggle:hover { background: var(--gridline); }
-  .dropdown-chevron { font-size: 11px; color: var(--text-muted); transition: transform 0.15s; }
+  .dropdown-select-toggle:hover { color: var(--text-secondary); }
+  .dropdown-chevron { font-size: 11px; color: var(--text-primary); transition: transform 0.15s; }
   .dropdown-select.is-open .dropdown-chevron { transform: rotate(180deg); }
   .dropdown-select-menu {
-    position: absolute; top: calc(100% + 6px); right: 0; z-index: 20;
-    background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px;
-    box-shadow: 0 8px 24px rgba(11,11,11,0.15); padding: 6px; min-width: 180px;
+    position: absolute; top: calc(100% + 8px); right: 0; z-index: 20;
+    background: var(--surface-1); border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(11,11,11,0.18); padding: 8px 0; min-width: 168px;
     display: flex; flex-direction: column;
   }
   .dropdown-select-menu[hidden] { display: none; }
   .dropdown-select-item {
-    text-align: left; font-size: 13px; padding: 9px 10px; border-radius: 6px;
-    background: transparent; color: var(--text-primary); cursor: pointer; white-space: nowrap;
+    text-align: left; font-size: 13px; padding: 10px 16px;
+    background: transparent; color: var(--text-secondary); cursor: pointer; white-space: nowrap;
   }
   .dropdown-select-item:hover { background: var(--gridline); }
-  .dropdown-select-item.active { font-weight: 700; color: var(--series-blue); }
+  .dropdown-select-item.active { font-weight: 700; color: var(--text-primary); }
   .tab-btn {
     border: 1px solid var(--border); background: transparent; color: var(--text-secondary);
     padding: 6px 12px; border-radius: 999px; font-size: 12.5px; cursor: pointer;
