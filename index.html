@@ -141,11 +141,28 @@
   .discount-price .price-orig { color: var(--text-muted); text-decoration: line-through; font-size: 11px; margin-left: 0; }
 
   .tabs { display: flex; gap: 6px; margin-bottom: 12px; flex-wrap: wrap; }
-  .mode-select-row { margin-bottom: 12px; text-align: right; }
-  .mode-select {
-    font-size: 12.5px; padding: 6px 10px; border-radius: 8px; border: 1px solid var(--border);
-    background: var(--surface-1); color: var(--text-primary); cursor: pointer;
+  .mode-select-row { margin-bottom: 12px; text-align: right; position: relative; }
+  .dropdown-select { position: relative; display: inline-block; }
+  .dropdown-select-toggle {
+    display: flex; align-items: center; gap: 4px; font-size: 12.5px; padding: 6px 12px;
+    border-radius: 999px; border: 1px solid var(--border); background: var(--surface-1);
+    color: var(--text-primary); cursor: pointer;
   }
+  .dropdown-select-toggle:hover { background: var(--gridline); }
+  .dropdown-chevron { font-size: 11px; color: var(--text-muted); transition: transform 0.15s; }
+  .dropdown-select.is-open .dropdown-chevron { transform: rotate(180deg); }
+  .dropdown-select-menu {
+    position: absolute; top: calc(100% + 6px); right: 0; z-index: 20;
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(11,11,11,0.15); padding: 6px; min-width: 180px;
+    display: flex; flex-direction: column;
+  }
+  .dropdown-select-item {
+    text-align: left; font-size: 13px; padding: 9px 10px; border-radius: 6px;
+    background: transparent; color: var(--text-primary); cursor: pointer; white-space: nowrap;
+  }
+  .dropdown-select-item:hover { background: var(--gridline); }
+  .dropdown-select-item.active { font-weight: 700; color: var(--series-blue); }
   .tab-btn {
     border: 1px solid var(--border); background: transparent; color: var(--text-secondary);
     padding: 6px 12px; border-radius: 999px; font-size: 12.5px; cursor: pointer;
@@ -229,10 +246,16 @@
   <div class="card" style="margin-bottom:16px;">
     <h2 id="rank-section-title">실시간 랭킹 <span class="tag" id="rank-updated"></span></h2>
     <div class="mode-select-row">
-      <select id="rank-mode-select" class="mode-select">
-        <option value="live">실시간 순위</option>
-        <option value="sales">카테고리별 판매량 TOP</option>
-      </select>
+      <div class="dropdown-select" id="rank-mode-dropdown" data-value="live">
+        <button type="button" class="dropdown-select-toggle" id="rank-mode-toggle">
+          <span id="rank-mode-label">실시간 순위</span>
+          <span class="dropdown-chevron">⌄</span>
+        </button>
+        <div class="dropdown-select-menu" id="rank-mode-menu" hidden>
+          <button type="button" class="dropdown-select-item active" data-value="live">실시간 순위</button>
+          <button type="button" class="dropdown-select-item" data-value="sales">카테고리별 판매량 TOP</button>
+        </div>
+      </div>
     </div>
     <div class="tabs" id="platform-tabs">
       <button class="tab-btn active" data-platform="musinsa">무신사</button>
@@ -416,7 +439,7 @@ function isMusinsaPlatform() {
 }
 
 function isSalesMode() {
-  return document.getElementById("rank-mode-select").value === "sales";
+  return document.getElementById("rank-mode-dropdown").dataset.value === "sales";
 }
 
 function renderCategoryTabs() {
@@ -627,9 +650,36 @@ async function init() {
     renderAll();
   }));
 
-  document.getElementById("rank-mode-select").addEventListener("change", () => {
-    renderCategoryTabs();
-    renderRankTable();
+  const rankModeDropdown = document.getElementById("rank-mode-dropdown");
+  const rankModeToggle = document.getElementById("rank-mode-toggle");
+  const rankModeMenu = document.getElementById("rank-mode-menu");
+  const rankModeLabel = document.getElementById("rank-mode-label");
+
+  rankModeToggle.addEventListener("click", (e) => {
+    e.stopPropagation();
+    const isOpen = !rankModeMenu.hidden;
+    rankModeMenu.hidden = isOpen;
+    rankModeDropdown.classList.toggle("is-open", !isOpen);
+  });
+
+  rankModeMenu.querySelectorAll(".dropdown-select-item").forEach(item => {
+    item.addEventListener("click", () => {
+      rankModeMenu.querySelectorAll(".dropdown-select-item").forEach(i => i.classList.remove("active"));
+      item.classList.add("active");
+      rankModeDropdown.dataset.value = item.dataset.value;
+      rankModeLabel.textContent = item.textContent;
+      rankModeMenu.hidden = true;
+      rankModeDropdown.classList.remove("is-open");
+      renderCategoryTabs();
+      renderRankTable();
+    });
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!rankModeDropdown.contains(e.target)) {
+      rankModeMenu.hidden = true;
+      rankModeDropdown.classList.remove("is-open");
+    }
   });
 
   document.querySelectorAll("#gender-tabs .tab-btn").forEach(btn => btn.addEventListener("click", () => {
