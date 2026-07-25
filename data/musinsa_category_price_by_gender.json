@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-07-25T01:17:11.850542+00:00",
+  "updatedAt": "2026-07-25T04:34:46.368617+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 45922,
-        "min": 9900,
+        "avg": 45667,
+        "min": 7000,
         "max": 160200,
         "count": 60
       },
@@ -16,8 +16,8 @@
         "count": 22
       },
       "female": {
-        "avg": 55304,
-        "min": 9900,
+        "avg": 54758,
+        "min": 7000,
         "max": 160200,
         "count": 28
       },
@@ -254,8 +254,8 @@
           "name": "THREE STAR PIGMENT SHORT SLEEVE BLACK",
           "price": 49000,
           "originalPrice": 49000,
-          "discountRate": 54,
-          "finalPrice": 22300,
+          "discountRate": 86,
+          "finalPrice": 7000,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260402/6243993/6243993_17808890576238_500.jpg",
@@ -650,20 +650,20 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 59772,
+        "avg": 58182,
         "min": 7500,
         "max": 307990,
         "count": 60
       },
       "male": {
-        "avg": 75005,
+        "avg": 73070,
         "min": 7500,
         "max": 307990,
-        "count": 22
+        "count": 23
       },
       "female": {
-        "avg": 68487,
-        "min": 21900,
+        "avg": 65486,
+        "min": 9990,
         "max": 148990,
         "count": 19
       },
@@ -825,8 +825,8 @@
           "name": "하프 집업 스웻셔츠-네이비",
           "price": 69000,
           "originalPrice": 69000,
-          "discountRate": 71,
-          "finalPrice": 19900,
+          "discountRate": 86,
+          "finalPrice": 9990,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20210823/2080488/2080488_4_500.jpg",
@@ -850,21 +850,6 @@
         },
         {
           "rank": 13,
-          "id": "ms-2162250",
-          "brand": "크리틱",
-          "name": "SPACE WARS 스웨트셔츠 Black",
-          "price": 59000,
-          "originalPrice": 59000,
-          "discountRate": 0,
-          "finalPrice": 59000,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20211005/2162250/2162250_5_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/2162250",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 14,
           "id": "ms-5298610",
           "brand": "로제프란츠",
           "name": "Eyelet Strap Open Sweatshirt [Black]",
@@ -879,7 +864,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-5424480",
           "brand": "페이크캠퍼",
           "name": "[2PACK] 450g 헤비 피그먼트 가이루빠 디테일 맨투맨 [8COLOR]",
@@ -894,7 +879,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-5234485",
           "brand": "지프",
           "name": "[기모] EXPLORE 어센틱 맨투맨 (JP6TSU834BK)",
@@ -909,7 +894,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6813633",
           "brand": "룰루레몬",
           "name": "원더 트레인 풀집 재킷  ASHR",
@@ -924,7 +909,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-2359612",
           "brand": "무신사 스탠다드",
           "name": "오버사이즈 칼라드 스웨트셔츠 [미디엄 그레이]",
@@ -939,7 +924,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-4444644",
           "brand": "알렉산더 맥퀸",
           "name": "스컬 프린트 맨투맨 - 블랙 / 807302Q1BBY1000",
@@ -954,7 +939,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-1755605",
           "brand": "지프",
           "name": "[360g] M-Logo 반집업 맨투맨 (JR5TSU838BK)",
@@ -967,20 +952,35 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20210120/1755605/1755605_17551317401993_500.jpg",
           "productUrl": "https://www.musinsa.com/products/1755605",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-3536439",
+          "brand": "폴로 랄프 로렌 골프",
+          "name": "[적립금 10%] 클래식핏 퍼포먼스 스웨트셔츠 - 네이비",
+          "price": 219000,
+          "originalPrice": 219000,
+          "discountRate": 5,
+          "finalPrice": 208050,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20230906/3536439/3536439_16950121020161_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3536439",
+          "displayGenderText": "남성"
         }
       ]
     },
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 66775,
+        "avg": 65292,
         "min": 9900,
         "max": 495000,
         "count": 60
       },
       "male": {
-        "avg": 75565,
-        "min": 21800,
+        "avg": 71731,
+        "min": 9990,
         "max": 396990,
         "count": 18
       },
@@ -1308,7 +1308,7 @@
         "count": 28
       },
       "female": {
-        "avg": 37189,
+        "avg": 37188,
         "min": 14250,
         "max": 91130,
         "count": 31
@@ -1316,21 +1316,6 @@
       "items": [
         {
           "rank": 1,
-          "id": "ms-6755330",
-          "brand": "에잇세컨즈",
-          "name": "캉캉이 라운드넥 반소매 블라우스  네이비",
-          "price": 39900,
-          "originalPrice": 39900,
-          "discountRate": 25,
-          "finalPrice": 29930,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260630/6755330/6755330_17845985107616_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6755330",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 2,
           "id": "ms-4989733",
           "brand": "르아르",
           "name": "링클 시어서커 체크 반팔 셔츠 [차콜]",
@@ -1345,7 +1330,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 3,
+          "rank": 2,
           "id": "ms-6385445",
           "brand": "페이지플린",
           "name": "셔링체크카라셔츠_P6BSH003M",
@@ -1360,7 +1345,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 4,
+          "rank": 3,
           "id": "ms-6841693",
           "brand": "어나더 오피스",
           "name": "Huge Garment Gingham Check Shirt (Porcelain White)",
@@ -1375,7 +1360,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "id": "ms-5897661",
           "brand": "토피",
           "name": "멀티 스트라이프 셔츠 (SKY BLUE)",
@@ -1390,7 +1375,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "id": "ms-5310167",
           "brand": "지플리시",
           "name": "롤업 체크 셔츠 블랙",
@@ -1405,7 +1390,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-6305662",
           "brand": "비터셀즈",
           "name": "엘로디 하프 체크 셔츠-블루",
@@ -1420,7 +1405,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-4093932",
           "brand": "르아브",
           "name": "모먼트 워시드 하프셔츠(4COL)",
@@ -1435,7 +1420,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-6230378",
           "brand": "트릴리온",
           "name": "(여름) 에센셜 린넨 컴포트 크롭 셔츠_6color",
@@ -1450,7 +1435,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-6463410",
           "brand": "브렌슨",
           "name": "린넨 라이크 체크 반팔 셔츠 ( 빈티지퍼플 )",
@@ -1465,7 +1450,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-4756325",
           "brand": "빌리언트",
           "name": "스트라이프 리넨 셔츠_그레이",
@@ -1480,7 +1465,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-6237554",
           "brand": "미쏘",
           "name": "오간자 레이어드 블라우스_MIWBWG511G",
@@ -1495,7 +1480,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-6841696",
           "brand": "어나더 오피스",
           "name": "Writer Shirt (Off White)",
@@ -1510,7 +1495,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-6699536",
           "brand": "스파오",
           "name": "릴랙스핏 반팔 데님 셔츠 (RE)_SPYJG37G01",
@@ -1525,7 +1510,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6518898",
           "brand": "유니온블루",
           "name": "LOOSED CHECK HALF SHIRT [GRAPHITE]",
@@ -1540,7 +1525,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-5429767",
           "brand": "포에트서울",
           "name": "checked puff sleeve blouse_lime green",
@@ -1555,7 +1540,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-5129508",
           "brand": "티뷰",
           "name": "백리본크로스블라우스_V5B-VBL055",
@@ -1570,7 +1555,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-4129489",
           "brand": "시티팝즈",
           "name": "[CP] 시에라 스트라이프 클래식 베이직 반팔 셔츠 [PINK] 여름 ver.",
@@ -1585,7 +1570,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-4969899",
           "brand": "필루미네이트",
           "name": "올 데이 린넨 라이크 하프 셔츠-5Color",
@@ -1600,7 +1585,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6317272",
           "brand": "페이지플린",
           "name": "카라버튼랩블라우스_P6BBL003C",
@@ -1612,6 +1597,21 @@
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260415/6317272/6317272_17762430862140_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6317272",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6591029",
+          "brand": "마인드브릿지 우먼",
+          "name": "[W]핀턱 타이 화이트 반팔 블라우스",
+          "price": 69900,
+          "originalPrice": 69900,
+          "discountRate": 25,
+          "finalPrice": 52400,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260602/6591029/6591029_17809790355168_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6591029",
           "displayGenderText": "여성"
         }
       ]
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-97605",
+          "id": "ms-96776",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,14 +2588,14 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 35502,
+        "avg": 35378,
         "min": 7920,
         "max": 96850,
         "count": 60
       },
       "male": {
-        "avg": 36798,
-        "min": 10590,
+        "avg": 36617,
+        "min": 9990,
         "max": 96850,
         "count": 41
       },
@@ -2911,20 +2911,20 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 46909,
+        "avg": 46088,
         "min": 9900,
         "max": 179000,
         "count": 60
       },
       "male": {
-        "avg": 51537,
-        "min": 25890,
+        "avg": 49469,
+        "min": 9990,
         "max": 179000,
         "count": 15
       },
       "female": {
-        "avg": 49345,
-        "min": 13450,
+        "avg": 48808,
+        "min": 9990,
         "max": 119000,
         "count": 34
       },
