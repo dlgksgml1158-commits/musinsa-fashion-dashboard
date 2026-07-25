@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-07-25T04:34:46.368617+00:00",
+  "updatedAt": "2026-07-25T07:06:30.291406+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 45667,
-        "min": 7000,
+        "avg": 45835,
+        "min": 9900,
         "max": 160200,
         "count": 60
       },
@@ -16,8 +16,8 @@
         "count": 22
       },
       "female": {
-        "avg": 54758,
-        "min": 7000,
+        "avg": 55119,
+        "min": 9900,
         "max": 160200,
         "count": 28
       },
@@ -249,21 +249,6 @@
         },
         {
           "rank": 16,
-          "id": "ms-6243993",
-          "brand": "프렌다",
-          "name": "THREE STAR PIGMENT SHORT SLEEVE BLACK",
-          "price": 49000,
-          "originalPrice": 49000,
-          "discountRate": 86,
-          "finalPrice": 7000,
-          "category": "001001",
-          "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260402/6243993/6243993_17808890576238_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6243993",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 17,
           "id": "ms-6809742",
           "brand": "에잇세컨즈",
           "name": "셔츠 배색 저지 카디건  네이비",
@@ -278,7 +263,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6689505",
           "brand": "유라고",
           "name": "Vintage estival t-shirt_3colors",
@@ -293,7 +278,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6418260",
           "brand": "8톤트럭케이스",
           "name": "[반팔티셔츠 흘려도티안나]남여공용 오버핏",
@@ -308,7 +293,7 @@
           "displayGenderText": ""
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6453592",
           "brand": "토피",
           "name": "[S-XXL] 슬림 크롭 헨리넥 하프 티셔츠 (BLUE)",
@@ -321,6 +306,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260511/6453592/6453592_17809898594366_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6453592",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6761404",
+          "brand": "라이크더모스트",
+          "name": "도트 듀얼스타 레귤러 반팔 티셔츠_7colors",
+          "price": 37800,
+          "originalPrice": 37800,
+          "discountRate": 74,
+          "finalPrice": 9900,
+          "category": "001001",
+          "categoryLabel": "반소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260701/6761404/6761404_17828749148545_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6761404",
+          "displayGenderText": "여성"
         }
       ]
     },
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-96776",
+          "id": "ms-97605",
           "brand": "",
           "name": "",
           "price": null,
