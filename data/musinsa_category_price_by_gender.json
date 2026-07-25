@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T14:24:09.596221+00:00",
+  "updatedAt": "2026-07-25T15:34:03.641824+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 37973,
+        "avg": 38062,
         "min": 11000,
         "max": 159900,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 18
       },
       "female": {
-        "avg": 34815,
+        "avg": 34956,
         "min": 11000,
         "max": 79380,
         "count": 38
@@ -973,22 +973,22 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 65528,
+        "avg": 65684,
         "min": 9900,
         "max": 495000,
         "count": 60
       },
       "male": {
-        "avg": 71731,
+        "avg": 74327,
         "min": 9990,
         "max": 396990,
-        "count": 18
+        "count": 17
       },
       "female": {
-        "avg": 45472,
+        "avg": 45001,
         "min": 11960,
         "max": 98040,
-        "count": 17
+        "count": 18
       },
       "items": [
         {
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 42342,
+        "avg": 42936,
         "min": 14250,
         "max": 124200,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 28
       },
       "female": {
-        "avg": 37188,
+        "avg": 38337,
         "min": 14250,
         "max": 91130,
         "count": 31
@@ -1471,8 +1471,8 @@
           "name": "오간자 레이어드 블라우스_MIWBWG511G",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 38,
-          "finalPrice": 30980,
+          "discountRate": 0,
+          "finalPrice": 49900,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260401/6237554/6237554_17787406683233_500.jpg",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 35884,
+        "avg": 36496,
         "min": 10060,
         "max": 92650,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 31
       },
       "female": {
-        "avg": 31855,
+        "avg": 33524,
         "min": 10060,
         "max": 70300,
         "count": 22
@@ -1719,8 +1719,8 @@
           "name": "Henley Neck Deep V Short Sleeve Knit",
           "price": 39900,
           "originalPrice": 39900,
-          "discountRate": 46,
-          "finalPrice": 21540,
+          "discountRate": 0,
+          "finalPrice": 39900,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260507/6430803/6430803_17830604156020_500.jpg",
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 69949,
+        "avg": 70128,
         "min": 11930,
         "max": 427500,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 13
       },
       "female": {
-        "avg": 47602,
+        "avg": 47885,
         "min": 11930,
         "max": 146990,
         "count": 38
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-96847",
+          "id": "ms-96934",
           "brand": "",
           "name": "",
           "price": null,
@@ -2911,22 +2911,22 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 46783,
+        "avg": 47600,
         "min": 9900,
         "max": 179000,
         "count": 60
       },
       "male": {
-        "avg": 49724,
-        "min": 9990,
+        "avg": 52373,
+        "min": 25890,
         "max": 179000,
-        "count": 16
+        "count": 15
       },
       "female": {
-        "avg": 48808,
+        "avg": 49099,
         "min": 9990,
         "max": 119000,
-        "count": 34
+        "count": 35
       },
       "items": [
         {
