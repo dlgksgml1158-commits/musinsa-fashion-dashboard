@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T17:45:08.198432+00:00",
+  "updatedAt": "2026-07-25T18:43:59.091605+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -3252,21 +3252,6 @@
         },
         {
           "rank": 14,
-          "id": "ms-6805447",
-          "brand": "필프",
-          "name": "[PEALP X FIT THE SIZE] WASHED EASY SHORT(CHARCOAL)",
-          "price": 69000,
-          "originalPrice": 69000,
-          "discountRate": 10,
-          "finalPrice": 62100,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260708/6805447/6805447_17839168927488_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6805447",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 15,
           "id": "ms-3880598",
           "brand": "디키즈",
           "name": "42283 루즈핏 워크쇼츠 Black",
@@ -3281,7 +3266,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-4797019",
           "brand": "니티드",
           "name": "버뮤다 트레이닝 하프 팬츠 BLACK",
@@ -3294,6 +3279,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250218/4797019/4797019_17794257262326_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4797019",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 16,
+          "id": "ms-6805447",
+          "brand": "필프",
+          "name": "[PEALP X FIT THE SIZE] WASHED EASY SHORT(CHARCOAL)",
+          "price": 69000,
+          "originalPrice": 69000,
+          "discountRate": 10,
+          "finalPrice": 62100,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260708/6805447/6805447_17839168927488_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6805447",
+          "displayGenderText": "남성"
         },
         {
           "rank": 17,
