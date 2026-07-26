@@ -79,6 +79,8 @@
   }
 
   .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; margin-bottom: 16px; align-items: start; }
+  .rank-and-brand-grid { grid-template-columns: 2fr 1fr; }
+  @media (max-width: 900px) { .rank-and-brand-grid { grid-template-columns: 1fr; } }
   .grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
   @media (max-width: 900px) { .grid.cols-3 { grid-template-columns: 1fr; } }
 
@@ -245,26 +247,34 @@
     </div>
   </div>
 
-  <div class="card" style="margin-bottom:16px;">
-    <h2 id="rank-section-title">실시간 랭킹</h2>
-    <div class="mode-select-row">
-      <div class="dropdown-select" id="rank-mode-dropdown" data-value="live">
-        <button type="button" class="dropdown-select-toggle" id="rank-mode-toggle">
-          <span id="rank-mode-label">실시간 순위</span>
-          <span class="dropdown-chevron">⌄</span>
-        </button>
-        <div class="dropdown-select-menu" id="rank-mode-menu" hidden>
-          <button type="button" class="dropdown-select-item active" data-value="live">실시간 순위</button>
-          <button type="button" class="dropdown-select-item" data-value="sales">카테고리별 판매량 TOP</button>
+  <div class="grid rank-and-brand-grid" style="margin-bottom:16px;">
+    <div class="card">
+      <h2 id="rank-section-title">실시간 랭킹</h2>
+      <div class="mode-select-row">
+        <div class="dropdown-select" id="rank-mode-dropdown" data-value="live">
+          <button type="button" class="dropdown-select-toggle" id="rank-mode-toggle">
+            <span id="rank-mode-label">실시간 순위</span>
+            <span class="dropdown-chevron">⌄</span>
+          </button>
+          <div class="dropdown-select-menu" id="rank-mode-menu" hidden>
+            <button type="button" class="dropdown-select-item active" data-value="live">실시간 순위</button>
+            <button type="button" class="dropdown-select-item" data-value="sales">카테고리별 판매량 TOP</button>
+          </div>
         </div>
       </div>
+      <div class="tabs" id="platform-tabs">
+        <button class="tab-btn active" data-platform="musinsa">무신사</button>
+        <button class="tab-btn" data-platform="29cm">29CM</button>
+      </div>
+      <div class="tabs" id="category-tabs"></div>
+      <div id="rank-table-wrap"><div class="loading">불러오는 중...</div></div>
     </div>
-    <div class="tabs" id="platform-tabs">
-      <button class="tab-btn active" data-platform="musinsa">무신사</button>
-      <button class="tab-btn" data-platform="29cm">29CM</button>
+
+    <div class="card">
+      <h2>브랜드 노출 비중 <span class="tag">TOP30 내</span></h2>
+      <div class="bar-chart" id="brand-share-chart"><div class="loading">불러오는 중...</div></div>
+      <div class="muted-note">※ 실시간 랭킹 TOP30에 등장한 브랜드 빈도 (공개 랭킹 데이터 기준)</div>
     </div>
-    <div class="tabs" id="category-tabs"></div>
-    <div id="rank-table-wrap"><div class="loading">불러오는 중...</div></div>
   </div>
 
   <div class="grid">
@@ -586,6 +596,27 @@ function renderDiscountList() {
   `).join("");
 }
 
+function renderBrandShareChart() {
+  const el = document.getElementById("brand-share-chart");
+  const data = currentPlatformData();
+  if (!data?.items?.length) { el.innerHTML = "<div class='loading'>데이터 없음</div>"; return; }
+  const top30 = data.items.slice(0, 30);
+  const counts = {};
+  top30.forEach(item => { counts[item.brand] = (counts[item.brand] || 0) + 1; });
+  const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+  const shown = sorted.slice(0, 6);
+  const restCount = sorted.slice(6).reduce((s, [, c]) => s + c, 0);
+  if (restCount > 0) shown.push(["기타", restCount]);
+  const total = top30.length;
+  el.innerHTML = shown.map(([brand, count]) => `
+    <div class="bar-row">
+      <div>${brand}</div>
+      <div class="bar-track"><div class="bar-fill" style="width:${(count / total * 100).toFixed(1)}%"></div></div>
+      <div class="bar-value">${count}개 · ${Math.round(count / total * 100)}%</div>
+    </div>
+  `).join("");
+}
+
 function renderPriceChart(gender = "all") {
   const el = document.getElementById("price-chart");
   const categories = state.categoryPriceByGender?.categories || {};
@@ -616,6 +647,7 @@ function renderAll() {
     renderProductCards("new-products", data.items.filter(i => i.change === "NEW"));
   }
   renderDiscountList();
+  renderBrandShareChart();
 }
 
 async function init() {
