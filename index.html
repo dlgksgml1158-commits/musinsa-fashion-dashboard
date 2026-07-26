@@ -141,7 +141,8 @@
   .discount-price .price-orig { color: var(--text-muted); text-decoration: line-through; font-size: 11px; margin-left: 0; }
 
   .tabs { display: flex; gap: 6px; margin-bottom: 12px; flex-wrap: wrap; }
-  .mode-select-row { margin-bottom: 12px; text-align: right; position: relative; }
+  #rank-section-title { margin-bottom: 4px; }
+  .mode-select-row { margin-bottom: 6px; text-align: right; position: relative; }
   .dropdown-select { position: relative; display: inline-block; }
   .dropdown-select-toggle {
     display: inline-flex; align-items: center; gap: 4px; font-size: 13px; padding: 0;
@@ -245,7 +246,7 @@
   </div>
 
   <div class="card" style="margin-bottom:16px;">
-    <h2 id="rank-section-title">실시간 랭킹 <span class="tag" id="rank-updated"></span></h2>
+    <h2 id="rank-section-title">실시간 랭킹</h2>
     <div class="mode-select-row">
       <div class="dropdown-select" id="rank-mode-dropdown" data-value="live">
         <button type="button" class="dropdown-select-toggle" id="rank-mode-toggle">
@@ -475,14 +476,12 @@ function renderCategoryTabs() {
 
 function renderRankTable() {
   const wrap = document.getElementById("rank-table-wrap");
-  const updatedEl = document.getElementById("rank-updated");
   const activeCat = document.querySelector("#category-tabs .tab-btn.active")?.dataset.cat;
 
   if (isSalesMode()) {
     const data = state.categorySalesRanking;
     if (!data) { wrap.innerHTML = "<div class='loading'>데이터 없음</div>"; return; }
     const cat = activeCat || Object.keys(data.categories)[0];
-    updatedEl.textContent = `${data.period} · ${timeAgo(data.updatedAt)} 기준`;
     wrap.innerHTML = renderProductTableHtml((data.categories[cat]?.items || []).slice(0, 20));
     return;
   }
@@ -491,16 +490,13 @@ function renderRankTable() {
   if (!data) { wrap.innerHTML = "<div class='loading'>데이터 없음</div>"; return; }
   const cat = activeCat || "__all__";
 
-  let rows, updatedAt;
+  let rows;
   if (isMusinsaPlatform() && cat !== "__all__") {
     const c = state.categoryPriceByGender?.categories?.[cat];
     rows = (c?.items || []).slice(0, 20);
-    updatedAt = state.categoryPriceByGender?.updatedAt;
   } else {
     rows = (cat === "__all__" ? data.items : (data.categories?.[cat] || [])).slice(0, 20);
-    updatedAt = data.updatedAt;
   }
-  updatedEl.textContent = timeAgo(updatedAt) + " 기준";
   wrap.innerHTML = renderProductTableHtml(rows);
 }
 
