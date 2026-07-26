@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T09:31:26.270293+00:00",
+  "updatedAt": "2026-07-26T11:11:33.586713+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,22 +327,22 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 38062,
+        "avg": 38984,
         "min": 11000,
         "max": 159900,
         "count": 60
       },
       "male": {
-        "avg": 37782,
-        "min": 14930,
+        "avg": 39126,
+        "min": 21700,
         "max": 70200,
-        "count": 18
+        "count": 17
       },
       "female": {
-        "avg": 34956,
+        "avg": 35860,
         "min": 11000,
         "max": 79380,
-        "count": 38
+        "count": 39
       },
       "items": [
         {
@@ -973,22 +973,22 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 67300,
+        "avg": 67598,
         "min": 9900,
         "max": 495000,
         "count": 60
       },
       "male": {
-        "avg": 78386,
+        "avg": 81849,
         "min": 21800,
         "max": 396990,
-        "count": 17
+        "count": 16
       },
       "female": {
-        "avg": 45001,
+        "avg": 44785,
         "min": 11960,
         "max": 98040,
-        "count": 18
+        "count": 19
       },
       "items": [
         {
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 42936,
+        "avg": 42852,
         "min": 14250,
         "max": 124200,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 28
       },
       "female": {
-        "avg": 38337,
+        "avg": 38176,
         "min": 14250,
         "max": 91130,
         "count": 31
@@ -1471,8 +1471,8 @@
           "name": "오간자 레이어드 블라우스_MIWBWG511G",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 0,
-          "finalPrice": 49900,
+          "discountRate": 10,
+          "finalPrice": 44910,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260401/6237554/6237554_17787406683233_500.jpg",
@@ -1631,7 +1631,7 @@
         "count": 31
       },
       "female": {
-        "avg": 33257,
+        "avg": 33255,
         "min": 10060,
         "max": 70300,
         "count": 22
@@ -2911,22 +2911,22 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 47904,
+        "avg": 46386,
         "min": 9900,
         "max": 179000,
         "count": 60
       },
       "male": {
-        "avg": 52373,
+        "avg": 50844,
         "min": 25890,
         "max": 179000,
-        "count": 15
+        "count": 16
       },
       "female": {
-        "avg": 49621,
+        "avg": 47580,
         "min": 13450,
-        "max": 119000,
-        "count": 35
+        "max": 89000,
+        "count": 34
       },
       "items": [
         {
@@ -3111,21 +3111,6 @@
         },
         {
           "rank": 13,
-          "id": "ms-6336948",
-          "brand": "아디다스",
-          "name": "새틴 레이스 파이어버드 루즈 트랙 팬츠 - 나이트인디고 / LF2674",
-          "price": 119000,
-          "originalPrice": 119000,
-          "discountRate": 0,
-          "finalPrice": 119000,
-          "category": "003004",
-          "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260420/6336948/6336948_17767568843306_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6336948",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 14,
           "id": "ms-5156702",
           "brand": "줄리아페페",
           "name": "[양양,지똥 PICK] Natural Stripe Pants (Blue)",
@@ -3140,7 +3125,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-5386361",
           "brand": "엘리메노",
           "name": "EL 베이직 절개 테이핑 트랙 팬츠 2Color",
@@ -3155,7 +3140,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-5363832",
           "brand": "토피",
           "name": "사이드 라인 트랙 팬츠 (NAVY)",
@@ -3170,7 +3155,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6697007",
           "brand": "썬번프로젝트",
           "name": "SUNBURN X PAUL FRANK COTTON BANDING PANTS, BLUE",
@@ -3185,7 +3170,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6004700",
           "brand": "슈퍼서브",
           "name": "와이드 배기 파이핑 팬츠 - 블랙",
@@ -3200,7 +3185,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-4430592",
           "brand": "아디다스",
           "name": "(x크세니아) 투인원 트랙 스웨트 팬츠 - 그레이:블루 / IW5670",
@@ -3215,7 +3200,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5337147",
           "brand": "빼빼",
           "name": "맞춤 2기장 2WAY 사이드핀턱  밑단스냅버튼 밴딩 스트링 와이드 트레이닝 스웻 팬츠 4COLOR (숏/ 롱 2TYPE 길이)",
@@ -3228,6 +3213,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250819/5337147/5337147_17555823136124_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5337147",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-3069977",
+          "brand": "커스텀어클락",
+          "name": "와이드 원턱 스웻팬츠 8 COLOR COOSPT207",
+          "price": 49000,
+          "originalPrice": 49000,
+          "discountRate": 40,
+          "finalPrice": 29400,
+          "category": "003004",
+          "categoryLabel": "트레이닝/조거",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20230208/3069977/3069977_17847851632129_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3069977",
+          "displayGenderText": "남성"
         }
       ]
     },
