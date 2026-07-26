@@ -215,6 +215,23 @@
   .bar-fill { background: var(--series-blue); height: 100%; border-radius: 4px 0 0 4px; }
   .bar-value { text-align: right; color: var(--text-secondary); font-variant-numeric: tabular-nums; }
 
+  .brand-donut-body { display: flex; flex-direction: column; align-items: center; gap: 12px; padding: 4px 0 0; }
+  .brand-donut-svg { flex-shrink: 0; }
+  .brand-donut-center-count { font-size: 15px; font-weight: 800; fill: var(--text-primary); }
+  .brand-donut-center-label { font-size: 6.5px; font-weight: 600; fill: var(--text-muted); }
+  .brand-donut-legend { width: 100%; display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px 10px; }
+  .brand-donut-legend-item { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; min-width: 0; font-size: 11px; }
+  .brand-donut-legend-item-top { display: flex; align-items: center; gap: 5px; min-width: 0; width: 100%; }
+  .brand-donut-swatch { width: 8px; height: 8px; border-radius: 2px; flex-shrink: 0; }
+  .brand-donut-legend-name {
+    flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    color: var(--text-primary); font-weight: 600;
+  }
+  .brand-donut-legend-pct {
+    color: var(--text-muted); font-weight: 700; font-variant-numeric: tabular-nums;
+    font-size: 10px; padding-left: 13px;
+  }
+
   .legend { display: flex; gap: 14px; font-size: 11px; color: var(--text-secondary); margin-bottom: 10px; }
   .legend .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 4px; }
 
@@ -272,7 +289,7 @@
 
     <div class="card">
       <h2>브랜드 노출 비중 <span class="tag">TOP30 내</span></h2>
-      <div class="bar-chart" id="brand-share-chart"><div class="loading">불러오는 중...</div></div>
+      <div class="brand-donut-body" id="brand-share-chart"><div class="loading">불러오는 중...</div></div>
       <div class="muted-note">※ 실시간 랭킹 TOP30에 등장한 브랜드 빈도 (공개 랭킹 데이터 기준)</div>
     </div>
   </div>
@@ -596,6 +613,9 @@ function renderDiscountList() {
   `).join("");
 }
 
+const BRAND_DONUT_COLORS = ["#2a78d6", "#4a3aa7", "#1baf7a", "#e87ba4", "#eb6834", "#eda100"];
+const BRAND_DONUT_OTHER_COLOR = "#94a3b8";
+
 function renderBrandShareChart() {
   const el = document.getElementById("brand-share-chart");
   const data = currentPlatformData();
@@ -604,17 +624,38 @@ function renderBrandShareChart() {
   const counts = {};
   top30.forEach(item => { counts[item.brand] = (counts[item.brand] || 0) + 1; });
   const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
-  const shown = sorted.slice(0, 6);
+  const shown = sorted.slice(0, 6).map(([brand, count], i) => ({ brand, count, color: BRAND_DONUT_COLORS[i] }));
   const restCount = sorted.slice(6).reduce((s, [, c]) => s + c, 0);
-  if (restCount > 0) shown.push(["기타", restCount]);
+  if (restCount > 0) shown.push({ brand: "기타", count: restCount, color: BRAND_DONUT_OTHER_COLOR });
   const total = top30.length;
-  el.innerHTML = shown.map(([brand, count]) => `
-    <div class="bar-row">
-      <div>${brand}</div>
-      <div class="bar-track"><div class="bar-fill" style="width:${(count / total * 100).toFixed(1)}%"></div></div>
-      <div class="bar-value">${count}개 · ${Math.round(count / total * 100)}%</div>
+
+  const R = 40, CIRC = 2 * Math.PI * R;
+  let offset = 0;
+  const circles = shown.map(({ brand, count, color }) => {
+    const len = (count / total) * CIRC;
+    const circle = `<circle cx="50" cy="50" r="${R}" fill="none" stroke="${color}" stroke-width="16" stroke-dasharray="${len.toFixed(2)} ${(CIRC - len).toFixed(2)}" stroke-dashoffset="${(-offset).toFixed(2)}" transform="rotate(-90 50 50)"><title>${brand} ${count}개</title></circle>`;
+    offset += len;
+    return circle;
+  }).join("");
+
+  const legend = shown.map(({ brand, count, color }) => `
+    <div class="brand-donut-legend-item">
+      <span class="brand-donut-legend-item-top">
+        <span class="brand-donut-swatch" style="background:${color}"></span>
+        <span class="brand-donut-legend-name">${brand}</span>
+      </span>
+      <span class="brand-donut-legend-pct">${count}개 · ${Math.round(count / total * 100)}%</span>
     </div>
   `).join("");
+
+  el.innerHTML = `
+    <svg class="brand-donut-svg" width="92" height="92" viewBox="0 0 100 100">
+      ${circles}
+      <text x="50" y="47" text-anchor="middle" class="brand-donut-center-count">${total}</text>
+      <text x="50" y="58" text-anchor="middle" class="brand-donut-center-label">TOP ${total}</text>
+    </svg>
+    <div class="brand-donut-legend">${legend}</div>
+  `;
 }
 
 function renderPriceChart(gender = "all") {
