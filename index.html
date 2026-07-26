@@ -412,18 +412,20 @@ function renderWeather(w) {
   `).join("");
   el.innerHTML = `
     <h2>서울 날씨 <span class="tag">${w.source || ""}</span></h2>
-    <div class="weather-row">
-      <div class="weather-temp">${Math.round(w.current.temp)}°C</div>
-      <div class="weather-label">${w.current.weatherLabel}</div>
+    <div class="scroll-box">
+      <div class="weather-row">
+        <div class="weather-temp">${Math.round(w.current.temp)}°C</div>
+        <div class="weather-label">${w.current.weatherLabel}</div>
+      </div>
+      <div class="weather-stats">
+        <span>체감 <b>${w.current.feelsLike}°C</b></span>
+        <span>습도 <b>${w.current.humidity}%</b></span>
+        <span>바람 <b>${w.current.windSpeed}m/s</b></span>
+      </div>
+      <div class="week-forecast">${week}</div>
+      <div class="weather-summary">${w.week.summary}</div>
+      <div id="day-suggestions"></div>
     </div>
-    <div class="weather-stats">
-      <span>체감 <b>${w.current.feelsLike}°C</b></span>
-      <span>습도 <b>${w.current.humidity}%</b></span>
-      <span>바람 <b>${w.current.windSpeed}m/s</b></span>
-    </div>
-    <div class="week-forecast">${week}</div>
-    <div class="weather-summary">${w.week.summary}</div>
-    <div id="day-suggestions"></div>
   `;
   el.querySelectorAll(".week-day-cell").forEach(cell => {
     cell.addEventListener("click", () => renderDayDetail(Number(cell.dataset.dayIdx)));
