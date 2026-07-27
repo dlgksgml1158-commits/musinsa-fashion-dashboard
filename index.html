@@ -461,7 +461,7 @@ function renderSeasonalTrends(n) {
   if (!n || !n.items?.length) { el.innerHTML = "<div class='loading'>데이터 없음</div>"; return; }
   el.innerHTML = n.items.map(item => `
     <div class="news-item">
-      <a href="${item.link}" target="_blank" rel="noopener">${item.title}</a>
+      <a href="${item.link}" target="_blank" rel="noopener" title="${item.titleOriginal || ""}">${item.title}</a>
       <div class="meta">${item.source || ""}</div>
     </div>
   `).join("");

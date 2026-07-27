@@ -7,6 +7,7 @@ Sources fetched fresh (public, no auth): weather (Naver Weather search widget), 
 import json
 import re
 import time
+import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -286,6 +287,19 @@ def fetch_fashion_news():
 SEASON_TREND_KEYWORDS = ["トレンド", "春夏", "秋冬", "シーズン"]
 
 
+def translate_ja_to_ko(text):
+    # Unofficial (undocumented, no-auth) Google Translate endpoint — same one used by
+    # the widely-used googletrans library. Best-effort: falls back to original text.
+    try:
+        q = urllib.parse.quote(text)
+        url = f"https://translate.googleapis.com/translate_a/single?client=gtx&sl=ja&tl=ko&dt=t&q={q}"
+        data = fetch_json(url, headers=BROWSER_HEADERS)
+        return "".join(chunk[0] for chunk in data[0])
+    except Exception as e:
+        print(f"translate failed for {text[:20]}...: {e}")
+        return text
+
+
 def fetch_seasonal_trends():
     # FASHIONSNAP (Japanese fashion trade media) — filtered to season/collection trend
     # roundups only, out of its general news RSS feed. Public feed, no auth.
@@ -294,13 +308,14 @@ def fetch_seasonal_trends():
     items = []
     for block in re.findall(r"<item>([\s\S]*?)</item>", xml):
         title_m = re.search(r"<title>([\s\S]*?)</title>", block)
-        title = decode_entities(title_m.group(1)) if title_m else ""
-        if not any(k in title for k in SEASON_TREND_KEYWORDS):
+        title_ja = decode_entities(title_m.group(1)) if title_m else ""
+        if not any(k in title_ja for k in SEASON_TREND_KEYWORDS):
             continue
         link_m = re.search(r"<link>([\s\S]*?)</link>", block)
         pub_m = re.search(r"<pubDate>([\s\S]*?)</pubDate>", block)
         items.append({
-            "title": title,
+            "title": translate_ja_to_ko(title_ja),
+            "titleOriginal": title_ja,
             "link": link_m.group(1).strip() if link_m else "",
             "pubDate": pub_m.group(1) if pub_m else "",
             "source": "FASHIONSNAP",

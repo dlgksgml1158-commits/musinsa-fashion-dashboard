@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T07:43:56.353792+00:00",
+  "updatedAt": "2026-07-27T07:49:30.544249+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1619,13 +1619,13 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 36573,
+        "avg": 36450,
         "min": 10060,
         "max": 92650,
         "count": 60
       },
       "male": {
-        "avg": 40875,
+        "avg": 40628,
         "min": 15600,
         "max": 92650,
         "count": 30
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-98141",
+          "id": "ms-98146",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,15 +2588,15 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 34539,
+        "avg": 33994,
         "min": 7920,
-        "max": 96850,
+        "max": 85120,
         "count": 60
       },
       "male": {
-        "avg": 35616,
+        "avg": 34818,
         "min": 10590,
-        "max": 96850,
+        "max": 64130,
         "count": 41
       },
       "female": {
@@ -2788,6 +2788,21 @@
         },
         {
           "rank": 13,
+          "id": "ms-6398914",
+          "brand": "애습",
+          "name": "린넨 와이드 슬랙스 - 크림",
+          "price": 75000,
+          "originalPrice": 75000,
+          "discountRate": 14,
+          "finalPrice": 64130,
+          "category": "003008",
+          "categoryLabel": "슬랙스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260429/6398914/6398914_17774350550447_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6398914",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 14,
           "id": "ms-5328102",
           "brand": "효지",
           "name": "투턱 세미와이드 슬랙스 (사계절,여름-8컬러)",
@@ -2802,7 +2817,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-6294202",
           "brand": "드릭스",
           "name": "[여름용] 에어쿨 오피스 밴딩 슬랙스_4color",
@@ -2817,7 +2832,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-3134728",
           "brand": "무신사 스탠다드 우먼",
           "name": "[쿨탠다드] 우먼즈 세미 벌룬 히든 밴딩 슬랙스 [블랙]",
@@ -2832,7 +2847,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-2578997",
           "brand": "시그니처",
           "name": "[여름원단추가]더블턱 와이드 슬랙스[그레이]",
@@ -2847,7 +2862,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-4163350",
           "brand": "토피",
           "name": "섬머 내츄럴 와이드 밴딩 슬랙스 (5 COLOURS)",
@@ -2862,7 +2877,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-4750069",
           "brand": "워크온바디오프",
           "name": "(여름추가) 레베 세미 와이드 원턱 슬랙스 (2color)",
@@ -2877,7 +2892,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-6154426",
           "brand": "디미트리블랙",
           "name": "[여름용] ASI 원턱 와이드 플리츠 팬츠_블랙",
@@ -2890,21 +2905,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260318/6154426/6154426_17785725680250_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6154426",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-4899084",
-          "brand": "마인드브릿지 우먼",
-          "name": "[W]원턱 와이드 슬랙스 - 4color",
-          "price": 89900,
-          "originalPrice": 89900,
-          "discountRate": 67,
-          "finalPrice": 29900,
-          "category": "003008",
-          "categoryLabel": "슬랙스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250314/4899084/4899084_17461526938908_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4899084",
-          "displayGenderText": "여성"
         }
       ]
     },
