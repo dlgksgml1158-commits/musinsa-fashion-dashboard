@@ -283,6 +283,33 @@ def fetch_fashion_news():
     return {"updatedAt": datetime.now(timezone.utc).isoformat(), "items": items}
 
 
+SEASON_TREND_KEYWORDS = ["トレンド", "春夏", "秋冬", "シーズン"]
+
+
+def fetch_seasonal_trends():
+    # FASHIONSNAP (Japanese fashion trade media) — filtered to season/collection trend
+    # roundups only, out of its general news RSS feed. Public feed, no auth.
+    url = "https://www.fashionsnap.com/rss.xml"
+    xml = fetch_text(url, headers=BROWSER_HEADERS)
+    items = []
+    for block in re.findall(r"<item>([\s\S]*?)</item>", xml):
+        title_m = re.search(r"<title>([\s\S]*?)</title>", block)
+        title = decode_entities(title_m.group(1)) if title_m else ""
+        if not any(k in title for k in SEASON_TREND_KEYWORDS):
+            continue
+        link_m = re.search(r"<link>([\s\S]*?)</link>", block)
+        pub_m = re.search(r"<pubDate>([\s\S]*?)</pubDate>", block)
+        items.append({
+            "title": title,
+            "link": link_m.group(1).strip() if link_m else "",
+            "pubDate": pub_m.group(1) if pub_m else "",
+            "source": "FASHIONSNAP",
+        })
+        if len(items) >= 10:
+            break
+    return {"updatedAt": datetime.now(timezone.utc).isoformat(), "items": items}
+
+
 def main():
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     sync_public_upstream_files()
@@ -300,6 +327,13 @@ def main():
         print("synced fashion_news.json")
     except Exception as e:
         print(f"failed fashion_news.json: {e}")
+
+    try:
+        seasonal = fetch_seasonal_trends()
+        (DATA_DIR / "seasonal_trends.json").write_text(json.dumps(seasonal, ensure_ascii=False, indent=2))
+        print("synced seasonal_trends.json")
+    except Exception as e:
+        print(f"failed seasonal_trends.json: {e}")
 
     try:
         gender_price = fetch_category_price_by_gender()

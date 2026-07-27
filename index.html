@@ -300,8 +300,8 @@
         <div class="brand-donut-body" id="brand-share-chart"><div class="loading">불러오는 중...</div></div>
       </div>
       <div class="card">
-        <h2>시즌별 트렌드 분석</h2>
-        <div id="seasonal-trend-placeholder" class="placeholder-box">준비 중</div>
+        <h2>시즌별 트렌드 분석 <span class="tag">FASHIONSNAP</span></h2>
+        <div id="seasonal-trend-body"><div class="loading">불러오는 중...</div></div>
       </div>
     </div>
   </div>
@@ -454,6 +454,17 @@ function renderNews(n) {
       <div class="meta">${item.source || ""}</div>
     </div>
   `).join("") + `</div>`;
+}
+
+function renderSeasonalTrends(n) {
+  const el = document.getElementById("seasonal-trend-body");
+  if (!n || !n.items?.length) { el.innerHTML = "<div class='loading'>데이터 없음</div>"; return; }
+  el.innerHTML = n.items.map(item => `
+    <div class="news-item">
+      <a href="${item.link}" target="_blank" rel="noopener">${item.title}</a>
+      <div class="meta">${item.source || ""}</div>
+    </div>
+  `).join("");
 }
 
 function renderKeywords(kind) {
@@ -708,16 +719,18 @@ function renderAll() {
 async function init() {
   enableDragScroll(document.getElementById("new-products"));
 
-  const [musinsa, cm29, searchTrends, naverTrends, weather, news, meta, categoryPriceByGender, categorySalesRanking] = await Promise.all([
+  const [musinsa, cm29, searchTrends, naverTrends, weather, news, meta, categoryPriceByGender, categorySalesRanking, seasonalTrends] = await Promise.all([
     loadJson("musinsa.json"), loadJson("29cm.json"), loadJson("musinsa_search_trends.json"),
     loadJson("naver_trends.json"), loadJson("weather.json"), loadJson("fashion_news.json"), loadJson("meta.json"),
     loadJson("musinsa_category_price_by_gender.json"), loadJson("musinsa_category_sales_ranking.json"),
+    loadJson("seasonal_trends.json"),
   ]);
-  Object.assign(state, { musinsa, cm29, searchTrends, naverTrends, weather, news, categoryPriceByGender, categorySalesRanking });
+  Object.assign(state, { musinsa, cm29, searchTrends, naverTrends, weather, news, categoryPriceByGender, categorySalesRanking, seasonalTrends });
 
   document.getElementById("updated-badge").textContent = meta ? `${timeAgo(meta.updatedAt)} 갱신` : "";
   renderWeather(weather);
   renderNews(news);
+  renderSeasonalTrends(seasonalTrends);
   renderKeywords("ms-pop");
   renderAll();
   renderPriceChart();
