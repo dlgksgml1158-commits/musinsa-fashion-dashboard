@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-27T08:26:30.462126+00:00",
+  "updatedAt": "2026-07-27T11:47:40.270418+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 46151,
+        "avg": 46166,
         "min": 9900,
         "max": 160200,
         "count": 60
@@ -16,7 +16,7 @@
         "count": 22
       },
       "female": {
-        "avg": 55435,
+        "avg": 55467,
         "min": 9900,
         "max": 160200,
         "count": 28
@@ -249,6 +249,21 @@
         },
         {
           "rank": 16,
+          "id": "ms-3812607",
+          "brand": "디스이즈네버댓",
+          "name": "THAT Hands W Tee White",
+          "price": 45000,
+          "originalPrice": 45000,
+          "discountRate": 60,
+          "finalPrice": 18000,
+          "category": "001001",
+          "categoryLabel": "반소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240122/3812607/3812607_17065179402145_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3812607",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 17,
           "id": "ms-6809742",
           "brand": "에잇세컨즈",
           "name": "셔츠 배색 저지 카디건  네이비",
@@ -263,7 +278,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-6689505",
           "brand": "유라고",
           "name": "Vintage estival t-shirt_3colors",
@@ -278,7 +293,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-6418260",
           "brand": "8톤트럭케이스",
           "name": "[반팔티셔츠 흘려도티안나]남여공용 오버핏",
@@ -293,7 +308,7 @@
           "displayGenderText": ""
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-6453592",
           "brand": "토피",
           "name": "[S-XXL] 슬림 크롭 헨리넥 하프 티셔츠 (BLUE)",
@@ -306,43 +321,28 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260511/6453592/6453592_17809898594366_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6453592",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6761404",
-          "brand": "라이크더모스트",
-          "name": "도트 듀얼스타 레귤러 반팔 티셔츠_7colors",
-          "price": 37800,
-          "originalPrice": 37800,
-          "discountRate": 74,
-          "finalPrice": 9900,
-          "category": "001001",
-          "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260701/6761404/6761404_17828749148545_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6761404",
-          "displayGenderText": "여성"
         }
       ]
     },
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 39764,
+        "avg": 39552,
         "min": 11000,
         "max": 159900,
         "count": 60
       },
       "male": {
-        "avg": 39705,
+        "avg": 39768,
         "min": 22990,
         "max": 70200,
-        "count": 18
+        "count": 17
       },
       "female": {
-        "avg": 36733,
+        "avg": 36456,
         "min": 11000,
         "max": 79380,
-        "count": 38
+        "count": 39
       },
       "items": [
         {
@@ -979,10 +979,10 @@
         "count": 60
       },
       "male": {
-        "avg": 82668,
+        "avg": 84573,
         "min": 10000,
         "max": 396990,
-        "count": 15
+        "count": 14
       },
       "female": {
         "avg": 41014,
@@ -1184,7 +1184,7 @@
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20251218/5839958/5839958_17663732378804_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5839958",
-          "displayGenderText": "남성"
+          "displayGenderText": "공용"
         },
         {
           "rank": 14,
@@ -1619,22 +1619,22 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 36372,
+        "avg": 36242,
         "min": 10060,
         "max": 92650,
         "count": 60
       },
       "male": {
-        "avg": 40473,
+        "avg": 40358,
         "min": 15600,
         "max": 92650,
-        "count": 30
+        "count": 31
       },
       "female": {
-        "avg": 33039,
+        "avg": 32508,
         "min": 10060,
         "max": 59410,
-        "count": 23
+        "count": 22
       },
       "items": [
         {
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 70462,
+        "avg": 70550,
         "min": 11930,
         "max": 427500,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 13
       },
       "female": {
-        "avg": 47564,
+        "avg": 47706,
         "min": 11930,
         "max": 146990,
         "count": 38
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-98144",
+          "id": "ms-98146",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,7 +2588,7 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 33994,
+        "avg": 34210,
         "min": 7920,
         "max": 85120,
         "count": 60
@@ -2853,8 +2853,8 @@
           "name": "[여름원단추가]더블턱 와이드 슬랙스[그레이]",
           "price": 59000,
           "originalPrice": 59000,
-          "discountRate": 51,
-          "finalPrice": 28900,
+          "discountRate": 41,
+          "finalPrice": 34900,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20220524/2578997/2578997_17761498833056_500.jpg",
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 45458,
+        "avg": 45426,
         "min": 9900,
         "max": 179000,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 16
       },
       "female": {
-        "avg": 46540,
+        "avg": 46482,
         "min": 13450,
         "max": 89000,
         "count": 33
