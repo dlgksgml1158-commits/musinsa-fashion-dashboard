@@ -301,6 +301,7 @@
       </div>
       <div class="card">
         <h2>시즌별 트렌드 분석 <span class="tag">FASHIONSNAP</span></h2>
+        <div class="tabs" id="season-tabs"></div>
         <div id="seasonal-trend-body"><div class="loading">불러오는 중...</div></div>
       </div>
     </div>
@@ -457,14 +458,36 @@ function renderNews(n) {
 }
 
 function renderSeasonalTrends(n) {
-  const el = document.getElementById("seasonal-trend-body");
-  if (!n || !n.items?.length) { el.innerHTML = "<div class='loading'>데이터 없음</div>"; return; }
-  el.innerHTML = n.items.map(item => `
-    <div class="news-item">
-      <a href="${item.link}" target="_blank" rel="noopener" title="${item.titleOriginal || ""}">${item.title}</a>
-      <div class="meta">${item.source || ""}</div>
-    </div>
-  `).join("");
+  const tabsEl = document.getElementById("season-tabs");
+  const bodyEl = document.getElementById("seasonal-trend-body");
+  if (!n || !n.items?.length) {
+    tabsEl.innerHTML = "";
+    bodyEl.innerHTML = "<div class='loading'>데이터 없음</div>";
+    return;
+  }
+  // Seasons sort newest-first: "27SS" -> 2700, "26AW" -> 2601, so year desc then AW-before-SS within a year.
+  const seasons = [...new Set(n.items.map(i => i.season))].sort((a, b) => {
+    const rank = s => parseInt(s.slice(0, 2), 10) * 10 + (s.endsWith("AW") ? 1 : 0);
+    return rank(b) - rank(a);
+  });
+
+  const renderList = (season) => {
+    const items = n.items.filter(i => i.season === season);
+    bodyEl.innerHTML = items.map(item => `
+      <div class="news-item">
+        <a href="${item.link}" target="_blank" rel="noopener" title="${item.titleOriginal || ""}">${item.title}</a>
+        <div class="meta">${item.source || ""}</div>
+      </div>
+    `).join("");
+  };
+
+  tabsEl.innerHTML = seasons.map((s, i) => `<button class="tab-btn ${i === 0 ? "active" : ""}" data-season="${s}">${s}</button>`).join("");
+  tabsEl.querySelectorAll(".tab-btn").forEach(btn => btn.addEventListener("click", () => {
+    tabsEl.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    renderList(btn.dataset.season);
+  }));
+  renderList(seasons[0]);
 }
 
 function renderKeywords(kind) {
