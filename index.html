@@ -85,6 +85,11 @@
     .rank-and-brand-grid { grid-template-columns: 1fr; }
     .rank-and-brand-grid > :first-child { grid-column: span 1; }
   }
+  .side-stack { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+  .placeholder-box {
+    min-height: 200px; display: flex; align-items: center; justify-content: center;
+    color: var(--text-muted); font-size: 13px; border: 1px dashed var(--border); border-radius: 8px;
+  }
   .grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
   @media (max-width: 900px) { .grid.cols-3 { grid-template-columns: 1fr; } }
 
@@ -289,9 +294,15 @@
       <div id="rank-table-wrap"><div class="loading">불러오는 중...</div></div>
     </div>
 
-    <div class="card">
-      <h2>브랜드 노출 비중 <span class="tag">TOP30 내</span></h2>
-      <div class="brand-donut-body" id="brand-share-chart"><div class="loading">불러오는 중...</div></div>
+    <div class="side-stack">
+      <div class="card">
+        <h2>브랜드 노출 비중 <span class="tag">TOP30 내</span></h2>
+        <div class="brand-donut-body" id="brand-share-chart"><div class="loading">불러오는 중...</div></div>
+      </div>
+      <div class="card">
+        <h2>시즌별 트렌드 분석</h2>
+        <div id="seasonal-trend-placeholder" class="placeholder-box">준비 중</div>
+      </div>
     </div>
   </div>
 
