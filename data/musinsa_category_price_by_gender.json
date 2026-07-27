@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T16:37:05.731996+00:00",
+  "updatedAt": "2026-07-27T18:16:40.653752+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 43703,
+        "avg": 43466,
         "min": 15540,
         "max": 124200,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 28
       },
       "female": {
-        "avg": 39755,
+        "avg": 39297,
         "min": 15540,
         "max": 91130,
         "count": 31
@@ -1471,8 +1471,8 @@
           "name": "오간자 레이어드 블라우스_MIWBWG511G",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 5,
-          "finalPrice": 47400,
+          "discountRate": 19,
+          "finalPrice": 40290,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260401/6237554/6237554_17787406683233_500.jpg",
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 65720,
+        "avg": 65630,
         "min": 11930,
         "max": 427500,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 13
       },
       "female": {
-        "avg": 45023,
+        "avg": 44877,
         "min": 11930,
         "max": 139500,
         "count": 37
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-97477",
+          "id": "ms-98141",
           "brand": "",
           "name": "",
           "price": null,
