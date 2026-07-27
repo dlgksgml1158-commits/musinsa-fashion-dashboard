@@ -79,8 +79,12 @@
   }
 
   .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; margin-bottom: 16px; align-items: start; }
-  .rank-and-brand-grid { grid-template-columns: 2fr 1fr; }
-  @media (max-width: 900px) { .rank-and-brand-grid { grid-template-columns: 1fr; } }
+  .rank-and-brand-grid { grid-template-columns: repeat(3, 1fr); }
+  .rank-and-brand-grid > :first-child { grid-column: span 2; }
+  @media (max-width: 900px) {
+    .rank-and-brand-grid { grid-template-columns: 1fr; }
+    .rank-and-brand-grid > :first-child { grid-column: span 1; }
+  }
   .grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
   @media (max-width: 900px) { .grid.cols-3 { grid-template-columns: 1fr; } }
 
