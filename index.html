@@ -491,7 +491,7 @@ function renderSeasonalTrends(n) {
   }
   // Seasons sort newest-first: "27SS" -> 2700, "26AW" -> 2601, so year desc then AW-before-SS within a year.
   const seasons = [...new Set(n.items.map(i => i.season))].sort((a, b) => {
-    const rank = s => parseInt(s.slice(0, 2), 10) * 10 + (s.endsWith("AW") ? 1 : 0);
+    const rank = s => parseInt(s.slice(0, 2), 10) * 10 + (s.endsWith("FW") ? 1 : 0);
     return rank(b) - rank(a);
   });
 

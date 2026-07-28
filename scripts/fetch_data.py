@@ -302,7 +302,7 @@ def _season_tag_to_code(tag):
     if not m:
         return None
     yy = m.group(1)[-2:]
-    code = "SS" if m.group(2) == "春夏" else "AW"
+    code = "SS" if m.group(2) == "春夏" else "FW"
     return f"{yy}{code}"
 
 
