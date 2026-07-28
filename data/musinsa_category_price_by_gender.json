@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T23:51:30.156140+00:00",
+  "updatedAt": "2026-07-28T01:03:52.208488+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 43466,
+        "avg": 43433,
         "min": 15540,
         "max": 124200,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 28
       },
       "female": {
-        "avg": 39297,
+        "avg": 39232,
         "min": 15540,
         "max": 91130,
         "count": 31
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-98143",
+          "id": "ms-98332",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,15 +2588,15 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 34314,
+        "avg": 35232,
         "min": 7920,
-        "max": 85120,
+        "max": 96850,
         "count": 60
       },
       "male": {
-        "avg": 34970,
+        "avg": 36314,
         "min": 10590,
-        "max": 64130,
+        "max": 96850,
         "count": 41
       },
       "female": {
@@ -2823,8 +2823,8 @@
           "name": "[여름용] 에어쿨 오피스 밴딩 슬랙스_4color",
           "price": 50000,
           "originalPrice": 50000,
-          "discountRate": 34,
-          "finalPrice": 32800,
+          "discountRate": 44,
+          "finalPrice": 27880,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260410/6294202/6294202_17770127323517_500.jpg",
@@ -2878,21 +2878,6 @@
         },
         {
           "rank": 19,
-          "id": "ms-4750069",
-          "brand": "워크온바디오프",
-          "name": "(여름추가) 레베 세미 와이드 원턱 슬랙스 (2color)",
-          "price": 67000,
-          "originalPrice": 67000,
-          "discountRate": 45,
-          "finalPrice": 36850,
-          "category": "003008",
-          "categoryLabel": "슬랙스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250203/4750069/4750069_17582668061923_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4750069",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
           "id": "ms-6154426",
           "brand": "디미트리블랙",
           "name": "[여름용] ASI 원턱 와이드 플리츠 팬츠_블랙",
@@ -2905,6 +2890,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260318/6154426/6154426_17785725680250_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6154426",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4899084",
+          "brand": "마인드브릿지 우먼",
+          "name": "[W]원턱 와이드 슬랙스 - 4color",
+          "price": 89900,
+          "originalPrice": 89900,
+          "discountRate": 67,
+          "finalPrice": 29900,
+          "category": "003008",
+          "categoryLabel": "슬랙스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250314/4899084/4899084_17461526938908_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4899084",
+          "displayGenderText": "여성"
         }
       ]
     },
@@ -3234,22 +3234,22 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 44205,
+        "avg": 44148,
         "min": 9990,
         "max": 170050,
         "count": 60
       },
       "male": {
-        "avg": 46757,
+        "avg": 46264,
         "min": 19300,
         "max": 170050,
-        "count": 29
+        "count": 30
       },
       "female": {
-        "avg": 44360,
+        "avg": 44752,
         "min": 19140,
         "max": 121500,
-        "count": 24
+        "count": 23
       },
       "items": [
         {

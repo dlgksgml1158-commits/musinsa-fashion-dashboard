@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T23:51:38.248388+00:00",
+  "updatedAt": "2026-07-28T01:04:00.884014+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1397,8 +1397,8 @@
           "name": "소프트 타이 버튼 블라우스_블랙",
           "price": 41000,
           "originalPrice": 41000,
-          "discountRate": 27,
-          "finalPrice": 29900,
+          "discountRate": 32,
+          "finalPrice": 27900,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6359182/6359182_17770106651833_500.jpg",
@@ -2597,21 +2597,6 @@
         },
         {
           "rank": 11,
-          "id": "ms-4750069",
-          "brand": "워크온바디오프",
-          "name": "(여름추가) 레베 세미 와이드 원턱 슬랙스 (2color)",
-          "price": 67000,
-          "originalPrice": 67000,
-          "discountRate": 45,
-          "finalPrice": 36850,
-          "category": "003008",
-          "categoryLabel": "슬랙스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250203/4750069/4750069_17582668061923_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4750069",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 12,
           "id": "ms-3153802",
           "brand": "무신사 스탠다드",
           "name": "쿨링 딥 턱 와이드 밴딩 팬츠 [블랙]",
@@ -2626,7 +2611,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-1440874",
           "brand": "무신사 스탠다드",
           "name": "[쿨탠다드] 테이퍼드 히든 밴딩 크롭 슬랙스 [블랙]",
@@ -2641,7 +2626,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-3134710",
           "brand": "무신사 스탠다드",
           "name": "썸머울 투 턱 와이드 히든 밴딩 슬랙스 [블랙]",
@@ -2656,7 +2641,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-1168906",
           "brand": "무신사 스탠다드",
           "name": "와이드 히든 밴딩 슬랙스 [블랙]",
@@ -2671,7 +2656,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6154426",
           "brand": "디미트리블랙",
           "name": "[여름용] ASI 원턱 와이드 플리츠 팬츠_블랙",
@@ -2686,7 +2671,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-1168922",
           "brand": "무신사 스탠다드",
           "name": "리얼 와이드 히든 밴딩 슬랙스 [블랙]",
@@ -2701,7 +2686,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5328102",
           "brand": "효지",
           "name": "투턱 세미와이드 슬랙스 (사계절,여름-8컬러)",
@@ -2716,7 +2701,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5746361",
           "brand": "무신사 스탠다드",
           "name": "[이도현 PICK] 엑스트라 와이드 투 턱 히든 밴딩 슬랙스 [블랙]",
@@ -2731,7 +2716,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-3105475",
           "brand": "르아브",
           "name": "라이크 리넨 팬츠 (4 Colors)",
@@ -2743,6 +2728,21 @@
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230223/3105475/3105475_17139316486186_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3105475",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-2957579",
+          "brand": "무신사 스탠다드",
+          "name": "[쿨탠다드] 와이드 히든 밴딩 슬랙스 [건메탈]",
+          "price": 45900,
+          "originalPrice": 45900,
+          "discountRate": 30,
+          "finalPrice": 31990,
+          "category": "003008",
+          "categoryLabel": "슬랙스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20221123/2957579/2957579_17222305877871_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/2957579",
           "displayGenderText": "남성"
         }
       ]
