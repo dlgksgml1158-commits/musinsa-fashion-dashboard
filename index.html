@@ -135,8 +135,15 @@
 
   .scroll-box { max-height: 340px; overflow-y: auto; }
   #seasonal-trend-body { max-height: 240px; overflow-y: auto; }
-  #season-color-palette { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
-  .color-chip { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-secondary); }
+  #season-color-palette {
+    display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 8px; margin-bottom: 10px;
+    cursor: grab; scroll-snap-type: x proximity;
+  }
+  #season-color-palette.dragging { cursor: grabbing; scroll-snap-type: none; user-select: none; }
+  .color-chip {
+    display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-secondary);
+    white-space: nowrap; flex-shrink: 0; scroll-snap-align: start;
+  }
   .color-chip .swatch { width: 12px; height: 12px; border-radius: 50%; border: 1px solid var(--border); flex-shrink: 0; }
   .color-chip-empty { font-size: 11px; color: var(--text-muted); margin-bottom: 10px; }
   .kw-list { list-style: none; margin: 0; padding: 0; max-height: 340px; overflow-y: auto; }
@@ -754,6 +761,7 @@ function renderAll() {
 
 async function init() {
   enableDragScroll(document.getElementById("new-products"));
+  enableDragScroll(document.getElementById("season-color-palette"));
 
   const [musinsa, cm29, searchTrends, naverTrends, weather, news, meta, categoryPriceByGender, categorySalesRanking, seasonalTrends] = await Promise.all([
     loadJson("musinsa.json"), loadJson("29cm.json"), loadJson("musinsa_search_trends.json"),
