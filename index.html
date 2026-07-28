@@ -208,14 +208,21 @@
 
   .product-card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
   #hot-products { grid-template-columns: repeat(5, 1fr); }
-  @media (max-width: 700px) { #hot-products { grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); } }
   #new-products {
     display: flex; overflow-x: auto; gap: 12px; scroll-snap-type: x proximity;
     cursor: grab;
   }
   #new-products.dragging { cursor: grabbing; scroll-snap-type: none; user-select: none; }
   #new-products .product-card { flex: 0 0 calc((100% - 4 * 12px) / 5); scroll-snap-align: start; }
-  @media (max-width: 700px) { #new-products .product-card { flex-basis: 110px; } }
+  @media (max-width: 700px) {
+    /* Mobile: both rows become a 2-row horizontal drag-scroll instead of wrapping/shrinking. */
+    #hot-products, #new-products {
+      display: grid; grid-template-rows: repeat(2, 1fr); grid-auto-flow: column; grid-auto-columns: 130px;
+      overflow-x: auto; gap: 10px; scroll-snap-type: x proximity; cursor: grab;
+    }
+    #hot-products.dragging, #new-products.dragging { cursor: grabbing; scroll-snap-type: none; user-select: none; }
+    #hot-products .product-card, #new-products .product-card { flex: none; scroll-snap-align: start; }
+  }
   .product-card { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
   .product-card img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; }
   .product-card .pc-body { padding: 8px; }
@@ -761,6 +768,7 @@ function renderAll() {
 
 async function init() {
   enableDragScroll(document.getElementById("new-products"));
+  enableDragScroll(document.getElementById("hot-products"));
   enableDragScroll(document.getElementById("season-color-palette"));
 
   const [musinsa, cm29, searchTrends, naverTrends, weather, news, meta, categoryPriceByGender, categorySalesRanking, seasonalTrends] = await Promise.all([
