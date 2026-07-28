@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T12:17:58.773039+00:00",
+  "updatedAt": "2026-07-28T14:46:39.694073+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,13 +650,13 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 57346,
+        "avg": 57387,
         "min": 7500,
         "max": 307990,
         "count": 60
       },
       "male": {
-        "avg": 71583,
+        "avg": 71691,
         "min": 7500,
         "max": 307990,
         "count": 23
@@ -900,8 +900,8 @@
           "name": "오버사이즈 칼라드 스웨트셔츠 [미디엄 그레이]",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 35,
-          "finalPrice": 32390,
+          "discountRate": 30,
+          "finalPrice": 34890,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20220215/2359612/2359612_17024445597207_500.jpg",
@@ -1942,13 +1942,13 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 66007,
+        "avg": 66065,
         "min": 11930,
         "max": 450000,
         "count": 60
       },
       "male": {
-        "avg": 118952,
+        "avg": 119221,
         "min": 33900,
         "max": 450000,
         "count": 13
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-98141",
+          "id": "ms-98143",
           "brand": "",
           "name": "",
           "price": null,
@@ -2057,8 +2057,8 @@
           "name": "[시티 레저] 에어웨이트 시어 윈드브레이커 재킷 [클라우디 블루]",
           "price": 69900,
           "originalPrice": 69900,
-          "discountRate": 35,
-          "finalPrice": 45390,
+          "discountRate": 30,
+          "finalPrice": 48890,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20241206/4652853/4652853_17417620633186_500.jpg",
