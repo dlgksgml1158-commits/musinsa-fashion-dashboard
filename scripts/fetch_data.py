@@ -311,9 +311,50 @@ def _season_tag_to_code(tag):
 # whichever season happens to bleed through the generic "トレンド" tag's front page.
 SEASON_TAGS_JA = ["2027年春夏", "2026年秋冬", "2026年春夏"]
 
+# Japanese color terms as they actually appear in FASHIONSNAP trend copy, longest-first
+# so compounds (e.g. "ラベンダーピンク") match before their substrings ("ピンク").
+COLOR_DICT = [
+    ("オフホワイト", "오프화이트", "#F0EBE1"),
+    ("ラベンダーピンク", "라벤더 핑크", "#D9A9C9"),
+    ("ミントグリーン", "민트 그린", "#8FD9C4"),
+    ("デザートカラー", "데저트 컬러", "#C9A876"),
+    ("テラコッタ", "테라코타", "#C1652F"),
+    ("ボルドー", "보르도", "#6D1F2C"),
+    ("カーキ", "카키", "#7C7A4A"),
+    ("ラベンダー", "라벤더", "#B7A6D9"),
+    ("ネイビー", "네이비", "#22314F"),
+    ("ベージュ", "베이지", "#D8C3A5"),
+    ("ブラウン", "브라운", "#8B5E3C"),
+    ("シルバー", "실버", "#C0C0C0"),
+    ("ゴールド", "골드", "#C9A227"),
+    ("ホワイト", "화이트", "#F5F5F5"),
+    ("ブラック", "블랙", "#1A1A1A"),
+    ("グレー", "그레이", "#9CA3AF"),
+    ("レッド", "레드", "#D6455D"),
+    ("グリーン", "그린", "#4B9B6E"),
+    ("ブルー", "블루", "#3A6EA5"),
+    ("イエロー", "옐로우", "#E8B923"),
+    ("パープル", "퍼플", "#7A5DA8"),
+    ("ピンク", "핑크", "#E39BB5"),
+    ("オレンジ", "오렌지", "#E07A3F"),
+]
+
+
+def _extract_colors(text, limit=6):
+    remaining = text
+    found = []
+    for ja, ko, hex_ in COLOR_DICT:
+        count = remaining.count(ja)
+        if count:
+            found.append({"label": ko, "hex": hex_, "count": count})
+            remaining = remaining.replace(ja, "")
+    found.sort(key=lambda c: -c["count"])
+    return [{"label": c["label"], "hex": c["hex"]} for c in found[:limit]]
+
 
 def fetch_seasonal_trends():
     items = []
+    season_colors = {}
     for tag in SEASON_TAGS_JA:
         season = _season_tag_to_code(tag)
         try:
@@ -324,6 +365,10 @@ def fetch_seasonal_trends():
         except Exception as e:
             print(f"failed season tag {tag}: {e}")
             continue
+
+        combined_text = " ".join(a["title"] + " " + a.get("excerpt", "") for a in articles)
+        season_colors[season] = _extract_colors(combined_text)
+
         for a in articles[:5]:
             title_ja = a["title"]
             items.append({
@@ -335,7 +380,11 @@ def fetch_seasonal_trends():
                 "source": "FASHIONSNAP",
             })
         time.sleep(0.3)
-    return {"updatedAt": datetime.now(timezone.utc).isoformat(), "items": items}
+    return {
+        "updatedAt": datetime.now(timezone.utc).isoformat(),
+        "items": items,
+        "seasonColors": season_colors,
+    }
 
 
 def main():

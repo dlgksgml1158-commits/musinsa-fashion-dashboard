@@ -135,6 +135,10 @@
 
   .scroll-box { max-height: 340px; overflow-y: auto; }
   #seasonal-trend-body { max-height: 240px; overflow-y: auto; }
+  #season-color-palette { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+  .color-chip { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-secondary); }
+  .color-chip .swatch { width: 12px; height: 12px; border-radius: 50%; border: 1px solid var(--border); flex-shrink: 0; }
+  .color-chip-empty { font-size: 11px; color: var(--text-muted); margin-bottom: 10px; }
   .kw-list { list-style: none; margin: 0; padding: 0; max-height: 340px; overflow-y: auto; }
   .kw-list li {
     display: flex; align-items: center; gap: 8px; padding: 6px 0;
@@ -301,8 +305,9 @@
         <div class="brand-donut-body" id="brand-share-chart"><div class="loading">불러오는 중...</div></div>
       </div>
       <div class="card">
-        <h2>시즌별 트렌드 분석 <span class="tag">FASHIONSNAP</span></h2>
+        <h2>시즌별 트렌드 분석</h2>
         <div class="tabs" id="season-tabs"></div>
+        <div id="season-color-palette"></div>
         <div id="seasonal-trend-body"><div class="loading">불러오는 중...</div></div>
       </div>
     </div>
@@ -461,8 +466,10 @@ function renderNews(n) {
 function renderSeasonalTrends(n) {
   const tabsEl = document.getElementById("season-tabs");
   const bodyEl = document.getElementById("seasonal-trend-body");
+  const paletteEl = document.getElementById("season-color-palette");
   if (!n || !n.items?.length) {
     tabsEl.innerHTML = "";
+    paletteEl.innerHTML = "";
     bodyEl.innerHTML = "<div class='loading'>데이터 없음</div>";
     return;
   }
@@ -480,6 +487,11 @@ function renderSeasonalTrends(n) {
         <div class="meta">${item.source || ""}</div>
       </div>
     `).join("");
+
+    const colors = n.seasonColors?.[season] || [];
+    paletteEl.innerHTML = colors.length
+      ? colors.map(c => `<span class="color-chip"><span class="swatch" style="background:${c.hex}"></span>${c.label}</span>`).join("")
+      : "<div class='color-chip-empty'>이 시즌은 컬러 언급이 적어 팔레트 정보가 부족해요</div>";
   };
 
   tabsEl.innerHTML = seasons.map((s, i) => `<button class="tab-btn ${i === 0 ? "active" : ""}" data-season="${s}">${s}</button>`).join("");
