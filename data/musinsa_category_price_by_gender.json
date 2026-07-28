@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T04:32:37.104994+00:00",
+  "updatedAt": "2026-07-28T07:28:04.966997+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,22 +327,22 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 39552,
+        "avg": 38830,
         "min": 11000,
         "max": 159900,
         "count": 60
       },
       "male": {
-        "avg": 39768,
-        "min": 22990,
+        "avg": 38388,
+        "min": 14930,
         "max": 70200,
-        "count": 17
+        "count": 18
       },
       "female": {
-        "avg": 36456,
+        "avg": 35882,
         "min": 11000,
         "max": 79380,
-        "count": 39
+        "count": 38
       },
       "items": [
         {
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 68306,
+        "avg": 68796,
         "min": 9900,
         "max": 495000,
         "count": 60
@@ -985,7 +985,7 @@
         "count": 15
       },
       "female": {
-        "avg": 40815,
+        "avg": 42544,
         "min": 11960,
         "max": 85790,
         "count": 17
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 42736,
+        "avg": 42618,
         "min": 15540,
         "max": 124200,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 28
       },
       "female": {
-        "avg": 39232,
+        "avg": 39003,
         "min": 15540,
         "max": 91130,
         "count": 31
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 36254,
+        "avg": 35731,
         "min": 10060,
         "max": 92650,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 31
       },
       "female": {
-        "avg": 32508,
+        "avg": 31080,
         "min": 10060,
         "max": 59410,
         "count": 22
@@ -1719,8 +1719,8 @@
           "name": "Henley Neck Deep V Short Sleeve Knit",
           "price": 39900,
           "originalPrice": 39900,
-          "discountRate": 5,
-          "finalPrice": 37900,
+          "discountRate": 43,
+          "finalPrice": 22850,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260507/6430803/6430803_17830604156020_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-96805",
+          "id": "ms-98141",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,22 +2265,22 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 45195,
+        "avg": 44848,
         "min": 17400,
         "max": 124000,
         "count": 60
       },
       "male": {
-        "avg": 46909,
+        "avg": 47690,
         "min": 22430,
         "max": 95200,
-        "count": 33
+        "count": 34
       },
       "female": {
-        "avg": 49414,
+        "avg": 46776,
         "min": 17400,
         "max": 124000,
-        "count": 18
+        "count": 17
       },
       "items": [
         {
@@ -2540,6 +2540,21 @@
         },
         {
           "rank": 18,
+          "id": "ms-5371284",
+          "brand": "애습",
+          "name": "커브드 와이드 데님 - 중청",
+          "price": 119000,
+          "originalPrice": 119000,
+          "discountRate": 38,
+          "finalPrice": 73440,
+          "category": "003002",
+          "categoryLabel": "데님 팬츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250827/5371284/5371284_17768305569646_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5371284",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 19,
           "id": "ms-2351467",
           "brand": "트릴리온",
           "name": "바이오스톤 워싱 와이드 데님 팬츠 (BLUE GRAY)",
@@ -2554,7 +2569,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-5682041",
           "brand": "텍스",
           "name": "TX308 커브드 배기 벌룬 데님 (베이지)",
@@ -2566,21 +2581,6 @@
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20251104/5682041/5682041_17629156054392_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5682041",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-5717317",
-          "brand": "워크온바디오프",
-          "name": "(여름추가) 에즈 릴렉스 세미 와이드 데님 팬츠 (7color)",
-          "price": 57000,
-          "originalPrice": 57000,
-          "discountRate": 45,
-          "finalPrice": 31350,
-          "category": "003002",
-          "categoryLabel": "데님 팬츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20251111/5717317/5717317_17817465211421_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5717317",
           "displayGenderText": "남성"
         }
       ]
@@ -2911,22 +2911,22 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 45645,
+        "avg": 45414,
         "min": 9900,
         "max": 179000,
         "count": 60
       },
       "male": {
-        "avg": 52818,
+        "avg": 51352,
         "min": 25890,
         "max": 179000,
-        "count": 16
+        "count": 17
       },
       "female": {
-        "avg": 46850,
+        "avg": 47004,
         "min": 13450,
         "max": 89000,
-        "count": 34
+        "count": 33
       },
       "items": [
         {
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 43323,
+        "avg": 43204,
         "min": 9900,
         "max": 170050,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 30
       },
       "female": {
-        "avg": 43559,
+        "avg": 43248,
         "min": 19140,
         "max": 121500,
         "count": 23
