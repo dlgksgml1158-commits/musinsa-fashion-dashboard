@@ -306,31 +306,35 @@ def _season_tag_to_code(tag):
     return f"{yy}{code}"
 
 
-def fetch_seasonal_trends():
-    # FASHIONSNAP (Japanese fashion trade media) — its own "トレンド" (trend) tag archive.
-    # The page embeds its full article list (with each article's own season tag, e.g.
-    # "2027年春夏") in __NEXT_DATA__, which is far more reliable than guessing the season
-    # from the title/slug.
-    url = "https://www.fashionsnap.com/article/inside/tags/?tag=" + urllib.parse.quote("トレンド")
-    html = fetch_text(url, headers=BROWSER_HEADERS)
-    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
-    articles = json.loads(m.group(1))["props"]["pageProps"]["initialArticlesPerPage"][0]["articles"]
+# FASHIONSNAP tags each article with its own season (e.g. "2026年秋冬"). Querying that
+# tag directly gives a real per-season archive (~20 articles), instead of relying on
+# whichever season happens to bleed through the generic "トレンド" tag's front page.
+SEASON_TAGS_JA = ["2027年春夏", "2026年秋冬", "2026年春夏"]
 
+
+def fetch_seasonal_trends():
     items = []
-    for a in articles:
-        season_codes = {_season_tag_to_code(t) for t in a.get("tags", [])} - {None}
-        if not season_codes:
+    for tag in SEASON_TAGS_JA:
+        season = _season_tag_to_code(tag)
+        try:
+            url = "https://www.fashionsnap.com/article/inside/tags/?tag=" + urllib.parse.quote(tag)
+            html = fetch_text(url, headers=BROWSER_HEADERS)
+            m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
+            articles = json.loads(m.group(1))["props"]["pageProps"]["initialArticlesPerPage"][0]["articles"]
+        except Exception as e:
+            print(f"failed season tag {tag}: {e}")
             continue
-        season = sorted(season_codes)[-1]
-        title_ja = a["title"]
-        items.append({
-            "title": translate_ja_to_ko(title_ja),
-            "titleOriginal": title_ja,
-            "link": "https://www.fashionsnap.com" + a["permalink"],
-            "season": season,
-            "pubDate": datetime.fromtimestamp(a["date"], tz=timezone.utc).isoformat(),
-            "source": "FASHIONSNAP",
-        })
+        for a in articles[:5]:
+            title_ja = a["title"]
+            items.append({
+                "title": translate_ja_to_ko(title_ja),
+                "titleOriginal": title_ja,
+                "link": "https://www.fashionsnap.com" + a["permalink"],
+                "season": season,
+                "pubDate": datetime.fromtimestamp(a["date"], tz=timezone.utc).isoformat(),
+                "source": "FASHIONSNAP",
+            })
+        time.sleep(0.3)
     return {"updatedAt": datetime.now(timezone.utc).isoformat(), "items": items}
 
 
