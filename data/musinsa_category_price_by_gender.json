@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T01:03:52.208488+00:00",
+  "updatedAt": "2026-07-28T01:11:34.254807+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-98332",
+          "id": "ms-96846",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,15 +2588,15 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 35232,
+        "avg": 34232,
         "min": 7920,
-        "max": 96850,
+        "max": 85120,
         "count": 60
       },
       "male": {
-        "avg": 36314,
+        "avg": 34850,
         "min": 10590,
-        "max": 96850,
+        "max": 64130,
         "count": 41
       },
       "female": {
@@ -2878,6 +2878,21 @@
         },
         {
           "rank": 19,
+          "id": "ms-4750069",
+          "brand": "워크온바디오프",
+          "name": "(여름추가) 레베 세미 와이드 원턱 슬랙스 (2color)",
+          "price": 67000,
+          "originalPrice": 67000,
+          "discountRate": 45,
+          "finalPrice": 36850,
+          "category": "003008",
+          "categoryLabel": "슬랙스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250203/4750069/4750069_17582668061923_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4750069",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
           "id": "ms-6154426",
           "brand": "디미트리블랙",
           "name": "[여름용] ASI 원턱 와이드 플리츠 팬츠_블랙",
@@ -2890,21 +2905,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260318/6154426/6154426_17785725680250_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6154426",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-4899084",
-          "brand": "마인드브릿지 우먼",
-          "name": "[W]원턱 와이드 슬랙스 - 4color",
-          "price": 89900,
-          "originalPrice": 89900,
-          "discountRate": 67,
-          "finalPrice": 29900,
-          "category": "003008",
-          "categoryLabel": "슬랙스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250314/4899084/4899084_17461526938908_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4899084",
-          "displayGenderText": "여성"
         }
       ]
     },
