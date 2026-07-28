@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T17:50:08.176758+00:00",
+  "updatedAt": "2026-07-28T19:00:22.853275+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1102,21 +1102,6 @@
         },
         {
           "rank": 13,
-          "id": "ms-5716261",
-          "brand": "팬쇼",
-          "name": "OVER FIT FLEECE-LINED HOODIE - BLACK",
-          "price": 59000,
-          "originalPrice": 59000,
-          "discountRate": 19,
-          "finalPrice": 47790,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20251111/5716261/5716261_17628484416334_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5716261",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 14,
           "id": "ms-4227246",
           "brand": "겐조",
           "name": "보케 플레이스드 후드 - 블랙 / FE62SW1624MT99J",
@@ -1129,6 +1114,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240702/4227246/4227246_17218969121393_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4227246",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 14,
+          "id": "ms-5716261",
+          "brand": "팬쇼",
+          "name": "OVER FIT FLEECE-LINED HOODIE - BLACK",
+          "price": 59000,
+          "originalPrice": 59000,
+          "discountRate": 19,
+          "finalPrice": 47790,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20251111/5716261/5716261_17628484416334_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5716261",
+          "displayGenderText": "공용"
         },
         {
           "rank": 15,
