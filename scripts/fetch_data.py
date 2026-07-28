@@ -297,48 +297,40 @@ def translate_ja_to_ko(text):
         return text
 
 
-def _extract_season(title, link):
-    # Slug pattern (e.g. /article/menstrend-27ss-shoes/) is the cleanest signal;
-    # fall back to the Japanese "20XX年春夏/秋冬" phrasing used in article titles.
-    m = re.search(r"(\d{2})(ss|aw)", link, re.I)
-    if m:
-        return f"{m.group(1)}{m.group(2).upper()}"
-    m = re.search(r"(\d{4})年(春夏|秋冬)", title)
-    if m:
-        yy = m.group(1)[-2:]
-        code = "SS" if m.group(2) == "春夏" else "AW"
-        return f"{yy}{code}"
-    return None
+def _season_tag_to_code(tag):
+    m = re.match(r"(\d{4})年(春夏|秋冬)", tag)
+    if not m:
+        return None
+    yy = m.group(1)[-2:]
+    code = "SS" if m.group(2) == "春夏" else "AW"
+    return f"{yy}{code}"
 
 
 def fetch_seasonal_trends():
-    # FASHIONSNAP (Japanese fashion trade media) — its own "トレンド" (trend) tag archive,
-    # filtered further to only articles whose title/slug carries a season label (SS/AW).
+    # FASHIONSNAP (Japanese fashion trade media) — its own "トレンド" (trend) tag archive.
+    # The page embeds its full article list (with each article's own season tag, e.g.
+    # "2027年春夏") in __NEXT_DATA__, which is far more reliable than guessing the season
+    # from the title/slug.
     url = "https://www.fashionsnap.com/article/inside/tags/?tag=" + urllib.parse.quote("トレンド")
     html = fetch_text(url, headers=BROWSER_HEADERS)
-    soup = BeautifulSoup(html, "html.parser")
+    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
+    articles = json.loads(m.group(1))["props"]["pageProps"]["initialArticlesPerPage"][0]["articles"]
+
     items = []
-    seen_links = set()
-    for a in soup.select('a[href^="/article/"]'):
-        href = a.get("href", "")
-        title_ja = a.get_text(strip=True)
-        if not title_ja or href in seen_links:
+    for a in articles:
+        season_codes = {_season_tag_to_code(t) for t in a.get("tags", [])} - {None}
+        if not season_codes:
             continue
-        if "/article/inside/" in href or "/article/news/" in href or "/article/post/" in href:
-            continue
-        season = _extract_season(title_ja, href)
-        if not season:
-            continue
-        seen_links.add(href)
+        season = sorted(season_codes)[-1]
+        title_ja = a["title"]
         items.append({
             "title": translate_ja_to_ko(title_ja),
             "titleOriginal": title_ja,
-            "link": "https://www.fashionsnap.com" + href,
+            "link": "https://www.fashionsnap.com" + a["permalink"],
             "season": season,
+            "pubDate": datetime.fromtimestamp(a["date"], tz=timezone.utc).isoformat(),
             "source": "FASHIONSNAP",
         })
-        if len(items) >= 20:
-            break
     return {"updatedAt": datetime.now(timezone.utc).isoformat(), "items": items}
 
 
