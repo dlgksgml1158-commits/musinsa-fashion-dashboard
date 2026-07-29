@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T18:46:01.034695+00:00",
+  "updatedAt": "2026-07-29T20:05:20.027457+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1192,21 +1192,6 @@
         },
         {
           "rank": 19,
-          "id": "ms-5882522",
-          "brand": "팬쇼",
-          "name": "OVER FIT DOUBLE JERSEY(특양면) HOODIE - OATMEAL",
-          "price": 59000,
-          "originalPrice": 59000,
-          "discountRate": 85,
-          "finalPrice": 9000,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260109/5882522/5882522_17679411345948_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5882522",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
           "id": "ms-5871614",
           "brand": "매든",
           "name": "[3COLORS] 에어쿨링 풀오버 후디",
@@ -1218,6 +1203,21 @@
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260106/5871614/5871614_17702718576825_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5871614",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4399183",
+          "brand": "와키윌리",
+          "name": "레글런 스티치 후드 블랙",
+          "price": 89000,
+          "originalPrice": 89000,
+          "discountRate": 67,
+          "finalPrice": 29000,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240903/4399183/4399183_17255040598879_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4399183",
           "displayGenderText": "공용"
         }
       ]
@@ -2017,6 +2017,21 @@
         },
         {
           "rank": 13,
+          "id": "ms-5870528",
+          "brand": "아디다스",
+          "name": "클래식 트랙탑 - 나이트인디고:화이트 / KE3526",
+          "price": 109000,
+          "originalPrice": 109000,
+          "discountRate": 7,
+          "finalPrice": 101370,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260106/5870528/5870528_17677549310376_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5870528",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 14,
           "id": "ms-6284785",
           "brand": "스파오",
           "name": "시어서커 체크 윈드브레이커_SPJJG37C03",
@@ -2031,7 +2046,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-5034176",
           "brand": "다니엘크레뮤",
           "name": "[2PACK] 하프 슬리브 카라 가디건",
@@ -2046,7 +2061,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-5695796",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 린넨 라이크 시어 저지 가디건 [화이트]",
@@ -2059,21 +2074,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20251106/5695796/5695796_17756183584096_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5695796",
           "displayGenderText": "여성"
-        },
-        {
-          "rank": 16,
-          "id": "ms-5870528",
-          "brand": "아디다스",
-          "name": "클래식 트랙탑 - 나이트인디고:화이트 / KE3526",
-          "price": 109000,
-          "originalPrice": 109000,
-          "discountRate": 7,
-          "finalPrice": 101370,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260106/5870528/5870528_17677549310376_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5870528",
-          "displayGenderText": "남성"
         },
         {
           "rank": 17,
