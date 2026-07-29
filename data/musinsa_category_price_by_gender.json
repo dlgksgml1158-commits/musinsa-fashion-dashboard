@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T07:34:18.639934+00:00",
+  "updatedAt": "2026-07-29T10:22:52.982976+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 41710,
+        "avg": 41822,
         "min": 17400,
         "max": 128000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 31
       },
       "female": {
-        "avg": 38465,
+        "avg": 38705,
         "min": 17400,
         "max": 91130,
         "count": 28
@@ -1471,8 +1471,8 @@
           "name": "오간자 레이어드 블라우스_MIWBWG511G",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 19,
-          "finalPrice": 40290,
+          "discountRate": 5,
+          "finalPrice": 47400,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260401/6237554/6237554_17787406683233_500.jpg",
@@ -1486,8 +1486,8 @@
           "name": "카라버튼랩블라우스_P6BBL003C",
           "price": 49000,
           "originalPrice": 49000,
-          "discountRate": 59,
-          "finalPrice": 19900,
+          "discountRate": 60,
+          "finalPrice": 19500,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260415/6317272/6317272_17762430862140_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-98144",
+          "id": "ms-98146",
           "brand": "",
           "name": "",
           "price": null,
@@ -2204,7 +2204,7 @@
           "rank": 17,
           "id": "ms-6744803",
           "brand": "나이키",
-          "name": "ACG 에어리즈 UV 차단 트레일 러닝 재킷 W - 블랙:서밋 화이트 / IQ8124-010",
+          "name": "[10%장바구니 쿠폰] ACG 에어리즈 UV 차단 트레일 러닝 재킷 W - 블랙:서밋 화이트 / IQ8124-010",
           "price": 155000,
           "originalPrice": 155000,
           "discountRate": 10,
@@ -2911,19 +2911,19 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 44445,
+        "avg": 44668,
         "min": 9900,
         "max": 179000,
         "count": 60
       },
       "male": {
-        "avg": 51611,
+        "avg": 50480,
         "min": 19900,
         "max": 179000,
-        "count": 14
+        "count": 15
       },
       "female": {
-        "avg": 45812,
+        "avg": 45534,
         "min": 9990,
         "max": 89000,
         "count": 34
@@ -3234,22 +3234,22 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 39721,
+        "avg": 39570,
         "min": 7700,
         "max": 170050,
         "count": 60
       },
       "male": {
-        "avg": 43089,
+        "avg": 42495,
         "min": 7700,
         "max": 170050,
-        "count": 32
+        "count": 33
       },
       "female": {
-        "avg": 40956,
+        "avg": 41401,
         "min": 15900,
         "max": 121500,
-        "count": 20
+        "count": 19
       },
       "items": [
         {
