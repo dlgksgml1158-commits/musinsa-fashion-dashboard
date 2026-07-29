@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T12:26:11.588082+00:00",
+  "updatedAt": "2026-07-29T14:37:43.699132+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-96807",
+          "id": "ms-98332",
           "brand": "",
           "name": "",
           "price": null,
@@ -2204,7 +2204,7 @@
           "rank": 17,
           "id": "ms-6744803",
           "brand": "나이키",
-          "name": "[10%장바구니 쿠폰] ACG 에어리즈 UV 차단 트레일 러닝 재킷 W - 블랙:서밋 화이트 / IQ8124-010",
+          "name": "ACG 에어리즈 UV 차단 트레일 러닝 재킷 W - 블랙:서밋 화이트 / IQ8124-010",
           "price": 155000,
           "originalPrice": 155000,
           "discountRate": 10,
@@ -2588,13 +2588,13 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 36328,
+        "avg": 36113,
         "min": 7920,
         "max": 96850,
         "count": 60
       },
       "male": {
-        "avg": 38002,
+        "avg": 37687,
         "min": 13990,
         "max": 96850,
         "count": 41
@@ -3234,22 +3234,22 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 39637,
-        "min": 7700,
+        "avg": 41134,
+        "min": 9990,
         "max": 170050,
         "count": 60
       },
       "male": {
-        "avg": 42617,
-        "min": 7700,
+        "avg": 44768,
+        "min": 16990,
         "max": 170050,
         "count": 33
       },
       "female": {
-        "avg": 41401,
+        "avg": 40766,
         "min": 15900,
         "max": 121500,
-        "count": 19
+        "count": 20
       },
       "items": [
         {
@@ -3404,21 +3404,6 @@
         },
         {
           "rank": 11,
-          "id": "ms-4071959",
-          "brand": "오더아카이브",
-          "name": "다트 버뮤다 데님 하프팬츠 샌드블랙",
-          "price": 98000,
-          "originalPrice": 98000,
-          "discountRate": 83,
-          "finalPrice": 16990,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240422/4071959/4071959_17143510538756_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4071959",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 12,
           "id": "ms-4719540",
           "brand": "무신사 스탠다드",
           "name": "투 턱 와이드 치노 쇼츠 [베이지]",
@@ -3433,7 +3418,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-5964359",
           "brand": "2000아카이브스",
           "name": "VEIL MICROSHORTS (BLACK)",
@@ -3448,7 +3433,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-6772136",
           "brand": "폴로 랄프 로렌",
           "name": "[적립금 5%] 15.2cm 폴로 프렙스터 스트레치 치노 쇼트-라이트 베이지",
@@ -3463,7 +3448,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6809660",
           "brand": "노스페이스",
           "name": "NS6NS02A 남성 플렉스코어 쇼츠 BLACK",
@@ -3478,7 +3463,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-4989763",
           "brand": "르아르",
           "name": "에브리데이 버뮤다 데님 쇼츠 [블랙]",
@@ -3493,7 +3478,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6809650",
           "brand": "노스페이스",
           "name": "NS6NS02C 남성 플렉스코어 쇼츠 SLATE",
@@ -3508,7 +3493,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-3868162",
           "brand": "미치코런던 코시노",
           "name": "유니언잭 골지 쇼츠 블랙",
@@ -3523,7 +3508,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6532781",
           "brand": "후러브스아트",
           "name": "[후러브스아트 x 성진] 코튼 데님 절개 버뮤다 팬츠 3color",
@@ -3538,7 +3523,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-4816370",
           "brand": "웨스트 그랜드 블러바드",
           "name": "카치온 워시드 더블니 카펜터 쇼츠 BLACK",
@@ -3550,6 +3535,21 @@
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250221/4816370/4816370_17419162879166_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4816370",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5127704",
+          "brand": "가까이 유니언즈",
+          "name": "원턱 8부 썬스턴 버뮤다 카고팬츠 브라운",
+          "price": 50000,
+          "originalPrice": 50000,
+          "discountRate": 50,
+          "finalPrice": 24990,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250519/5127704/5127704_17478119092492_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5127704",
           "displayGenderText": "남성"
         }
       ]

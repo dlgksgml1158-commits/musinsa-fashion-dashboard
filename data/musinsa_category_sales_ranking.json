@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T12:26:21.515994+00:00",
+  "updatedAt": "2026-07-29T14:37:51.805710+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1467,21 +1467,6 @@
         },
         {
           "rank": 17,
-          "id": "ms-1310549",
-          "brand": "엘무드",
-          "name": "스티치 오버핏 셔츠 스카이 블루",
-          "price": 89000,
-          "originalPrice": 89000,
-          "discountRate": 85,
-          "finalPrice": 13350,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20200218/1310549/1310549_17782115090243_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/1310549",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 18,
           "id": "ms-4989734",
           "brand": "르아르",
           "name": "링클 시어서커 체크 반팔 셔츠 [카키]",
@@ -1496,7 +1481,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-4121422",
           "brand": "비바셔스",
           "name": "Cencel See-Through Classic Shirt - 7COL",
@@ -1511,7 +1496,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-4899079",
           "brand": "마인드브릿지",
           "name": "[ON][데님or체크 선택]오버핏 반팔 셔츠 시리즈 - 5color",
@@ -1523,6 +1508,21 @@
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250314/4899079/4899079_17791658947307_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4899079",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6270505",
+          "brand": "수아레",
+          "name": "[수아레 × 너드킹] 텐셀 린넨 크롭 하프 셔츠 - 6 COLOR",
+          "price": 59000,
+          "originalPrice": 59000,
+          "discountRate": 45,
+          "finalPrice": 32310,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260407/6270505/6270505_17769226978751_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6270505",
           "displayGenderText": "남성"
         }
       ]
