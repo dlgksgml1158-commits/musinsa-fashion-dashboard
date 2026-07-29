@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-29T04:38:07.832967+00:00",
+  "updatedAt": "2026-07-29T07:34:18.639934+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 48103,
+        "avg": 47956,
         "min": 9900,
         "max": 160200,
         "count": 60
@@ -16,7 +16,7 @@
         "count": 24
       },
       "female": {
-        "avg": 61690,
+        "avg": 61374,
         "min": 9900,
         "max": 160200,
         "count": 28
@@ -650,22 +650,22 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 54552,
+        "avg": 55424,
         "min": 7500,
         "max": 307990,
         "count": 60
       },
       "male": {
-        "avg": 71090,
+        "avg": 74146,
         "min": 7500,
         "max": 307990,
-        "count": 21
+        "count": 20
       },
       "female": {
-        "avg": 58925,
+        "avg": 59094,
         "min": 10320,
         "max": 148990,
-        "count": 19
+        "count": 20
       },
       "items": [
         {
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 34270,
+        "avg": 34131,
         "min": 6900,
         "max": 92650,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 31
       },
       "female": {
-        "avg": 28737,
+        "avg": 28813,
         "min": 6900,
         "max": 59410,
         "count": 22
@@ -1749,8 +1749,8 @@
           "name": "브이넥 루즈핏 시어 풀오버  옐로우",
           "price": 44900,
           "originalPrice": 44900,
-          "discountRate": 70,
-          "finalPrice": 13430,
+          "discountRate": 68,
+          "finalPrice": 14320,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250521/5134322/5134322_17846980444325_500.jpg",
@@ -1779,8 +1779,8 @@
           "name": "하와이안 크로쉐 니트_4 COLOR",
           "price": 48200,
           "originalPrice": 48200,
-          "discountRate": 38,
-          "finalPrice": 29900,
+          "discountRate": 48,
+          "finalPrice": 24900,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260408/6278959/6278959_17791766446533_500.png",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-98508",
+          "id": "ms-98144",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,13 +2588,13 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 36327,
+        "avg": 36245,
         "min": 7920,
         "max": 96850,
         "count": 60
       },
       "male": {
-        "avg": 38000,
+        "avg": 37880,
         "min": 13990,
         "max": 96850,
         "count": 41
@@ -2808,8 +2808,8 @@
           "name": "[여름용] 에어쿨 오피스 밴딩 슬랙스_4color",
           "price": 50000,
           "originalPrice": 50000,
-          "discountRate": 34,
-          "finalPrice": 32800,
+          "discountRate": 44,
+          "finalPrice": 27880,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260410/6294202/6294202_17770127323517_500.jpg",
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 44439,
+        "avg": 44445,
         "min": 9900,
         "max": 179000,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 14
       },
       "female": {
-        "avg": 45802,
+        "avg": 45812,
         "min": 9990,
         "max": 89000,
         "count": 34
