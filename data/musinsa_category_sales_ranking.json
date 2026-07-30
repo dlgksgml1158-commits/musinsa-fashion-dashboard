@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T06:15:00.450049+00:00",
+  "updatedAt": "2026-07-30T09:09:01.919775+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -27,8 +27,8 @@
           "name": "[2PACK] 190g 싱글 더 레거시 반팔 티셔츠 (JR5TSU153BK)",
           "price": 55000,
           "originalPrice": 55000,
-          "discountRate": 31,
-          "finalPrice": 37900,
+          "discountRate": 44,
+          "finalPrice": 30900,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20220427/2518417/2518417_17685218387430_500.jpg",
@@ -102,8 +102,8 @@
           "name": "롤업 슬리브 크롭 반팔 티셔츠 블랙",
           "price": 37900,
           "originalPrice": 37900,
-          "discountRate": 39,
-          "finalPrice": 23120,
+          "discountRate": 43,
+          "finalPrice": 21680,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260602/6593921/6593921_17803822944311_500.jpg",
@@ -347,8 +347,8 @@
           "name": "마운틴 롱슬리브 (화이트/레드)",
           "price": 69000,
           "originalPrice": 69000,
-          "discountRate": 5,
-          "finalPrice": 65550,
+          "discountRate": 24,
+          "finalPrice": 52440,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250909/5432652/5432652_17605981290104_500.jpg",
@@ -452,8 +452,8 @@
           "name": "홀스 래빗 롱슬리브 (화이트)",
           "price": 69000,
           "originalPrice": 69000,
-          "discountRate": 5,
-          "finalPrice": 65550,
+          "discountRate": 24,
+          "finalPrice": 52440,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260211/6014700/6014700_17775279342903_500.jpg",
@@ -984,7 +984,7 @@
           "rank": 5,
           "id": "ms-5308081",
           "brand": "매든",
-          "name": "[다나옷PICK] [4COLORS] 지그재그 퍼니 풀오버 후디",
+          "name": "[다나옷PICK] [4COLORS] 퍼니 지그재그 풀오버 후디",
           "price": 89900,
           "originalPrice": 89900,
           "discountRate": 10,
@@ -1882,21 +1882,6 @@
         },
         {
           "rank": 4,
-          "id": "ms-6057479",
-          "brand": "스파오",
-          "name": "[UV차단] 라이트 패커블 윈드브레이커_SPJJG25C09",
-          "price": 39900,
-          "originalPrice": 39900,
-          "discountRate": 48,
-          "finalPrice": 20930,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260226/6057479/6057479_17853844986391_500.png",
-          "productUrl": "https://www.musinsa.com/products/6057479",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 5,
           "id": "ms-3758214",
           "brand": "무신사 스탠다드",
           "name": "[시티 레저] 라이트웨이트 패커블 윈드브레이커 재킷 [라이트 그레이]",
@@ -1911,7 +1896,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "id": "ms-6660066",
           "brand": "노스페이스",
           "name": "NJ3BS62J 화이트라벨 노벨티 올레마 후디 BLACK",
@@ -1926,7 +1911,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-4427040",
           "brand": "제로플래닛",
           "name": "노라 투웨이 버튼 가디건 [FOREST]",
@@ -1941,7 +1926,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-3793565",
           "brand": "무신사 스탠다드",
           "name": "[시티 레저] 시어 윈드브레이커 재킷 [블랙]",
@@ -1956,7 +1941,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-2444808",
           "brand": "무신사 스탠다드",
           "name": "[쿨탠다드] 릴렉스드 베이식 블레이저 [블랙]",
@@ -1971,7 +1956,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-6326050",
           "brand": "효지",
           "name": "26 SS 워셔블 케이블 라운드 크롭 니트 가디건 (6컬러)",
@@ -1986,7 +1971,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-6104961",
           "brand": "무신사 스탠다드",
           "name": "[With CTR] [시티 레저] 쉘터 윈드브레이커 재킷 (4 colors)",
@@ -2001,7 +1986,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-6092190",
           "brand": "무신사 스탠다드 우먼",
           "name": "[한소희 PICK] [UV 프로텍션] 우먼즈 시어 윈드브레이커 (5 colors)",
@@ -2016,7 +2001,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-5870528",
           "brand": "아디다스",
           "name": "클래식 트랙탑 - 나이트인디고:화이트 / KE3526",
@@ -2031,7 +2016,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-6284785",
           "brand": "스파오",
           "name": "시어서커 체크 윈드브레이커_SPJJG37C03",
@@ -2046,7 +2031,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-5034176",
           "brand": "다니엘크레뮤",
           "name": "[2PACK] 하프 슬리브 카라 가디건",
@@ -2061,7 +2046,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-5695796",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 린넨 라이크 시어 저지 가디건 [화이트]",
@@ -2076,7 +2061,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-5943431",
           "brand": "아디다스",
           "name": "와플 클래식 트랙탑 - 원더화이트 / KQ6864",
@@ -2091,7 +2076,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5943429",
           "brand": "아디다스",
           "name": "와플 클래식 트랙탑 - 블랙 / KQ6863",
@@ -2106,7 +2091,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-3793566",
           "brand": "무신사 스탠다드",
           "name": "[이도현 PICK] [시티 레저] 시어 윈드브레이커 재킷 [라이트 그레이]",
@@ -2121,7 +2106,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5329361",
           "brand": "아디다스",
           "name": "후드 집업 - 그레이:블랙 / KC9317",
@@ -2133,6 +2118,21 @@
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250818/5329361/5329361_17569461783112_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5329361",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5273420",
+          "brand": "챔피온",
+          "name": "챔피온 X 싸이흠뻑쇼 레인코트 Blue",
+          "price": 39000,
+          "originalPrice": 39000,
+          "discountRate": 50,
+          "finalPrice": 19500,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250725/5273420/5273420_17534217739477_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5273420",
           "displayGenderText": "공용"
         }
       ]
@@ -2432,8 +2432,8 @@
           "name": "[NERDKING x ALYSS] 썸머 슬릭 커브드 린넨 라이크 데님 팬츠_3COLOR",
           "price": 74000,
           "originalPrice": 74000,
-          "discountRate": 24,
-          "finalPrice": 56610,
+          "discountRate": 35,
+          "finalPrice": 47960,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260403/6255590/6255590_17770028747449_500.jpg",
@@ -2874,7 +2874,7 @@
           "rank": 9,
           "id": "ms-6047357",
           "brand": "미쏘",
-          "name": "[설쁘 PICK] 커브드 밴딩 팬츠_MIWTMG36SS MIWTMG50QB MIWTMG80QC",
+          "name": "[설쁘 PICK] 커브드 밴딩 팬츠_MIWTMG80QC/MIWTMG92QA",
           "price": 49900,
           "originalPrice": 49900,
           "discountRate": 25,
