@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T21:00:42.983542+00:00",
+  "updatedAt": "2026-07-30T22:32:05.286468+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 90128,
+        "avg": 89878,
         "min": 9900,
         "max": 522990,
         "count": 60
@@ -1283,8 +1283,8 @@
           "name": "닉켈 26 동키 포켓 후드티",
           "price": 159000,
           "originalPrice": 159000,
-          "discountRate": 40,
-          "finalPrice": 95000,
+          "discountRate": 50,
+          "finalPrice": 80000,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260407/6265163/6265163_17755031973840_500.jpg",
@@ -1619,22 +1619,22 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 41523,
+        "avg": 40904,
         "min": 6900,
         "max": 109000,
         "count": 60
       },
       "male": {
-        "avg": 50388,
+        "avg": 50521,
         "min": 19500,
         "max": 109000,
-        "count": 32
+        "count": 30
       },
       "female": {
-        "avg": 33099,
+        "avg": 33406,
         "min": 6900,
         "max": 70000,
-        "count": 21
+        "count": 22
       },
       "items": [
         {
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-98717",
+          "id": "ms-98146",
           "brand": "",
           "name": "",
           "price": null,
