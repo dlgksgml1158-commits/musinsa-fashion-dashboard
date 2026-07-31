@@ -134,6 +134,7 @@
   .news-item .meta { font-size: 11px; color: var(--text-muted); }
 
   .scroll-box { max-height: 340px; overflow-y: auto; }
+  #news-body { max-height: 300px; }
   #seasonal-trend-body { max-height: 220px; overflow-y: auto; }
   #season-color-palette {
     display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 8px; margin-bottom: 10px;
@@ -272,7 +273,7 @@
   <div class="grid cols-3">
     <div class="card" id="weather-card"><h2>서울 날씨</h2><div class="loading">불러오는 중...</div></div>
     <div class="card" id="news-card">
-      <h2>패션 이슈</h2>
+      <h2>빠른 소식</h2>
       <div class="tabs" id="news-tabs">
         <button class="tab-btn active" data-news="fashion">패션이슈</button>
         <button class="tab-btn" data-news="discount">할인</button>
