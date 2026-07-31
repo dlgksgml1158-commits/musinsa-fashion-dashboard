@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T23:48:53.240280+00:00",
+  "updatedAt": "2026-07-31T01:20:02.349388+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1882,6 +1882,21 @@
         },
         {
           "rank": 4,
+          "id": "ms-6057479",
+          "brand": "스파오",
+          "name": "[UV차단] 라이트 패커블 윈드브레이커_SPJJG25C09",
+          "price": 39900,
+          "originalPrice": 39900,
+          "discountRate": 48,
+          "finalPrice": 20930,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260226/6057479/6057479_17853844986391_500.png",
+          "productUrl": "https://www.musinsa.com/products/6057479",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 5,
           "id": "ms-5020206",
           "brand": "효지",
           "name": "SS 워셔블 루즈핏 크롭 라운드 하찌 반팔 니트 가디건",
@@ -1894,21 +1909,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250413/5020206/5020206_17841792381812_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5020206",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 5,
-          "id": "ms-3672902",
-          "brand": "아디다스",
-          "name": "아디컬러 클래식 파이어버드 트랙탑 IL8764",
-          "price": 109000,
-          "originalPrice": 109000,
-          "discountRate": 20,
-          "finalPrice": 87200,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20231031/3672902/3672902_17600615739908_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3672902",
-          "displayGenderText": "여성"
         },
         {
           "rank": 6,
@@ -2037,8 +2037,8 @@
           "name": "클래식 트랙탑 - 나이트인디고:화이트 / KE3526",
           "price": 109000,
           "originalPrice": 109000,
-          "discountRate": 7,
-          "finalPrice": 101370,
+          "discountRate": 0,
+          "finalPrice": 109000,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260106/5870528/5870528_17677549310376_500.jpg",
