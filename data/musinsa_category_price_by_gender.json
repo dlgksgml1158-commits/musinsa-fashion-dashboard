@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T16:28:17.488972+00:00",
+  "updatedAt": "2026-07-31T18:01:29.866923+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 88484,
+        "avg": 88317,
         "min": 9900,
         "max": 522990,
         "count": 60
@@ -1193,8 +1193,8 @@
           "name": "매든 X 탄산 퍼니 풀오버 후디 네이비",
           "price": 99900,
           "originalPrice": 99900,
-          "discountRate": 0,
-          "finalPrice": 99900,
+          "discountRate": 10,
+          "finalPrice": 89910,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260107/5873397/5873397_17718344341857_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-98143",
+          "id": "ms-98329",
           "brand": "",
           "name": "",
           "price": null,
