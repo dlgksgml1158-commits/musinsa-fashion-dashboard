@@ -207,23 +207,14 @@
   .new-badge { background: var(--series-green); color: #fff; font-size: 10px; padding: 1px 6px; border-radius: 4px; margin-left: 6px; }
 
   .product-card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
-  #hot-products { grid-template-columns: repeat(5, 1fr); }
-  #new-products {
+  #hot-products, #new-products {
     display: flex; overflow-x: auto; gap: 12px; scroll-snap-type: x proximity;
     cursor: grab;
   }
-  #new-products.dragging { cursor: grabbing; scroll-snap-type: none; user-select: none; }
-  #new-products .product-card { flex: 0 0 calc((100% - 4 * 12px) / 5); scroll-snap-align: start; }
+  #hot-products.dragging, #new-products.dragging { cursor: grabbing; scroll-snap-type: none; user-select: none; }
+  #hot-products .product-card, #new-products .product-card { flex: 0 0 calc((100% - 4 * 12px) / 5); scroll-snap-align: start; }
   @media (max-width: 700px) {
-    /* Mobile: both rows become a 2-row horizontal drag-scroll instead of wrapping/shrinking. */
-    #hot-products, #new-products {
-      display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 10px;
-      scroll-snap-type: x proximity; cursor: grab;
-    }
-    #hot-products.dragging, #new-products.dragging { cursor: grabbing; scroll-snap-type: none; user-select: none; }
-    #hot-products .product-card, #new-products .product-card {
-      flex: 0 0 calc((100% - 10px) / 2); scroll-snap-align: start;
-    }
+    #hot-products .product-card, #new-products .product-card { flex: 0 0 calc((100% - 10px) / 2); }
   }
   .product-card { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
   .product-card img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; }
@@ -331,7 +322,7 @@
 
   <div class="grid">
     <div class="card">
-      <h2>인기 급상승 <span class="tag">TOP 10</span></h2>
+      <h2>인기 급상승</h2>
       <div class="product-card-grid" id="hot-products"><div class="loading">불러오는 중...</div></div>
     </div>
     <div class="card">
