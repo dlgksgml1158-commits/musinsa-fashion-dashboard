@@ -335,17 +335,126 @@ def fetch_fashion_news():
     return _fetch_google_news("패션 브랜드")
 
 
+# Direct-link press RSS feeds (no Google News redirect, no JS needed) used specifically
+# for 할인 so we can actually open each article and verify its sale period. Google News
+# RSS links can't be resolved server-side (JS-rendered interstitial, no HTTP redirect),
+# and Naver News search markup is fully obfuscated (hashed classes, no stable selector) —
+# both were tried and ruled out. These publisher feeds give plain <link> URLs that fetch
+# real HTML directly.
+# hankyung.com 403s our normal Chrome-style BROWSER_HEADERS specifically — a bare
+# "Mozilla/5.0" gets through, so these feeds/articles use their own minimal UA.
+DISCOUNT_HEADERS = {"User-Agent": "Mozilla/5.0"}
+
+DISCOUNT_RSS_FEEDS = [
+    "https://www.ktnews.com/rss/allArticle.xml",     # 한국섬유신문 — fashion trade press
+    "https://www.hankyung.com/feed/economy",
+    "https://www.hankyung.com/feed/life",
+]
+DISCOUNT_KEYWORDS = ["할인", "세일", "특가"]
+
+# Keyword-anchored: only trust a date immediately next to "까지" or a "~" range marker,
+# so an unrelated date elsewhere in the article (byline, other headlines in a related-
+# articles rail, etc.) doesn't get misread as the sale's end date.
+_END_DATE_NEAR_KEYWORD = [
+    re.compile(r"(\d{1,2}월\s*\d{1,2}일|\d{1,2}/\d{1,2})\s*(?:까지)"),
+    re.compile(r"[~∼-]\s*(\d{1,2}월\s*\d{1,2}일|\d{1,2}/\d{1,2})"),
+]
+
+
+def _parse_rss_pubdate(s):
+    try:
+        return parsedate_to_datetime(s)
+    except Exception:
+        pass
+    try:
+        return datetime.strptime(s.strip(), "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
+    except Exception:
+        return None
+
+
+def _fetch_article_text(url):
+    try:
+        html = fetch_text(url, headers=DISCOUNT_HEADERS)
+        return BeautifulSoup(html, "html.parser").get_text(" ", strip=True)
+    except Exception as e:
+        print(f"failed to fetch article {url}: {e}")
+        return ""
+
+
+def _sale_still_active_in_article(link, ref_dt, now):
+    text = _fetch_article_text(link)
+    if not text:
+        return True  # couldn't load the article — don't penalize on a fetch hiccup
+    candidates = []
+    for pat in _END_DATE_NEAR_KEYWORD:
+        for m in pat.finditer(text):
+            d = _parse_date_fragment(m.group(1), ref_dt)
+            if d:
+                candidates.append(d)
+    if not candidates:
+        return True  # no clearly-marked end date in the body — keep it
+    return max(candidates) >= (now - timedelta(days=1))
+
+
+def _parse_date_fragment(frag, ref_dt):
+    m = re.match(r"(\d{1,2})월\s*(\d{1,2})일", frag) or re.match(r"(\d{1,2})/(\d{1,2})", frag)
+    if not m:
+        return None
+    month, day = int(m.group(1)), int(m.group(2))
+    if not (1 <= month <= 12 and 1 <= day <= 31):
+        return None
+    try:
+        return datetime(ref_dt.year, month, day, tzinfo=timezone.utc)
+    except ValueError:
+        return None
+
+
+def _strip_cdata(s):
+    m = re.match(r"^\s*<!\[CDATA\[([\s\S]*?)\]\]>\s*$", s)
+    return m.group(1).strip() if m else s.strip()
+
+
 def fetch_discount_news():
-    # Discount/sale news goes stale fast — only surface recent posts about sales that
-    # haven't ended yet (by publish date and by any end date mentioned in the headline).
-    #
-    # NOTE: we can't open each article's actual body to double-check its stated sale
-    # period — Google News RSS links resolve through a JS-rendered interstitial with no
-    # server-side redirect, so a plain HTTP fetch never reaches the real publisher page.
-    # Naver News search was tried as a workaround, but its result markup is fully
-    # obfuscated (hashed class names, no stable selector) and couldn't be parsed
-    # reliably either. Headline-based filtering is the reliable option available.
-    return _fetch_google_news("패션 할인 세일", max_age_days=30, active_sale_only=True)
+    now = datetime.now(timezone.utc)
+    cutoff = now - timedelta(days=30)
+    candidates = []
+    for feed_url in DISCOUNT_RSS_FEEDS:
+        try:
+            xml = fetch_text(feed_url, headers=DISCOUNT_HEADERS)
+        except Exception as e:
+            print(f"failed discount feed {feed_url}: {e}")
+            continue
+        source_m = re.search(r"<title>([\s\S]*?)</title>", xml)
+        source_name = re.split(r" \| | - ", decode_entities(_strip_cdata(source_m.group(1))))[0] if source_m else feed_url
+        for block in re.findall(r"<item>([\s\S]*?)</item>", xml):
+            title_m = re.search(r"<title>([\s\S]*?)</title>", block)
+            link_m = re.search(r"<link>([\s\S]*?)</link>", block)
+            pub_m = re.search(r"<pubDate>([\s\S]*?)</pubDate>", block)
+            title = decode_entities(_strip_cdata(title_m.group(1))) if title_m else ""
+            if not any(k in title for k in DISCOUNT_KEYWORDS):
+                continue
+            pub_date_str = _strip_cdata(pub_m.group(1)) if pub_m else ""
+            pub_dt = _parse_rss_pubdate(pub_date_str) if pub_date_str else None
+            if pub_dt and pub_dt < cutoff:
+                continue
+            candidates.append({
+                "title": title,
+                "link": _strip_cdata(link_m.group(1)) if link_m else "",
+                "pubDate": pub_date_str,
+                "pubDt": pub_dt,
+                "source": source_name,
+            })
+
+    candidates.sort(key=lambda c: c["pubDt"] or now, reverse=True)
+
+    kept = []
+    for item in candidates:
+        if _sale_still_active_in_article(item["link"], item["pubDt"] or now, now):
+            kept.append({k: v for k, v in item.items() if k != "pubDt"})
+        time.sleep(0.3)
+        if len(kept) >= 10:
+            break
+    return {"updatedAt": now.isoformat(), "items": kept}
 
 
 def translate_ja_to_ko(text):
