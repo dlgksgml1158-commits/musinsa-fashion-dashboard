@@ -10,6 +10,7 @@ import time
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 from bs4 import BeautifulSoup
@@ -266,21 +267,31 @@ def decode_entities(s):
     return s
 
 
-def _fetch_google_news(query):
+def _fetch_google_news(query, max_age_days=None, limit=10):
     url = f"https://news.google.com/rss/search?q={urllib.parse.quote(query)}&hl=ko&gl=KR&ceid=KR:ko"
     xml = fetch_text(url)
+    cutoff = datetime.now(timezone.utc) - timedelta(days=max_age_days) if max_age_days else None
     items = []
-    for block in re.findall(r"<item>([\s\S]*?)</item>", xml)[:10]:
+    for block in re.findall(r"<item>([\s\S]*?)</item>", xml)[:30]:
         title_m = re.search(r"<title>([\s\S]*?)</title>", block)
         link_m = re.search(r"<link>([\s\S]*?)</link>", block)
         pub_m = re.search(r"<pubDate>([\s\S]*?)</pubDate>", block)
         src_m = re.search(r"<source[^>]*>([\s\S]*?)</source>", block)
+        pub_date_str = pub_m.group(1) if pub_m else ""
+        if cutoff and pub_date_str:
+            try:
+                if parsedate_to_datetime(pub_date_str) < cutoff:
+                    continue
+            except Exception:
+                pass
         items.append({
             "title": decode_entities(title_m.group(1)) if title_m else "",
             "link": link_m.group(1) if link_m else "",
-            "pubDate": pub_m.group(1) if pub_m else "",
+            "pubDate": pub_date_str,
             "source": decode_entities(src_m.group(1)) if src_m else "",
         })
+        if len(items) >= limit:
+            break
     return {"updatedAt": datetime.now(timezone.utc).isoformat(), "items": items}
 
 
@@ -289,7 +300,8 @@ def fetch_fashion_news():
 
 
 def fetch_discount_news():
-    return _fetch_google_news("패션 할인 세일")
+    # Discount/sale news goes stale fast — only surface the last 30 days.
+    return _fetch_google_news("패션 할인 세일", max_age_days=30)
 
 
 def translate_ja_to_ko(text):
