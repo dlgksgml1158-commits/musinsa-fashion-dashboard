@@ -331,7 +331,7 @@
 
   <div class="grid">
     <div class="card">
-      <h2>인기 급상승 <span class="tag">TOP 5</span></h2>
+      <h2>인기 급상승 <span class="tag">TOP 10</span></h2>
       <div class="product-card-grid" id="hot-products"><div class="loading">불러오는 중...</div></div>
     </div>
     <div class="card">
@@ -761,7 +761,7 @@ function renderAll() {
   renderRankTable();
   const data = currentPlatformData();
   if (data) {
-    renderProductCards("hot-products", data.items.slice(0, 5));
+    renderProductCards("hot-products", data.items.slice(0, 10));
     renderProductCards("new-products", data.items.filter(i => i.change === "NEW"));
   }
   renderDiscountList();
