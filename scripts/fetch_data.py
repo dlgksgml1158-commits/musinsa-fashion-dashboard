@@ -266,8 +266,8 @@ def decode_entities(s):
     return s
 
 
-def fetch_fashion_news():
-    url = "https://news.google.com/rss/search?q=%ED%8C%A8%EC%85%98%20%EB%B8%8C%EB%9E%9C%EB%93%9C&hl=ko&gl=KR&ceid=KR:ko"
+def _fetch_google_news(query):
+    url = f"https://news.google.com/rss/search?q={urllib.parse.quote(query)}&hl=ko&gl=KR&ceid=KR:ko"
     xml = fetch_text(url)
     items = []
     for block in re.findall(r"<item>([\s\S]*?)</item>", xml)[:10]:
@@ -282,6 +282,14 @@ def fetch_fashion_news():
             "source": decode_entities(src_m.group(1)) if src_m else "",
         })
     return {"updatedAt": datetime.now(timezone.utc).isoformat(), "items": items}
+
+
+def fetch_fashion_news():
+    return _fetch_google_news("패션 브랜드")
+
+
+def fetch_discount_news():
+    return _fetch_google_news("패션 할인 세일")
 
 
 def translate_ja_to_ko(text):
@@ -404,6 +412,13 @@ def main():
         print("synced fashion_news.json")
     except Exception as e:
         print(f"failed fashion_news.json: {e}")
+
+    try:
+        discount_news = fetch_discount_news()
+        (DATA_DIR / "discount_news.json").write_text(json.dumps(discount_news, ensure_ascii=False, indent=2))
+        print("synced discount_news.json")
+    except Exception as e:
+        print(f"failed discount_news.json: {e}")
 
     try:
         seasonal = fetch_seasonal_trends()

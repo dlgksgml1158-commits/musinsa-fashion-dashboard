@@ -271,7 +271,14 @@
 
   <div class="grid cols-3">
     <div class="card" id="weather-card"><h2>서울 날씨</h2><div class="loading">불러오는 중...</div></div>
-    <div class="card" id="news-card"><h2>패션 이슈</h2><div class="loading">불러오는 중...</div></div>
+    <div class="card" id="news-card">
+      <h2>패션 이슈</h2>
+      <div class="tabs" id="news-tabs">
+        <button class="tab-btn active" data-news="fashion">패션이슈</button>
+        <button class="tab-btn" data-news="discount">할인</button>
+      </div>
+      <div class="scroll-box" id="news-body"><div class="loading">불러오는 중...</div></div>
+    </div>
     <div class="card">
       <h2>검색어 트렌드</h2>
       <div class="tabs" id="kw-tabs">
@@ -459,15 +466,24 @@ function renderWeather(w) {
   renderDayDetail(0);
 }
 
-function renderNews(n) {
-  const el = document.getElementById("news-card");
-  if (!n || !n.items?.length) { el.innerHTML = "<h2>패션 이슈</h2><div class='loading'>데이터 없음</div>"; return; }
-  el.innerHTML = `<h2>패션 이슈</h2><div class="scroll-box">` + n.items.slice(0, 8).map(item => `
+function renderNewsList(items) {
+  const el = document.getElementById("news-body");
+  if (!items?.length) { el.innerHTML = "<div class='loading'>데이터 없음</div>"; return; }
+  el.innerHTML = items.slice(0, 8).map(item => `
     <div class="news-item">
       <a href="${item.link}" target="_blank" rel="noopener">${item.title}</a>
       <div class="meta">${item.source || ""}</div>
     </div>
-  `).join("") + `</div>`;
+  `).join("");
+}
+
+function renderNews(news, discountNews) {
+  renderNewsList(news?.items);
+  document.querySelectorAll("#news-tabs .tab-btn").forEach(btn => btn.addEventListener("click", () => {
+    document.querySelectorAll("#news-tabs .tab-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    renderNewsList(btn.dataset.news === "discount" ? discountNews?.items : news?.items);
+  }));
 }
 
 function renderSeasonalTrends(n) {
@@ -764,17 +780,17 @@ async function init() {
   enableDragScroll(document.getElementById("hot-products"));
   enableDragScroll(document.getElementById("season-color-palette"));
 
-  const [musinsa, cm29, searchTrends, naverTrends, weather, news, meta, categoryPriceByGender, categorySalesRanking, seasonalTrends] = await Promise.all([
+  const [musinsa, cm29, searchTrends, naverTrends, weather, news, discountNews, meta, categoryPriceByGender, categorySalesRanking, seasonalTrends] = await Promise.all([
     loadJson("musinsa.json"), loadJson("29cm.json"), loadJson("musinsa_search_trends.json"),
-    loadJson("naver_trends.json"), loadJson("weather.json"), loadJson("fashion_news.json"), loadJson("meta.json"),
+    loadJson("naver_trends.json"), loadJson("weather.json"), loadJson("fashion_news.json"), loadJson("discount_news.json"), loadJson("meta.json"),
     loadJson("musinsa_category_price_by_gender.json"), loadJson("musinsa_category_sales_ranking.json"),
     loadJson("seasonal_trends.json"),
   ]);
-  Object.assign(state, { musinsa, cm29, searchTrends, naverTrends, weather, news, categoryPriceByGender, categorySalesRanking, seasonalTrends });
+  Object.assign(state, { musinsa, cm29, searchTrends, naverTrends, weather, news, discountNews, categoryPriceByGender, categorySalesRanking, seasonalTrends });
 
   document.getElementById("updated-badge").textContent = meta ? `${timeAgo(meta.updatedAt)} 갱신` : "";
   renderWeather(weather);
-  renderNews(news);
+  renderNews(news, discountNews);
   renderSeasonalTrends(seasonalTrends);
   renderKeywords("ms-pop");
   renderAll();
