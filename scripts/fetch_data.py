@@ -267,25 +267,61 @@ def decode_entities(s):
     return s
 
 
-def _fetch_google_news(query, max_age_days=None, limit=10):
+# Sale headlines commonly carry their own end date ("~8/10", "8월 10일까지"); pull the
+# latest date mentioned and treat it as the sale's end so expired promos can be dropped
+# even when the article itself was published recently.
+_DATE_PATTERNS = [
+    re.compile(r"(\d{1,2})월\s*(\d{1,2})일"),
+    re.compile(r"(?<!\d)(\d{1,2})/(\d{1,2})(?!\d)"),
+]
+
+
+def _extract_latest_date(text, ref_dt):
+    dates = []
+    for pat in _DATE_PATTERNS:
+        for m in pat.finditer(text):
+            month, day = int(m.group(1)), int(m.group(2))
+            if not (1 <= month <= 12 and 1 <= day <= 31):
+                continue
+            try:
+                dates.append(datetime(ref_dt.year, month, day, tzinfo=timezone.utc))
+            except ValueError:
+                continue
+    return max(dates) if dates else None
+
+
+def _sale_still_active(title, pub_dt, now):
+    end_date = _extract_latest_date(title, pub_dt or now)
+    if end_date is None:
+        return True  # no parseable date — can't confirm it's expired, so keep it
+    return end_date >= (now - timedelta(days=1))
+
+
+def _fetch_google_news(query, max_age_days=None, limit=10, active_sale_only=False):
     url = f"https://news.google.com/rss/search?q={urllib.parse.quote(query)}&hl=ko&gl=KR&ceid=KR:ko"
     xml = fetch_text(url)
-    cutoff = datetime.now(timezone.utc) - timedelta(days=max_age_days) if max_age_days else None
+    now = datetime.now(timezone.utc)
+    cutoff = now - timedelta(days=max_age_days) if max_age_days else None
     items = []
     for block in re.findall(r"<item>([\s\S]*?)</item>", xml)[:30]:
         title_m = re.search(r"<title>([\s\S]*?)</title>", block)
         link_m = re.search(r"<link>([\s\S]*?)</link>", block)
         pub_m = re.search(r"<pubDate>([\s\S]*?)</pubDate>", block)
         src_m = re.search(r"<source[^>]*>([\s\S]*?)</source>", block)
+        title = decode_entities(title_m.group(1)) if title_m else ""
         pub_date_str = pub_m.group(1) if pub_m else ""
-        if cutoff and pub_date_str:
+        pub_dt = None
+        if pub_date_str:
             try:
-                if parsedate_to_datetime(pub_date_str) < cutoff:
-                    continue
+                pub_dt = parsedate_to_datetime(pub_date_str)
             except Exception:
-                pass
+                pub_dt = None
+        if cutoff and pub_dt and pub_dt < cutoff:
+            continue
+        if active_sale_only and not _sale_still_active(title, pub_dt, now):
+            continue
         items.append({
-            "title": decode_entities(title_m.group(1)) if title_m else "",
+            "title": title,
             "link": link_m.group(1) if link_m else "",
             "pubDate": pub_date_str,
             "source": decode_entities(src_m.group(1)) if src_m else "",
@@ -300,8 +336,9 @@ def fetch_fashion_news():
 
 
 def fetch_discount_news():
-    # Discount/sale news goes stale fast — only surface the last 30 days.
-    return _fetch_google_news("패션 할인 세일", max_age_days=30)
+    # Discount/sale news goes stale fast — only surface recent posts about sales that
+    # haven't ended yet (by publish date and by any end date mentioned in the headline).
+    return _fetch_google_news("패션 할인 세일", max_age_days=30, active_sale_only=True)
 
 
 def translate_ja_to_ko(text):
