@@ -338,6 +338,13 @@ def fetch_fashion_news():
 def fetch_discount_news():
     # Discount/sale news goes stale fast — only surface recent posts about sales that
     # haven't ended yet (by publish date and by any end date mentioned in the headline).
+    #
+    # NOTE: we can't open each article's actual body to double-check its stated sale
+    # period — Google News RSS links resolve through a JS-rendered interstitial with no
+    # server-side redirect, so a plain HTTP fetch never reaches the real publisher page.
+    # Naver News search was tried as a workaround, but its result markup is fully
+    # obfuscated (hashed class names, no stable selector) and couldn't be parsed
+    # reliably either. Headline-based filtering is the reliable option available.
     return _fetch_google_news("패션 할인 세일", max_age_days=30, active_sale_only=True)
 
 
