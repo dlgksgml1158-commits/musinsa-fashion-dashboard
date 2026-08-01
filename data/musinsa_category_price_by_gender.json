@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-01T15:32:50.248027+00:00",
+  "updatedAt": "2026-08-01T16:42:50.226579+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 45356,
+        "avg": 44998,
         "min": 9900,
         "max": 152190,
         "count": 60
@@ -16,7 +16,7 @@
         "count": 22
       },
       "female": {
-        "avg": 57365,
+        "avg": 56671,
         "min": 9900,
         "max": 152190,
         "count": 31
@@ -650,16 +650,16 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 47475,
+        "avg": 49058,
         "min": 7500,
         "max": 208050,
         "count": 60
       },
       "male": {
-        "avg": 61686,
+        "avg": 64225,
         "min": 7500,
         "max": 208050,
-        "count": 20
+        "count": 21
       },
       "female": {
         "avg": 42979,
@@ -895,21 +895,6 @@
         },
         {
           "rank": 16,
-          "id": "ms-2712937",
-          "brand": "챔피온",
-          "name": "리버스위브 하프 집업 스웨트셔츠 Normal Khaki",
-          "price": 129000,
-          "originalPrice": 129000,
-          "discountRate": 84,
-          "finalPrice": 20000,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20220811/2712937/2712937_17471926186018_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/2712937",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 17,
           "id": "ms-4486865",
           "brand": "맥우드건",
           "name": "아카릿 3326 기모 체인자수 오버핏 네이비 스웨트셔츠",
@@ -924,7 +909,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-4341042",
           "brand": "앰부시",
           "name": "디스트로이드 홀 맨투맨 - 블랙 / BMBA004F24FLE0011010",
@@ -939,7 +924,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-3106860",
           "brand": "챔피온",
           "name": "C로고 프렌치테리 하프 집업 스웨트셔츠 Normal Grey",
@@ -954,7 +939,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5799678",
           "brand": "라이크더모스트",
           "name": "도트라모 하트하트 오버핏 스웨트셔츠_7colors",
@@ -967,6 +952,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20251203/5799678/5799678_17647260967503_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5799678",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-2971762",
+          "brand": "메인부스",
+          "name": "Disc Jockey Sweatshirt(BLACK)",
+          "price": 75000,
+          "originalPrice": 75000,
+          "discountRate": 90,
+          "finalPrice": 7500,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20221205/2971762/2971762_2_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/2971762",
+          "displayGenderText": "남성"
         }
       ]
     },
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-98329",
+          "id": "ms-99012",
           "brand": "",
           "name": "",
           "price": null,
