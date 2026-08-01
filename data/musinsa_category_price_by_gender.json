@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-08-01T14:18:15.071093+00:00",
+  "updatedAt": "2026-08-01T15:32:50.248027+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 45550,
+        "avg": 45356,
         "min": 9900,
         "max": 152190,
         "count": 60
       },
       "male": {
-        "avg": 34817,
+        "avg": 34289,
         "min": 10000,
         "max": 116100,
         "count": 22
@@ -650,22 +650,22 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 46134,
+        "avg": 47475,
         "min": 7500,
         "max": 208050,
         "count": 60
       },
       "male": {
-        "avg": 60118,
+        "avg": 61686,
         "min": 7500,
         "max": 208050,
         "count": 20
       },
       "female": {
-        "avg": 41237,
+        "avg": 42979,
         "min": 12900,
         "max": 118000,
-        "count": 15
+        "count": 16
       },
       "items": [
         {
@@ -765,8 +765,8 @@
           "name": "우먼즈 더블 니트 칼라드 반소매 스웨트셔츠 [멜란지 라이트 그레이]",
           "price": 29900,
           "originalPrice": 29900,
-          "discountRate": 0,
-          "finalPrice": 29900,
+          "discountRate": 55,
+          "finalPrice": 13330,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230210/3074973/3074973_16819863544817_500.jpg",
@@ -850,21 +850,6 @@
         },
         {
           "rank": 13,
-          "id": "ms-3460217",
-          "brand": "챔피온",
-          "name": "리버스위브 C로고 스웨트셔츠 Normal Blue",
-          "price": 109000,
-          "originalPrice": 109000,
-          "discountRate": 82,
-          "finalPrice": 20000,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230811/3460217/3460217_17471191102098_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3460217",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 14,
           "id": "ms-6770807",
           "brand": "테켓",
           "name": "TEKET X MLP Lucky Pony Sweatshirt Red",
@@ -879,7 +864,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-3839816",
           "brand": "챔피온",
           "name": "C로고 프렌치테리 하프 집업 스웨트셔츠 Normal Grey",
@@ -894,7 +879,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-1181804",
           "brand": "메인부스",
           "name": "MNBTH Sweatshirt(CARROT)",
@@ -909,7 +894,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-2712937",
           "brand": "챔피온",
           "name": "리버스위브 하프 집업 스웨트셔츠 Normal Khaki",
@@ -924,7 +909,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-4486865",
           "brand": "맥우드건",
           "name": "아카릿 3326 기모 체인자수 오버핏 네이비 스웨트셔츠",
@@ -939,7 +924,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-4341042",
           "brand": "앰부시",
           "name": "디스트로이드 홀 맨투맨 - 블랙 / BMBA004F24FLE0011010",
@@ -954,7 +939,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-3106860",
           "brand": "챔피온",
           "name": "C로고 프렌치테리 하프 집업 스웨트셔츠 Normal Grey",
@@ -967,13 +952,28 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230224/3106860/3106860_17471968342087_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3106860",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5799678",
+          "brand": "라이크더모스트",
+          "name": "도트라모 하트하트 오버핏 스웨트셔츠_7colors",
+          "price": 51800,
+          "originalPrice": 51800,
+          "discountRate": 75,
+          "finalPrice": 12900,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20251203/5799678/5799678_17647260967503_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5799678",
+          "displayGenderText": "여성"
         }
       ]
     },
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 87877,
+        "avg": 87578,
         "min": 9900,
         "max": 522990,
         "count": 60
@@ -1619,13 +1619,13 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 38244,
+        "avg": 38316,
         "min": 9300,
         "max": 108990,
         "count": 60
       },
       "male": {
-        "avg": 44157,
+        "avg": 44295,
         "min": 15600,
         "max": 108990,
         "count": 31
@@ -1869,8 +1869,8 @@
           "name": "워셔블 쿨 코튼 핸리넥 라운드 반팔 니트 5COLOR",
           "price": 42700,
           "originalPrice": 42700,
-          "discountRate": 40,
-          "finalPrice": 25620,
+          "discountRate": 45,
+          "finalPrice": 23330,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260326/6203854/6203854_17745123810080_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-99011",
+          "id": "ms-98329",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,8 +2265,8 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 46906,
-        "min": 13920,
+        "avg": 46964,
+        "min": 15100,
         "max": 115200,
         "count": 60
       },
@@ -2277,8 +2277,8 @@
         "count": 34
       },
       "female": {
-        "avg": 52156,
-        "min": 13920,
+        "avg": 52349,
+        "min": 17400,
         "max": 115200,
         "count": 18
       },
@@ -2395,8 +2395,8 @@
           "name": "세미 와이드 워싱 데님 팬츠  스카이블루 (324721LPHQ)",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 72,
-          "finalPrice": 13920,
+          "discountRate": 65,
+          "finalPrice": 17400,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240726/4276989/4276989_17235200915042_500.jpg",
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 39170,
+        "avg": 39204,
         "min": 9900,
         "max": 170050,
         "count": 60
@@ -3246,8 +3246,8 @@
         "count": 33
       },
       "female": {
-        "avg": 37787,
-        "min": 13330,
+        "avg": 38540,
+        "min": 26530,
         "max": 115430,
         "count": 22
       },
