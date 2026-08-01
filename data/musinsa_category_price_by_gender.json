@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-01T04:43:58.278445+00:00",
+  "updatedAt": "2026-08-01T07:21:16.672373+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 44854,
+        "avg": 45266,
         "min": 9900,
         "max": 152190,
         "count": 60
@@ -16,7 +16,7 @@
         "count": 21
       },
       "female": {
-        "avg": 55108,
+        "avg": 55881,
         "min": 9900,
         "max": 152190,
         "count": 32
@@ -159,21 +159,6 @@
         },
         {
           "rank": 10,
-          "id": "ms-3812607",
-          "brand": "디스이즈네버댓",
-          "name": "THAT Hands W Tee White",
-          "price": 45000,
-          "originalPrice": 45000,
-          "discountRate": 60,
-          "finalPrice": 18000,
-          "category": "001001",
-          "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240122/3812607/3812607_17065179402145_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3812607",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 11,
           "id": "ms-6778754",
           "brand": "아메스 월드와이드",
           "name": "PPG ADVENTURE TEE CHARCOAL",
@@ -188,7 +173,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-6618035",
           "brand": "나이키",
           "name": "ACG 드라이 핏 티셔츠 W - 서밋 화이트 / IM8899-121",
@@ -203,7 +188,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-6809742",
           "brand": "에잇세컨즈",
           "name": "셔츠 배색 저지 카디건  네이비",
@@ -218,7 +203,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-6850738",
           "brand": "펜듈럼",
           "name": "배색 롤업 세미 크롭 반팔티 LR2TU253_BLACK",
@@ -233,7 +218,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6841410",
           "brand": "크리건",
           "name": "STAR APPLIQUE SEMI CROP TEE (3 color)",
@@ -248,7 +233,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6418260",
           "brand": "8톤트럭케이스",
           "name": "[반팔티셔츠 흘려도티안나]남여공용 오버핏",
@@ -263,7 +248,7 @@
           "displayGenderText": ""
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6453592",
           "brand": "토피",
           "name": "[S-XXL] 슬림 크롭 헨리넥 하프 티셔츠 (BLUE)",
@@ -278,7 +263,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6562698",
           "brand": "스파오",
           "name": "[토이스토리] 반팔 티셔츠(Mix)_SPRLG37U27",
@@ -293,7 +278,7 @@
           "displayGenderText": ""
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6812708",
           "brand": "마이홈식",
           "name": "7 퍼포먼스 테크 머슬핏 집업 티셔츠 블랙",
@@ -308,7 +293,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-3182421",
           "brand": "트래블",
           "name": "커브드 라인 래글런 반팔티 차콜",
@@ -321,6 +306,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230327/3182421/3182421_16802337623170_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3182421",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6823708",
+          "brand": "헬레네파리스",
+          "name": "[아리 착용] 웨이브 로고 큐빅 오프숄더 하프 티셔츠 [민트]",
+          "price": 47000,
+          "originalPrice": 47000,
+          "discountRate": 20,
+          "finalPrice": 37600,
+          "category": "001001",
+          "categoryLabel": "반소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260710/6823708/6823708_17839333295095_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6823708",
+          "displayGenderText": "여성"
         }
       ]
     },
@@ -1296,13 +1296,13 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 43233,
+        "avg": 42152,
         "min": 17400,
         "max": 128000,
         "count": 60
       },
       "male": {
-        "avg": 47619,
+        "avg": 45304,
         "min": 23900,
         "max": 128000,
         "count": 28
@@ -1511,21 +1511,6 @@
         },
         {
           "rank": 14,
-          "id": "ms-6841696",
-          "brand": "어나더 오피스",
-          "name": "Writer Shirt (Off White)",
-          "price": 98000,
-          "originalPrice": 98000,
-          "discountRate": 0,
-          "finalPrice": 98000,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260714/6841696/6841696_17840179879335_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6841696",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 15,
           "id": "ms-6518898",
           "brand": "유니온블루",
           "name": "LOOSED CHECK HALF SHIRT [GRAPHITE]",
@@ -1540,7 +1525,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6586166",
           "brand": "후브스",
           "name": "패널 라인 롤업 반팔 셔츠 [네이비]",
@@ -1555,7 +1540,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-5429767",
           "brand": "포에트서울",
           "name": "checked puff sleeve blouse_lime green",
@@ -1570,7 +1555,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6797751",
           "brand": "메종르하르",
           "name": "가든 레이스 나시 블라우스 2color",
@@ -1585,7 +1570,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6566770",
           "brand": "페이지플린",
           "name": "핀턱러플블라우스_P6BBL025C",
@@ -1600,7 +1585,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5129508",
           "brand": "티뷰",
           "name": "백리본크로스블라우스_V5B-VBL055",
@@ -1613,6 +1598,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250520/5129508/5129508_17788122493336_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5129508",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-2507488",
+          "brand": "다이아몬드 레이라",
+          "name": "Gingham Check shirt S101 Blue",
+          "price": 68000,
+          "originalPrice": 68000,
+          "discountRate": 40,
+          "finalPrice": 40800,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20220421/2507488/2507488_17231024383527_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/2507488",
+          "displayGenderText": "공용"
         }
       ]
     },
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-99010",
+          "id": "ms-99011",
           "brand": "",
           "name": "",
           "price": null,
