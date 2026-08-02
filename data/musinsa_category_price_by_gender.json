@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T12:46:36.339052+00:00",
+  "updatedAt": "2026-08-02T14:19:38.412938+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-98329",
+          "id": "ms-98721",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,13 +2588,13 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 37462,
+        "avg": 36748,
         "min": 9900,
         "max": 120690,
         "count": 60
       },
       "male": {
-        "avg": 40278,
+        "avg": 39179,
         "min": 15900,
         "max": 120690,
         "count": 39
@@ -2911,22 +2911,22 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 47739,
+        "avg": 46520,
         "min": 9900,
         "max": 114670,
         "count": 60
       },
       "male": {
-        "avg": 43851,
+        "avg": 43321,
         "min": 19900,
         "max": 89990,
-        "count": 14
+        "count": 15
       },
       "female": {
-        "avg": 52645,
+        "avg": 51078,
         "min": 13450,
         "max": 114670,
-        "count": 37
+        "count": 36
       },
       "items": [
         {
@@ -3126,21 +3126,6 @@
         },
         {
           "rank": 14,
-          "id": "ms-6336948",
-          "brand": "아디다스",
-          "name": "새틴 레이스 파이어버드 루즈 트랙 팬츠 - 나이트인디고 / LF2674",
-          "price": 119000,
-          "originalPrice": 119000,
-          "discountRate": 8,
-          "finalPrice": 109060,
-          "category": "003004",
-          "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260420/6336948/6336948_17767568843306_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6336948",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 15,
           "id": "ms-5156702",
           "brand": "줄리아페페",
           "name": "[양양,지똥 PICK] Natural Stripe Pants (Blue)",
@@ -3155,7 +3140,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-5386361",
           "brand": "엘리메노",
           "name": "EL 베이직 절개 테이핑 트랙 팬츠 2Color",
@@ -3170,7 +3155,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-5363832",
           "brand": "토피",
           "name": "사이드 라인 트랙 팬츠 (NAVY)",
@@ -3185,7 +3170,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6004700",
           "brand": "슈퍼서브",
           "name": "와이드 배기 파이핑 팬츠 - 블랙",
@@ -3200,7 +3185,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-4430592",
           "brand": "아디다스",
           "name": "(x크세니아) 투인원 트랙 스웨트 팬츠 - 그레이:블루 / IW5670",
@@ -3215,7 +3200,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6799794",
           "brand": "파시온",
           "name": "슬림 크리스탈 글램 팬츠_블랙 Slim Crystal Glam Pants_Black",
@@ -3227,6 +3212,21 @@
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260707/6799794/6799794_17834104859880_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6799794",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5337147",
+          "brand": "빼빼",
+          "name": "맞춤 2기장 2WAY 사이드핀턱  밑단스냅버튼 밴딩 스트링 와이드 트레이닝 스웻 팬츠 4COLOR (숏/ 롱 2TYPE 길이)",
+          "price": 59900,
+          "originalPrice": 59900,
+          "discountRate": 48,
+          "finalPrice": 31370,
+          "category": "003004",
+          "categoryLabel": "트레이닝/조거",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250819/5337147/5337147_17555823136124_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5337147",
           "displayGenderText": "여성"
         }
       ]
