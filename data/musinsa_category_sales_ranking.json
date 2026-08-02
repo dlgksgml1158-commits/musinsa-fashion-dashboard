@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T18:46:30.515030+00:00",
+  "updatedAt": "2026-08-02T20:02:55.882602+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -902,18 +902,18 @@
         },
         {
           "rank": 20,
-          "id": "ms-3106844",
+          "id": "ms-3116479",
           "brand": "챔피온",
-          "name": "C로고 크루넥 스웨트셔츠 Black",
-          "price": 79000,
-          "originalPrice": 79000,
-          "discountRate": 71,
-          "finalPrice": 23200,
+          "name": "여성 리버스위브 프렌치테리 벌룬 스웨트셔츠 Normal Blue",
+          "price": 129000,
+          "originalPrice": 129000,
+          "discountRate": 84,
+          "finalPrice": 20000,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230224/3106844/3106844_17430480366341_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3106844",
-          "displayGenderText": "공용"
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20230302/3116479/3116479_17471928125283_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3116479",
+          "displayGenderText": "여성"
         }
       ]
     },
@@ -1177,6 +1177,21 @@
         },
         {
           "rank": 18,
+          "id": "ms-3054736",
+          "brand": "챔피온",
+          "name": "여성 리버스위브 프렌치테리 후드 티셔츠 Light Blue",
+          "price": 129000,
+          "originalPrice": 129000,
+          "discountRate": 84,
+          "finalPrice": 20000,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20230202/3054736/3054736_17472028411483_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3054736",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 19,
           "id": "ms-4394906",
           "brand": "와키윌리",
           "name": "베이직 로고 와펜 후드 블루",
@@ -1191,7 +1206,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-4346747",
           "brand": "도프제이슨",
           "name": "빈티지 개러지하우스 후드 BLACK",
@@ -1204,21 +1219,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240820/4346747/4346747_17250287754330_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4346747",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-3515360",
-          "brand": "챔피온",
-          "name": "베이직 C로고 후드 티셔츠 White",
-          "price": 89000,
-          "originalPrice": 89000,
-          "discountRate": 78,
-          "finalPrice": 20000,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230830/3515360/3515360_17470104222522_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3515360",
-          "displayGenderText": "공용"
         }
       ]
     },
