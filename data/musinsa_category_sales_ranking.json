@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T17:49:46.398913+00:00",
+  "updatedAt": "2026-08-02T18:46:30.515030+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -232,21 +232,6 @@
         },
         {
           "rank": 16,
-          "id": "ms-6209238",
-          "brand": "스컬프터",
-          "name": "Swag Long Tee White",
-          "price": 65000,
-          "originalPrice": 65000,
-          "discountRate": 36,
-          "finalPrice": 41600,
-          "category": "001001",
-          "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260327/6209238/6209238_17773156848325_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6209238",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 17,
           "id": "ms-6819926",
           "brand": "엘리메노",
           "name": "EL 쓰리홀스 롤업 크롭 반팔티셔츠 3Color",
@@ -259,6 +244,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260710/6819926/6819926_17836704552201_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6819926",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 17,
+          "id": "ms-6209238",
+          "brand": "스컬프터",
+          "name": "Swag Long Tee White",
+          "price": 65000,
+          "originalPrice": 65000,
+          "discountRate": 36,
+          "finalPrice": 41600,
+          "category": "001001",
+          "categoryLabel": "반소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260327/6209238/6209238_17773156848325_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6209238",
+          "displayGenderText": "여성"
         },
         {
           "rank": 18,
@@ -1027,6 +1027,21 @@
         },
         {
           "rank": 8,
+          "id": "ms-3469860",
+          "brand": "챔피온",
+          "name": "여성 스티치 루즈핏 와플 후드 티셔츠 Black",
+          "price": 129000,
+          "originalPrice": 129000,
+          "discountRate": 84,
+          "finalPrice": 20000,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20230817/3469860/3469860_17470130466316_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3469860",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 9,
           "id": "ms-3683856",
           "brand": "챔피온",
           "name": "리버스위브 C로고 기모 후드 티셔츠 Turquoise Blue",
@@ -1041,7 +1056,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-3116755",
           "brand": "챔피온",
           "name": "베이직 C로고 후드 티셔츠 Normal Grey",
@@ -1056,7 +1071,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-6028958",
           "brand": "에잇세컨즈",
           "name": "헨리넥 후드 크랍 저지탑  네이비",
@@ -1071,7 +1086,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-4394909",
           "brand": "와키윌리",
           "name": "베이직 로고 와펜 후드 버건디",
@@ -1084,21 +1099,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240902/4394909/4394909_17259326103793_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4394909",
           "displayGenderText": "공용"
-        },
-        {
-          "rank": 12,
-          "id": "ms-3469860",
-          "brand": "챔피온",
-          "name": "여성 스티치 루즈핏 와플 후드 티셔츠 Black",
-          "price": 129000,
-          "originalPrice": 129000,
-          "discountRate": 84,
-          "finalPrice": 20000,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230817/3469860/3469860_17470130466316_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3469860",
-          "displayGenderText": "여성"
         },
         {
           "rank": 13,
@@ -1742,21 +1742,6 @@
         },
         {
           "rank": 15,
-          "id": "ms-4682247",
-          "brand": "무신사 스탠다드",
-          "name": "워셔블 수피마 코튼 니티드 폴로 셔츠 [네이비]",
-          "price": 49900,
-          "originalPrice": 49900,
-          "discountRate": 15,
-          "finalPrice": 42290,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20241227/4682247/4682247_17707076932963_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4682247",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 16,
           "id": "ms-6543427",
           "brand": "브렌슨",
           "name": "워셔블 헨리넥 크롭 반팔 쿨 니트 ( 5Color )",
@@ -1771,7 +1756,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6203854",
           "brand": "언탭트 스튜디오",
           "name": "워셔블 쿨 코튼 핸리넥 라운드 반팔 니트 5COLOR",
@@ -1783,6 +1768,21 @@
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260326/6203854/6203854_17745123810080_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6203854",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 17,
+          "id": "ms-4682247",
+          "brand": "무신사 스탠다드",
+          "name": "워셔블 수피마 코튼 니티드 폴로 셔츠 [네이비]",
+          "price": 49900,
+          "originalPrice": 49900,
+          "discountRate": 15,
+          "finalPrice": 42290,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20241227/4682247/4682247_17707076932963_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4682247",
           "displayGenderText": "남성"
         },
         {
@@ -2962,21 +2962,6 @@
         },
         {
           "rank": 15,
-          "id": "ms-5795926",
-          "brand": "무신사 스탠다드 우먼",
-          "name": "[UV 프로텍션] 우먼즈 쿨링 저지 와이드 팬츠 [미디엄 그레이]",
-          "price": 39900,
-          "originalPrice": 39900,
-          "discountRate": 0,
-          "finalPrice": 39900,
-          "category": "003004",
-          "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20251202/5795926/5795926_17738142342306_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5795926",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 16,
           "id": "ms-3753631",
           "brand": "무신사 스탠다드 우먼",
           "name": "[쿨탠다드] 우먼즈 베리어블 라운지 스웨트 팬츠 [블랙]",
@@ -2988,6 +2973,21 @@
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20231212/3753631/3753631_17128804541969_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3753631",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 16,
+          "id": "ms-5795926",
+          "brand": "무신사 스탠다드 우먼",
+          "name": "[UV 프로텍션] 우먼즈 쿨링 저지 와이드 팬츠 [미디엄 그레이]",
+          "price": 39900,
+          "originalPrice": 39900,
+          "discountRate": 0,
+          "finalPrice": 39900,
+          "category": "003004",
+          "categoryLabel": "트레이닝/조거",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20251202/5795926/5795926_17738142342306_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5795926",
           "displayGenderText": "여성"
         },
         {
