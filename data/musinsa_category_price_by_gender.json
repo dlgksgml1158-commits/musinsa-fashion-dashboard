@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T04:45:22.931941+00:00",
+  "updatedAt": "2026-08-02T07:25:47.765156+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 49058,
+        "avg": 49541,
         "min": 7500,
         "max": 208050,
         "count": 60
@@ -662,10 +662,10 @@
         "count": 20
       },
       "female": {
-        "avg": 42979,
+        "avg": 43332,
         "min": 12900,
         "max": 118000,
-        "count": 16
+        "count": 17
       },
       "items": [
         {
@@ -895,21 +895,6 @@
         },
         {
           "rank": 16,
-          "id": "ms-2712937",
-          "brand": "챔피온",
-          "name": "리버스위브 하프 집업 스웨트셔츠 Normal Khaki",
-          "price": 129000,
-          "originalPrice": 129000,
-          "discountRate": 84,
-          "finalPrice": 20000,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20220811/2712937/2712937_17471926186018_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/2712937",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 17,
           "id": "ms-4486865",
           "brand": "맥우드건",
           "name": "아카릿 3326 기모 체인자수 오버핏 네이비 스웨트셔츠",
@@ -924,7 +909,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-4341042",
           "brand": "앰부시",
           "name": "디스트로이드 홀 맨투맨 - 블랙 / BMBA004F24FLE0011010",
@@ -939,7 +924,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-3106860",
           "brand": "챔피온",
           "name": "C로고 프렌치테리 하프 집업 스웨트셔츠 Normal Grey",
@@ -954,7 +939,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5799678",
           "brand": "라이크더모스트",
           "name": "도트라모 하트하트 오버핏 스웨트셔츠_7colors",
@@ -967,6 +952,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20251203/5799678/5799678_17647260967503_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5799678",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-2971762",
+          "brand": "메인부스",
+          "name": "Disc Jockey Sweatshirt(BLACK)",
+          "price": 75000,
+          "originalPrice": 75000,
+          "discountRate": 90,
+          "finalPrice": 7500,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20221205/2971762/2971762_2_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/2971762",
+          "displayGenderText": "남성"
         }
       ]
     },
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 38333,
+        "avg": 38375,
         "min": 9300,
         "max": 108990,
         "count": 60
@@ -1631,8 +1631,8 @@
         "count": 31
       },
       "female": {
-        "avg": 33614,
-        "min": 12720,
+        "avg": 33728,
+        "min": 13520,
         "max": 59940,
         "count": 22
       },
@@ -1734,8 +1734,8 @@
           "name": "브이넥 루즈핏 시어 풀오버  옐로우",
           "price": 44900,
           "originalPrice": 44900,
-          "discountRate": 68,
-          "finalPrice": 14320,
+          "discountRate": 66,
+          "finalPrice": 15220,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250521/5134322/5134322_17846980444325_500.jpg",
@@ -1840,7 +1840,7 @@
           "price": 39900,
           "originalPrice": 39900,
           "discountRate": 25,
-          "finalPrice": 29890,
+          "finalPrice": 29900,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260406/6260453/6260453_17754554233074_500.jpg",
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 86374,
+        "avg": 86407,
         "min": 13520,
         "max": 459000,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 16
       },
       "female": {
-        "avg": 67526,
+        "avg": 67554,
         "min": 13520,
         "max": 359000,
         "count": 36
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-98721",
+          "id": "ms-98144",
           "brand": "",
           "name": "",
           "price": null,
