@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-02T15:33:21.197808+00:00",
+  "updatedAt": "2026-08-02T16:41:31.928952+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 45258,
+        "avg": 45079,
         "min": 9900,
         "max": 152190,
         "count": 60
@@ -16,7 +16,7 @@
         "count": 22
       },
       "female": {
-        "avg": 56800,
+        "avg": 56454,
         "min": 9900,
         "max": 152190,
         "count": 31
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 88396,
+        "avg": 88695,
         "min": 9900,
         "max": 522990,
         "count": 60
@@ -1133,8 +1133,8 @@
           "name": "[다나옷PICK] [4COLORS] 퍼니 지그재그 풀오버 후디",
           "price": 89900,
           "originalPrice": 89900,
-          "discountRate": 10,
-          "finalPrice": 80910,
+          "discountRate": 0,
+          "finalPrice": 89900,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250811/5308081/5308081_17561848697322_500.jpg",
@@ -1223,8 +1223,8 @@
           "name": "[다나옷PICK] [10COLORS] 퍼니 풀오버 후디",
           "price": 89900,
           "originalPrice": 89900,
-          "discountRate": 10,
-          "finalPrice": 80910,
+          "discountRate": 0,
+          "finalPrice": 89900,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250812/5315438/5315438_17679363095804_500.jpg",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 41674,
+        "avg": 41764,
         "min": 17400,
         "max": 128000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 28
       },
       "female": {
-        "avg": 39346,
+        "avg": 39521,
         "min": 17400,
         "max": 92400,
         "count": 31
@@ -1606,8 +1606,8 @@
           "name": "[CP] 시에라 스트라이프 클래식 베이직 반팔 셔츠 [PINK] 여름 ver.",
           "price": 45000,
           "originalPrice": 45000,
-          "discountRate": 32,
-          "finalPrice": 30600,
+          "discountRate": 20,
+          "finalPrice": 36000,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240514/4129489/4129489_17162577981553_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-98329",
+          "id": "ms-99013",
           "brand": "",
           "name": "",
           "price": null,
