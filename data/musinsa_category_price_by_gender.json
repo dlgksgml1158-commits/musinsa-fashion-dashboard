@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T07:25:47.765156+00:00",
+  "updatedAt": "2026-08-02T09:28:10.511168+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 87578,
+        "avg": 88096,
         "min": 9900,
         "max": 522990,
         "count": 60
@@ -985,10 +985,10 @@
         "count": 18
       },
       "female": {
-        "avg": 59611,
+        "avg": 64931,
         "min": 19980,
         "max": 217990,
-        "count": 13
+        "count": 14
       },
       "items": [
         {
@@ -1113,21 +1113,6 @@
         },
         {
           "rank": 9,
-          "id": "ms-4354689",
-          "brand": "아페쎄",
-          "name": "그랑 VPC 스탠다드핏 후드 - 카키 / COHBNM27908TJG",
-          "price": 588000,
-          "originalPrice": 588000,
-          "discountRate": 82,
-          "finalPrice": 102990,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240821/4354689/4354689_17255962764413_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4354689",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 10,
           "id": "ms-5328890",
           "brand": "플레이스 스튜디오",
           "name": "[트렌디에비뉴 PICK] 자수 골지 세미크롭 사이드 버튼 후드 롱 슬림 긴팔 티셔츠 _ 3COLOR",
@@ -1142,7 +1127,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-5308081",
           "brand": "매든",
           "name": "[다나옷PICK] [4COLORS] 퍼니 지그재그 풀오버 후디",
@@ -1157,7 +1142,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-5944301",
           "brand": "르아르",
           "name": "리브드 후디드 롱슬리브 티셔츠 [차콜]",
@@ -1172,7 +1157,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-6769500",
           "brand": "푸마",
           "name": "세이스카이 반팔 티 (52814769)",
@@ -1187,7 +1172,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-5873397",
           "brand": "매든",
           "name": "매든 X 탄산 퍼니 풀오버 후디 네이비",
@@ -1202,7 +1187,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6593077",
           "brand": "론론",
           "name": "WAFFLE BUTTON HALF SLEEVE HOODIE GREY",
@@ -1217,7 +1202,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-5817212",
           "brand": "탄산마그네슘",
           "name": "오디피기X탄산 와플 버튼 후드티 (레몬)",
@@ -1232,7 +1217,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-5315438",
           "brand": "매든",
           "name": "[다나옷PICK] [10COLORS] 퍼니 풀오버 후디",
@@ -1247,7 +1232,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6237329",
           "brand": "브렌슨",
           "name": "[쿨링] 슬릭 핑거홀 후드 롱슬리브 ( 4Color )",
@@ -1262,7 +1247,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6265163",
           "brand": "닉켈하우스",
           "name": "닉켈 26 동키 포켓 후드티",
@@ -1277,7 +1262,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-3893377",
           "brand": "라이크더모스트",
           "name": "엑스레이 그래픽 나비 오버 후디 [오트밀]",
@@ -1290,19 +1275,34 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240223/3893377/3893377_17086471833558_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3893377",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5328644",
+          "brand": "마하그리드",
+          "name": "CURVED SLIM HOODIE BLACK(MG2FFFM419A)",
+          "price": 79000,
+          "originalPrice": 79000,
+          "discountRate": 52,
+          "finalPrice": 37920,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250818/5328644/5328644_17603151025756_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5328644",
+          "displayGenderText": "여성"
         }
       ]
     },
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 42151,
+        "avg": 41674,
         "min": 17400,
         "max": 128000,
         "count": 60
       },
       "male": {
-        "avg": 45304,
+        "avg": 44282,
         "min": 23900,
         "max": 128000,
         "count": 28
@@ -1526,21 +1526,6 @@
         },
         {
           "rank": 15,
-          "id": "ms-6586166",
-          "brand": "후브스",
-          "name": "패널 라인 롤업 반팔 셔츠 [네이비]",
-          "price": 70500,
-          "originalPrice": 70500,
-          "discountRate": 20,
-          "finalPrice": 56400,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260601/6586166/6586166_17803881803395_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6586166",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 16,
           "id": "ms-5429767",
           "brand": "포에트서울",
           "name": "checked puff sleeve blouse_lime green",
@@ -1555,7 +1540,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6797751",
           "brand": "메종르하르",
           "name": "가든 레이스 나시 블라우스 2color",
@@ -1570,7 +1555,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6566770",
           "brand": "페이지플린",
           "name": "핀턱러플블라우스_P6BBL025C",
@@ -1585,7 +1570,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5129508",
           "brand": "티뷰",
           "name": "백리본크로스블라우스_V5B-VBL055",
@@ -1600,7 +1585,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-2507488",
           "brand": "다이아몬드 레이라",
           "name": "Gingham Check shirt S101 Blue",
@@ -1613,6 +1598,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20220421/2507488/2507488_17231024383527_500.jpg",
           "productUrl": "https://www.musinsa.com/products/2507488",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4129489",
+          "brand": "시티팝즈",
+          "name": "[CP] 시에라 스트라이프 클래식 베이직 반팔 셔츠 [PINK] 여름 ver.",
+          "price": 45000,
+          "originalPrice": 45000,
+          "discountRate": 32,
+          "finalPrice": 30600,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240514/4129489/4129489_17162577981553_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4129489",
+          "displayGenderText": "여성"
         }
       ]
     },
@@ -2265,8 +2265,8 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 46964,
-        "min": 15100,
+        "avg": 46921,
+        "min": 14790,
         "max": 115200,
         "count": 60
       },
@@ -2277,8 +2277,8 @@
         "count": 34
       },
       "female": {
-        "avg": 52349,
-        "min": 17400,
+        "avg": 52204,
+        "min": 14790,
         "max": 115200,
         "count": 18
       },
@@ -2395,8 +2395,8 @@
           "name": "세미 와이드 워싱 데님 팬츠  스카이블루 (324721LPHQ)",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 65,
-          "finalPrice": 17400,
+          "discountRate": 70,
+          "finalPrice": 14790,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240726/4276989/4276989_17235200915042_500.jpg",
