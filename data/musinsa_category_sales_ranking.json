@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T22:46:06.854074+00:00",
+  "updatedAt": "2026-08-03T23:55:56.082272+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -2107,6 +2107,21 @@
         },
         {
           "rank": 19,
+          "id": "ms-2444808",
+          "brand": "무신사 스탠다드",
+          "name": "[쿨탠다드] 릴렉스드 베이식 블레이저 [블랙]",
+          "price": 109900,
+          "originalPrice": 109900,
+          "discountRate": 22,
+          "finalPrice": 85900,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20220325/2444808/2444808_17791528728073_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/2444808",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
           "id": "ms-6660066",
           "brand": "노스페이스",
           "name": "NJ3BS62J 화이트라벨 노벨티 올레마 후디 BLACK",
@@ -2119,21 +2134,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260612/6660066/6660066_17812389173387_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6660066",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6007700",
-          "brand": "마뗑킴",
-          "name": "BACK LOGO HOODY WIND BREAKER IN BLACK",
-          "price": 168000,
-          "originalPrice": 168000,
-          "discountRate": 0,
-          "finalPrice": 168000,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260210/6007700/6007700_17707166268942_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6007700",
-          "displayGenderText": ""
         }
       ]
     },
@@ -2492,6 +2492,36 @@
         },
         {
           "rank": 4,
+          "id": "ms-2477836",
+          "brand": "무신사 스탠다드",
+          "name": "[쿨탠다드] 릴렉스드 테이퍼드 히든 밴딩 크롭 슬랙스 [블랙]",
+          "price": 59900,
+          "originalPrice": 59900,
+          "discountRate": 40,
+          "finalPrice": 35900,
+          "category": "003008",
+          "categoryLabel": "슬랙스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20220408/2477836/2477836_17222408083225_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/2477836",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 5,
+          "id": "ms-3134698",
+          "brand": "무신사 스탠다드",
+          "name": "[쿨탠다드] 원 턱 와이드 밴딩 슬랙스 [블랙]",
+          "price": 59900,
+          "originalPrice": 59900,
+          "discountRate": 33,
+          "finalPrice": 39900,
+          "category": "003008",
+          "categoryLabel": "슬랙스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20230309/3134698/3134698_17516088971899_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3134698",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 6,
           "id": "ms-4750069",
           "brand": "워크온바디오프",
           "name": "(여름추가) 레베 세미 와이드 원턱 슬랙스 (2color)",
@@ -2506,7 +2536,22 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 5,
+          "rank": 7,
+          "id": "ms-3134710",
+          "brand": "무신사 스탠다드",
+          "name": "썸머울 투 턱 와이드 히든 밴딩 슬랙스 [블랙]",
+          "price": 89900,
+          "originalPrice": 89900,
+          "discountRate": 16,
+          "finalPrice": 75900,
+          "category": "003008",
+          "categoryLabel": "슬랙스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20230309/3134710/3134710_17267103508004_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3134710",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 8,
           "id": "ms-5328102",
           "brand": "효지",
           "name": "투턱 세미와이드 슬랙스 (사계절,여름-8컬러)",
@@ -2521,7 +2566,22 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 6,
+          "rank": 9,
+          "id": "ms-2518486",
+          "brand": "무신사 스탠다드",
+          "name": "[쿨탠다드] 와이드 히든 밴딩 슬랙스 [그레이]",
+          "price": 59900,
+          "originalPrice": 59900,
+          "discountRate": 33,
+          "finalPrice": 39900,
+          "category": "003008",
+          "categoryLabel": "슬랙스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20220427/2518486/2518486_17770042855289_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/2518486",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 10,
           "id": "ms-6154426",
           "brand": "디미트리블랙",
           "name": "[여름용] ASI 원턱 와이드 플리츠 팬츠_블랙",
@@ -2536,7 +2596,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 7,
+          "rank": 11,
           "id": "ms-5928541",
           "brand": "트릴리온",
           "name": "투턱 라이크 데님 와이드 슬랙스_블랙",
@@ -2551,7 +2611,22 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 8,
+          "rank": 12,
+          "id": "ms-2477832",
+          "brand": "무신사 스탠다드 우먼",
+          "name": "[쿨탠다드] 우먼즈 스트레이트 히든 밴딩 슬랙스 [블랙]",
+          "price": 59900,
+          "originalPrice": 59900,
+          "discountRate": 40,
+          "finalPrice": 35900,
+          "category": "003008",
+          "categoryLabel": "슬랙스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20220408/2477832/2477832_17134045006700_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/2477832",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 13,
           "id": "ms-5849532",
           "brand": "리메인세컨드",
           "name": "린넨 라이크 밴딩 와이드 팬츠 [블랙]",
@@ -2566,7 +2641,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 9,
+          "rank": 14,
           "id": "ms-5858718",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 플루이드 로 웨이스트 와이드 슬랙스 [블랙]",
@@ -2581,7 +2656,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 15,
           "id": "ms-2578997",
           "brand": "시그니처",
           "name": "[여름원단추가]더블턱 와이드 슬랙스[그레이]",
@@ -2596,7 +2671,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 16,
           "id": "ms-4147691",
           "brand": "무신사 스탠다드",
           "name": "[쿨탠다드] 쿨링 딥 턱 와이드 밴딩 팬츠 2팩",
@@ -2611,7 +2686,22 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 17,
+          "id": "ms-2957579",
+          "brand": "무신사 스탠다드",
+          "name": "[쿨탠다드] 와이드 히든 밴딩 슬랙스 [건메탈]",
+          "price": 59900,
+          "originalPrice": 59900,
+          "discountRate": 33,
+          "finalPrice": 39900,
+          "category": "003008",
+          "categoryLabel": "슬랙스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20221123/2957579/2957579_17222305877871_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/2957579",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 18,
           "id": "ms-4163350",
           "brand": "토피",
           "name": "섬머 내츄럴 와이드 밴딩 슬랙스 (5 COLOURS)",
@@ -2626,7 +2716,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 19,
           "id": "ms-5746361",
           "brand": "무신사 스탠다드",
           "name": "[이도현 PICK] 엑스트라 와이드 투 턱 히든 밴딩 슬랙스 [블랙]",
@@ -2641,7 +2731,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 20,
           "id": "ms-4035806",
           "brand": "리메인세컨드",
           "name": "이지 세미 와이드 밴딩 슬랙스 [블랙]",
@@ -2653,96 +2743,6 @@
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240408/4035806/4035806_17847731476072_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4035806",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 15,
-          "id": "ms-3153802",
-          "brand": "무신사 스탠다드",
-          "name": "쿨링 딥 턱 와이드 밴딩 팬츠 [블랙]",
-          "price": 45900,
-          "originalPrice": 45900,
-          "discountRate": 8,
-          "finalPrice": 42190,
-          "category": "003008",
-          "categoryLabel": "슬랙스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230316/3153802/3153802_16893121516097_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3153802",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 16,
-          "id": "ms-5820422",
-          "brand": "무신사 스탠다드 우먼",
-          "name": "[쿨탠다드] 우먼즈 로 라이즈 플레어 슬랙스 [블랙]",
-          "price": 45900,
-          "originalPrice": 45900,
-          "discountRate": 0,
-          "finalPrice": 45900,
-          "category": "003008",
-          "categoryLabel": "슬랙스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20251210/5820422/5820422_17750073158362_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5820422",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 17,
-          "id": "ms-5328103",
-          "brand": "효지",
-          "name": "원턱 와이드 슬랙스 (사계절,여름-8컬러)",
-          "price": 63000,
-          "originalPrice": 63000,
-          "discountRate": 21,
-          "finalPrice": 49500,
-          "category": "003008",
-          "categoryLabel": "슬랙스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250817/5328103/5328103_17582663204502_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5328103",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 18,
-          "id": "ms-4467789",
-          "brand": "언탭트 스튜디오",
-          "name": "원턱 와이드 밴딩 슬랙스 3Color",
-          "price": 34900,
-          "originalPrice": 34900,
-          "discountRate": 30,
-          "finalPrice": 24430,
-          "category": "003008",
-          "categoryLabel": "슬랙스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240926/4467789/4467789_17314754429611_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4467789",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 19,
-          "id": "ms-3260690",
-          "brand": "트래드클럽",
-          "name": "투턱 와이드 슬랙스",
-          "price": 79000,
-          "originalPrice": 79000,
-          "discountRate": 30,
-          "finalPrice": 55000,
-          "category": "003008",
-          "categoryLabel": "슬랙스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230425/3260690/3260690_17470389606734_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3260690",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-3267784",
-          "brand": "후러브스아트",
-          "name": "[여름원단추가] 유니섹스 세미 와이드 밴딩 슬랙스 2PACK",
-          "price": 108000,
-          "originalPrice": 108000,
-          "discountRate": 50,
-          "finalPrice": 54000,
-          "category": "003008",
-          "categoryLabel": "슬랙스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230428/3267784/3267784_17811680772987_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3267784",
           "displayGenderText": "공용"
         }
       ]
