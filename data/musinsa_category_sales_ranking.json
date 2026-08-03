@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T23:24:56.188120+00:00",
+  "updatedAt": "2026-08-03T01:01:14.765617+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -537,6 +537,21 @@
         },
         {
           "rank": 16,
+          "id": "ms-5263179",
+          "brand": "레스트앤레크레이션",
+          "name": "LOGO PATTERN WAFFLE TOP - GREY",
+          "price": 72000,
+          "originalPrice": 72000,
+          "discountRate": 37,
+          "finalPrice": 45360,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250722/5263179/5263179_17532405328002_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5263179",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 17,
           "id": "ms-5943433",
           "brand": "아디다스",
           "name": "와플 롱 슬리브 폴로 티 - 원더화이트 / KQ6867",
@@ -551,7 +566,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-4745670",
           "brand": "낫포너드",
           "name": "Pigment Sleeve Lace Henley Neck Long Sleeve - Charcoal",
@@ -566,7 +581,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-6076846",
           "brand": "산로",
           "name": "[UNISEX] 퀵드라이 리플렉티브 프린트 풀오버 티 - 블랙",
@@ -581,7 +596,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-5151560",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 울 텐셀 레이어드 슬림 긴소매 티셔츠 [차콜 그레이]",
@@ -593,21 +608,6 @@
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250528/5151560/5151560_17550629832294_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5151560",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-4762776",
-          "brand": "길라아카이브",
-          "name": "STAR WING SHEER LONG SLEEVE_GY",
-          "price": 59000,
-          "originalPrice": 59000,
-          "discountRate": 37,
-          "finalPrice": 37170,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250206/4762776/4762776_17610961951773_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4762776",
           "displayGenderText": "여성"
         }
       ]
@@ -1089,14 +1089,14 @@
           "rank": 12,
           "id": "ms-5315438",
           "brand": "매든",
-          "name": "[다나옷PICK] [10COLORS] 퍼니 풀오버 후디",
+          "name": "[다나옷PICK] [12COLORS] 퍼니 풀오버 후디",
           "price": 89900,
           "originalPrice": 89900,
           "discountRate": 0,
           "finalPrice": 89900,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250812/5315438/5315438_17679363095804_500.jpg",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250812/5315438/5315438_17857183496092_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5315438",
           "displayGenderText": "공용"
         },
@@ -2812,21 +2812,6 @@
         },
         {
           "rank": 5,
-          "id": "ms-6047357",
-          "brand": "미쏘",
-          "name": "[설쁘 PICK] 커브드 밴딩 팬츠_MIWTMG80QC/MIWTMG92QA",
-          "price": 49900,
-          "originalPrice": 49900,
-          "discountRate": 34,
-          "finalPrice": 33090,
-          "category": "003004",
-          "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260224/6047357/6047357_17788208238235_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6047357",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 6,
           "id": "ms-2978123",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 파라슈트 팬츠 [블랙]",
@@ -2841,7 +2826,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-2112061",
           "brand": "가까이 유니언즈",
           "name": "[여름 or 기모 or 사계절 원단 선택] 원턱 와이드 스웨트팬츠 블랙",
@@ -2856,7 +2841,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-5982722",
           "brand": "디미트리블랙",
           "name": "[여름용] M65 파라슈트 커브드 팬츠_ NC 블랙",
@@ -2871,7 +2856,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-5931114",
           "brand": "아디다스",
           "name": "배기 트랙 팬츠 - 블랙:화이트 / KE3501",
@@ -2886,7 +2871,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-2112059",
           "brand": "가까이 유니언즈",
           "name": "[여름 or 기모 or 사계절 원단 선택] 원턱 와이드 스웨트팬츠 그레이",
@@ -2901,7 +2886,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-6110845",
           "brand": "디미트리블랙",
           "name": "[여름용] VLAD 커브드 밴딩 카고 팬츠_블랙",
@@ -2916,7 +2901,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-3792018",
           "brand": "필루미네이트",
           "name": "나일론 투 턱 트랙 팬츠-블랙",
@@ -2931,7 +2916,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-3238724",
           "brand": "레더리",
           "name": "파라슈트 와이드 카고 팬츠 [6COLOR]",
@@ -2946,7 +2931,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-5915428",
           "brand": "시그니처",
           "name": "썸머 사이드턱 커브드 트레이닝 팬츠[3COLORS]",
@@ -2961,7 +2946,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-3753631",
           "brand": "무신사 스탠다드 우먼",
           "name": "[쿨탠다드] 우먼즈 베리어블 라운지 스웨트 팬츠 [블랙]",
@@ -2976,7 +2961,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-5795926",
           "brand": "무신사 스탠다드 우먼",
           "name": "[UV 프로텍션] 우먼즈 쿨링 저지 와이드 팬츠 [미디엄 그레이]",
@@ -2991,7 +2976,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-4787238",
           "brand": "시그니처",
           "name": "더블턱 와이드 트레이닝 팬츠[2COLORS]",
@@ -3006,7 +2991,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6110843",
           "brand": "디미트리블랙",
           "name": "[여름용] VLAD 커브드 밴딩 카고 팬츠_카키",
@@ -3021,7 +3006,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-4258827",
           "brand": "버튼서울",
           "name": "[여름용] 베이직 라인 나일론 스트링 팬츠 (그레이)",
@@ -3036,7 +3021,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-2402843",
           "brand": "무신사 스탠다드",
           "name": "[쿨탠다드] 쿨링 와이드 밴딩 팬츠 [블랙]",
@@ -3049,6 +3034,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20220307/2402843/2402843_17134075777282_500.jpg",
           "productUrl": "https://www.musinsa.com/products/2402843",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-1551839",
+          "brand": "제로",
+          "name": "Deep One Tuck Sweat Pants [Black]",
+          "price": 39000,
+          "originalPrice": 39000,
+          "discountRate": 19,
+          "finalPrice": 31590,
+          "category": "003004",
+          "categoryLabel": "트레이닝/조거",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20200818/1551839/1551839_1_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/1551839",
+          "displayGenderText": "공용"
         }
       ]
     },
