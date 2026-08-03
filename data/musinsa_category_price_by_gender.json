@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T11:51:41.817782+00:00",
+  "updatedAt": "2026-08-03T14:07:24.228036+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,8 +327,8 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 42765,
-        "min": 14590,
+        "avg": 42764,
+        "min": 14540,
         "max": 130000,
         "count": 60
       },
@@ -339,8 +339,8 @@
         "count": 18
       },
       "female": {
-        "avg": 41118,
-        "min": 14590,
+        "avg": 41116,
+        "min": 14540,
         "max": 98000,
         "count": 37
       },
@@ -473,7 +473,7 @@
           "price": 29900,
           "originalPrice": 29900,
           "discountRate": 51,
-          "finalPrice": 14590,
+          "finalPrice": 14540,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260414/6304006/6304006_17814888601253_500.jpg",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 41540,
+        "avg": 41538,
         "min": 17400,
         "max": 128000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 28
       },
       "female": {
-        "avg": 39086,
+        "avg": 39084,
         "min": 17400,
         "max": 92400,
         "count": 31
@@ -1502,7 +1502,7 @@
           "price": 49900,
           "originalPrice": 49900,
           "discountRate": 34,
-          "finalPrice": 33090,
+          "finalPrice": 33020,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260401/6237554/6237554_17787406683233_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-99167",
+          "id": "ms-99169",
           "brand": "",
           "name": "",
           "price": null,
