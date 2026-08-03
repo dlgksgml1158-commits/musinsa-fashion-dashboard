@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2026-08-03T08:17:35.025972+00:00",
+  "updatedAt": "2026-08-03T11:51:41.817782+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 43886,
+        "avg": 43774,
         "min": 9900,
         "max": 152190,
         "count": 60
       },
       "male": {
-        "avg": 30837,
+        "avg": 30736,
         "min": 12000,
-        "max": 95000,
+        "max": 92880,
         "count": 21
       },
       "female": {
-        "avg": 56152,
+        "avg": 56008,
         "min": 9900,
         "max": 152190,
         "count": 32
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 42881,
+        "avg": 42765,
         "min": 14590,
         "max": 130000,
         "count": 60
@@ -650,13 +650,13 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 50238,
+        "avg": 49505,
         "min": 7500,
         "max": 208050,
         "count": 60
       },
       "male": {
-        "avg": 65606,
+        "avg": 63510,
         "min": 7500,
         "max": 208050,
         "count": 21
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 87966,
+        "avg": 87712,
         "min": 9900,
         "max": 522990,
         "count": 60
@@ -1073,8 +1073,8 @@
           "name": "[3COLORS] 에어쿨링 풀오버 후디",
           "price": 79900,
           "originalPrice": 79900,
-          "discountRate": 12,
-          "finalPrice": 70310,
+          "discountRate": 20,
+          "finalPrice": 63920,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260106/5871614/5871614_17702718576825_500.jpg",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 41720,
+        "avg": 41540,
         "min": 17400,
         "max": 128000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 28
       },
       "female": {
-        "avg": 39435,
+        "avg": 39086,
         "min": 17400,
         "max": 92400,
         "count": 31
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 38253,
+        "avg": 38069,
         "min": 9300,
         "max": 108990,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 31
       },
       "female": {
-        "avg": 33648,
+        "avg": 33145,
         "min": 13520,
         "max": 59940,
         "count": 22
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 85366,
+        "avg": 85222,
         "min": 13520,
         "max": 459000,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 16
       },
       "female": {
-        "avg": 65813,
+        "avg": 65572,
         "min": 13520,
         "max": 359000,
         "count": 36
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 47354,
+        "avg": 48580,
         "min": 9900,
         "max": 114670,
         "count": 60
@@ -2923,10 +2923,10 @@
         "count": 15
       },
       "female": {
-        "avg": 52302,
+        "avg": 53768,
         "min": 13450,
         "max": 114670,
-        "count": 36
+        "count": 37
       },
       "items": [
         {
@@ -3141,6 +3141,21 @@
         },
         {
           "rank": 15,
+          "id": "ms-6336948",
+          "brand": "아디다스",
+          "name": "새틴 레이스 파이어버드 루즈 트랙 팬츠 - 나이트인디고 / LF2674",
+          "price": 119000,
+          "originalPrice": 119000,
+          "discountRate": 10,
+          "finalPrice": 106550,
+          "category": "003004",
+          "categoryLabel": "트레이닝/조거",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260420/6336948/6336948_17767568843306_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6336948",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 16,
           "id": "ms-5156702",
           "brand": "줄리아페페",
           "name": "[양양,지똥 PICK] Natural Stripe Pants (Blue)",
@@ -3155,7 +3170,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-5386361",
           "brand": "엘리메노",
           "name": "EL 베이직 절개 테이핑 트랙 팬츠 2Color",
@@ -3170,7 +3185,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-5363832",
           "brand": "토피",
           "name": "사이드 라인 트랙 팬츠 (NAVY)",
@@ -3185,7 +3200,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-6004700",
           "brand": "슈퍼서브",
           "name": "와이드 배기 파이핑 팬츠 - 블랙",
@@ -3200,7 +3215,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-4430592",
           "brand": "아디다스",
           "name": "(x크세니아) 투인원 트랙 스웨트 팬츠 - 그레이:블루 / IW5670",
@@ -3213,28 +3228,13 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240911/4430592/4430592_17262042729858_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4430592",
           "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6799794",
-          "brand": "파시온",
-          "name": "슬림 크리스탈 글램 팬츠_블랙 Slim Crystal Glam Pants_Black",
-          "price": 58000,
-          "originalPrice": 58000,
-          "discountRate": 20,
-          "finalPrice": 46400,
-          "category": "003004",
-          "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260707/6799794/6799794_17834104859880_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6799794",
-          "displayGenderText": "여성"
         }
       ]
     },
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 39433,
+        "avg": 39336,
         "min": 9900,
         "max": 170050,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 33
       },
       "female": {
-        "avg": 38504,
+        "avg": 38240,
         "min": 26530,
         "max": 115430,
         "count": 22
