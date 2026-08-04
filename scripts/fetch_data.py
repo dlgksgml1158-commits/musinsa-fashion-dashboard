@@ -351,6 +351,10 @@ DISCOUNT_RSS_FEEDS = [
     "https://www.hankyung.com/feed/life",
 ]
 DISCOUNT_KEYWORDS = ["할인", "세일", "특가"]
+# The broad hankyung economy/life feeds occasionally mention "할인" in a macroeconomic
+# sense (e.g. a telecom discount cited as a base effect in an inflation report) — exclude
+# those so 할인 only shows actual retail/fashion sale news.
+DISCOUNT_EXCLUDE_KEYWORDS = ["물가", "금리", "환율", "GDP", "통계청", "한은", "기준금리", "경상수지", "무역수지"]
 
 # Keyword-anchored: only trust a date immediately next to "까지" or a "~" range marker,
 # so an unrelated date elsewhere in the article (byline, other headlines in a related-
@@ -432,6 +436,8 @@ def fetch_discount_news():
             pub_m = re.search(r"<pubDate>([\s\S]*?)</pubDate>", block)
             title = decode_entities(_strip_cdata(title_m.group(1))) if title_m else ""
             if not any(k in title for k in DISCOUNT_KEYWORDS):
+                continue
+            if any(k in title for k in DISCOUNT_EXCLUDE_KEYWORDS):
                 continue
             pub_date_str = _strip_cdata(pub_m.group(1)) if pub_m else ""
             pub_dt = _parse_rss_pubdate(pub_date_str) if pub_date_str else None

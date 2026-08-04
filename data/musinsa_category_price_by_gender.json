@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-04T07:27:43.289945+00:00",
+  "updatedAt": "2026-08-04T07:33:18.503614+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 46009,
+        "avg": 45925,
         "min": 9900,
         "max": 178000,
         "count": 60
@@ -16,7 +16,7 @@
         "count": 21
       },
       "female": {
-        "avg": 59409,
+        "avg": 59251,
         "min": 9900,
         "max": 178000,
         "count": 32
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 45039,
+        "avg": 44811,
         "min": 8500,
         "max": 130000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 18
       },
       "female": {
-        "avg": 42948,
+        "avg": 42579,
         "min": 8500,
         "max": 98000,
         "count": 37
@@ -442,8 +442,8 @@
           "name": "Classic Henly Neck Top - Gray",
           "price": 62000,
           "originalPrice": 62000,
-          "discountRate": 21,
-          "finalPrice": 49110,
+          "discountRate": 28,
+          "finalPrice": 44640,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250903/5397926/5397926_17582584972271_500.jpg",
@@ -547,8 +547,8 @@
           "name": "Funk Mesh Top - Ivory",
           "price": 54000,
           "originalPrice": 54000,
-          "discountRate": 15,
-          "finalPrice": 45900,
+          "discountRate": 32,
+          "finalPrice": 36720,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240812/4322503/4322503_17350227481324_500.jpg",
@@ -1296,22 +1296,22 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 45347,
+        "avg": 45914,
         "min": 18130,
         "max": 128000,
         "count": 60
       },
       "male": {
-        "avg": 47224,
+        "avg": 47652,
         "min": 24900,
         "max": 128000,
-        "count": 27
+        "count": 28
       },
       "female": {
-        "avg": 43906,
+        "avg": 44509,
         "min": 18130,
         "max": 92400,
-        "count": 32
+        "count": 31
       },
       "items": [
         {
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-99503",
+          "id": "ms-99509",
           "brand": "",
           "name": "",
           "price": null,
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 50522,
+        "avg": 50204,
         "min": 9900,
         "max": 137000,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 14
       },
       "female": {
-        "avg": 55910,
+        "avg": 55395,
         "min": 13450,
         "max": 137000,
         "count": 37
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 41634,
+        "avg": 41436,
         "min": 9900,
         "max": 170050,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 33
       },
       "female": {
-        "avg": 43798,
+        "avg": 43234,
         "min": 26900,
         "max": 135000,
         "count": 21
