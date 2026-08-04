@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-04T12:23:17.232755+00:00",
+  "updatedAt": "2026-08-04T14:46:46.954712+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 46124,
+        "avg": 46357,
         "min": 9900,
         "max": 178000,
         "count": 60
@@ -264,21 +264,6 @@
         },
         {
           "rank": 17,
-          "id": "ms-6562698",
-          "brand": "스파오",
-          "name": "[토이스토리] 반팔 티셔츠(Mix)_SPRLG37U27",
-          "price": 25900,
-          "originalPrice": 25900,
-          "discountRate": 0,
-          "finalPrice": 25900,
-          "category": "001001",
-          "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260528/6562698/6562698_17833183270059_500.png",
-          "productUrl": "https://www.musinsa.com/products/6562698",
-          "displayGenderText": ""
-        },
-        {
-          "rank": 18,
           "id": "ms-6812708",
           "brand": "마이홈식",
           "name": "7 퍼포먼스 테크 머슬핏 집업 티셔츠 블랙",
@@ -293,7 +278,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-3182421",
           "brand": "트래블",
           "name": "커브드 라인 래글런 반팔티 차콜",
@@ -308,7 +293,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6823708",
           "brand": "헬레네파리스",
           "name": "[아리 착용] 웨이브 로고 큐빅 오프숄더 하프 티셔츠 [민트]",
@@ -320,6 +305,21 @@
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260710/6823708/6823708_17839333295095_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6823708",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6747017",
+          "brand": "루즈슬립오버",
+          "name": "벨 버튼 탑 *도브 그레이",
+          "price": 78000,
+          "originalPrice": 78000,
+          "discountRate": 0,
+          "finalPrice": 78000,
+          "category": "001001",
+          "categoryLabel": "반소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260629/6747017/6747017_17835707296093_500.png",
+          "productUrl": "https://www.musinsa.com/products/6747017",
           "displayGenderText": "여성"
         }
       ]
