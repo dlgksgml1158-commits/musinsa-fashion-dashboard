@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-05T01:11:53.402192+00:00",
+  "updatedAt": "2026-08-05T04:34:06.224037+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 50943,
+        "avg": 50868,
         "min": 12000,
         "max": 178000,
         "count": 60
@@ -16,7 +16,7 @@
         "count": 22
       },
       "female": {
-        "avg": 60938,
+        "avg": 60802,
         "min": 26400,
         "max": 178000,
         "count": 33
@@ -59,8 +59,8 @@
           "name": "그래픽 레터링 티셔츠 브라운",
           "price": 54000,
           "originalPrice": 54000,
-          "discountRate": 10,
-          "finalPrice": 48600,
+          "discountRate": 20,
+          "finalPrice": 43200,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260706/6787113/6787113_17840771275000_500.jpg",
@@ -179,8 +179,8 @@
           "name": "셔츠 배색 저지 카디건  네이비",
           "price": 44900,
           "originalPrice": 44900,
-          "discountRate": 19,
-          "finalPrice": 36370,
+          "discountRate": 15,
+          "finalPrice": 38160,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260708/6809742/6809742_17846995306859_500.jpg",
@@ -294,6 +294,21 @@
         },
         {
           "rank": 19,
+          "id": "ms-6823708",
+          "brand": "헬레네파리스",
+          "name": "[아리 착용] 웨이브 로고 큐빅 오프숄더 하프 티셔츠 [민트]",
+          "price": 47000,
+          "originalPrice": 47000,
+          "discountRate": 20,
+          "finalPrice": 37600,
+          "category": "001001",
+          "categoryLabel": "반소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260710/6823708/6823708_17839333295095_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6823708",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
           "id": "ms-6747017",
           "brand": "루즈슬립오버",
           "name": "벨 버튼 탑 *도브 그레이",
@@ -306,28 +321,13 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260629/6747017/6747017_17835707296093_500.png",
           "productUrl": "https://www.musinsa.com/products/6747017",
           "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-3132891",
-          "brand": "트래블",
-          "name": "리즌 트레일 피그먼트 반팔티 마젠타",
-          "price": 43000,
-          "originalPrice": 43000,
-          "discountRate": 39,
-          "finalPrice": 26320,
-          "category": "001001",
-          "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230308/3132891/3132891_17309495517892_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3132891",
-          "displayGenderText": "공용"
         }
       ]
     },
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 46478,
+        "avg": 46453,
         "min": 8500,
         "max": 130000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 19
       },
       "female": {
-        "avg": 42490,
+        "avg": 42448,
         "min": 8500,
         "max": 98000,
         "count": 36
@@ -397,8 +397,8 @@
           "name": "그래픽 오프숄더 티셔츠  네이비",
           "price": 39900,
           "originalPrice": 39900,
-          "discountRate": 60,
-          "finalPrice": 16120,
+          "discountRate": 58,
+          "finalPrice": 16920,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260401/6233850/6233850_17776428630286_500.jpg",
@@ -427,8 +427,8 @@
           "name": "Sheer button raglan t-shirt",
           "price": 59000,
           "originalPrice": 59000,
-          "discountRate": 19,
-          "finalPrice": 47650,
+          "discountRate": 26,
+          "finalPrice": 43640,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260602/6596322/6596322_17841888388606_500.jpg",
@@ -502,8 +502,8 @@
           "name": "시스루 버튼업 긴팔 티셔츠_MIWLWG507A",
           "price": 29900,
           "originalPrice": 29900,
-          "discountRate": 44,
-          "finalPrice": 16740,
+          "discountRate": 51,
+          "finalPrice": 14660,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260414/6304006/6304006_17814888601253_500.jpg",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 51378,
+        "avg": 51830,
         "min": 7500,
         "max": 208050,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 21
       },
       "female": {
-        "avg": 47887,
+        "avg": 49312,
         "min": 12900,
         "max": 137000,
         "count": 19
@@ -973,20 +973,20 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 92741,
+        "avg": 93138,
         "min": 9900,
         "max": 522990,
         "count": 60
       },
       "male": {
-        "avg": 158797,
+        "avg": 158054,
         "min": 10000,
         "max": 522990,
         "count": 14
       },
       "female": {
-        "avg": 74496,
-        "min": 16120,
+        "avg": 74451,
+        "min": 15400,
         "max": 217990,
         "count": 16
       },
@@ -1043,8 +1043,8 @@
           "name": "후디드 스웨트셔츠 Normal Navy",
           "price": 69000,
           "originalPrice": 69000,
-          "discountRate": 50,
-          "finalPrice": 34500,
+          "discountRate": 65,
+          "finalPrice": 24100,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230710/3401107/3401107_17471924104798_500.jpg",
@@ -1253,8 +1253,8 @@
           "name": "SORANO Basic Logo HOODIE [6Color]",
           "price": 119000,
           "originalPrice": 119000,
-          "discountRate": 62,
-          "finalPrice": 45760,
+          "discountRate": 54,
+          "finalPrice": 55200,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240807/4302685/4302685_17229675684379_500.jpg",
@@ -1296,13 +1296,13 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 46787,
+        "avg": 48004,
         "min": 20900,
         "max": 128000,
         "count": 60
       },
       "male": {
-        "avg": 48744,
+        "avg": 51264,
         "min": 24900,
         "max": 128000,
         "count": 29
@@ -1321,8 +1321,8 @@
           "name": "오픈칼라 슬림핏 반팔 셔츠  스카이 블루",
           "price": 34900,
           "originalPrice": 34900,
-          "discountRate": 19,
-          "finalPrice": 28270,
+          "discountRate": 15,
+          "finalPrice": 29660,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260714/6843879/6843879_17841641427475_500.jpg",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 43185,
+        "avg": 42899,
         "min": 9300,
         "max": 108990,
         "count": 60
@@ -1631,9 +1631,9 @@
         "count": 31
       },
       "female": {
-        "avg": 41197,
-        "min": 19360,
-        "max": 70550,
+        "avg": 40666,
+        "min": 20320,
+        "max": 70000,
         "count": 23
       },
       "items": [
@@ -1749,8 +1749,8 @@
           "name": "Henley Neck Deep V Short Sleeve Knit",
           "price": 39900,
           "originalPrice": 39900,
-          "discountRate": 20,
-          "finalPrice": 31920,
+          "discountRate": 30,
+          "finalPrice": 27930,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260507/6430803/6430803_17830604156020_500.jpg",
@@ -1824,8 +1824,8 @@
           "name": "하와이안 크로쉐 니트_4 COLOR",
           "price": 48200,
           "originalPrice": 48200,
-          "discountRate": 38,
-          "finalPrice": 29900,
+          "discountRate": 48,
+          "finalPrice": 24900,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260408/6278959/6278959_17791766446533_500.png",
@@ -1942,8 +1942,8 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 90356,
-        "min": 19900,
+        "avg": 90484,
+        "min": 18840,
         "max": 359000,
         "count": 60
       },
@@ -1954,8 +1954,8 @@
         "count": 19
       },
       "female": {
-        "avg": 77885,
-        "min": 21530,
+        "avg": 78105,
+        "min": 18840,
         "max": 359000,
         "count": 35
       },
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-99503",
+          "id": "ms-99509",
           "brand": "",
           "name": "",
           "price": null,
@@ -2177,8 +2177,8 @@
           "name": "스웨이드 이펙트 레더 블루종  브라운",
           "price": 109900,
           "originalPrice": 109900,
-          "discountRate": 63,
-          "finalPrice": 40420,
+          "discountRate": 61,
+          "finalPrice": 42420,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260121/5920280/5920280_17840597256937_500.jpg",
@@ -2265,41 +2265,26 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 53739,
-        "min": 14900,
+        "avg": 54344,
+        "min": 19900,
         "max": 175000,
         "count": 60
       },
       "male": {
-        "avg": 51728,
-        "min": 24220,
+        "avg": 51777,
+        "min": 25000,
         "max": 148200,
         "count": 33
       },
       "female": {
-        "avg": 60578,
+        "avg": 59930,
         "min": 29900,
         "max": 124200,
-        "count": 16
+        "count": 17
       },
       "items": [
         {
           "rank": 1,
-          "id": "ms-6832635",
-          "brand": "시그니처",
-          "name": "커브드 린넨 라이크 데님 팬츠[라이트블루]",
-          "price": 53000,
-          "originalPrice": 53000,
-          "discountRate": 72,
-          "finalPrice": 14900,
-          "category": "003002",
-          "categoryLabel": "데님 팬츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260713/6832635/6832635_17847030275297_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6832635",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 2,
           "id": "ms-6885251",
           "brand": "오도어",
           "name": "Vintage distressed raw jean",
@@ -2314,7 +2299,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 3,
+          "rank": 2,
           "id": "ms-2796118",
           "brand": "밀리언코르",
           "name": "7160 캣 브러쉬 슬림 진청 부츠컷 데님팬츠",
@@ -2329,7 +2314,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 4,
+          "rank": 3,
           "id": "ms-3098405",
           "brand": "플랙",
           "name": "깡스타일리스트 X 플랙 스티즈 K45 미드 블루",
@@ -2344,14 +2329,14 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "id": "ms-6810186",
           "brand": "에잇세컨즈",
           "name": "5부 데님쇼츠  스카이 블루",
           "price": 39900,
           "originalPrice": 39900,
-          "discountRate": 19,
-          "finalPrice": 32320,
+          "discountRate": 16,
+          "finalPrice": 33590,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260709/6810186/6810186_17840119962247_500.jpg",
@@ -2359,7 +2344,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "id": "ms-6610227",
           "brand": "시그니처",
           "name": "썸머 와이드 커브드 린넨 라이크 데님 팬츠[2COLORS]",
@@ -2374,7 +2359,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-3791988",
           "brand": "필루미네이트",
           "name": "데미지 워시드 데님 팬츠-미디엄 블루",
@@ -2389,7 +2374,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-3201942",
           "brand": "토피",
           "name": "내츄럴 린넨 데님 와이드 팬츠 (OFF WHITE)",
@@ -2404,7 +2389,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-4276989",
           "brand": "에잇세컨즈",
           "name": "세미 와이드 워싱 데님 팬츠  스카이블루 (324721LPHQ)",
@@ -2419,7 +2404,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-4948089",
           "brand": "데케트",
           "name": "[린넨라이크]Linen Like Mid Rise Wide Jeans DCPT039MidBlueB",
@@ -2434,7 +2419,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-5682041",
           "brand": "텍스",
           "name": "TX308 커브드 배기 벌룬 데님 (베이지)",
@@ -2449,7 +2434,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-5358816",
           "brand": "드로우핏",
           "name": "[서강준 PICK] 유주얼 세미 와이드 데님 팬츠 [RAW BLACK]",
@@ -2464,7 +2449,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-6814077",
           "brand": "인세인개러지",
           "name": "INSANE WASHED DENIM PANTS_BLACK",
@@ -2479,7 +2464,7 @@
           "displayGenderText": ""
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-4933453",
           "brand": "플랙",
           "name": "[메르고X플랙] 셀비지 베를린 K94 블랙 로우",
@@ -2494,7 +2479,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6733025",
           "brand": "애즈온",
           "name": "SUNFADE DENIM PANTS / LIGHT BLUE",
@@ -2509,7 +2494,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-2303284",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 스트레이트 데님 팬츠 [미디엄 인디고]",
@@ -2524,7 +2509,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6102674",
           "brand": "마인드브릿지",
           "name": "[ON]와이드 원턱 풀 밴딩 데일리 데님 팬츠 - 3color",
@@ -2539,7 +2524,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6719352",
           "brand": "토피",
           "name": "[여름 기획 원단] 커브드 배럴 데님 팬츠 (BLACK)",
@@ -2554,7 +2539,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5946738",
           "brand": "커스텀어클락 우먼",
           "name": "루즈핏 부츠컷 데님 팬츠 화이트 COWPT002WHITE",
@@ -2569,7 +2554,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6390295",
           "brand": "밀리언코르",
           "name": "[여름원단]르체 다크그레이 원 턱 와이드 팬츠",
@@ -2582,19 +2567,34 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260428/6390295/6390295_17853806839252_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6390295",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-3856803",
+          "brand": "언탭트 스튜디오",
+          "name": "바이오 워싱 와이드 청바지 데님 팬츠 8 COLOR",
+          "price": 53800,
+          "originalPrice": 53800,
+          "discountRate": 35,
+          "finalPrice": 34970,
+          "category": "003002",
+          "categoryLabel": "데님 팬츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240207/3856803/3856803_17183574955551_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3856803",
+          "displayGenderText": "공용"
         }
       ]
     },
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 40250,
+        "avg": 40196,
         "min": 9900,
         "max": 121600,
         "count": 60
       },
       "male": {
-        "avg": 41752,
+        "avg": 41666,
         "min": 15900,
         "max": 79790,
         "count": 37
@@ -2898,8 +2898,8 @@
           "name": "[여름용] ASI 원턱 와이드 플리츠 팬츠_블랙",
           "price": 41900,
           "originalPrice": 41900,
-          "discountRate": 19,
-          "finalPrice": 33900,
+          "discountRate": 29,
+          "finalPrice": 29900,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260318/6154426/6154426_17785725680250_500.jpg",
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 43123,
+        "avg": 43057,
         "min": 10000,
         "max": 170050,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 34
       },
       "female": {
-        "avg": 44238,
+        "avg": 44048,
         "min": 10000,
         "max": 135000,
         "count": 21
