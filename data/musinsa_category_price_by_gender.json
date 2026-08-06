@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-08-06T06:19:18.148165+00:00",
+  "updatedAt": "2026-08-06T09:17:31.854530+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 50412,
+        "avg": 50432,
         "min": 12000,
         "max": 178000,
         "count": 60
       },
       "male": {
-        "avg": 40795,
+        "avg": 40847,
         "min": 12000,
         "max": 129000,
         "count": 23
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 46011,
+        "avg": 45813,
         "min": 20900,
         "max": 128000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 27
       },
       "female": {
-        "avg": 46156,
+        "avg": 45760,
         "min": 20900,
         "max": 92400,
         "count": 30
@@ -1471,8 +1471,8 @@
           "name": "[드로우핏우먼 X 꾸니] 캄파눌라 퍼프 슬리브 블라우스 [BLACK]",
           "price": 66000,
           "originalPrice": 66000,
-          "discountRate": 10,
-          "finalPrice": 59400,
+          "discountRate": 28,
+          "finalPrice": 47520,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260408/6276012/6276012_17757030425903_500.jpg",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 41836,
+        "avg": 41711,
         "min": 9300,
         "max": 108990,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 30
       },
       "female": {
-        "avg": 37742,
+        "avg": 37430,
         "min": 19360,
         "max": 66600,
         "count": 24
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-99975",
+          "id": "ms-99507",
           "brand": "",
           "name": "",
           "price": null,
@@ -2151,7 +2151,7 @@
           "finalPrice": 69900,
           "category": "002",
           "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260423/6364512/6364512_17853756206857_500.jpg",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260423/6364512/6364512_17860032863069_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6364512",
           "displayGenderText": "남성"
         },
@@ -3234,13 +3234,13 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 42705,
+        "avg": 42675,
         "min": 10000,
         "max": 170050,
         "count": 60
       },
       "male": {
-        "avg": 43924,
+        "avg": 43871,
         "min": 16990,
         "max": 170050,
         "count": 34
