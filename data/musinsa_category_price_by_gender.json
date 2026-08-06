@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T23:26:50.571210+00:00",
+  "updatedAt": "2026-08-06T00:15:29.872308+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,16 +650,16 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 51978,
+        "avg": 51974,
         "min": 7500,
         "max": 208050,
         "count": 60
       },
       "male": {
-        "avg": 61269,
+        "avg": 63332,
         "min": 7500,
         "max": 208050,
-        "count": 21
+        "count": 20
       },
       "female": {
         "avg": 49312,
@@ -865,21 +865,6 @@
         },
         {
           "rank": 14,
-          "id": "ms-2712940",
-          "brand": "챔피온",
-          "name": "리버스위브 120 하프 집업 풀오버 Normal Grey",
-          "price": 129000,
-          "originalPrice": 129000,
-          "discountRate": 84,
-          "finalPrice": 20000,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20220811/2712940/2712940_17471823162148_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/2712940",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 15,
           "id": "ms-1181804",
           "brand": "메인부스",
           "name": "MNBTH Sweatshirt(CARROT)",
@@ -894,7 +879,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-4341042",
           "brand": "앰부시",
           "name": "디스트로이드 홀 맨투맨 - 블랙 / BMBA004F24FLE0011010",
@@ -909,7 +894,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-3033915",
           "brand": "챔피온",
           "name": "여성 리버스위브 프렌치테리 포켓 스웨트셔츠 Black",
@@ -924,7 +909,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5935689",
           "brand": "아웃스탠딩",
           "name": "V.S.C SWEAT(MICHIGAN INDIANS)_NAVY",
@@ -939,7 +924,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-2971762",
           "brand": "메인부스",
           "name": "Disc Jockey Sweatshirt(BLACK)",
@@ -954,7 +939,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-3106860",
           "brand": "챔피온",
           "name": "C로고 프렌치테리 하프 집업 스웨트셔츠 Normal Grey",
@@ -967,6 +952,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230224/3106860/3106860_17471968342087_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3106860",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4313424",
+          "brand": "코드그라피",
+          "name": "(우먼) 스퀘어 로고 맨투맨_다크네이비",
+          "price": 74000,
+          "originalPrice": 74000,
+          "discountRate": 30,
+          "finalPrice": 51800,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240809/4313424/4313424_17738816575812_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4313424",
+          "displayGenderText": "여성"
         }
       ]
     },
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-99869",
+          "id": "ms-99509",
           "brand": "",
           "name": "",
           "price": null,
