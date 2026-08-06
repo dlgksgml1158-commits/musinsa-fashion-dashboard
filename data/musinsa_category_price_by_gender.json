@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T13:25:34.194734+00:00",
+  "updatedAt": "2026-08-06T15:36:11.704018+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,22 +327,22 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 45111,
+        "avg": 45680,
         "min": 8500,
         "max": 130000,
         "count": 60
       },
       "male": {
-        "avg": 47196,
+        "avg": 51226,
         "min": 22990,
-        "max": 99750,
-        "count": 19
+        "max": 127800,
+        "count": 20
       },
       "female": {
-        "avg": 40859,
+        "avg": 39350,
         "min": 8500,
         "max": 98000,
-        "count": 36
+        "count": 35
       },
       "items": [
         {
@@ -362,21 +362,6 @@
         },
         {
           "rank": 2,
-          "id": "ms-6686205",
-          "brand": "나이키",
-          "name": "ACG 와일드씨 드라이 핏 쿼터집 긴소매 하이킹 탑 W - 블랙:서밋 화이트 / IQ6323-010",
-          "price": 95000,
-          "originalPrice": 95000,
-          "discountRate": 0,
-          "finalPrice": 95000,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260617/6686205/6686205_17821027439116_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6686205",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 3,
           "id": "ms-6233850",
           "brand": "에잇세컨즈",
           "name": "그래픽 오프숄더 티셔츠  네이비",
@@ -391,7 +376,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 4,
+          "rank": 3,
           "id": "ms-6401851",
           "brand": "커스텀어클락 우먼",
           "name": "린넨 시스루 홀터넥 레이어드 니트 셋업 4 COLOR COWKT015",
@@ -406,7 +391,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "id": "ms-6596322",
           "brand": "유라고",
           "name": "Sheer button raglan t-shirt",
@@ -421,7 +406,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "id": "ms-6215890",
           "brand": "키치앤키스",
           "name": "BEAUTIFULLY 시스루 롱 슬리브 (SSGKNK-102)",
@@ -436,7 +421,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-5397926",
           "brand": "락케이크",
           "name": "Classic Henly Neck Top - Gray",
@@ -451,7 +436,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-5996770",
           "brand": "언더오프",
           "name": "와플 크롭 헨리넥 티셔츠 아이보리",
@@ -466,7 +451,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-5937170",
           "brand": "후브스",
           "name": "[데일리룸X후브스] 패널 컷오프 유넥 슬리브- 10Color",
@@ -481,7 +466,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-6304006",
           "brand": "미쏘",
           "name": "시스루 버튼업 긴팔 티셔츠_MIWLWG507A",
@@ -496,7 +481,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-6812676",
           "brand": "살로몬",
           "name": "펄스웨이브 메쉬 롱 슬리브_LD0415000",
@@ -511,7 +496,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-3167984",
           "brand": "아디다스",
           "name": "아약스 OG 저지 - 레드:화이트 / IN4723",
@@ -526,7 +511,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-6897106",
           "brand": "벨리에",
           "name": "스트라이프 폴로 롱 슬리브 - 다이드 네이비",
@@ -541,7 +526,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-6007618",
           "brand": "멜로토리",
           "name": "시스루 립 티셔츠 (3color)",
@@ -556,7 +541,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6058096",
           "brand": "언타이틀 서울",
           "name": "유니콘 헨리넥 슬럽 롱 슬리브 그레이",
@@ -571,7 +556,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-4322503",
           "brand": "락케이크",
           "name": "Funk Mesh Top - Ivory",
@@ -586,7 +571,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-5763372",
           "brand": "코이리스",
           "name": "리브 오프숄더 나그랑 긴팔 티 (3컬러)",
@@ -601,14 +586,14 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5404516",
           "brand": "쏘비",
           "name": "세미크롭 CH 긴팔티",
           "price": 26800,
           "originalPrice": 26800,
-          "discountRate": 5,
-          "finalPrice": 25460,
+          "discountRate": 0,
+          "finalPrice": 26800,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250904/5404516/5404516_17569705957799_500.png",
@@ -616,7 +601,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5886093",
           "brand": "허그유어스킨",
           "name": "멜로우 프린트 롱 슬리브 티 (그레이시 핑크)",
@@ -631,7 +616,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6215897",
           "brand": "키치앤키스",
           "name": "브이넥 골지 자수 롱 슬리브 (26STP-LSTS01)",
@@ -644,6 +629,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260329/6215897/6215897_17747745123789_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6215897",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4729987",
+          "brand": "앨빈클로",
+          "name": "AVL 트랙 오버핏 긴팔티 AVT933 (2 COLOR)",
+          "price": 49900,
+          "originalPrice": 49900,
+          "discountRate": 47,
+          "finalPrice": 26300,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250120/4729987/4729987_17397739475712_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4729987",
+          "displayGenderText": "남성"
         }
       ]
     },
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 46011,
+        "avg": 46050,
         "min": 20900,
         "max": 128000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 27
       },
       "female": {
-        "avg": 46155,
+        "avg": 46232,
         "min": 20900,
         "max": 92400,
         "count": 30
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 53301,
+        "avg": 53250,
         "min": 5900,
         "max": 137000,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 16
       },
       "female": {
-        "avg": 62496,
+        "avg": 62410,
         "min": 13450,
         "max": 137000,
         "count": 36
