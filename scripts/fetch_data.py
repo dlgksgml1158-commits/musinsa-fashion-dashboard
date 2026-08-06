@@ -345,16 +345,28 @@ def fetch_fashion_news():
 # "Mozilla/5.0" gets through, so these feeds/articles use their own minimal UA.
 DISCOUNT_HEADERS = {"User-Agent": "Mozilla/5.0"}
 
+# (feed url, is_fashion_scoped) — ktnews is a fashion trade press so every article is
+# on-topic by definition; hankyung's economy/life feeds are general retail/economy news
+# and can carry non-fashion sales (electronics, appliances, groceries...), so those need
+# an extra fashion-context check below.
 DISCOUNT_RSS_FEEDS = [
-    "https://www.ktnews.com/rss/allArticle.xml",     # 한국섬유신문 — fashion trade press
-    "https://www.hankyung.com/feed/economy",
-    "https://www.hankyung.com/feed/life",
+    ("https://www.ktnews.com/rss/allArticle.xml", True),   # 한국섬유신문 — fashion trade press
+    ("https://www.hankyung.com/feed/economy", False),
+    ("https://www.hankyung.com/feed/life", False),
 ]
 DISCOUNT_KEYWORDS = ["할인", "세일", "특가"]
 # The broad hankyung economy/life feeds occasionally mention "할인" in a macroeconomic
 # sense (e.g. a telecom discount cited as a base effect in an inflation report) — exclude
-# those so 할인 only shows actual retail/fashion sale news.
+# those so 할인 only shows actual retail sale news.
 DISCOUNT_EXCLUDE_KEYWORDS = ["물가", "금리", "환율", "GDP", "통계청", "한은", "기준금리", "경상수지", "무역수지"]
+# For non-fashion-scoped feeds, also require an actual fashion/retail-context word —
+# otherwise an "역대급 세일" on TVs or refrigerators slips through just as easily as one
+# on clothing.
+FASHION_CONTEXT_KEYWORDS = [
+    "패션", "의류", "옷", "브랜드", "아울렛", "백화점", "무신사", "쇼핑몰", "SSG", "쓱닷컴",
+    "롯데온", "지그재그", "에이블리", "스타일", "신발", "가방", "액세서리", "뷰티", "화장품",
+    "코스메틱", "잡화", "슈즈", "니트", "셔츠", "팬츠", "원피스", "아우터",
+]
 
 # Keyword-anchored: only trust a date immediately next to "까지" or a "~" range marker,
 # so an unrelated date elsewhere in the article (byline, other headlines in a related-
@@ -422,7 +434,7 @@ def fetch_discount_news():
     now = datetime.now(timezone.utc)
     cutoff = now - timedelta(days=30)
     candidates = []
-    for feed_url in DISCOUNT_RSS_FEEDS:
+    for feed_url, is_fashion_scoped in DISCOUNT_RSS_FEEDS:
         try:
             xml = fetch_text(feed_url, headers=DISCOUNT_HEADERS)
         except Exception as e:
@@ -438,6 +450,8 @@ def fetch_discount_news():
             if not any(k in title for k in DISCOUNT_KEYWORDS):
                 continue
             if any(k in title for k in DISCOUNT_EXCLUDE_KEYWORDS):
+                continue
+            if not is_fashion_scoped and not any(k in title for k in FASHION_CONTEXT_KEYWORDS):
                 continue
             pub_date_str = _strip_cdata(pub_m.group(1)) if pub_m else ""
             pub_dt = _parse_rss_pubdate(pub_date_str) if pub_date_str else None

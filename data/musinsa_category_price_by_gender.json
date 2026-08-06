@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-06T00:15:29.872308+00:00",
+  "updatedAt": "2026-08-06T01:45:47.902399+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 50522,
+        "avg": 50579,
         "min": 12000,
         "max": 178000,
         "count": 60
@@ -16,7 +16,7 @@
         "count": 22
       },
       "female": {
-        "avg": 60174,
+        "avg": 60277,
         "min": 26400,
         "max": 178000,
         "count": 33
@@ -650,16 +650,16 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 51974,
+        "avg": 51667,
         "min": 7500,
         "max": 208050,
         "count": 60
       },
       "male": {
-        "avg": 63332,
+        "avg": 62011,
         "min": 7500,
         "max": 208050,
-        "count": 20
+        "count": 21
       },
       "female": {
         "avg": 49312,
@@ -1296,19 +1296,19 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 47473,
+        "avg": 46309,
         "min": 20900,
         "max": 128000,
         "count": 60
       },
       "male": {
-        "avg": 50760,
+        "avg": 47598,
         "min": 24900,
         "max": 128000,
-        "count": 29
+        "count": 28
       },
       "female": {
-        "avg": 44770,
+        "avg": 45906,
         "min": 20900,
         "max": 92400,
         "count": 29
@@ -1571,21 +1571,6 @@
         },
         {
           "rank": 18,
-          "id": "ms-6841696",
-          "brand": "어나더 오피스",
-          "name": "Writer Shirt (Off White)",
-          "price": 98000,
-          "originalPrice": 98000,
-          "discountRate": 0,
-          "finalPrice": 98000,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260714/6841696/6841696_17840179879335_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6841696",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 19,
           "id": "ms-6518898",
           "brand": "유니온블루",
           "name": "LOOSED CHECK HALF SHIRT [GRAPHITE]",
@@ -1600,7 +1585,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-3858441",
           "brand": "커스텀어클락",
           "name": "[리뉴얼ver.] 쿨 체크 숏 슬리브 셔츠 4 COLOR COOSSH191",
@@ -1613,13 +1598,28 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240208/3858441/3858441_17853928425721_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3858441",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5429767",
+          "brand": "포에트서울",
+          "name": "checked puff sleeve blouse_lime green",
+          "price": 87000,
+          "originalPrice": 87000,
+          "discountRate": 0,
+          "finalPrice": 87000,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250909/5429767/5429767_17799477425045_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5429767",
+          "displayGenderText": "여성"
         }
       ]
     },
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 42118,
+        "avg": 42018,
         "min": 9300,
         "max": 108990,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 31
       },
       "female": {
-        "avg": 38474,
+        "avg": 38213,
         "min": 19360,
         "max": 66600,
         "count": 23
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-99509",
+          "id": "ms-99869",
           "brand": "",
           "name": "",
           "price": null,
@@ -3234,22 +3234,22 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 42185,
+        "avg": 42705,
         "min": 10000,
         "max": 170050,
         "count": 60
       },
       "male": {
-        "avg": 43128,
+        "avg": 43924,
         "min": 16990,
         "max": 170050,
-        "count": 33
+        "count": 34
       },
       "female": {
-        "avg": 43074,
+        "avg": 43268,
         "min": 10000,
         "max": 135000,
-        "count": 22
+        "count": 21
       },
       "items": [
         {
