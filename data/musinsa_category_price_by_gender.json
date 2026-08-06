@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-06T11:37:34.450356+00:00",
+  "updatedAt": "2026-08-06T13:25:34.194734+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 50432,
+        "avg": 50354,
         "min": 12000,
         "max": 178000,
         "count": 60
@@ -16,7 +16,7 @@
         "count": 22
       },
       "female": {
-        "avg": 60174,
+        "avg": 60032,
         "min": 26400,
         "max": 178000,
         "count": 33
@@ -327,22 +327,22 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 45469,
+        "avg": 45111,
         "min": 8500,
         "max": 130000,
         "count": 60
       },
       "male": {
-        "avg": 47186,
+        "avg": 47196,
         "min": 22990,
         "max": 99750,
-        "count": 20
+        "count": 19
       },
       "female": {
-        "avg": 41298,
+        "avg": 40859,
         "min": 8500,
         "max": 98000,
-        "count": 35
+        "count": 36
       },
       "items": [
         {
@@ -487,8 +487,8 @@
           "name": "시스루 버튼업 긴팔 티셔츠_MIWLWG507A",
           "price": 29900,
           "originalPrice": 29900,
-          "discountRate": 60,
-          "finalPrice": 11960,
+          "discountRate": 51,
+          "finalPrice": 14660,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260414/6304006/6304006_17814888601253_500.jpg",
@@ -973,16 +973,16 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 90948,
+        "avg": 84265,
         "min": 9900,
         "max": 495000,
         "count": 60
       },
       "male": {
-        "avg": 152554,
+        "avg": 127752,
         "min": 10000,
-        "max": 474990,
-        "count": 14
+        "max": 445990,
+        "count": 13
       },
       "female": {
         "avg": 74451,
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 45813,
+        "avg": 46011,
         "min": 20900,
         "max": 128000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 27
       },
       "female": {
-        "avg": 45760,
+        "avg": 46155,
         "min": 20900,
         "max": 92400,
         "count": 30
@@ -1471,8 +1471,8 @@
           "name": "[드로우핏우먼 X 꾸니] 캄파눌라 퍼프 슬리브 블라우스 [BLACK]",
           "price": 66000,
           "originalPrice": 66000,
-          "discountRate": 28,
-          "finalPrice": 47520,
+          "discountRate": 10,
+          "finalPrice": 59400,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260408/6276012/6276012_17757030425903_500.jpg",
@@ -1547,7 +1547,7 @@
           "price": 49900,
           "originalPrice": 49900,
           "discountRate": 30,
-          "finalPrice": 34930,
+          "finalPrice": 34920,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260401/6237554/6237554_17787406683233_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-99504",
+          "id": "ms-99176",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,19 +2265,19 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 54783,
+        "avg": 54769,
         "min": 19900,
         "max": 175000,
         "count": 60
       },
       "male": {
-        "avg": 51171,
-        "min": 24220,
+        "avg": 51207,
+        "min": 25000,
         "max": 148200,
         "count": 33
       },
       "female": {
-        "avg": 62655,
+        "avg": 62535,
         "min": 29900,
         "max": 149000,
         "count": 17
@@ -2305,8 +2305,8 @@
           "name": "7160 캣 브러쉬 슬림 진청 부츠컷 데님팬츠",
           "price": 59000,
           "originalPrice": 59000,
-          "discountRate": 43,
-          "finalPrice": 33570,
+          "discountRate": 47,
+          "finalPrice": 31530,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20220915/2796118/2796118_17809663324954_500.jpg",
@@ -3234,13 +3234,13 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 42675,
+        "avg": 42705,
         "min": 10000,
         "max": 170050,
         "count": 60
       },
       "male": {
-        "avg": 43871,
+        "avg": 43924,
         "min": 16990,
         "max": 170050,
         "count": 34
