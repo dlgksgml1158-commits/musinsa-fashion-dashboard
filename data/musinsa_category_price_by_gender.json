@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-07T15:40:49.110315+00:00",
+  "updatedAt": "2026-08-07T16:37:34.549355+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 44927,
+        "avg": 44900,
         "min": 16920,
         "max": 139000,
         "count": 60
@@ -16,7 +16,7 @@
         "count": 21
       },
       "female": {
-        "avg": 47745,
+        "avg": 47692,
         "min": 16920,
         "max": 139000,
         "count": 30
@@ -1296,22 +1296,22 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 48822,
+        "avg": 48946,
         "min": 19010,
         "max": 129000,
         "count": 60
       },
       "male": {
-        "avg": 51393,
+        "avg": 52258,
         "min": 19900,
         "max": 129000,
-        "count": 27
+        "count": 26
       },
       "female": {
-        "avg": 47312,
+        "avg": 46980,
         "min": 19010,
         "max": 92400,
-        "count": 32
+        "count": 33
       },
       "items": [
         {
@@ -1421,6 +1421,21 @@
         },
         {
           "rank": 8,
+          "id": "ms-6809891",
+          "brand": "에잇세컨즈",
+          "name": "체크 슬림핏 반소매 셔츠  브라운",
+          "price": 44900,
+          "originalPrice": 44900,
+          "discountRate": 19,
+          "finalPrice": 36370,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260709/6809891/6809891_17840093898052_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6809891",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 9,
           "id": "ms-6797751",
           "brand": "메종르하르",
           "name": "가든 레이스 나시 블라우스 2color",
@@ -1435,7 +1450,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-4989733",
           "brand": "르아르",
           "name": "링클 시어서커 체크 반팔 셔츠 [차콜]",
@@ -1450,7 +1465,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-5289769",
           "brand": "마인드브릿지",
           "name": "[ON]스트라이프 오버핏 셔츠 - 3color",
@@ -1465,7 +1480,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-3926599",
           "brand": "마인드브릿지",
           "name": "[에어쿨]린넨 라이크 세미 오버핏 셔츠 -5color",
@@ -1480,7 +1495,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-4711502",
           "brand": "로템버",
           "name": "린넨 오픈카라 펜슬 스트라이프 셔츠 [OATMEAL]",
@@ -1495,7 +1510,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-4899346",
           "brand": "마인드브릿지 우먼",
           "name": "[W]시어 세미 오버핏 투웨이 셔츠 - 2color",
@@ -1510,7 +1525,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-6809800",
           "brand": "에잇세컨즈",
           "name": "레이스 민소매 블라우스  블랙",
@@ -1525,7 +1540,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-6662337",
           "brand": "미쏘",
           "name": "시어 레이스업 블라우스_MIWBWG716G",
@@ -1540,7 +1555,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-5661656",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 체크 텍스처드 베이비 돌 블라우스 [화이트]",
@@ -1555,7 +1570,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-6466463",
           "brand": "이코르",
           "name": "[이코르 X 홍또기] 데일리 크롭 반팔 체크 셔츠 : 2COLOR",
@@ -1570,7 +1585,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-6562364",
           "brand": "인더스트",
           "name": "[인더스트 X 요비] 피그먼트  워시드 피케 반팔 셔츠_3COLOR",
@@ -1585,7 +1600,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-6366020",
           "brand": "108파운드",
           "name": "Light Cotton Half Shirt_Pink",
@@ -1598,28 +1613,13 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260423/6366020/6366020_17769383668612_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6366020",
           "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6138785",
-          "brand": "숲",
-          "name": "페플럼 퍼프 슬리브 블라우스(SC4SSF2)",
-          "price": 79000,
-          "originalPrice": 79000,
-          "discountRate": 39,
-          "finalPrice": 47900,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260316/6138785/6138785_17834064378087_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6138785",
-          "displayGenderText": "여성"
         }
       ]
     },
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 40570,
+        "avg": 40662,
         "min": 9900,
         "max": 108990,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 33
       },
       "female": {
-        "avg": 31719,
+        "avg": 31994,
         "min": 9900,
         "max": 89000,
         "count": 20
@@ -1720,7 +1720,7 @@
           "price": 35900,
           "originalPrice": 35900,
           "discountRate": 28,
-          "finalPrice": 25890,
+          "finalPrice": 25900,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260224/6048607/6048607_17719154882750_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-100418",
+          "id": "ms-99176",
           "brand": "",
           "name": "",
           "price": null,

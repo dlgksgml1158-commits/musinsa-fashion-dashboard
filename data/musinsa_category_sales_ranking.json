@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T15:40:57.893467+00:00",
+  "updatedAt": "2026-08-07T16:37:43.836396+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -37,6 +37,21 @@
         },
         {
           "rank": 3,
+          "id": "ms-6238769",
+          "brand": "디미트리블랙",
+          "name": "[10주년기획] © 모두의 수소봉제 반팔 티셔츠 (COOLMAX® 원단)_7 COLOR",
+          "price": 46000,
+          "originalPrice": 46000,
+          "discountRate": 57,
+          "finalPrice": 19900,
+          "category": "001001",
+          "categoryLabel": "반소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260401/6238769/6238769_17770137145106_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6238769",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 4,
           "id": "ms-4314937",
           "brand": "챔피온",
           "name": "빅 스크립트 로고 코튼 반팔 티셔츠 White",
@@ -51,7 +66,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "id": "ms-6102395",
           "brand": "수아레",
           "name": "[수아레x패션플래닛] 에어리 크롭 워셔블 하프 니트",
@@ -63,21 +78,6 @@
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260309/6102395/6102395_17846823530758_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6102395",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 5,
-          "id": "ms-4891596",
-          "brand": "챔피온",
-          "name": "빅 스크립트 로고 코튼 반팔 티셔츠 Black",
-          "price": 39000,
-          "originalPrice": 39000,
-          "discountRate": 69,
-          "finalPrice": 12000,
-          "category": "001001",
-          "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250313/4891596/4891596_17429723290578_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4891596",
           "displayGenderText": "남성"
         },
         {
@@ -97,18 +97,18 @@
         },
         {
           "rank": 7,
-          "id": "ms-6238769",
-          "brand": "디미트리블랙",
-          "name": "[10주년기획] © 모두의 수소봉제 반팔 티셔츠 (COOLMAX® 원단)_7 COLOR",
-          "price": 46000,
-          "originalPrice": 46000,
-          "discountRate": 57,
-          "finalPrice": 19900,
+          "id": "ms-4891596",
+          "brand": "챔피온",
+          "name": "빅 스크립트 로고 코튼 반팔 티셔츠 Black",
+          "price": 39000,
+          "originalPrice": 39000,
+          "discountRate": 69,
+          "finalPrice": 12000,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260401/6238769/6238769_17770137145106_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6238769",
-          "displayGenderText": "공용"
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250313/4891596/4891596_17429723290578_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4891596",
+          "displayGenderText": "남성"
         },
         {
           "rank": 8,
@@ -232,36 +232,6 @@
         },
         {
           "rank": 16,
-          "id": "ms-6819926",
-          "brand": "엘리메노",
-          "name": "EL 쓰리홀스 롤업 크롭 반팔티셔츠 3Color",
-          "price": 52000,
-          "originalPrice": 52000,
-          "discountRate": 58,
-          "finalPrice": 21900,
-          "category": "001001",
-          "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260710/6819926/6819926_17836704552201_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6819926",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 17,
-          "id": "ms-2690691",
-          "brand": "허그본",
-          "name": "무지 머슬핏 반팔 5컬러",
-          "price": 25000,
-          "originalPrice": 25000,
-          "discountRate": 11,
-          "finalPrice": 22190,
-          "category": "001001",
-          "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20220801/2690691/2690691_17090175122341_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/2690691",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 18,
           "id": "ms-6148671",
           "brand": "트릴리온",
           "name": "[기획] 에센셜 CP 이중지 크롭 반팔티_9color",
@@ -276,7 +246,52 @@
           "displayGenderText": "남성"
         },
         {
+          "rank": 17,
+          "id": "ms-6819926",
+          "brand": "엘리메노",
+          "name": "EL 쓰리홀스 롤업 크롭 반팔티셔츠 3Color",
+          "price": 52000,
+          "originalPrice": 52000,
+          "discountRate": 58,
+          "finalPrice": 21900,
+          "category": "001001",
+          "categoryLabel": "반소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260710/6819926/6819926_17836704552201_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6819926",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 18,
+          "id": "ms-2690691",
+          "brand": "허그본",
+          "name": "무지 머슬핏 반팔 5컬러",
+          "price": 25000,
+          "originalPrice": 25000,
+          "discountRate": 11,
+          "finalPrice": 22190,
+          "category": "001001",
+          "categoryLabel": "반소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20220801/2690691/2690691_17090175122341_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/2690691",
+          "displayGenderText": "남성"
+        },
+        {
           "rank": 19,
+          "id": "ms-6108783",
+          "brand": "비바라비다",
+          "name": "Chaser 링거 반팔 티셔츠",
+          "price": 46900,
+          "originalPrice": 46900,
+          "discountRate": 23,
+          "finalPrice": 35900,
+          "category": "001001",
+          "categoryLabel": "반소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260310/6108783/6108783_17742516004008_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6108783",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
           "id": "ms-4887825",
           "brand": "마하그리드",
           "name": "STRANGE PUPPY TEE_4colors",
@@ -289,21 +304,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250312/4887825/4887825_17792538224711_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4887825",
           "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6659876",
-          "brand": "소버먼트",
-          "name": "3-Way 롤업 레이어드 소프트 티셔츠 [9 Color]",
-          "price": 41500,
-          "originalPrice": 41500,
-          "discountRate": 30,
-          "finalPrice": 29000,
-          "category": "001001",
-          "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260612/6659876/6659876_17812491269889_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6659876",
-          "displayGenderText": "남성"
         }
       ]
     },
@@ -1272,21 +1272,6 @@
         },
         {
           "rank": 4,
-          "id": "ms-6359182",
-          "brand": "유젠",
-          "name": "소프트 타이 버튼 블라우스_블랙",
-          "price": 41000,
-          "originalPrice": 41000,
-          "discountRate": 34,
-          "finalPrice": 26900,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6359182/6359182_17770106651833_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6359182",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 5,
           "id": "ms-4989733",
           "brand": "르아르",
           "name": "링클 시어서커 체크 반팔 셔츠 [차콜]",
@@ -1299,6 +1284,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250404/4989733/4989733_17477885499560_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4989733",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 5,
+          "id": "ms-6359182",
+          "brand": "유젠",
+          "name": "소프트 타이 버튼 블라우스_블랙",
+          "price": 41000,
+          "originalPrice": 41000,
+          "discountRate": 34,
+          "finalPrice": 26900,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6359182/6359182_17770106651833_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6359182",
+          "displayGenderText": "여성"
         },
         {
           "rank": 6,
@@ -1332,6 +1332,21 @@
         },
         {
           "rank": 8,
+          "id": "ms-6317950",
+          "brand": "디미트리블랙",
+          "name": "바이오워싱 크롭 데님 반팔 셔츠_2 COLOR",
+          "price": 39900,
+          "originalPrice": 39900,
+          "discountRate": 38,
+          "finalPrice": 24900,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260415/6317950/6317950_17764004707273_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6317950",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 9,
           "id": "ms-3042516",
           "brand": "수아레",
           "name": "에센셜 텐셀 린넨 셔츠 - 9 COLOR",
@@ -1346,7 +1361,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-4982021",
           "brand": "언탭트 스튜디오",
           "name": "시티보이 빅 오버핏 옥스포드 반팔 셔츠 4Color",
@@ -1358,21 +1373,6 @@
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250403/4982021/4982021_17440047730160_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4982021",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 10,
-          "id": "ms-6317950",
-          "brand": "디미트리블랙",
-          "name": "바이오워싱 크롭 데님 반팔 셔츠_2 COLOR",
-          "price": 39900,
-          "originalPrice": 39900,
-          "discountRate": 38,
-          "finalPrice": 24900,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260415/6317950/6317950_17764004707273_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6317950",
           "displayGenderText": "공용"
         },
         {
@@ -1547,21 +1547,6 @@
         },
         {
           "rank": 2,
-          "id": "ms-6238768",
-          "brand": "디미트리블랙",
-          "name": "[10주년기획] © 모두의 써머 울 하프 니트_스트라이프 4 COLOR",
-          "price": 49900,
-          "originalPrice": 49900,
-          "discountRate": 50,
-          "finalPrice": 24900,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260401/6238768/6238768_17752015401472_500.png",
-          "productUrl": "https://www.musinsa.com/products/6238768",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 3,
           "id": "ms-6203854",
           "brand": "언탭트 스튜디오",
           "name": "워셔블 쿨 코튼 핸리넥 라운드 반팔 니트 5COLOR",
@@ -1574,6 +1559,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260326/6203854/6203854_17745123810080_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6203854",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 3,
+          "id": "ms-6238768",
+          "brand": "디미트리블랙",
+          "name": "[10주년기획] © 모두의 써머 울 하프 니트_스트라이프 4 COLOR",
+          "price": 49900,
+          "originalPrice": 49900,
+          "discountRate": 50,
+          "finalPrice": 24900,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260401/6238768/6238768_17752015401472_500.png",
+          "productUrl": "https://www.musinsa.com/products/6238768",
+          "displayGenderText": "공용"
         },
         {
           "rank": 4,
@@ -1757,21 +1757,6 @@
         },
         {
           "rank": 16,
-          "id": "ms-6543427",
-          "brand": "브렌슨",
-          "name": "워셔블 헨리넥 크롭 반팔 쿨 니트 ( 5Color )",
-          "price": 47400,
-          "originalPrice": 47400,
-          "discountRate": 20,
-          "finalPrice": 37900,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260526/6543427/6543427_17811581686328_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6543427",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 17,
           "id": "ms-6109237",
           "brand": "마인드브릿지",
           "name": "[스토커즈 콜라보] [ON]워셔블 코튼 혼방 카라 반팔 니트 - 3color",
@@ -1786,7 +1771,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6271294",
           "brand": "드릭스",
           "name": "워셔블 린넨 머슬핏 헨리넥 하프 니트_5color",
@@ -1801,7 +1786,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6109259",
           "brand": "마인드브릿지",
           "name": "[스토커즈 콜라보] [ON]워셔블 스트라이프 헨리넥 반팔 니트 - 2color",
@@ -1813,6 +1798,21 @@
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260310/6109259/6109259_17852056791339_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6109259",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 19,
+          "id": "ms-6543427",
+          "brand": "브렌슨",
+          "name": "워셔블 헨리넥 크롭 반팔 쿨 니트 ( 5Color )",
+          "price": 47400,
+          "originalPrice": 47400,
+          "discountRate": 20,
+          "finalPrice": 37900,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260526/6543427/6543427_17811581686328_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6543427",
           "displayGenderText": "남성"
         },
         {
@@ -2187,21 +2187,6 @@
         },
         {
           "rank": 4,
-          "id": "ms-5066604",
-          "brand": "데케트",
-          "name": "[패션플래닛X데케트][린넨라이크]Relaxed Wide Denim Jeans DCPT064",
-          "price": 62000,
-          "originalPrice": 62000,
-          "discountRate": 20,
-          "finalPrice": 49600,
-          "category": "003002",
-          "categoryLabel": "데님 팬츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250425/5066604/5066604_17761303099393_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5066604",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 5,
           "id": "ms-5866558",
           "brand": "어널러코드",
           "name": "브루니 커브드 데님팬츠 (생지)",
@@ -2214,6 +2199,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260102/5866558/5866558_17673383555799_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5866558",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 5,
+          "id": "ms-5066604",
+          "brand": "데케트",
+          "name": "[패션플래닛X데케트][린넨라이크]Relaxed Wide Denim Jeans DCPT064",
+          "price": 62000,
+          "originalPrice": 62000,
+          "discountRate": 20,
+          "finalPrice": 49600,
+          "category": "003002",
+          "categoryLabel": "데님 팬츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250425/5066604/5066604_17761303099393_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5066604",
+          "displayGenderText": "남성"
         },
         {
           "rank": 6,
@@ -2322,6 +2322,21 @@
         },
         {
           "rank": 13,
+          "id": "ms-4845150",
+          "brand": "디키즈",
+          "name": "19294 카펜터 라이트 데님 팬츠 Indigo Blue",
+          "price": 75000,
+          "originalPrice": 75000,
+          "discountRate": 60,
+          "finalPrice": 30000,
+          "category": "003002",
+          "categoryLabel": "데님 팬츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250228/4845150/4845150_17411616002847_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4845150",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 14,
           "id": "ms-3440122",
           "brand": "트래블",
           "name": "밀 데님 리벳 벌룬 팬츠 블랙",
@@ -2336,7 +2351,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-4757347",
           "brand": "언탭트 스튜디오",
           "name": "빈티지 프론트 워싱 와이드 벌룬 데님 팬츠 4Color",
@@ -2351,7 +2366,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-4149670",
           "brand": "토피",
           "name": "SL01 섬머 데님 와이드 팬츠 (FADE LIGHT BLUE)",
@@ -2366,7 +2381,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-3070218",
           "brand": "커스텀어클락",
           "name": "데님 원턱 와이드 팬츠 11 COLOR COOSPT201",
@@ -2381,7 +2396,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-5918987",
           "brand": "언탭트 스튜디오",
           "name": "빈티지 라이크 린넨 와이드 데님팬츠 4Color",
@@ -2396,7 +2411,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-5681985",
           "brand": "텍스",
           "name": "[린넨 라이크/사계절용선택] TX302 커브드 배기 벌룬 데님 (생지)",
@@ -2411,7 +2426,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-6119339",
           "brand": "달렌",
           "name": "사이드 핀턱 와이드 나일론 팬츠",
@@ -2423,21 +2438,6 @@
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260311/6119339/6119339_17732367624093_500.png",
           "productUrl": "https://www.musinsa.com/products/6119339",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-3902775",
-          "brand": "스탠다드에러",
-          "name": "87-STAN047 벌룬핏 워싱 와이드 데님팬츠 빈티지 블루",
-          "price": 54000,
-          "originalPrice": 54000,
-          "discountRate": 63,
-          "finalPrice": 19900,
-          "category": "003002",
-          "categoryLabel": "데님 팬츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240227/3902775/3902775_17743239715936_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3902775",
           "displayGenderText": "공용"
         }
       ]
@@ -2537,51 +2537,6 @@
         },
         {
           "rank": 7,
-          "id": "ms-5328102",
-          "brand": "효지",
-          "name": "투턱 세미와이드 슬랙스 (사계절,여름-8컬러)",
-          "price": 75800,
-          "originalPrice": 75800,
-          "discountRate": 34,
-          "finalPrice": 49900,
-          "category": "003008",
-          "categoryLabel": "슬랙스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250817/5328102/5328102_17791476234345_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5328102",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 8,
-          "id": "ms-2477836",
-          "brand": "무신사 스탠다드",
-          "name": "[쿨탠다드] 릴렉스드 테이퍼드 히든 밴딩 크롭 슬랙스 [블랙]",
-          "price": 59900,
-          "originalPrice": 59900,
-          "discountRate": 40,
-          "finalPrice": 35900,
-          "category": "003008",
-          "categoryLabel": "슬랙스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20220408/2477836/2477836_17222408083225_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/2477836",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 9,
-          "id": "ms-1168922",
-          "brand": "무신사 스탠다드",
-          "name": "리얼 와이드 히든 밴딩 슬랙스 [블랙]",
-          "price": 49900,
-          "originalPrice": 49900,
-          "discountRate": 20,
-          "finalPrice": 39900,
-          "category": "003008",
-          "categoryLabel": "슬랙스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20190927/1168922/1168922_17784624760417_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/1168922",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 10,
           "id": "ms-2578996",
           "brand": "시그니처",
           "name": "[여름원단추가]더블턱 와이드 슬랙스[블랙]",
@@ -2596,7 +2551,67 @@
           "displayGenderText": "공용"
         },
         {
+          "rank": 8,
+          "id": "ms-5328102",
+          "brand": "효지",
+          "name": "투턱 세미와이드 슬랙스 (사계절,여름-8컬러)",
+          "price": 75800,
+          "originalPrice": 75800,
+          "discountRate": 34,
+          "finalPrice": 49900,
+          "category": "003008",
+          "categoryLabel": "슬랙스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250817/5328102/5328102_17791476234345_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5328102",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 9,
+          "id": "ms-2477836",
+          "brand": "무신사 스탠다드",
+          "name": "[쿨탠다드] 릴렉스드 테이퍼드 히든 밴딩 크롭 슬랙스 [블랙]",
+          "price": 59900,
+          "originalPrice": 59900,
+          "discountRate": 40,
+          "finalPrice": 35900,
+          "category": "003008",
+          "categoryLabel": "슬랙스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20220408/2477836/2477836_17222408083225_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/2477836",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 10,
+          "id": "ms-1168922",
+          "brand": "무신사 스탠다드",
+          "name": "리얼 와이드 히든 밴딩 슬랙스 [블랙]",
+          "price": 49900,
+          "originalPrice": 49900,
+          "discountRate": 20,
+          "finalPrice": 39900,
+          "category": "003008",
+          "categoryLabel": "슬랙스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20190927/1168922/1168922_17784624760417_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/1168922",
+          "displayGenderText": "남성"
+        },
+        {
           "rank": 11,
+          "id": "ms-4750069",
+          "brand": "워크온바디오프",
+          "name": "(여름추가) 레베 세미 와이드 원턱 슬랙스 (2color)",
+          "price": 67000,
+          "originalPrice": 67000,
+          "discountRate": 45,
+          "finalPrice": 36850,
+          "category": "003008",
+          "categoryLabel": "슬랙스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250203/4750069/4750069_17582668061923_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4750069",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 12,
           "id": "ms-5928541",
           "brand": "트릴리온",
           "name": "투턱 라이크 데님 와이드 슬랙스_블랙",
@@ -2611,7 +2626,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-1168906",
           "brand": "무신사 스탠다드",
           "name": "와이드 히든 밴딩 슬랙스 [블랙]",
@@ -2623,21 +2638,6 @@
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20190927/1168906/1168906_17224121763738_500.jpg",
           "productUrl": "https://www.musinsa.com/products/1168906",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 13,
-          "id": "ms-4750069",
-          "brand": "워크온바디오프",
-          "name": "(여름추가) 레베 세미 와이드 원턱 슬랙스 (2color)",
-          "price": 67000,
-          "originalPrice": 67000,
-          "discountRate": 45,
-          "finalPrice": 36850,
-          "category": "003008",
-          "categoryLabel": "슬랙스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250203/4750069/4750069_17582668061923_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4750069",
           "displayGenderText": "남성"
         },
         {
@@ -2887,6 +2887,21 @@
         },
         {
           "rank": 10,
+          "id": "ms-5874445",
+          "brand": "아디다스",
+          "name": "파이어버드 루즈 트랙 팬츠 - 블랙:화이트 / KD7976",
+          "price": 109000,
+          "originalPrice": 109000,
+          "discountRate": 19,
+          "finalPrice": 88050,
+          "category": "003004",
+          "categoryLabel": "트레이닝/조거",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260107/5874445/5874445_17678492872232_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5874445",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 11,
           "id": "ms-4258826",
           "brand": "버튼서울",
           "name": "[여름용] 베이직 라인 나일론 스트링 팬츠 (블랙)",
@@ -2901,7 +2916,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-3792018",
           "brand": "필루미네이트",
           "name": "나일론 투 턱 트랙 팬츠-블랙",
@@ -2916,7 +2931,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-5982722",
           "brand": "디미트리블랙",
           "name": "M65 파라슈트 커브드 팬츠_ NC 블랙",
@@ -2929,21 +2944,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260204/5982722/5982722_17703419066968_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5982722",
           "displayGenderText": "공용"
-        },
-        {
-          "rank": 13,
-          "id": "ms-5874445",
-          "brand": "아디다스",
-          "name": "파이어버드 루즈 트랙 팬츠 - 블랙:화이트 / KD7976",
-          "price": 109000,
-          "originalPrice": 109000,
-          "discountRate": 19,
-          "finalPrice": 88050,
-          "category": "003004",
-          "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260107/5874445/5874445_17678492872232_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5874445",
-          "displayGenderText": "여성"
         },
         {
           "rank": 14,
@@ -3147,21 +3147,6 @@
         },
         {
           "rank": 7,
-          "id": "ms-6164607",
-          "brand": "아모우",
-          "name": "MOLLY One Tuck Bermuda Pants Black",
-          "price": 85000,
-          "originalPrice": 85000,
-          "discountRate": 64,
-          "finalPrice": 30600,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260319/6164607/6164607_17739250032121_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6164607",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 8,
           "id": "ms-6575793",
           "brand": "오프메이드",
           "name": "사이드스냅 버뮤다 밴딩 팬츠",
@@ -3173,6 +3158,21 @@
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260529/6575793/6575793_17814909684149_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6575793",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 8,
+          "id": "ms-6164607",
+          "brand": "아모우",
+          "name": "MOLLY One Tuck Bermuda Pants Black",
+          "price": 85000,
+          "originalPrice": 85000,
+          "discountRate": 64,
+          "finalPrice": 30600,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260319/6164607/6164607_17739250032121_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6164607",
           "displayGenderText": "남성"
         },
         {
@@ -3207,21 +3207,6 @@
         },
         {
           "rank": 11,
-          "id": "ms-4766927",
-          "brand": "가까이 유니언즈",
-          "name": "원턱 8부 스웨트 버뮤다 팬츠 블랙",
-          "price": 45000,
-          "originalPrice": 45000,
-          "discountRate": 50,
-          "finalPrice": 22500,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250207/4766927/4766927_17391876063709_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4766927",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 12,
           "id": "ms-4060154",
           "brand": "언아웃핏",
           "name": "원턱 워시드 와이드 코튼 쇼츠 6 COLOR",
@@ -3236,7 +3221,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-4766752",
           "brand": "가까이 유니언즈",
           "name": "원턱 절개 피그먼트 버뮤다 쇼츠 차콜",
@@ -3248,6 +3233,21 @@
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250207/4766752/4766752_17391987036334_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4766752",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 13,
+          "id": "ms-4766927",
+          "brand": "가까이 유니언즈",
+          "name": "원턱 8부 스웨트 버뮤다 팬츠 블랙",
+          "price": 45000,
+          "originalPrice": 45000,
+          "discountRate": 50,
+          "finalPrice": 22500,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250207/4766927/4766927_17391876063709_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4766927",
           "displayGenderText": "남성"
         },
         {
