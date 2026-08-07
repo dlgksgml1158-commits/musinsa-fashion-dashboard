@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T21:05:29.578158+00:00",
+  "updatedAt": "2026-08-07T22:01:41.406411+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -202,6 +202,21 @@
         },
         {
           "rank": 14,
+          "id": "ms-4319560",
+          "brand": "챔피온",
+          "name": "스몰 스크립트 로고 코튼 반팔 티셔츠 Black",
+          "price": 39000,
+          "originalPrice": 39000,
+          "discountRate": 69,
+          "finalPrice": 12000,
+          "category": "001001",
+          "categoryLabel": "반소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240812/4319560/4319560_17429715272532_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4319560",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 15,
           "id": "ms-6433502",
           "brand": "누아트 스튜디오",
           "name": "플로우 크롭 반팔 티셔츠_6colors",
@@ -216,7 +231,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-4138850",
           "brand": "리",
           "name": "스몰 트위치 로고 2PACK 티셔츠 믹스",
@@ -231,7 +246,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-2690691",
           "brand": "허그본",
           "name": "무지 머슬핏 반팔 5컬러",
@@ -246,7 +261,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-6148671",
           "brand": "트릴리온",
           "name": "[기획] 에센셜 CP 이중지 크롭 반팔티_9color",
@@ -261,7 +276,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-6819926",
           "brand": "엘리메노",
           "name": "EL 쓰리홀스 롤업 크롭 반팔티셔츠 3Color",
@@ -276,7 +291,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-6108783",
           "brand": "비바라비다",
           "name": "Chaser 링거 반팔 티셔츠",
@@ -289,21 +304,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260310/6108783/6108783_17742516004008_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6108783",
           "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-5929169",
-          "brand": "스파오",
-          "name": "[가나디] 반팔 티셔츠(WHITE)_SPRLG25U09",
-          "price": 25900,
-          "originalPrice": 25900,
-          "discountRate": 39,
-          "finalPrice": 15900,
-          "category": "001001",
-          "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260123/5929169/5929169_17756977549703_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5929169",
-          "displayGenderText": "여성"
         }
       ]
     },
