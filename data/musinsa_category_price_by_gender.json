@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-08-07T09:28:18.508226+00:00",
+  "updatedAt": "2026-08-07T10:24:49.339575+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 45579,
+        "avg": 45522,
         "min": 16920,
         "max": 139000,
         "count": 60
       },
       "male": {
-        "avg": 46267,
+        "avg": 46103,
         "min": 19950,
         "max": 129000,
         "count": 21
@@ -209,8 +209,8 @@
           "name": "케어베어 OS 티 - 블랙 / IA4539",
           "price": 69000,
           "originalPrice": 69000,
-          "discountRate": 0,
-          "finalPrice": 69000,
+          "discountRate": 5,
+          "finalPrice": 65550,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260715/6852823/6852823_17846308345807_500.jpg",
@@ -327,13 +327,13 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 41277,
+        "avg": 41372,
         "min": 7900,
         "max": 130000,
         "count": 60
       },
       "male": {
-        "avg": 43506,
+        "avg": 43822,
         "min": 23150,
         "max": 95000,
         "count": 18
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 122998,
+        "avg": 122960,
         "min": 16400,
         "max": 539000,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 21
       },
       "female": {
-        "avg": 75847,
+        "avg": 75773,
         "min": 16400,
         "max": 249000,
         "count": 30
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-100413",
+          "id": "ms-100418",
           "brand": "",
           "name": "",
           "price": null,
