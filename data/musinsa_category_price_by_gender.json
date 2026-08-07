@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T14:43:22.261286+00:00",
+  "updatedAt": "2026-08-07T15:40:49.110315+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 41372,
+        "avg": 41986,
         "min": 7900,
         "max": 130000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 18
       },
       "female": {
-        "avg": 37816,
+        "avg": 38786,
         "min": 7900,
         "max": 95000,
         "count": 38
@@ -457,8 +457,8 @@
           "name": "Dusty Raglan Tee_Beige",
           "price": 49000,
           "originalPrice": 49000,
-          "discountRate": 34,
-          "finalPrice": 32200,
+          "discountRate": 10,
+          "finalPrice": 44100,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260703/6780850/6780850_17852308574677_500.jpg",
@@ -472,8 +472,8 @@
           "name": "Reversible 3/4 Sleeve Tee_Ivory",
           "price": 39000,
           "originalPrice": 39000,
-          "discountRate": 37,
-          "finalPrice": 24570,
+          "discountRate": 5,
+          "finalPrice": 37050,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260423/6362766/6362766_17769441690211_500.jpg",
@@ -1296,19 +1296,19 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 48146,
+        "avg": 48822,
         "min": 19010,
         "max": 129000,
         "count": 60
       },
       "male": {
-        "avg": 51421,
+        "avg": 51393,
         "min": 19900,
         "max": 129000,
         "count": 27
       },
       "female": {
-        "avg": 46022,
+        "avg": 47312,
         "min": 19010,
         "max": 92400,
         "count": 32
@@ -1517,7 +1517,7 @@
           "price": 39900,
           "originalPrice": 39900,
           "discountRate": 15,
-          "finalPrice": 33920,
+          "finalPrice": 33910,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260708/6809800/6809800_17840087603942_500.jpg",
@@ -1591,8 +1591,8 @@
           "name": "Light Cotton Half Shirt_Pink",
           "price": 78000,
           "originalPrice": 78000,
-          "discountRate": 37,
-          "finalPrice": 49140,
+          "discountRate": 5,
+          "finalPrice": 74100,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260423/6366020/6366020_17769383668612_500.jpg",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 40504,
+        "avg": 40570,
         "min": 9900,
         "max": 108990,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 33
       },
       "female": {
-        "avg": 31520,
+        "avg": 31719,
         "min": 9900,
         "max": 89000,
         "count": 20
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 122571,
+        "avg": 122636,
         "min": 16400,
         "max": 539000,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 20
       },
       "female": {
-        "avg": 76844,
+        "avg": 76971,
         "min": 16400,
         "max": 249000,
         "count": 31
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-99975",
+          "id": "ms-100418",
           "brand": "",
           "name": "",
           "price": null,
@@ -2057,8 +2057,8 @@
           "name": "크로스 스톤 오버핏 후드집업 블랙",
           "price": 98000,
           "originalPrice": 98000,
-          "discountRate": 24,
-          "finalPrice": 74480,
+          "discountRate": 20,
+          "finalPrice": 78400,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6912863/6912863_17851389087240_500.jpg",
@@ -2265,7 +2265,7 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 58102,
+        "avg": 58710,
         "min": 19900,
         "max": 178200,
         "count": 60
@@ -2277,7 +2277,7 @@
         "count": 35
       },
       "female": {
-        "avg": 61781,
+        "avg": 64388,
         "min": 20000,
         "max": 139500,
         "count": 14
@@ -2365,8 +2365,8 @@
           "name": "Elloy Low-rise Jean_Nonfade indigo",
           "price": 89000,
           "originalPrice": 89000,
-          "discountRate": 46,
-          "finalPrice": 48060,
+          "discountRate": 5,
+          "finalPrice": 84550,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260423/6365940/6365940_17812402951109_500.jpg",
@@ -2911,19 +2911,19 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 51675,
+        "avg": 52582,
         "min": 9900,
         "max": 179000,
         "count": 60
       },
       "male": {
-        "avg": 53309,
+        "avg": 54093,
         "min": 10000,
         "max": 179000,
         "count": 21
       },
       "female": {
-        "avg": 56390,
+        "avg": 57621,
         "min": 22410,
         "max": 159200,
         "count": 29
@@ -3116,8 +3116,8 @@
           "name": "[2PACK] 벌룬핏 커브드 라인 트랙 팬츠_5color",
           "price": 110000,
           "originalPrice": 110000,
-          "discountRate": 55,
-          "finalPrice": 49430,
+          "discountRate": 40,
+          "finalPrice": 65900,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260320/6170672/6170672_17739941636457_500.jpg",
