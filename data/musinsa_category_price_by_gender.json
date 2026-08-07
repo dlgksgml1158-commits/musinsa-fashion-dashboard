@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T22:01:31.768387+00:00",
+  "updatedAt": "2026-08-07T23:00:52.452209+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 48946,
+        "avg": 48979,
         "min": 19010,
         "max": 129000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 26
       },
       "female": {
-        "avg": 46980,
+        "avg": 47041,
         "min": 19010,
         "max": 92400,
         "count": 33
@@ -1942,22 +1942,22 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 122692,
+        "avg": 123975,
         "min": 16400,
         "max": 539000,
         "count": 60
       },
       "male": {
-        "avg": 146100,
+        "avg": 148000,
         "min": 20000,
         "max": 458000,
-        "count": 20
+        "count": 21
       },
       "female": {
-        "avg": 77077,
+        "avg": 76013,
         "min": 16400,
         "max": 249000,
-        "count": 31
+        "count": 30
       },
       "items": [
         {
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-99975",
+          "id": "ms-100413",
           "brand": "",
           "name": "",
           "price": null,
@@ -2157,6 +2157,21 @@
         },
         {
           "rank": 14,
+          "id": "ms-4821229",
+          "brand": "씨피 컴퍼니",
+          "name": "메트로폴리스 퍼텍스 오버셔츠 재킷 - 블랙 / 18CLOS020A110033A999",
+          "price": 896000,
+          "originalPrice": 896000,
+          "discountRate": 79,
+          "finalPrice": 185990,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250224/4821229/4821229_17412285565846_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4821229",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 15,
           "id": "ms-6684666",
           "brand": "스파오",
           "name": "[울산 HD FC] 배색 윈드브레이커(Dark Blue)_SPJJG37U01",
@@ -2171,7 +2186,7 @@
           "displayGenderText": ""
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-6908583",
           "brand": "블랙야크",
           "name": "공용 클라이밍 스톤마스터 라이트 다운자켓#3_(5color)",
@@ -2186,7 +2201,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-6593578",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 슬럽 리브드 탑 가디건 세트 [레드]",
@@ -2201,7 +2216,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-3116821",
           "brand": "챔피온",
           "name": "베이직 C로고 후드 집업 Cream",
@@ -2216,7 +2231,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-6499914",
           "brand": "지오다노",
           "name": "포인텔 가디건 326540 [4color]",
@@ -2231,7 +2246,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-6081635",
           "brand": "플레이스 스튜디오",
           "name": "아일렛 벨티드 포인트 하이넥 멀티 포켓 베이직 블루종 코튼 자켓 [카키]",
@@ -2244,21 +2259,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260304/6081635/6081635_17743993058530_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6081635",
           "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6929984",
-          "brand": "블랙야크",
-          "name": "공용 클라이밍 스톤마스터 다운자켓#3 (5color)",
-          "price": 399000,
-          "originalPrice": 399000,
-          "discountRate": 20,
-          "finalPrice": 319000,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260727/6929984/6929984_17854600289540_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6929984",
-          "displayGenderText": "공용"
         }
       ]
     },
