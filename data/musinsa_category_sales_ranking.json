@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T18:17:19.442479+00:00",
+  "updatedAt": "2026-08-08T19:05:11.114999+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1712,21 +1712,6 @@
         },
         {
           "rank": 13,
-          "id": "ms-6109237",
-          "brand": "마인드브릿지",
-          "name": "[스토커즈 콜라보] [ON]워셔블 코튼 혼방 카라 반팔 니트 - 3color",
-          "price": 79900,
-          "originalPrice": 79900,
-          "discountRate": 50,
-          "finalPrice": 39900,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260310/6109237/6109237_17794256482340_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6109237",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 14,
           "id": "ms-6530450",
           "brand": "더니트컴퍼니",
           "name": "실크 라이크 헨리넥 니트 5color",
@@ -1741,7 +1726,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6543427",
           "brand": "브렌슨",
           "name": "워셔블 헨리넥 크롭 반팔 쿨 니트 ( 5Color )",
@@ -1756,7 +1741,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-5023733",
           "brand": "편마",
           "name": "Cotton Short Sleeve Polo Knit - 6color",
@@ -1771,7 +1756,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6271294",
           "brand": "드릭스",
           "name": "워셔블 린넨 머슬핏 헨리넥 하프 니트_5color",
@@ -1786,7 +1771,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6109249",
           "brand": "마인드브릿지",
           "name": "[스토커즈 콜라보] [ON]워셔블 케이블 카라 반팔 니트 - 2color",
@@ -1798,6 +1783,21 @@
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260310/6109249/6109249_17794256943979_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6109249",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 18,
+          "id": "ms-6109237",
+          "brand": "마인드브릿지",
+          "name": "[스토커즈 콜라보] [ON]워셔블 코튼 혼방 카라 반팔 니트 - 3color",
+          "price": 79900,
+          "originalPrice": 79900,
+          "discountRate": 50,
+          "finalPrice": 39900,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260310/6109237/6109237_17794256482340_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6109237",
           "displayGenderText": "남성"
         },
         {
@@ -2427,18 +2427,18 @@
         },
         {
           "rank": 20,
-          "id": "ms-5681985",
-          "brand": "텍스",
-          "name": "[린넨 라이크/사계절용선택] TX302 커브드 배기 벌룬 데님 (생지)",
-          "price": 85000,
-          "originalPrice": 85000,
-          "discountRate": 42,
-          "finalPrice": 49000,
+          "id": "ms-5918987",
+          "brand": "언탭트 스튜디오",
+          "name": "빈티지 라이크 린넨 와이드 데님팬츠 4Color",
+          "price": 49900,
+          "originalPrice": 49900,
+          "discountRate": 40,
+          "finalPrice": 29940,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20251104/5681985/5681985_17846136929543_500.png",
-          "productUrl": "https://www.musinsa.com/products/5681985",
-          "displayGenderText": "남성"
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260121/5918987/5918987_17693930151644_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5918987",
+          "displayGenderText": "공용"
         }
       ]
     },
