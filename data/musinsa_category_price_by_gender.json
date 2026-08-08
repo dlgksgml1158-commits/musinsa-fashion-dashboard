@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T14:02:50.853594+00:00",
+  "updatedAt": "2026-08-08T14:54:46.347416+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1296,22 +1296,22 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 49145,
+        "avg": 48943,
         "min": 19010,
         "max": 129000,
         "count": 60
       },
       "male": {
-        "avg": 51393,
+        "avg": 50911,
         "min": 19900,
         "max": 129000,
-        "count": 27
+        "count": 28
       },
       "female": {
-        "avg": 47918,
+        "avg": 47851,
         "min": 19010,
         "max": 92400,
-        "count": 32
+        "count": 31
       },
       "items": [
         {
@@ -1586,21 +1586,6 @@
         },
         {
           "rank": 19,
-          "id": "ms-6138785",
-          "brand": "숲",
-          "name": "페플럼 퍼프 슬리브 블라우스(SC4SSF2)",
-          "price": 79000,
-          "originalPrice": 79000,
-          "discountRate": 39,
-          "finalPrice": 47900,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260316/6138785/6138785_17834064378087_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6138785",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
           "id": "ms-6482045",
           "brand": "라우디",
           "name": "에어리 시어 스트라이프 오픈카라 셔츠_잉크블랙",
@@ -1613,13 +1598,28 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260514/6482045/6482045_17791627200227_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6482045",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4938276",
+          "brand": "메종 키츠네",
+          "name": "컨투어 폭스 헤드 스케이트 셔츠 - 화이트 / MM00405WC5012P100",
+          "price": 371000,
+          "originalPrice": 371000,
+          "discountRate": 68,
+          "finalPrice": 118990,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250325/4938276/4938276_17455400768396_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4938276",
+          "displayGenderText": "남성"
         }
       ]
     },
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 40688,
+        "avg": 40670,
         "min": 9900,
         "max": 108990,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 33
       },
       "female": {
-        "avg": 32351,
+        "avg": 32298,
         "min": 9900,
         "max": 89000,
         "count": 20
@@ -1719,8 +1719,8 @@
           "name": "[COOL] 보트넥 루즈핏 니트_SPKWG24G02",
           "price": 35900,
           "originalPrice": 35900,
-          "discountRate": 28,
-          "finalPrice": 25900,
+          "discountRate": 31,
+          "finalPrice": 24850,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260224/6048607/6048607_17719154882750_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-100413",
+          "id": "ms-99868",
           "brand": "",
           "name": "",
           "price": null,
