@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T08:04:50.780437+00:00",
+  "updatedAt": "2026-08-08T09:06:12.113759+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 57383,
+        "avg": 57318,
         "min": 7500,
         "max": 184000,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 23
       },
       "female": {
-        "avg": 65862,
+        "avg": 65713,
         "min": 20000,
         "max": 184000,
         "count": 26
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 48997,
+        "avg": 49145,
         "min": 19010,
         "max": 129000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 27
       },
       "female": {
-        "avg": 47641,
+        "avg": 47918,
         "min": 19010,
         "max": 92400,
         "count": 32
@@ -1361,21 +1361,6 @@
         },
         {
           "rank": 4,
-          "id": "ms-6896523",
-          "brand": "에잇세컨즈",
-          "name": "스트라이프 반소매 셔츠  화이트",
-          "price": 49900,
-          "originalPrice": 49900,
-          "discountRate": 15,
-          "finalPrice": 42420,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260722/6896523/6896523_17847887633643_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6896523",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 5,
           "id": "ms-5002044",
           "brand": "튜드먼트",
           "name": "POLKA DOT PUFF SLEEVE BLOUSE WHITE",
@@ -1390,7 +1375,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "id": "ms-6790187",
           "brand": "미케네",
           "name": "지아벨 스퀘어넥 블라우스",
@@ -1405,7 +1390,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-6697368",
           "brand": "하이스쿨디스코",
           "name": "솔리드 더블 버튼 퍼프 셔츠",
@@ -1420,7 +1405,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-6797751",
           "brand": "메종르하르",
           "name": "가든 레이스 나시 블라우스 2color",
@@ -1435,7 +1420,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-4989733",
           "brand": "르아르",
           "name": "링클 시어서커 체크 반팔 셔츠 [차콜]",
@@ -1450,7 +1435,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-5289769",
           "brand": "마인드브릿지",
           "name": "[ON]스트라이프 오버핏 셔츠 - 3color",
@@ -1465,7 +1450,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-3926599",
           "brand": "마인드브릿지",
           "name": "[에어쿨]린넨 라이크 세미 오버핏 셔츠 -5color",
@@ -1480,7 +1465,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-4711502",
           "brand": "로템버",
           "name": "린넨 오픈카라 펜슬 스트라이프 셔츠 [OATMEAL]",
@@ -1495,7 +1480,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-4899346",
           "brand": "마인드브릿지 우먼",
           "name": "[W]시어 세미 오버핏 투웨이 셔츠 - 2color",
@@ -1510,7 +1495,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-6809800",
           "brand": "에잇세컨즈",
           "name": "레이스 민소매 블라우스  블랙",
@@ -1525,7 +1510,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6662337",
           "brand": "미쏘",
           "name": "시어 레이스업 블라우스_MIWBWG716G",
@@ -1540,7 +1525,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-5661656",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 체크 텍스처드 베이비 돌 블라우스 [화이트]",
@@ -1555,7 +1540,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6466463",
           "brand": "이코르",
           "name": "[이코르 X 홍또기] 데일리 크롭 반팔 체크 셔츠 : 2COLOR",
@@ -1570,7 +1555,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6562364",
           "brand": "인더스트",
           "name": "[인더스트 X 요비] 피그먼트  워시드 피케 반팔 셔츠_3COLOR",
@@ -1585,7 +1570,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6366020",
           "brand": "108파운드",
           "name": "Light Cotton Half Shirt_Pink",
@@ -1600,7 +1585,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6138785",
           "brand": "숲",
           "name": "페플럼 퍼프 슬리브 블라우스(SC4SSF2)",
@@ -1613,6 +1598,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260316/6138785/6138785_17834064378087_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6138785",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6482045",
+          "brand": "라우디",
+          "name": "에어리 시어 스트라이프 오픈카라 셔츠_잉크블랙",
+          "price": 72000,
+          "originalPrice": 72000,
+          "discountRate": 10,
+          "finalPrice": 64800,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260514/6482045/6482045_17791627200227_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6482045",
+          "displayGenderText": "남성"
         }
       ]
     },
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-100413",
+          "id": "ms-99503",
           "brand": "",
           "name": "",
           "price": null,
