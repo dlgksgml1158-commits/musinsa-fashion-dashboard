@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T17:23:23.821926+00:00",
+  "updatedAt": "2026-08-08T17:53:14.576774+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1577,21 +1577,6 @@
         },
         {
           "rank": 4,
-          "id": "ms-6541551",
-          "brand": "효지",
-          "name": "26 SS 워셔블 린넨 헨리넥 크롭 니트 (6컬러)",
-          "price": 65000,
-          "originalPrice": 65000,
-          "discountRate": 29,
-          "finalPrice": 46000,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260523/6541551/6541551_17806116306278_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6541551",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 5,
           "id": "ms-5114507",
           "brand": "워크온바디오프",
           "name": "이지온 세미 오버핏 스트라이프 / 솔리드 카라 반팔 니트 (5color)",
@@ -1603,6 +1588,21 @@
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250515/5114507/5114507_17800244963493_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5114507",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 5,
+          "id": "ms-6541551",
+          "brand": "효지",
+          "name": "26 SS 워셔블 린넨 헨리넥 크롭 니트 (6컬러)",
+          "price": 65000,
+          "originalPrice": 65000,
+          "discountRate": 29,
+          "finalPrice": 46000,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260523/6541551/6541551_17806116306278_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6541551",
           "displayGenderText": "남성"
         },
         {
@@ -1667,21 +1667,6 @@
         },
         {
           "rank": 10,
-          "id": "ms-6278963",
-          "brand": "디미트리블랙",
-          "name": "[10주년기획] © 모두의 써머 울 하프 니트_헨리넥 4 COLOR",
-          "price": 49900,
-          "originalPrice": 49900,
-          "discountRate": 50,
-          "finalPrice": 24900,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260408/6278963/6278963_17790888373584_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6278963",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 11,
           "id": "ms-6278964",
           "brand": "디미트리블랙",
           "name": "[10주년기획] © 모두의 써머 울 하프 니트_카라/라운드 8 COLOR",
@@ -1693,6 +1678,21 @@
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260408/6278964/6278964_17764015432361_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6278964",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 11,
+          "id": "ms-6278963",
+          "brand": "디미트리블랙",
+          "name": "[10주년기획] © 모두의 써머 울 하프 니트_헨리넥 4 COLOR",
+          "price": 49900,
+          "originalPrice": 49900,
+          "discountRate": 50,
+          "finalPrice": 24900,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260408/6278963/6278963_17790888373584_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6278963",
           "displayGenderText": "공용"
         },
         {
