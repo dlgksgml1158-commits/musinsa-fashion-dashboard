@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-08T14:54:46.347416+00:00",
+  "updatedAt": "2026-08-08T15:15:53.154250+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 44959,
+        "avg": 45064,
         "min": 16920,
         "max": 139000,
         "count": 60
@@ -16,7 +16,7 @@
         "count": 21
       },
       "female": {
-        "avg": 47816,
+        "avg": 48026,
         "min": 16920,
         "max": 139000,
         "count": 30
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 122636,
+        "avg": 122699,
         "min": 16400,
         "max": 539000,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 20
       },
       "female": {
-        "avg": 76971,
+        "avg": 77091,
         "min": 16400,
         "max": 249000,
         "count": 31
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-99868",
+          "id": "ms-99869",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,7 +2265,7 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 58710,
+        "avg": 58706,
         "min": 19900,
         "max": 178200,
         "count": 60
@@ -2277,7 +2277,7 @@
         "count": 35
       },
       "female": {
-        "avg": 64388,
+        "avg": 64370,
         "min": 20000,
         "max": 139500,
         "count": 14
@@ -2515,8 +2515,8 @@
           "name": "[여름원단]르체 다크그레이 원 턱 와이드 팬츠",
           "price": 59000,
           "originalPrice": 59000,
-          "discountRate": 41,
-          "finalPrice": 34700,
+          "discountRate": 42,
+          "finalPrice": 34450,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260428/6390295/6390295_17853806839252_500.jpg",
