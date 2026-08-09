@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T08:06:53.390110+00:00",
+  "updatedAt": "2026-08-09T09:07:46.837925+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 57356,
+        "avg": 57291,
         "min": 7500,
         "max": 184000,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 23
       },
       "female": {
-        "avg": 65656,
+        "avg": 65507,
         "min": 20000,
         "max": 184000,
         "count": 26
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-100413",
+          "id": "ms-99503",
           "brand": "",
           "name": "",
           "price": null,
@@ -2576,7 +2576,7 @@
           "price": 43500,
           "originalPrice": 43500,
           "discountRate": 44,
-          "finalPrice": 24230,
+          "finalPrice": 24240,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260129/5956411/5956411_17744091176747_500.jpg",
@@ -2588,22 +2588,22 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 37898,
+        "avg": 37814,
         "min": 9900,
         "max": 79790,
         "count": 60
       },
       "male": {
-        "avg": 41554,
+        "avg": 41464,
         "min": 18300,
         "max": 79790,
-        "count": 38
+        "count": 37
       },
       "female": {
-        "avg": 35297,
+        "avg": 35715,
         "min": 9900,
         "max": 55900,
-        "count": 10
+        "count": 11
       },
       "items": [
         {
