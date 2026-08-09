@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T13:27:10.356518+00:00",
+  "updatedAt": "2026-08-09T14:04:22.274823+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,22 +650,22 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 57291,
+        "avg": 57328,
         "min": 7500,
         "max": 184000,
         "count": 60
       },
       "male": {
-        "avg": 59351,
+        "avg": 58845,
         "min": 7500,
         "max": 129000,
-        "count": 23
+        "count": 24
       },
       "female": {
-        "avg": 65507,
+        "avg": 66328,
         "min": 20000,
         "max": 184000,
-        "count": 26
+        "count": 25
       },
       "items": [
         {
@@ -1942,22 +1942,22 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 122680,
+        "avg": 123011,
         "min": 16400,
         "max": 539000,
         "count": 60
       },
       "male": {
-        "avg": 146100,
-        "min": 20000,
+        "avg": 152737,
+        "min": 43130,
         "max": 458000,
-        "count": 20
+        "count": 19
       },
       "female": {
-        "avg": 77054,
+        "avg": 75893,
         "min": 16400,
         "max": 249000,
-        "count": 31
+        "count": 32
       },
       "items": [
         {
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-99869",
+          "id": "ms-100414",
           "brand": "",
           "name": "",
           "price": null,
@@ -2202,21 +2202,6 @@
         },
         {
           "rank": 17,
-          "id": "ms-3116821",
-          "brand": "챔피온",
-          "name": "베이직 C로고 후드 집업 Cream",
-          "price": 109000,
-          "originalPrice": 109000,
-          "discountRate": 82,
-          "finalPrice": 20000,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230302/3116821/3116821_17470128838079_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3116821",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 18,
           "id": "ms-6499914",
           "brand": "지오다노",
           "name": "포인텔 가디건 326540 [4color]",
@@ -2231,7 +2216,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6081635",
           "brand": "플레이스 스튜디오",
           "name": "아일렛 벨티드 포인트 하이넥 멀티 포켓 베이직 블루종 코튼 자켓 [카키]",
@@ -2246,7 +2231,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6929984",
           "brand": "블랙야크",
           "name": "공용 클라이밍 스톤마스터 다운자켓#3 (5color)",
@@ -2258,6 +2243,21 @@
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260727/6929984/6929984_17854600289540_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6929984",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6686197",
+          "brand": "나이키",
+          "name": "스포츠웨어 오버사이즈 트랙 재킷 W - 블랙:화이트 / IQ3165-010",
+          "price": 129000,
+          "originalPrice": 129000,
+          "discountRate": 0,
+          "finalPrice": 129000,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260617/6686197/6686197_17847960785031_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6686197",
           "displayGenderText": "공용"
         }
       ]
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 53185,
+        "avg": 53235,
         "min": 9900,
         "max": 179000,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 21
       },
       "female": {
-        "avg": 57375,
+        "avg": 57475,
         "min": 22410,
         "max": 159200,
         "count": 30
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 40430,
+        "avg": 40596,
         "min": 9900,
         "max": 96990,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 30
       },
       "female": {
-        "avg": 39668,
+        "avg": 40052,
         "min": 14710,
         "max": 84000,
         "count": 26
