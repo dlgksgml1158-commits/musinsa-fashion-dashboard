@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T07:28:10.849763+00:00",
+  "updatedAt": "2026-08-09T08:06:53.390110+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 48948,
+        "avg": 48974,
         "min": 19010,
         "max": 129000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 28
       },
       "female": {
-        "avg": 47860,
+        "avg": 47912,
         "min": 19010,
         "max": 92400,
         "count": 31
@@ -1496,21 +1496,6 @@
         },
         {
           "rank": 13,
-          "id": "ms-6809800",
-          "brand": "에잇세컨즈",
-          "name": "레이스 민소매 블라우스  블랙",
-          "price": 39900,
-          "originalPrice": 39900,
-          "discountRate": 19,
-          "finalPrice": 32320,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260708/6809800/6809800_17840087603942_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6809800",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 14,
           "id": "ms-6662337",
           "brand": "미쏘",
           "name": "시어 레이스업 블라우스_MIWBWG716G",
@@ -1525,7 +1510,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-5661656",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 체크 텍스처드 베이비 돌 블라우스 [화이트]",
@@ -1540,7 +1525,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6466463",
           "brand": "이코르",
           "name": "[이코르 X 홍또기] 데일리 크롭 반팔 체크 셔츠 : 2COLOR",
@@ -1555,7 +1540,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6562364",
           "brand": "인더스트",
           "name": "[인더스트 X 요비] 피그먼트  워시드 피케 반팔 셔츠_3COLOR",
@@ -1570,7 +1555,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6366020",
           "brand": "108파운드",
           "name": "Light Cotton Half Shirt_Pink",
@@ -1585,7 +1570,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6482045",
           "brand": "라우디",
           "name": "에어리 시어 스트라이프 오픈카라 셔츠_잉크블랙",
@@ -1600,7 +1585,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-4938276",
           "brand": "메종 키츠네",
           "name": "컨투어 폭스 헤드 스케이트 셔츠 - 화이트 / MM00405WC5012P100",
@@ -1613,6 +1598,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250325/4938276/4938276_17455400768396_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4938276",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6610304",
+          "brand": "포에버21",
+          "name": "셔링 라운드 반팔 블라우스 (FTDBBL019)",
+          "price": 22900,
+          "originalPrice": 22900,
+          "discountRate": 17,
+          "finalPrice": 19010,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260604/6610304/6610304_17805673008755_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6610304",
+          "displayGenderText": "여성"
         }
       ]
     },
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-99503",
+          "id": "ms-100413",
           "brand": "",
           "name": "",
           "price": null,
