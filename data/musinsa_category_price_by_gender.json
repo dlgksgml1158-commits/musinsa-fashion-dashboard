@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T15:53:40.636293+00:00",
+  "updatedAt": "2026-08-09T16:17:17.870110+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 63085,
+        "avg": 63149,
         "min": 7500,
         "max": 184000,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 24
       },
       "female": {
-        "avg": 72364,
+        "avg": 72519,
         "min": 26910,
         "max": 184000,
         "count": 25
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 49099,
+        "avg": 49192,
         "min": 19010,
         "max": 129000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 28
       },
       "female": {
-        "avg": 48128,
+        "avg": 48308,
         "min": 19010,
         "max": 92400,
         "count": 31
@@ -1501,8 +1501,8 @@
           "name": "시어 레이스업 블라우스_MIWBWG716G",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 11,
-          "finalPrice": 44320,
+          "discountRate": 0,
+          "finalPrice": 49900,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260612/6662337/6662337_17845949781845_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-99868",
+          "id": "ms-99169",
           "brand": "",
           "name": "",
           "price": null,
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 41379,
+        "avg": 41380,
         "min": 9900,
         "max": 96990,
         "count": 60
