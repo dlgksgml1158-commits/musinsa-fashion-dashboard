@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T14:04:22.274823+00:00",
+  "updatedAt": "2026-08-09T14:57:58.445181+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 48941,
+        "avg": 48940,
         "min": 19010,
         "max": 129000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 28
       },
       "female": {
-        "avg": 47847,
+        "avg": 47845,
         "min": 19010,
         "max": 92400,
         "count": 31
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 40731,
+        "avg": 41281,
         "min": 9900,
         "max": 108990,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 33
       },
       "female": {
-        "avg": 32202,
+        "avg": 33852,
         "min": 9900,
         "max": 89000,
         "count": 20
@@ -1644,8 +1644,8 @@
           "name": "에르빈 골지 랩 반팔 니트",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 40,
-          "finalPrice": 29900,
+          "discountRate": 0,
+          "finalPrice": 49900,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260710/6821270/6821270_17836598254478_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-100414",
+          "id": "ms-99176",
           "brand": "",
           "name": "",
           "price": null,
