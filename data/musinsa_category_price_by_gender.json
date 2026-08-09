@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-08-09T00:38:42.480298+00:00",
+  "updatedAt": "2026-08-09T02:54:24.446597+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 45002,
+        "avg": 45003,
         "min": 16920,
         "max": 139000,
         "count": 60
       },
       "male": {
-        "avg": 46092,
+        "avg": 46097,
         "min": 19950,
         "max": 129000,
         "count": 21
@@ -225,7 +225,7 @@
           "price": 37900,
           "originalPrice": 37900,
           "discountRate": 32,
-          "finalPrice": 25670,
+          "finalPrice": 25770,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260710/6822222/6822222_17836659220947_500.jpg",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 40738,
+        "avg": 40831,
         "min": 9900,
         "max": 108990,
         "count": 60
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-99169",
+          "id": "ms-99504",
           "brand": "",
           "name": "",
           "price": null,
