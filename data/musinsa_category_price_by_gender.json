@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-08T23:50:12.755787+00:00",
+  "updatedAt": "2026-08-09T00:38:42.480298+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 45064,
+        "avg": 45002,
         "min": 16920,
         "max": 139000,
         "count": 60
@@ -16,7 +16,7 @@
         "count": 21
       },
       "female": {
-        "avg": 48026,
+        "avg": 47902,
         "min": 16920,
         "max": 139000,
         "count": 30
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 40688,
+        "avg": 40738,
         "min": 9900,
         "max": 108990,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 33
       },
       "female": {
-        "avg": 32351,
+        "avg": 32501,
         "min": 9900,
         "max": 89000,
         "count": 20
@@ -1704,8 +1704,8 @@
           "name": "레이스 포인트 나시 니트_MIWKAG929T",
           "price": 29900,
           "originalPrice": 29900,
-          "discountRate": 30,
-          "finalPrice": 20920,
+          "discountRate": 20,
+          "finalPrice": 23920,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260707/6794300/6794300_17841807029285_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-100414",
+          "id": "ms-99169",
           "brand": "",
           "name": "",
           "price": null,
