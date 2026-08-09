@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T19:08:42.512506+00:00",
+  "updatedAt": "2026-08-09T19:52:54.816060+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1132,21 +1132,6 @@
         },
         {
           "rank": 15,
-          "id": "ms-4813629",
-          "brand": "디스이즈네버댓",
-          "name": "T-Logo LT Hoodie Washed Black",
-          "price": 105000,
-          "originalPrice": 105000,
-          "discountRate": 30,
-          "finalPrice": 73500,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250220/4813629/4813629_17707775109781_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4813629",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 16,
           "id": "ms-3469860",
           "brand": "챔피온",
           "name": "여성 스티치 루즈핏 와플 후드 티셔츠 Black",
@@ -1161,7 +1146,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-2713976",
           "brand": "챔피온",
           "name": "리버스위브 C로고 기모 후드 티셔츠 Normal Red",
@@ -1176,7 +1161,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5937520",
           "brand": "스켈리웩",
           "name": "와플 헨리넥 후디[그레이]",
@@ -1191,7 +1176,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-4029595",
           "brand": "키네티클로",
           "name": "하프 오픈 집업 후디(1%MELANGE)",
@@ -1206,7 +1191,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-4466415",
           "brand": "챔피온",
           "name": "루즈핏 크루넥 후드 티셔츠 Cream",
@@ -1219,6 +1204,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240926/4466415/4466415_17470108049057_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4466415",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-3054736",
+          "brand": "챔피온",
+          "name": "여성 리버스위브 프렌치테리 후드 티셔츠 Light Blue",
+          "price": 129000,
+          "originalPrice": 129000,
+          "discountRate": 60,
+          "finalPrice": 51600,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20230202/3054736/3054736_17472028411483_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3054736",
+          "displayGenderText": "여성"
         }
       ]
     },
