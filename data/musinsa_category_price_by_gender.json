@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-08-09T09:07:46.837925+00:00",
+  "updatedAt": "2026-08-09T10:01:31.231827+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 45003,
+        "avg": 45005,
         "min": 16920,
         "max": 139000,
         "count": 60
       },
       "male": {
-        "avg": 46097,
+        "avg": 46103,
         "min": 19950,
         "max": 129000,
         "count": 21
@@ -225,7 +225,7 @@
           "price": 37900,
           "originalPrice": 37900,
           "discountRate": 32,
-          "finalPrice": 25770,
+          "finalPrice": 25900,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260710/6822222/6822222_17836659220947_500.jpg",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 48974,
+        "avg": 48941,
         "min": 19010,
         "max": 129000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 28
       },
       "female": {
-        "avg": 47912,
+        "avg": 47847,
         "min": 19010,
         "max": 92400,
         "count": 31
@@ -1321,8 +1321,8 @@
           "name": "오픈칼라 슬림핏 반팔 셔츠  스카이 블루",
           "price": 34900,
           "originalPrice": 34900,
-          "discountRate": 19,
-          "finalPrice": 28270,
+          "discountRate": 15,
+          "finalPrice": 29670,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260714/6843879/6843879_17841641427475_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-99503",
+          "id": "ms-99869",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,7 +2265,7 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 58722,
+        "avg": 58706,
         "min": 19900,
         "max": 178200,
         "count": 60
