@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T23:16:57.301288+00:00",
+  "updatedAt": "2026-08-09T23:53:51.296730+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 42668,
+        "avg": 42654,
         "min": 7900,
         "max": 130000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 18
       },
       "female": {
-        "avg": 39715,
+        "avg": 39694,
         "min": 7900,
         "max": 95000,
         "count": 38
@@ -487,8 +487,8 @@
           "name": "그래픽 오프숄더 티셔츠  네이비",
           "price": 39900,
           "originalPrice": 39900,
-          "discountRate": 58,
-          "finalPrice": 16920,
+          "discountRate": 60,
+          "finalPrice": 16120,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260401/6233850/6233850_17776428630286_500.jpg",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 49349,
+        "avg": 49316,
         "min": 19010,
         "max": 129000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 28
       },
       "female": {
-        "avg": 48612,
+        "avg": 48548,
         "min": 19010,
         "max": 92400,
         "count": 31
@@ -1336,8 +1336,8 @@
           "name": "체크 라운드칼라 블라우스  와인",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 15,
-          "finalPrice": 42420,
+          "discountRate": 19,
+          "finalPrice": 40420,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260722/6896595/6896595_17853689674854_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-100418",
+          "id": "ms-99869",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,7 +2265,7 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 58870,
+        "avg": 58861,
         "min": 19900,
         "max": 178200,
         "count": 60
@@ -2277,7 +2277,7 @@
         "count": 35
       },
       "female": {
-        "avg": 64299,
+        "avg": 64260,
         "min": 20000,
         "max": 139500,
         "count": 14
@@ -2290,8 +2290,8 @@
           "name": "5부 데님쇼츠  스카이 블루",
           "price": 39900,
           "originalPrice": 39900,
-          "discountRate": 15,
-          "finalPrice": 33920,
+          "discountRate": 19,
+          "finalPrice": 32320,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260709/6810186/6810186_17840119962247_500.jpg",
@@ -2515,8 +2515,8 @@
           "name": "[여름원단]르체 다크그레이 원 턱 와이드 팬츠",
           "price": 59000,
           "originalPrice": 59000,
-          "discountRate": 46,
-          "finalPrice": 31860,
+          "discountRate": 42,
+          "finalPrice": 34110,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260428/6390295/6390295_17853806839252_500.jpg",
