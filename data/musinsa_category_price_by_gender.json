@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T08:10:32.614906+00:00",
+  "updatedAt": "2026-08-10T09:53:36.443943+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,22 +650,22 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 56730,
+        "avg": 57443,
         "min": 7500,
         "max": 184000,
         "count": 60
       },
       "male": {
-        "avg": 57638,
+        "avg": 57845,
         "min": 7500,
         "max": 129000,
-        "count": 24
+        "count": 25
       },
       "female": {
-        "avg": 64967,
+        "avg": 66840,
         "min": 20000,
         "max": 184000,
-        "count": 25
+        "count": 24
       },
       "items": [
         {
@@ -805,21 +805,6 @@
         },
         {
           "rank": 10,
-          "id": "ms-3116479",
-          "brand": "챔피온",
-          "name": "여성 리버스위브 프렌치테리 벌룬 스웨트셔츠 Normal Blue",
-          "price": 129000,
-          "originalPrice": 129000,
-          "discountRate": 84,
-          "finalPrice": 20000,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230302/3116479/3116479_17471928125283_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3116479",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 11,
           "id": "ms-6925831",
           "brand": "뉴발란스",
           "name": "NBNCG3W112 / WOMEN AIRY 와플 맨투맨 (BLACK)",
@@ -834,7 +819,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-6919678",
           "brand": "디에포",
           "name": "DeÉpo26 키움히어로즈 트랙 스웻셔츠(BURGUNDY)",
@@ -849,7 +834,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-4595633",
           "brand": "이스트코",
           "name": "[2-PACK] 컴포트 미드웨이트 스웨트셔츠",
@@ -864,7 +849,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-5029624",
           "brand": "세터",
           "name": "(W) 로턴 크롭 하프 스웨트셔츠 블랙",
@@ -879,7 +864,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-3106860",
           "brand": "챔피온",
           "name": "C로고 프렌치테리 하프 집업 스웨트셔츠 Normal Grey",
@@ -894,7 +879,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6840030",
           "brand": "앤더슨벨",
           "name": "(ESSENTIAL) UNISEX HEART FIX SWEATSHIRT (GREEN)",
@@ -909,7 +894,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6932766",
           "brand": "언더아머",
           "name": "APAC 스포츠스타일 우븐 크루6014349-001",
@@ -924,7 +909,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-4271982",
           "brand": "유니폼브릿지",
           "name": "keesler a.f. sweatshirt pigment charcoal",
@@ -939,7 +924,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-2971762",
           "brand": "메인부스",
           "name": "Disc Jockey Sweatshirt(BLACK)",
@@ -954,7 +939,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6710467",
           "brand": "무신사 스탠다드",
           "name": "헨리 넥 스웨트셔츠 [다크 그레이]",
@@ -967,13 +952,28 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260622/6710467/6710467_17852913415302_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6710467",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4425068",
+          "brand": "챔피온",
+          "name": "스몰 스크립트 로고 크루넥 스웨트셔츠 Normal Navy",
+          "price": 59000,
+          "originalPrice": 59000,
+          "discountRate": 59,
+          "finalPrice": 24000,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240910/4425068/4425068_17429702201874_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4425068",
+          "displayGenderText": "남성"
         }
       ]
     },
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 84475,
+        "avg": 84330,
         "min": 9900,
         "max": 495000,
         "count": 60
@@ -2265,13 +2265,13 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 57324,
+        "avg": 57352,
         "min": 17450,
         "max": 169290,
         "count": 60
       },
       "male": {
-        "avg": 53019,
+        "avg": 53065,
         "min": 17450,
         "max": 159000,
         "count": 36
@@ -2575,8 +2575,8 @@
           "name": "뒷밴딩 무지 워싱 와이드 데님 팬츠[라이트블루]",
           "price": 43500,
           "originalPrice": 43500,
-          "discountRate": 41,
-          "finalPrice": 25710,
+          "discountRate": 37,
+          "finalPrice": 27360,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260129/5956411/5956411_17744091176747_500.jpg",
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 50765,
+        "avg": 50902,
         "min": 9900,
         "max": 179000,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 21
       },
       "female": {
-        "avg": 55472,
+        "avg": 55746,
         "min": 23120,
         "max": 159200,
         "count": 30

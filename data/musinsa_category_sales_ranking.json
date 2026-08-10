@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T08:10:41.495256+00:00",
+  "updatedAt": "2026-08-10T09:53:45.265330+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -692,21 +692,6 @@
         },
         {
           "rank": 6,
-          "id": "ms-3116479",
-          "brand": "챔피온",
-          "name": "여성 리버스위브 프렌치테리 벌룬 스웨트셔츠 Normal Blue",
-          "price": 129000,
-          "originalPrice": 129000,
-          "discountRate": 84,
-          "finalPrice": 20000,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230302/3116479/3116479_17471928125283_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3116479",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 7,
           "id": "ms-3893372",
           "brand": "라이크더모스트",
           "name": "엑설런트 너프 오버 스웨트셔츠 [블랙]",
@@ -721,7 +706,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-5799678",
           "brand": "라이크더모스트",
           "name": "도트라모 하트하트 오버핏 스웨트셔츠_7colors",
@@ -736,7 +721,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-4425064",
           "brand": "챔피온",
           "name": "스몰 스크립트 로고 크루넥 스웨트셔츠 Black",
@@ -751,7 +736,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-2478042",
           "brand": "사이",
           "name": "003 ‘a’ 로고 하프집업 맨투맨 화이트 오트밀",
@@ -766,7 +751,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-3074973",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 더블 니트 칼라드 반소매 스웨트셔츠 [멜란지 라이트 그레이]",
@@ -781,7 +766,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-3052874",
           "brand": "챔피온",
           "name": "여성 리버스위브 프렌치테리 스웨트셔츠 Light Blue",
@@ -796,7 +781,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-4425066",
           "brand": "챔피온",
           "name": "스몰 스크립트 로고 크루넥 스웨트셔츠 Normal Grey",
@@ -811,7 +796,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-6978420",
           "brand": "룰루레몬",
           "name": "스쿠바 에볼브 클래식 풀집 후디  LTIV GOLD",
@@ -826,7 +811,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-4398963",
           "brand": "와키윌리",
           "name": "스프레이 그래픽 맨투맨 오트밀",
@@ -841,7 +826,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-4425045",
           "brand": "챔피온",
           "name": "빅 스크립트 로고 크루넥 스웨트셔츠 White",
@@ -856,7 +841,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6932768",
           "brand": "언더아머",
           "name": "남성 HeatGear 아머 모크 긴팔 1369606-001",
@@ -871,7 +856,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5985938",
           "brand": "스파오",
           "name": "[내추럴코튼] 멀티 스트라이프 럭비티_SPLSG23C04",
@@ -886,7 +871,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-4425068",
           "brand": "챔피온",
           "name": "스몰 스크립트 로고 크루넥 스웨트셔츠 Normal Navy",
@@ -901,7 +886,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-4425039",
           "brand": "와키윌리",
           "name": "원포인트 그래픽 맨투맨 그레이",
@@ -914,6 +899,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240910/4425039/4425039_17267346025780_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4425039",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5355751",
+          "brand": "후아유",
+          "name": "American Flag Sweatshirt / WHMWG2492U",
+          "price": 39900,
+          "originalPrice": 39900,
+          "discountRate": 50,
+          "finalPrice": 19900,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250822/5355751/5355751_17573178017663_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5355751",
+          "displayGenderText": "남성"
         }
       ]
     },
