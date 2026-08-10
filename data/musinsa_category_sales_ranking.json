@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T18:09:25.364026+00:00",
+  "updatedAt": "2026-08-10T19:26:42.092934+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1117,6 +1117,21 @@
         },
         {
           "rank": 14,
+          "id": "ms-5992402",
+          "brand": "디스이즈네버댓",
+          "name": "T-Logo LT Hoodie Heather Grey",
+          "price": 105000,
+          "originalPrice": 105000,
+          "discountRate": 30,
+          "finalPrice": 73500,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260206/5992402/5992402_17707079805907_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5992402",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 15,
           "id": "ms-4399183",
           "brand": "와키윌리",
           "name": "레글런 스티치 후드 블랙",
@@ -1131,7 +1146,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-4029566",
           "brand": "키네티클로",
           "name": "하프 오픈 집업 후디(BLACK)",
@@ -1144,21 +1159,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240405/4029566/4029566_17128161639042_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4029566",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 16,
-          "id": "ms-5992402",
-          "brand": "디스이즈네버댓",
-          "name": "T-Logo LT Hoodie Heather Grey",
-          "price": 105000,
-          "originalPrice": 105000,
-          "discountRate": 30,
-          "finalPrice": 73500,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260206/5992402/5992402_17707079805907_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5992402",
-          "displayGenderText": "공용"
         },
         {
           "rank": 17,
