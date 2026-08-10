@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T03:03:02.129472+00:00",
+  "updatedAt": "2026-08-10T05:00:18.803730+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -452,8 +452,8 @@
           "name": "프리미엄 머슬핏 헨리넥 하프 티셔츠[블랙]",
           "price": 52500,
           "originalPrice": 52500,
-          "discountRate": 57,
-          "finalPrice": 22320,
+          "discountRate": 52,
+          "finalPrice": 25020,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260219/6030424/6030424_17720896215768_500.jpg",
@@ -1552,8 +1552,8 @@
           "name": "[10주년기획] © 모두의 써머 울 하프 니트_하찌 4 COLOR",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 66,
-          "finalPrice": 16900,
+          "discountRate": 60,
+          "finalPrice": 19900,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260408/6278962/6278962_17809840169337_500.jpg",
@@ -2107,21 +2107,6 @@
         },
         {
           "rank": 19,
-          "id": "ms-4909864",
-          "brand": "빼빼",
-          "name": "루즈핏 레이어드 후드집업 야상 자켓",
-          "price": 166900,
-          "originalPrice": 166900,
-          "discountRate": 94,
-          "finalPrice": 9900,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250318/4909864/4909864_17422647893955_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4909864",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
           "id": "ms-6929984",
           "brand": "블랙야크",
           "name": "공용 클라이밍 스톤마스터 다운자켓#3 (5color)",
@@ -2134,6 +2119,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260727/6929984/6929984_17854600289540_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6929984",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5532467",
+          "brand": "수아레",
+          "name": "[사이즈 추가] 라이트 시어쉘 패딩 점퍼 - 3 COLOR",
+          "price": 165000,
+          "originalPrice": 165000,
+          "discountRate": 39,
+          "finalPrice": 99900,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250925/5532467/5532467_17593226341134_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5532467",
+          "displayGenderText": "남성"
         }
       ]
     },
