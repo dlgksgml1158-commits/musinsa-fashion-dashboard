@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T14:09:04.822299+00:00",
+  "updatedAt": "2026-08-10T15:27:47.935414+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -247,21 +247,6 @@
         },
         {
           "rank": 17,
-          "id": "ms-4314937",
-          "brand": "챔피온",
-          "name": "빅 스크립트 로고 코튼 반팔 티셔츠 White",
-          "price": 39000,
-          "originalPrice": 39000,
-          "discountRate": 74,
-          "finalPrice": 10000,
-          "category": "001001",
-          "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240809/4314937/4314937_17429714380298_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4314937",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 18,
           "id": "ms-6108783",
           "brand": "비바라비다",
           "name": "Chaser 링거 반팔 티셔츠",
@@ -276,7 +261,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-3380690",
           "brand": "블랙몬스터핏",
           "name": "[3PACK]무지 쿨론 기능성 쿨 반팔 티셔츠 3P",
@@ -291,7 +276,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6520342",
           "brand": "디미트리블랙",
           "name": "배색 레이어드 롤업 반팔 티셔츠_피그먼트 차콜",
@@ -303,6 +288,21 @@
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6520342/6520342_17794356728306_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6520342",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4887825",
+          "brand": "마하그리드",
+          "name": "STRANGE PUPPY TEE_4colors",
+          "price": 39000,
+          "originalPrice": 39000,
+          "discountRate": 55,
+          "finalPrice": 17500,
+          "category": "001001",
+          "categoryLabel": "반소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250312/4887825/4887825_17792538224711_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4887825",
           "displayGenderText": "공용"
         }
       ]

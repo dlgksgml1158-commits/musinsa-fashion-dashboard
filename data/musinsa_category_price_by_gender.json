@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T14:08:55.133615+00:00",
+  "updatedAt": "2026-08-10T15:27:38.462455+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -973,16 +973,16 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 84576,
-        "min": 9900,
+        "avg": 84910,
+        "min": 10000,
         "max": 495000,
         "count": 60
       },
       "male": {
-        "avg": 105203,
+        "avg": 100496,
         "min": 10000,
         "max": 445990,
-        "count": 15
+        "count": 16
       },
       "female": {
         "avg": 68967,
@@ -1053,21 +1053,6 @@
         },
         {
           "rank": 5,
-          "id": "ms-3893377",
-          "brand": "라이크더모스트",
-          "name": "엑스레이 그래픽 나비 오버 후디 [오트밀]",
-          "price": 59800,
-          "originalPrice": 59800,
-          "discountRate": 83,
-          "finalPrice": 9900,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240223/3893377/3893377_17086471833558_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3893377",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 6,
           "id": "ms-4651569",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 리브드 슬림 후디드 티셔츠 [다크 그레이]",
@@ -1082,7 +1067,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-3054736",
           "brand": "챔피온",
           "name": "여성 리버스위브 프렌치테리 후드 티셔츠 Light Blue",
@@ -1097,7 +1082,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-5438121",
           "brand": "디스이즈네버댓",
           "name": "T-Logo Hoodie Heather Grey",
@@ -1112,7 +1097,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-3683856",
           "brand": "챔피온",
           "name": "리버스위브 C로고 기모 후드 티셔츠 Turquoise Blue",
@@ -1127,7 +1112,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-4492040",
           "brand": "버버리",
           "name": "로고 프린트 후드 - 블랙 / 8096363",
@@ -1142,7 +1127,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-3515360",
           "brand": "챔피온",
           "name": "베이직 C로고 후드 티셔츠 White",
@@ -1157,7 +1142,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-5817212",
           "brand": "탄산마그네슘",
           "name": "오디피기X탄산 와플 버튼 후드티 (레몬)",
@@ -1172,7 +1157,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-6788300",
           "brand": "스파오",
           "name": "와플 후드 바라클라바 긴팔티_SPFWG4TC10",
@@ -1187,7 +1172,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-6237329",
           "brand": "브렌슨",
           "name": "[쿨링] 슬릭 핑거홀 후드 롱슬리브 ( 4Color )",
@@ -1202,7 +1187,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-3469860",
           "brand": "챔피온",
           "name": "여성 스티치 루즈핏 와플 후드 티셔츠 Black",
@@ -1217,7 +1202,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6265163",
           "brand": "닉켈하우스",
           "name": "닉켈 26 동키 포켓 후드티",
@@ -1232,7 +1217,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-5352832",
           "brand": "비바라비다",
           "name": "[기모선택] My Youth 헤비테리 후드",
@@ -1247,7 +1232,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5429074",
           "brand": "라이크더모스트",
           "name": "레오파드 패턴 볼링 8 트레이닝 셋업_3colors",
@@ -1262,7 +1247,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5992402",
           "brand": "디스이즈네버댓",
           "name": "T-Logo LT Hoodie Heather Grey",
@@ -1277,7 +1262,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-3907161",
           "brand": "아이필블루씨에스엠",
           "name": "Ifeelbluecsm Hoodie [5Color]",
@@ -1290,6 +1275,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240227/3907161/3907161_17591081389486_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3907161",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5328644",
+          "brand": "마하그리드",
+          "name": "CURVED SLIM HOODIE BLACK(MG2FFFM419A)",
+          "price": 79000,
+          "originalPrice": 79000,
+          "discountRate": 40,
+          "finalPrice": 47400,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250818/5328644/5328644_17603151025756_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5328644",
+          "displayGenderText": "여성"
         }
       ]
     },
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-100510",
+          "id": "ms-100498",
           "brand": "",
           "name": "",
           "price": null,
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 50805,
+        "avg": 51036,
         "min": 9900,
         "max": 179000,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 21
       },
       "female": {
-        "avg": 55552,
+        "avg": 56013,
         "min": 23120,
         "max": 159200,
         "count": 30
