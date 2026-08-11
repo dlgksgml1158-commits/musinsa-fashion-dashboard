@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T04:10:27.621843+00:00",
+  "updatedAt": "2026-08-11T05:33:00.820423+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 44836,
+        "avg": 44797,
         "min": 17200,
         "max": 129000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 29
       },
       "female": {
-        "avg": 43546,
+        "avg": 43469,
         "min": 19010,
         "max": 83160,
         "count": 30
@@ -1501,8 +1501,8 @@
           "name": "우먼즈 체크 텍스처드 베이비 돌 블라우스 [화이트]",
           "price": 45900,
           "originalPrice": 45900,
-          "discountRate": 25,
-          "finalPrice": 34420,
+          "discountRate": 30,
+          "finalPrice": 32130,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20251029/5661656/5661656_17768254816821_500.jpg",
@@ -1619,22 +1619,22 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 35978,
+        "avg": 38028,
         "min": 12900,
-        "max": 108990,
+        "max": 231990,
         "count": 60
       },
       "male": {
-        "avg": 40012,
+        "avg": 37922,
         "min": 19900,
-        "max": 108990,
-        "count": 34
+        "max": 74200,
+        "count": 33
       },
       "female": {
-        "avg": 30262,
+        "avg": 40348,
         "min": 12900,
-        "max": 89000,
-        "count": 19
+        "max": 231990,
+        "count": 20
       },
       "items": [
         {
@@ -1684,21 +1684,6 @@
         },
         {
           "rank": 4,
-          "id": "ms-4668060",
-          "brand": "아페쎄",
-          "name": "루이 니트 - 다크 네이비 / COEZJH23402IAK",
-          "price": 399000,
-          "originalPrice": 399000,
-          "discountRate": 73,
-          "finalPrice": 108990,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20241216/4668060/4668060_17363852390509_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4668060",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 5,
           "id": "ms-6048607",
           "brand": "스파오",
           "name": "[COOL] 보트넥 루즈핏 니트_SPKWG24G02",
@@ -1713,7 +1698,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "id": "ms-6254017",
           "brand": "제너럴아이디어",
           "name": "에어리 에센셜 카라 하프 니트 [NAVY] / WBE2L05513",
@@ -1728,7 +1713,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-3989444",
           "brand": "마인드브릿지",
           "name": "조직 변형 카라 반팔 니트 - 3color",
@@ -1743,7 +1728,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-6109248",
           "brand": "마인드브릿지",
           "name": "[스토커즈 콜라보] [ON]워셔블 멀티 스트라이프 카라 반팔 니트 - 4color",
@@ -1758,7 +1743,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-6790547",
           "brand": "스파오",
           "name": "[COOL] 레이어드 반팔 카디건 (RE)_SPCKG37G03",
@@ -1773,7 +1758,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-5107472",
           "brand": "인템포무드",
           "name": "하프 위트 버튼 스트라이프 니트_블랙",
@@ -1788,7 +1773,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-4899447",
           "brand": "마인드브릿지 우먼",
           "name": "[W][COUTURE]언발란스 넥 슬림핏 니트 - 2color",
@@ -1803,7 +1788,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-6324646",
           "brand": "르아르",
           "name": "빈티지핏 레글런 반팔 니트 [틸그린]",
@@ -1818,7 +1803,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-6103310",
           "brand": "마인드브릿지",
           "name": "[오정규 PICK] 워셔블 코튼 혼방 카라 반팔 니트 - 4color",
@@ -1833,7 +1818,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-4096819",
           "brand": "비바브라운",
           "name": "85-VIVAJ019 매쉬 라운드 니트 긴팔 6color",
@@ -1848,7 +1833,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-5030890",
           "brand": "엑스오엑스",
           "name": "베이직 쿨 라운드 크롭 반팔 니트 [BLACK]",
@@ -1863,7 +1848,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6263413",
           "brand": "알리스",
           "name": "[오정규 x 알리스] 쿨 코튼 레이어드 헨리넥 크롭 하프 니트_2COLOR",
@@ -1878,7 +1863,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-5695789",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 린넨 라이크 긴소매 니트 티셔츠 [토프]",
@@ -1893,7 +1878,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-4682246",
           "brand": "무신사 스탠다드",
           "name": "[이도현 PICK] 워셔블 수피마 코튼 니티드 폴로 셔츠 [블랙]",
@@ -1908,7 +1893,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-3989453",
           "brand": "마인드브릿지",
           "name": "케이블 카라 반팔 니트 - 3color",
@@ -1923,7 +1908,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6408808",
           "brand": "인템포무드",
           "name": "포켓 헨리 니트 : 4컬러",
@@ -1936,6 +1921,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260430/6408808/6408808_17805331114896_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6408808",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6446850",
+          "brand": "바닐라니트",
+          "name": "멜로우 언발 캡 소매 니트 (2colors)",
+          "price": 52000,
+          "originalPrice": 52000,
+          "discountRate": 20,
+          "finalPrice": 41600,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260508/6446850/6446850_17782309923654_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6446850",
+          "displayGenderText": "여성"
         }
       ]
     },
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-100734",
+          "id": "ms-101139",
           "brand": "",
           "name": "",
           "price": null,
