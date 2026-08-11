@@ -358,7 +358,13 @@ DISCOUNT_KEYWORDS = ["할인", "세일", "특가"]
 # The broad hankyung economy/life feeds occasionally mention "할인" in a macroeconomic
 # sense (e.g. a telecom discount cited as a base effect in an inflation report) — exclude
 # those so 할인 only shows actual retail sale news.
-DISCOUNT_EXCLUDE_KEYWORDS = ["물가", "금리", "환율", "GDP", "통계청", "한은", "기준금리", "경상수지", "무역수지"]
+DISCOUNT_EXCLUDE_KEYWORDS = [
+    "물가", "금리", "환율", "GDP", "통계청", "한은", "기준금리", "경상수지", "무역수지",
+    # "세일즈"(sales, the job function) contains "세일" as a substring; "채용"/"인력" catch
+    # hiring/recruitment posts more generally, since they're a recurring false-positive
+    # category for any "세일"-matching keyword search.
+    "세일즈", "채용", "인력 확대", "구인",
+]
 # For non-fashion-scoped feeds, also require an actual fashion/retail-context word —
 # otherwise an "역대급 세일" on TVs or refrigerators slips through just as easily as one
 # on clothing.
