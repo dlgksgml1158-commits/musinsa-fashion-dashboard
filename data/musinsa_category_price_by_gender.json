@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-11T08:51:11.795569+00:00",
+  "updatedAt": "2026-08-11T09:45:42.670028+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 44868,
+        "avg": 44811,
         "min": 9900,
         "max": 139000,
         "count": 60
@@ -16,7 +16,7 @@
         "count": 21
       },
       "female": {
-        "avg": 48092,
+        "avg": 47973,
         "min": 13830,
         "max": 139000,
         "count": 29
@@ -1607,7 +1607,7 @@
           "price": 44900,
           "originalPrice": 44900,
           "discountRate": 19,
-          "finalPrice": 36360,
+          "finalPrice": 36370,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260714/6843857/6843857_17841640734783_500.jpg",
@@ -1619,13 +1619,13 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 34358,
+        "avg": 34219,
         "min": 12900,
         "max": 89000,
         "count": 60
       },
       "male": {
-        "avg": 37643,
+        "avg": 37392,
         "min": 19900,
         "max": 74200,
         "count": 33
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-100498",
+          "id": "ms-101131",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,7 +2588,7 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 35375,
+        "avg": 35296,
         "min": 9800,
         "max": 55900,
         "count": 60
@@ -2600,7 +2600,7 @@
         "count": 37
       },
       "female": {
-        "avg": 37902,
+        "avg": 37431,
         "min": 9900,
         "max": 55900,
         "count": 10
