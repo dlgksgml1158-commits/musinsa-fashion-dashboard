@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T07:59:38.539794+00:00",
+  "updatedAt": "2026-08-11T08:51:11.795569+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1296,13 +1296,13 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 44448,
+        "avg": 44462,
         "min": 17200,
         "max": 129000,
         "count": 60
       },
       "male": {
-        "avg": 46534,
+        "avg": 46564,
         "min": 17200,
         "max": 129000,
         "count": 28
@@ -1571,21 +1571,6 @@
         },
         {
           "rank": 18,
-          "id": "ms-6482045",
-          "brand": "라우디",
-          "name": "에어리 시어 스트라이프 오픈카라 셔츠_잉크블랙",
-          "price": 72000,
-          "originalPrice": 72000,
-          "discountRate": 24,
-          "finalPrice": 55080,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260514/6482045/6482045_17791627200227_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6482045",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 19,
           "id": "ms-4938276",
           "brand": "메종 키츠네",
           "name": "컨투어 폭스 헤드 스케이트 셔츠 - 화이트 / MM00405WC5012P100",
@@ -1600,7 +1585,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6610304",
           "brand": "포에버21",
           "name": "셔링 라운드 반팔 블라우스 (FTDBBL019)",
@@ -1613,28 +1598,43 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260604/6610304/6610304_17805673008755_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6610304",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6843857",
+          "brand": "에잇세컨즈",
+          "name": "레이스 스퀘어넥 블라우스  스카이 블루",
+          "price": 44900,
+          "originalPrice": 44900,
+          "discountRate": 19,
+          "finalPrice": 36360,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260714/6843857/6843857_17841640734783_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6843857",
+          "displayGenderText": "여성"
         }
       ]
     },
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 37719,
+        "avg": 34358,
         "min": 12900,
-        "max": 231990,
+        "max": 89000,
         "count": 60
       },
       "male": {
-        "avg": 37872,
+        "avg": 37643,
         "min": 19900,
         "max": 74200,
-        "count": 32
+        "count": 33
       },
       "female": {
-        "avg": 39423,
+        "avg": 29795,
         "min": 12900,
-        "max": 231990,
-        "count": 21
+        "max": 89000,
+        "count": 20
       },
       "items": [
         {
@@ -1899,8 +1899,8 @@
           "name": "[이도현 PICK] 워셔블 수피마 코튼 니티드 폴로 셔츠 [블랙]",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 5,
-          "finalPrice": 47390,
+          "discountRate": 10,
+          "finalPrice": 44890,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20241227/4682246/4682246_17731138951622_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101131",
+          "id": "ms-100498",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,13 +2265,13 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 55860,
+        "avg": 55907,
         "min": 17450,
         "max": 169290,
         "count": 60
       },
       "male": {
-        "avg": 51142,
+        "avg": 51222,
         "min": 17450,
         "max": 159000,
         "count": 35
@@ -2425,8 +2425,8 @@
           "name": "[쿨탠다드] 와이드 데님 팬츠 [블리치]",
           "price": 55900,
           "originalPrice": 55900,
-          "discountRate": 20,
-          "finalPrice": 44690,
+          "discountRate": 15,
+          "finalPrice": 47490,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20231201/3740943/3740943_17780320688270_500.jpg",
@@ -2588,13 +2588,13 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 35799,
+        "avg": 35375,
         "min": 9800,
         "max": 55900,
         "count": 60
       },
       "male": {
-        "avg": 38059,
+        "avg": 37372,
         "min": 19200,
         "max": 52500,
         "count": 37
@@ -2718,8 +2718,8 @@
           "name": "[쿨탠다드] 원 턱 와이드 밴딩 슬랙스 [블랙]",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 33,
-          "finalPrice": 39900,
+          "discountRate": 35,
+          "finalPrice": 38990,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230309/3134698/3134698_17516088971899_500.jpg",
@@ -2778,8 +2778,8 @@
           "name": "쿨 터치 세미 와이드 히든 밴딩 슬랙스 [네이비]",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 28,
-          "finalPrice": 35900,
+          "discountRate": 36,
+          "finalPrice": 31890,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20241119/4624064/4624064_17411490977695_500.jpg",
@@ -3234,13 +3234,13 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 38543,
+        "avg": 38311,
         "min": 9900,
         "max": 96990,
         "count": 60
       },
       "male": {
-        "avg": 39069,
+        "avg": 38589,
         "min": 9900,
         "max": 75200,
         "count": 29
