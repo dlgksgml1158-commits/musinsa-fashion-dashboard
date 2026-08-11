@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-08-11T15:26:22.249290+00:00",
+  "updatedAt": "2026-08-11T16:14:58.013199+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 43382,
+        "avg": 44982,
         "min": 9900,
         "max": 139000,
         "count": 60
       },
       "male": {
-        "avg": 45872,
+        "avg": 46516,
         "min": 18900,
         "max": 129000,
-        "count": 21
+        "count": 20
       },
       "female": {
-        "avg": 45017,
+        "avg": 47816,
         "min": 13830,
         "max": 139000,
-        "count": 29
+        "count": 30
       },
       "items": [
         {
@@ -1942,13 +1942,13 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 119882,
+        "avg": 118797,
         "min": 23560,
         "max": 539000,
         "count": 60
       },
       "male": {
-        "avg": 144590,
+        "avg": 141335,
         "min": 43130,
         "max": 458000,
         "count": 20
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-100499",
+          "id": "ms-99176",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,13 +2265,13 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 56990,
+        "avg": 57110,
         "min": 17450,
         "max": 169290,
         "count": 60
       },
       "male": {
-        "avg": 52160,
+        "avg": 52360,
         "min": 17450,
         "max": 159000,
         "count": 36
@@ -2575,8 +2575,8 @@
           "name": "뒷밴딩 무지 워싱 와이드 데님 팬츠[라이트블루]",
           "price": 43500,
           "originalPrice": 43500,
-          "discountRate": 37,
-          "finalPrice": 27440,
+          "discountRate": 20,
+          "finalPrice": 34650,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260129/5956411/5956411_17744091176747_500.jpg",
