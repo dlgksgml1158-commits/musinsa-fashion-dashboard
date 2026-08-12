@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-12T09:35:39.356723+00:00",
+  "updatedAt": "2026-08-12T10:47:01.994502+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 44238,
+        "avg": 44356,
         "min": 9900,
         "max": 139000,
         "count": 60
@@ -16,7 +16,7 @@
         "count": 25
       },
       "female": {
-        "avg": 50878,
+        "avg": 51172,
         "min": 13830,
         "max": 139000,
         "count": 24
@@ -134,8 +134,8 @@
           "name": "Sally V-cut Stripe Layered Short Sleeve_4Colors",
           "price": 49000,
           "originalPrice": 49000,
-          "discountRate": 47,
-          "finalPrice": 26020,
+          "discountRate": 32,
+          "finalPrice": 33080,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260605/6618666/6618666_17806458173868_500.jpg",
@@ -327,22 +327,22 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 38620,
+        "avg": 38610,
         "min": 5530,
         "max": 130000,
         "count": 60
       },
       "male": {
-        "avg": 46929,
+        "avg": 47369,
         "min": 19900,
         "max": 95000,
-        "count": 17
+        "count": 16
       },
       "female": {
-        "avg": 33484,
+        "avg": 33631,
         "min": 5530,
         "max": 60040,
-        "count": 38
+        "count": 39
       },
       "items": [
         {
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 45491,
+        "avg": 45475,
         "min": 17890,
         "max": 118990,
         "count": 60
@@ -1308,10 +1308,10 @@
         "count": 24
       },
       "female": {
-        "avg": 45281,
+        "avg": 45428,
         "min": 17890,
         "max": 109000,
-        "count": 34
+        "count": 33
       },
       "items": [
         {
@@ -1391,21 +1391,6 @@
         },
         {
           "rank": 6,
-          "id": "ms-6896523",
-          "brand": "에잇세컨즈",
-          "name": "스트라이프 반소매 셔츠  화이트",
-          "price": 49900,
-          "originalPrice": 49900,
-          "discountRate": 19,
-          "finalPrice": 40420,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260722/6896523/6896523_17847887633643_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6896523",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 7,
           "id": "ms-5002044",
           "brand": "튜드먼트",
           "name": "POLKA DOT PUFF SLEEVE BLOUSE WHITE",
@@ -1420,7 +1405,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-5661656",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 체크 텍스처드 베이비 돌 블라우스 [화이트]",
@@ -1435,7 +1420,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-6401724",
           "brand": "알리스",
           "name": "웨스턴 리니어 솔리드 크롭 하프 셔츠 [화이트]",
@@ -1450,7 +1435,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-6103340",
           "brand": "마인드브릿지",
           "name": "[COUTURE]나일론 오버핏 포켓 반팔 셔츠 - 2color",
@@ -1465,7 +1450,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-6697368",
           "brand": "하이스쿨디스코",
           "name": "솔리드 더블 버튼 퍼프 셔츠",
@@ -1480,7 +1465,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-4989733",
           "brand": "르아르",
           "name": "링클 시어서커 체크 반팔 셔츠 [차콜]",
@@ -1495,7 +1480,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-6317272",
           "brand": "페이지플린",
           "name": "카라버튼랩블라우스_P6BBL003C",
@@ -1510,7 +1495,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-3181007",
           "brand": "다이아몬드 레이라",
           "name": "Stitch Stripe Shirt S114  Elephant Ivory",
@@ -1525,7 +1510,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6562364",
           "brand": "인더스트",
           "name": "[인더스트 X 요비] 피그먼트  워시드 피케 반팔 셔츠_3COLOR",
@@ -1540,7 +1525,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6463419",
           "brand": "브렌슨",
           "name": "린넨 라이크 체크 반팔 셔츠 ( 네이비 )",
@@ -1555,7 +1540,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-4123649",
           "brand": "로템버",
           "name": "린넨 오픈카라 펜슬 스트라이프 하프 셔츠 [OATMEAL]",
@@ -1570,7 +1555,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-3926599",
           "brand": "마인드브릿지",
           "name": "[에어쿨]린넨 라이크 세미 오버핏 셔츠 -5color",
@@ -1585,7 +1570,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6286371",
           "brand": "조질롱",
           "name": "JN165 Soft Seersucker Open Collar Shirt - IVORY",
@@ -1600,7 +1585,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6518493",
           "brand": "루에브르",
           "name": "Drop-Tie Cowl-Neck Sleeveless Blouse SW6MB731_2color",
@@ -1613,6 +1598,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6518493/6518493_17802771079173_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6518493",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5289769",
+          "brand": "마인드브릿지",
+          "name": "[ON]스트라이프 오버핏 셔츠 - 3color",
+          "price": 79900,
+          "originalPrice": 79900,
+          "discountRate": 38,
+          "finalPrice": 49260,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250804/5289769/5289769_17726775493842_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5289769",
+          "displayGenderText": "남성"
         }
       ]
     },
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-100510",
+          "id": "ms-101302",
           "brand": "",
           "name": "",
           "price": null,
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 49581,
+        "avg": 49534,
         "min": 9900,
         "max": 179000,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 23
       },
       "female": {
-        "avg": 54093,
+        "avg": 53996,
         "min": 23120,
         "max": 159200,
         "count": 29
