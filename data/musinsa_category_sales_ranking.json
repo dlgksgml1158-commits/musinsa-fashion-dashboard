@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T18:12:56.486026+00:00",
+  "updatedAt": "2026-08-12T19:32:13.351087+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -707,21 +707,6 @@
         },
         {
           "rank": 7,
-          "id": "ms-4398966",
-          "brand": "와키윌리",
-          "name": "그래피티 맨투맨 블랙",
-          "price": 99000,
-          "originalPrice": 99000,
-          "discountRate": 71,
-          "finalPrice": 29000,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240903/4398966/4398966_17255043074150_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4398966",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 8,
           "id": "ms-3052874",
           "brand": "챔피온",
           "name": "여성 리버스위브 프렌치테리 스웨트셔츠 Light Blue",
@@ -734,6 +719,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230201/3052874/3052874_17470105779438_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3052874",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 8,
+          "id": "ms-4398966",
+          "brand": "와키윌리",
+          "name": "그래피티 맨투맨 블랙",
+          "price": 99000,
+          "originalPrice": 99000,
+          "discountRate": 71,
+          "finalPrice": 29000,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240903/4398966/4398966_17255043074150_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4398966",
+          "displayGenderText": "공용"
         },
         {
           "rank": 9,
@@ -3282,21 +3282,6 @@
         },
         {
           "rank": 16,
-          "id": "ms-6278961",
-          "brand": "디미트리블랙",
-          "name": "[10주년기획] © 모두의 COOLMAX® 원단 원턱 스웻 하프 팬츠_3 COLOR",
-          "price": 41500,
-          "originalPrice": 41500,
-          "discountRate": 33,
-          "finalPrice": 27900,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260408/6278961/6278961_17788291612493_500.png",
-          "productUrl": "https://www.musinsa.com/products/6278961",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 17,
           "id": "ms-4655528",
           "brand": "러닝라이프",
           "name": "스포츠 반바지 쇼츠 프로 (2IN1) (3color)",
@@ -3311,7 +3296,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5080077",
           "brand": "리메인세컨드",
           "name": "버뮤다 딥 원턱 하프 스웨트 쇼츠_3COLOR",
@@ -3326,7 +3311,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5519895",
           "brand": "레이지비",
           "name": "자이언트핏 와이드 버뮤다 스웨트 팬츠 빅로고 헬스 짐웨어 운동복 반바지 M 블랙",
@@ -3341,7 +3326,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-3300764",
           "brand": "챔피온",
           "name": "헤리티지 클래식 프렌치테리 스웨트 숏팬츠 Black",
@@ -3353,6 +3338,21 @@
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230517/3300764/3300764_17470084552903_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3300764",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4072866",
+          "brand": "데꼬로소",
+          "name": "워싱 코튼 밴딩 원턱 하프 팬츠 [아이보리]",
+          "price": 57000,
+          "originalPrice": 57000,
+          "discountRate": 56,
+          "finalPrice": 24800,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240422/4072866/4072866_17142945603207_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4072866",
           "displayGenderText": "남성"
         }
       ]
