@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T15:25:46.380989+00:00",
+  "updatedAt": "2026-08-12T16:14:58.742846+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 76561,
+        "avg": 76446,
         "min": 10000,
         "max": 495000,
         "count": 60
@@ -1283,8 +1283,8 @@
           "name": "SORANO Basic Logo HOODIE [6Color]",
           "price": 119000,
           "originalPrice": 119000,
-          "discountRate": 54,
-          "finalPrice": 55200,
+          "discountRate": 59,
+          "finalPrice": 48300,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240807/4302685/4302685_17229675684379_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-100510",
+          "id": "ms-100519",
           "brand": "",
           "name": "",
           "price": null,
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 49534,
+        "avg": 49468,
         "min": 9900,
         "max": 179000,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 23
       },
       "female": {
-        "avg": 53996,
+        "avg": 53859,
         "min": 23120,
         "max": 159200,
         "count": 29
