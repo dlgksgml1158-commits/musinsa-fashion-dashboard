@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T06:49:20.144411+00:00",
+  "updatedAt": "2026-08-12T08:07:22.964773+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1512,18 +1512,18 @@
         },
         {
           "rank": 20,
-          "id": "ms-4074148",
-          "brand": "아틀리에 나인",
-          "name": "[장다연 PICK] LOND WAIST TUCK  BLOUSE(Z-BL-4225)",
-          "price": 49000,
-          "originalPrice": 49000,
-          "discountRate": 30,
-          "finalPrice": 34300,
+          "id": "ms-3858441",
+          "brand": "커스텀어클락",
+          "name": "[리뉴얼ver.] 쿨 체크 숏 슬리브 셔츠 4 COLOR COOSSH191",
+          "price": 54000,
+          "originalPrice": 54000,
+          "discountRate": 54,
+          "finalPrice": 24900,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240422/4074148/4074148_17775178901970_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4074148",
-          "displayGenderText": "여성"
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240208/3858441/3858441_17853928425721_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3858441",
+          "displayGenderText": "남성"
         }
       ]
     },
@@ -2397,21 +2397,6 @@
         },
         {
           "rank": 18,
-          "id": "ms-4786310",
-          "brand": "시너진",
-          "name": "102 CAT WASHING MID-RISE JEANS DEEP BLUE",
-          "price": 109000,
-          "originalPrice": 109000,
-          "discountRate": 0,
-          "finalPrice": 109000,
-          "category": "003002",
-          "categoryLabel": "데님 팬츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250213/4786310/4786310_17720843745254_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4786310",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 19,
           "id": "ms-6064520",
           "brand": "캘빈클라인 진",
           "name": "[Capsule] 인더시티 90S 스트레이트핏 진 4RF965G Q1B",
@@ -2426,7 +2411,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5918987",
           "brand": "언탭트 스튜디오",
           "name": "빈티지 라이크 린넨 와이드 데님팬츠 4Color",
@@ -2439,6 +2424,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260121/5918987/5918987_17693930151644_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5918987",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4725443",
+          "brand": "플랙",
+          "name": "ESSENTIAL E01 022 STRAIGHT DARK INDIGO",
+          "price": 89000,
+          "originalPrice": 89000,
+          "discountRate": 70,
+          "finalPrice": 26700,
+          "category": "003002",
+          "categoryLabel": "데님 팬츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250116/4725443/4725443_17834719781132_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4725443",
+          "displayGenderText": "남성"
         }
       ]
     },
