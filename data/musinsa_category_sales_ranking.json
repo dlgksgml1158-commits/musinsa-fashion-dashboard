@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T21:12:04.340526+00:00",
+  "updatedAt": "2026-08-12T22:07:41.769067+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -2412,6 +2412,21 @@
         },
         {
           "rank": 19,
+          "id": "ms-5944339",
+          "brand": "르아르",
+          "name": "디스트로이드 플레어 데님 팬츠 [라이트블루]",
+          "price": 55000,
+          "originalPrice": 55000,
+          "discountRate": 49,
+          "finalPrice": 27930,
+          "category": "003002",
+          "categoryLabel": "데님 팬츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260127/5944339/5944339_17772684849113_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5944339",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
           "id": "ms-6064520",
           "brand": "캘빈클라인 진",
           "name": "[Capsule] 인더시티 90S 스트레이트핏 진 4RF965G Q1B",
@@ -2424,21 +2439,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064520/6064520_17745070527160_500.jpeg",
           "productUrl": "https://www.musinsa.com/products/6064520",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-5918987",
-          "brand": "언탭트 스튜디오",
-          "name": "빈티지 라이크 린넨 와이드 데님팬츠 4Color",
-          "price": 49900,
-          "originalPrice": 49900,
-          "discountRate": 30,
-          "finalPrice": 34930,
-          "category": "003002",
-          "categoryLabel": "데님 팬츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260121/5918987/5918987_17693930151644_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5918987",
-          "displayGenderText": "공용"
         }
       ]
     },
