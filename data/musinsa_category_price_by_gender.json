@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T06:52:33.637178+00:00",
+  "updatedAt": "2026-08-13T08:09:13.506916+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1942,22 +1942,22 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 155336,
+        "avg": 148856,
         "min": 9900,
         "max": 717990,
         "count": 60
       },
       "male": {
-        "avg": 185959,
+        "avg": 175455,
         "min": 62300,
         "max": 717990,
-        "count": 23
+        "count": 22
       },
       "female": {
-        "avg": 111016,
+        "avg": 107706,
         "min": 23560,
         "max": 294500,
-        "count": 24
+        "count": 25
       },
       "items": [
         {
@@ -2007,6 +2007,21 @@
         },
         {
           "rank": 4,
+          "id": "ms-6843949",
+          "brand": "에잇세컨즈",
+          "name": "레이온 크랍 카디건  라이트 그린",
+          "price": 34900,
+          "originalPrice": 34900,
+          "discountRate": 19,
+          "finalPrice": 28270,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260714/6843949/6843949_17841644259401_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6843949",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 5,
           "id": "ms-6883774",
           "brand": "파타고니아",
           "name": "우먼즈 레트로 파일 재킷 / 22796R7",
@@ -2021,23 +2036,8 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 5,
-          "id": "ms-6565987",
-          "brand": "무신사 스탠다드",
-          "name": "신세틱 스웨이드 레이서 재킷 [라이트 브라운]",
-          "price": 129900,
-          "originalPrice": 129900,
-          "discountRate": 0,
-          "finalPrice": 129900,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260528/6565987/6565987_17865020098275_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6565987",
-          "displayGenderText": "남성"
-        },
-        {
           "rank": 6,
-          "id": "ms-101302",
+          "id": "ms-100519",
           "brand": "",
           "name": "",
           "price": null,
@@ -2052,6 +2052,21 @@
         },
         {
           "rank": 7,
+          "id": "ms-6565987",
+          "brand": "무신사 스탠다드",
+          "name": "신세틱 스웨이드 레이서 재킷 [라이트 브라운]",
+          "price": 129900,
+          "originalPrice": 129900,
+          "discountRate": 0,
+          "finalPrice": 129900,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260528/6565987/6565987_17865020098275_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6565987",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 8,
           "id": "ms-6912863",
           "brand": "루프",
           "name": "크로스 스톤 오버핏 후드집업 블랙",
@@ -2066,7 +2081,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "id": "ms-6883772",
           "brand": "파타고니아",
           "name": "멘즈 레트로 파일 재킷 / 22802R7",
@@ -2081,7 +2096,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-6686050",
           "brand": "나이키",
           "name": "테크 헬리오스 드라이 핏 풀집 재킷 M - 블랙 / IM1334-010",
@@ -2096,7 +2111,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-6364512",
           "brand": "무신사 스탠다드",
           "name": "[시티 레저] 그리드 폴라 플리스 바라클라바 후디드 집업 [스톤 화이트]",
@@ -2111,7 +2126,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-3042005",
           "brand": "도프제이슨",
           "name": "워싱레더 리그 바시티 자켓",
@@ -2126,7 +2141,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-6933792",
           "brand": "투머치택스",
           "name": "타로 02 와플 집업 후디 화이트",
@@ -2141,7 +2156,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-5489923",
           "brand": "마인드브릿지",
           "name": "[오정규 PICK] 두굿_[COUTURE]캐시미어 오버핏 발마칸 롱 코트 - 4color",
@@ -2156,10 +2171,10 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-6853557",
           "brand": "무신사 스탠다드",
-          "name": "[시티 레저] 시어 후디드 라이트 다운 재킷 [미드나잇 블루]",
+          "name": "[26FW 신상] [시티 레저] 시어 후디드 라이트 다운 재킷 [미드나잇 블루]",
           "price": 139900,
           "originalPrice": 139900,
           "discountRate": 0,
@@ -2171,7 +2186,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-6908905",
           "brand": "블랙야크",
           "name": "공용 클라이밍 스톤마스터 라이트 패딩자켓#3_(4color)",
@@ -2186,7 +2201,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-6908583",
           "brand": "블랙야크",
           "name": "공용 클라이밍 스톤마스터 라이트 다운자켓#3_(5color)",
@@ -2201,7 +2216,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-6987932",
           "brand": "뉴발란스",
           "name": "NBNAG3W822 / WOMEN ALLDAY 후드형 바람막이 (S/BLUE)",
@@ -2216,7 +2231,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-5973119",
           "brand": "필루미네이트",
           "name": "(W) 워터컬러 시어 윈드브레이커-스카이블루",
@@ -2231,7 +2246,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-4668058",
           "brand": "아페쎄",
           "name": "제이미 가디건 - 다크 네이비 / COEZJH22315IAK",
@@ -2243,21 +2258,6 @@
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20241216/4668058/4668058_17364742281684_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4668058",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-4696797",
-          "brand": "발렌시아가",
-          "name": "언더아머 윈드브레이커 재킷 - 블랙 / 814127TQO351000",
-          "price": 2440000,
-          "originalPrice": 2440000,
-          "discountRate": 71,
-          "finalPrice": 717990,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250103/4696797/4696797_17368230993812_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4696797",
           "displayGenderText": "남성"
         }
       ]
@@ -2588,7 +2588,7 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 36410,
+        "avg": 36523,
         "min": 9800,
         "max": 113990,
         "count": 60
@@ -2752,7 +2752,7 @@
           "finalPrice": 34900,
           "category": "003008",
           "categoryLabel": "슬랙스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20181015/880827/880827_17761502187290_500.jpg",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20181015/880827/880827_17866043094367_500.jpg",
           "productUrl": "https://www.musinsa.com/products/880827",
           "displayGenderText": "공용"
         },
@@ -3234,22 +3234,22 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 41474,
+        "avg": 40723,
         "min": 9900,
         "max": 96990,
         "count": 60
       },
       "male": {
-        "avg": 42777,
+        "avg": 42813,
         "min": 9900,
         "max": 84000,
-        "count": 30
+        "count": 31
       },
       "female": {
-        "avg": 38627,
+        "avg": 36612,
         "min": 18210,
-        "max": 89000,
-        "count": 26
+        "max": 69600,
+        "count": 25
       },
       "items": [
         {
