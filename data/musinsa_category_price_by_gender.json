@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-08-13T09:36:58.307018+00:00",
+  "updatedAt": "2026-08-13T10:48:37.089408+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 43708,
+        "avg": 43711,
         "min": 9900,
         "max": 139000,
         "count": 60
       },
       "male": {
-        "avg": 41220,
+        "avg": 41227,
         "min": 9900,
         "max": 129000,
         "count": 23
@@ -210,7 +210,7 @@
           "price": 69000,
           "originalPrice": 69000,
           "discountRate": 0,
-          "finalPrice": 68820,
+          "finalPrice": 69000,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260715/6852823/6852823_17846308345807_500.jpg",
@@ -1942,22 +1942,22 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 155336,
+        "avg": 153441,
         "min": 9900,
         "max": 717990,
         "count": 60
       },
       "male": {
-        "avg": 185959,
+        "avg": 187776,
         "min": 62300,
         "max": 717990,
-        "count": 23
+        "count": 22
       },
       "female": {
-        "avg": 111016,
+        "avg": 107868,
         "min": 23560,
         "max": 294500,
-        "count": 24
+        "count": 25
       },
       "items": [
         {
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-100413",
+          "id": "ms-100498",
           "brand": "",
           "name": "",
           "price": null,
@@ -2232,21 +2232,6 @@
         },
         {
           "rank": 19,
-          "id": "ms-4668058",
-          "brand": "아페쎄",
-          "name": "제이미 가디건 - 다크 네이비 / COEZJH22315IAK",
-          "price": 449000,
-          "originalPrice": 449000,
-          "discountRate": 67,
-          "finalPrice": 145990,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20241216/4668058/4668058_17364742281684_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4668058",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
           "id": "ms-4696797",
           "brand": "발렌시아가",
           "name": "언더아머 윈드브레이커 재킷 - 블랙 / 814127TQO351000",
@@ -2259,6 +2244,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250103/4696797/4696797_17368230993812_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4696797",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6499914",
+          "brand": "지오다노",
+          "name": "포인텔 가디건 326540 [4color]",
+          "price": 24800,
+          "originalPrice": 24800,
+          "discountRate": 5,
+          "finalPrice": 23560,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260518/6499914/6499914_17797592583652_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6499914",
+          "displayGenderText": "여성"
         }
       ]
     },
