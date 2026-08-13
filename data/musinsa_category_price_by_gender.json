@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-08-13T05:14:24.530479+00:00",
+  "updatedAt": "2026-08-13T06:52:33.637178+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 43760,
+        "avg": 43910,
         "min": 9900,
         "max": 139000,
         "count": 60
       },
       "male": {
-        "avg": 40830,
+        "avg": 41220,
         "min": 9900,
         "max": 129000,
         "count": 23
@@ -327,19 +327,19 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 38502,
+        "avg": 38707,
         "min": 5530,
         "max": 130000,
         "count": 60
       },
       "male": {
-        "avg": 47369,
+        "avg": 46492,
         "min": 19900,
         "max": 95000,
-        "count": 16
+        "count": 17
       },
       "female": {
-        "avg": 33465,
+        "avg": 33755,
         "min": 5530,
         "max": 60040,
         "count": 39
@@ -587,21 +587,6 @@
         },
         {
           "rank": 17,
-          "id": "ms-6233850",
-          "brand": "에잇세컨즈",
-          "name": "그래픽 오프숄더 티셔츠  네이비",
-          "price": 39900,
-          "originalPrice": 39900,
-          "discountRate": 76,
-          "finalPrice": 9640,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260401/6233850/6233850_17776428630286_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6233850",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 18,
           "id": "ms-5982920",
           "brand": "몽돌",
           "name": "[SET] 사이드 셔링 레이어드 티셔츠 라이트그레이 MDTS067LGRAY",
@@ -616,7 +601,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5886071",
           "brand": "허그유어스킨",
           "name": "드로우 스트링 롱 슬리브 (멜란지 그레이)",
@@ -631,7 +616,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-4825766",
           "brand": "슈퍼서브",
           "name": "스페이스 에일리언 래글런 긴팔티 - 그레이/네이비",
@@ -644,6 +629,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250224/4825766/4825766_17407297824059_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4825766",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5871848",
+          "brand": "마인드브릿지",
+          "name": "래글런 오버핏 긴팔 티셔츠 - 2color",
+          "price": 49900,
+          "originalPrice": 49900,
+          "discountRate": 60,
+          "finalPrice": 19900,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260106/5871848/5871848_17689718083198_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5871848",
+          "displayGenderText": "남성"
         }
       ]
     },
@@ -973,13 +973,13 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 76982,
+        "avg": 77231,
         "min": 13800,
         "max": 495000,
         "count": 60
       },
       "male": {
-        "avg": 81296,
+        "avg": 82084,
         "min": 13800,
         "max": 445990,
         "count": 19
@@ -1103,8 +1103,8 @@
           "name": "리브드 후디드 롱슬리브 티셔츠 [차콜]",
           "price": 59000,
           "originalPrice": 59000,
-          "discountRate": 41,
-          "finalPrice": 34930,
+          "discountRate": 15,
+          "finalPrice": 49900,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260127/5944301/5944301_17719867564536_500.jpg",
@@ -1296,13 +1296,13 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 45938,
+        "avg": 45836,
         "min": 17890,
         "max": 118990,
         "count": 60
       },
       "male": {
-        "avg": 45924,
+        "avg": 45670,
         "min": 19900,
         "max": 118990,
         "count": 24
@@ -1501,8 +1501,8 @@
           "name": "[인더스트 X 요비] 피그먼트  워시드 피케 반팔 셔츠_3COLOR",
           "price": 60000,
           "originalPrice": 60000,
-          "discountRate": 30,
-          "finalPrice": 42000,
+          "discountRate": 40,
+          "finalPrice": 35900,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260528/6562364/6562364_17806224634217_500.jpg",
@@ -1619,13 +1619,13 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 44697,
+        "avg": 44862,
         "min": 12900,
         "max": 454990,
         "count": 60
       },
       "male": {
-        "avg": 48180,
+        "avg": 48470,
         "min": 19900,
         "max": 454990,
         "count": 34
@@ -1869,8 +1869,8 @@
           "name": "빈티지핏 레글런 반팔 니트 [틸그린]",
           "price": 52000,
           "originalPrice": 52000,
-          "discountRate": 56,
-          "finalPrice": 23030,
+          "discountRate": 37,
+          "finalPrice": 32900,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260416/6324646/6324646_17799418135508_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-100499",
+          "id": "ms-101302",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,13 +2265,13 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 52858,
+        "avg": 53732,
         "min": 19900,
         "max": 159000,
         "count": 60
       },
       "male": {
-        "avg": 47125,
+        "avg": 48582,
         "min": 19900,
         "max": 159000,
         "count": 36
@@ -2455,8 +2455,8 @@
           "name": "커브드 라인 워싱 팬츠 [블랙]",
           "price": 55000,
           "originalPrice": 55000,
-          "discountRate": 53,
-          "finalPrice": 25830,
+          "discountRate": 33,
+          "finalPrice": 36900,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260127/5944329/5944329_17799310728909_500.jpg",
@@ -2575,8 +2575,8 @@
           "name": "커브드 비조 워싱 팬츠 [차콜]",
           "price": 51000,
           "originalPrice": 51000,
-          "discountRate": 46,
-          "finalPrice": 27300,
+          "discountRate": 24,
+          "finalPrice": 39000,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260127/5944334/5944334_17772674507304_500.jpg",
@@ -2588,13 +2588,13 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 35820,
+        "avg": 36410,
         "min": 9800,
         "max": 113990,
         "count": 60
       },
       "male": {
-        "avg": 38809,
+        "avg": 39694,
         "min": 15900,
         "max": 113990,
         "count": 40
@@ -2643,8 +2643,8 @@
           "name": "스트라이프 커브드 핀턱 슬랙스 [차콜]",
           "price": 87000,
           "originalPrice": 87000,
-          "discountRate": 53,
-          "finalPrice": 41300,
+          "discountRate": 32,
+          "finalPrice": 59000,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250908/5416068/5416068_17586080106438_500.jpg",
@@ -3234,22 +3234,22 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 40520,
+        "avg": 41474,
         "min": 9900,
         "max": 96990,
         "count": 60
       },
       "male": {
-        "avg": 42420,
+        "avg": 42777,
         "min": 9900,
         "max": 84000,
-        "count": 31
+        "count": 30
       },
       "female": {
-        "avg": 36612,
+        "avg": 38627,
         "min": 18210,
-        "max": 69600,
-        "count": 25
+        "max": 89000,
+        "count": 26
       },
       "items": [
         {
@@ -3439,8 +3439,8 @@
           "name": "카고 포켓 워시드 버뮤다 쇼츠 [네이비]",
           "price": 62000,
           "originalPrice": 62000,
-          "discountRate": 55,
-          "finalPrice": 27930,
+          "discountRate": 36,
+          "finalPrice": 39900,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260519/6507912/6507912_17811450433630_500.jpg",
