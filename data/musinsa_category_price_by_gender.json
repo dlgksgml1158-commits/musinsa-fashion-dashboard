@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T23:07:13.123947+00:00",
+  "updatedAt": "2026-08-13T00:03:32.767523+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,22 +650,22 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 56987,
+        "avg": 56637,
         "min": 7900,
         "max": 208050,
         "count": 60
       },
       "male": {
-        "avg": 64997,
+        "avg": 65136,
         "min": 8800,
         "max": 208050,
-        "count": 27
+        "count": 28
       },
       "female": {
-        "avg": 62413,
+        "avg": 60581,
         "min": 14900,
         "max": 184000,
-        "count": 16
+        "count": 15
       },
       "items": [
         {
@@ -940,21 +940,6 @@
         },
         {
           "rank": 19,
-          "id": "ms-6925831",
-          "brand": "뉴발란스",
-          "name": "NBNCG3W112 / WOMEN AIRY 와플 맨투맨 (BLACK)",
-          "price": 89900,
-          "originalPrice": 89900,
-          "discountRate": 0,
-          "finalPrice": 89900,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260727/6925831/6925831_17851160869318_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6925831",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
           "id": "ms-6710465",
           "brand": "무신사 스탠다드",
           "name": "헨리 넥 스웨트셔츠 [블랙]",
@@ -966,6 +951,21 @@
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260622/6710465/6710465_17852914577568_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6710465",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6919678",
+          "brand": "디에포",
+          "name": "DeÉpo26 키움히어로즈 트랙 스웻셔츠(BURGUNDY)",
+          "price": 129000,
+          "originalPrice": 129000,
+          "discountRate": 0,
+          "finalPrice": 129000,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260724/6919678/6919678_17851352381198_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6919678",
           "displayGenderText": "남성"
         }
       ]
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-100511",
+          "id": "ms-100739",
           "brand": "",
           "name": "",
           "price": null,
