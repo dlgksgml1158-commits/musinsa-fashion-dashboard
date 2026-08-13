@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T18:13:55.651099+00:00",
+  "updatedAt": "2026-08-13T19:31:19.038882+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -857,21 +857,6 @@
         },
         {
           "rank": 17,
-          "id": "ms-3074973",
-          "brand": "무신사 스탠다드 우먼",
-          "name": "우먼즈 더블 니트 칼라드 반소매 스웨트셔츠 [멜란지 라이트 그레이]",
-          "price": 29900,
-          "originalPrice": 29900,
-          "discountRate": 10,
-          "finalPrice": 26910,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230210/3074973/3074973_16819863544817_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3074973",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 18,
           "id": "ms-4425068",
           "brand": "챔피온",
           "name": "스몰 스크립트 로고 크루넥 스웨트셔츠 Normal Navy",
@@ -886,7 +871,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-3106845",
           "brand": "챔피온",
           "name": "C로고 크루넥 스웨트셔츠 Cream",
@@ -901,7 +886,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5292913",
           "brand": "디스커스 애슬레틱",
           "name": "[세미크롭핏] 2팩 스웨트 셔츠",
@@ -914,6 +899,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250805/5292913/5292913_17667561980040_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5292913",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-3515436",
+          "brand": "챔피온",
+          "name": "컬러 블록 브이넥 스웨트셔츠 Normal Coral",
+          "price": 129000,
+          "originalPrice": 129000,
+          "discountRate": 84,
+          "finalPrice": 20000,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20230830/3515436/3515436_17470105603089_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3515436",
+          "displayGenderText": "남성"
         }
       ]
     },
@@ -2642,21 +2642,6 @@
         },
         {
           "rank": 14,
-          "id": "ms-6154426",
-          "brand": "디미트리블랙",
-          "name": "ASI 원턱 와이드 플리츠 팬츠_블랙",
-          "price": 41900,
-          "originalPrice": 41900,
-          "discountRate": 36,
-          "finalPrice": 26900,
-          "category": "003008",
-          "categoryLabel": "슬랙스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260318/6154426/6154426_17785725680250_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6154426",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 15,
           "id": "ms-2032901",
           "brand": "무신사 스탠다드",
           "name": "릴렉스드 테이퍼드 히든 밴딩 크롭 슬랙스 [블랙]",
@@ -2671,7 +2656,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-2518486",
           "brand": "무신사 스탠다드",
           "name": "[쿨탠다드] 와이드 히든 밴딩 슬랙스 [그레이]",
@@ -2683,6 +2668,21 @@
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20220427/2518486/2518486_17770042855289_500.jpg",
           "productUrl": "https://www.musinsa.com/products/2518486",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 16,
+          "id": "ms-6154426",
+          "brand": "디미트리블랙",
+          "name": "ASI 원턱 와이드 플리츠 팬츠_블랙",
+          "price": 41900,
+          "originalPrice": 41900,
+          "discountRate": 36,
+          "finalPrice": 26900,
+          "category": "003008",
+          "categoryLabel": "슬랙스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260318/6154426/6154426_17785725680250_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6154426",
           "displayGenderText": "남성"
         },
         {
@@ -2992,21 +2992,6 @@
         },
         {
           "rank": 17,
-          "id": "ms-2402843",
-          "brand": "무신사 스탠다드",
-          "name": "[쿨탠다드] 쿨링 와이드 밴딩 팬츠 [블랙]",
-          "price": 45900,
-          "originalPrice": 45900,
-          "discountRate": 15,
-          "finalPrice": 38990,
-          "category": "003004",
-          "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20220307/2402843/2402843_17134075777282_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/2402843",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 18,
           "id": "ms-5915428",
           "brand": "시그니처",
           "name": "사이드턱 커브드 트레이닝 팬츠[3COLORS]",
@@ -3019,6 +3004,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260120/5915428/5915428_17822666533495_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5915428",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 18,
+          "id": "ms-2402843",
+          "brand": "무신사 스탠다드",
+          "name": "[쿨탠다드] 쿨링 와이드 밴딩 팬츠 [블랙]",
+          "price": 45900,
+          "originalPrice": 45900,
+          "discountRate": 15,
+          "finalPrice": 38990,
+          "category": "003004",
+          "categoryLabel": "트레이닝/조거",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20220307/2402843/2402843_17134075777282_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/2402843",
+          "displayGenderText": "남성"
         },
         {
           "rank": 19,
