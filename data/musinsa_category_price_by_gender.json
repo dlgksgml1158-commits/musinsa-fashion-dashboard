@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T05:11:24.666867+00:00",
+  "updatedAt": "2026-08-14T06:50:02.325036+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 47703,
+        "avg": 47513,
         "min": 15900,
         "max": 151050,
         "count": 60
@@ -1308,10 +1308,10 @@
         "count": 24
       },
       "female": {
-        "avg": 52912,
+        "avg": 51856,
         "min": 17890,
         "max": 151050,
-        "count": 32
+        "count": 33
       },
       "items": [
         {
@@ -1942,22 +1942,22 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 145145,
+        "avg": 145670,
         "min": 23560,
         "max": 717990,
         "count": 60
       },
       "male": {
-        "avg": 170480,
+        "avg": 170029,
         "min": 47990,
         "max": 717990,
-        "count": 21
+        "count": 22
       },
       "female": {
-        "avg": 105301,
+        "avg": 104423,
         "min": 23560,
         "max": 294500,
-        "count": 28
+        "count": 27
       },
       "items": [
         {
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-100511",
+          "id": "ms-101559",
           "brand": "",
           "name": "",
           "price": null,
@@ -2097,6 +2097,21 @@
         },
         {
           "rank": 10,
+          "id": "ms-6880047",
+          "brand": "엄브로",
+          "name": "크리스피 타슬란 긴팔 자켓 블루 UR324CJK91",
+          "price": 169000,
+          "originalPrice": 169000,
+          "discountRate": 5,
+          "finalPrice": 160550,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260720/6880047/6880047_17866836756332_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6880047",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 11,
           "id": "ms-6686197",
           "brand": "나이키",
           "name": "스포츠웨어 오버사이즈 트랙 재킷 W - 블랙:화이트 / IQ3165-010",
@@ -2111,7 +2126,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-6929984",
           "brand": "블랙야크",
           "name": "공용 클라이밍 스톤마스터 다운자켓#3 (5color)",
@@ -2126,7 +2141,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-6968252",
           "brand": "트릴리온",
           "name": "시티 유틸리티 체크 후드 윈드브레이커_3color",
@@ -2141,7 +2156,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-6764812",
           "brand": "아크테릭스",
           "name": "스쿼미시 후디 여성 - BLACK / AJQSW10268",
@@ -2156,7 +2171,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-6912863",
           "brand": "루프",
           "name": "크로스 스톤 오버핏 후드집업 블랙",
@@ -2171,7 +2186,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-6883774",
           "brand": "파타고니아",
           "name": "우먼즈 레트로 파일 재킷 / 22796R7",
@@ -2186,7 +2201,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-6883772",
           "brand": "파타고니아",
           "name": "멘즈 레트로 파일 재킷 / 22802R7",
@@ -2201,7 +2216,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-6038025",
           "brand": "에잇세컨즈",
           "name": "하프 트렌치 코트  베이지",
@@ -2216,7 +2231,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-6565987",
           "brand": "무신사 스탠다드",
           "name": "신세틱 스웨이드 레이서 재킷 [라이트 브라운]",
@@ -2231,7 +2246,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-3042005",
           "brand": "도프제이슨",
           "name": "워싱레더 리그 바시티 자켓",
@@ -2244,40 +2259,25 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230126/3042005/3042005_17171310712883_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3042005",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6174464",
-          "brand": "더바넷",
-          "name": "Velin Tie Mohair Knit Cardigan_Light Grey",
-          "price": 95000,
-          "originalPrice": 95000,
-          "discountRate": 30,
-          "finalPrice": 66500,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260323/6174464/6174464_17743559696937_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6174464",
-          "displayGenderText": "여성"
         }
       ]
     },
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 59306,
+        "avg": 59520,
         "min": 9900,
         "max": 206100,
         "count": 60
       },
       "male": {
-        "avg": 58179,
+        "avg": 58042,
         "min": 11990,
         "max": 206100,
         "count": 31
       },
       "female": {
-        "avg": 62714,
+        "avg": 63428,
         "min": 32430,
         "max": 131100,
         "count": 24
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 53299,
+        "avg": 53323,
         "min": 9900,
         "max": 179000,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 23
       },
       "female": {
-        "avg": 60428,
+        "avg": 60488,
         "min": 21900,
         "max": 159200,
         "count": 24
