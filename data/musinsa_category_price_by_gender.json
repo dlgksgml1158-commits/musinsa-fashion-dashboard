@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T08:05:39.704093+00:00",
+  "updatedAt": "2026-08-14T09:31:24.082202+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -973,13 +973,13 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 65408,
+        "avg": 65528,
         "min": 19900,
         "max": 445990,
         "count": 60
       },
       "male": {
-        "avg": 87489,
+        "avg": 88048,
         "min": 20000,
         "max": 445990,
         "count": 13
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 47513,
+        "avg": 47703,
         "min": 15900,
         "max": 151050,
         "count": 60
@@ -1308,10 +1308,10 @@
         "count": 24
       },
       "female": {
-        "avg": 51856,
+        "avg": 52912,
         "min": 17890,
         "max": 151050,
-        "count": 33
+        "count": 32
       },
       "items": [
         {
@@ -1352,7 +1352,7 @@
           "price": 34900,
           "originalPrice": 34900,
           "discountRate": 19,
-          "finalPrice": 28270,
+          "finalPrice": 28260,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260714/6843879/6843879_17841641427475_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-100734",
+          "id": "ms-101420",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,19 +2588,19 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 42325,
-        "min": 9900,
+        "avg": 41932,
+        "min": 9800,
         "max": 168000,
         "count": 60
       },
       "male": {
-        "avg": 46923,
+        "avg": 47357,
         "min": 15900,
         "max": 168000,
-        "count": 40
+        "count": 39
       },
       "female": {
-        "avg": 35940,
+        "avg": 35654,
         "min": 9900,
         "max": 55900,
         "count": 12
@@ -2623,6 +2623,21 @@
         },
         {
           "rank": 2,
+          "id": "ms-3138552",
+          "brand": "키뮤어",
+          "name": "TR 세미와이드 팬츠_3 COLOR",
+          "price": 54000,
+          "originalPrice": 54000,
+          "discountRate": 82,
+          "finalPrice": 9800,
+          "category": "003008",
+          "categoryLabel": "슬랙스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20230310/3138552/3138552_17664578176268_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3138552",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 3,
           "id": "ms-2518490",
           "brand": "무신사 스탠다드",
           "name": "[쿨탠다드] 리얼 와이드 히든 밴딩 슬랙스 [그레이]",
@@ -2637,7 +2652,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "id": "ms-4163350",
           "brand": "토피",
           "name": "섬머 내츄럴 와이드 밴딩 슬랙스 (5 COLOURS)",
@@ -2652,7 +2667,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "id": "ms-3134729",
           "brand": "무신사 스탠다드 우먼",
           "name": "[쿨탠다드] 우먼즈 세미 벌룬 히든 밴딩 슬랙스 [그레이]",
@@ -2667,7 +2682,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "id": "ms-1960628",
           "brand": "무신사 스탠다드 우먼",
           "name": "[쿨탠다드] 우먼즈 와이드 히든 밴딩 슬랙스 [블랙]",
@@ -2682,7 +2697,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "id": "ms-5416068",
           "brand": "르아르",
           "name": "스트라이프 커브드 핀턱 슬랙스 [차콜]",
@@ -2697,7 +2712,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "id": "ms-3254294",
           "brand": "효지",
           "name": "[여름] 커스터마이징 롱 세미와이드 슬랙스 (4컬러)",
@@ -2712,7 +2727,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "id": "ms-3823268",
           "brand": "무신사 스탠다드 우먼",
           "name": "[쿨탠다드] 우먼즈 원 턱 와이드 밴딩 슬랙스 [블랙]",
@@ -2727,7 +2742,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-4108579",
           "brand": "드로우핏",
           "name": "[서강준 PICK] [패션플래닛X드로우핏] 쿨링 릴렉스드 와이드 밴딩 팬츠 [BLACK]",
@@ -2742,7 +2757,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-6411909",
           "brand": "워크온바디오프",
           "name": "[여름] 오베르 와이드 투턱 슬랙스 [그레이]",
@@ -2757,7 +2772,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-5945210",
           "brand": "디미트리블랙",
           "name": "[10주년기획] © 모두의 밴딩 커브드 슬랙스_3 COLOR",
@@ -2772,7 +2787,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-2089220",
           "brand": "효지",
           "name": "[사계절]스트레이트핏 세미와이드 슬랙스 P3005 (5컬러)",
@@ -2787,7 +2802,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-6544339",
           "brand": "프렌치시크",
           "name": "[냉감소재] [인생360] [3단기장]폴딩 핀턱 와이드 슬랙스_F6H425SL",
@@ -2802,7 +2817,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-3134698",
           "brand": "무신사 스탠다드",
           "name": "[쿨탠다드] 원 턱 와이드 밴딩 슬랙스 [블랙]",
@@ -2817,7 +2832,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-880827",
           "brand": "시그니처",
           "name": "와이드핏 슬랙스 [블랙]",
@@ -2832,7 +2847,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-5336697",
           "brand": "라이크더모스트",
           "name": "우먼 스판 히든 세미 부츠컷 슬랙스_차콜",
@@ -2847,7 +2862,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-2792571",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 세미 부츠 컷 히든 밴딩 슬랙스 [블랙]",
@@ -2862,7 +2877,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-750908",
           "brand": "후러브스아트",
           "name": "[여름원단추가] 유니섹스 세미 와이드 밴딩 슬랙스 블랙",
@@ -2877,7 +2892,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-5911292",
           "brand": "에이지오디",
           "name": "스트랩 밴딩 와이드 슬랙스 [차콜 스트라이프]",
@@ -2890,37 +2905,22 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260119/5911292/5911292_17772533869758_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5911292",
           "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-3154695",
-          "brand": "드로우핏",
-          "name": "투턱 밴딩 와이드 린넨 슬랙스 [OATMEAL]",
-          "price": 63000,
-          "originalPrice": 63000,
-          "discountRate": 26,
-          "finalPrice": 46620,
-          "category": "003008",
-          "categoryLabel": "슬랙스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230316/3154695/3154695_17764121266999_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3154695",
-          "displayGenderText": "남성"
         }
       ]
     },
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 52900,
+        "avg": 53701,
         "min": 9900,
         "max": 179000,
         "count": 60
       },
       "male": {
-        "avg": 50529,
+        "avg": 50937,
         "min": 19900,
         "max": 179000,
-        "count": 22
+        "count": 23
       },
       "female": {
         "avg": 59448,
@@ -2931,6 +2931,21 @@
       "items": [
         {
           "rank": 1,
+          "id": "ms-6903639",
+          "brand": "스파오",
+          "name": "[2.5-LAYER] 파라슈트 기어 팬츠_SPTCG4TC30",
+          "price": 59900,
+          "originalPrice": 59900,
+          "discountRate": 0,
+          "finalPrice": 59900,
+          "category": "003004",
+          "categoryLabel": "트레이닝/조거",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6903639/6903639_17847624120150_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6903639",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 2,
           "id": "ms-6830458",
           "brand": "포더핏",
           "name": "핀턱 와이드 스웨트 팬츠 _2color",
@@ -2945,7 +2960,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "id": "ms-6878575",
           "brand": "닉켈하우스",
           "name": "닉켈 26 동키 오버사이즈 스웻팬츠",
@@ -2960,7 +2975,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "id": "ms-6901447",
           "brand": "루프",
           "name": "폴딩 트윌 아일렛 트레이닝 롱팬츠 그레이",
@@ -2975,7 +2990,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "id": "ms-6702426",
           "brand": "나이키",
           "name": "테크 헬리오스 드라이 핏 팬츠 M - 라이트 아미:블랙 / IF1283-320",
@@ -2990,7 +3005,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "id": "ms-6907230",
           "brand": "미학",
           "name": "스폰서 로고 메쉬 저지 와이드 팬츠 (BLACK/RED)",
@@ -3003,21 +3018,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6907230/6907230_17847783717280_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6907230",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 6,
-          "id": "ms-3503598",
-          "brand": "코드그라피",
-          "name": "나일론 카고 파라슈트 팬츠 - 카키(701)",
-          "price": 59000,
-          "originalPrice": 59000,
-          "discountRate": 80,
-          "finalPrice": 11800,
-          "category": "003004",
-          "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230828/3503598/3503598_17816605117710_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3503598",
-          "displayGenderText": "공용"
         },
         {
           "rank": 7,
