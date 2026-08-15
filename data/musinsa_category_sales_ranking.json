@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T17:41:39.393541+00:00",
+  "updatedAt": "2026-08-15T18:09:06.188363+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1452,21 +1452,6 @@
         },
         {
           "rank": 16,
-          "id": "ms-4982021",
-          "brand": "언탭트 스튜디오",
-          "name": "시티보이 빅 오버핏 옥스포드 반팔 셔츠 4Color",
-          "price": 42800,
-          "originalPrice": 42800,
-          "discountRate": 30,
-          "finalPrice": 29960,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250403/4982021/4982021_17440047730160_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4982021",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 17,
           "id": "ms-6265546",
           "brand": "드로우핏",
           "name": "[젠플록스X드로우핏] 린넨 데님 롤업 셔츠 [3color]",
@@ -1479,6 +1464,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260407/6265546/6265546_17763914999635_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6265546",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 17,
+          "id": "ms-4982021",
+          "brand": "언탭트 스튜디오",
+          "name": "시티보이 빅 오버핏 옥스포드 반팔 셔츠 4Color",
+          "price": 42800,
+          "originalPrice": 42800,
+          "discountRate": 30,
+          "finalPrice": 29960,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250403/4982021/4982021_17440047730160_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4982021",
+          "displayGenderText": "공용"
         },
         {
           "rank": 18,
