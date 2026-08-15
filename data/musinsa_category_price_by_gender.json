@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T02:41:15.385558+00:00",
+  "updatedAt": "2026-08-15T03:27:04.161846+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1296,22 +1296,22 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 48930,
+        "avg": 48992,
         "min": 15900,
         "max": 151050,
         "count": 60
       },
       "male": {
-        "avg": 45264,
+        "avg": 44999,
         "min": 15900,
         "max": 118990,
-        "count": 23
+        "count": 24
       },
       "female": {
-        "avg": 52428,
+        "avg": 52966,
         "min": 17890,
         "max": 151050,
-        "count": 33
+        "count": 32
       },
       "items": [
         {
@@ -2265,14 +2265,14 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 59429,
+        "avg": 59894,
         "min": 9900,
         "max": 206100,
         "count": 60
       },
       "male": {
-        "avg": 58042,
-        "min": 11990,
+        "avg": 58942,
+        "min": 19900,
         "max": 206100,
         "count": 31
       },
@@ -2435,21 +2435,6 @@
         },
         {
           "rank": 11,
-          "id": "ms-2447802",
-          "brand": "무신사 스탠다드",
-          "name": "데님 와이드 벌룬 팬츠 [크림]",
-          "price": 59900,
-          "originalPrice": 59900,
-          "discountRate": 80,
-          "finalPrice": 11990,
-          "category": "003002",
-          "categoryLabel": "데님 팬츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20220328/2447802/2447802_1_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/2447802",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 12,
           "id": "ms-5310275",
           "brand": "플랙 우먼",
           "name": "그린 와이드 스트레이트 데님팬츠 미드 블루",
@@ -2464,7 +2449,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-2796118",
           "brand": "밀리언코르",
           "name": "7160 캣 브러쉬 슬림 진청 부츠컷 데님팬츠",
@@ -2479,7 +2464,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-6148718",
           "brand": "데케트 우먼",
           "name": "[린넨라이크]Linen Like Barrel Jeans DCWPT029CPINDIGO",
@@ -2494,7 +2479,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-858911",
           "brand": "토피",
           "name": "와이드 데님 팬츠 (LIGHT BLUE)",
@@ -2509,7 +2494,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6850948",
           "brand": "그레일즈",
           "name": "[GRAILZ X KOIN SEOUL] CARPENTER RAW PANTS [COATED BLACK]",
@@ -2524,7 +2509,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-3134738",
           "brand": "무신사 스탠다드 우먼",
           "name": "[쿨탠다드] 우먼즈 와이드 데님 팬츠 [딥 인디고]",
@@ -2539,7 +2524,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5372427",
           "brand": "캘빈클라인 진",
           "name": "여성 와이드 레그핏 미드 블루 데님 47D848G 2J6",
@@ -2554,7 +2539,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5537853",
           "brand": "코이리스",
           "name": "위티 원턱 화이트 스티치 와이드 데님 팬츠",
@@ -2569,7 +2554,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-3046300",
           "brand": "아웃스탠딩",
           "name": "30S CINCH BACK SELVEDGE WIDE PANTS_INDIGO",
@@ -2582,6 +2567,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230130/3046300/3046300_17682655726680_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3046300",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5944323",
+          "brand": "르아르",
+          "name": "가먼트 다잉 커브드 카고 팬츠 [베이지]",
+          "price": 62000,
+          "originalPrice": 62000,
+          "discountRate": 5,
+          "finalPrice": 59000,
+          "category": "003002",
+          "categoryLabel": "데님 팬츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260127/5944323/5944323_17772685768578_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5944323",
+          "displayGenderText": "남성"
         }
       ]
     },
