@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T01:54:13.603927+00:00",
+  "updatedAt": "2026-08-15T02:41:15.385558+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101414",
+          "id": "ms-100736",
           "brand": "",
           "name": "",
           "price": null,
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 37409,
+        "avg": 37659,
         "min": 7900,
         "max": 150000,
         "count": 60
@@ -3469,8 +3469,8 @@
           "name": "원턱 버뮤다 트랙 반바지 4Color GP-509",
           "price": 42800,
           "originalPrice": 42800,
-          "discountRate": 77,
-          "finalPrice": 9900,
+          "discountRate": 42,
+          "finalPrice": 24900,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240510/4121511/4121511_17827814442475_500.jpg",
