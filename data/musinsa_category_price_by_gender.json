@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T05:12:58.913712+00:00",
+  "updatedAt": "2026-08-15T05:46:56.437331+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-100519",
+          "id": "ms-101300",
           "brand": "",
           "name": "",
           "price": null,
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 53133,
+        "avg": 53735,
         "min": 9900,
         "max": 179000,
         "count": 60
@@ -2923,10 +2923,10 @@
         "count": 23
       },
       "female": {
-        "avg": 59448,
+        "avg": 60263,
         "min": 21900,
         "max": 159200,
-        "count": 25
+        "count": 24
       },
       "items": [
         {
@@ -3126,21 +3126,6 @@
         },
         {
           "rank": 14,
-          "id": "ms-5795927",
-          "brand": "무신사 스탠다드 우먼",
-          "name": "[UV 프로텍션] 우먼즈 쿨링 저지 와이드 팬츠 [다크 그레이]",
-          "price": 39900,
-          "originalPrice": 39900,
-          "discountRate": 0,
-          "finalPrice": 39900,
-          "category": "003004",
-          "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20251202/5795927/5795927_17738141974031_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5795927",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 15,
           "id": "ms-5259101",
           "brand": "유희",
           "name": "YOUHEETIC HOTFIX SWEATPANTS WHITE",
@@ -3155,7 +3140,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-5897182",
           "brand": "토피",
           "name": "유틸리티 와이드 파라슈트 팬츠 (KHAKI BROWN)",
@@ -3170,7 +3155,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-3528678",
           "brand": "낫포너드",
           "name": "Parachute Nylon Cargo Pants - Light Khaki",
@@ -3185,7 +3170,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-2340478",
           "brand": "트래블",
           "name": "메탈 프론트 다트 팬츠 오렌지_조거팬츠가능",
@@ -3200,7 +3185,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5308542",
           "brand": "고스트리퍼블릭",
           "name": "커브드 사이드 핀턱 벌룬 스웨트팬츠 GLP-650_블랙",
@@ -3215,7 +3200,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-4030322",
           "brand": "웬즈데이오아시스",
           "name": "에센셜 라인 트랙 팬츠(4color)",
@@ -3228,6 +3213,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240405/4030322/4030322_17521171089069_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4030322",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4766526",
+          "brand": "라이크더모스트",
+          "name": "트레이닝 라벨 카고핀턱 와이드 팬츠_블랙",
+          "price": 34400,
+          "originalPrice": 34400,
+          "discountRate": 71,
+          "finalPrice": 9900,
+          "category": "003004",
+          "categoryLabel": "트레이닝/조거",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250207/4766526/4766526_17406155864477_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4766526",
+          "displayGenderText": "공용"
         }
       ]
     },
