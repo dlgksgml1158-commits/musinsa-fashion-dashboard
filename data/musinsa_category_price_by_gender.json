@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T00:26:22.428234+00:00",
+  "updatedAt": "2026-08-16T02:02:17.522152+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -973,8 +973,8 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 65539,
-        "min": 19900,
+        "avg": 65372,
+        "min": 9900,
         "max": 445990,
         "count": 60
       },
@@ -1118,8 +1118,8 @@
           "name": "절개 스트링 오버핏 우븐 후드티 GHT-471",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 60,
-          "finalPrice": 19900,
+          "discountRate": 80,
+          "finalPrice": 9900,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230216/3086908/3086908_17098756034897_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101131",
+          "id": "ms-101559",
           "brand": "",
           "name": "",
           "price": null,
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 37460,
+        "avg": 37160,
         "min": 7900,
         "max": 150000,
         "count": 60
@@ -3364,8 +3364,8 @@
           "name": "카펜터 버뮤다 데님 팬츠 3Color GP-511",
           "price": 56200,
           "originalPrice": 56200,
-          "discountRate": 50,
-          "finalPrice": 27900,
+          "discountRate": 82,
+          "finalPrice": 9900,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260513/6469952/6469952_17864313290117_500.jpg",
