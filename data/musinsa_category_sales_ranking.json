@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T02:02:25.899829+00:00",
+  "updatedAt": "2026-08-16T03:24:30.081735+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -162,8 +162,8 @@
           "name": "Urban Youth 퓨어 코튼 오버핏 반팔 티셔츠 8COLOR",
           "price": 35000,
           "originalPrice": 35000,
-          "discountRate": 30,
-          "finalPrice": 24500,
+          "discountRate": 35,
+          "finalPrice": 22750,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260330/6219957/6219957_17762445747310_500.jpg",
@@ -1102,21 +1102,6 @@
         },
         {
           "rank": 13,
-          "id": "ms-3116755",
-          "brand": "챔피온",
-          "name": "베이직 C로고 후드 티셔츠 Normal Grey",
-          "price": 89000,
-          "originalPrice": 89000,
-          "discountRate": 78,
-          "finalPrice": 20000,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230302/3116755/3116755_17470104604227_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3116755",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 14,
           "id": "ms-5352832",
           "brand": "비바라비다",
           "name": "[기모선택] My Youth 헤비테리 후드",
@@ -1131,7 +1116,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-3086908",
           "brand": "고스트리퍼블릭",
           "name": "절개 스트링 오버핏 우븐 후드티 GHT-471",
@@ -1146,7 +1131,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6237329",
           "brand": "브렌슨",
           "name": "[쿨링] 슬릭 핑거홀 후드 롱슬리브 ( 4Color )",
@@ -1161,7 +1146,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-5799261",
           "brand": "씨큐알",
           "name": "경량 퀵드라이 자외선차단 후드 긴팔 티셔츠",
@@ -1176,7 +1161,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6075493",
           "brand": "더바이닐하우스",
           "name": "LETTERING SLUB HOODIE LS TEE GREY",
@@ -1191,7 +1176,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-2729644",
           "brand": "챔피온",
           "name": "C로고 후드 티셔츠 Cream",
@@ -1206,7 +1191,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5270725",
           "brand": "기철",
           "name": "Frame Slub Knit Hoodie (Black)",
@@ -1218,6 +1203,21 @@
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250724/5270725/5270725_17642071281756_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5270725",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-2759813",
+          "brand": "세인트페인",
+          "name": "SP 팀 로고 후드-멜란지 그레이",
+          "price": 85000,
+          "originalPrice": 85000,
+          "discountRate": 35,
+          "finalPrice": 55200,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20220831/2759813/2759813_1_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/2759813",
           "displayGenderText": "공용"
         }
       ]
@@ -1472,8 +1472,8 @@
           "name": "시티보이 빅 오버핏 옥스포드 반팔 셔츠 4Color",
           "price": 42800,
           "originalPrice": 42800,
-          "discountRate": 30,
-          "finalPrice": 29960,
+          "discountRate": 35,
+          "finalPrice": 27820,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250403/4982021/4982021_17440047730160_500.jpg",
@@ -2282,8 +2282,8 @@
           "name": "빈티지 프론트 워싱 와이드 벌룬 데님 팬츠 4Color",
           "price": 52580,
           "originalPrice": 52580,
-          "discountRate": 30,
-          "finalPrice": 36800,
+          "discountRate": 35,
+          "finalPrice": 34170,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250204/4757347/4757347_17389245694198_500.jpg",
