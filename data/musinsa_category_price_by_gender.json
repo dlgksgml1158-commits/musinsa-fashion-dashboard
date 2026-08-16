@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-08-16T07:06:16.708158+00:00",
+  "updatedAt": "2026-08-16T07:50:51.175871+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 42190,
+        "avg": 43541,
         "min": 9900,
         "max": 139000,
         "count": 60
       },
       "male": {
-        "avg": 42039,
+        "avg": 41829,
         "min": 9900,
         "max": 129000,
-        "count": 29
+        "count": 28
       },
       "female": {
-        "avg": 45959,
+        "avg": 49419,
         "min": 13830,
         "max": 139000,
-        "count": 23
+        "count": 24
       },
       "items": [
         {
@@ -174,21 +174,6 @@
         },
         {
           "rank": 11,
-          "id": "ms-6888542",
-          "brand": "할리데이비슨 컬렉션스®",
-          "name": "할리 슬럽 티셔츠_멜란지 그레이 HH16111082",
-          "price": 59900,
-          "originalPrice": 59900,
-          "discountRate": 20,
-          "finalPrice": 47920,
-          "category": "001001",
-          "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260721/6888542/6888542_17853120759865_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6888542",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 12,
           "id": "ms-6858118",
           "brand": "노티카",
           "name": "아치 프레임 로고 티셔츠(3colors) NTS6026",
@@ -203,7 +188,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-6896783",
           "brand": "그리쉬",
           "name": "롤업 레이어드 크롭 반팔티 [블랙]",
@@ -218,7 +203,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-6850912",
           "brand": "어프레쉬",
           "name": "[2PACK] 그래픽 피그먼트 머슬핏 숏슬리브_2color",
@@ -233,7 +218,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6852823",
           "brand": "아디다스",
           "name": "케어베어 OS 티 - 블랙 / IA4539",
@@ -248,7 +233,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6842612",
           "brand": "나이키",
           "name": "스위프트 에어로 핏 반소매 러닝 탑 W - 블랙:라이트 그린 스파크 / IH8115-014",
@@ -263,7 +248,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6839271",
           "brand": "후드후드",
           "name": "Girl Stress Nutrition 레이어드 롤업 반팔티셔츠 네이비",
@@ -278,7 +263,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-4971043",
           "brand": "앰부시",
           "name": "메이크 아트 반소매 티셔츠 - 화이트 / 1211532810",
@@ -293,7 +278,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6906711",
           "brand": "어프레쉬",
           "name": "[3PACK] 아스킨 머슬핏 숏슬리브",
@@ -308,7 +293,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6853485",
           "brand": "베르만 어패럴",
           "name": "골지 헨리넥 머슬핏 반팔티셔츠 3color(와이드숄더)",
@@ -321,6 +306,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260715/6853485/6853485_17847122816937_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6853485",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6778769",
+          "brand": "아메스 월드와이드",
+          "name": "PPG VINTAGE CARTOON TEE WHITE",
+          "price": 45000,
+          "originalPrice": 45000,
+          "discountRate": 20,
+          "finalPrice": 36000,
+          "category": "001001",
+          "categoryLabel": "반소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260703/6778769/6778769_17839295854344_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6778769",
+          "displayGenderText": "여성"
         }
       ]
     },
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101776",
+          "id": "ms-100734",
           "brand": "",
           "name": "",
           "price": null,
