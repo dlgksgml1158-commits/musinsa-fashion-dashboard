@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T16:08:55.177865+00:00",
+  "updatedAt": "2026-08-16T16:46:14.701729+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 63505,
+        "avg": 63507,
         "min": 7900,
         "max": 246050,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 19
       },
       "female": {
-        "avg": 73224,
+        "avg": 73230,
         "min": 14900,
         "max": 208050,
         "count": 20
@@ -795,8 +795,8 @@
           "name": "Cali Raw Cut Sweatshirt(Loose Fit) / WHMWG2291F",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 60,
-          "finalPrice": 19960,
+          "discountRate": 58,
+          "finalPrice": 21200,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260112/5884068/5884068_17768220663431_500.jpg",
@@ -840,8 +840,8 @@
           "name": "레터즈 브이넥 와플 스웻셔츠 ( 아이보리 )",
           "price": 85000,
           "originalPrice": 85000,
-          "discountRate": 37,
-          "finalPrice": 53550,
+          "discountRate": 38,
+          "finalPrice": 52420,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260310/6108638/6108638_17761243356493_500.jpg",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 47780,
+        "avg": 47781,
         "min": 15900,
         "max": 151050,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 24
       },
       "female": {
-        "avg": 53057,
+        "avg": 53058,
         "min": 17900,
         "max": 151050,
         "count": 32
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 38612,
+        "avg": 38609,
         "min": 9800,
         "max": 231990,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 36
       },
       "female": {
-        "avg": 49174,
+        "avg": 49165,
         "min": 12900,
         "max": 231990,
         "count": 22
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101559",
+          "id": "ms-100521",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,7 +2265,7 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 59294,
+        "avg": 59290,
         "min": 9900,
         "max": 206100,
         "count": 60
@@ -2277,7 +2277,7 @@
         "count": 31
       },
       "female": {
-        "avg": 61692,
+        "avg": 61682,
         "min": 32430,
         "max": 131100,
         "count": 24
@@ -2396,7 +2396,7 @@
           "price": 59000,
           "originalPrice": 59000,
           "discountRate": 36,
-          "finalPrice": 37760,
+          "finalPrice": 37520,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260428/6390295/6390295_17853806839252_500.jpg",
@@ -2588,7 +2588,7 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 41976,
+        "avg": 42033,
         "min": 9800,
         "max": 168000,
         "count": 60
@@ -2600,7 +2600,7 @@
         "count": 39
       },
       "female": {
-        "avg": 36082,
+        "avg": 36368,
         "min": 9900,
         "max": 55900,
         "count": 12
