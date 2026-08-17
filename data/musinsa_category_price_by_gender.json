@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T12:15:02.444340+00:00",
+  "updatedAt": "2026-08-17T13:12:09.329743+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1296,22 +1296,22 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 47950,
+        "avg": 47768,
         "min": 15900,
         "max": 151050,
         "count": 60
       },
       "male": {
-        "avg": 42422,
+        "avg": 42966,
         "min": 15900,
         "max": 89900,
-        "count": 24
+        "count": 23
       },
       "female": {
-        "avg": 53299,
+        "avg": 52260,
         "min": 17890,
         "max": 151050,
-        "count": 32
+        "count": 33
       },
       "items": [
         {
@@ -1451,21 +1451,6 @@
         },
         {
           "rank": 10,
-          "id": "ms-6537048",
-          "brand": "르아르",
-          "name": "에센셜 워시드 코튼 크롭 셔츠 [버터]",
-          "price": 37000,
-          "originalPrice": 37000,
-          "discountRate": 19,
-          "finalPrice": 29900,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260522/6537048/6537048_17822797784043_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6537048",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 11,
           "id": "ms-5002044",
           "brand": "튜드먼트",
           "name": "POLKA DOT PUFF SLEEVE BLOUSE WHITE",
@@ -1480,7 +1465,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-6957693",
           "brand": "일꼬르소",
           "name": "시어서커 하드 트위스트 체크 셔츠 블랙",
@@ -1495,7 +1480,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-6401724",
           "brand": "알리스",
           "name": "웨스턴 리니어 솔리드 크롭 하프 셔츠 [화이트]",
@@ -1510,7 +1495,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-6103340",
           "brand": "마인드브릿지",
           "name": "[COUTURE]나일론 오버핏 포켓 반팔 셔츠 - 2color",
@@ -1525,7 +1510,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-4989733",
           "brand": "르아르",
           "name": "링클 시어서커 체크 반팔 셔츠 [차콜]",
@@ -1540,7 +1525,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-5661656",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 체크 텍스처드 베이비 돌 블라우스 [화이트]",
@@ -1555,7 +1540,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6317272",
           "brand": "페이지플린",
           "name": "카라버튼랩블라우스_P6BBL003C",
@@ -1570,7 +1555,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-4118673",
           "brand": "르아르",
           "name": "시어서커 썸머 체크 셔츠 [LE05 그레이]",
@@ -1585,7 +1570,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-3181007",
           "brand": "다이아몬드 레이라",
           "name": "Stitch Stripe Shirt S114  Elephant Ivory",
@@ -1600,7 +1585,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5007198",
           "brand": "드로우핏 우먼",
           "name": "에델 퍼프 슬리브 반팔 블라우스 [BLACK]",
@@ -1613,6 +1598,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250409/5007198/5007198_17846172645205_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5007198",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6562364",
+          "brand": "인더스트",
+          "name": "[인더스트 X 요비] 피그먼트  워시드 피케 반팔 셔츠_3COLOR",
+          "price": 60000,
+          "originalPrice": 60000,
+          "discountRate": 40,
+          "finalPrice": 35900,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260528/6562364/6562364_17806224634217_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6562364",
+          "displayGenderText": "남성"
         }
       ]
     },
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101300",
+          "id": "ms-101752",
           "brand": "",
           "name": "",
           "price": null,
