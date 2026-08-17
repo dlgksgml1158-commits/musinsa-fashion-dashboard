@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-17T15:45:59.440321+00:00",
+  "updatedAt": "2026-08-17T16:11:18.951609+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 43575,
+        "avg": 43489,
         "min": 9900,
         "max": 139000,
         "count": 60
@@ -16,7 +16,7 @@
         "count": 27
       },
       "female": {
-        "avg": 49122,
+        "avg": 48907,
         "min": 13830,
         "max": 139000,
         "count": 24
@@ -1397,7 +1397,7 @@
           "price": 39900,
           "originalPrice": 39900,
           "discountRate": 19,
-          "finalPrice": 32320,
+          "finalPrice": 32310,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260714/6843889/6843889_17841641781663_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101777",
+          "id": "ms-101778",
           "brand": "",
           "name": "",
           "price": null,
