@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T00:25:04.930997+00:00",
+  "updatedAt": "2026-08-17T01:58:58.717789+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 47781,
+        "avg": 47810,
         "min": 15900,
         "max": 151050,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 24
       },
       "female": {
-        "avg": 53058,
+        "avg": 53113,
         "min": 17900,
         "max": 151050,
         "count": 32
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 38561,
+        "avg": 38541,
         "min": 9800,
         "max": 231990,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 36
       },
       "female": {
-        "avg": 49165,
+        "avg": 49110,
         "min": 12900,
         "max": 231990,
         "count": 22
@@ -1674,8 +1674,8 @@
           "name": "에어리 에센셜 카라 하프 니트 [IVORY] / WBE2L05513",
           "price": 63000,
           "originalPrice": 63000,
-          "discountRate": 47,
-          "finalPrice": 33180,
+          "discountRate": 49,
+          "finalPrice": 32390,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260403/6254021/6254021_17852921896496_500.jpg",
@@ -1869,8 +1869,8 @@
           "name": "에어리 에센셜 카라 하프 니트 [NAVY] / WBE2L05513",
           "price": 63000,
           "originalPrice": 63000,
-          "discountRate": 48,
-          "finalPrice": 32800,
+          "discountRate": 49,
+          "finalPrice": 32390,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260403/6254017/6254017_17852922665068_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-100519",
+          "id": "ms-100499",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,13 +2265,13 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 59290,
+        "avg": 59332,
         "min": 9900,
         "max": 206100,
         "count": 60
       },
       "male": {
-        "avg": 58949,
+        "avg": 59029,
         "min": 19900,
         "max": 206100,
         "count": 31
