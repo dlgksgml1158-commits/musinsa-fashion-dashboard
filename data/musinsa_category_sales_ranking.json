@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T05:06:24.476282+00:00",
+  "updatedAt": "2026-08-17T05:56:14.304844+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1042,21 +1042,6 @@
         },
         {
           "rank": 9,
-          "id": "ms-3054736",
-          "brand": "챔피온",
-          "name": "여성 리버스위브 프렌치테리 후드 티셔츠 Light Blue",
-          "price": 129000,
-          "originalPrice": 129000,
-          "discountRate": 84,
-          "finalPrice": 20000,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230202/3054736/3054736_17472028411483_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3054736",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 10,
           "id": "ms-3469861",
           "brand": "챔피온",
           "name": "여성 스티치 루즈핏 와플 후드 티셔츠 Normal Brown",
@@ -1071,7 +1056,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-2729656",
           "brand": "챔피온",
           "name": "C로고 후드 티셔츠 Normal Grey",
@@ -1086,7 +1071,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-2729651",
           "brand": "챔피온",
           "name": "C로고 후드 티셔츠 Black",
@@ -1101,7 +1086,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-5937520",
           "brand": "스켈리웩",
           "name": "와플 헨리넥 후디[그레이]",
@@ -1116,7 +1101,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-5352832",
           "brand": "비바라비다",
           "name": "[기모선택] My Youth 헤비테리 후드",
@@ -1131,7 +1116,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-5799261",
           "brand": "씨큐알",
           "name": "경량 퀵드라이 자외선차단 후드 긴팔 티셔츠",
@@ -1146,7 +1131,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6237329",
           "brand": "브렌슨",
           "name": "[쿨링] 슬릭 핑거홀 후드 롱슬리브 ( 4Color )",
@@ -1161,7 +1146,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-2759813",
           "brand": "세인트페인",
           "name": "SP 팀 로고 후드-멜란지 그레이",
@@ -1176,7 +1161,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5270725",
           "brand": "기철",
           "name": "Frame Slub Knit Hoodie (Black)",
@@ -1191,7 +1176,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-2729644",
           "brand": "챔피온",
           "name": "C로고 후드 티셔츠 Cream",
@@ -1206,7 +1191,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-3033870",
           "brand": "챔피온",
           "name": "여성 리버스위브 100 크롭 후드 티셔츠 Black",
@@ -1219,6 +1204,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230119/3033870/3033870_17470105997982_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3033870",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6075493",
+          "brand": "더바이닐하우스",
+          "name": "LETTERING SLUB HOODIE LS TEE GREY",
+          "price": 69000,
+          "originalPrice": 69000,
+          "discountRate": 52,
+          "finalPrice": 33120,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260303/6075493/6075493_17726940523449_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6075493",
+          "displayGenderText": "남성"
         }
       ]
     },
