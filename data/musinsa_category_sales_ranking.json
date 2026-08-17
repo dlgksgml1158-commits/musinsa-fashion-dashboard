@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T11:13:20.098572+00:00",
+  "updatedAt": "2026-08-17T11:46:44.038492+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -857,21 +857,6 @@
         },
         {
           "rank": 17,
-          "id": "ms-3469283",
-          "brand": "어널로이드",
-          "name": "엠블럼 로고 스웻셔츠 / 블랙",
-          "price": 108000,
-          "originalPrice": 108000,
-          "discountRate": 80,
-          "finalPrice": 21600,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230816/3469283/3469283_16921812358950_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3469283",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 18,
           "id": "ms-7013951",
           "brand": "무드인사이드 우먼",
           "name": "(woman) 스웻 크롭 반집업_Pigment Blue",
@@ -886,7 +871,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-3052851",
           "brand": "챔피온",
           "name": "여성 리버스위브 프렌치테리 스웨트셔츠 Normal Yellow",
@@ -901,7 +886,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-2729592",
           "brand": "챔피온",
           "name": "C로고 크루넥 스웨트셔츠 Normal Grey",
@@ -914,6 +899,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20220819/2729592/2729592_17429694640776_500.jpg",
           "productUrl": "https://www.musinsa.com/products/2729592",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5292913",
+          "brand": "디스커스 애슬레틱",
+          "name": "[2팩/세미크롭핏] 스웨트 셔츠",
+          "price": 109000,
+          "originalPrice": 109000,
+          "discountRate": 54,
+          "finalPrice": 49900,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250805/5292913/5292913_17667561980040_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5292913",
+          "displayGenderText": "공용"
         }
       ]
     },
