@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T14:50:03.021856+00:00",
+  "updatedAt": "2026-08-17T15:12:49.797209+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 65338,
+        "avg": 65436,
         "min": 7900,
         "max": 246050,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 18
       },
       "female": {
-        "avg": 78559,
+        "avg": 78839,
         "min": 14900,
         "max": 208050,
         "count": 21
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 68214,
+        "avg": 68337,
         "min": 9900,
         "max": 445990,
         "count": 60
@@ -985,7 +985,7 @@
         "count": 13
       },
       "female": {
-        "avg": 60267,
+        "avg": 60618,
         "min": 20000,
         "max": 217990,
         "count": 21
@@ -2265,13 +2265,13 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 60349,
+        "avg": 60489,
         "min": 17200,
         "max": 206100,
         "count": 60
       },
       "male": {
-        "avg": 57969,
+        "avg": 58232,
         "min": 17450,
         "max": 206100,
         "count": 32
@@ -2588,13 +2588,13 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 42508,
+        "avg": 42670,
         "min": 9800,
         "max": 168000,
         "count": 60
       },
       "male": {
-        "avg": 47948,
+        "avg": 48197,
         "min": 15900,
         "max": 168000,
         "count": 39
@@ -2643,8 +2643,8 @@
           "name": "[쿨탠다드] 리얼 와이드 히든 밴딩 슬랙스 [그레이]",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 40,
-          "finalPrice": 35990,
+          "discountRate": 39,
+          "finalPrice": 36690,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20220427/2518490/2518490_17134178529175_500.jpg",
@@ -2823,8 +2823,8 @@
           "name": "[쿨탠다드] 원 턱 와이드 밴딩 슬랙스 [블랙]",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 50,
-          "finalPrice": 29990,
+          "discountRate": 35,
+          "finalPrice": 38990,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230309/3134698/3134698_17516088971899_500.jpg",
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 52528,
+        "avg": 52641,
         "min": 9900,
         "max": 179000,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 22
       },
       "female": {
-        "avg": 60250,
+        "avg": 60532,
         "min": 21900,
         "max": 159200,
         "count": 24
