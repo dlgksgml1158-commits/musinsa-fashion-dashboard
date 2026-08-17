@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T16:51:17.917891+00:00",
+  "updatedAt": "2026-08-17T17:14:37.457020+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -522,21 +522,6 @@
         },
         {
           "rank": 15,
-          "id": "ms-4844845",
-          "brand": "러닝라이프",
-          "name": "마이크로메쉬 기능성 러닝 롱  슬리브 (6color)",
-          "price": 43500,
-          "originalPrice": 43500,
-          "discountRate": 17,
-          "finalPrice": 36110,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250228/4844845/4844845_17736466287340_500.png",
-          "productUrl": "https://www.musinsa.com/products/4844845",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 16,
           "id": "ms-6941337",
           "brand": "챔피온",
           "name": "아치 로고 루즈핏 아플리케 롱슬리브 티셔츠 Brown",
@@ -548,6 +533,21 @@
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6941337/6941337_17864996785951_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6941337",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 16,
+          "id": "ms-4844845",
+          "brand": "러닝라이프",
+          "name": "마이크로메쉬 기능성 러닝 롱  슬리브 (6color)",
+          "price": 43500,
+          "originalPrice": 43500,
+          "discountRate": 17,
+          "finalPrice": 36110,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250228/4844845/4844845_17736466287340_500.png",
+          "productUrl": "https://www.musinsa.com/products/4844845",
           "displayGenderText": "공용"
         },
         {
@@ -2947,21 +2947,6 @@
         },
         {
           "rank": 14,
-          "id": "ms-5367961",
-          "brand": "디미트리블랙",
-          "name": "VLAD 원턱 커브드 트랙 스웻 팬츠_피그먼트 차콜",
-          "price": 49200,
-          "originalPrice": 49200,
-          "discountRate": 31,
-          "finalPrice": 33900,
-          "category": "003004",
-          "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250827/5367961/5367961_17564338248285_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5367961",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 15,
           "id": "ms-5915428",
           "brand": "시그니처",
           "name": "사이드턱 커브드 트레이닝 팬츠[3COLORS]",
@@ -2976,7 +2961,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-5170138",
           "brand": "파르티멘토 우먼",
           "name": "PWC 에브리데이 벌룬 조거 팬츠_18컬러",
@@ -2989,6 +2974,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250606/5170138/5170138_17707144153582_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5170138",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 16,
+          "id": "ms-5367961",
+          "brand": "디미트리블랙",
+          "name": "VLAD 원턱 커브드 트랙 스웻 팬츠_피그먼트 차콜",
+          "price": 49200,
+          "originalPrice": 49200,
+          "discountRate": 31,
+          "finalPrice": 33900,
+          "category": "003004",
+          "categoryLabel": "트레이닝/조거",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250827/5367961/5367961_17564338248285_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5367961",
+          "displayGenderText": "공용"
         },
         {
           "rank": 17,
