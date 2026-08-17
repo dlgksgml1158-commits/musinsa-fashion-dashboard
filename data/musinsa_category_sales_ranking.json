@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T21:13:33.529015+00:00",
+  "updatedAt": "2026-08-17T21:45:53.636014+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1497,6 +1497,21 @@
         },
         {
           "rank": 19,
+          "id": "ms-2357716",
+          "brand": "다이아몬드 레이라",
+          "name": "Easy Care Authentic Dress Shirt AS1 Sky Blue",
+          "price": 75000,
+          "originalPrice": 75000,
+          "discountRate": 87,
+          "finalPrice": 9900,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20220214/2357716/2357716_17192836545561_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/2357716",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
           "id": "ms-983339",
           "brand": "무신사 스탠다드",
           "name": "베이식 드레스 셔츠 [화이트]",
@@ -1508,21 +1523,6 @@
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20190315/983339/983339_17833270978891_500.jpg",
           "productUrl": "https://www.musinsa.com/products/983339",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6970137",
-          "brand": "트릴리온",
-          "name": "빈티지 우드 버튼 데님 긴팔 셔츠_4color",
-          "price": 58000,
-          "originalPrice": 58000,
-          "discountRate": 41,
-          "finalPrice": 33990,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6970137/6970137_17857339979436_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6970137",
           "displayGenderText": "남성"
         }
       ]
