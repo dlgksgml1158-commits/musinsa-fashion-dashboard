@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T17:14:37.457020+00:00",
+  "updatedAt": "2026-08-17T17:50:54.945405+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1192,21 +1192,6 @@
         },
         {
           "rank": 19,
-          "id": "ms-5270725",
-          "brand": "기철",
-          "name": "Frame Slub Knit Hoodie (Black)",
-          "price": 68000,
-          "originalPrice": 68000,
-          "discountRate": 25,
-          "finalPrice": 51000,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250724/5270725/5270725_17642071281756_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5270725",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
           "id": "ms-6265163",
           "brand": "닉켈하우스",
           "name": "닉켈 26 동키 포켓 후드티",
@@ -1218,6 +1203,21 @@
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260407/6265163/6265163_17755031973840_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6265163",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5270725",
+          "brand": "기철",
+          "name": "Frame Slub Knit Hoodie (Black)",
+          "price": 68000,
+          "originalPrice": 68000,
+          "discountRate": 25,
+          "finalPrice": 51000,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250724/5270725/5270725_17642071281756_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5270725",
           "displayGenderText": "공용"
         }
       ]
