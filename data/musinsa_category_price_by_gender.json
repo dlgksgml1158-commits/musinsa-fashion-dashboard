@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T11:46:36.066416+00:00",
+  "updatedAt": "2026-08-17T12:15:02.444340+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,22 +327,22 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 40237,
+        "avg": 40070,
         "min": 5530,
         "max": 130000,
         "count": 60
       },
       "male": {
-        "avg": 43693,
+        "avg": 44009,
         "min": 6710,
         "max": 127800,
-        "count": 13
+        "count": 12
       },
       "female": {
-        "avg": 36634,
+        "avg": 36462,
         "min": 5530,
         "max": 81900,
-        "count": 38
+        "count": 39
       },
       "items": [
         {
@@ -377,21 +377,6 @@
         },
         {
           "rank": 3,
-          "id": "ms-6910253",
-          "brand": "스파오",
-          "name": "[다마고치] 긴팔티(White)_SPLAG49U01",
-          "price": 39900,
-          "originalPrice": 39900,
-          "discountRate": 0,
-          "finalPrice": 39900,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6910253/6910253_17852811092443_500.png",
-          "productUrl": "https://www.musinsa.com/products/6910253",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 4,
           "id": "ms-6837150",
           "brand": "미쏘",
           "name": "레터링 원숄더 티셔츠_MIWLWG913A",
@@ -406,7 +391,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "id": "ms-6595807",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 CR 스트라이프 릴렉스드 긴소매 티셔츠 [라이트 그레이]",
@@ -421,7 +406,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "id": "ms-6914789",
           "brand": "미쏘",
           "name": "홀터 레이어드 긴팔 티셔츠_MIWLWG911A",
@@ -436,7 +421,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-6812676",
           "brand": "살로몬",
           "name": "펄스웨이브 메쉬 롱 슬리브_LD0415000",
@@ -451,7 +436,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-6951158",
           "brand": "디미트리블랙",
           "name": "[10주년기획] © 모두의 수소봉제 긴팔 티셔츠_스트라이프 2 COLOR",
@@ -466,7 +451,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-6851209",
           "brand": "언타이틀 서울",
           "name": "싱글 유니콘 헨리넥 롱슬리브 그레이",
@@ -481,7 +466,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-6694169",
           "brand": "칙스",
           "name": "소프트 거즈 레이어드 오버핏 긴팔 티셔츠",
@@ -496,7 +481,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-5126930",
           "brand": "바니쉬먼트",
           "name": "Summer vacation long sleeve tee_melange gray",
@@ -511,7 +496,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-6899468",
           "brand": "해비즘",
           "name": "W NAME CARD L/S TEE(PLUM)",
@@ -526,7 +511,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-6948481",
           "brand": "트릴리온",
           "name": "[기획] 에센셜 CP 이중지 크롭 긴팔티_7color",
@@ -541,7 +526,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-6936868",
           "brand": "코이리스",
           "name": "서울 시티 아카이브 롱 슬리브 티 (2컬러)",
@@ -556,7 +541,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6944447",
           "brand": "에잇세컨즈",
           "name": "헨리넥 래글런 저지탑  네이비",
@@ -571,7 +556,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6686122",
           "brand": "나이키",
           "name": "ACG 와일드씨 드라이 핏 쿼터집 긴소매 하이킹 탑 M - 블랙:서밋 화이트 / IM4224-010",
@@ -586,7 +571,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6869863",
           "brand": "999휴머니티",
           "name": "컬러드 스티치 라인 롱 슬리브 티 (멜란지 그레이)",
@@ -601,7 +586,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-4739529",
           "brand": "탑텐",
           "name": "공용) 콜라보 레이어드 긴팔티 (블랙 크로우스)_MSF2TS3021",
@@ -616,7 +601,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6007618",
           "brand": "멜로토리",
           "name": "시스루 립 티셔츠 (3color)",
@@ -631,7 +616,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5944299",
           "brand": "르아르",
           "name": "소프트 헨리넥 롱슬리브 티셔츠 [브라운]",
@@ -644,6 +629,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260127/5944299/5944299_17865002251238_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5944299",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5916032",
+          "brand": "애즈유아",
+          "name": "소잉 보트넥 슬리브 화이트",
+          "price": 50000,
+          "originalPrice": 50000,
+          "discountRate": 41,
+          "finalPrice": 29400,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260120/5916032/5916032_17696860687974_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5916032",
+          "displayGenderText": "여성"
         }
       ]
     },
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101420",
+          "id": "ms-101300",
           "brand": "",
           "name": "",
           "price": null,
