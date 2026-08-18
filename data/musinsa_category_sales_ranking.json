@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T00:25:11.415939+00:00",
+  "updatedAt": "2026-08-18T01:55:18.875211+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -222,8 +222,8 @@
           "name": "무지 머슬핏 반팔 5컬러",
           "price": 25000,
           "originalPrice": 25000,
-          "discountRate": 14,
-          "finalPrice": 21560,
+          "discountRate": 5,
+          "finalPrice": 23750,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20220801/2690691/2690691_17090175122341_500.jpg",
@@ -317,8 +317,8 @@
           "name": "공용) 콜라보 레이어드 긴팔티 (블랙 크로우스)_MSF2TS3021",
           "price": 39900,
           "originalPrice": 39900,
-          "discountRate": 83,
-          "finalPrice": 6710,
+          "discountRate": 80,
+          "finalPrice": 7900,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250123/4739529/4739529_17376089401714_500.jpg",
@@ -737,6 +737,21 @@
         },
         {
           "rank": 9,
+          "id": "ms-7013951",
+          "brand": "무드인사이드 우먼",
+          "name": "(woman) 스웻 크롭 반집업_5Color",
+          "price": 119900,
+          "originalPrice": 119900,
+          "discountRate": 50,
+          "finalPrice": 59900,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260806/7013951/7013951_17860097813123_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7013951",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 10,
           "id": "ms-6710466",
           "brand": "무신사 스탠다드",
           "name": "헨리 넥 스웨트셔츠 [미디엄 그레이]",
@@ -751,7 +766,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-3515436",
           "brand": "챔피온",
           "name": "컬러 블록 브이넥 스웨트셔츠 Normal Coral",
@@ -766,7 +781,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-3106844",
           "brand": "챔피온",
           "name": "C로고 크루넥 스웨트셔츠 Black",
@@ -781,7 +796,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-5799678",
           "brand": "라이크더모스트",
           "name": "도트라모 하트하트 오버핏 스웨트셔츠_7colors",
@@ -796,7 +811,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-3052851",
           "brand": "챔피온",
           "name": "여성 리버스위브 프렌치테리 스웨트셔츠 Normal Yellow",
@@ -811,7 +826,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-4425038",
           "brand": "챔피온",
           "name": "빅 스크립트 로고 크루넥 스웨트셔츠 Normal Navy",
@@ -826,7 +841,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-3893375",
           "brand": "라이크더모스트",
           "name": "엑설런트 너프 오버 스웨트셔츠 [멜란지]",
@@ -841,7 +856,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-4425033",
           "brand": "챔피온",
           "name": "빅 스크립트 로고 크루넥 스웨트셔츠 Normal Grey",
@@ -856,7 +871,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-6710467",
           "brand": "무신사 스탠다드",
           "name": "헨리 넥 스웨트셔츠 [다크 그레이]",
@@ -871,7 +886,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-2729592",
           "brand": "챔피온",
           "name": "C로고 크루넥 스웨트셔츠 Normal Grey",
@@ -886,7 +901,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-5292913",
           "brand": "디스커스 애슬레틱",
           "name": "[2팩/세미크롭핏] 스웨트 셔츠",
@@ -899,21 +914,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250805/5292913/5292913_17667561980040_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5292913",
           "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-3095251",
-          "brand": "플래니트",
-          "name": "ICE LITE 벌크업 맨투맨",
-          "price": 72800,
-          "originalPrice": 72800,
-          "discountRate": 86,
-          "finalPrice": 9900,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230220/3095251/3095251_16768911269844_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3095251",
-          "displayGenderText": "남성"
         }
       ]
     },
@@ -2382,6 +2382,21 @@
         },
         {
           "rank": 17,
+          "id": "ms-3887015",
+          "brand": "노이즈",
+          "name": "필치 데님 와이드 핏 팬츠 - 모스 인디고",
+          "price": 92000,
+          "originalPrice": 92000,
+          "discountRate": 83,
+          "finalPrice": 15900,
+          "category": "003002",
+          "categoryLabel": "데님 팬츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240221/3887015/3887015_17840116769821_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3887015",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 18,
           "id": "ms-3051674",
           "brand": "무신사 스탠다드",
           "name": "린넨 라이크 와이드 데님 팬츠 [라이트 인디고]",
@@ -2396,7 +2411,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-6479370",
           "brand": "미쏘",
           "name": "로우라이즈 워싱 부츠컷 데님_MIWTJG536J MIWTJG91QJ",
@@ -2411,7 +2426,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-4658037",
           "brand": "스탠다드에러",
           "name": "87-STAN165 빈티지 캣워싱 와이드 데님팬츠 빈티지옐로우",
@@ -2424,21 +2439,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20241210/4658037/4658037_17744106591455_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4658037",
           "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-4225253",
-          "brand": "무신사 스탠다드",
-          "name": "[이도현 PICK] 플레어 데님 팬츠 [블랙]",
-          "price": 49900,
-          "originalPrice": 49900,
-          "discountRate": 0,
-          "finalPrice": 49900,
-          "category": "003002",
-          "categoryLabel": "데님 팬츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240701/4225253/4225253_17569513691239_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4225253",
-          "displayGenderText": "남성"
         }
       ]
     },
@@ -3137,8 +3137,8 @@
           "name": "파이어버드 클래식 숏 팬츠 - 블랙:화이트 / KD5569",
           "price": 55000,
           "originalPrice": 55000,
-          "discountRate": 37,
-          "finalPrice": 34720,
+          "discountRate": 27,
+          "finalPrice": 39990,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260312/6123590/6123590_17733672294187_500.jpg",
