@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-08-18T05:21:51.732368+00:00",
+  "updatedAt": "2026-08-18T05:51:05.692198+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 43269,
+        "avg": 43205,
         "min": 9900,
         "max": 139000,
         "count": 60
       },
       "male": {
-        "avg": 40626,
+        "avg": 40221,
         "min": 9900,
         "max": 129000,
-        "count": 25
+        "count": 26
       },
       "female": {
         "avg": 49102,
@@ -973,8 +973,8 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 68503,
-        "min": 9900,
+        "avg": 69223,
+        "min": 19900,
         "max": 445990,
         "count": 60
       },
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 47429,
+        "avg": 48077,
         "min": 15900,
         "max": 151050,
         "count": 60
@@ -1308,10 +1308,10 @@
         "count": 23
       },
       "female": {
-        "avg": 51549,
+        "avg": 52053,
         "min": 17890,
         "max": 151050,
-        "count": 33
+        "count": 34
       },
       "items": [
         {
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 38181,
+        "avg": 38456,
         "min": 9800,
         "max": 231990,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 36
       },
       "female": {
-        "avg": 48063,
+        "avg": 48813,
         "min": 12900,
         "max": 231990,
         "count": 22
@@ -1714,6 +1714,21 @@
         },
         {
           "rank": 6,
+          "id": "ms-4836679",
+          "brand": "유라고",
+          "name": "Cap sleeve V-neck knit",
+          "price": 83000,
+          "originalPrice": 83000,
+          "discountRate": 30,
+          "finalPrice": 58100,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250226/4836679/4836679_17870294265431_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4836679",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 7,
           "id": "ms-4218831",
           "brand": "음",
           "name": "선셋 썸머 린넨라이크 긴팔니트 보카크림",
@@ -1728,7 +1743,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "id": "ms-6530450",
           "brand": "더니트컴퍼니",
           "name": "실크 라이크 헨리넥 니트 5color",
@@ -1743,7 +1758,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "id": "ms-6385919",
           "brand": "데꼬로소",
           "name": "패널 립 반팔 썸머 라운드 가디건 [그레이]",
@@ -1758,7 +1773,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-6461256",
           "brand": "무드인사이드",
           "name": "에센셜 무드 하프 브이넥 니트_8color",
@@ -1773,7 +1788,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-6263413",
           "brand": "알리스",
           "name": "[오정규 x 알리스] 쿨 코튼 레이어드 헨리넥 크롭 하프 니트_2COLOR",
@@ -1788,7 +1803,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-3968466",
           "brand": "키뮤어",
           "name": "코튼 오픈카라 케이블 하프 니트_5 COLOR",
@@ -1803,7 +1818,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-6048607",
           "brand": "스파오",
           "name": "[COOL] 보트넥 루즈핏 니트_SPKWG24G02",
@@ -1818,7 +1833,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-5030890",
           "brand": "엑스오엑스",
           "name": "베이직 쿨 라운드 크롭 반팔 니트 [BLACK]",
@@ -1833,7 +1848,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-6109248",
           "brand": "마인드브릿지",
           "name": "[스토커즈 콜라보] [ON]워셔블 멀티 스트라이프 카라 반팔 니트 - 4color",
@@ -1848,7 +1863,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-6254017",
           "brand": "제너럴아이디어",
           "name": "에어리 에센셜 카라 하프 니트 [NAVY] / WBE2L05513",
@@ -1863,7 +1878,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-2668722",
           "brand": "씨웨어 바이 더 지니어스",
           "name": "시스루 크래프트 니트 풀오버 블랙",
@@ -1878,7 +1893,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-6541551",
           "brand": "효지",
           "name": "26 SS 워셔블 린넨 헨리넥 크롭 니트 (6컬러)",
@@ -1893,7 +1908,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-6543427",
           "brand": "브렌슨",
           "name": "워셔블 헨리넥 크롭 반팔 쿨 니트 ( 5Color )",
@@ -1908,7 +1923,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-3989444",
           "brand": "마인드브릿지",
           "name": "조직 변형 카라 반팔 니트 - 3color",
@@ -1921,21 +1936,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240325/3989444/3989444_17466799862479_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3989444",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-4996378",
-          "brand": "비비안 웨스트우드",
-          "name": "베아 니트 - 블랙 / 1803002SY003FN401",
-          "price": 744000,
-          "originalPrice": 744000,
-          "discountRate": 69,
-          "finalPrice": 231990,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250407/4996378/4996378_17461541886372_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4996378",
-          "displayGenderText": "여성"
         }
       ]
     },
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101763",
+          "id": "ms-101751",
           "brand": "",
           "name": "",
           "price": null,
