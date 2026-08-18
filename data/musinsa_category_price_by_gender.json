@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-08-18T04:21:50.105709+00:00",
+  "updatedAt": "2026-08-18T04:58:01.349351+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 43853,
+        "avg": 43269,
         "min": 9900,
         "max": 139000,
         "count": 60
       },
       "male": {
-        "avg": 41717,
+        "avg": 40626,
         "min": 9900,
         "max": 129000,
-        "count": 26
+        "count": 25
       },
       "female": {
         "avg": 49102,
@@ -189,21 +189,6 @@
         },
         {
           "rank": 12,
-          "id": "ms-6852823",
-          "brand": "아디다스",
-          "name": "케어베어 OS 티 - 블랙 / IA4539",
-          "price": 69000,
-          "originalPrice": 69000,
-          "discountRate": 0,
-          "finalPrice": 69000,
-          "category": "001001",
-          "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260715/6852823/6852823_17846308345807_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6852823",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 13,
           "id": "ms-6842612",
           "brand": "나이키",
           "name": "스위프트 에어로 핏 반소매 러닝 탑 W - 블랙:라이트 그린 스파크 / IH8115-014",
@@ -218,7 +203,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-6839271",
           "brand": "후드후드",
           "name": "Girl Stress Nutrition 레이어드 롤업 반팔티셔츠 네이비",
@@ -233,7 +218,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-4971043",
           "brand": "앰부시",
           "name": "메이크 아트 반소매 티셔츠 - 화이트 / 1211532810",
@@ -248,7 +233,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6906711",
           "brand": "어프레쉬",
           "name": "[3PACK] 아스킨 머슬핏 숏슬리브",
@@ -263,7 +248,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6853485",
           "brand": "베르만 어패럴",
           "name": "골지 헨리넥 머슬핏 반팔티셔츠 3color(와이드숄더)",
@@ -278,7 +263,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6778769",
           "brand": "아메스 월드와이드",
           "name": "PPG VINTAGE CARTOON TEE WHITE",
@@ -293,7 +278,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6590793",
           "brand": "마인드브릿지",
           "name": "3-버튼 헨리넥 오버핏 반팔 티셔츠 - 2color",
@@ -308,7 +293,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6529592",
           "brand": "스탠다드에러",
           "name": "87-STAN335 Y2K 트리니티 글리치 피그먼트 반팔 티셔츠 (3color)",
@@ -321,6 +306,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260521/6529592/6529592_17808922296737_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6529592",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4651496",
+          "brand": "무신사 스탠다드 우먼",
+          "name": "우먼즈 리브드 멀티 스트라이프 슬림 티셔츠 [옐로우]",
+          "price": 19900,
+          "originalPrice": 19900,
+          "discountRate": 31,
+          "finalPrice": 13830,
+          "category": "001001",
+          "categoryLabel": "반소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20241205/4651496/4651496_17509896841791_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4651496",
+          "displayGenderText": "여성"
         }
       ]
     },
@@ -1942,13 +1942,13 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 137922,
+        "avg": 139066,
         "min": 23560,
         "max": 319000,
         "count": 60
       },
       "male": {
-        "avg": 146826,
+        "avg": 150092,
         "min": 47990,
         "max": 294500,
         "count": 21
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101763",
+          "id": "ms-101420",
           "brand": "",
           "name": "",
           "price": null,
@@ -2232,21 +2232,6 @@
         },
         {
           "rank": 19,
-          "id": "ms-3042005",
-          "brand": "도프제이슨",
-          "name": "워싱레더 리그 바시티 자켓",
-          "price": 162000,
-          "originalPrice": 162000,
-          "discountRate": 50,
-          "finalPrice": 80400,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230126/3042005/3042005_17171310712883_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3042005",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
           "id": "ms-6174464",
           "brand": "더바넷",
           "name": "Velin Tie Mohair Knit Cardigan_Light Grey",
@@ -2258,6 +2243,21 @@
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260323/6174464/6174464_17743559696937_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6174464",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6933792",
+          "brand": "투머치택스",
+          "name": "타로 02 와플 집업 후디 화이트",
+          "price": 180000,
+          "originalPrice": 180000,
+          "discountRate": 0,
+          "finalPrice": 180000,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260727/6933792/6933792_17851635725166_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6933792",
           "displayGenderText": "여성"
         }
       ]
