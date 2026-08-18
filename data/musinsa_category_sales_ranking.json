@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T09:18:49.829934+00:00",
+  "updatedAt": "2026-08-18T09:54:40.892994+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -402,6 +402,21 @@
         },
         {
           "rank": 7,
+          "id": "ms-6000058",
+          "brand": "길라아카이브",
+          "name": "USA LOGO V NECK LONG SLEEVE_GREY",
+          "price": 65000,
+          "originalPrice": 65000,
+          "discountRate": 37,
+          "finalPrice": 40950,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260209/6000058/6000058_17786368611056_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6000058",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 8,
           "id": "ms-5432652",
           "brand": "탄산마그네슘",
           "name": "마운틴 롱슬리브 (화이트/레드)",
@@ -416,7 +431,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "id": "ms-6071630",
           "brand": "프로젝트 웨이브",
           "name": "See-through Deep V-neck T-shirt",
@@ -431,7 +446,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-6186426",
           "brand": "르아르",
           "name": "소프트 헨리넥 롱슬리브 티셔츠 (4color)",
@@ -446,7 +461,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-5987962",
           "brand": "르아르",
           "name": "[SET] 소프트 헨리넥 레이어드 티셔츠 세트",
@@ -461,7 +476,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-6694169",
           "brand": "칙스",
           "name": "소프트 거즈 레이어드 오버핏 긴팔 티셔츠",
@@ -476,7 +491,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-5911661",
           "brand": "언타이틀 서울",
           "name": "유니콘 헨리넥 롱슬리브 아이보리",
@@ -491,7 +506,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-5740744",
           "brand": "쏘비",
           "name": "세미크롭 bump post 긴팔티 [화이트]",
@@ -506,7 +521,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-6941337",
           "brand": "챔피온",
           "name": "아치 로고 루즈핏 아플리케 롱슬리브 티셔츠 Brown",
@@ -521,7 +536,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-4844845",
           "brand": "러닝라이프",
           "name": "마이크로메쉬 기능성 러닝 롱  슬리브 (6color)",
@@ -536,7 +551,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-6951159",
           "brand": "디미트리블랙",
           "name": "[10주년기획] © 모두의 수소봉제 긴팔 티셔츠_8 COLOR",
@@ -551,7 +566,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-5911663",
           "brand": "언타이틀 서울",
           "name": "유니콘 헨리넥 롱슬리브 블랙",
@@ -566,7 +581,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-6661221",
           "brand": "코소",
           "name": "오가닉 베이직 긴팔 티셔츠 (7 COLORS)",
@@ -581,7 +596,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-4708446",
           "brand": "프렌다",
           "name": "LACE NECK BUTTON LONG SLEEVE OATMEAL",
@@ -594,21 +609,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250109/4708446/4708446_17695856977578_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4708446",
           "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6058097",
-          "brand": "언타이틀 서울",
-          "name": "유니콘 헨리넥 슬럽 롱 슬리브 차콜",
-          "price": 59000,
-          "originalPrice": 59000,
-          "discountRate": 40,
-          "finalPrice": 35200,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260226/6058097/6058097_17731310807216_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6058097",
-          "displayGenderText": "남성"
         }
       ]
     },
@@ -927,8 +927,8 @@
           "name": "와플 후드 바라클라바 긴팔티_SPFWG4TC10",
           "price": 39900,
           "originalPrice": 39900,
-          "discountRate": 0,
-          "finalPrice": 39900,
+          "discountRate": 10,
+          "finalPrice": 35910,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260706/6788300/6788300_17853929939133_500.png",
@@ -1887,8 +1887,8 @@
           "name": "[3-LAYER] 테크니컬 윈드브레이커_SPJJG49C70",
           "price": 89900,
           "originalPrice": 89900,
-          "discountRate": 10,
-          "finalPrice": 80910,
+          "discountRate": 19,
+          "finalPrice": 72820,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260720/6876831/6876831_17853924810722_500.png",
