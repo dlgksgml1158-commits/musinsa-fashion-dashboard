@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-08-18T08:31:02.405384+00:00",
+  "updatedAt": "2026-08-18T09:18:41.829899+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 43027,
+        "avg": 43230,
         "min": 9900,
         "max": 139000,
         "count": 60
       },
       "male": {
-        "avg": 40506,
+        "avg": 41635,
         "min": 9900,
         "max": 129000,
-        "count": 27
+        "count": 28
       },
       "female": {
         "avg": 49102,
@@ -99,6 +99,21 @@
         },
         {
           "rank": 6,
+          "id": "ms-6927386",
+          "brand": "쿠톤",
+          "name": "폴라리스 롤업 세미크롭 반팔 티셔츠 [버건디]",
+          "price": 44000,
+          "originalPrice": 44000,
+          "discountRate": 25,
+          "finalPrice": 33000,
+          "category": "001001",
+          "categoryLabel": "반소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260727/6927386/6927386_17851228499565_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6927386",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 7,
           "id": "ms-6805433",
           "brand": "세터",
           "name": "(W) 아치 로고 링거 반팔 티셔츠 네이비",
@@ -113,7 +128,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "id": "ms-6618666",
           "brand": "어반드레스",
           "name": "Sally V-cut Stripe Layered Short Sleeve_4Colors",
@@ -128,7 +143,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "id": "ms-6833448",
           "brand": "디스이즈네버댓",
           "name": "TNT PEANUTS Comic Strip Tee Natural",
@@ -143,7 +158,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-6888542",
           "brand": "할리데이비슨 컬렉션스®",
           "name": "할리 슬럽 티셔츠_멜란지 그레이 HH16111082",
@@ -158,7 +173,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-6858118",
           "brand": "노티카",
           "name": "아치 프레임 로고 티셔츠(3colors) NTS6026",
@@ -173,7 +188,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-6896783",
           "brand": "그리쉬",
           "name": "롤업 레이어드 크롭 반팔티 [블랙]",
@@ -188,7 +203,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-6850912",
           "brand": "어프레쉬",
           "name": "[2PACK] 그래픽 피그먼트 머슬핏 숏슬리브_2color",
@@ -203,7 +218,22 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 14,
+          "id": "ms-6852823",
+          "brand": "아디다스",
+          "name": "케어베어 OS 티 - 블랙 / IA4539",
+          "price": 69000,
+          "originalPrice": 69000,
+          "discountRate": 0,
+          "finalPrice": 69000,
+          "category": "001001",
+          "categoryLabel": "반소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260715/6852823/6852823_17846308345807_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6852823",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 15,
           "id": "ms-6842612",
           "brand": "나이키",
           "name": "스위프트 에어로 핏 반소매 러닝 탑 W - 블랙:라이트 그린 스파크 / IH8115-014",
@@ -218,7 +248,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 16,
           "id": "ms-6839271",
           "brand": "후드후드",
           "name": "Girl Stress Nutrition 레이어드 롤업 반팔티셔츠 네이비",
@@ -233,7 +263,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 17,
           "id": "ms-4971043",
           "brand": "앰부시",
           "name": "메이크 아트 반소매 티셔츠 - 화이트 / 1211532810",
@@ -248,7 +278,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 18,
           "id": "ms-6906711",
           "brand": "어프레쉬",
           "name": "[3PACK] 아스킨 머슬핏 숏슬리브",
@@ -263,7 +293,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 19,
           "id": "ms-6853485",
           "brand": "베르만 어패럴",
           "name": "골지 헨리넥 머슬핏 반팔티셔츠 3color(와이드숄더)",
@@ -278,7 +308,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 20,
           "id": "ms-6778769",
           "brand": "아메스 월드와이드",
           "name": "PPG VINTAGE CARTOON TEE WHITE",
@@ -291,43 +321,13 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260703/6778769/6778769_17839295854344_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6778769",
           "displayGenderText": "여성"
-        },
-        {
-          "rank": 19,
-          "id": "ms-6590793",
-          "brand": "마인드브릿지",
-          "name": "3-버튼 헨리넥 오버핏 반팔 티셔츠 - 2color",
-          "price": 49900,
-          "originalPrice": 49900,
-          "discountRate": 55,
-          "finalPrice": 22500,
-          "category": "001001",
-          "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260602/6590793/6590793_17821814714602_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6590793",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6529592",
-          "brand": "스탠다드에러",
-          "name": "87-STAN335 Y2K 트리니티 글리치 피그먼트 반팔 티셔츠 (3color)",
-          "price": 36000,
-          "originalPrice": 36000,
-          "discountRate": 73,
-          "finalPrice": 9900,
-          "category": "001001",
-          "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260521/6529592/6529592_17808922296737_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6529592",
-          "displayGenderText": "공용"
         }
       ]
     },
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 40157,
+        "avg": 40094,
         "min": 5530,
         "max": 130000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 12
       },
       "female": {
-        "avg": 36564,
+        "avg": 36467,
         "min": 5530,
         "max": 81900,
         "count": 39
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 48077,
+        "avg": 47820,
         "min": 15900,
         "max": 151050,
         "count": 60
@@ -1308,10 +1308,10 @@
         "count": 23
       },
       "female": {
-        "avg": 52053,
+        "avg": 52260,
         "min": 17890,
         "max": 151050,
-        "count": 34
+        "count": 33
       },
       "items": [
         {
@@ -1619,13 +1619,13 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 38456,
+        "avg": 38504,
         "min": 9800,
         "max": 231990,
         "count": 60
       },
       "male": {
-        "avg": 33096,
+        "avg": 33176,
         "min": 9900,
         "max": 66000,
         "count": 36
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101420",
+          "id": "ms-101414",
           "brand": "",
           "name": "",
           "price": null,
