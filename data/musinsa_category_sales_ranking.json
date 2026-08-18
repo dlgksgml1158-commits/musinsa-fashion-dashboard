@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T11:13:03.808738+00:00",
+  "updatedAt": "2026-08-18T11:46:37.425106+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1177,21 +1177,6 @@
         },
         {
           "rank": 18,
-          "id": "ms-5790757",
-          "brand": "이스트코",
-          "name": "더블 코튼 플리스 후디 네이비",
-          "price": 54900,
-          "originalPrice": 54900,
-          "discountRate": 64,
-          "finalPrice": 19980,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20251129/5790757/5790757_17644225324344_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5790757",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 19,
           "id": "ms-5322382",
           "brand": "리",
           "name": "빅 트위치 로고 후드 티셔츠 오트밀",
@@ -1206,7 +1191,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5438121",
           "brand": "디스이즈네버댓",
           "name": "T-Logo Hoodie Heather Grey",
@@ -1218,6 +1203,21 @@
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250910/5438121/5438121_17682811390976_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5438121",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6265163",
+          "brand": "닉켈하우스",
+          "name": "닉켈 26 동키 포켓 후드티",
+          "price": 159000,
+          "originalPrice": 159000,
+          "discountRate": 42,
+          "finalPrice": 92500,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260407/6265163/6265163_17755031973840_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6265163",
           "displayGenderText": "공용"
         }
       ]
