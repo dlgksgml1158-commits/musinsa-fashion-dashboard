@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T17:49:14.941599+00:00",
+  "updatedAt": "2026-08-18T18:17:13.648715+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1712,21 +1712,6 @@
         },
         {
           "rank": 13,
-          "id": "ms-6044839",
-          "brand": "에잇세컨즈",
-          "name": "하이넥 스트라이프 풀오버  브라운",
-          "price": 59900,
-          "originalPrice": 59900,
-          "discountRate": 76,
-          "finalPrice": 14490,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260223/6044839/6044839_17776332856649_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6044839",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 14,
           "id": "ms-5920258",
           "brand": "에잇세컨즈",
           "name": "칼라넥 스트라이프 풀오버  아이보리",
@@ -1741,7 +1726,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-5979041",
           "brand": "에잇세컨즈",
           "name": "배색 칼라 풀오버  애쉬",
@@ -1756,7 +1741,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-3968466",
           "brand": "키뮤어",
           "name": "코튼 오픈카라 케이블 하프 니트_5 COLOR",
@@ -1771,7 +1756,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6109248",
           "brand": "마인드브릿지",
           "name": "[스토커즈 콜라보] [ON]워셔블 멀티 스트라이프 카라 반팔 니트 - 4color",
@@ -1786,7 +1771,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5023733",
           "brand": "편마",
           "name": "Cotton Short Sleeve Polo Knit - 6color",
@@ -1801,7 +1786,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6109249",
           "brand": "마인드브릿지",
           "name": "[스토커즈 콜라보] [ON]워셔블 케이블 카라 반팔 니트 - 2color",
@@ -1816,7 +1801,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5114507",
           "brand": "워크온바디오프",
           "name": "이지온 세미 오버핏 스트라이프 / 솔리드 카라 반팔 니트 (5color)",
@@ -1829,6 +1814,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250515/5114507/5114507_17800244963493_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5114507",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5920207",
+          "brand": "에잇세컨즈",
+          "name": "텍스트 자카드 라운드 풀오버  라이트 핑크",
+          "price": 49900,
+          "originalPrice": 49900,
+          "discountRate": 76,
+          "finalPrice": 12070,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260121/5920207/5920207_17840593426446_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5920207",
+          "displayGenderText": "여성"
         }
       ]
     },
@@ -2797,21 +2797,6 @@
         },
         {
           "rank": 4,
-          "id": "ms-6314160",
-          "brand": "로제프란츠",
-          "name": "Patchwork Bootcut Sweatpants [Black]",
-          "price": 104000,
-          "originalPrice": 104000,
-          "discountRate": 48,
-          "finalPrice": 54600,
-          "category": "003004",
-          "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260415/6314160/6314160_17762301251207_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6314160",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 5,
           "id": "ms-5931114",
           "brand": "아디다스",
           "name": "배기 트랙 팬츠 - 블랙:화이트 / KE3501",
@@ -2824,6 +2809,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260123/5931114/5931114_17694046068966_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5931114",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 5,
+          "id": "ms-6314160",
+          "brand": "로제프란츠",
+          "name": "Patchwork Bootcut Sweatpants [Black]",
+          "price": 104000,
+          "originalPrice": 104000,
+          "discountRate": 48,
+          "finalPrice": 54600,
+          "category": "003004",
+          "categoryLabel": "트레이닝/조거",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260415/6314160/6314160_17762301251207_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6314160",
+          "displayGenderText": "여성"
         },
         {
           "rank": 6,
