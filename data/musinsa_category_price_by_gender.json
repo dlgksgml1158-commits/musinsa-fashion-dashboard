@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-18T01:55:09.783096+00:00",
+  "updatedAt": "2026-08-18T02:44:39.828946+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 43489,
+        "avg": 43567,
         "min": 9900,
         "max": 139000,
         "count": 60
@@ -16,7 +16,7 @@
         "count": 27
       },
       "female": {
-        "avg": 48907,
+        "avg": 49102,
         "min": 13830,
         "max": 139000,
         "count": 24
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 40090,
+        "avg": 40157,
         "min": 5530,
         "max": 130000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 12
       },
       "female": {
-        "avg": 36462,
+        "avg": 36564,
         "min": 5530,
         "max": 81900,
         "count": 39
@@ -487,8 +487,8 @@
           "name": "Summer vacation long sleeve tee_melange gray",
           "price": 59000,
           "originalPrice": 59000,
-          "discountRate": 15,
-          "finalPrice": 50150,
+          "discountRate": 10,
+          "finalPrice": 53100,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250519/5126930/5126930_17478851436932_500.jpg",
@@ -502,8 +502,8 @@
           "name": "W NAME CARD L/S TEE(PLUM)",
           "price": 49000,
           "originalPrice": 49000,
-          "discountRate": 20,
-          "finalPrice": 39200,
+          "discountRate": 15,
+          "finalPrice": 41650,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260722/6899468/6899468_17847116461246_500.jpg",
@@ -1619,13 +1619,13 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 38551,
+        "avg": 38456,
         "min": 9800,
         "max": 231990,
         "count": 60
       },
       "male": {
-        "avg": 33255,
+        "avg": 33096,
         "min": 9900,
         "max": 66000,
         "count": 36
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101300",
+          "id": "ms-101772",
           "brand": "",
           "name": "",
           "price": null,
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 39004,
+        "avg": 39147,
         "min": 7900,
         "max": 150000,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 25
       },
       "female": {
-        "avg": 36720,
+        "avg": 37016,
         "min": 19900,
         "max": 61740,
         "count": 29
