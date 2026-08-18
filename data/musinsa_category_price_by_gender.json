@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-08-18T02:44:39.828946+00:00",
+  "updatedAt": "2026-08-18T03:32:46.148577+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 43567,
+        "avg": 43778,
         "min": 9900,
         "max": 139000,
         "count": 60
       },
       "male": {
-        "avg": 41706,
+        "avg": 41544,
         "min": 9900,
         "max": 129000,
-        "count": 27
+        "count": 26
       },
       "female": {
         "avg": 49102,
@@ -99,21 +99,6 @@
         },
         {
           "rank": 6,
-          "id": "ms-6945858",
-          "brand": "비바라비다",
-          "name": "Glory 배색 롤업 반팔 티셔츠",
-          "price": 69900,
-          "originalPrice": 69900,
-          "discountRate": 34,
-          "finalPrice": 45900,
-          "category": "001001",
-          "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260729/6945858/6945858_17852874607294_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6945858",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 7,
           "id": "ms-6805433",
           "brand": "세터",
           "name": "(W) 아치 로고 링거 반팔 티셔츠 네이비",
@@ -128,7 +113,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-6618666",
           "brand": "어반드레스",
           "name": "Sally V-cut Stripe Layered Short Sleeve_4Colors",
@@ -143,7 +128,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-6833448",
           "brand": "디스이즈네버댓",
           "name": "TNT PEANUTS Comic Strip Tee Natural",
@@ -158,7 +143,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-6858118",
           "brand": "노티카",
           "name": "아치 프레임 로고 티셔츠(3colors) NTS6026",
@@ -173,7 +158,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-6896783",
           "brand": "그리쉬",
           "name": "롤업 레이어드 크롭 반팔티 [블랙]",
@@ -188,7 +173,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-6850912",
           "brand": "어프레쉬",
           "name": "[2PACK] 그래픽 피그먼트 머슬핏 숏슬리브_2color",
@@ -203,7 +188,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-6852823",
           "brand": "아디다스",
           "name": "케어베어 OS 티 - 블랙 / IA4539",
@@ -218,7 +203,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-6842612",
           "brand": "나이키",
           "name": "스위프트 에어로 핏 반소매 러닝 탑 W - 블랙:라이트 그린 스파크 / IH8115-014",
@@ -233,7 +218,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6839271",
           "brand": "후드후드",
           "name": "Girl Stress Nutrition 레이어드 롤업 반팔티셔츠 네이비",
@@ -248,7 +233,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-4971043",
           "brand": "앰부시",
           "name": "메이크 아트 반소매 티셔츠 - 화이트 / 1211532810",
@@ -263,7 +248,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6906711",
           "brand": "어프레쉬",
           "name": "[3PACK] 아스킨 머슬핏 숏슬리브",
@@ -278,7 +263,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6853485",
           "brand": "베르만 어패럴",
           "name": "골지 헨리넥 머슬핏 반팔티셔츠 3color(와이드숄더)",
@@ -293,7 +278,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6778769",
           "brand": "아메스 월드와이드",
           "name": "PPG VINTAGE CARTOON TEE WHITE",
@@ -308,7 +293,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6590793",
           "brand": "마인드브릿지",
           "name": "3-버튼 헨리넥 오버핏 반팔 티셔츠 - 2color",
@@ -321,6 +306,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260602/6590793/6590793_17821814714602_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6590793",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6529592",
+          "brand": "스탠다드에러",
+          "name": "87-STAN335 Y2K 트리니티 글리치 피그먼트 반팔 티셔츠 (3color)",
+          "price": 36000,
+          "originalPrice": 36000,
+          "discountRate": 73,
+          "finalPrice": 9900,
+          "category": "001001",
+          "categoryLabel": "반소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260521/6529592/6529592_17808922296737_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6529592",
+          "displayGenderText": "공용"
         }
       ]
     },
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101772",
+          "id": "ms-101777",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,7 +2588,7 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 42670,
+        "avg": 42639,
         "min": 9800,
         "max": 168000,
         "count": 60
@@ -2600,7 +2600,7 @@
         "count": 39
       },
       "female": {
-        "avg": 36368,
+        "avg": 36213,
         "min": 9900,
         "max": 55900,
         "count": 12
@@ -2808,8 +2808,8 @@
           "name": "[냉감소재] [인생360] [3단기장]폴딩 핀턱 와이드 슬랙스_F6H425SL",
           "price": 59800,
           "originalPrice": 59800,
-          "discountRate": 25,
-          "finalPrice": 44910,
+          "discountRate": 28,
+          "finalPrice": 43060,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260526/6544339/6544339_17797718028768_500.jpg",
@@ -3234,22 +3234,22 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 39147,
+        "avg": 38834,
         "min": 7900,
         "max": 150000,
         "count": 60
       },
       "male": {
-        "avg": 38865,
+        "avg": 37957,
         "min": 8000,
         "max": 69000,
-        "count": 25
+        "count": 26
       },
       "female": {
-        "avg": 37016,
+        "avg": 37124,
         "min": 19900,
         "max": 61740,
-        "count": 29
+        "count": 28
       },
       "items": [
         {
@@ -3524,6 +3524,21 @@
         },
         {
           "rank": 19,
+          "id": "ms-6532776",
+          "brand": "후러브스아트",
+          "name": "LVS 코튼 카고 버뮤다 팬츠 4color",
+          "price": 61000,
+          "originalPrice": 61000,
+          "discountRate": 75,
+          "finalPrice": 15250,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260522/6532776/6532776_17810541518210_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6532776",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
           "id": "ms-3757208",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 나일론 밴딩 쇼츠 [화이트]",
@@ -3535,21 +3550,6 @@
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20231215/3757208/3757208_17661160245820_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3757208",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6195540",
-          "brand": "오드스튜디오",
-          "name": "빈티지 롤업 코튼 쇼츠 - BLACK",
-          "price": 74000,
-          "originalPrice": 74000,
-          "discountRate": 46,
-          "finalPrice": 39600,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260325/6195540/6195540_17746035141871_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6195540",
           "displayGenderText": "여성"
         }
       ]
