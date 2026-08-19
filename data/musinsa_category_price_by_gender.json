@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T09:19:23.153500+00:00",
+  "updatedAt": "2026-08-19T09:54:47.966719+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 39073,
+        "avg": 39092,
         "min": 9800,
         "max": 231990,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 36
       },
       "female": {
-        "avg": 48747,
+        "avg": 48800,
         "min": 12900,
         "max": 231990,
         "count": 22
@@ -1942,22 +1942,22 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 146544,
+        "avg": 147463,
         "min": 29900,
         "max": 450000,
         "count": 60
       },
       "male": {
-        "avg": 156402,
+        "avg": 148437,
         "min": 54900,
         "max": 450000,
-        "count": 21
+        "count": 23
       },
       "female": {
-        "avg": 119240,
+        "avg": 125316,
         "min": 29900,
         "max": 294500,
-        "count": 29
+        "count": 27
       },
       "items": [
         {
@@ -3234,13 +3234,13 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 39267,
+        "avg": 39150,
         "min": 8000,
         "max": 150000,
         "count": 60
       },
       "male": {
-        "avg": 37103,
+        "avg": 36853,
         "min": 8000,
         "max": 69000,
         "count": 28
@@ -3499,8 +3499,8 @@
           "name": "[시티 레저] 벨티드 유틸리티 버뮤다 팬츠 [카키]",
           "price": 69900,
           "originalPrice": 69900,
-          "discountRate": 25,
-          "finalPrice": 52390,
+          "discountRate": 35,
+          "finalPrice": 45390,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20251120/5755288/5755288_17743196853050_500.jpg",
