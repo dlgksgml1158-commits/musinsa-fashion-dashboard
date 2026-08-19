@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-08-19T07:11:28.899704+00:00",
+  "updatedAt": "2026-08-19T07:58:34.809883+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 40188,
+        "avg": 41012,
         "min": 9900,
         "max": 141550,
         "count": 60
       },
       "male": {
-        "avg": 38172,
+        "avg": 39405,
         "min": 9900,
         "max": 100000,
-        "count": 24
+        "count": 25
       },
       "female": {
-        "avg": 41298,
+        "avg": 42331,
         "min": 13830,
         "max": 105990,
-        "count": 22
+        "count": 21
       },
       "items": [
         {
@@ -144,6 +144,21 @@
         },
         {
           "rank": 9,
+          "id": "ms-6852823",
+          "brand": "아디다스",
+          "name": "케어베어 OS 티 - 블랙 / IA4539",
+          "price": 69000,
+          "originalPrice": 69000,
+          "discountRate": 0,
+          "finalPrice": 69000,
+          "category": "001001",
+          "categoryLabel": "반소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260715/6852823/6852823_17846308345807_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6852823",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 10,
           "id": "ms-6842612",
           "brand": "나이키",
           "name": "스위프트 에어로 핏 반소매 러닝 탑 W - 블랙:라이트 그린 스파크 / IH8115-014",
@@ -158,7 +173,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-6839271",
           "brand": "후드후드",
           "name": "Girl Stress Nutrition 레이어드 롤업 반팔티셔츠 네이비",
@@ -173,7 +188,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-4971043",
           "brand": "앰부시",
           "name": "메이크 아트 반소매 티셔츠 - 화이트 / 1211532810",
@@ -188,7 +203,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-6849602",
           "brand": "댄꼼마",
           "name": "스폰지밥 호러에디션 반팔 티셔츠",
@@ -203,7 +218,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-6906711",
           "brand": "어프레쉬",
           "name": "[3PACK] 아스킨 머슬핏 숏슬리브",
@@ -218,7 +233,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-6853485",
           "brand": "베르만 어패럴",
           "name": "골지 헨리넥 머슬핏 반팔티셔츠 3color(와이드숄더)",
@@ -233,7 +248,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-6590793",
           "brand": "마인드브릿지",
           "name": "3-버튼 헨리넥 오버핏 반팔 티셔츠 - 2color",
@@ -248,7 +263,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-6896891",
           "brand": "에스이에스티",
           "name": "Stripe Block Henry Neck Slim Fit T-shirts Navy",
@@ -263,7 +278,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-6529592",
           "brand": "스탠다드에러",
           "name": "87-STAN335 Y2K 트리니티 글리치 피그먼트 반팔 티셔츠 (3color)",
@@ -278,7 +293,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-4651496",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 리브드 멀티 스트라이프 슬림 티셔츠 [옐로우]",
@@ -293,7 +308,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-6968705",
           "brand": "피스메이커",
           "name": "포니 레터링 슬림 세미 크롭티 (레몬)",
@@ -306,21 +321,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6968705/6968705_17854796149273_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6968705",
           "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6929983",
-          "brand": "쿠톤",
-          "name": "[2PACK] 폴라리스 롤업 세미크롭 반팔 티셔츠 3COLOR",
-          "price": 88000,
-          "originalPrice": 88000,
-          "discountRate": 30,
-          "finalPrice": 61600,
-          "category": "001001",
-          "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260727/6929983/6929983_17851378723043_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6929983",
-          "displayGenderText": "공용"
         }
       ]
     },
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101778",
+          "id": "ms-102208",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,13 +2265,13 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 57335,
+        "avg": 57570,
         "min": 9900,
         "max": 170100,
         "count": 60
       },
       "male": {
-        "avg": 59554,
+        "avg": 59995,
         "min": 19900,
         "max": 170100,
         "count": 32
@@ -2405,6 +2405,21 @@
         },
         {
           "rank": 9,
+          "id": "ms-6897082",
+          "brand": "벨리에",
+          "name": "미드 와이드 데님 팬츠 - 워시드 딥 인디고",
+          "price": 156000,
+          "originalPrice": 156000,
+          "discountRate": 5,
+          "finalPrice": 148200,
+          "category": "003002",
+          "categoryLabel": "데님 팬츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260722/6897082/6897082_17852913162650_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6897082",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 10,
           "id": "ms-6897428",
           "brand": "아디다스",
           "name": "SST 스트레이트 레그 데님 진 - 라이트그레이데님 / KQ8853",
@@ -2419,7 +2434,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-5310275",
           "brand": "플랙 우먼",
           "name": "그린 와이드 스트레이트 데님팬츠 미드 블루",
@@ -2434,7 +2449,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-5928475",
           "brand": "데케트 우먼",
           "name": "(코튼)Signature Slim Low Rise Flared Jeans DCWPT006BLACKCT",
@@ -2449,7 +2464,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-2796118",
           "brand": "밀리언코르",
           "name": "7160 캣 브러쉬 슬림 진청 부츠컷 데님팬츠",
@@ -2464,7 +2479,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-858911",
           "brand": "토피",
           "name": "와이드 데님 팬츠 (LIGHT BLUE)",
@@ -2479,7 +2494,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-3134738",
           "brand": "무신사 스탠다드 우먼",
           "name": "[쿨탠다드] 우먼즈 와이드 데님 팬츠 [딥 인디고]",
@@ -2494,7 +2509,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-5372427",
           "brand": "캘빈클라인 진",
           "name": "여성 와이드 레그핏 미드 블루 데님 47D848G 2J6",
@@ -2509,7 +2524,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-6148718",
           "brand": "데케트 우먼",
           "name": "[린넨라이크]Linen Like Barrel Jeans DCWPT029CPINDIGO",
@@ -2524,7 +2539,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-5537853",
           "brand": "코이리스",
           "name": "위티 원턱 화이트 스티치 와이드 데님 팬츠",
@@ -2539,7 +2554,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-5944334",
           "brand": "르아르",
           "name": "커브드 비조 워싱 팬츠 [차콜]",
@@ -2554,7 +2569,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-3046300",
           "brand": "아웃스탠딩",
           "name": "30S CINCH BACK SELVEDGE WIDE PANTS_INDIGO",
@@ -2567,21 +2582,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230130/3046300/3046300_17682655726680_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3046300",
           "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-5487571",
-          "brand": "밀리언코르",
-          "name": "포미 다크블루 스판 부츠컷 데님팬츠",
-          "price": 54000,
-          "originalPrice": 54000,
-          "discountRate": 36,
-          "finalPrice": 34340,
-          "category": "003002",
-          "categoryLabel": "데님 팬츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250918/5487571/5487571_17810604748080_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5487571",
-          "displayGenderText": "여성"
         }
       ]
     },
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 52798,
+        "avg": 53022,
         "min": 9900,
         "max": 159200,
         "count": 60
@@ -2923,10 +2923,10 @@
         "count": 22
       },
       "female": {
-        "avg": 61526,
+        "avg": 60781,
         "min": 21900,
         "max": 159200,
-        "count": 24
+        "count": 25
       },
       "items": [
         {
@@ -3216,17 +3216,17 @@
         },
         {
           "rank": 20,
-          "id": "ms-2340478",
-          "brand": "트래블",
-          "name": "메탈 프론트 다트 팬츠 오렌지_조거팬츠가능",
-          "price": 59000,
-          "originalPrice": 59000,
-          "discountRate": 50,
-          "finalPrice": 29500,
+          "id": "ms-5308542",
+          "brand": "고스트리퍼블릭",
+          "name": "커브드 사이드 핀턱 벌룬 스웨트팬츠 GLP-650_블랙",
+          "price": 54900,
+          "originalPrice": 54900,
+          "discountRate": 40,
+          "finalPrice": 32900,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20220204/2340478/2340478_1_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/2340478",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250811/5308542/5308542_17560976834295_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5308542",
           "displayGenderText": "공용"
         }
       ]
