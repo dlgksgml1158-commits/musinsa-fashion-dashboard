@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T15:25:18.348177+00:00",
+  "updatedAt": "2026-08-19T15:52:30.777724+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 65200,
+        "avg": 65228,
         "min": 16930,
         "max": 445990,
         "count": 60
@@ -985,7 +985,7 @@
         "count": 12
       },
       "female": {
-        "avg": 51437,
+        "avg": 51498,
         "min": 16930,
         "max": 125300,
         "count": 28
@@ -1253,8 +1253,8 @@
           "name": "CHECK&DOT 오버핏 기모 후드 티셔츠 (GOH4-5SP181)",
           "price": 62000,
           "originalPrice": 62000,
-          "discountRate": 34,
-          "finalPrice": 40720,
+          "discountRate": 32,
+          "finalPrice": 42420,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260209/5998802/5998802_17706231159849_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101414",
+          "id": "ms-101751",
           "brand": "",
           "name": "",
           "price": null,
