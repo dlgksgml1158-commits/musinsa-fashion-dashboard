@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T17:46:40.887448+00:00",
+  "updatedAt": "2026-08-19T18:13:56.807078+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1972,21 +1972,6 @@
         },
         {
           "rank": 10,
-          "id": "ms-5907643",
-          "brand": "아디다스",
-          "name": "파이어버드 트랙탑 - 나이트인디고 / KD8313",
-          "price": 119000,
-          "originalPrice": 119000,
-          "discountRate": 19,
-          "finalPrice": 96390,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260119/5907643/5907643_17688015122893_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5907643",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 11,
           "id": "ms-5864289",
           "brand": "디미트리블랙",
           "name": "ASI 포시즌 에센셜 후드 집업_데님 빈티지 블랙",
@@ -1999,6 +1984,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20251231/5864289/5864289_17679297909685_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5864289",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 11,
+          "id": "ms-5907643",
+          "brand": "아디다스",
+          "name": "파이어버드 트랙탑 - 나이트인디고 / KD8313",
+          "price": 119000,
+          "originalPrice": 119000,
+          "discountRate": 19,
+          "finalPrice": 96390,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260119/5907643/5907643_17688015122893_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5907643",
+          "displayGenderText": "남성"
         },
         {
           "rank": 12,
