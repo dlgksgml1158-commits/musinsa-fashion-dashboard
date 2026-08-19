@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T10:14:26.763115+00:00",
+  "updatedAt": "2026-08-19T10:50:49.672648+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 45823,
+        "avg": 45794,
         "min": 17900,
         "max": 109000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 25
       },
       "female": {
-        "avg": 49017,
+        "avg": 48961,
         "min": 17900,
         "max": 109000,
         "count": 31
@@ -1591,8 +1591,8 @@
           "name": "라운드카라 스트라이프 셔츠_MIWYAG608G MIWYAG90QG",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 30,
-          "finalPrice": 34930,
+          "discountRate": 33,
+          "finalPrice": 33190,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6517489/6517489_17846160526046_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101772",
+          "id": "ms-102208",
           "brand": "",
           "name": "",
           "price": null,
