@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T17:14:18.029311+00:00",
+  "updatedAt": "2026-08-19T17:46:40.887448+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1467,21 +1467,6 @@
         },
         {
           "rank": 17,
-          "id": "ms-6270421",
-          "brand": "수아레",
-          "name": "[수아레 × 너드킹] 텐셀 린넨 크롭 셔츠 - 6 COLOR",
-          "price": 59000,
-          "originalPrice": 59000,
-          "discountRate": 32,
-          "finalPrice": 39900,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260407/6270421/6270421_17851288293269_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6270421",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 18,
           "id": "ms-6455187",
           "brand": "일리고",
           "name": "리본 플리츠 반소매 블라우스 그레이",
@@ -1496,7 +1481,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6308657",
           "brand": "드릭스",
           "name": "레인 슬럽 머슬핏 데님 반팔 셔츠_노말 블랙",
@@ -1508,6 +1493,21 @@
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260414/6308657/6308657_17762547598493_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6308657",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 19,
+          "id": "ms-6270421",
+          "brand": "수아레",
+          "name": "[수아레 × 너드킹] 텐셀 린넨 크롭 셔츠 - 6 COLOR",
+          "price": 59000,
+          "originalPrice": 59000,
+          "discountRate": 32,
+          "finalPrice": 39900,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260407/6270421/6270421_17851288293269_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6270421",
           "displayGenderText": "남성"
         },
         {
