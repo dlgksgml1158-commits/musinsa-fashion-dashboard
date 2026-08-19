@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T20:11:15.373635+00:00",
+  "updatedAt": "2026-08-19T20:50:24.274577+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1012,21 +1012,6 @@
         },
         {
           "rank": 7,
-          "id": "ms-3116779",
-          "brand": "챔피온",
-          "name": "베이직 C로고 후드 티셔츠 Cream",
-          "price": 89000,
-          "originalPrice": 89000,
-          "discountRate": 78,
-          "finalPrice": 20000,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230302/3116779/3116779_17470104810412_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3116779",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 8,
           "id": "ms-2729651",
           "brand": "챔피온",
           "name": "C로고 후드 티셔츠 Black",
@@ -1041,7 +1026,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-3469861",
           "brand": "챔피온",
           "name": "여성 스티치 루즈핏 와플 후드 티셔츠 Normal Brown",
@@ -1056,7 +1041,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-5352832",
           "brand": "비바라비다",
           "name": "[기모선택] My Youth 헤비테리 후드",
@@ -1071,7 +1056,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-2729656",
           "brand": "챔피온",
           "name": "C로고 후드 티셔츠 Normal Grey",
@@ -1086,7 +1071,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-5937520",
           "brand": "스켈리웩",
           "name": "와플 헨리넥 후디[그레이]",
@@ -1099,6 +1084,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260126/5937520/5937520_17719132760157_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5937520",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 12,
+          "id": "ms-3116779",
+          "brand": "챔피온",
+          "name": "베이직 C로고 후드 티셔츠 Cream",
+          "price": 89000,
+          "originalPrice": 89000,
+          "discountRate": 78,
+          "finalPrice": 20000,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20230302/3116779/3116779_17470104810412_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3116779",
+          "displayGenderText": "남성"
         },
         {
           "rank": 13,
@@ -1622,6 +1622,21 @@
         },
         {
           "rank": 7,
+          "id": "ms-4388026",
+          "brand": "더니트컴퍼니",
+          "name": "워셔블 코튼 카라 가디건 6color",
+          "price": 86000,
+          "originalPrice": 86000,
+          "discountRate": 65,
+          "finalPrice": 30100,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240830/4388026/4388026_17258836122557_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4388026",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 8,
           "id": "ms-6014032",
           "brand": "에잇세컨즈",
           "name": "고양이 자카드 풀오버  애쉬",
@@ -1636,7 +1651,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "id": "ms-6263413",
           "brand": "알리스",
           "name": "[오정규 x 알리스] 쿨 코튼 레이어드 헨리넥 크롭 하프 니트_2COLOR",
@@ -1648,21 +1663,6 @@
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260406/6263413/6263413_17788097542676_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6263413",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 9,
-          "id": "ms-4388026",
-          "brand": "더니트컴퍼니",
-          "name": "워셔블 코튼 카라 가디건 6color",
-          "price": 86000,
-          "originalPrice": 86000,
-          "discountRate": 65,
-          "finalPrice": 30100,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240830/4388026/4388026_17258836122557_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4388026",
           "displayGenderText": "남성"
         },
         {
@@ -1682,21 +1682,6 @@
         },
         {
           "rank": 11,
-          "id": "ms-5920258",
-          "brand": "에잇세컨즈",
-          "name": "칼라넥 스트라이프 풀오버  아이보리",
-          "price": 39900,
-          "originalPrice": 39900,
-          "discountRate": 68,
-          "finalPrice": 12870,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260121/5920258/5920258_17786731581320_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5920258",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 12,
           "id": "ms-5978421",
           "brand": "에잇세컨즈",
           "name": "배색 칼라 풀오버  네이비",
@@ -1708,6 +1693,21 @@
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260204/5978421/5978421_17840671625619_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5978421",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 12,
+          "id": "ms-5920258",
+          "brand": "에잇세컨즈",
+          "name": "칼라넥 스트라이프 풀오버  아이보리",
+          "price": 39900,
+          "originalPrice": 39900,
+          "discountRate": 68,
+          "finalPrice": 12870,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260121/5920258/5920258_17786731581320_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5920258",
           "displayGenderText": "여성"
         },
         {
