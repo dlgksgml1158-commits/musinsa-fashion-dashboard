@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T14:58:23.604809+00:00",
+  "updatedAt": "2026-08-19T15:25:18.348177+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 39073,
+        "avg": 39180,
         "min": 9800,
         "max": 231990,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 36
       },
       "female": {
-        "avg": 48748,
+        "avg": 49040,
         "min": 12900,
         "max": 231990,
         "count": 22
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101764",
+          "id": "ms-101414",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,7 +2265,7 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 57570,
+        "avg": 57706,
         "min": 9900,
         "max": 170100,
         "count": 60
@@ -2277,7 +2277,7 @@
         "count": 32
       },
       "female": {
-        "avg": 56079,
+        "avg": 56432,
         "min": 17900,
         "max": 131100,
         "count": 23
@@ -2381,7 +2381,7 @@
           "price": 59000,
           "originalPrice": 59000,
           "discountRate": 36,
-          "finalPrice": 37520,
+          "finalPrice": 37870,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260428/6390295/6390295_17853806839252_500.jpg",
@@ -2470,8 +2470,8 @@
           "name": "7160 캣 브러쉬 슬림 진청 부츠컷 데님팬츠",
           "price": 59000,
           "originalPrice": 59000,
-          "discountRate": 41,
-          "finalPrice": 34820,
+          "discountRate": 32,
+          "finalPrice": 40120,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20220915/2796118/2796118_17809663324954_500.jpg",
@@ -2911,13 +2911,13 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 52905,
+        "avg": 53043,
         "min": 9900,
         "max": 159200,
         "count": 60
       },
       "male": {
-        "avg": 46795,
+        "avg": 47171,
         "min": 15900,
         "max": 95200,
         "count": 22
@@ -3056,8 +3056,8 @@
           "name": "글로시 와이드 팬츠-FBSK2211C09",
           "price": 69000,
           "originalPrice": 69000,
-          "discountRate": 52,
-          "finalPrice": 33120,
+          "discountRate": 40,
+          "finalPrice": 41400,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260327/6209026/6209026_17745817398667_500.jpg",
@@ -3234,19 +3234,19 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 39106,
+        "avg": 39258,
         "min": 8000,
         "max": 150000,
         "count": 60
       },
       "male": {
-        "avg": 36759,
+        "avg": 37009,
         "min": 8000,
         "max": 69000,
         "count": 28
       },
       "female": {
-        "avg": 38900,
+        "avg": 38980,
         "min": 19900,
         "max": 89250,
         "count": 26
@@ -3259,8 +3259,8 @@
           "name": "썸머 마이크로 미니 데님 쇼츠 (샌드블루)",
           "price": 52000,
           "originalPrice": 52000,
-          "discountRate": 36,
-          "finalPrice": 33280,
+          "discountRate": 32,
+          "finalPrice": 35360,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260727/6928699/6928699_17851324800895_500.jpg",
@@ -3499,8 +3499,8 @@
           "name": "[시티 레저] 벨티드 유틸리티 버뮤다 팬츠 [카키]",
           "price": 69900,
           "originalPrice": 69900,
-          "discountRate": 35,
-          "finalPrice": 45390,
+          "discountRate": 25,
+          "finalPrice": 52390,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20251120/5755288/5755288_17743196853050_500.jpg",
