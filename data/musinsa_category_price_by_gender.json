@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T08:31:00.527564+00:00",
+  "updatedAt": "2026-08-19T09:19:23.153500+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,22 +327,22 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 45019,
+        "avg": 44947,
         "min": 5530,
         "max": 159000,
         "count": 60
       },
       "male": {
-        "avg": 47895,
+        "avg": 47358,
         "min": 7900,
         "max": 127800,
-        "count": 13
+        "count": 12
       },
       "female": {
-        "avg": 39774,
+        "avg": 40041,
         "min": 5530,
         "max": 91800,
-        "count": 38
+        "count": 37
       },
       "items": [
         {
@@ -497,6 +497,21 @@
         },
         {
           "rank": 11,
+          "id": "ms-6951158",
+          "brand": "디미트리블랙",
+          "name": "[10주년기획] ⓒ 모두의 수소봉제 긴팔 티셔츠_스트라이프 2 COLOR",
+          "price": 46000,
+          "originalPrice": 46000,
+          "discountRate": 0,
+          "finalPrice": 46000,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260729/6951158/6951158_17871220354703_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6951158",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 12,
           "id": "ms-6851209",
           "brand": "언타이틀 서울",
           "name": "싱글 유니콘 헨리넥 롱슬리브 그레이",
@@ -511,7 +526,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-6914789",
           "brand": "미쏘",
           "name": "홀터 레이어드 긴팔 티셔츠_MIWLWG911A",
@@ -526,7 +541,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-5126930",
           "brand": "바니쉬먼트",
           "name": "Summer vacation long sleeve tee_melange gray",
@@ -541,7 +556,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-6965248",
           "brand": "무센트",
           "name": "에센셜 레터링 롱 슬리브 티 (2컬러)",
@@ -556,7 +571,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-6780851",
           "brand": "108파운드",
           "name": "Dusty Raglan Tee_Melange Gray",
@@ -571,7 +586,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-6899468",
           "brand": "해비즘",
           "name": "W NAME CARD L/S TEE(PLUM)",
@@ -586,7 +601,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-4739529",
           "brand": "탑텐",
           "name": "공용) 콜라보 레이어드 긴팔티 (블랙 크로우스)_MSF2TS3021",
@@ -601,7 +616,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-6940197",
           "brand": "스파오",
           "name": "헨리넥 레이어드 긴팔티_SPLWG49G03",
@@ -616,7 +631,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-6912650",
           "brand": "루프",
           "name": "헨리넥 크로스 버튼 긴팔티 아이보리(연그레이)",
@@ -628,21 +643,6 @@
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6912650/6912650_17851414950088_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6912650",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6936868",
-          "brand": "코이리스",
-          "name": "서울 시티 아카이브 롱 슬리브 티 (2컬러)",
-          "price": 51600,
-          "originalPrice": 51600,
-          "discountRate": 48,
-          "finalPrice": 26910,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6936868/6936868_17858914073436_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6936868",
           "displayGenderText": "여성"
         }
       ]
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 65385,
+        "avg": 65319,
         "min": 16930,
         "max": 445990,
         "count": 60
@@ -985,7 +985,7 @@
         "count": 12
       },
       "female": {
-        "avg": 51835,
+        "avg": 51694,
         "min": 16930,
         "max": 125300,
         "count": 28
@@ -1296,22 +1296,22 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 46141,
+        "avg": 45823,
         "min": 17900,
         "max": 109000,
         "count": 60
       },
       "male": {
-        "avg": 42370,
+        "avg": 42465,
         "min": 19900,
         "max": 89900,
-        "count": 26
+        "count": 25
       },
       "female": {
-        "avg": 49954,
+        "avg": 49017,
         "min": 17900,
         "max": 109000,
-        "count": 30
+        "count": 31
       },
       "items": [
         {
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101787",
+          "id": "ms-101779",
           "brand": "",
           "name": "",
           "price": null,
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 53022,
+        "avg": 52905,
         "min": 9900,
         "max": 159200,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 22
       },
       "female": {
-        "avg": 60781,
+        "avg": 60501,
         "min": 21900,
         "max": 159200,
         "count": 25
