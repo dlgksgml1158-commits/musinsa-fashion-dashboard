@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-19T05:52:10.315544+00:00",
+  "updatedAt": "2026-08-19T06:20:08.170232+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 40188,
+        "avg": 40628,
         "min": 9900,
         "max": 141550,
         "count": 60
@@ -16,10 +16,10 @@
         "count": 24
       },
       "female": {
-        "avg": 41298,
+        "avg": 42331,
         "min": 13830,
         "max": 105990,
-        "count": 22
+        "count": 21
       },
       "items": [
         {
@@ -309,17 +309,17 @@
         },
         {
           "rank": 20,
-          "id": "ms-6929983",
-          "brand": "쿠톤",
-          "name": "[2PACK] 폴라리스 롤업 세미크롭 반팔 티셔츠 3COLOR",
-          "price": 88000,
-          "originalPrice": 88000,
-          "discountRate": 30,
-          "finalPrice": 61600,
+          "id": "ms-6951158",
+          "brand": "디미트리블랙",
+          "name": "[10주년기획] ⓒ 모두의 수소봉제 반팔 티셔츠 (COOLMAX® 원단)_버건디",
+          "price": 46000,
+          "originalPrice": 46000,
+          "discountRate": 0,
+          "finalPrice": 46000,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260727/6929983/6929983_17851378723043_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6929983",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260729/6951158/6951158_17871154041708_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6951158",
           "displayGenderText": "공용"
         }
       ]
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 45019,
+        "avg": 45086,
         "min": 5530,
         "max": 159000,
         "count": 60
@@ -339,10 +339,10 @@
         "count": 13
       },
       "female": {
-        "avg": 39774,
+        "avg": 40041,
         "min": 5530,
         "max": 91800,
-        "count": 38
+        "count": 37
       },
       "items": [
         {
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101779",
+          "id": "ms-101777",
           "brand": "",
           "name": "",
           "price": null,
@@ -2911,16 +2911,16 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 52798,
+        "avg": 52156,
         "min": 9900,
         "max": 159200,
         "count": 60
       },
       "male": {
-        "avg": 46795,
+        "avg": 44490,
         "min": 15900,
-        "max": 95200,
-        "count": 22
+        "max": 60700,
+        "count": 21
       },
       "female": {
         "avg": 61526,
