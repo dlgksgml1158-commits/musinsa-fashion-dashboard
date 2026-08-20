@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T16:18:03.165235+00:00",
+  "updatedAt": "2026-08-20T16:57:13.929094+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -339,7 +339,7 @@
         "count": 13
       },
       "female": {
-        "avg": 45839,
+        "avg": 45838,
         "min": 6320,
         "max": 108000,
         "count": 36
@@ -533,7 +533,7 @@
           "price": 29900,
           "originalPrice": 29900,
           "discountRate": 22,
-          "finalPrice": 23430,
+          "finalPrice": 23410,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260724/6914789/6914789_17864980656193_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101751",
+          "id": "ms-101777",
           "brand": "",
           "name": "",
           "price": null,
