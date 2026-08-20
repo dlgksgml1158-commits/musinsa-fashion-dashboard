@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T07:13:03.891703+00:00",
+  "updatedAt": "2026-08-20T08:01:48.002752+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 48873,
+        "avg": 48693,
         "min": 6320,
         "max": 159000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 12
       },
       "female": {
-        "avg": 45908,
+        "avg": 45616,
         "min": 6320,
         "max": 91800,
         "count": 37
@@ -457,8 +457,8 @@
           "name": "나그랑 그래픽 티셔츠_MIWLWG944A",
           "price": 29900,
           "originalPrice": 29900,
-          "discountRate": 0,
-          "finalPrice": 29900,
+          "discountRate": 10,
+          "finalPrice": 26910,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260724/6916604/6916604_17871230258732_500.jpg",
@@ -650,13 +650,13 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 61334,
+        "avg": 61152,
         "min": 7900,
         "max": 246050,
         "count": 60
       },
       "male": {
-        "avg": 60803,
+        "avg": 60258,
         "min": 27930,
         "max": 246050,
         "count": 20
@@ -675,8 +675,8 @@
           "name": "APAC 스포츠스타일 우븐 크루6014349-001",
           "price": 109000,
           "originalPrice": 109000,
-          "discountRate": 20,
-          "finalPrice": 87200,
+          "discountRate": 30,
+          "finalPrice": 76300,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260727/6932766/6932766_17851541826203_500.jpg",
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 70560,
+        "avg": 70494,
         "min": 16930,
         "max": 445990,
         "count": 60
@@ -985,7 +985,7 @@
         "count": 12
       },
       "female": {
-        "avg": 59107,
+        "avg": 58964,
         "min": 16930,
         "max": 125300,
         "count": 28
@@ -1073,8 +1073,8 @@
           "name": "스트라이프 후드 티셔츠_MIWLWG924A",
           "price": 39900,
           "originalPrice": 39900,
-          "discountRate": 0,
-          "finalPrice": 39900,
+          "discountRate": 10,
+          "finalPrice": 35910,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260724/6914788/6914788_17864980713036_500.jpg",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 53265,
+        "avg": 53380,
         "min": 19010,
         "max": 109000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 25
       },
       "female": {
-        "avg": 57202,
+        "avg": 57425,
         "min": 19010,
         "max": 109000,
         "count": 31
@@ -1576,8 +1576,8 @@
           "name": "라운드카라 스트라이프 셔츠_MIWYAG608G MIWYAG90QG",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 0,
-          "finalPrice": 49900,
+          "discountRate": 10,
+          "finalPrice": 44910,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6517489/6517489_17846160526046_500.jpg",
@@ -1619,13 +1619,13 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 45610,
+        "avg": 45524,
         "min": 9900,
         "max": 231990,
         "count": 60
       },
       "male": {
-        "avg": 41296,
+        "avg": 41151,
         "min": 15900,
         "max": 89000,
         "count": 36
@@ -1699,21 +1699,6 @@
         },
         {
           "rank": 5,
-          "id": "ms-6037142",
-          "brand": "엑스오엑스",
-          "name": "베이직 쿨 헨리넥 크롭 반팔 니트 [NAVY]",
-          "price": 63000,
-          "originalPrice": 63000,
-          "discountRate": 40,
-          "finalPrice": 37800,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260220/6037142/6037142_17858297126136_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6037142",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 6,
           "id": "ms-4836679",
           "brand": "유라고",
           "name": "Cap sleeve V-neck knit",
@@ -1728,7 +1713,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-5388572",
           "brand": "르아르",
           "name": "울 모헤어 라운드 니트 [차콜]",
@@ -1743,7 +1728,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-4682246",
           "brand": "무신사 스탠다드",
           "name": "[이도현 PICK] 워셔블 수피마 코튼 니티드 폴로 셔츠 [블랙]",
@@ -1758,7 +1743,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-4996378",
           "brand": "비비안 웨스트우드",
           "name": "베아 니트 - 블랙 / 1803002SY003FN401",
@@ -1773,7 +1758,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-4218831",
           "brand": "음",
           "name": "선셋 썸머 린넨라이크 긴팔니트 보카크림",
@@ -1788,7 +1773,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-6037036",
           "brand": "엑스오엑스",
           "name": "버튼 카라 썸머 쿨 크롭 반팔 니트 [NAVY ST]",
@@ -1803,7 +1788,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-6530450",
           "brand": "더니트컴퍼니",
           "name": "실크 라이크 헨리넥 니트 5color",
@@ -1818,7 +1803,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-6385919",
           "brand": "데꼬로소",
           "name": "패널 립 반팔 썸머 라운드 가디건 [그레이]",
@@ -1833,7 +1818,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-6461256",
           "brand": "무드인사이드",
           "name": "에센셜 무드 하프 브이넥 니트_8color",
@@ -1848,7 +1833,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6263413",
           "brand": "알리스",
           "name": "[오정규 x 알리스] 쿨 코튼 레이어드 헨리넥 크롭 하프 니트_2COLOR",
@@ -1863,7 +1848,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-3968466",
           "brand": "키뮤어",
           "name": "코튼 오픈카라 케이블 하프 니트_5 COLOR",
@@ -1878,7 +1863,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6048607",
           "brand": "스파오",
           "name": "[COOL] 보트넥 루즈핏 니트_SPKWG24G02",
@@ -1893,7 +1878,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6109248",
           "brand": "마인드브릿지",
           "name": "[스토커즈 콜라보] [ON]워셔블 멀티 스트라이프 카라 반팔 니트 - 4color",
@@ -1908,7 +1893,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-3476073",
           "brand": "웬즈데이오아시스",
           "name": "올웨이즈 워셔블 헨리넥 니트_8COLOR",
@@ -1923,7 +1908,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6254017",
           "brand": "제너럴아이디어",
           "name": "에어리 에센셜 카라 하프 니트 [NAVY] / WBE2L05513",
@@ -1936,13 +1921,28 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260403/6254017/6254017_17852922665068_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6254017",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6341387",
+          "brand": "무신사 스탠다드 우먼",
+          "name": "[NEW 컬러 출시] 우먼즈 에센셜 라운드 넥 니트 [다크 브라운]",
+          "price": 39900,
+          "originalPrice": 39900,
+          "discountRate": 10,
+          "finalPrice": 35910,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260420/6341387/6341387_17859086051420_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6341387",
+          "displayGenderText": "여성"
         }
       ]
     },
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 150575,
+        "avg": 151575,
         "min": 29900,
         "max": 600000,
         "count": 60
@@ -1954,29 +1954,14 @@
         "count": 22
       },
       "female": {
-        "avg": 121562,
+        "avg": 122853,
         "min": 29900,
         "max": 294500,
-        "count": 28
+        "count": 29
       },
       "items": [
         {
           "rank": 1,
-          "id": "ms-6908583",
-          "brand": "블랙야크",
-          "name": "공용 클라이밍 스톤마스터 라이트 다운자켓#3_(5color)",
-          "price": 299000,
-          "originalPrice": 299000,
-          "discountRate": 20,
-          "finalPrice": 239000,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6908583/6908583_17853877119438_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6908583",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 2,
           "id": "ms-6777737",
           "brand": "무신사 스탠다드",
           "name": "[SSG랜더스 컬래버] MA-1 보머 재킷 [블랙]",
@@ -1991,7 +1976,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 3,
+          "rank": 2,
           "id": "ms-6702453",
           "brand": "나이키",
           "name": "윈드러너 오버사이즈 데님 재킷 W - 라이트 아머리 블루:워크 블루 / IV4962-440",
@@ -2006,7 +1991,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 4,
+          "rank": 3,
           "id": "ms-6814919",
           "brand": "아디다스",
           "name": "아디컬러 트랙탑 KV8875",
@@ -2021,7 +2006,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "id": "ms-7046980",
           "brand": "파타고니아",
           "name": "멘즈 라이트웨이트 신칠라 스냅-티 풀오버 / 25551R7",
@@ -2036,22 +2021,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 6,
-          "id": "ms-101763",
-          "brand": "",
-          "name": "",
-          "price": null,
-          "originalPrice": null,
-          "discountRate": 0,
-          "finalPrice": null,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "",
-          "productUrl": "",
-          "displayGenderText": ""
-        },
-        {
-          "rank": 7,
+          "rank": 5,
           "id": "ms-6686050",
           "brand": "나이키",
           "name": "테크 헬리오스 드라이 핏 풀집 재킷 M - 블랙 / IM1334-010",
@@ -2066,7 +2036,22 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 8,
+          "rank": 6,
+          "id": "ms-101752",
+          "brand": "",
+          "name": "",
+          "price": null,
+          "originalPrice": null,
+          "discountRate": 0,
+          "finalPrice": null,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "",
+          "productUrl": "",
+          "displayGenderText": ""
+        },
+        {
+          "rank": 7,
           "id": "ms-6896379",
           "brand": "닉켈하우스",
           "name": "닉켈 26 크로스 플로랄 후드집업",
@@ -2081,7 +2066,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-6951147",
           "brand": "카비시",
           "name": "LIGHT WEIGHT DOWN JACKET BUTTER CREAM(CV2EWUB901A)",
@@ -2096,7 +2081,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-5329359",
           "brand": "아디다스",
           "name": "후드 집업 - 블랙:크림화이트 / KC9315",
@@ -2111,7 +2096,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-6880047",
           "brand": "엄브로",
           "name": "크리스피 타슬란 긴팔 자켓 블루 UR324CJK91",
@@ -2126,7 +2111,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-6686197",
           "brand": "나이키",
           "name": "스포츠웨어 오버사이즈 트랙 재킷 W - 블랙:화이트 / IQ3165-010",
@@ -2141,7 +2126,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-7014393",
           "brand": "무드인사이드 우먼",
           "name": "(woman) VTG 워시드 필드 자켓_Khaki",
@@ -2156,7 +2141,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-7048634",
           "brand": "파타고니아",
           "name": "우먼즈 라이트웨이트 신칠라 스냅 티 풀오버 / 25455R7",
@@ -2171,7 +2156,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6929984",
           "brand": "블랙야크",
           "name": "공용 클라이밍 스톤마스터 다운자켓#3 (5color)",
@@ -2186,7 +2171,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6853554",
           "brand": "무신사 스탠다드",
           "name": "[26FW 신상] [시티 레저] 시어 후디드 라이트 다운 재킷 [그레이]",
@@ -2201,7 +2186,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6918905",
           "brand": "나이키",
           "name": "스포츠웨어 데님 트랙 재킷 M - 블랙:아이스 실버 / IQ5914-010",
@@ -2216,7 +2201,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6968252",
           "brand": "트릴리온",
           "name": "시티 유틸리티 체크 후드 윈드브레이커_3color",
@@ -2231,7 +2216,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6764812",
           "brand": "아크테릭스",
           "name": "스쿼미시 후디 여성 - BLACK / AJQSW10268",
@@ -2246,7 +2231,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6912863",
           "brand": "루프",
           "name": "크로스 스톤 오버핏 후드집업 블랙",
@@ -2259,13 +2244,28 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6912863/6912863_17851389087240_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6912863",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6883774",
+          "brand": "파타고니아",
+          "name": "우먼즈 레트로 파일 재킷 / 22796R7",
+          "price": 249000,
+          "originalPrice": 249000,
+          "discountRate": 0,
+          "finalPrice": 249000,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260721/6883774/6883774_17845918721138_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6883774",
+          "displayGenderText": "여성"
         }
       ]
     },
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 63500,
+        "avg": 63417,
         "min": 19900,
         "max": 170100,
         "count": 60
@@ -2277,7 +2277,7 @@
         "count": 32
       },
       "female": {
-        "avg": 63647,
+        "avg": 63430,
         "min": 25900,
         "max": 139500,
         "count": 23
@@ -2305,8 +2305,8 @@
           "name": "핏업데님 릴렉스 부츠컷_Long_MIWTJG946J",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 0,
-          "finalPrice": 49900,
+          "discountRate": 10,
+          "finalPrice": 44910,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6938901/6938901_17858934593857_500.jpg",
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 60890,
+        "avg": 60790,
         "min": 9900,
         "max": 159200,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 22
       },
       "female": {
-        "avg": 71115,
+        "avg": 70875,
         "min": 27900,
         "max": 159200,
         "count": 25
