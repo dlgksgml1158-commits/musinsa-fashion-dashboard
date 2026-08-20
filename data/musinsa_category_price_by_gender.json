@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-20T15:00:25.876287+00:00",
+  "updatedAt": "2026-08-20T15:33:01.365537+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 41199,
+        "avg": 41339,
         "min": 9990,
         "max": 105990,
         "count": 60
@@ -16,8 +16,8 @@
         "count": 23
       },
       "female": {
-        "avg": 44679,
-        "min": 16920,
+        "avg": 45015,
+        "min": 17910,
         "max": 105990,
         "count": 25
       },
@@ -269,8 +269,8 @@
           "name": "우먼즈 리브드 멀티 스트라이프 슬림 티셔츠 [옐로우]",
           "price": 19900,
           "originalPrice": 19900,
-          "discountRate": 15,
-          "finalPrice": 16920,
+          "discountRate": 10,
+          "finalPrice": 17910,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20241205/4651496/4651496_17509896841791_500.jpg",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 48739,
+        "avg": 49167,
         "min": 6320,
         "max": 159000,
         "count": 60
@@ -339,9 +339,9 @@
         "count": 13
       },
       "female": {
-        "avg": 45126,
+        "avg": 45839,
         "min": 6320,
-        "max": 91800,
+        "max": 108000,
         "count": 36
       },
       "items": [
@@ -973,8 +973,8 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 70301,
-        "min": 16930,
+        "avg": 70292,
+        "min": 20900,
         "max": 445990,
         "count": 60
       },
@@ -985,8 +985,8 @@
         "count": 12
       },
       "female": {
-        "avg": 58552,
-        "min": 16930,
+        "avg": 58533,
+        "min": 20900,
         "max": 125300,
         "count": 28
       },
@@ -1223,8 +1223,8 @@
           "name": "가먼트워싱 슬림 후디탑  그레이",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 72,
-          "finalPrice": 16930,
+          "discountRate": 65,
+          "finalPrice": 20900,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260211/6013886/6013886_17840694132783_500.jpg",
@@ -1296,20 +1296,20 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 52645,
-        "min": 19010,
+        "avg": 53102,
+        "min": 19900,
         "max": 109000,
         "count": 60
       },
       "male": {
-        "avg": 49777,
+        "avg": 50411,
         "min": 19900,
         "max": 89900,
         "count": 25
       },
       "female": {
-        "avg": 56002,
-        "min": 19010,
+        "avg": 56376,
+        "min": 21120,
         "max": 109000,
         "count": 31
       },
@@ -1336,8 +1336,8 @@
           "name": "체크 라운드칼라 블라우스  와인",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 19,
-          "finalPrice": 40420,
+          "discountRate": 0,
+          "finalPrice": 49900,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260722/6896595/6896595_17853689674854_500.jpg",
@@ -1411,8 +1411,8 @@
           "name": "시어서커 하드 트위스트 체크 셔츠 블랙",
           "price": 99000,
           "originalPrice": 99000,
-          "discountRate": 36,
-          "finalPrice": 63360,
+          "discountRate": 20,
+          "finalPrice": 79200,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260730/6957693/6957693_17853880605313_500.jpg",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 44770,
+        "avg": 44706,
         "min": 9900,
         "max": 231990,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 36
       },
       "female": {
-        "avg": 52862,
+        "avg": 52686,
         "min": 9900,
         "max": 231990,
         "count": 22
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 150038,
+        "avg": 150878,
         "min": 29900,
         "max": 600000,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 23
       },
       "female": {
-        "avg": 119591,
+        "avg": 121391,
         "min": 29900,
         "max": 294500,
         "count": 28
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101751",
+          "id": "ms-101777",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,13 +2588,13 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 46843,
+        "avg": 46132,
         "min": 9900,
         "max": 168000,
         "count": 60
       },
       "male": {
-        "avg": 51995,
+        "avg": 50900,
         "min": 12070,
         "max": 168000,
         "count": 39
@@ -2613,8 +2613,8 @@
           "name": "[후러브스아트 x 성진] 투턱 스트라이프 와이드 슬랙스 그레이",
           "price": 61000,
           "originalPrice": 61000,
-          "discountRate": 0,
-          "finalPrice": 61000,
+          "discountRate": 35,
+          "finalPrice": 39650,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6907891/6907891_17847826489325_500.jpg",
@@ -2911,13 +2911,13 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 59542,
+        "avg": 59607,
         "min": 9900,
         "max": 159200,
         "count": 60
       },
       "male": {
-        "avg": 50186,
+        "avg": 50356,
         "min": 15900,
         "max": 109000,
         "count": 23
@@ -2996,8 +2996,8 @@
           "name": "스폰서 로고 메쉬 저지 와이드 팬츠 (BLACK/RED)",
           "price": 78000,
           "originalPrice": 78000,
-          "discountRate": 30,
-          "finalPrice": 54600,
+          "discountRate": 25,
+          "finalPrice": 58500,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6907230/6907230_17847783717280_500.jpg",
@@ -3234,19 +3234,19 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 44281,
+        "avg": 43408,
         "min": 19900,
         "max": 150000,
         "count": 60
       },
       "male": {
-        "avg": 42313,
+        "avg": 40630,
         "min": 22900,
         "max": 70200,
         "count": 29
       },
       "female": {
-        "avg": 44300,
+        "avg": 44156,
         "min": 20490,
         "max": 107100,
         "count": 25
@@ -3274,8 +3274,8 @@
           "name": "[후러브스아트 x 성진] 코튼 데님 절개 버뮤다 팬츠 차콜 그레이",
           "price": 61000,
           "originalPrice": 61000,
-          "discountRate": 0,
-          "finalPrice": 61000,
+          "discountRate": 35,
+          "finalPrice": 39650,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6907832/6907832_17847823290357_500.jpg",
@@ -3409,8 +3409,8 @@
           "name": "[한소희 PICK] 우먼즈 마이크로 데님 쇼츠 [라이트 인디고]",
           "price": 35900,
           "originalPrice": 35900,
-          "discountRate": 20,
-          "finalPrice": 28720,
+          "discountRate": 30,
+          "finalPrice": 25130,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250922/5504965/5504965_17772543914544_500.jpg",
@@ -3544,8 +3544,8 @@
           "name": "LVS 코튼 카고 버뮤다 팬츠 4color",
           "price": 61000,
           "originalPrice": 61000,
-          "discountRate": 0,
-          "finalPrice": 61000,
+          "discountRate": 45,
+          "finalPrice": 33550,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260522/6532776/6532776_17810541518210_500.jpg",
