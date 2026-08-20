@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T04:23:28.858732+00:00",
+  "updatedAt": "2026-08-20T04:59:16.152060+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 54908,
+        "avg": 54820,
         "min": 19010,
         "max": 118990,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 26
       },
       "female": {
-        "avg": 58950,
+        "avg": 58772,
         "min": 19010,
         "max": 109000,
         "count": 30
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 46248,
+        "avg": 46179,
         "min": 9900,
         "max": 231990,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 36
       },
       "female": {
-        "avg": 55276,
+        "avg": 55087,
         "min": 9900,
         "max": 231990,
         "count": 22
@@ -1719,8 +1719,8 @@
           "name": "Cap sleeve V-neck knit",
           "price": 83000,
           "originalPrice": 83000,
-          "discountRate": 0,
-          "finalPrice": 83000,
+          "discountRate": 5,
+          "finalPrice": 78850,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250226/4836679/4836679_17870294265431_500.jpg",
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 154237,
+        "avg": 154654,
         "min": 29900,
         "max": 600000,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 23
       },
       "female": {
-        "avg": 128270,
+        "avg": 129196,
         "min": 29900,
         "max": 294500,
         "count": 27
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-102360",
+          "id": "ms-101778",
           "brand": "",
           "name": "",
           "price": null,
