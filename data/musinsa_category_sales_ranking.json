@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T17:52:13.517759+00:00",
+  "updatedAt": "2026-08-20T18:18:21.029105+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -707,21 +707,6 @@
         },
         {
           "rank": 7,
-          "id": "ms-4425015",
-          "brand": "챔피온",
-          "name": "빅 스크립트 로고 크루넥 스웨트셔츠 Black",
-          "price": 59000,
-          "originalPrice": 59000,
-          "discountRate": 35,
-          "finalPrice": 38300,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240910/4425015/4425015_17429699042109_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4425015",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 8,
           "id": "ms-3515436",
           "brand": "챔피온",
           "name": "컬러 블록 브이넥 스웨트셔츠 Normal Coral",
@@ -736,7 +721,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-3106844",
           "brand": "챔피온",
           "name": "C로고 크루넥 스웨트셔츠 Black",
@@ -751,7 +736,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-6710466",
           "brand": "무신사 스탠다드",
           "name": "헨리 넥 스웨트셔츠 [미디엄 그레이]",
@@ -763,6 +748,21 @@
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260622/6710466/6710466_17853067360317_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6710466",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 10,
+          "id": "ms-4425015",
+          "brand": "챔피온",
+          "name": "빅 스크립트 로고 크루넥 스웨트셔츠 Black",
+          "price": 59000,
+          "originalPrice": 59000,
+          "discountRate": 35,
+          "finalPrice": 38300,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240910/4425015/4425015_17429699042109_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4425015",
           "displayGenderText": "남성"
         },
         {
@@ -872,21 +872,6 @@
         },
         {
           "rank": 18,
-          "id": "ms-4425038",
-          "brand": "챔피온",
-          "name": "빅 스크립트 로고 크루넥 스웨트셔츠 Normal Navy",
-          "price": 59000,
-          "originalPrice": 59000,
-          "discountRate": 35,
-          "finalPrice": 38300,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240910/4425038/4425038_17429700084189_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4425038",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 19,
           "id": "ms-4425033",
           "brand": "챔피온",
           "name": "빅 스크립트 로고 크루넥 스웨트셔츠 Normal Grey",
@@ -901,7 +886,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6796737",
           "brand": "지프",
           "name": "[360g] M-Logo 반집업 맨투맨 (JR5TSU838MR)",
@@ -914,6 +899,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260707/6796737/6796737_17858007550405_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6796737",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6710467",
+          "brand": "무신사 스탠다드",
+          "name": "헨리 넥 스웨트셔츠 [다크 그레이]",
+          "price": 49900,
+          "originalPrice": 49900,
+          "discountRate": 0,
+          "finalPrice": 49900,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260622/6710467/6710467_17852913415302_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6710467",
+          "displayGenderText": "남성"
         }
       ]
     },
