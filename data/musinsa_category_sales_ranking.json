@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T06:21:05.010195+00:00",
+  "updatedAt": "2026-08-20T07:13:13.592931+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -497,8 +497,8 @@
           "name": "[유소정 PICK] [8COLORS] 라인드 와플 롱슬리브",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 0,
-          "finalPrice": 59900,
+          "discountRate": 20,
+          "finalPrice": 47920,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250811/5308085/5308085_17870359638194_500.jpg",
@@ -1272,21 +1272,6 @@
         },
         {
           "rank": 4,
-          "id": "ms-4989733",
-          "brand": "르아르",
-          "name": "링클 시어서커 체크 반팔 셔츠 [차콜]",
-          "price": 50000,
-          "originalPrice": 50000,
-          "discountRate": 41,
-          "finalPrice": 29400,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250404/4989733/4989733_17477885499560_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4989733",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 5,
           "id": "ms-4739536",
           "brand": "탑텐",
           "name": "공용) 포플린 오버핏 셔츠_MSF2WC3001",
@@ -1301,7 +1286,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "id": "ms-994588",
           "brand": "필루미네이트",
           "name": "옵티멀 베이직 셔츠-화이트[린넨＆옥스포드 선택]",
@@ -1316,7 +1301,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-6359182",
           "brand": "유젠",
           "name": "소프트 타이 버튼 블라우스_블랙",
@@ -1331,7 +1316,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-6970137",
           "brand": "트릴리온",
           "name": "빈티지 우드 버튼 데님 긴팔 셔츠_4color",
@@ -1346,7 +1331,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-6038635",
           "brand": "효지",
           "name": "26 SS 세미 크롭 라이트웨이트 스트라이프 셔츠 (5컬러)",
@@ -1361,7 +1346,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-4908168",
           "brand": "일리고",
           "name": "리본 타이 스퀘어넥 블라우스 그레이",
@@ -1376,7 +1361,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-1458788",
           "brand": "다이아몬드 레이라",
           "name": "Poly Overfit Shirt S37-2 Sky Blue",
@@ -1391,7 +1376,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-3791891",
           "brand": "필루미네이트",
           "name": "[오정규 PICK] 오버핏 포레스트 체크 셔츠-블랙",
@@ -1406,7 +1391,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-2357716",
           "brand": "다이아몬드 레이라",
           "name": "Easy Care Authentic Dress Shirt AS1 Sky Blue",
@@ -1421,7 +1406,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-1491139",
           "brand": "드로우핏",
           "name": "[서강준 PICK] 스테이블 린넨 미니멀 셔츠 [5color]",
@@ -1436,7 +1421,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-4739544",
           "brand": "탑텐",
           "name": "남성) 포플린 워크 셔츠_MSF2WC1021",
@@ -1451,7 +1436,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-3042516",
           "brand": "수아레",
           "name": "에센셜 텐셀 린넨 셔츠 - 9 COLOR",
@@ -1466,7 +1451,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6265546",
           "brand": "드로우핏",
           "name": "[젠플록스X드로우핏] 린넨 데님 롤업 셔츠 [3color]",
@@ -1481,7 +1466,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6455187",
           "brand": "일리고",
           "name": "리본 플리츠 반소매 블라우스 그레이",
@@ -1496,7 +1481,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6308657",
           "brand": "드릭스",
           "name": "레인 슬럽 머슬핏 데님 반팔 셔츠_노말 블랙",
@@ -1511,7 +1496,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6270421",
           "brand": "수아레",
           "name": "[수아레 × 너드킹] 텐셀 린넨 크롭 셔츠 - 6 COLOR",
@@ -1523,6 +1508,21 @@
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260407/6270421/6270421_17851288293269_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6270421",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5025534",
+          "brand": "커스텀어클락",
+          "name": "린넨 오버핏 롱 슬리브 셔츠 5 COLOR COOSSH192",
+          "price": 62000,
+          "originalPrice": 62000,
+          "discountRate": 68,
+          "finalPrice": 19900,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250414/5025534/5025534_17799299745333_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5025534",
           "displayGenderText": "남성"
         }
       ]
@@ -2754,7 +2754,7 @@
           "rank": 1,
           "id": "ms-6197079",
           "brand": "디미트리블랙",
-          "name": "VLAD 원턱 커브드 트랙 팬츠_블랙",
+          "name": "VLAD 원턱 커브드 트랙 스웻 팬츠_블랙",
           "price": 49200,
           "originalPrice": 49200,
           "discountRate": 32,
@@ -3022,6 +3022,21 @@
         },
         {
           "rank": 19,
+          "id": "ms-4258826",
+          "brand": "버튼서울",
+          "name": "베이직 라인 나일론 스트링 팬츠 (블랙)",
+          "price": 82000,
+          "originalPrice": 82000,
+          "discountRate": 30,
+          "finalPrice": 57400,
+          "category": "003004",
+          "categoryLabel": "트레이닝/조거",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240718/4258826/4258826_17246350067348_500.png",
+          "productUrl": "https://www.musinsa.com/products/4258826",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
           "id": "ms-6079609",
           "brand": "블랙몬스터핏",
           "name": "쿨 텐션 세미 와이드 카고 팬츠(3 color)",
@@ -3034,21 +3049,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260304/6079609/6079609_17726076637435_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6079609",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-5308542",
-          "brand": "고스트리퍼블릭",
-          "name": "커브드 사이드 핀턱 벌룬 스웨트팬츠 GLP-650_블랙",
-          "price": 54900,
-          "originalPrice": 54900,
-          "discountRate": 30,
-          "finalPrice": 38500,
-          "category": "003004",
-          "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250811/5308542/5308542_17560976834295_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5308542",
-          "displayGenderText": "공용"
         }
       ]
     },
