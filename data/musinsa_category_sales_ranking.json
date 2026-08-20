@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T04:59:27.360640+00:00",
+  "updatedAt": "2026-08-20T05:26:27.758790+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -3022,21 +3022,6 @@
         },
         {
           "rank": 19,
-          "id": "ms-4258826",
-          "brand": "버튼서울",
-          "name": "[여름용] 베이직 라인 나일론 스트링 팬츠 (블랙)",
-          "price": 82000,
-          "originalPrice": 82000,
-          "discountRate": 30,
-          "finalPrice": 57400,
-          "category": "003004",
-          "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240718/4258826/4258826_17246350067348_500.png",
-          "productUrl": "https://www.musinsa.com/products/4258826",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
           "id": "ms-6079609",
           "brand": "블랙몬스터핏",
           "name": "쿨 텐션 세미 와이드 카고 팬츠(3 color)",
@@ -3049,6 +3034,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260304/6079609/6079609_17726076637435_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6079609",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5308542",
+          "brand": "고스트리퍼블릭",
+          "name": "커브드 사이드 핀턱 벌룬 스웨트팬츠 GLP-650_블랙",
+          "price": 54900,
+          "originalPrice": 54900,
+          "discountRate": 30,
+          "finalPrice": 38500,
+          "category": "003004",
+          "categoryLabel": "트레이닝/조거",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250811/5308542/5308542_17560976834295_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5308542",
+          "displayGenderText": "공용"
         }
       ]
     },

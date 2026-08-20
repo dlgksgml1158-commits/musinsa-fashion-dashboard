@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T04:59:16.152060+00:00",
+  "updatedAt": "2026-08-20T05:26:19.981164+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 54820,
+        "avg": 54570,
         "min": 19010,
         "max": 118990,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 26
       },
       "female": {
-        "avg": 58772,
+        "avg": 58272,
         "min": 19010,
         "max": 109000,
         "count": 30
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 46179,
+        "avg": 45679,
         "min": 9900,
         "max": 231990,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 36
       },
       "female": {
-        "avg": 55087,
+        "avg": 53724,
         "min": 9900,
         "max": 231990,
         "count": 22
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101778",
+          "id": "ms-101764",
           "brand": "",
           "name": "",
           "price": null,
@@ -2911,22 +2911,22 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 60890,
+        "avg": 60704,
         "min": 9900,
         "max": 159200,
         "count": 60
       },
       "male": {
-        "avg": 51672,
+        "avg": 50709,
         "min": 15900,
         "max": 109000,
         "count": 22
       },
       "female": {
-        "avg": 71115,
+        "avg": 69914,
         "min": 27900,
         "max": 159200,
-        "count": 25
+        "count": 26
       },
       "items": [
         {
@@ -3156,21 +3156,6 @@
         },
         {
           "rank": 16,
-          "id": "ms-4258827",
-          "brand": "버튼서울",
-          "name": "[여름용] 베이직 라인 나일론 스트링 팬츠 (그레이)",
-          "price": 82000,
-          "originalPrice": 82000,
-          "discountRate": 30,
-          "finalPrice": 57400,
-          "category": "003004",
-          "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240718/4258827/4258827_17246350760928_500.png",
-          "productUrl": "https://www.musinsa.com/products/4258827",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 17,
           "id": "ms-6884633",
           "brand": "앨빈클로",
           "name": "[DELUXE] 히든 배색 지퍼 팬츠 DLX3008 (4COLOR)",
@@ -3185,7 +3170,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5259101",
           "brand": "유희",
           "name": "YOUHEETIC HOTFIX SWEATPANTS WHITE",
@@ -3200,7 +3185,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-4702364",
           "brand": "엑스컨테이너",
           "name": "사이드 라인 나일론 트랙 팬츠 (BLACK)",
@@ -3215,7 +3200,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5308542",
           "brand": "고스트리퍼블릭",
           "name": "커브드 사이드 핀턱 벌룬 스웨트팬츠 GLP-650_블랙",
@@ -3228,6 +3213,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250811/5308542/5308542_17560976834295_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5308542",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4030322",
+          "brand": "웬즈데이오아시스",
+          "name": "에센셜 라인 트랙 팬츠(4color)",
+          "price": 79000,
+          "originalPrice": 79000,
+          "discountRate": 10,
+          "finalPrice": 71100,
+          "category": "003004",
+          "categoryLabel": "트레이닝/조거",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240405/4030322/4030322_17521171089069_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4030322",
+          "displayGenderText": "남성"
         }
       ]
     },
