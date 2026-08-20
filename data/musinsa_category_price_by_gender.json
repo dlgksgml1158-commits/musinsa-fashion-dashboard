@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2026-08-20T14:05:11.007745+00:00",
+  "updatedAt": "2026-08-20T15:00:25.876287+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 41032,
+        "avg": 41199,
         "min": 9990,
         "max": 105990,
         "count": 60
       },
       "male": {
-        "avg": 39326,
+        "avg": 39543,
         "min": 9990,
         "max": 100000,
         "count": 23
       },
       "female": {
-        "avg": 44479,
+        "avg": 44679,
         "min": 16920,
         "max": 105990,
         "count": 25
@@ -224,8 +224,8 @@
           "name": "3-버튼 헨리넥 오버핏 반팔 티셔츠 - 2color",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 50,
-          "finalPrice": 24900,
+          "discountRate": 40,
+          "finalPrice": 29900,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260602/6590793/6590793_17821814714602_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101764",
+          "id": "ms-101751",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,13 +2265,13 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 63251,
+        "avg": 63384,
         "min": 19900,
         "max": 170100,
         "count": 60
       },
       "male": {
-        "avg": 63667,
+        "avg": 63917,
         "min": 19900,
         "max": 170100,
         "count": 32
