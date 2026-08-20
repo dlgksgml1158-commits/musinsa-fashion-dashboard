@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T17:20:34.682974+00:00",
+  "updatedAt": "2026-08-20T17:52:13.517759+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1512,18 +1512,18 @@
         },
         {
           "rank": 20,
-          "id": "ms-5025534",
-          "brand": "커스텀어클락",
-          "name": "린넨 오버핏 롱 슬리브 셔츠 5 COLOR COOSSH192",
-          "price": 62000,
-          "originalPrice": 62000,
-          "discountRate": 68,
-          "finalPrice": 19900,
+          "id": "ms-5978170",
+          "brand": "에잇세컨즈",
+          "name": "져지 믹스 셔츠  블랙",
+          "price": 49900,
+          "originalPrice": 49900,
+          "discountRate": 73,
+          "finalPrice": 13680,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250414/5025534/5025534_17799299745333_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5025534",
-          "displayGenderText": "남성"
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260204/5978170/5978170_17840662911525_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5978170",
+          "displayGenderText": "여성"
         }
       ]
     },
@@ -1682,6 +1682,21 @@
         },
         {
           "rank": 11,
+          "id": "ms-6203854",
+          "brand": "언탭트 스튜디오",
+          "name": "워셔블 쿨 코튼 핸리넥 라운드 반팔 니트 5COLOR",
+          "price": 42700,
+          "originalPrice": 42700,
+          "discountRate": 32,
+          "finalPrice": 28830,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260326/6203854/6203854_17745123810080_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6203854",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 12,
           "id": "ms-6263413",
           "brand": "알리스",
           "name": "[오정규 x 알리스] 쿨 코튼 레이어드 헨리넥 크롭 하프 니트_2COLOR",
@@ -1696,7 +1711,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-5978421",
           "brand": "에잇세컨즈",
           "name": "배색 칼라 풀오버  네이비",
@@ -1711,7 +1726,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-5979041",
           "brand": "에잇세컨즈",
           "name": "배색 칼라 풀오버  애쉬",
@@ -1724,21 +1739,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260204/5979041/5979041_17840671283512_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5979041",
           "displayGenderText": "여성"
-        },
-        {
-          "rank": 14,
-          "id": "ms-6203854",
-          "brand": "언탭트 스튜디오",
-          "name": "워셔블 쿨 코튼 핸리넥 라운드 반팔 니트 5COLOR",
-          "price": 42700,
-          "originalPrice": 42700,
-          "discountRate": 32,
-          "finalPrice": 28830,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260326/6203854/6203854_17745123810080_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6203854",
-          "displayGenderText": "남성"
         },
         {
           "rank": 15,
@@ -2887,21 +2887,6 @@
         },
         {
           "rank": 10,
-          "id": "ms-5170138",
-          "brand": "파르티멘토 우먼",
-          "name": "PWC 에브리데이 벌룬 조거 팬츠_18컬러",
-          "price": 53000,
-          "originalPrice": 53000,
-          "discountRate": 10,
-          "finalPrice": 47700,
-          "category": "003004",
-          "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250606/5170138/5170138_17707144153582_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5170138",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 11,
           "id": "ms-1551840",
           "brand": "제로",
           "name": "Deep One Tuck Sweat Pants [Grey]",
@@ -2914,6 +2899,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20200818/1551840/1551840_1_500.jpg",
           "productUrl": "https://www.musinsa.com/products/1551840",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 11,
+          "id": "ms-5170138",
+          "brand": "파르티멘토 우먼",
+          "name": "PWC 에브리데이 벌룬 조거 팬츠_18컬러",
+          "price": 53000,
+          "originalPrice": 53000,
+          "discountRate": 10,
+          "finalPrice": 47700,
+          "category": "003004",
+          "categoryLabel": "트레이닝/조거",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250606/5170138/5170138_17707144153582_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5170138",
+          "displayGenderText": "여성"
         },
         {
           "rank": 12,
