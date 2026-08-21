@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T17:20:32.543246+00:00",
+  "updatedAt": "2026-08-21T17:51:50.211846+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1347,21 +1347,6 @@
         },
         {
           "rank": 9,
-          "id": "ms-4908168",
-          "brand": "일리고",
-          "name": "리본 타이 스퀘어넥 블라우스 그레이",
-          "price": 74000,
-          "originalPrice": 74000,
-          "discountRate": 8,
-          "finalPrice": 68000,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250317/4908168/4908168_17785540302755_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4908168",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 10,
           "id": "ms-3791891",
           "brand": "필루미네이트",
           "name": "[오정규 PICK] 오버핏 포레스트 체크 셔츠-블랙",
@@ -1376,7 +1361,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-1458788",
           "brand": "다이아몬드 레이라",
           "name": "Poly Overfit Shirt S37-2 Sky Blue",
@@ -1391,7 +1376,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-2357716",
           "brand": "다이아몬드 레이라",
           "name": "Easy Care Authentic Dress Shirt AS1 Sky Blue",
@@ -1404,6 +1389,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20220214/2357716/2357716_17192836545561_500.jpg",
           "productUrl": "https://www.musinsa.com/products/2357716",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 12,
+          "id": "ms-4908168",
+          "brand": "일리고",
+          "name": "리본 타이 스퀘어넥 블라우스 그레이",
+          "price": 74000,
+          "originalPrice": 74000,
+          "discountRate": 8,
+          "finalPrice": 68000,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250317/4908168/4908168_17785540302755_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4908168",
+          "displayGenderText": "여성"
         },
         {
           "rank": 13,
@@ -1727,6 +1727,21 @@
         },
         {
           "rank": 14,
+          "id": "ms-5978421",
+          "brand": "에잇세컨즈",
+          "name": "배색 칼라 풀오버  네이비",
+          "price": 54900,
+          "originalPrice": 54900,
+          "discountRate": 77,
+          "finalPrice": 12870,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260204/5978421/5978421_17840671625619_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5978421",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 15,
           "id": "ms-6234189",
           "brand": "드로우핏",
           "name": "앤더슨 코튼 폴로 하프 니트 [4color]",
@@ -1741,7 +1756,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-4388024",
           "brand": "더니트컴퍼니",
           "name": "워셔블 코튼 크루넥 니트 12color",
@@ -1756,7 +1771,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-6109249",
           "brand": "마인드브릿지",
           "name": "[스토커즈 콜라보] [ON]워셔블 케이블 카라 반팔 니트 - 2color",
@@ -1771,7 +1786,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-6204461",
           "brand": "언탭트 스튜디오",
           "name": "쿨 라이크 린넨 크로쉐 라운드 반팔 니트 5COLOR",
@@ -1786,7 +1801,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-5023733",
           "brand": "편마",
           "name": "Cotton Short Sleeve Polo Knit - 6color",
@@ -1801,7 +1816,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-5920207",
           "brand": "에잇세컨즈",
           "name": "텍스트 자카드 라운드 풀오버  라이트 핑크",
@@ -1814,21 +1829,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260121/5920207/5920207_17840593426446_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5920207",
           "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6271294",
-          "brand": "드릭스",
-          "name": "워셔블 린넨 머슬핏 헨리넥 하프 니트_5color",
-          "price": 53000,
-          "originalPrice": 53000,
-          "discountRate": 38,
-          "finalPrice": 32990,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260407/6271294/6271294_17812501243174_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6271294",
-          "displayGenderText": "남성"
         }
       ]
     },
