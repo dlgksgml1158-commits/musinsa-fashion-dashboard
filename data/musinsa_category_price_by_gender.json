@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-08-21T11:13:54.874398+00:00",
+  "updatedAt": "2026-08-21T11:48:16.190578+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 41052,
+        "avg": 40904,
         "min": 9990,
         "max": 105990,
         "count": 60
       },
       "male": {
-        "avg": 40136,
+        "avg": 40069,
         "min": 9990,
         "max": 100000,
         "count": 25
       },
       "female": {
-        "avg": 45536,
-        "min": 16910,
+        "avg": 45516,
+        "min": 16430,
         "max": 105990,
         "count": 25
       },
@@ -164,8 +164,8 @@
           "name": "보트넥 7부 티셔츠_MIWHWG910A",
           "price": 19900,
           "originalPrice": 19900,
-          "discountRate": 15,
-          "finalPrice": 16910,
+          "discountRate": 17,
+          "finalPrice": 16430,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967421/6967421_17854745571965_500.jpg",
@@ -194,8 +194,8 @@
           "name": "Girl Stress Nutrition 레이어드 롤업 반팔티셔츠 네이비",
           "price": 45000,
           "originalPrice": 45000,
-          "discountRate": 15,
-          "finalPrice": 38250,
+          "discountRate": 30,
+          "finalPrice": 31500,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260714/6839271/6839271_17846222147803_500.jpg",
@@ -973,14 +973,14 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 66957,
+        "avg": 66942,
         "min": 17770,
         "max": 185540,
         "count": 60
       },
       "male": {
-        "avg": 77922,
-        "min": 30630,
+        "avg": 77865,
+        "min": 29710,
         "max": 181990,
         "count": 16
       },
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-102534",
+          "id": "ms-101751",
           "brand": "",
           "name": "",
           "price": null,
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 42184,
+        "avg": 42154,
         "min": 19900,
         "max": 150000,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 28
       },
       "female": {
-        "avg": 43657,
+        "avg": 43581,
         "min": 20490,
         "max": 107100,
         "count": 24
@@ -3409,8 +3409,8 @@
           "name": "Latch Micro Belt Shorts (BLACK)",
           "price": 98000,
           "originalPrice": 98000,
-          "discountRate": 38,
-          "finalPrice": 60370,
+          "discountRate": 40,
+          "finalPrice": 58560,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250911/5442400/5442400_17817596058507_500.jpg",
