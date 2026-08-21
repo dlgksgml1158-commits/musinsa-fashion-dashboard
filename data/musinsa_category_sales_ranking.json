@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T17:51:50.211846+00:00",
+  "updatedAt": "2026-08-21T18:17:20.499125+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -797,21 +797,6 @@
         },
         {
           "rank": 13,
-          "id": "ms-2729592",
-          "brand": "챔피온",
-          "name": "C로고 크루넥 스웨트셔츠 Normal Grey",
-          "price": 79000,
-          "originalPrice": 79000,
-          "discountRate": 35,
-          "finalPrice": 51300,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20220819/2729592/2729592_17429694640776_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/2729592",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 14,
           "id": "ms-5490456",
           "brand": "포스333",
           "name": "Miraculum Bascinet Sweatshirt/Black",
@@ -826,7 +811,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-3095251",
           "brand": "플래니트",
           "name": "ICE LITE 벌크업 맨투맨",
@@ -841,7 +826,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6951167",
           "brand": "디미트리블랙",
           "name": "[10주년기획] © 모두의 소프트 터치 맨투맨 (래글런 배색)_2 COLOR",
@@ -856,7 +841,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-4693921",
           "brand": "와키윌리",
           "name": "우먼스 빅릴리 그래픽 맨투맨 라이트그레이",
@@ -871,7 +856,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-3052851",
           "brand": "챔피온",
           "name": "여성 리버스위브 프렌치테리 스웨트셔츠 Normal Yellow",
@@ -884,6 +869,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230201/3052851/3052851_17471927939598_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3052851",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 18,
+          "id": "ms-2729592",
+          "brand": "챔피온",
+          "name": "C로고 크루넥 스웨트셔츠 Normal Grey",
+          "price": 79000,
+          "originalPrice": 79000,
+          "discountRate": 35,
+          "finalPrice": 51300,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20220819/2729592/2729592_17429694640776_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/2729592",
+          "displayGenderText": "남성"
         },
         {
           "rank": 19,
@@ -2017,21 +2017,6 @@
         },
         {
           "rank": 13,
-          "id": "ms-5907643",
-          "brand": "아디다스",
-          "name": "파이어버드 트랙탑 - 나이트인디고 / KD8313",
-          "price": 119000,
-          "originalPrice": 119000,
-          "discountRate": 10,
-          "finalPrice": 107100,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260119/5907643/5907643_17688015122893_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5907643",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 14,
           "id": "ms-5930123",
           "brand": "스웨이드",
           "name": "CROPPED WASHED HOOD ZIP UP [WASHING NAVY]",
@@ -2046,7 +2031,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-5943431",
           "brand": "아디다스",
           "name": "와플 클래식 트랙탑 - 원더화이트 / KQ6864",
@@ -2061,7 +2046,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-4356794",
           "brand": "무신사 스탠다드",
           "name": "[시티 레저] 후디드 라이트 다운 재킷 [블랙]",
@@ -2076,7 +2061,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6052415",
           "brand": "아디다스",
           "name": "데님 파이어버드 트랙탑 - 블루 / KD1517",
@@ -2091,7 +2076,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5329384",
           "brand": "플레이스 스튜디오",
           "name": "[리뉴얼] 하이넥 스탠다드 스트랩 비조 포인트 블루종 집업 자켓 [블랙]",
@@ -2106,7 +2091,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5162178",
           "brand": "무신사 스탠다드 우먼",
           "name": "[시티 레저] 우먼즈 후디드 라이트 다운 재킷 [스톤 화이트]",
@@ -2121,7 +2106,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6970489",
           "brand": "트릴리온",
           "name": "빈티지 워시드 크롭 해링턴 자켓_4color",
@@ -2133,6 +2118,21 @@
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6970489/6970489_17866046628060_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6970489",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-3822895",
+          "brand": "유니폼브릿지",
+          "name": "casual sports wind jacket black",
+          "price": 239000,
+          "originalPrice": 239000,
+          "discountRate": 71,
+          "finalPrice": 69000,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240125/3822895/3822895_17169658523602_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3822895",
           "displayGenderText": "남성"
         }
       ]
@@ -2872,21 +2872,6 @@
         },
         {
           "rank": 9,
-          "id": "ms-5931114",
-          "brand": "아디다스",
-          "name": "배기 트랙 팬츠 - 블랙:화이트 / KE3501",
-          "price": 119000,
-          "originalPrice": 119000,
-          "discountRate": 30,
-          "finalPrice": 82990,
-          "category": "003004",
-          "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260123/5931114/5931114_17694046068966_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5931114",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 10,
           "id": "ms-5170138",
           "brand": "파르티멘토 우먼",
           "name": "PWC 에브리데이 벌룬 조거 팬츠_18컬러",
@@ -2901,7 +2886,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-5329566",
           "brand": "아디다스",
           "name": "BB 트랙 팬츠 - 나이트스카이 / KC9302",
@@ -2916,7 +2901,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-7051974",
           "brand": "디미트리블랙",
           "name": "VLAD 원턱 커브드 트랙 팬츠_(3심볼 저지) 3 COLOR",
@@ -2931,7 +2916,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-5367961",
           "brand": "디미트리블랙",
           "name": "VLAD 원턱 커브드 트랙 스웻 팬츠_피그먼트 차콜",
@@ -2946,7 +2931,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-4258826",
           "brand": "버튼서울",
           "name": "베이직 라인 나일론 스트링 팬츠 (블랙)",
@@ -2961,7 +2946,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-5915428",
           "brand": "시그니처",
           "name": "사이드턱 커브드 트레이닝 팬츠[3COLORS]",
@@ -2976,7 +2961,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6506580",
           "brand": "스웨이드",
           "name": "SUGARLAND SWEAT PANTS [BLUE]",
@@ -2991,7 +2976,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-3467384",
           "brand": "에이지오디",
           "name": "와이드 빅포켓 코튼 카고 밴딩 팬츠 [카키]",
@@ -3003,6 +2988,21 @@
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230816/3467384/3467384_17665604847201_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3467384",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 17,
+          "id": "ms-5931114",
+          "brand": "아디다스",
+          "name": "배기 트랙 팬츠 - 블랙:화이트 / KE3501",
+          "price": 119000,
+          "originalPrice": 119000,
+          "discountRate": 30,
+          "finalPrice": 82990,
+          "category": "003004",
+          "categoryLabel": "트레이닝/조거",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260123/5931114/5931114_17694046068966_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5931114",
           "displayGenderText": "남성"
         },
         {
@@ -3102,21 +3102,6 @@
         },
         {
           "rank": 4,
-          "id": "ms-6123590",
-          "brand": "아디다스",
-          "name": "파이어버드 클래식 숏 팬츠 - 블랙:화이트 / KD5569",
-          "price": 55000,
-          "originalPrice": 55000,
-          "discountRate": 15,
-          "finalPrice": 46950,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260312/6123590/6123590_17733672294187_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6123590",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 5,
           "id": "ms-6164608",
           "brand": "아모우",
           "name": "Horse One Tuck Bermuda Pants Blue",
@@ -3131,7 +3116,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "id": "ms-3300764",
           "brand": "챔피온",
           "name": "헤리티지 클래식 프렌치테리 스웨트 숏팬츠 Black",
@@ -3144,6 +3129,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230517/3300764/3300764_17470084552903_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3300764",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 6,
+          "id": "ms-6123590",
+          "brand": "아디다스",
+          "name": "파이어버드 클래식 숏 팬츠 - 블랙:화이트 / KD5569",
+          "price": 55000,
+          "originalPrice": 55000,
+          "discountRate": 15,
+          "finalPrice": 46950,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260312/6123590/6123590_17733672294187_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6123590",
+          "displayGenderText": "여성"
         },
         {
           "rank": 7,
