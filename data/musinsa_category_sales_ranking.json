@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T22:46:38.873012+00:00",
+  "updatedAt": "2026-08-21T23:11:04.348233+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1727,21 +1727,6 @@
         },
         {
           "rank": 14,
-          "id": "ms-5978421",
-          "brand": "에잇세컨즈",
-          "name": "배색 칼라 풀오버  네이비",
-          "price": 54900,
-          "originalPrice": 54900,
-          "discountRate": 77,
-          "finalPrice": 12870,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260204/5978421/5978421_17840671625619_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5978421",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 15,
           "id": "ms-6234189",
           "brand": "드로우핏",
           "name": "앤더슨 코튼 폴로 하프 니트 [4color]",
@@ -1756,7 +1741,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-4388024",
           "brand": "더니트컴퍼니",
           "name": "워셔블 코튼 크루넥 니트 12color",
@@ -1771,7 +1756,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6109249",
           "brand": "마인드브릿지",
           "name": "[스토커즈 콜라보] [ON]워셔블 케이블 카라 반팔 니트 - 2color",
@@ -1786,7 +1771,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6204461",
           "brand": "언탭트 스튜디오",
           "name": "쿨 라이크 린넨 크로쉐 라운드 반팔 니트 5COLOR",
@@ -1801,7 +1786,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5023733",
           "brand": "편마",
           "name": "Cotton Short Sleeve Polo Knit - 6color",
@@ -1816,7 +1801,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6271294",
           "brand": "드릭스",
           "name": "워셔블 린넨 머슬핏 헨리넥 하프 니트_5color",
@@ -1828,6 +1813,21 @@
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260407/6271294/6271294_17812501243174_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6271294",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5114507",
+          "brand": "워크온바디오프",
+          "name": "이지온 세미 오버핏 스트라이프 / 솔리드 카라 반팔 니트 (5color)",
+          "price": 43000,
+          "originalPrice": 43000,
+          "discountRate": 40,
+          "finalPrice": 25600,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250515/5114507/5114507_17800244963493_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5114507",
           "displayGenderText": "남성"
         }
       ]
