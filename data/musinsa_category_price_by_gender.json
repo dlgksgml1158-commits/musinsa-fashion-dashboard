@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T15:28:03.149223+00:00",
+  "updatedAt": "2026-08-21T15:56:59.386851+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101772",
+          "id": "ms-102358",
           "brand": "",
           "name": "",
           "price": null,
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 57780,
+        "avg": 58056,
         "min": 9900,
         "max": 159200,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 18
       },
       "female": {
-        "avg": 65150,
+        "avg": 65742,
         "min": 13680,
         "max": 159200,
         "count": 28
@@ -2996,8 +2996,8 @@
           "name": "폴딩 트윌 아일렛 트레이닝 롱팬츠 그레이",
           "price": 83000,
           "originalPrice": 83000,
-          "discountRate": 20,
-          "finalPrice": 66400,
+          "discountRate": 0,
+          "finalPrice": 83000,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260722/6901447/6901447_17851302315715_500.jpg",
