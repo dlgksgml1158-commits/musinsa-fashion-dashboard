@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T03:26:44.569062+00:00",
+  "updatedAt": "2026-08-21T04:07:30.764858+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,22 +327,22 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 48706,
+        "avg": 48943,
         "min": 6320,
         "max": 130000,
         "count": 60
       },
       "male": {
-        "avg": 59413,
+        "avg": 61521,
         "min": 12900,
         "max": 127800,
-        "count": 15
+        "count": 14
       },
       "female": {
-        "avg": 42916,
+        "avg": 42947,
         "min": 6320,
         "max": 108000,
-        "count": 37
+        "count": 38
       },
       "items": [
         {
@@ -467,6 +467,21 @@
         },
         {
           "rank": 9,
+          "id": "ms-6780851",
+          "brand": "108파운드",
+          "name": "Dusty Raglan Tee_Melange Gray",
+          "price": 49000,
+          "originalPrice": 49000,
+          "discountRate": 10,
+          "finalPrice": 44100,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260703/6780851/6780851_17865973804827_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6780851",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 10,
           "id": "ms-7033295",
           "brand": "쿠어",
           "name": "소프트 브러쉬드 멀티핀 스트라이프 티셔츠 (차콜)",
@@ -481,7 +496,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-3792319",
           "brand": "피지컬 디파트먼트",
           "name": "나일론 사커 롱슬리브_다크 블루",
@@ -496,7 +511,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-7032096",
           "brand": "쏘비",
           "name": "세미크롭 bump post 긴팔티 [네이비]",
@@ -511,7 +526,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-6812676",
           "brand": "살로몬",
           "name": "펄스웨이브 메쉬 롱 슬리브_LD0415000",
@@ -526,7 +541,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-6951158",
           "brand": "디미트리블랙",
           "name": "[10주년기획] ⓒ 모두의 수소봉제 긴팔 티셔츠_스트라이프 2 COLOR",
@@ -541,7 +556,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-6851209",
           "brand": "언타이틀 서울",
           "name": "싱글 유니콘 헨리넥 롱슬리브 그레이",
@@ -556,7 +571,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-6916604",
           "brand": "미쏘",
           "name": "나그랑 그래픽 티셔츠_MIWLWG944A",
@@ -571,7 +586,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-6595807",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 CR 스트라이프 릴렉스드 긴소매 티셔츠 [라이트 그레이]",
@@ -586,7 +601,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-6965879",
           "brand": "무드인사이드 우먼",
           "name": "(woman) 인시전 헨리넥 포켓 롱슬리브_8Color",
@@ -601,7 +616,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-5126930",
           "brand": "바니쉬먼트",
           "name": "Summer vacation long sleeve tee_melange gray",
@@ -616,7 +631,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-6914789",
           "brand": "미쏘",
           "name": "홀터 레이어드 긴팔 티셔츠_MIWLWG911A",
@@ -629,21 +644,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260724/6914789/6914789_17872780352056_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6914789",
           "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6851212",
-          "brand": "언타이틀 서울",
-          "name": "싱글 유니콘 헨리넥 롱슬리브 라이트 민트",
-          "price": 59000,
-          "originalPrice": 59000,
-          "discountRate": 20,
-          "finalPrice": 47200,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260715/6851212/6851212_17863385184816_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6851212",
-          "displayGenderText": "공용"
         }
       ]
     },
@@ -973,22 +973,22 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 67003,
+        "avg": 67422,
         "min": 17770,
         "max": 185540,
         "count": 60
       },
       "male": {
-        "avg": 74751,
+        "avg": 76408,
         "min": 21800,
         "max": 181990,
-        "count": 16
+        "count": 15
       },
       "female": {
-        "avg": 58246,
+        "avg": 58868,
         "min": 17770,
         "max": 125300,
-        "count": 26
+        "count": 27
       },
       "items": [
         {
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 58473,
+        "avg": 59010,
         "min": 19900,
         "max": 162000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 23
       },
       "female": {
-        "avg": 55887,
+        "avg": 56961,
         "min": 19900,
         "max": 109000,
         "count": 30
@@ -1316,6 +1316,21 @@
       "items": [
         {
           "rank": 1,
+          "id": "ms-6797005",
+          "brand": "108파운드",
+          "name": "Days Comfort Fit Shirt_White",
+          "price": 89000,
+          "originalPrice": 89000,
+          "discountRate": 10,
+          "finalPrice": 80100,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260707/6797005/6797005_17852305721496_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6797005",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 2,
           "id": "ms-6777736",
           "brand": "무신사 스탠다드",
           "name": "[SSG랜더스 컬래버] 피그먼트 다이드 베이스볼 셔츠 [차콜 그레이]",
@@ -1330,7 +1345,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "id": "ms-6957693",
           "brand": "일꼬르소",
           "name": "시어서커 하드 트위스트 체크 셔츠 블랙",
@@ -1345,7 +1360,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "id": "ms-6896595",
           "brand": "에잇세컨즈",
           "name": "체크 라운드칼라 블라우스  와인",
@@ -1360,7 +1375,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "id": "ms-6951157",
           "brand": "디미트리블랙",
           "name": "[10주년기획] © 모두의 데일리 런드리 셔츠_7 COLOR",
@@ -1375,7 +1390,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "id": "ms-6961628",
           "brand": "에트오소메",
           "name": "Jacquard Corset Line Pocket Shirt (Black)",
@@ -1390,7 +1405,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "id": "ms-5661658",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 체크 텍스처드 베이비 돌 블라우스 [블랙]",
@@ -1405,7 +1420,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "id": "ms-5128595",
           "brand": "시스에이",
           "name": "레이어드 컷아웃 체크 하프 셔츠 [purple]",
@@ -1420,7 +1435,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "id": "ms-5097587",
           "brand": "다이아몬드 레이라",
           "name": "Crepe Beach Cover-Up S178 Shadow Black",
@@ -1435,7 +1450,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-6697352",
           "brand": "하이스쿨디스코",
           "name": "더블버튼 퍼프소매 블라우스_화이트",
@@ -1450,7 +1465,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-6652172",
           "brand": "미쏘",
           "name": "언발란스 스트라이프 셔츠_MIWYAG727G",
@@ -1465,7 +1480,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-5002044",
           "brand": "튜드먼트",
           "name": "POLKA DOT PUFF SLEEVE BLOUSE WHITE",
@@ -1480,7 +1495,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-7033441",
           "brand": "쿠어",
           "name": "윈도우페인 체크 셔츠 (블랙)",
@@ -1495,7 +1510,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-6401724",
           "brand": "알리스",
           "name": "웨스턴 리니어 솔리드 크롭 하프 셔츠 [화이트]",
@@ -1510,7 +1525,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-6591029",
           "brand": "마인드브릿지 우먼",
           "name": "[W]핀턱 타이 화이트 반팔 블라우스",
@@ -1525,7 +1540,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-6103340",
           "brand": "마인드브릿지",
           "name": "[COUTURE]나일론 오버핏 포켓 반팔 셔츠 - 2color",
@@ -1540,7 +1555,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-5661656",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 체크 텍스처드 베이비 돌 블라우스 [화이트]",
@@ -1555,7 +1570,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-6317272",
           "brand": "페이지플린",
           "name": "카라버튼랩블라우스_P6BBL003C",
@@ -1570,7 +1585,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-5095362",
           "brand": "지오다노",
           "name": "[변우석착용] 시어서커 체크 셔츠 045514 [8color]",
@@ -1585,7 +1600,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-4118673",
           "brand": "르아르",
           "name": "시어서커 썸머 체크 셔츠 [LE05 그레이]",
@@ -1598,21 +1613,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240509/4118673/4118673_17532547354382_500.png",
           "productUrl": "https://www.musinsa.com/products/4118673",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-3181007",
-          "brand": "다이아몬드 레이라",
-          "name": "Stitch Stripe Shirt S114  Elephant Ivory",
-          "price": 85000,
-          "originalPrice": 85000,
-          "discountRate": 10,
-          "finalPrice": 76500,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230327/3181007/3181007_17198124880409_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3181007",
-          "displayGenderText": "공용"
         }
       ]
     },
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101777",
+          "id": "ms-102534",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,22 +2265,22 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 63501,
+        "avg": 64404,
         "min": 16930,
         "max": 159000,
         "count": 60
       },
       "male": {
-        "avg": 69090,
+        "avg": 71465,
         "min": 19900,
         "max": 159000,
-        "count": 27
+        "count": 25
       },
       "female": {
-        "avg": 60397,
+        "avg": 60850,
         "min": 16930,
         "max": 149000,
-        "count": 25
+        "count": 27
       },
       "items": [
         {
@@ -2588,13 +2588,13 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 47102,
+        "avg": 46621,
         "min": 9900,
         "max": 168000,
         "count": 60
       },
       "male": {
-        "avg": 51997,
+        "avg": 51294,
         "min": 11820,
         "max": 168000,
         "count": 41
@@ -2758,21 +2758,6 @@
         },
         {
           "rank": 11,
-          "id": "ms-5416068",
-          "brand": "르아르",
-          "name": "스트라이프 커브드 핀턱 슬랙스 [차콜]",
-          "price": 87000,
-          "originalPrice": 87000,
-          "discountRate": 32,
-          "finalPrice": 59000,
-          "category": "003008",
-          "categoryLabel": "슬랙스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250908/5416068/5416068_17586080106438_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5416068",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 12,
           "id": "ms-1960628",
           "brand": "무신사 스탠다드 우먼",
           "name": "[쿨탠다드] 우먼즈 와이드 히든 밴딩 슬랙스 [블랙]",
@@ -2787,7 +2772,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-3254294",
           "brand": "효지",
           "name": "[여름] 커스터마이징 롱 세미와이드 슬랙스 (4컬러)",
@@ -2802,7 +2787,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-1312128",
           "brand": "무신사 스탠다드",
           "name": "라이트웨이트 리얼 와이드 히든 밴딩 슬랙스 [차콜 그레이]",
@@ -2817,7 +2802,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6411909",
           "brand": "워크온바디오프",
           "name": "[여름] 오베르 와이드 투턱 슬랙스 [그레이]",
@@ -2832,7 +2817,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-5945210",
           "brand": "디미트리블랙",
           "name": "[10주년기획] © 모두의 밴딩 커브드 슬랙스_3 COLOR",
@@ -2847,7 +2832,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-5336697",
           "brand": "라이크더모스트",
           "name": "우먼 스판 히든 세미 부츠컷 슬랙스_차콜",
@@ -2862,7 +2847,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6550870",
           "brand": "스파오",
           "name": "데님라이크 와이드 슬랙스_SPTAG25W12",
@@ -2877,7 +2862,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6544339",
           "brand": "프렌치시크",
           "name": "[냉감소재] [인생360] [3단기장]폴딩 핀턱 와이드 슬랙스_F6H425SL",
@@ -2892,7 +2877,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-3823268",
           "brand": "무신사 스탠다드 우먼",
           "name": "[쿨탠다드] 우먼즈 원 턱 와이드 밴딩 슬랙스 [블랙]",
@@ -2905,6 +2890,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240125/3823268/3823268_17116181933881_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3823268",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-3134698",
+          "brand": "무신사 스탠다드",
+          "name": "[쿨탠다드] 원 턱 와이드 밴딩 슬랙스 [블랙]",
+          "price": 59900,
+          "originalPrice": 59900,
+          "discountRate": 50,
+          "finalPrice": 29990,
+          "category": "003008",
+          "categoryLabel": "슬랙스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20230309/3134698/3134698_17516088971899_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3134698",
+          "displayGenderText": "남성"
         }
       ]
     },
