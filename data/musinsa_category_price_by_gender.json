@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T15:56:59.386851+00:00",
+  "updatedAt": "2026-08-21T16:20:37.498623+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 60549,
+        "avg": 60298,
         "min": 7900,
         "max": 246050,
         "count": 60
@@ -662,8 +662,8 @@
         "count": 12
       },
       "female": {
-        "avg": 67952,
-        "min": 24170,
+        "avg": 67449,
+        "min": 21200,
         "max": 208050,
         "count": 30
       },
@@ -930,8 +930,8 @@
           "name": "Cali Raw Cut Sweatshirt(Loose Fit) / WHMWG2291F",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 52,
-          "finalPrice": 24170,
+          "discountRate": 58,
+          "finalPrice": 21200,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260112/5884068/5884068_17768220663431_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-102358",
+          "id": "ms-101751",
           "brand": "",
           "name": "",
           "price": null,
