@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T07:13:48.229329+00:00",
+  "updatedAt": "2026-08-21T08:02:20.766135+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-102534",
+          "id": "ms-101763",
           "brand": "",
           "name": "",
           "price": null,
@@ -2911,22 +2911,22 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 57904,
+        "avg": 58781,
         "min": 9900,
         "max": 159200,
         "count": 60
       },
       "male": {
-        "avg": 45149,
+        "avg": 44950,
         "min": 19600,
         "max": 69900,
         "count": 18
       },
       "female": {
-        "avg": 66107,
+        "avg": 67296,
         "min": 13680,
         "max": 159200,
-        "count": 29
+        "count": 28
       },
       "items": [
         {
@@ -3221,8 +3221,8 @@
           "name": "[DELUXE] 히든 배색 지퍼 팬츠 DLX3008 (4COLOR)",
           "price": 76900,
           "originalPrice": 76900,
-          "discountRate": 29,
-          "finalPrice": 54790,
+          "discountRate": 33,
+          "finalPrice": 51210,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260721/6884633/6884633_17845975150643_500.jpg",
