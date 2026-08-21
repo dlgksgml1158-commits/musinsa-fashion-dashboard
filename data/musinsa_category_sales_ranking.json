@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T18:17:20.499125+00:00",
+  "updatedAt": "2026-08-21T19:03:35.620968+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -3102,21 +3102,6 @@
         },
         {
           "rank": 4,
-          "id": "ms-6164608",
-          "brand": "아모우",
-          "name": "Horse One Tuck Bermuda Pants Blue",
-          "price": 87000,
-          "originalPrice": 87000,
-          "discountRate": 66,
-          "finalPrice": 29380,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260319/6164608/6164608_17739248891438_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6164608",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 5,
           "id": "ms-3300764",
           "brand": "챔피온",
           "name": "헤리티지 클래식 프렌치테리 스웨트 숏팬츠 Black",
@@ -3128,6 +3113,21 @@
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230517/3300764/3300764_17470084552903_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3300764",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 5,
+          "id": "ms-6164608",
+          "brand": "아모우",
+          "name": "Horse One Tuck Bermuda Pants Blue",
+          "price": 87000,
+          "originalPrice": 87000,
+          "discountRate": 66,
+          "finalPrice": 29380,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260319/6164608/6164608_17739248891438_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6164608",
           "displayGenderText": "남성"
         },
         {
