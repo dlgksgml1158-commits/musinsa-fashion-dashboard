@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T06:21:20.366573+00:00",
+  "updatedAt": "2026-08-21T07:13:57.318886+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -317,8 +317,8 @@
           "name": "공용) 콜라보 레이어드 긴팔티 (블랙 크로우스)_MSF2TS3021",
           "price": 39900,
           "originalPrice": 39900,
-          "discountRate": 68,
-          "finalPrice": 12900,
+          "discountRate": 80,
+          "finalPrice": 7900,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250123/4739529/4739529_17376089401714_500.jpg",
@@ -1292,8 +1292,8 @@
           "name": "공용) 포플린 오버핏 셔츠_MSF2WC3001",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 68,
-          "finalPrice": 15900,
+          "discountRate": 83,
+          "finalPrice": 8410,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250123/4739536/4739536_17376089755075_500.jpg",
@@ -1517,8 +1517,8 @@
           "name": "남성) 포플린 워크 셔츠_MSF2WC1021",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 68,
-          "finalPrice": 15900,
+          "discountRate": 80,
+          "finalPrice": 9900,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250123/4739544/4739544_17376090282565_500.jpg",
@@ -2552,6 +2552,21 @@
         },
         {
           "rank": 8,
+          "id": "ms-2578996",
+          "brand": "시그니처",
+          "name": "더블턱 와이드 슬랙스[블랙]",
+          "price": 59000,
+          "originalPrice": 59000,
+          "discountRate": 49,
+          "finalPrice": 29900,
+          "category": "003008",
+          "categoryLabel": "슬랙스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20220524/2578996/2578996_17870331293023_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/2578996",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 9,
           "id": "ms-2032901",
           "brand": "무신사 스탠다드",
           "name": "릴렉스드 테이퍼드 히든 밴딩 크롭 슬랙스 [블랙]",
@@ -2566,7 +2581,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-5746361",
           "brand": "무신사 스탠다드",
           "name": "[이도현 PICK] 엑스트라 와이드 투 턱 히든 밴딩 슬랙스 [블랙]",
@@ -2581,7 +2596,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-2477836",
           "brand": "무신사 스탠다드",
           "name": "[쿨탠다드] 릴렉스드 테이퍼드 히든 밴딩 크롭 슬랙스 [블랙]",
@@ -2596,7 +2611,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-2518486",
           "brand": "무신사 스탠다드",
           "name": "[쿨탠다드] 와이드 히든 밴딩 슬랙스 [그레이]",
@@ -2611,7 +2626,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-1436504",
           "brand": "무신사 스탠다드",
           "name": "[쿨탠다드] 세미 와이드 히든 밴딩 슬랙스 [블랙]",
@@ -2626,7 +2641,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-5746364",
           "brand": "무신사 스탠다드",
           "name": "엑스트라 와이드 투 턱 히든 밴딩 슬랙스 [미디엄 그레이]",
@@ -2641,7 +2656,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-5328103",
           "brand": "효지",
           "name": "원턱 와이드 슬랙스 (사계절,여름-8컬러)",
@@ -2656,7 +2671,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-2568748",
           "brand": "무신사 스탠다드",
           "name": "스트레이트 히든 밴딩 슬랙스 [블랙]",
@@ -2671,7 +2686,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-5328102",
           "brand": "효지",
           "name": "투턱 세미와이드 슬랙스 (사계절,여름-8컬러)",
@@ -2686,7 +2701,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-1221497",
           "brand": "무신사 스탠다드",
           "name": "세미 와이드 슬릿 히든 밴딩 슬랙스 [블랙]",
@@ -2701,7 +2716,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-1224094",
           "brand": "무신사 스탠다드",
           "name": "세미 와이드 히든 밴딩 슬랙스 [차콜 그레이]",
@@ -2716,7 +2731,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-4750069",
           "brand": "워크온바디오프",
           "name": "(여름추가) 레베 세미 와이드 원턱 슬랙스 (2color)",
@@ -2729,21 +2744,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250203/4750069/4750069_17582668061923_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4750069",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-5820422",
-          "brand": "무신사 스탠다드 우먼",
-          "name": "[쿨탠다드] 우먼즈 로 라이즈 플레어 슬랙스 [블랙]",
-          "price": 59900,
-          "originalPrice": 59900,
-          "discountRate": 33,
-          "finalPrice": 39900,
-          "category": "003008",
-          "categoryLabel": "슬랙스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20251210/5820422/5820422_17750073158362_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5820422",
-          "displayGenderText": "여성"
         }
       ]
     },
@@ -2992,6 +2992,21 @@
         },
         {
           "rank": 17,
+          "id": "ms-5915428",
+          "brand": "시그니처",
+          "name": "사이드턱 커브드 트레이닝 팬츠[3COLORS]",
+          "price": 49900,
+          "originalPrice": 49900,
+          "discountRate": 40,
+          "finalPrice": 29900,
+          "category": "003004",
+          "categoryLabel": "트레이닝/조거",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260120/5915428/5915428_17822666533495_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5915428",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 18,
           "id": "ms-6506580",
           "brand": "스웨이드",
           "name": "SUGARLAND SWEAT PANTS [BLUE]",
@@ -3006,7 +3021,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-4258826",
           "brand": "버튼서울",
           "name": "베이직 라인 나일론 스트링 팬츠 (블랙)",
@@ -3021,7 +3036,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-3815900",
           "brand": "썸플레이스",
           "name": "포켓 카고 나일론 투웨이 스트링 밴딩 팬츠 [블랙]",
@@ -3034,21 +3049,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240123/3815900/3815900_17168651745580_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3815900",
           "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-3238724",
-          "brand": "레더리",
-          "name": "파라슈트 와이드 카고 팬츠 [8COLOR]",
-          "price": 99000,
-          "originalPrice": 99000,
-          "discountRate": 40,
-          "finalPrice": 59400,
-          "category": "003004",
-          "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230417/3238724/3238724_17872797100094_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3238724",
-          "displayGenderText": "남성"
         }
       ]
     },
@@ -3332,8 +3332,8 @@
           "name": "스포츠 반바지 쇼츠 프로 (2IN1) (3color)",
           "price": 35900,
           "originalPrice": 35900,
-          "discountRate": 17,
-          "finalPrice": 29800,
+          "discountRate": 24,
+          "finalPrice": 27360,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20241208/4655528/4655528_17848724072396_500.png",
