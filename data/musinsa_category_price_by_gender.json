@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T08:02:20.766135+00:00",
+  "updatedAt": "2026-08-21T09:04:03.541049+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,20 +650,20 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 61192,
+        "avg": 60632,
         "min": 7900,
         "max": 246050,
         "count": 60
       },
       "male": {
-        "avg": 65822,
-        "min": 25900,
+        "avg": 65153,
+        "min": 19900,
         "max": 246050,
         "count": 12
       },
       "female": {
-        "avg": 68729,
-        "min": 26910,
+        "avg": 68117,
+        "min": 24170,
         "max": 208050,
         "count": 30
       },
@@ -930,8 +930,8 @@
           "name": "Cali Raw Cut Sweatshirt(Loose Fit) / WHMWG2291F",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 30,
-          "finalPrice": 34930,
+          "discountRate": 52,
+          "finalPrice": 24170,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260112/5884068/5884068_17768220663431_500.jpg",
@@ -973,21 +973,21 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 67848,
+        "avg": 67005,
         "min": 17770,
         "max": 185540,
         "count": 60
       },
       "male": {
-        "avg": 78423,
+        "avg": 77922,
         "min": 30630,
         "max": 181990,
         "count": 16
       },
       "female": {
-        "avg": 57935,
+        "avg": 56298,
         "min": 17770,
-        "max": 125300,
+        "max": 121720,
         "count": 26
       },
       "items": [
@@ -1028,8 +1028,8 @@
           "name": "자수 골지 세미크롭 사이드 버튼 후드 롱 슬림 긴팔 티셔츠 _ 3COLOR",
           "price": 46000,
           "originalPrice": 46000,
-          "discountRate": 20,
-          "finalPrice": 36800,
+          "discountRate": 32,
+          "finalPrice": 31280,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/prd_img/20250818/5328890/detail_5328890_17760460604613_500.jpg",
@@ -1118,8 +1118,8 @@
           "name": "[쭈리/기모] 스티치 콤비 후디 [6color]",
           "price": 67000,
           "originalPrice": 67000,
-          "discountRate": 43,
-          "finalPrice": 37900,
+          "discountRate": 52,
+          "finalPrice": 32220,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240216/3876972/3876972_17514208391640_500.jpg",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 45787,
+        "avg": 45770,
         "min": 9640,
         "max": 231990,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 35
       },
       "female": {
-        "avg": 56556,
+        "avg": 56512,
         "min": 9640,
         "max": 231990,
         "count": 23
@@ -1942,22 +1942,22 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 182772,
+        "avg": 184574,
         "min": 45830,
         "max": 600000,
         "count": 60
       },
       "male": {
-        "avg": 205696,
+        "avg": 209109,
         "min": 45830,
         "max": 600000,
-        "count": 32
+        "count": 31
       },
       "female": {
-        "avg": 151738,
+        "avg": 154551,
         "min": 45830,
         "max": 389000,
-        "count": 19
+        "count": 20
       },
       "items": [
         {
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101763",
+          "id": "ms-101772",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,7 +2265,7 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 64031,
+        "avg": 63826,
         "min": 16930,
         "max": 159000,
         "count": 60
@@ -2277,7 +2277,7 @@
         "count": 27
       },
       "female": {
-        "avg": 60397,
+        "avg": 59906,
         "min": 16930,
         "max": 149000,
         "count": 25
@@ -2410,8 +2410,8 @@
           "name": "[간절기준비]르체 다크그레이 원 턱 와이드 팬츠",
           "price": 59000,
           "originalPrice": 59000,
-          "discountRate": 30,
-          "finalPrice": 41300,
+          "discountRate": 41,
+          "finalPrice": 34700,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260428/6390295/6390295_17872800481375_500.jpg",
@@ -2588,13 +2588,13 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 47102,
+        "avg": 47092,
         "min": 9900,
         "max": 168000,
         "count": 60
       },
       "male": {
-        "avg": 51997,
+        "avg": 51982,
         "min": 11820,
         "max": 168000,
         "count": 41
@@ -2748,8 +2748,8 @@
           "name": "[매일슬랙스]세미와이드핏 스프링 밴딩 슬랙스  블랙",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 75,
-          "finalPrice": 12670,
+          "discountRate": 76,
+          "finalPrice": 12070,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260121/5921145/5921145_17840632182429_500.jpg",
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 58781,
+        "avg": 58156,
         "min": 9900,
         "max": 159200,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 18
       },
       "female": {
-        "avg": 67296,
+        "avg": 65956,
         "min": 13680,
         "max": 159200,
         "count": 28
@@ -3176,8 +3176,8 @@
           "name": "폴드 웨이스트 스웻팬츠 버건디",
           "price": 95000,
           "originalPrice": 95000,
-          "discountRate": 10,
-          "finalPrice": 85500,
+          "discountRate": 23,
+          "finalPrice": 72680,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260205/5984255/5984255_17714880912685_500.jpg",
