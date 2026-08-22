@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-22T01:55:11.148562+00:00",
+  "updatedAt": "2026-08-22T02:44:18.628788+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 41052,
+        "avg": 41060,
         "min": 9990,
         "max": 105990,
         "count": 60
@@ -16,8 +16,8 @@
         "count": 26
       },
       "female": {
-        "avg": 45051,
-        "min": 16430,
+        "avg": 45071,
+        "min": 16910,
         "max": 105990,
         "count": 24
       },
@@ -179,8 +179,8 @@
           "name": "보트넥 7부 티셔츠_MIWHWG910A",
           "price": 19900,
           "originalPrice": 19900,
-          "discountRate": 17,
-          "finalPrice": 16430,
+          "discountRate": 15,
+          "finalPrice": 16910,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967421/6967421_17854745571965_500.jpg",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 58930,
+        "avg": 58833,
         "min": 19900,
         "max": 162000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 23
       },
       "female": {
-        "avg": 56780,
+        "avg": 56585,
         "min": 19900,
         "max": 109000,
         "count": 30
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101752",
+          "id": "ms-101772",
           "brand": "",
           "name": "",
           "price": null,
