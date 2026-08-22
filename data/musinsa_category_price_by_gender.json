@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T13:06:04.428700+00:00",
+  "updatedAt": "2026-08-22T13:48:57.948198+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-102536",
+          "id": "ms-101751",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,16 +2265,16 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 64303,
+        "avg": 63936,
         "min": 16930,
         "max": 159000,
         "count": 60
       },
       "male": {
-        "avg": 69254,
+        "avg": 70268,
         "min": 19900,
         "max": 159000,
-        "count": 28
+        "count": 27
       },
       "female": {
         "avg": 60170,
@@ -2465,21 +2465,6 @@
         },
         {
           "rank": 13,
-          "id": "ms-2447802",
-          "brand": "무신사 스탠다드",
-          "name": "데님 와이드 벌룬 팬츠 [크림]",
-          "price": 59900,
-          "originalPrice": 59900,
-          "discountRate": 30,
-          "finalPrice": 41890,
-          "category": "003002",
-          "categoryLabel": "데님 팬츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20220328/2447802/2447802_1_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/2447802",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 14,
           "id": "ms-5310275",
           "brand": "플랙 우먼",
           "name": "그린 와이드 스트레이트 데님팬츠 미드 블루",
@@ -2494,7 +2479,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-5928475",
           "brand": "데케트 우먼",
           "name": "(코튼)Signature Slim Low Rise Flared Jeans DCWPT006BLACKCT",
@@ -2509,7 +2494,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-2796118",
           "brand": "밀리언코르",
           "name": "7160 캣 브러쉬 슬림 진청 부츠컷 데님팬츠",
@@ -2524,7 +2509,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-858911",
           "brand": "토피",
           "name": "와이드 데님 팬츠 (LIGHT BLUE)",
@@ -2539,7 +2524,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-3134738",
           "brand": "무신사 스탠다드 우먼",
           "name": "[쿨탠다드] 우먼즈 와이드 데님 팬츠 [딥 인디고]",
@@ -2554,7 +2539,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5372427",
           "brand": "캘빈클라인 진",
           "name": "여성 와이드 레그핏 미드 블루 데님 47D848G 2J6",
@@ -2569,7 +2554,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6148718",
           "brand": "데케트 우먼",
           "name": "[린넨라이크]Linen Like Barrel Jeans DCWPT029CPINDIGO",
@@ -2581,6 +2566,21 @@
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260317/6148718/6148718_17773547920190_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6148718",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5537853",
+          "brand": "코이리스",
+          "name": "위티 원턱 화이트 스티치 와이드 데님 팬츠",
+          "price": 94700,
+          "originalPrice": 94700,
+          "discountRate": 42,
+          "finalPrice": 54900,
+          "category": "003002",
+          "categoryLabel": "데님 팬츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250926/5537853/5537853_17697544917032_500.png",
+          "productUrl": "https://www.musinsa.com/products/5537853",
           "displayGenderText": "여성"
         }
       ]
