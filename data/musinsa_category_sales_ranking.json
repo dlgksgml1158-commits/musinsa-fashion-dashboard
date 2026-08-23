@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T11:09:48.463962+00:00",
+  "updatedAt": "2026-08-23T11:41:02.929768+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -677,6 +677,21 @@
         },
         {
           "rank": 5,
+          "id": "ms-5794176",
+          "brand": "이스트코",
+          "name": "피그먼트 컴팩트 스웨트셔츠 네이비",
+          "price": 64900,
+          "originalPrice": 64900,
+          "discountRate": 46,
+          "finalPrice": 34980,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20251201/5794176/5794176_17645914867062_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5794176",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 6,
           "id": "ms-6710466",
           "brand": "무신사 스탠다드",
           "name": "헨리 넥 스웨트셔츠 [미디엄 그레이]",
@@ -691,7 +706,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "id": "ms-3483219",
           "brand": "다이아몬드 레이라",
           "name": "SVRL Club Vneck Sweatshirt T84 - White Melange",
@@ -706,7 +721,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "id": "ms-5355751",
           "brand": "후아유",
           "name": "American Flag Sweatshirt / WHMWG2492U",
@@ -721,7 +736,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "id": "ms-3052874",
           "brand": "챔피온",
           "name": "여성 리버스위브 프렌치테리 스웨트셔츠 Light Blue",
@@ -736,7 +751,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-5794129",
           "brand": "이스트코",
           "name": "피그먼트 컴팩트 스웨트셔츠 오렌지",
@@ -751,7 +766,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-5490456",
           "brand": "포스333",
           "name": "Miraculum Bascinet Sweatshirt/Black",
@@ -766,7 +781,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-6951167",
           "brand": "디미트리블랙",
           "name": "[10주년기획] © 모두의 소프트 터치 맨투맨 (래글런 배색)_2 COLOR",
@@ -781,7 +796,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-4693921",
           "brand": "와키윌리",
           "name": "우먼스 빅릴리 그래픽 맨투맨 라이트그레이",
@@ -796,7 +811,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-7014021",
           "brand": "무드인사이드",
           "name": "스웻 크롭 반집업_5Color",
@@ -811,7 +826,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-3106845",
           "brand": "챔피온",
           "name": "C로고 크루넥 스웨트셔츠 Cream",
@@ -826,7 +841,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-3106844",
           "brand": "챔피온",
           "name": "C로고 크루넥 스웨트셔츠 Black",
@@ -841,7 +856,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-5320206",
           "brand": "버던트",
           "name": "니트데님 워싱 스웨트 셔츠 [블랙]",
@@ -856,7 +871,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-2729592",
           "brand": "챔피온",
           "name": "C로고 크루넥 스웨트셔츠 Normal Grey",
@@ -871,7 +886,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-6796737",
           "brand": "지프",
           "name": "[360g] M-Logo 반집업 맨투맨 (JR5TSU838MR)",
@@ -886,7 +901,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-6710467",
           "brand": "무신사 스탠다드",
           "name": "헨리 넥 스웨트셔츠 [다크 그레이]",
@@ -899,21 +914,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260622/6710467/6710467_17852913415302_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6710467",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-5320211",
-          "brand": "버던트",
-          "name": "니트데님 워싱 스웨트 셔츠 [라이트 블루]",
-          "price": 55000,
-          "originalPrice": 55000,
-          "discountRate": 50,
-          "finalPrice": 27500,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5320211/5320211_17687905305018_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5320211",
-          "displayGenderText": "공용"
         }
       ]
     },
