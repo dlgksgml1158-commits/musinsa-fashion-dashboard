@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-23T14:45:04.063951+00:00",
+  "updatedAt": "2026-08-23T15:09:07.880695+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 39027,
+        "avg": 39190,
         "min": 9990,
         "max": 100000,
         "count": 60
@@ -16,7 +16,7 @@
         "count": 24
       },
       "female": {
-        "avg": 39856,
+        "avg": 40248,
         "min": 16910,
         "max": 85500,
         "count": 25
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 47688,
+        "avg": 47774,
         "min": 6320,
         "max": 130000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 14
       },
       "female": {
-        "avg": 42145,
+        "avg": 42279,
         "min": 6320,
         "max": 97200,
         "count": 38
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 60141,
+        "avg": 60470,
         "min": 7900,
         "max": 246050,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 12
       },
       "female": {
-        "avg": 67135,
+        "avg": 67553,
         "min": 21200,
         "max": 208050,
         "count": 30
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 65592,
+        "avg": 65894,
         "min": 9900,
         "max": 185540,
         "count": 60
@@ -985,7 +985,7 @@
         "count": 17
       },
       "female": {
-        "avg": 55042,
+        "avg": 55770,
         "min": 17770,
         "max": 125300,
         "count": 25
@@ -1118,8 +1118,8 @@
           "name": "[쭈리/기모] 스티치 콤비 후디 [6color]",
           "price": 67000,
           "originalPrice": 67000,
-          "discountRate": 52,
-          "finalPrice": 32220,
+          "discountRate": 44,
+          "finalPrice": 37320,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240216/3876972/3876972_17514208391640_500.jpg",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 45818,
+        "avg": 46065,
         "min": 9640,
         "max": 231990,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 35
       },
       "female": {
-        "avg": 56637,
+        "avg": 57280,
         "min": 9640,
         "max": 231990,
         "count": 23
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 184883,
+        "avg": 184986,
         "min": 45830,
         "max": 600000,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 31
       },
       "female": {
-        "avg": 154551,
+        "avg": 154861,
         "min": 45830,
         "max": 389000,
         "count": 20
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101779",
+          "id": "ms-101778",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,19 +2588,19 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 47420,
+        "avg": 48521,
         "min": 9900,
         "max": 168000,
         "count": 60
       },
       "male": {
-        "avg": 51687,
+        "avg": 52021,
         "min": 11820,
         "max": 168000,
         "count": 42
       },
       "female": {
-        "avg": 41930,
+        "avg": 46269,
         "min": 9900,
         "max": 84500,
         "count": 12
@@ -2718,8 +2718,8 @@
           "name": "[쿨탠다드] 우먼즈 세미 벌룬 히든 밴딩 슬랙스 [그레이]",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 33,
-          "finalPrice": 39900,
+          "discountRate": 10,
+          "finalPrice": 53910,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230309/3134729/3134729_17137484482314_500.jpg",
@@ -2778,8 +2778,8 @@
           "name": "[쿨탠다드] 우먼즈 와이드 히든 밴딩 슬랙스 [블랙]",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 33,
-          "finalPrice": 39900,
+          "discountRate": 20,
+          "finalPrice": 47920,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20210521/1960628/1960628_17822815189993_500.jpg",
@@ -2898,8 +2898,8 @@
           "name": "[쿨탠다드] 우먼즈 원 턱 와이드 밴딩 슬랙스 [블랙]",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 33,
-          "finalPrice": 39900,
+          "discountRate": 20,
+          "finalPrice": 47920,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240125/3823268/3823268_17116181933881_500.jpg",
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 57860,
+        "avg": 57995,
         "min": 9900,
         "max": 159200,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 18
       },
       "female": {
-        "avg": 65150,
+        "avg": 65438,
         "min": 13680,
         "max": 159200,
         "count": 28
@@ -3176,8 +3176,8 @@
           "name": "폴드 웨이스트 스웻팬츠 버건디",
           "price": 95000,
           "originalPrice": 95000,
-          "discountRate": 23,
-          "finalPrice": 72680,
+          "discountRate": 15,
+          "finalPrice": 80750,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260205/5984255/5984255_17714880912685_500.jpg",
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 41724,
+        "avg": 41994,
         "min": 9900,
         "max": 150000,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 28
       },
       "female": {
-        "avg": 43338,
+        "avg": 44015,
         "min": 20490,
         "max": 107100,
         "count": 24
