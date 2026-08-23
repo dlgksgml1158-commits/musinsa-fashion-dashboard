@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-23T00:26:52.805354+00:00",
+  "updatedAt": "2026-08-23T02:07:33.019554+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 39390,
+        "avg": 39450,
         "min": 9990,
         "max": 100000,
         "count": 60
@@ -16,7 +16,7 @@
         "count": 26
       },
       "female": {
-        "avg": 40110,
+        "avg": 40266,
         "min": 16910,
         "max": 85500,
         "count": 23
@@ -973,8 +973,8 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 66921,
-        "min": 17770,
+        "avg": 66621,
+        "min": 9900,
         "max": 185540,
         "count": 60
       },
@@ -1283,8 +1283,8 @@
           "name": "절개 스트링 오버핏 우븐 후드티 GHT-471",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 44,
-          "finalPrice": 27900,
+          "discountRate": 80,
+          "finalPrice": 9900,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230216/3086908/3086908_17098756034897_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-102358",
+          "id": "ms-102703",
           "brand": "",
           "name": "",
           "price": null,
@@ -3234,8 +3234,8 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 42057,
-        "min": 19900,
+        "avg": 41724,
+        "min": 9900,
         "max": 150000,
         "count": 60
       },
@@ -3454,8 +3454,8 @@
           "name": "원턱 버뮤다 트랙 반바지 4Color GP-509",
           "price": 42800,
           "originalPrice": 42800,
-          "discountRate": 30,
-          "finalPrice": 29900,
+          "discountRate": 77,
+          "finalPrice": 9900,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240510/4121511/4121511_17827814442475_500.jpg",
