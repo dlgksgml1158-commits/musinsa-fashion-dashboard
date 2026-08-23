@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T16:47:39.734519+00:00",
+  "updatedAt": "2026-08-23T17:10:02.810849+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -477,21 +477,6 @@
         },
         {
           "rank": 12,
-          "id": "ms-6661221",
-          "brand": "코소",
-          "name": "오가닉 베이직 긴팔 티셔츠 (7 COLORS)",
-          "price": 39000,
-          "originalPrice": 39000,
-          "discountRate": 75,
-          "finalPrice": 9900,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260612/6661221/6661221_17812448366093_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6661221",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 13,
           "id": "ms-5546263",
           "brand": "플리즈노팔로우",
           "name": "Amelia Lace Halter Long Sleeve Top  (Skin Beige)",
@@ -506,7 +491,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-5308085",
           "brand": "매든",
           "name": "[유소정 PICK] [8COLORS] 라인드 와플 롱슬리브",
@@ -519,6 +504,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250811/5308085/5308085_17873566083963_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5308085",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 14,
+          "id": "ms-6661221",
+          "brand": "코소",
+          "name": "오가닉 베이직 긴팔 티셔츠 (7 COLORS)",
+          "price": 39000,
+          "originalPrice": 39000,
+          "discountRate": 75,
+          "finalPrice": 9900,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260612/6661221/6661221_17812448366093_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6661221",
+          "displayGenderText": "여성"
         },
         {
           "rank": 15,
