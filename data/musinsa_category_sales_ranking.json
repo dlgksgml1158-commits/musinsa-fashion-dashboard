@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T20:45:09.371598+00:00",
+  "updatedAt": "2026-08-23T21:09:05.285403+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -662,21 +662,6 @@
         },
         {
           "rank": 4,
-          "id": "ms-6978420",
-          "brand": "룰루레몬",
-          "name": "스쿠바 에볼브 클래식 풀집 후디  LTIV GOLD",
-          "price": 184000,
-          "originalPrice": 184000,
-          "discountRate": 0,
-          "finalPrice": 184000,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260803/6978420/6978420_17859627835147_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6978420",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 5,
           "id": "ms-5794147",
           "brand": "이스트코",
           "name": "피그먼트 컴팩트 스웨트셔츠 카멜",
@@ -689,6 +674,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20251201/5794147/5794147_17645905296498_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5794147",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 5,
+          "id": "ms-6978420",
+          "brand": "룰루레몬",
+          "name": "스쿠바 에볼브 클래식 풀집 후디  LTIV GOLD",
+          "price": 184000,
+          "originalPrice": 184000,
+          "discountRate": 0,
+          "finalPrice": 184000,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260803/6978420/6978420_17859627835147_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6978420",
+          "displayGenderText": "여성"
         },
         {
           "rank": 6,
@@ -767,21 +767,6 @@
         },
         {
           "rank": 11,
-          "id": "ms-3052874",
-          "brand": "챔피온",
-          "name": "여성 리버스위브 프렌치테리 스웨트셔츠 Light Blue",
-          "price": 119000,
-          "originalPrice": 119000,
-          "discountRate": 50,
-          "finalPrice": 59500,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230201/3052874/3052874_17470105779438_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3052874",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 12,
           "id": "ms-5794129",
           "brand": "이스트코",
           "name": "피그먼트 컴팩트 스웨트셔츠 오렌지",
@@ -796,7 +781,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-5490456",
           "brand": "포스333",
           "name": "Miraculum Bascinet Sweatshirt/Black",
@@ -811,7 +796,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-7014021",
           "brand": "무드인사이드",
           "name": "스웻 크롭 반집업_5Color",
@@ -826,22 +811,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
-          "id": "ms-3106845",
-          "brand": "챔피온",
-          "name": "C로고 크루넥 스웨트셔츠 Cream",
-          "price": 79000,
-          "originalPrice": 79000,
-          "discountRate": 35,
-          "finalPrice": 51300,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230224/3106845/3106845_17429694068825_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3106845",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 16,
+          "rank": 14,
           "id": "ms-6951167",
           "brand": "디미트리블랙",
           "name": "[10주년기획] © 모두의 소프트 터치 맨투맨 (래글런 배색)_2 COLOR",
@@ -856,22 +826,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
-          "id": "ms-3106844",
-          "brand": "챔피온",
-          "name": "C로고 크루넥 스웨트셔츠 Black",
-          "price": 79000,
-          "originalPrice": 79000,
-          "discountRate": 35,
-          "finalPrice": 51300,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230224/3106844/3106844_17430480366341_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3106844",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 18,
+          "rank": 15,
           "id": "ms-5320206",
           "brand": "버던트",
           "name": "니트데님 워싱 스웨트 셔츠 [블랙]",
@@ -886,7 +841,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 16,
           "id": "ms-6710467",
           "brand": "무신사 스탠다드",
           "name": "헨리 넥 스웨트셔츠 [다크 그레이]",
@@ -901,7 +856,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 17,
           "id": "ms-4782429",
           "brand": "웬즈데이오아시스 포 우먼",
           "name": "W/피그먼트 워시드 다잉 스웨트셔츠_3Color(WV25-TP01)",
@@ -914,6 +869,51 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250212/4782429/4782429_17403762706409_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4782429",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 18,
+          "id": "ms-6710490",
+          "brand": "무신사 스탠다드",
+          "name": "쿼터 집 스웨트셔츠 [네이비]",
+          "price": 49900,
+          "originalPrice": 49900,
+          "discountRate": 0,
+          "finalPrice": 49900,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260622/6710490/6710490_17853050614505_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6710490",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 19,
+          "id": "ms-5320211",
+          "brand": "버던트",
+          "name": "니트데님 워싱 스웨트 셔츠 [라이트 블루]",
+          "price": 55000,
+          "originalPrice": 55000,
+          "discountRate": 50,
+          "finalPrice": 27500,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5320211/5320211_17687905305018_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5320211",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-3106844",
+          "brand": "챔피온",
+          "name": "C로고 크루넥 스웨트셔츠 Black",
+          "price": 79000,
+          "originalPrice": 79000,
+          "discountRate": 35,
+          "finalPrice": 51300,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20230224/3106844/3106844_17430480366341_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3106844",
+          "displayGenderText": "공용"
         }
       ]
     },
@@ -1027,21 +1027,6 @@
         },
         {
           "rank": 8,
-          "id": "ms-3469860",
-          "brand": "챔피온",
-          "name": "여성 스티치 루즈핏 와플 후드 티셔츠 Black",
-          "price": 129000,
-          "originalPrice": 129000,
-          "discountRate": 60,
-          "finalPrice": 51600,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230817/3469860/3469860_17470130466316_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3469860",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 9,
           "id": "ms-4302685",
           "brand": "소라노",
           "name": "SORANO Basic Logo HOODIE [6Color]",
@@ -1056,7 +1041,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-5273026",
           "brand": "와키윌리",
           "name": "우먼스 타이포 로고 크롭 후디 그레이",
@@ -1071,22 +1056,22 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
-          "id": "ms-2729656",
+          "rank": 10,
+          "id": "ms-3469860",
           "brand": "챔피온",
-          "name": "C로고 후드 티셔츠 Normal Grey",
-          "price": 89000,
-          "originalPrice": 89000,
-          "discountRate": 35,
-          "finalPrice": 57800,
+          "name": "여성 스티치 루즈핏 와플 후드 티셔츠 Black",
+          "price": 129000,
+          "originalPrice": 129000,
+          "discountRate": 60,
+          "finalPrice": 51600,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20220819/2729656/2729656_17429695530233_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/2729656",
-          "displayGenderText": "공용"
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20230817/3469860/3469860_17470130466316_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3469860",
+          "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-5438121",
           "brand": "디스이즈네버댓",
           "name": "T-Logo Hoodie Heather Grey",
@@ -1101,22 +1086,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
-          "id": "ms-4466415",
-          "brand": "챔피온",
-          "name": "루즈핏 크루넥 후드 티셔츠 Cream",
-          "price": 79000,
-          "originalPrice": 79000,
-          "discountRate": 0,
-          "finalPrice": 79000,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240926/4466415/4466415_17470108049057_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4466415",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 14,
+          "rank": 12,
           "id": "ms-6265163",
           "brand": "닉켈하우스",
           "name": "닉켈 26 동키 포켓 후드티",
@@ -1131,7 +1101,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 13,
           "id": "ms-5799261",
           "brand": "씨큐알",
           "name": "경량 퀵드라이 자외선차단 후드 긴팔 티셔츠",
@@ -1146,22 +1116,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
-          "id": "ms-3401105",
-          "brand": "챔피온",
-          "name": "후디드 스웨트셔츠 Red",
-          "price": 69000,
-          "originalPrice": 69000,
-          "discountRate": 50,
-          "finalPrice": 34500,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230710/3401105/3401105_17470973512866_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3401105",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 17,
+          "rank": 14,
           "id": "ms-5992402",
           "brand": "디스이즈네버댓",
           "name": "T-Logo LT Hoodie Heather Grey",
@@ -1176,7 +1131,22 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 15,
+          "id": "ms-4399140",
+          "brand": "와키윌리",
+          "name": "레터링 헤비쭈리 후드 그레이",
+          "price": 99000,
+          "originalPrice": 99000,
+          "discountRate": 75,
+          "finalPrice": 25000,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240903/4399140/4399140_17255041454072_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4399140",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 16,
           "id": "ms-5352832",
           "brand": "비바라비다",
           "name": "[기모선택] My Youth 헤비테리 후드",
@@ -1191,7 +1161,22 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 17,
+          "id": "ms-6951164",
+          "brand": "디미트리블랙",
+          "name": "ASTRO 아트웍 후드 티셔츠_2 COLOR",
+          "price": 66500,
+          "originalPrice": 66500,
+          "discountRate": 42,
+          "finalPrice": 38900,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260729/6951164/6951164_17860889508368_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6951164",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 18,
           "id": "ms-2729651",
           "brand": "챔피온",
           "name": "C로고 후드 티셔츠 Black",
@@ -1206,7 +1191,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5315438",
           "brand": "매든",
           "name": "[다나옷PICK] [12COLORS] 퍼니 풀오버 후디",
@@ -1218,6 +1203,21 @@
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250812/5315438/5315438_17873565722929_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5315438",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-2913656",
+          "brand": "필루미네이트",
+          "name": "오버핏 그래피티 로고 후디-6Color",
+          "price": 64000,
+          "originalPrice": 64000,
+          "discountRate": 60,
+          "finalPrice": 25900,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20221101/2913656/2913656_17593846033133_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/2913656",
           "displayGenderText": "공용"
         }
       ]
@@ -3282,21 +3282,6 @@
         },
         {
           "rank": 16,
-          "id": "ms-3300764",
-          "brand": "챔피온",
-          "name": "헤리티지 클래식 프렌치테리 스웨트 숏팬츠 Black",
-          "price": 39000,
-          "originalPrice": 39000,
-          "discountRate": 40,
-          "finalPrice": 23400,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230517/3300764/3300764_17470084552903_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3300764",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 17,
           "id": "ms-4060154",
           "brand": "언아웃핏",
           "name": "원턱 워시드 와이드 코튼 쇼츠 6 COLOR",
@@ -3311,7 +3296,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-4855848",
           "brand": "난데",
           "name": "버뮤다 원턱 와이드 트레이닝 쇼츠 3color",
@@ -3326,7 +3311,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-4953934",
           "brand": "디키즈",
           "name": "41283 루즈핏 워크쇼츠 Black",
@@ -3341,7 +3326,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-4859163",
           "brand": "엘리메노",
           "name": "EL 투턱 헤비 버뮤다 팬츠 4Color",
@@ -3353,6 +3338,21 @@
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250305/4859163/4859163_17411414727593_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4859163",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4203536",
+          "brand": "에스이에스티",
+          "name": "[2PACK] 버뮤다 와이드핏 원턱 트레이닝 반바지 - 6Color",
+          "price": 70000,
+          "originalPrice": 70000,
+          "discountRate": 72,
+          "finalPrice": 19300,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240618/4203536/4203536_17412460292171_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4203536",
           "displayGenderText": "공용"
         }
       ]
