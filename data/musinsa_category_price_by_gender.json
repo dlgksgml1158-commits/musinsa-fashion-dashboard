@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T05:51:33.056028+00:00",
+  "updatedAt": "2026-08-23T06:18:02.950858+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 60298,
+        "avg": 60141,
         "min": 7900,
         "max": 246050,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 12
       },
       "female": {
-        "avg": 67449,
+        "avg": 67135,
         "min": 21200,
         "max": 208050,
         "count": 30
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-102534",
+          "id": "ms-102704",
           "brand": "",
           "name": "",
           "price": null,
@@ -2911,13 +2911,13 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 57780,
+        "avg": 57813,
         "min": 9900,
         "max": 159200,
         "count": 60
       },
       "male": {
-        "avg": 44950,
+        "avg": 45062,
         "min": 19600,
         "max": 69900,
         "count": 18
@@ -2951,8 +2951,8 @@
           "name": "[2.5-LAYER] 파라슈트 기어 팬츠_SPTCG4TC30",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 3,
-          "finalPrice": 57890,
+          "discountRate": 0,
+          "finalPrice": 59900,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6903639/6903639_17847624120150_500.jpg",
