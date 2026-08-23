@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T07:52:49.953476+00:00",
+  "updatedAt": "2026-08-23T08:14:10.041439+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 65664,
+        "avg": 65584,
         "min": 9900,
         "max": 185540,
         "count": 60
@@ -985,7 +985,7 @@
         "count": 16
       },
       "female": {
-        "avg": 56156,
+        "avg": 55970,
         "min": 17770,
         "max": 125300,
         "count": 26
@@ -1218,21 +1218,6 @@
         },
         {
           "rank": 16,
-          "id": "ms-6967268",
-          "brand": "뉴발란스",
-          "name": "NBNDG3W812 / WOMEN AIRY 와플 후드 긴팔티 (CHARCOAL)",
-          "price": 79900,
-          "originalPrice": 79900,
-          "discountRate": 0,
-          "finalPrice": 79900,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967268/6967268_17854745562398_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6967268",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 17,
           "id": "ms-6788300",
           "brand": "스파오",
           "name": "와플 후드 바라클라바 긴팔티_SPFWG4TC10",
@@ -1247,7 +1232,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5799256",
           "brand": "와일드락",
           "name": "Standard Logo 오버핏 후드_10 COL",
@@ -1262,7 +1247,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6013886",
           "brand": "에잇세컨즈",
           "name": "가먼트워싱 슬림 후디탑  그레이",
@@ -1277,7 +1262,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-3086908",
           "brand": "고스트리퍼블릭",
           "name": "절개 스트링 오버핏 우븐 후드티 GHT-471",
@@ -1289,6 +1274,21 @@
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230216/3086908/3086908_17098756034897_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3086908",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6884722",
+          "brand": "코드그라피",
+          "name": "플리스 스냅 후디-버건디",
+          "price": 69000,
+          "originalPrice": 69000,
+          "discountRate": 0,
+          "finalPrice": 69000,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260721/6884722/6884722_17853748440384_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6884722",
           "displayGenderText": "공용"
         }
       ]
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101752",
+          "id": "ms-102703",
           "brand": "",
           "name": "",
           "price": null,
