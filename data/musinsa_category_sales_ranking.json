@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T17:10:02.810849+00:00",
+  "updatedAt": "2026-08-23T17:41:04.005724+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -737,21 +737,6 @@
         },
         {
           "rank": 9,
-          "id": "ms-3483219",
-          "brand": "다이아몬드 레이라",
-          "name": "SVRL Club Vneck Sweatshirt T84 - White Melange",
-          "price": 85000,
-          "originalPrice": 85000,
-          "discountRate": 10,
-          "finalPrice": 76500,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230822/3483219/3483219_17193650704596_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3483219",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 10,
           "id": "ms-5355751",
           "brand": "후아유",
           "name": "American Flag Sweatshirt / WHMWG2492U",
@@ -764,6 +749,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250822/5355751/5355751_17573178017663_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5355751",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 10,
+          "id": "ms-3483219",
+          "brand": "다이아몬드 레이라",
+          "name": "SVRL Club Vneck Sweatshirt T84 - White Melange",
+          "price": 85000,
+          "originalPrice": 85000,
+          "discountRate": 10,
+          "finalPrice": 76500,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20230822/3483219/3483219_17193650704596_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3483219",
+          "displayGenderText": "공용"
         },
         {
           "rank": 11,
@@ -3282,21 +3282,6 @@
         },
         {
           "rank": 16,
-          "id": "ms-4859163",
-          "brand": "엘리메노",
-          "name": "EL 투턱 헤비 버뮤다 팬츠 4Color",
-          "price": 45000,
-          "originalPrice": 45000,
-          "discountRate": 34,
-          "finalPrice": 29900,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250305/4859163/4859163_17411414727593_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4859163",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 17,
           "id": "ms-6575793",
           "brand": "오프메이드",
           "name": "사이드스냅 버뮤다 밴딩 팬츠",
@@ -3311,7 +3296,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-3300764",
           "brand": "챔피온",
           "name": "헤리티지 클래식 프렌치테리 스웨트 숏팬츠 Black",
@@ -3326,7 +3311,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-4060154",
           "brand": "언아웃핏",
           "name": "원턱 워시드 와이드 코튼 쇼츠 6 COLOR",
@@ -3341,7 +3326,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-4855848",
           "brand": "난데",
           "name": "버뮤다 원턱 와이드 트레이닝 쇼츠 3color",
@@ -3354,6 +3339,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250304/4855848/4855848_17410832472917_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4855848",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4859163",
+          "brand": "엘리메노",
+          "name": "EL 투턱 헤비 버뮤다 팬츠 4Color",
+          "price": 45000,
+          "originalPrice": 45000,
+          "discountRate": 34,
+          "finalPrice": 29900,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250305/4859163/4859163_17411414727593_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4859163",
+          "displayGenderText": "공용"
         }
       ]
     }
