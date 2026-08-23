@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T15:09:07.880695+00:00",
+  "updatedAt": "2026-08-23T15:42:53.129653+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 47774,
+        "avg": 47823,
         "min": 6320,
         "max": 130000,
         "count": 60
@@ -502,8 +502,8 @@
           "name": "나일론 사커 롱슬리브_다크 블루",
           "price": 69000,
           "originalPrice": 69000,
-          "discountRate": 75,
-          "finalPrice": 16920,
+          "discountRate": 71,
+          "finalPrice": 19900,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240112/3792319/3792319_17512505355893_500.jpg",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 60470,
+        "avg": 60627,
         "min": 7900,
         "max": 246050,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 12
       },
       "female": {
-        "avg": 67553,
+        "avg": 67867,
         "min": 21200,
         "max": 208050,
         "count": 30
@@ -1296,13 +1296,13 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 58893,
+        "avg": 58990,
         "min": 19900,
         "max": 162000,
         "count": 60
       },
       "male": {
-        "avg": 65157,
+        "avg": 65411,
         "min": 19900,
         "max": 162000,
         "count": 23
@@ -1516,8 +1516,8 @@
           "name": "웨스턴 리니어 솔리드 크롭 하프 셔츠 [화이트]",
           "price": 65000,
           "originalPrice": 65000,
-          "discountRate": 19,
-          "finalPrice": 52650,
+          "discountRate": 10,
+          "finalPrice": 58500,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260429/6401724/6401724_17774632565994_500.jpg",
@@ -1619,13 +1619,13 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 46065,
+        "avg": 46278,
         "min": 9640,
         "max": 231990,
         "count": 60
       },
       "male": {
-        "avg": 39264,
+        "avg": 39630,
         "min": 9800,
         "max": 88990,
         "count": 35
@@ -1869,8 +1869,8 @@
           "name": "[오정규 x 알리스] 쿨 코튼 레이어드 헨리넥 크롭 하프 니트_2COLOR",
           "price": 79000,
           "originalPrice": 79000,
-          "discountRate": 19,
-          "finalPrice": 63990,
+          "discountRate": 10,
+          "finalPrice": 71100,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260406/6263413/6263413_17788097542676_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-101778",
+          "id": "ms-101787",
           "brand": "",
           "name": "",
           "price": null,
