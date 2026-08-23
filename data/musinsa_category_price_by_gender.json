@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T02:07:33.019554+00:00",
+  "updatedAt": "2026-08-23T03:26:31.144553+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 45744,
+        "avg": 45770,
         "min": 9640,
         "max": 231990,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 35
       },
       "female": {
-        "avg": 56443,
+        "avg": 56512,
         "min": 9640,
         "max": 231990,
         "count": 23
@@ -1674,8 +1674,8 @@
           "name": "에어리 에센셜 카라 하프 니트 [IVORY] / WBE2L05513",
           "price": 63000,
           "originalPrice": 63000,
-          "discountRate": 51,
-          "finalPrice": 30810,
+          "discountRate": 50,
+          "finalPrice": 31600,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260403/6254021/6254021_17852921896496_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-102703",
+          "id": "ms-102208",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,16 +2588,16 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 47092,
+        "avg": 47420,
         "min": 9900,
         "max": 168000,
         "count": 60
       },
       "male": {
-        "avg": 51982,
+        "avg": 51687,
         "min": 11820,
         "max": 168000,
-        "count": 41
+        "count": 42
       },
       "female": {
         "avg": 41930,
