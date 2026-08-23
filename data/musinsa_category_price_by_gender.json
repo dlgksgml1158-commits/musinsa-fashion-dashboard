@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-08-23T04:07:07.194002+00:00",
+  "updatedAt": "2026-08-23T04:58:03.803149+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 39450,
+        "avg": 39017,
         "min": 9990,
         "max": 100000,
         "count": 60
       },
       "male": {
-        "avg": 41049,
+        "avg": 40069,
         "min": 9990,
         "max": 100000,
-        "count": 26
+        "count": 25
       },
       "female": {
-        "avg": 40266,
+        "avg": 40238,
         "min": 16910,
         "max": 85500,
-        "count": 23
+        "count": 24
       },
       "items": [
         {
@@ -144,21 +144,6 @@
         },
         {
           "rank": 9,
-          "id": "ms-6852823",
-          "brand": "아디다스",
-          "name": "케어베어 OS 티 - 블랙 / IA4539",
-          "price": 69000,
-          "originalPrice": 69000,
-          "discountRate": 5,
-          "finalPrice": 65550,
-          "category": "001001",
-          "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260715/6852823/6852823_17846308345807_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6852823",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 10,
           "id": "ms-6967421",
           "brand": "미쏘",
           "name": "보트넥 7부 티셔츠_MIWHWG910A",
@@ -173,7 +158,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-6842612",
           "brand": "나이키",
           "name": "스위프트 에어로 핏 반소매 러닝 탑 W - 블랙:라이트 그린 스파크 / IH8115-014",
@@ -188,7 +173,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-6839271",
           "brand": "후드후드",
           "name": "Girl Stress Nutrition 레이어드 롤업 반팔티셔츠 네이비",
@@ -203,7 +188,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-4971043",
           "brand": "앰부시",
           "name": "메이크 아트 반소매 티셔츠 - 화이트 / 1211532810",
@@ -218,7 +203,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-7008622",
           "brand": "에잇세컨즈",
           "name": "[Disney] 오버핏 그래픽 반소매 티셔츠  브라운",
@@ -233,7 +218,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6849602",
           "brand": "댄꼼마",
           "name": "스폰지밥 호러에디션 반팔 티셔츠",
@@ -248,7 +233,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6906711",
           "brand": "어프레쉬",
           "name": "[3PACK] 아스킨 머슬핏 숏슬리브",
@@ -263,7 +248,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6590793",
           "brand": "마인드브릿지",
           "name": "3-버튼 헨리넥 오버핏 반팔 티셔츠 - 2color",
@@ -278,7 +263,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6896891",
           "brand": "에스이에스티",
           "name": "Stripe Block Henry Neck Slim Fit T-shirts Navy",
@@ -293,7 +278,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6529592",
           "brand": "스탠다드에러",
           "name": "87-STAN335 Y2K 트리니티 글리치 피그먼트 반팔 티셔츠 (3color)",
@@ -308,7 +293,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-4651496",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 리브드 멀티 스트라이프 슬림 티셔츠 [옐로우]",
@@ -320,6 +305,21 @@
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20241205/4651496/4651496_17509896841791_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4651496",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6968705",
+          "brand": "피스메이커",
+          "name": "포니 레터링 슬림 세미 크롭티 (레몬)",
+          "price": 39000,
+          "originalPrice": 39000,
+          "discountRate": 30,
+          "finalPrice": 27300,
+          "category": "001001",
+          "categoryLabel": "반소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6968705/6968705_17854796149273_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6968705",
           "displayGenderText": "여성"
         }
       ]
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-102364",
+          "id": "ms-101763",
           "brand": "",
           "name": "",
           "price": null,
