@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-24T06:48:11.653993+00:00",
+  "updatedAt": "2026-08-24T07:46:14.168410+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 38132,
+        "avg": 37999,
         "min": 9900,
         "max": 100000,
         "count": 60
@@ -16,7 +16,7 @@
         "count": 25
       },
       "female": {
-        "avg": 37755,
+        "avg": 37422,
         "min": 16900,
         "max": 85500,
         "count": 24
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 59476,
+        "avg": 59594,
         "min": 7900,
         "max": 246050,
         "count": 60
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 44764,
+        "avg": 44502,
         "min": 9800,
         "max": 231990,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 35
       },
       "female": {
-        "avg": 56603,
+        "avg": 55918,
         "min": 15920,
         "max": 231990,
         "count": 23
@@ -1749,8 +1749,8 @@
           "name": "Cap sleeve V-neck knit",
           "price": 83000,
           "originalPrice": 83000,
-          "discountRate": 5,
-          "finalPrice": 78850,
+          "discountRate": 24,
+          "finalPrice": 63080,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250226/4836679/4836679_17870294265431_500.jpg",
@@ -1942,22 +1942,22 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 184065,
+        "avg": 184248,
         "min": 44640,
         "max": 600000,
         "count": 60
       },
       "male": {
-        "avg": 209122,
+        "avg": 208159,
         "min": 45830,
         "max": 600000,
-        "count": 31
+        "count": 30
       },
       "female": {
-        "avg": 147504,
+        "avg": 152578,
         "min": 44640,
         "max": 389000,
-        "count": 19
+        "count": 20
       },
       "items": [
         {
@@ -1992,21 +1992,6 @@
         },
         {
           "rank": 3,
-          "id": "ms-7045054",
-          "brand": "노스페이스",
-          "name": "NJ3NS56L 벤투스 온 자켓 DUSK BLUE",
-          "price": 238000,
-          "originalPrice": 238000,
-          "discountRate": 0,
-          "finalPrice": 238000,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260811/7045054/7045054_17864158657345_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7045054",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 4,
           "id": "ms-6702453",
           "brand": "나이키",
           "name": "윈드러너 오버사이즈 데님 재킷 W - 라이트 아머리 블루:워크 블루 / IV4962-440",
@@ -2021,7 +2006,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "id": "ms-7014407",
           "brand": "무드인사이드 우먼",
           "name": "(woman) 헤링본 프렌치 워크자켓_Red",
@@ -2036,22 +2021,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 6,
-          "id": "ms-102925",
-          "brand": "",
-          "name": "",
-          "price": null,
-          "originalPrice": null,
-          "discountRate": 0,
-          "finalPrice": null,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "",
-          "productUrl": "",
-          "displayGenderText": ""
-        },
-        {
-          "rank": 7,
+          "rank": 5,
           "id": "ms-6951147",
           "brand": "카비시",
           "name": "LIGHT WEIGHT DOWN JACKET BUTTER CREAM(CV2EWUB901A)",
@@ -2066,7 +2036,22 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 6,
+          "id": "ms-102208",
+          "brand": "",
+          "name": "",
+          "price": null,
+          "originalPrice": null,
+          "discountRate": 0,
+          "finalPrice": null,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "",
+          "productUrl": "",
+          "displayGenderText": ""
+        },
+        {
+          "rank": 7,
           "id": "ms-7033140",
           "brand": "쿠어",
           "name": "카우 스킨 A-2 레더 자켓 (다크브라운)",
@@ -2081,7 +2066,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-6814919",
           "brand": "아디다스",
           "name": "아디컬러 트랙탑 KV8875",
@@ -2096,7 +2081,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-6686197",
           "brand": "나이키",
           "name": "스포츠웨어 오버사이즈 트랙 재킷 W - 블랙:화이트 / IQ3165-010",
@@ -2111,7 +2096,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-6990889",
           "brand": "티엔지티",
           "name": "Faux Leather Trucker (Washed Black) TNJU6F101BK",
@@ -2126,7 +2111,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-7014385",
           "brand": "무드인사이드 우먼",
           "name": "(woman) 오버핏 피쉬테일 롱 야상_Khaki",
@@ -2141,7 +2126,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-6823731",
           "brand": "무드인사이드",
           "name": "워시드 프렌치 워크 자켓_Blue",
@@ -2156,7 +2141,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-7033647",
           "brand": "쿠어",
           "name": "빈티지 쉘터 넥 카라 레더 점퍼 (블랙브라운)",
@@ -2171,7 +2156,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-7046980",
           "brand": "파타고니아",
           "name": "멘즈 라이트웨이트 신칠라 스냅-티 풀오버 / 25551R7",
@@ -2186,7 +2171,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6951150",
           "brand": "카비시",
           "name": "[지연 PICK] SOFT AIR HIGH-NECK PADDED JACKET PINK(CV2GFUB902A)",
@@ -2201,7 +2186,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6896379",
           "brand": "닉켈하우스",
           "name": "닉켈 26 크로스 플로랄 후드집업",
@@ -2216,7 +2201,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6838154",
           "brand": "스파오",
           "name": "[씬라이트] 여성 후드 재킷_SPJPG4TG24",
@@ -2231,7 +2216,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6883772",
           "brand": "파타고니아",
           "name": "멘즈 레트로 파일 재킷 / 22802R7",
@@ -2246,7 +2231,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6686050",
           "brand": "나이키",
           "name": "테크 헬리오스 드라이 핏 풀집 재킷 M - 블랙 / IM1334-010",
@@ -2258,6 +2243,21 @@
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260617/6686050/6686050_17847949603245_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6686050",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5329359",
+          "brand": "아디다스",
+          "name": "후드 집업 - 블랙:크림화이트 / KC9315",
+          "price": 119000,
+          "originalPrice": 119000,
+          "discountRate": 20,
+          "finalPrice": 94990,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250818/5329359/5329359_17569461399483_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5329359",
           "displayGenderText": "공용"
         }
       ]
@@ -2588,13 +2588,13 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 48161,
+        "avg": 48025,
         "min": 9900,
         "max": 168000,
         "count": 60
       },
       "male": {
-        "avg": 51680,
+        "avg": 51485,
         "min": 16920,
         "max": 168000,
         "count": 42
@@ -2911,19 +2911,19 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 56876,
+        "avg": 56976,
         "min": 9900,
         "max": 159200,
         "count": 60
       },
       "male": {
-        "avg": 44602,
+        "avg": 44491,
         "min": 19900,
         "max": 69900,
         "count": 18
       },
       "female": {
-        "avg": 63666,
+        "avg": 63951,
         "min": 16920,
         "max": 159200,
         "count": 28
@@ -2951,8 +2951,8 @@
           "name": "[2.5-LAYER] 파라슈트 기어 팬츠_SPTCG4TC30",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 0,
-          "finalPrice": 59900,
+          "discountRate": 3,
+          "finalPrice": 57890,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6903639/6903639_17847624120150_500.jpg",
