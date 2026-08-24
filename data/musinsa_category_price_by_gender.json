@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-24T09:32:39.367474+00:00",
+  "updatedAt": "2026-08-24T10:24:43.999906+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 37999,
+        "avg": 37534,
         "min": 9900,
         "max": 100000,
         "count": 60
@@ -16,7 +16,7 @@
         "count": 25
       },
       "female": {
-        "avg": 37422,
+        "avg": 36260,
         "min": 16900,
         "max": 85500,
         "count": 24
@@ -650,13 +650,13 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 59618,
+        "avg": 58840,
         "min": 7900,
         "max": 246050,
         "count": 60
       },
       "male": {
-        "avg": 67452,
+        "avg": 63558,
         "min": 17910,
         "max": 246050,
         "count": 12
@@ -825,8 +825,8 @@
           "name": "[2PACK] 450g 헤비 피그먼트 가이루빠 디테일 맨투맨 [8COLOR]",
           "price": 119800,
           "originalPrice": 119800,
-          "discountRate": 1,
-          "finalPrice": 118600,
+          "discountRate": 40,
+          "finalPrice": 71880,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250909/5424480/5424480_17591312015656_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-102924",
+          "id": "ms-102704",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,7 +2265,7 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 62569,
+        "avg": 62619,
         "min": 17200,
         "max": 159000,
         "count": 60
@@ -2277,7 +2277,7 @@
         "count": 27
       },
       "female": {
-        "avg": 59096,
+        "avg": 59216,
         "min": 24700,
         "max": 149000,
         "count": 25
@@ -2335,8 +2335,8 @@
           "name": "[송이송이 PICK] 카고 코튼팬츠_MIWTJG966J",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 30,
-          "finalPrice": 41930,
+          "discountRate": 25,
+          "finalPrice": 44930,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6938903/6938903_17858934119864_500.jpg",
