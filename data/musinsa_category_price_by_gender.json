@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T10:24:43.999906+00:00",
+  "updatedAt": "2026-08-24T10:58:42.490243+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1296,19 +1296,19 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 56675,
+        "avg": 56117,
         "min": 15920,
         "max": 162000,
         "count": 60
       },
       "male": {
-        "avg": 65979,
+        "avg": 65161,
         "min": 19900,
         "max": 162000,
         "count": 22
       },
       "female": {
-        "avg": 52606,
+        "avg": 52089,
         "min": 15920,
         "max": 109000,
         "count": 30
@@ -1619,19 +1619,19 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 44577,
+        "avg": 44060,
         "min": 9800,
         "max": 231990,
         "count": 60
       },
       "male": {
-        "avg": 38198,
+        "avg": 37741,
         "min": 9800,
         "max": 88990,
         "count": 35
       },
       "female": {
-        "avg": 55873,
+        "avg": 55221,
         "min": 15920,
         "max": 231990,
         "count": 23
@@ -1689,8 +1689,8 @@
           "name": "[ON]린넨 라이크 헨리넥 오버핏 반팔 니트 - 5color",
           "price": 79900,
           "originalPrice": 79900,
-          "discountRate": 50,
-          "finalPrice": 39900,
+          "discountRate": 60,
+          "finalPrice": 31900,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260309/6103298/6103298_17739683526804_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-102704",
+          "id": "ms-102937",
           "brand": "",
           "name": "",
           "price": null,
@@ -3234,13 +3234,13 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 38848,
+        "avg": 38681,
         "min": 7900,
         "max": 150000,
         "count": 60
       },
       "male": {
-        "avg": 37037,
+        "avg": 36692,
         "min": 15250,
         "max": 70200,
         "count": 29
