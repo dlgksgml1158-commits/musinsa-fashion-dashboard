@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T10:58:42.490243+00:00",
+  "updatedAt": "2026-08-24T11:22:10.182153+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1942,13 +1942,13 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 183940,
+        "avg": 183781,
         "min": 44640,
         "max": 600000,
         "count": 60
       },
       "male": {
-        "avg": 208159,
+        "avg": 207843,
         "min": 45830,
         "max": 600000,
         "count": 30
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-102937",
+          "id": "ms-103337",
           "brand": "",
           "name": "",
           "price": null,
@@ -2192,8 +2192,8 @@
           "name": "닉켈 26 크로스 플로랄 후드집업",
           "price": 159000,
           "originalPrice": 159000,
-          "discountRate": 31,
-          "finalPrice": 109000,
+          "discountRate": 37,
+          "finalPrice": 99500,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260722/6896379/6896379_17848693396289_500.jpg",
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 56976,
+        "avg": 56655,
         "min": 9900,
         "max": 159200,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 18
       },
       "female": {
-        "avg": 63951,
+        "avg": 63782,
         "min": 16920,
         "max": 159200,
         "count": 28
@@ -2966,8 +2966,8 @@
           "name": "닉켈 26 동키 오버사이즈 스웻팬츠",
           "price": 149000,
           "originalPrice": 149000,
-          "discountRate": 40,
-          "finalPrice": 89000,
+          "discountRate": 50,
+          "finalPrice": 74500,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260720/6878575/6878575_17853868232325_500.jpg",
