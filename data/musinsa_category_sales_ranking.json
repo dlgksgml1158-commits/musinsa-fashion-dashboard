@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T05:59:07.033083+00:00",
+  "updatedAt": "2026-08-24T06:48:21.332077+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -922,6 +922,21 @@
       "items": [
         {
           "rank": 1,
+          "id": "ms-5990923",
+          "brand": "그랜피니",
+          "name": "슈퍼 노말 기모 후드티  트레이닝 팬츠 셋업  5 colors",
+          "price": 114140,
+          "originalPrice": 114140,
+          "discountRate": 60,
+          "finalPrice": 45660,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260206/5990923/5990923_17703558530738_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5990923",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 2,
           "id": "ms-6788300",
           "brand": "스파오",
           "name": "와플 후드 바라클라바 긴팔티_SPFWG4TC10",
@@ -936,7 +951,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "id": "ms-3086908",
           "brand": "고스트리퍼블릭",
           "name": "절개 스트링 오버핏 우븐 후드티 GHT-471",
@@ -951,7 +966,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "id": "ms-5937520",
           "brand": "스켈리웩",
           "name": "와플 헨리넥 후디[그레이]",
@@ -964,21 +979,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260126/5937520/5937520_17719132760157_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5937520",
           "displayGenderText": "공용"
-        },
-        {
-          "rank": 4,
-          "id": "ms-5273027",
-          "brand": "와키윌리",
-          "name": "우먼스 타이포 로고 크롭 후디 네이비",
-          "price": 89000,
-          "originalPrice": 89000,
-          "discountRate": 61,
-          "finalPrice": 35000,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250725/5273027/5273027_17540147443540_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5273027",
-          "displayGenderText": "여성"
         },
         {
           "rank": 5,
@@ -1702,8 +1702,8 @@
           "name": "[오정규 x 알리스] 쿨 코튼 레이어드 헨리넥 크롭 하프 니트_2COLOR",
           "price": 79000,
           "originalPrice": 79000,
-          "discountRate": 40,
-          "finalPrice": 47400,
+          "discountRate": 37,
+          "finalPrice": 49770,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260406/6263413/6263413_17788097542676_500.jpg",
