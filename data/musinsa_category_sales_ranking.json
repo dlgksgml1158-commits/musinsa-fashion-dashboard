@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T17:53:21.521019+00:00",
+  "updatedAt": "2026-08-24T18:19:42.846882+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -567,21 +567,6 @@
         },
         {
           "rank": 18,
-          "id": "ms-4762803",
-          "brand": "길라아카이브",
-          "name": "LETTERING SHEER LONG SLEEVE_WH",
-          "price": 59000,
-          "originalPrice": 59000,
-          "discountRate": 41,
-          "finalPrice": 34520,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250206/4762803/4762803_17616171509037_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4762803",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 19,
           "id": "ms-6661221",
           "brand": "코소",
           "name": "오가닉 베이직 긴팔 티셔츠 (7 COLORS)",
@@ -596,7 +581,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6951159",
           "brand": "디미트리블랙",
           "name": "[10주년기획] ⓒ 모두의 수소봉제 긴팔 티셔츠_8 COLOR",
@@ -609,6 +594,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260729/6951159/6951159_17871218576553_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6951159",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5740744",
+          "brand": "쏘비",
+          "name": "세미크롭 bump post 긴팔티 [화이트]",
+          "price": 26800,
+          "originalPrice": 26800,
+          "discountRate": 21,
+          "finalPrice": 21170,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20251117/5740744/5740744_17633479365619_500.png",
+          "productUrl": "https://www.musinsa.com/products/5740744",
+          "displayGenderText": "여성"
         }
       ]
     },
@@ -3297,36 +3297,6 @@
         },
         {
           "rank": 17,
-          "id": "ms-4855848",
-          "brand": "난데",
-          "name": "버뮤다 원턱 와이드 트레이닝 쇼츠 3color",
-          "price": 35800,
-          "originalPrice": 35800,
-          "discountRate": 40,
-          "finalPrice": 21500,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250304/4855848/4855848_17410832472917_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4855848",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 18,
-          "id": "ms-4953934",
-          "brand": "디키즈",
-          "name": "41283 루즈핏 워크쇼츠 Black",
-          "price": 59000,
-          "originalPrice": 59000,
-          "discountRate": 15,
-          "finalPrice": 50400,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250327/4953934/4953934_17806376463957_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4953934",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 19,
           "id": "ms-4203536",
           "brand": "에스이에스티",
           "name": "[2PACK] 버뮤다 와이드핏 원턱 트레이닝 반바지 - 6Color",
@@ -3341,7 +3311,22 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 18,
+          "id": "ms-4855848",
+          "brand": "난데",
+          "name": "버뮤다 원턱 와이드 트레이닝 쇼츠 3color",
+          "price": 35800,
+          "originalPrice": 35800,
+          "discountRate": 40,
+          "finalPrice": 21500,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250304/4855848/4855848_17410832472917_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4855848",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 19,
           "id": "ms-5256111",
           "brand": "러닝라이프",
           "name": "스포츠 투인원 러닝 프로 쇼츠 플러스 (3color)",
@@ -3354,6 +3339,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250718/5256111/5256111_17736471265189_500.png",
           "productUrl": "https://www.musinsa.com/products/5256111",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6164609",
+          "brand": "아모우",
+          "name": "Horse One Tuck Bermuda Pants Vintage Black",
+          "price": 87000,
+          "originalPrice": 87000,
+          "discountRate": 40,
+          "finalPrice": 52200,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260319/6164609/6164609_17739249429282_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6164609",
+          "displayGenderText": "남성"
         }
       ]
     }
