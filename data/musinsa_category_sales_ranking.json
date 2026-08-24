@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T21:49:50.275089+00:00",
+  "updatedAt": "2026-08-24T22:12:16.895676+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -2262,6 +2262,21 @@
         },
         {
           "rank": 9,
+          "id": "ms-4725443",
+          "brand": "플랙",
+          "name": "ESSENTIAL E01 022 STRAIGHT DARK INDIGO",
+          "price": 89000,
+          "originalPrice": 89000,
+          "discountRate": 76,
+          "finalPrice": 21360,
+          "category": "003002",
+          "categoryLabel": "데님 팬츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250116/4725443/4725443_17834719781132_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4725443",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 10,
           "id": "ms-6815857",
           "brand": "위캔더스",
           "name": "[WKNDRS X FIT THE SIZE] EAGLE DENIM PANTS (KHAKI)",
@@ -2276,7 +2291,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-3070218",
           "brand": "커스텀어클락",
           "name": "데님 원턱 와이드 팬츠 11 COLOR COOSPT201",
@@ -2291,7 +2306,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-5916590",
           "brand": "언탭트 스튜디오",
           "name": "빈티지 워시드 와이드 데님팬츠 3Color",
@@ -2306,7 +2321,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-5066604",
           "brand": "데케트",
           "name": "[패션플래닛X데케트][린넨라이크]Relaxed Wide Denim Jeans DCPT064",
@@ -2321,7 +2336,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-6450036",
           "brand": "무신사 스탠다드 우먼",
           "name": "[한소희 PICK] 우먼즈 에센셜 커브드 데님 팬츠 [미디엄 인디고]",
@@ -2336,7 +2351,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-7048665",
           "brand": "드로우핏",
           "name": "[오정규X드로우핏] 애프터 세미 스트레이트 데님 팬츠 [3color]",
@@ -2351,7 +2366,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-6450040",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 에센셜 커브드 데님 팬츠 [딥 인디고]",
@@ -2366,7 +2381,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-4225253",
           "brand": "무신사 스탠다드",
           "name": "[이도현 PICK] 플레어 데님 팬츠 [블랙]",
@@ -2381,7 +2396,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-5911447",
           "brand": "에이지오디",
           "name": "스냅 버튼 커브드 팬츠 [로우 인디고]",
@@ -2396,7 +2411,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-5128859",
           "brand": "놈브레",
           "name": "캣워싱 키링 플레어 데님 부츠컷 팬츠 [블루]",
@@ -2411,7 +2426,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-5311382",
           "brand": "언탭트 스튜디오",
           "name": "워시드 오버 와이드 코튼 데님팬츠 3Color",
@@ -2424,21 +2439,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250812/5311382/5311382_17549965010305_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5311382",
           "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-4747231",
-          "brand": "르아르",
-          "name": "에브리데이 커브드 팬츠 [블랙]",
-          "price": 42000,
-          "originalPrice": 42000,
-          "discountRate": 15,
-          "finalPrice": 35900,
-          "category": "003002",
-          "categoryLabel": "데님 팬츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250130/4747231/4747231_17745029104425_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4747231",
-          "displayGenderText": "남성"
         }
       ]
     },
