@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T18:19:42.846882+00:00",
+  "updatedAt": "2026-08-24T19:07:25.475273+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1532,21 +1532,6 @@
       "items": [
         {
           "rank": 1,
-          "id": "ms-6918812",
-          "brand": "효지",
-          "name": "SS 아카이브 파이널 스톡 니트 (7스타일)",
-          "price": 65000,
-          "originalPrice": 65000,
-          "discountRate": 85,
-          "finalPrice": 9800,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260724/6918812/6918812_17860875221141_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6918812",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 2,
           "id": "ms-4388024",
           "brand": "더니트컴퍼니",
           "name": "워셔블 코튼 크루넥 니트 12color",
@@ -1558,6 +1543,21 @@
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240830/4388024/4388024_17258834972522_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4388024",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 2,
+          "id": "ms-6918812",
+          "brand": "효지",
+          "name": "SS 아카이브 파이널 스톡 니트 (7스타일)",
+          "price": 65000,
+          "originalPrice": 65000,
+          "discountRate": 85,
+          "finalPrice": 9800,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260724/6918812/6918812_17860875221141_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6918812",
           "displayGenderText": "남성"
         },
         {
@@ -1682,21 +1682,6 @@
         },
         {
           "rank": 11,
-          "id": "ms-5979041",
-          "brand": "에잇세컨즈",
-          "name": "배색 칼라 풀오버  애쉬",
-          "price": 54900,
-          "originalPrice": 54900,
-          "discountRate": 69,
-          "finalPrice": 16910,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260204/5979041/5979041_17840671283512_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5979041",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 12,
           "id": "ms-6541551",
           "brand": "효지",
           "name": "26 SS 워셔블 린넨 헨리넥 크롭 니트 (6컬러)",
@@ -1711,7 +1696,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-6263413",
           "brand": "알리스",
           "name": "[오정규 x 알리스] 쿨 코튼 레이어드 헨리넥 크롭 하프 니트_2COLOR",
@@ -1726,7 +1711,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-5023733",
           "brand": "편마",
           "name": "Cotton Short Sleeve Polo Knit - 6color",
@@ -1741,7 +1726,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-5920258",
           "brand": "에잇세컨즈",
           "name": "칼라넥 스트라이프 풀오버  아이보리",
@@ -1756,7 +1741,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6109249",
           "brand": "마인드브릿지",
           "name": "[스토커즈 콜라보] [ON]워셔블 케이블 카라 반팔 니트 - 2color",
@@ -1769,6 +1754,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260310/6109249/6109249_17794256943979_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6109249",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 16,
+          "id": "ms-5979041",
+          "brand": "에잇세컨즈",
+          "name": "배색 칼라 풀오버  애쉬",
+          "price": 54900,
+          "originalPrice": 54900,
+          "discountRate": 69,
+          "finalPrice": 16910,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260204/5979041/5979041_17840671283512_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5979041",
+          "displayGenderText": "여성"
         },
         {
           "rank": 17,
