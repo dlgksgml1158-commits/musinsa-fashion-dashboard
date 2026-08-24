@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T08:32:42.124373+00:00",
+  "updatedAt": "2026-08-24T09:32:49.012536+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -27,8 +27,8 @@
           "name": "롤업 슬리브 크롭 반팔 티셔츠 버건디",
           "price": 37900,
           "originalPrice": 37900,
-          "discountRate": 26,
-          "finalPrice": 27900,
+          "discountRate": 41,
+          "finalPrice": 22320,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260602/6593924/6593924_17803822672936_500.jpg",
@@ -967,6 +967,21 @@
         },
         {
           "rank": 4,
+          "id": "ms-5422209",
+          "brand": "에노시",
+          "name": "APR8 36 Logo Patch Hoodie[5Color]",
+          "price": 99000,
+          "originalPrice": 99000,
+          "discountRate": 44,
+          "finalPrice": 55720,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250909/5422209/5422209_17573504725806_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5422209",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 5,
           "id": "ms-4302685",
           "brand": "소라노",
           "name": "SORANO Basic Logo HOODIE [6Color]",
@@ -981,7 +996,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "id": "ms-5273026",
           "brand": "와키윌리",
           "name": "우먼스 타이포 로고 크롭 후디 그레이",
@@ -996,7 +1011,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "id": "ms-3469860",
           "brand": "챔피온",
           "name": "여성 스티치 루즈핏 와플 후드 티셔츠 Black",
@@ -1011,7 +1026,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "id": "ms-5438121",
           "brand": "디스이즈네버댓",
           "name": "T-Logo Hoodie Heather Grey",
@@ -1026,7 +1041,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "id": "ms-6265163",
           "brand": "닉켈하우스",
           "name": "닉켈 26 동키 포켓 후드티",
@@ -1041,7 +1056,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-5799261",
           "brand": "씨큐알",
           "name": "경량 퀵드라이 자외선차단 후드 긴팔 티셔츠",
@@ -1056,7 +1071,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-5992402",
           "brand": "디스이즈네버댓",
           "name": "T-Logo LT Hoodie Heather Grey",
@@ -1071,7 +1086,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-4399140",
           "brand": "와키윌리",
           "name": "레터링 헤비쭈리 후드 그레이",
@@ -1086,7 +1101,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-5352832",
           "brand": "비바라비다",
           "name": "[기모선택] My Youth 헤비테리 후드",
@@ -1101,7 +1116,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-6951164",
           "brand": "디미트리블랙",
           "name": "ASTRO 아트웍 후드 티셔츠_2 COLOR",
@@ -1116,7 +1131,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-2729651",
           "brand": "챔피온",
           "name": "C로고 후드 티셔츠 Black",
@@ -1131,7 +1146,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-5315438",
           "brand": "매든",
           "name": "[류혜영 PICK] [12COLORS] 퍼니 풀오버 후디",
@@ -1146,7 +1161,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-2913656",
           "brand": "필루미네이트",
           "name": "오버핏 그래피티 로고 후디-6Color",
@@ -1161,7 +1176,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-5322480",
           "brand": "리",
           "name": "빅 트위치 로고 후드 티셔츠 네이비",
@@ -1176,7 +1191,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-5273028",
           "brand": "와키윌리",
           "name": "우먼스 타이포 로고 크롭 후디 브라운",
@@ -1191,7 +1206,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-2729656",
           "brand": "챔피온",
           "name": "C로고 후드 티셔츠 Normal Grey",
@@ -1203,21 +1218,6 @@
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20220819/2729656/2729656_17429695530233_500.jpg",
           "productUrl": "https://www.musinsa.com/products/2729656",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-5790755",
-          "brand": "이스트코",
-          "name": "더블 코튼 플리스 후디 버건디",
-          "price": 54900,
-          "originalPrice": 54900,
-          "discountRate": 45,
-          "finalPrice": 29980,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20251129/5790755/5790755_17644218680870_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5790755",
           "displayGenderText": "공용"
         }
       ]
@@ -1598,7 +1598,7 @@
           "price": 49900,
           "originalPrice": 49900,
           "discountRate": 66,
-          "finalPrice": 16920,
+          "finalPrice": 16910,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260211/6014032/6014032_17840706605621_500.jpg",
@@ -1688,7 +1688,7 @@
           "price": 54900,
           "originalPrice": 54900,
           "discountRate": 69,
-          "finalPrice": 16920,
+          "finalPrice": 16910,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260204/5979041/5979041_17840671283512_500.jpg",
@@ -1718,7 +1718,7 @@
           "price": 39900,
           "originalPrice": 39900,
           "discountRate": 58,
-          "finalPrice": 16920,
+          "finalPrice": 16910,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260121/5920258/5920258_17786731581320_500.jpg",
@@ -3167,8 +3167,8 @@
           "name": "[2팩] 퀵드라이 스포츠 7인치 쇼츠 (7color)",
           "price": 49800,
           "originalPrice": 49800,
-          "discountRate": 5,
-          "finalPrice": 47310,
+          "discountRate": 14,
+          "finalPrice": 42580,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250317/4903285/4903285_17745902249337_500.jpg",
