@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T06:21:13.768691+00:00",
+  "updatedAt": "2026-08-25T07:15:04.874174+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 58854,
+        "avg": 58940,
         "min": 7900,
         "max": 246050,
         "count": 60
@@ -662,10 +662,10 @@
         "count": 12
       },
       "female": {
-        "avg": 66132,
+        "avg": 66764,
         "min": 26910,
         "max": 208050,
-        "count": 30
+        "count": 29
       },
       "items": [
         {
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 62938,
+        "avg": 62397,
         "min": 14900,
         "max": 185540,
         "count": 60
@@ -985,10 +985,10 @@
         "count": 17
       },
       "female": {
-        "avg": 50658,
+        "avg": 50269,
         "min": 24800,
         "max": 98040,
-        "count": 26
+        "count": 25
       },
       "items": [
         {
@@ -1218,21 +1218,6 @@
         },
         {
           "rank": 16,
-          "id": "ms-6967268",
-          "brand": "뉴발란스",
-          "name": "NBNDG3W812 / WOMEN AIRY 와플 후드 긴팔티 (CHARCOAL)",
-          "price": 79900,
-          "originalPrice": 79900,
-          "discountRate": 0,
-          "finalPrice": 79900,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967268/6967268_17854745562398_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6967268",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 17,
           "id": "ms-6788300",
           "brand": "스파오",
           "name": "와플 후드 바라클라바 긴팔티_SPFWG4TC10",
@@ -1247,7 +1232,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5799256",
           "brand": "와일드락",
           "name": "Standard Logo 오버핏 후드_10 COL",
@@ -1262,7 +1247,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6013886",
           "brand": "에잇세컨즈",
           "name": "가먼트워싱 슬림 후디탑  그레이",
@@ -1275,6 +1260,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260211/6013886/6013886_17840694132783_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6013886",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 19,
+          "id": "ms-3086908",
+          "brand": "고스트리퍼블릭",
+          "name": "절개 스트링 오버핏 우븐 후드티 GHT-471",
+          "price": 49900,
+          "originalPrice": 49900,
+          "discountRate": 44,
+          "finalPrice": 27900,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20230216/3086908/3086908_17098756034897_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3086908",
+          "displayGenderText": "공용"
         },
         {
           "rank": 20,
@@ -1483,7 +1483,7 @@
           "rank": 12,
           "id": "ms-5002044",
           "brand": "튜드먼트",
-          "name": "POLKA DOT PUFF SLEEVE BLOUSE WHITE",
+          "name": "[브랜드위크 20%쿠폰] POLKA DOT PUFF SLEEVE BLOUSE WHITE",
           "price": 99000,
           "originalPrice": 99000,
           "discountRate": 50,
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-103701",
+          "id": "ms-102536",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,22 +2265,22 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 63108,
+        "avg": 62718,
         "min": 17200,
         "max": 159000,
         "count": 60
       },
       "male": {
-        "avg": 70855,
+        "avg": 69831,
         "min": 19900,
         "max": 159000,
-        "count": 26
+        "count": 27
       },
       "female": {
-        "avg": 59693,
+        "avg": 59415,
         "min": 24700,
         "max": 149000,
-        "count": 26
+        "count": 25
       },
       "items": [
         {
@@ -2911,19 +2911,19 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 56974,
-        "min": 16920,
+        "avg": 56761,
+        "min": 9900,
         "max": 159200,
         "count": 60
       },
       "male": {
-        "avg": 45419,
+        "avg": 44870,
         "min": 19900,
         "max": 69900,
-        "count": 19
+        "count": 18
       },
       "female": {
-        "avg": 62601,
+        "avg": 63765,
         "min": 16920,
         "max": 159200,
         "count": 28
@@ -3234,16 +3234,16 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 38666,
+        "avg": 39061,
         "min": 7900,
         "max": 150000,
         "count": 60
       },
       "male": {
-        "avg": 36692,
+        "avg": 36522,
         "min": 15250,
         "max": 70200,
-        "count": 29
+        "count": 30
       },
       "female": {
         "avg": 40572,
@@ -3344,21 +3344,6 @@
         },
         {
           "rank": 7,
-          "id": "ms-6608876",
-          "brand": "시그니처",
-          "name": "썸머 린넨 라이크 D링 버뮤다 팬츠[2COLORS]",
-          "price": 49900,
-          "originalPrice": 49900,
-          "discountRate": 84,
-          "finalPrice": 7900,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260604/6608876/6608876_17830631169419_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6608876",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 8,
           "id": "ms-3225860",
           "brand": "아날로그무드",
           "name": "린넨 쇼츠 팬츠 (화이트)",
@@ -3373,7 +3358,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-6874981",
           "brand": "유우프",
           "name": "슈가 카프리 팬츠 - 블랙",
@@ -3388,7 +3373,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-6469952",
           "brand": "고스트리퍼블릭",
           "name": "카펜터 버뮤다 데님 팬츠 3Color GP-511",
@@ -3403,7 +3388,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-5442400",
           "brand": "분트",
           "name": "Latch Micro Belt Shorts (BLACK)",
@@ -3418,7 +3403,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-5504965",
           "brand": "무신사 스탠다드 우먼",
           "name": "[한소희 PICK] 우먼즈 마이크로 데님 쇼츠 [라이트 인디고]",
@@ -3433,7 +3418,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-4720624",
           "brand": "무센트",
           "name": "세피 마이크로 쇼츠 (4컬러)",
@@ -3448,7 +3433,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-3048936",
           "brand": "유니어패럴",
           "name": "UA 트윌 밴딩 반바지 오프화이트",
@@ -3463,7 +3448,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-5215342",
           "brand": "더스토리",
           "name": "옥스포드 쇼츠 팬츠 (화이트)",
@@ -3478,7 +3463,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6374709",
           "brand": "더블유엠씨",
           "name": "빈티지워싱 카고 버뮤다팬츠_KHAKI",
@@ -3493,7 +3478,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-5755288",
           "brand": "무신사 스탠다드",
           "name": "[시티 레저] 벨티드 유틸리티 버뮤다 팬츠 [카키]",
@@ -3508,7 +3493,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6608879",
           "brand": "시그니처",
           "name": "에브리데이 쿨 린넨 라이크 밴딩 버뮤다 쇼츠[2COLORS]",
@@ -3523,7 +3508,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5155126",
           "brand": "론론",
           "name": "HEART POCKET TRUNK SHORT PANTS (9colors)",
@@ -3538,7 +3523,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6532776",
           "brand": "후러브스아트",
           "name": "LVS 코튼 카고 버뮤다 팬츠 4color",
@@ -3551,6 +3536,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260522/6532776/6532776_17810541518210_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6532776",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-3920758",
+          "brand": "몽돌",
+          "name": "[쁨이 PICK] 시그니처 코튼 숏 팬츠 MDPT052_6 Colors",
+          "price": 44000,
+          "originalPrice": 44000,
+          "discountRate": 28,
+          "finalPrice": 31680,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240304/3920758/3920758_17810526525995_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3920758",
+          "displayGenderText": "여성"
         }
       ]
     }
