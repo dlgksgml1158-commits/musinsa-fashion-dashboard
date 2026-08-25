@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-25T09:04:39.374669+00:00",
+  "updatedAt": "2026-08-25T09:57:13.282450+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 38938,
+        "avg": 38922,
         "min": 9900,
         "max": 100000,
         "count": 60
@@ -16,8 +16,8 @@
         "count": 26
       },
       "female": {
-        "avg": 39942,
-        "min": 16900,
+        "avg": 39901,
+        "min": 15920,
         "max": 99990,
         "count": 24
       },
@@ -179,8 +179,8 @@
           "name": "보트넥 7부 티셔츠_MIWHWG910A",
           "price": 19900,
           "originalPrice": 19900,
-          "discountRate": 15,
-          "finalPrice": 16910,
+          "discountRate": 20,
+          "finalPrice": 15920,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967421/6967421_17854745571965_500.jpg",
@@ -973,22 +973,22 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 64230,
-        "min": 24800,
+        "avg": 62478,
+        "min": 14900,
         "max": 185540,
         "count": 60
       },
       "male": {
-        "avg": 73079,
-        "min": 29280,
+        "avg": 69657,
+        "min": 14900,
         "max": 181990,
-        "count": 16
+        "count": 17
       },
       "female": {
-        "avg": 53138,
+        "avg": 50462,
         "min": 24800,
-        "max": 120000,
-        "count": 26
+        "max": 98040,
+        "count": 25
       },
       "items": [
         {
@@ -1194,7 +1194,7 @@
           "price": 39900,
           "originalPrice": 39900,
           "discountRate": 20,
-          "finalPrice": 31920,
+          "finalPrice": 31910,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260724/6914788/6914788_17864980713036_500.jpg",
@@ -1269,7 +1269,7 @@
           "price": 59900,
           "originalPrice": 59900,
           "discountRate": 58,
-          "finalPrice": 25420,
+          "finalPrice": 25410,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260211/6013886/6013886_17840694132783_500.jpg",
@@ -1942,22 +1942,22 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 184642,
+        "avg": 183765,
         "min": 44640,
         "max": 600000,
         "count": 60
       },
       "male": {
-        "avg": 210618,
+        "avg": 207898,
         "min": 45830,
         "max": 600000,
-        "count": 29
+        "count": 30
       },
       "female": {
-        "avg": 152578,
+        "avg": 151049,
         "min": 44640,
         "max": 389000,
-        "count": 20
+        "count": 19
       },
       "items": [
         {
@@ -2022,22 +2022,22 @@
         },
         {
           "rank": 5,
-          "id": "ms-6951147",
-          "brand": "카비시",
-          "name": "LIGHT WEIGHT DOWN JACKET BUTTER CREAM(CV2EWUB901A)",
-          "price": 239000,
-          "originalPrice": 239000,
-          "discountRate": 24,
-          "finalPrice": 181640,
+          "id": "ms-7033140",
+          "brand": "쿠어",
+          "name": "카우 스킨 A-2 레더 자켓 (다크브라운)",
+          "price": 540000,
+          "originalPrice": 540000,
+          "discountRate": 10,
+          "finalPrice": 486000,
           "category": "002",
           "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260729/6951147/6951147_17864964626989_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6951147",
-          "displayGenderText": "여성"
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260810/7033140/7033140_17863286266532_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7033140",
+          "displayGenderText": "남성"
         },
         {
           "rank": 6,
-          "id": "ms-103689",
+          "id": "ms-102358",
           "brand": "",
           "name": "",
           "price": null,
@@ -2052,17 +2052,17 @@
         },
         {
           "rank": 7,
-          "id": "ms-7033140",
-          "brand": "쿠어",
-          "name": "카우 스킨 A-2 레더 자켓 (다크브라운)",
-          "price": 540000,
-          "originalPrice": 540000,
-          "discountRate": 10,
-          "finalPrice": 486000,
+          "id": "ms-6814919",
+          "brand": "아디다스",
+          "name": "아디컬러 트랙탑 KV8875",
+          "price": 129000,
+          "originalPrice": 129000,
+          "discountRate": 0,
+          "finalPrice": 129000,
           "category": "002",
           "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260810/7033140/7033140_17863286266532_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7033140",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260709/6814919/6814919_17835847649651_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6814919",
           "displayGenderText": "남성"
         },
         {
@@ -2265,7 +2265,7 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 62617,
+        "avg": 62506,
         "min": 17200,
         "max": 159000,
         "count": 60
@@ -2277,7 +2277,7 @@
         "count": 27
       },
       "female": {
-        "avg": 59174,
+        "avg": 58908,
         "min": 24700,
         "max": 149000,
         "count": 25
@@ -2306,7 +2306,7 @@
           "price": 49900,
           "originalPrice": 49900,
           "discountRate": 20,
-          "finalPrice": 39920,
+          "finalPrice": 39910,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6938901/6938901_17872759284645_500.jpg",
@@ -2336,7 +2336,7 @@
           "price": 59900,
           "originalPrice": 59900,
           "discountRate": 25,
-          "finalPrice": 44930,
+          "finalPrice": 44910,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6938903/6938903_17858934119864_500.jpg",
@@ -2410,8 +2410,8 @@
           "name": "[간절기준비]르체 다크그레이 원 턱 와이드 팬츠",
           "price": 59000,
           "originalPrice": 59000,
-          "discountRate": 30,
-          "finalPrice": 41300,
+          "discountRate": 41,
+          "finalPrice": 34700,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260428/6390295/6390295_17872800481375_500.jpg",
@@ -2588,13 +2588,13 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 48569,
+        "avg": 48346,
         "min": 9900,
         "max": 168000,
         "count": 60
       },
       "male": {
-        "avg": 52263,
+        "avg": 51944,
         "min": 16920,
         "max": 168000,
         "count": 42
