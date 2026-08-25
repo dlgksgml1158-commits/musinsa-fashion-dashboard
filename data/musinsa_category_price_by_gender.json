@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-25T05:31:04.906479+00:00",
+  "updatedAt": "2026-08-25T06:21:13.768691+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 37881,
+        "avg": 37992,
         "min": 9900,
         "max": 100000,
         "count": 60
@@ -16,7 +16,7 @@
         "count": 26
       },
       "female": {
-        "avg": 36612,
+        "avg": 36901,
         "min": 16900,
         "max": 85500,
         "count": 23
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 58495,
+        "avg": 58854,
         "min": 7900,
         "max": 246050,
         "count": 60
@@ -662,10 +662,10 @@
         "count": 12
       },
       "female": {
-        "avg": 66764,
+        "avg": 66132,
         "min": 26910,
         "max": 208050,
-        "count": 29
+        "count": 30
       },
       "items": [
         {
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 62392,
+        "avg": 62938,
         "min": 14900,
         "max": 185540,
         "count": 60
@@ -985,7 +985,7 @@
         "count": 17
       },
       "female": {
-        "avg": 49396,
+        "avg": 50658,
         "min": 24800,
         "max": 98040,
         "count": 26
@@ -1218,6 +1218,21 @@
         },
         {
           "rank": 16,
+          "id": "ms-6967268",
+          "brand": "뉴발란스",
+          "name": "NBNDG3W812 / WOMEN AIRY 와플 후드 긴팔티 (CHARCOAL)",
+          "price": 79900,
+          "originalPrice": 79900,
+          "discountRate": 0,
+          "finalPrice": 79900,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967268/6967268_17854745562398_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6967268",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 17,
           "id": "ms-6788300",
           "brand": "스파오",
           "name": "와플 후드 바라클라바 긴팔티_SPFWG4TC10",
@@ -1232,7 +1247,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-5799256",
           "brand": "와일드락",
           "name": "Standard Logo 오버핏 후드_10 COL",
@@ -1247,7 +1262,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-6013886",
           "brand": "에잇세컨즈",
           "name": "가먼트워싱 슬림 후디탑  그레이",
@@ -1262,7 +1277,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-6884722",
           "brand": "코드그라피",
           "name": "플리스 스냅 후디-버건디",
@@ -1275,21 +1290,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260721/6884722/6884722_17853748440384_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6884722",
           "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-5328644",
-          "brand": "마하그리드",
-          "name": "CURVED SLIM HOODIE BLACK(MG2FFFM419A)",
-          "price": 79000,
-          "originalPrice": 79000,
-          "discountRate": 46,
-          "finalPrice": 42660,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250818/5328644/5328644_17603151025756_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5328644",
-          "displayGenderText": "여성"
         }
       ]
     },
@@ -1942,22 +1942,22 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 185976,
+        "avg": 182990,
         "min": 44640,
         "max": 600000,
         "count": 60
       },
       "male": {
-        "avg": 213377,
+        "avg": 208261,
         "min": 45830,
         "max": 600000,
-        "count": 29
+        "count": 30
       },
       "female": {
-        "avg": 152578,
+        "avg": 148030,
         "min": 44640,
         "max": 389000,
-        "count": 20
+        "count": 19
       },
       "items": [
         {
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-103702",
+          "id": "ms-103701",
           "brand": "",
           "name": "",
           "price": null,
@@ -2112,6 +2112,21 @@
         },
         {
           "rank": 11,
+          "id": "ms-6823731",
+          "brand": "무드인사이드",
+          "name": "워시드 프렌치 워크 자켓_Blue",
+          "price": 99900,
+          "originalPrice": 99900,
+          "discountRate": 40,
+          "finalPrice": 59900,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260710/6823731/6823731_17863480049933_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6823731",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 12,
           "id": "ms-7033647",
           "brand": "쿠어",
           "name": "빈티지 쉘터 넥 카라 레더 점퍼 (블랙브라운)",
@@ -2126,7 +2141,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-7046980",
           "brand": "파타고니아",
           "name": "멘즈 라이트웨이트 신칠라 스냅-티 풀오버 / 25551R7",
@@ -2141,7 +2156,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-6951150",
           "brand": "카비시",
           "name": "[지연 PICK] SOFT AIR HIGH-NECK PADDED JACKET PINK(CV2GFUB902A)",
@@ -2156,7 +2171,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-6896379",
           "brand": "닉켈하우스",
           "name": "닉켈 26 크로스 플로랄 후드집업",
@@ -2171,7 +2186,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-6838154",
           "brand": "스파오",
           "name": "[씬라이트] 여성 후드 재킷_SPJPG4TG24",
@@ -2186,7 +2201,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-6883772",
           "brand": "파타고니아",
           "name": "멘즈 레트로 파일 재킷 / 22802R7",
@@ -2201,7 +2216,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-6686050",
           "brand": "나이키",
           "name": "테크 헬리오스 드라이 핏 풀집 재킷 M - 블랙 / IM1334-010",
@@ -2216,7 +2231,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-5329359",
           "brand": "아디다스",
           "name": "후드 집업 - 블랙:크림화이트 / KC9315",
@@ -2231,7 +2246,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-6880047",
           "brand": "엄브로",
           "name": "크리스피 타슬란 긴팔 자켓 블루 UR324CJK91",
@@ -2244,43 +2259,28 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260720/6880047/6880047_17866836756332_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6880047",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-7033653",
-          "brand": "쿠어",
-          "name": "카우 워시드 바이커 레더 자켓 (워시드블랙)",
-          "price": 550000,
-          "originalPrice": 550000,
-          "discountRate": 10,
-          "finalPrice": 495000,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260810/7033653/7033653_17863304891072_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7033653",
-          "displayGenderText": "남성"
         }
       ]
     },
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 62354,
+        "avg": 63108,
         "min": 17200,
         "max": 159000,
         "count": 60
       },
       "male": {
-        "avg": 69022,
+        "avg": 70855,
         "min": 19900,
         "max": 159000,
-        "count": 27
+        "count": 26
       },
       "female": {
-        "avg": 59415,
+        "avg": 59693,
         "min": 24700,
         "max": 149000,
-        "count": 25
+        "count": 26
       },
       "items": [
         {
@@ -2911,22 +2911,22 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 57051,
+        "avg": 56974,
         "min": 16920,
         "max": 159200,
         "count": 60
       },
       "male": {
-        "avg": 44870,
+        "avg": 45419,
         "min": 19900,
         "max": 69900,
-        "count": 18
+        "count": 19
       },
       "female": {
-        "avg": 62508,
+        "avg": 62601,
         "min": 16920,
         "max": 159200,
-        "count": 29
+        "count": 28
       },
       "items": [
         {
