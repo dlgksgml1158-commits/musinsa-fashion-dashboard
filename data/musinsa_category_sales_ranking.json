@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T21:49:26.243359+00:00",
+  "updatedAt": "2026-08-25T22:12:08.995310+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -2367,6 +2367,21 @@
         },
         {
           "rank": 16,
+          "id": "ms-4725443",
+          "brand": "플랙",
+          "name": "ESSENTIAL E01 022 STRAIGHT DARK INDIGO",
+          "price": 89000,
+          "originalPrice": 89000,
+          "discountRate": 76,
+          "finalPrice": 21360,
+          "category": "003002",
+          "categoryLabel": "데님 팬츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250116/4725443/4725443_17834719781132_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4725443",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 17,
           "id": "ms-5911447",
           "brand": "에이지오디",
           "name": "스냅 버튼 커브드 팬츠 [로우 인디고]",
@@ -2381,7 +2396,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-6479370",
           "brand": "미쏘",
           "name": "로우라이즈 워싱 부츠컷 데님_MIWTJG536J MIWTJG91QJ",
@@ -2396,7 +2411,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-6119339",
           "brand": "달렌",
           "name": "사이드 핀턱 와이드 나일론 팬츠",
@@ -2411,7 +2426,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-3070218",
           "brand": "커스텀어클락",
           "name": "데님 원턱 와이드 팬츠 11 COLOR COOSPT201",
@@ -2423,21 +2438,6 @@
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230208/3070218/3070218_17847883628803_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3070218",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-7049439",
-          "brand": "브랜디드",
-          "name": "1734 FRENCH NAVY JEANS [WIDE STRAIGHT]",
-          "price": 98000,
-          "originalPrice": 98000,
-          "discountRate": 20,
-          "finalPrice": 78400,
-          "category": "003002",
-          "categoryLabel": "데님 팬츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260811/7049439/7049439_17872171442547_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7049439",
           "displayGenderText": "남성"
         }
       ]
