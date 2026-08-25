@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-08-25T00:26:20.335425+00:00",
+  "updatedAt": "2026-08-25T01:57:49.960978+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 38731,
+        "avg": 39024,
         "min": 9900,
         "max": 100000,
         "count": 60
       },
       "male": {
-        "avg": 41361,
+        "avg": 41613,
         "min": 9990,
         "max": 100000,
-        "count": 25
+        "count": 26
       },
       "female": {
         "avg": 39253,
@@ -99,6 +99,21 @@
         },
         {
           "rank": 6,
+          "id": "ms-6888542",
+          "brand": "할리데이비슨 컬렉션스®",
+          "name": "할리 슬럽 티셔츠_멜란지 그레이 HH16111082",
+          "price": 59900,
+          "originalPrice": 59900,
+          "discountRate": 20,
+          "finalPrice": 47920,
+          "category": "001001",
+          "categoryLabel": "반소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260721/6888542/6888542_17871908923145_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6888542",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 7,
           "id": "ms-6896783",
           "brand": "그리쉬",
           "name": "롤업 레이어드 크롭 반팔티 [블랙]",
@@ -113,7 +128,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "id": "ms-7008658",
           "brand": "에잇세컨즈",
           "name": "[Disney] 슬림 레귤러핏 그래픽 티셔츠  그레이",
@@ -128,7 +143,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "id": "ms-6858118",
           "brand": "노티카",
           "name": "아치 프레임 로고 티셔츠(3colors) NTS6026",
@@ -143,7 +158,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-6852823",
           "brand": "아디다스",
           "name": "케어베어 OS 티 - 블랙 / IA4539",
@@ -158,7 +173,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-6967421",
           "brand": "미쏘",
           "name": "보트넥 7부 티셔츠_MIWHWG910A",
@@ -173,7 +188,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-6842612",
           "brand": "나이키",
           "name": "스위프트 에어로 핏 반소매 러닝 탑 W - 블랙:라이트 그린 스파크 / IH8115-014",
@@ -186,21 +201,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260714/6842612/6842612_17847949033163_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6842612",
           "displayGenderText": "여성"
-        },
-        {
-          "rank": 12,
-          "id": "ms-6839271",
-          "brand": "후드후드",
-          "name": "Girl Stress Nutrition 레이어드 롤업 반팔티셔츠 네이비",
-          "price": 45000,
-          "originalPrice": 45000,
-          "discountRate": 32,
-          "finalPrice": 30380,
-          "category": "001001",
-          "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260714/6839271/6839271_17846222147803_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6839271",
-          "displayGenderText": "공용"
         },
         {
           "rank": 13,
@@ -327,14 +327,14 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 45440,
-        "min": 7510,
+        "avg": 45447,
+        "min": 7900,
         "max": 130000,
         "count": 60
       },
       "male": {
-        "avg": 54807,
-        "min": 7510,
+        "avg": 54833,
+        "min": 7900,
         "max": 127800,
         "count": 15
       },
@@ -650,16 +650,16 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 59430,
+        "avg": 58217,
         "min": 7900,
         "max": 246050,
         "count": 60
       },
       "male": {
-        "avg": 66284,
+        "avg": 63558,
         "min": 17910,
         "max": 246050,
-        "count": 13
+        "count": 12
       },
       "female": {
         "avg": 65741,
@@ -973,22 +973,22 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 63531,
+        "avg": 63529,
         "min": 14900,
         "max": 185540,
         "count": 60
       },
       "male": {
-        "avg": 69657,
+        "avg": 70892,
         "min": 14900,
         "max": 181990,
-        "count": 17
+        "count": 16
       },
       "female": {
-        "avg": 52025,
+        "avg": 51941,
         "min": 24800,
         "max": 98040,
-        "count": 26
+        "count": 27
       },
       "items": [
         {
@@ -1296,19 +1296,19 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 56162,
+        "avg": 56078,
         "min": 15920,
         "max": 162000,
         "count": 60
       },
       "male": {
-        "avg": 65161,
+        "avg": 64801,
         "min": 19900,
         "max": 162000,
         "count": 22
       },
       "female": {
-        "avg": 52180,
+        "avg": 52274,
         "min": 15920,
         "max": 109000,
         "count": 30
@@ -1351,8 +1351,8 @@
           "name": "시어서커 하드 트위스트 체크 셔츠 블랙",
           "price": 99000,
           "originalPrice": 99000,
-          "discountRate": 20,
-          "finalPrice": 79200,
+          "discountRate": 28,
+          "finalPrice": 71280,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260730/6957693/6957693_17853880605313_500.jpg",
@@ -1426,8 +1426,8 @@
           "name": "레이어드 컷아웃 체크 하프 셔츠 [purple]",
           "price": 84000,
           "originalPrice": 84000,
-          "discountRate": 23,
-          "finalPrice": 64340,
+          "discountRate": 21,
+          "finalPrice": 66110,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250519/5128595/5128595_17852145515081_500.jpg",
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 184876,
+        "avg": 183781,
         "min": 44640,
         "max": 600000,
         "count": 60
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-102937",
+          "id": "ms-102208",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,13 +2265,13 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 62771,
+        "avg": 62787,
         "min": 19900,
         "max": 159000,
         "count": 60
       },
       "male": {
-        "avg": 68066,
+        "avg": 68100,
         "min": 19900,
         "max": 159000,
         "count": 28
@@ -2911,8 +2911,8 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 56869,
-        "min": 9900,
+        "avg": 57130,
+        "min": 16920,
         "max": 159200,
         "count": 60
       },
@@ -2923,10 +2923,10 @@
         "count": 18
       },
       "female": {
-        "avg": 63996,
+        "avg": 62672,
         "min": 16920,
         "max": 159200,
-        "count": 28
+        "count": 29
       },
       "items": [
         {
