@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T04:25:45.046975+00:00",
+  "updatedAt": "2026-08-25T05:00:26.119782+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -2157,6 +2157,21 @@
         },
         {
           "rank": 2,
+          "id": "ms-7009519",
+          "brand": "아워데이즈",
+          "name": "[젠플록스X아워데이즈] 세미 커브드 데님 팬츠 [3COLORS]",
+          "price": 66000,
+          "originalPrice": 66000,
+          "discountRate": 39,
+          "finalPrice": 39960,
+          "category": "003002",
+          "categoryLabel": "데님 팬츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260806/7009519/7009519_17871185496549_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7009519",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 3,
           "id": "ms-5717317",
           "brand": "워크온바디오프",
           "name": "(여름추가) 에즈 릴렉스 세미 와이드 데님 팬츠 (7color)",
@@ -2171,7 +2186,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "id": "ms-3791988",
           "brand": "필루미네이트",
           "name": "데미지 워시드 데님 팬츠-미디엄 블루",
@@ -2186,7 +2201,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "id": "ms-5866558",
           "brand": "어널러코드",
           "name": "브루니 커브드 데님팬츠 (생지)",
@@ -2201,7 +2216,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "id": "ms-3098372",
           "brand": "플랙",
           "name": "깡스타일리스트 X 플랙 스티즈 K46 로우",
@@ -2216,7 +2231,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "id": "ms-4757347",
           "brand": "언탭트 스튜디오",
           "name": "빈티지 프론트 워싱 와이드 벌룬 데님 팬츠 4Color",
@@ -2231,7 +2246,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "id": "ms-5682006",
           "brand": "텍스",
           "name": "[린넨 라이크/사계절용선택] TX304 커브드 배기 벌룬 데님 (블랙)",
@@ -2246,7 +2261,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "id": "ms-4725443",
           "brand": "플랙",
           "name": "ESSENTIAL E01 022 STRAIGHT DARK INDIGO",
@@ -2261,7 +2276,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-6815857",
           "brand": "위캔더스",
           "name": "[WKNDRS X FIT THE SIZE] EAGLE DENIM PANTS (KHAKI)",
@@ -2276,7 +2291,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-3070218",
           "brand": "커스텀어클락",
           "name": "데님 원턱 와이드 팬츠 11 COLOR COOSPT201",
@@ -2291,7 +2306,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-5916590",
           "brand": "언탭트 스튜디오",
           "name": "빈티지 워시드 와이드 데님팬츠 3Color",
@@ -2306,7 +2321,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-5066604",
           "brand": "데케트",
           "name": "[패션플래닛X데케트][린넨라이크]Relaxed Wide Denim Jeans DCPT064",
@@ -2321,7 +2336,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-6450036",
           "brand": "무신사 스탠다드 우먼",
           "name": "[한소희 PICK] 우먼즈 에센셜 커브드 데님 팬츠 [미디엄 인디고]",
@@ -2336,7 +2351,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-7048665",
           "brand": "드로우핏",
           "name": "[오정규X드로우핏] 애프터 세미 스트레이트 데님 팬츠 [3color]",
@@ -2351,7 +2366,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-6450040",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 에센셜 커브드 데님 팬츠 [딥 인디고]",
@@ -2366,7 +2381,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-4225253",
           "brand": "무신사 스탠다드",
           "name": "[이도현 PICK] 플레어 데님 팬츠 [블랙]",
@@ -2381,7 +2396,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-5911447",
           "brand": "에이지오디",
           "name": "스냅 버튼 커브드 팬츠 [로우 인디고]",
@@ -2396,7 +2411,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-5128859",
           "brand": "놈브레",
           "name": "캣워싱 키링 플레어 데님 부츠컷 팬츠 [블루]",
@@ -2411,7 +2426,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-5311382",
           "brand": "언탭트 스튜디오",
           "name": "워시드 오버 와이드 코튼 데님팬츠 3Color",
@@ -2424,21 +2439,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250812/5311382/5311382_17549965010305_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5311382",
           "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-4747231",
-          "brand": "르아르",
-          "name": "에브리데이 커브드 팬츠 [블랙]",
-          "price": 42000,
-          "originalPrice": 42000,
-          "discountRate": 15,
-          "finalPrice": 35900,
-          "category": "003002",
-          "categoryLabel": "데님 팬츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250130/4747231/4747231_17745029104425_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4747231",
-          "displayGenderText": "남성"
         }
       ]
     },
