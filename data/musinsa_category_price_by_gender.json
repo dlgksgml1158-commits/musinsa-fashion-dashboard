@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-08-25T01:57:49.960978+00:00",
+  "updatedAt": "2026-08-25T02:52:36.709578+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 39024,
+        "avg": 39212,
         "min": 9900,
         "max": 100000,
         "count": 60
       },
       "male": {
-        "avg": 41613,
+        "avg": 41678,
         "min": 9990,
         "max": 100000,
         "count": 26
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 58217,
+        "avg": 58712,
         "min": 7900,
         "max": 246050,
         "count": 60
@@ -662,8 +662,8 @@
         "count": 12
       },
       "female": {
-        "avg": 65741,
-        "min": 22410,
+        "avg": 66764,
+        "min": 26910,
         "max": 208050,
         "count": 29
       },
@@ -925,21 +925,6 @@
         },
         {
           "rank": 18,
-          "id": "ms-5884068",
-          "brand": "후아유",
-          "name": "Cali Raw Cut Sweatshirt(Loose Fit) / WHMWG2291F",
-          "price": 49900,
-          "originalPrice": 49900,
-          "discountRate": 55,
-          "finalPrice": 22410,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260112/5884068/5884068_17768220663431_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5884068",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 19,
           "id": "ms-6884725",
           "brand": "코드그라피",
           "name": "플리스 스냅 하프넥 롱슬리브-버건디",
@@ -954,7 +939,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-4735374",
           "brand": "디스이즈네버댓",
           "name": "T-Logo LT Crewneck Navy",
@@ -967,13 +952,28 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250122/4735374/4735374_17707775589008_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4735374",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6108638",
+          "brand": "레터프롬문",
+          "name": "레터즈 브이넥 와플 스웻셔츠 ( 아이보리 )",
+          "price": 85000,
+          "originalPrice": 85000,
+          "discountRate": 19,
+          "finalPrice": 68630,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260310/6108638/6108638_17761243356493_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6108638",
+          "displayGenderText": "여성"
         }
       ]
     },
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 63529,
+        "avg": 62715,
         "min": 14900,
         "max": 185540,
         "count": 60
@@ -985,7 +985,7 @@
         "count": 16
       },
       "female": {
-        "avg": 51941,
+        "avg": 50133,
         "min": 24800,
         "max": 98040,
         "count": 27
@@ -1193,8 +1193,8 @@
           "name": "스트라이프 후드 티셔츠_MIWLWG924A",
           "price": 39900,
           "originalPrice": 39900,
-          "discountRate": 22,
-          "finalPrice": 30970,
+          "discountRate": 20,
+          "finalPrice": 31920,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260724/6914788/6914788_17864980713036_500.jpg",
@@ -1218,21 +1218,6 @@
         },
         {
           "rank": 16,
-          "id": "ms-6967268",
-          "brand": "뉴발란스",
-          "name": "NBNDG3W812 / WOMEN AIRY 와플 후드 긴팔티 (CHARCOAL)",
-          "price": 79900,
-          "originalPrice": 79900,
-          "discountRate": 0,
-          "finalPrice": 79900,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967268/6967268_17854745562398_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6967268",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 17,
           "id": "ms-6788300",
           "brand": "스파오",
           "name": "와플 후드 바라클라바 긴팔티_SPFWG4TC10",
@@ -1247,7 +1232,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5799256",
           "brand": "와일드락",
           "name": "Standard Logo 오버핏 후드_10 COL",
@@ -1262,7 +1247,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6013886",
           "brand": "에잇세컨즈",
           "name": "가먼트워싱 슬림 후디탑  그레이",
@@ -1277,7 +1262,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6884722",
           "brand": "코드그라피",
           "name": "플리스 스냅 후디-버건디",
@@ -1290,13 +1275,28 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260721/6884722/6884722_17853748440384_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6884722",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5328644",
+          "brand": "마하그리드",
+          "name": "CURVED SLIM HOODIE BLACK(MG2FFFM419A)",
+          "price": 79000,
+          "originalPrice": 79000,
+          "discountRate": 46,
+          "finalPrice": 42660,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250818/5328644/5328644_17603151025756_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5328644",
+          "displayGenderText": "여성"
         }
       ]
     },
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 56078,
+        "avg": 55944,
         "min": 15920,
         "max": 162000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 22
       },
       "female": {
-        "avg": 52274,
+        "avg": 52008,
         "min": 15920,
         "max": 109000,
         "count": 30
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-102208",
+          "id": "ms-102938",
           "brand": "",
           "name": "",
           "price": null,
@@ -2911,16 +2911,16 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 57130,
+        "avg": 56197,
         "min": 16920,
         "max": 159200,
         "count": 60
       },
       "male": {
-        "avg": 44870,
+        "avg": 45419,
         "min": 19900,
         "max": 69900,
-        "count": 18
+        "count": 19
       },
       "female": {
         "avg": 62672,
