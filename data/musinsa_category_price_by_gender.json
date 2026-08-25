@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T10:22:18.197464+00:00",
+  "updatedAt": "2026-08-25T10:56:19.998941+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 183765,
+        "avg": 183932,
         "min": 44640,
         "max": 600000,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 30
       },
       "female": {
-        "avg": 151049,
+        "avg": 151575,
         "min": 44640,
         "max": 389000,
         "count": 19
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-102937",
+          "id": "ms-103680",
           "brand": "",
           "name": "",
           "price": null,
@@ -2102,8 +2102,8 @@
           "name": "(woman) 오버핏 피쉬테일 롱 야상_Khaki",
           "price": 159900,
           "originalPrice": 159900,
-          "discountRate": 50,
-          "finalPrice": 79900,
+          "discountRate": 44,
+          "finalPrice": 89900,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260806/7014385/7014385_17860143790862_500.jpg",
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 39061,
+        "avg": 38999,
         "min": 7900,
         "max": 150000,
         "count": 60
