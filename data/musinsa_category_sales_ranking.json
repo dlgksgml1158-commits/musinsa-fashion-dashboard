@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T17:02:06.926411+00:00",
+  "updatedAt": "2026-08-25T17:51:16.788036+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -522,21 +522,6 @@
         },
         {
           "rank": 15,
-          "id": "ms-6595045",
-          "brand": "무신사 스탠다드 우먼",
-          "name": "우먼즈 소프트 리브드 긴소매 티셔츠 [블랙]",
-          "price": 19900,
-          "originalPrice": 19900,
-          "discountRate": 5,
-          "finalPrice": 18900,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260602/6595045/6595045_17852247637812_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6595045",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 16,
           "id": "ms-6595044",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 소프트 리브드 긴소매 티셔츠 [미디엄 그레이]",
@@ -551,7 +536,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7048768",
           "brand": "브랜디드",
           "name": "RAW SLUB LONG SLEEVE [DARK GRAY]",
@@ -566,22 +551,22 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
-          "id": "ms-5308085",
-          "brand": "매든",
-          "name": "[류혜영 PICK] [8COLORS] 라인드 와플 롱슬리브",
-          "price": 59900,
-          "originalPrice": 59900,
-          "discountRate": 30,
-          "finalPrice": 42030,
+          "rank": 17,
+          "id": "ms-6595045",
+          "brand": "무신사 스탠다드 우먼",
+          "name": "우먼즈 소프트 리브드 긴소매 티셔츠 [블랙]",
+          "price": 19900,
+          "originalPrice": 19900,
+          "discountRate": 5,
+          "finalPrice": 18900,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250811/5308085/5308085_17873566083963_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5308085",
-          "displayGenderText": "공용"
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260602/6595045/6595045_17852247637812_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6595045",
+          "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5911661",
           "brand": "언타이틀 서울",
           "name": "유니콘 헨리넥 롱슬리브 아이보리",
@@ -594,6 +579,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260119/5911661/5911661_17860605718411_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5911661",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 19,
+          "id": "ms-5308085",
+          "brand": "매든",
+          "name": "[류혜영 PICK] [8COLORS] 라인드 와플 롱슬리브",
+          "price": 59900,
+          "originalPrice": 59900,
+          "discountRate": 30,
+          "finalPrice": 42030,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250811/5308085/5308085_17873566083963_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5308085",
+          "displayGenderText": "공용"
         },
         {
           "rank": 20,
@@ -797,21 +797,6 @@
         },
         {
           "rank": 13,
-          "id": "ms-4782429",
-          "brand": "웬즈데이오아시스 포 우먼",
-          "name": "W/피그먼트 워시드 다잉 스웨트셔츠_3Color(WV25-TP01)",
-          "price": 79000,
-          "originalPrice": 79000,
-          "discountRate": 30,
-          "finalPrice": 55300,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250212/4782429/4782429_17403762706409_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4782429",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 14,
           "id": "ms-6710466",
           "brand": "무신사 스탠다드",
           "name": "헨리 넥 스웨트셔츠 [미디엄 그레이]",
@@ -824,6 +809,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260622/6710466/6710466_17853067360317_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6710466",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 14,
+          "id": "ms-4782429",
+          "brand": "웬즈데이오아시스 포 우먼",
+          "name": "W/피그먼트 워시드 다잉 스웨트셔츠_3Color(WV25-TP01)",
+          "price": 79000,
+          "originalPrice": 79000,
+          "discountRate": 30,
+          "finalPrice": 55300,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250212/4782429/4782429_17403762706409_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4782429",
+          "displayGenderText": "여성"
         },
         {
           "rank": 15,
@@ -1147,21 +1147,6 @@
         },
         {
           "rank": 16,
-          "id": "ms-6265163",
-          "brand": "닉켈하우스",
-          "name": "닉켈 26 동키 포켓 후드티",
-          "price": 159000,
-          "originalPrice": 159000,
-          "discountRate": 47,
-          "finalPrice": 84600,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260407/6265163/6265163_17755031973840_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6265163",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 17,
           "id": "ms-3469860",
           "brand": "챔피온",
           "name": "여성 스티치 루즈핏 와플 후드 티셔츠 Black",
@@ -1176,7 +1161,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-4399142",
           "brand": "와키윌리",
           "name": "레터링 헤비쭈리 후드 블랙",
@@ -1191,7 +1176,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-2913656",
           "brand": "필루미네이트",
           "name": "오버핏 그래피티 로고 후디-6Color",
@@ -1206,7 +1191,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-2722805",
           "brand": "브라운브레스",
           "name": "TAG OG HOODIE - BURGUNDY",
@@ -1218,6 +1203,21 @@
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20220817/2722805/2722805_17685233788556_500.jpg",
           "productUrl": "https://www.musinsa.com/products/2722805",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6265163",
+          "brand": "닉켈하우스",
+          "name": "닉켈 26 동키 포켓 후드티",
+          "price": 159000,
+          "originalPrice": 159000,
+          "discountRate": 47,
+          "finalPrice": 84600,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260407/6265163/6265163_17755031973840_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6265163",
           "displayGenderText": "공용"
         }
       ]
@@ -2732,17 +2732,17 @@
         },
         {
           "rank": 20,
-          "id": "ms-3153802",
+          "id": "ms-1224094",
           "brand": "무신사 스탠다드",
-          "name": "쿨링 딥 턱 와이드 밴딩 팬츠 [블랙]",
-          "price": 45900,
-          "originalPrice": 45900,
-          "discountRate": 13,
-          "finalPrice": 40090,
+          "name": "세미 와이드 히든 밴딩 슬랙스 [차콜 그레이]",
+          "price": 49900,
+          "originalPrice": 49900,
+          "discountRate": 5,
+          "finalPrice": 47390,
           "category": "003008",
           "categoryLabel": "슬랙스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230316/3153802/3153802_16893121516097_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3153802",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20191113/1224094/1224094_17518465836463_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/1224094",
           "displayGenderText": "남성"
         }
       ]
