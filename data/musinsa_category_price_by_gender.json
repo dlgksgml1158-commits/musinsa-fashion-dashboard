@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-25T03:37:05.113880+00:00",
+  "updatedAt": "2026-08-25T04:25:37.174554+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 38894,
+        "avg": 38724,
         "min": 9900,
         "max": 100000,
         "count": 60
@@ -1942,16 +1942,16 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 183781,
+        "avg": 185766,
         "min": 44640,
         "max": 600000,
         "count": 60
       },
       "male": {
-        "avg": 207843,
+        "avg": 212944,
         "min": 45830,
         "max": 600000,
-        "count": 30
+        "count": 29
       },
       "female": {
         "avg": 152578,
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-103342",
+          "id": "ms-103701",
           "brand": "",
           "name": "",
           "price": null,
@@ -2127,21 +2127,6 @@
         },
         {
           "rank": 12,
-          "id": "ms-6823731",
-          "brand": "무드인사이드",
-          "name": "워시드 프렌치 워크 자켓_Blue",
-          "price": 99900,
-          "originalPrice": 99900,
-          "discountRate": 40,
-          "finalPrice": 59900,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260710/6823731/6823731_17863480049933_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6823731",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 13,
           "id": "ms-7033647",
           "brand": "쿠어",
           "name": "빈티지 쉘터 넥 카라 레더 점퍼 (블랙브라운)",
@@ -2156,7 +2141,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-7046980",
           "brand": "파타고니아",
           "name": "멘즈 라이트웨이트 신칠라 스냅-티 풀오버 / 25551R7",
@@ -2171,7 +2156,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6951150",
           "brand": "카비시",
           "name": "[지연 PICK] SOFT AIR HIGH-NECK PADDED JACKET PINK(CV2GFUB902A)",
@@ -2186,7 +2171,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6896379",
           "brand": "닉켈하우스",
           "name": "닉켈 26 크로스 플로랄 후드집업",
@@ -2201,7 +2186,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6838154",
           "brand": "스파오",
           "name": "[씬라이트] 여성 후드 재킷_SPJPG4TG24",
@@ -2216,7 +2201,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6883772",
           "brand": "파타고니아",
           "name": "멘즈 레트로 파일 재킷 / 22802R7",
@@ -2231,7 +2216,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6686050",
           "brand": "나이키",
           "name": "테크 헬리오스 드라이 핏 풀집 재킷 M - 블랙 / IM1334-010",
@@ -2246,7 +2231,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5329359",
           "brand": "아디다스",
           "name": "후드 집업 - 블랙:크림화이트 / KC9315",
@@ -2259,22 +2244,37 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250818/5329359/5329359_17569461399483_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5329359",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6880047",
+          "brand": "엄브로",
+          "name": "크리스피 타슬란 긴팔 자켓 블루 UR324CJK91",
+          "price": 169000,
+          "originalPrice": 169000,
+          "discountRate": 5,
+          "finalPrice": 160550,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260720/6880047/6880047_17866836756332_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6880047",
+          "displayGenderText": "남성"
         }
       ]
     },
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 62787,
-        "min": 19900,
+        "avg": 62354,
+        "min": 17200,
         "max": 159000,
         "count": 60
       },
       "male": {
-        "avg": 68100,
+        "avg": 69022,
         "min": 19900,
         "max": 159000,
-        "count": 28
+        "count": 27
       },
       "female": {
         "avg": 59415,
