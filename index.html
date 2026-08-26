@@ -281,11 +281,16 @@
   .sales-kpi .delta.up { color: var(--series-red); }
   .sales-kpi .delta.down { color: var(--series-blue); }
   .sales-chart-title { font-size: 12px; font-weight: 700; color: var(--text-secondary); margin: 0 0 10px; }
-  .sales-chart-svg { width: 100%; height: 160px; overflow: visible; }
+  .sales-chart-svg { width: 100%; height: 260px; overflow: visible; }
   .sales-chart-svg .sales-line { fill: none; stroke: var(--series-blue); stroke-width: 2; }
   .sales-chart-svg .sales-area { fill: color-mix(in srgb, var(--series-blue) 14%, transparent); stroke: none; }
   .sales-chart-svg .sales-dot { fill: var(--series-blue); }
   .sales-chart-svg .sales-axis-label { font-size: 9px; fill: var(--text-muted); }
+  .sales-weekly-value { font-size: 28px; font-weight: 800; margin-top: 4px; }
+  .sales-weekly-delta { font-size: 16px; font-weight: 700; margin-top: 6px; }
+  .sales-weekly-delta.up { color: var(--series-red); }
+  .sales-weekly-delta.down { color: var(--series-blue); }
+  .sales-weekly-note { font-size: 12px; color: var(--text-muted); margin-top: 8px; }
 
   .brand-donut-wrap { position: relative; display: flex; flex-direction: row; align-items: center; gap: 14px; padding: 4px 0 0; }
   .brand-donut-svg { flex: 0 0 230px; width: 230px; height: 230px; }
@@ -431,7 +436,7 @@
       <div class="sales-chart-title">월별 매출 추이</div>
       <div id="sales-chart"></div>
     </div>
-    <div class="card sales-layer"></div>
+    <div class="card sales-layer" id="sales-weekly-change"></div>
   </div>
 </div>
 </div><!-- /screens -->
@@ -921,7 +926,9 @@ async function fetchSalesData() {
   const months = ["3월", "4월", "5월", "6월", "7월", "8월"];
   const revenue = [820, 910, 870, 1020, 980, 1140]; // 단위: 만원 (더미)
   const orders =  [410, 455, 430, 505, 480, 560];   // 더미
-  return { months, revenue, orders };
+  // 최근 14일 일별 매출 (더미) — 마지막 7개가 이번 주, 그 앞 7개가 지난 주
+  const daily = [142, 158, 133, 171, 149, 162, 177, 165, 149, 181, 174, 158, 190, 183];
+  return { months, revenue, orders, daily };
 }
 
 function renderSalesKpis(data) {
@@ -946,9 +953,25 @@ function renderSalesKpis(data) {
   `).join("");
 }
 
+function renderSalesWeeklyChange(data) {
+  const el = document.getElementById("sales-weekly-change");
+  const daily = data.daily;
+  const n = daily.length;
+  const thisWeek = daily.slice(n - 7).reduce((a, b) => a + b, 0);
+  const lastWeek = daily.slice(n - 14, n - 7).reduce((a, b) => a + b, 0);
+  const pct = Math.round((thisWeek - lastWeek) / lastWeek * 100);
+  const up = pct >= 0;
+  el.innerHTML = `
+    <div class="sales-chart-title">최근 7일 매출 증감</div>
+    <div class="sales-weekly-value">${thisWeek.toLocaleString("ko-KR")}만원</div>
+    <div class="sales-weekly-delta ${up ? "up" : "down"}">${up ? "▲" : "▼"} ${Math.abs(pct)}%</div>
+    <div class="sales-weekly-note">지난 7일(${lastWeek.toLocaleString("ko-KR")}만원) 대비</div>
+  `;
+}
+
 function renderSalesChart(data) {
   const el = document.getElementById("sales-chart");
-  const w = 380, h = 160, padL = 30, padR = 10, padT = 10, padB = 20;
+  const w = 380, h = 260, padL = 30, padR = 10, padT = 10, padB = 20;
   const max = Math.max(...data.revenue) * 1.1;
   const min = 0;
   const n = data.revenue.length;
@@ -1090,6 +1113,7 @@ async function init() {
   fetchSalesData().then(sales => {
     renderSalesKpis(sales);
     renderSalesChart(sales);
+    renderSalesWeeklyChange(sales);
   });
 
   document.querySelectorAll("#kw-tabs .tab-btn").forEach(btn => btn.addEventListener("click", () => {
