@@ -165,6 +165,11 @@
   .discount-price .price-orig { color: var(--text-muted); text-decoration: line-through; font-size: 11px; margin-left: 0; }
 
   .tabs { display: flex; gap: 6px; margin-bottom: 12px; flex-wrap: wrap; }
+  #category-tabs {
+    flex-wrap: nowrap; overflow-x: auto; cursor: grab; scroll-snap-type: x proximity;
+  }
+  #category-tabs.dragging { cursor: grabbing; scroll-snap-type: none; user-select: none; }
+  #category-tabs .tab-btn { flex-shrink: 0; scroll-snap-align: start; }
   .dropdown-select { position: relative; display: inline-block; }
   .dropdown-select-toggle {
     display: inline-flex; align-items: center; gap: 4px; font-size: 13px; padding: 0;
@@ -782,6 +787,7 @@ async function init() {
   enableDragScroll(document.getElementById("new-products"));
   enableDragScroll(document.getElementById("hot-products"));
   enableDragScroll(document.getElementById("season-color-palette"));
+  enableDragScroll(document.getElementById("category-tabs"));
 
   const [musinsa, cm29, searchTrends, naverTrends, weather, news, discountNews, meta, categoryPriceByGender, categorySalesRanking, seasonalTrends] = await Promise.all([
     loadJson("musinsa.json"), loadJson("29cm.json"), loadJson("musinsa_search_trends.json"),
