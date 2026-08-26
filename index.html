@@ -753,7 +753,7 @@ function renderBrandShareChart() {
   const paths = slices.map(s => `<path class="brand-donut-segment" data-brand="${s.brand}" data-count="${s.count}" data-pct="${s.pct}" d="${s.dNormal}" data-d-normal="${s.dNormal}" data-d-hover="${s.dHover}" fill="${s.color}"></path>`).join("");
 
   el.innerHTML = `
-    <svg class="brand-donut-svg" viewBox="0 0 100 100">
+    <svg class="brand-donut-svg" viewBox="-8 -8 116 116">
       ${paths}
     </svg>
     <div class="brand-donut-info" id="brand-donut-info">그래프에 마우스를 올려보세요</div>
@@ -765,6 +765,7 @@ function renderBrandShareChart() {
     seg.addEventListener("mouseenter", () => {
       segments.forEach(s => s.setAttribute("d", s.dataset.dNormal));
       seg.setAttribute("d", seg.dataset.dHover);
+      seg.parentNode.appendChild(seg); // SVG has no z-index — move to last so it draws on top
       const { brand, count, pct } = seg.dataset;
       infoEl.innerHTML = `<span class="swatch" style="background:${seg.getAttribute("fill")}"></span><b>${brand}</b> · ${count}개 · ${pct}%`;
     });
