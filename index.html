@@ -261,17 +261,12 @@
   .sales-edge-handle-left { right: auto; left: 0; display: none; }
   .sales-edge-handle:active { cursor: grabbing; }
   .sales-edge-grip {
-    width: 26px; height: 70px; position: relative; pointer-events: none;
-    background: var(--surface-1); border: 1px solid var(--border); border-radius: 14px;
-    box-shadow: var(--card-shadow);
+    width: 22px; height: 44px; border-radius: 12px; position: relative; pointer-events: none;
+    background: var(--surface-1); border: 1px solid var(--border); box-shadow: var(--card-shadow);
+    display: flex; align-items: center; justify-content: center;
   }
-  .sales-edge-grip::before, .sales-edge-grip::after {
-    content: ""; position: absolute; left: 8px; width: 13px; height: 4px; border-radius: 2px;
-    background: var(--text-primary);
-  }
-  .sales-edge-grip::before { top: 28px; transform: rotate(45deg); }
-  .sales-edge-grip::after { top: 38px; transform: rotate(-45deg); }
-  .sales-edge-handle-left .sales-edge-grip { transform: scaleX(-1); }
+  .sales-edge-grip svg { width: 10px; height: 16px; stroke: var(--text-secondary); }
+  .sales-edge-handle-left .sales-edge-grip svg { transform: scaleX(-1); }
   .sales-screen-header { display: flex; align-items: baseline; gap: 12px; margin-bottom: 4px; }
   .sales-screen-header h2 { margin: 0; font-size: 18px; }
   .sales-back-btn { background: none; border: none; font-size: 13px; cursor: pointer; color: var(--text-secondary); padding: 4px 0; }
@@ -429,8 +424,8 @@
 </div>
 </div><!-- /screens -->
 
-<div class="sales-edge-handle" id="sales-edge-handle"><div class="sales-edge-grip"></div></div>
-<div class="sales-edge-handle sales-edge-handle-left" id="sales-edge-handle-left"><div class="sales-edge-grip"></div></div>
+<div class="sales-edge-handle" id="sales-edge-handle"><div class="sales-edge-grip"><svg viewBox="0 0 10 16" fill="none"><path d="M8.5 1.5L1.5 8L8.5 14.5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div>
+<div class="sales-edge-handle sales-edge-handle-left" id="sales-edge-handle-left"><div class="sales-edge-grip"><svg viewBox="0 0 10 16" fill="none"><path d="M8.5 1.5L1.5 8L8.5 14.5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div>
 
 <script>
 const DATA_BASE = "data";
