@@ -248,14 +248,16 @@
   .screens.dragging { transition: none; }
   .screen { width: 50%; flex-shrink: 0; height: 100%; min-height: 100vh; overflow-y: auto; -webkit-overflow-scrolling: touch; }
   .screen-sales { padding: 20px; max-width: 640px; }
-  .sales-tab {
-    position: fixed; top: 50%; right: 0; transform: translateY(-50%);
-    width: 26px; height: 88px; background: var(--surface-1); border: 1px solid var(--border); border-right: none;
-    border-radius: 10px 0 0 10px; box-shadow: var(--card-shadow);
-    display: flex; align-items: center; justify-content: center; cursor: grab; z-index: 40; touch-action: none;
+  .sales-edge-handle {
+    position: fixed; top: 0; right: 0; width: 32px; height: 100%;
+    cursor: grab; z-index: 40; touch-action: none;
+    display: flex; align-items: center; justify-content: center;
   }
-  .sales-tab:active { cursor: grabbing; }
-  .sales-tab span { writing-mode: vertical-rl; font-size: 12px; font-weight: 700; color: var(--text-secondary); letter-spacing: 1px; }
+  .sales-edge-handle:active { cursor: grabbing; }
+  .sales-edge-grip {
+    width: 5px; height: 60px; border-radius: 3px;
+    background: var(--border); pointer-events: none;
+  }
   .sales-screen-header { display: flex; align-items: baseline; gap: 12px; margin-bottom: 4px; }
   .sales-screen-header h2 { margin: 0; font-size: 18px; }
   .sales-back-btn { background: none; border: none; font-size: 13px; cursor: pointer; color: var(--text-secondary); padding: 4px 0; }
@@ -413,7 +415,7 @@
 </div>
 </div><!-- /screens -->
 
-<div class="sales-tab" id="sales-tab"><span>매출</span></div>
+<div class="sales-edge-handle" id="sales-edge-handle"><div class="sales-edge-grip"></div></div>
 
 <script>
 const DATA_BASE = "data";
@@ -906,7 +908,7 @@ function renderSalesChart(data) {
 }
 
 function setupSalesPanel() {
-  const tab = document.getElementById("sales-tab");
+  const tab = document.getElementById("sales-edge-handle");
   const screens = document.getElementById("screens");
   const backBtn = document.getElementById("sales-back-btn");
   let isOpen = false, dragging = false, startX = 0, startTranslate = 0, moved = false;
