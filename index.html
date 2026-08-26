@@ -273,7 +273,8 @@
   .sales-screen-header { display: flex; align-items: baseline; gap: 12px; margin-bottom: 4px; }
   .sales-screen-header h2 { margin: 0; font-size: 18px; }
   .sales-panel-note { font-size: 11px; color: var(--text-muted); margin-bottom: 16px; }
-  .sales-kpis { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px; }
+  .sales-kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 20px; }
+  @media (max-width: 480px) { .sales-kpis { grid-template-columns: 1fr 1fr; } }
   .sales-kpi { background: var(--page); border: 1px solid var(--border); border-radius: 8px; padding: 12px; }
   .sales-kpi .label { font-size: 11px; color: var(--text-muted); margin-bottom: 4px; }
   .sales-kpi .value { font-size: 18px; font-weight: 800; }
@@ -923,9 +924,9 @@ function renderPriceChart(gender = "all") {
 // TODO: 브랜드 판매 API 연동 시 이 함수만 실제 fetch 호출로 교체하면 매출 패널이 그대로 작동함.
 // 지금은 연동 전이라 샘플/더미 데이터를 반환.
 async function fetchSalesData() {
-  const months = ["3월", "4월", "5월", "6월", "7월", "8월"];
-  const revenue = [820, 910, 870, 1020, 980, 1140]; // 단위: 만원 (더미)
-  const orders =  [410, 455, 430, 505, 480, 560];   // 더미
+  const months = ["9월", "10월", "11월", "12월", "1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월"]; // 최근 1년
+  const revenue = [690, 720, 830, 910, 760, 800, 820, 910, 870, 1020, 980, 1140]; // 단위: 만원 (더미)
+  const orders =  [355, 368, 405, 452, 392, 402, 410, 455, 430, 505, 480, 560];   // 더미
   // 최근 14일 일별 매출 (더미) — 마지막 7개가 이번 주, 그 앞 7개가 지난 주
   const daily = [142, 158, 133, 171, 149, 162, 177, 165, 149, 181, 174, 158, 190, 183];
   return { months, revenue, orders, daily };
@@ -935,12 +936,9 @@ function renderSalesKpis(data) {
   const el = document.getElementById("sales-kpis");
   const n = data.revenue.length;
   const thisMonth = data.revenue[n - 1];
-  const lastMonth = data.revenue[n - 2];
-  const momPct = Math.round((thisMonth - lastMonth) / lastMonth * 100);
   const aov = Math.round(thisMonth * 10000 / data.orders[n - 1]);
   const kpis = [
-    { label: `이번 달 매출 (${data.months[n - 1]})`, value: `${thisMonth.toLocaleString("ko-KR")}만원`, delta: momPct },
-    { label: "전월 대비", value: `${momPct > 0 ? "+" : ""}${momPct}%`, delta: momPct },
+    { label: `이번 달 매출 (${data.months[n - 1]})`, value: `${thisMonth.toLocaleString("ko-KR")}만원`, delta: null },
     { label: "이번 달 주문 건수", value: `${data.orders[n - 1].toLocaleString("ko-KR")}건`, delta: null },
     { label: "평균 주문 금액", value: `${aov.toLocaleString("ko-KR")}원`, delta: null },
   ];
