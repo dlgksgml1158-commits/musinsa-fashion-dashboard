@@ -252,7 +252,10 @@
   }
   .screen::-webkit-scrollbar { display: none; } /* the OS scrollbar otherwise sits right where the edge handle does, clipping it */
   .hscroll-row { touch-action: pan-x pan-y; }
-  .screen-sales { padding: 20px 20px 60px; max-width: 640px; margin: 0 auto; }
+  .screen-sales { padding: 20px 20px 60px; max-width: 960px; margin: 0 auto; }
+  .sales-layers-grid { display: flex; gap: 16px; align-items: stretch; margin-top: 16px; }
+  .sales-layer { flex: 1; min-width: 0; }
+  @media (max-width: 700px) { .sales-layers-grid { flex-direction: column; } }
   .sales-edge-handle {
     position: fixed; top: 0; right: 0; width: 32px; height: 100%;
     cursor: grab; z-index: 40; touch-action: none;
@@ -422,9 +425,14 @@
     <h2>매출 현황</h2>
   </div>
   <div class="sales-panel-note">샘플 데이터 미리보기 · 브랜드 API 연동 전</div>
-  <div class="sales-kpis" id="sales-kpis"></div>
-  <div class="sales-chart-title">월별 매출 추이</div>
-  <div id="sales-chart"></div>
+  <div class="sales-layers-grid">
+    <div class="card sales-layer">
+      <div class="sales-kpis" id="sales-kpis"></div>
+      <div class="sales-chart-title">월별 매출 추이</div>
+      <div id="sales-chart"></div>
+    </div>
+    <div class="card sales-layer"></div>
+  </div>
 </div>
 </div><!-- /screens -->
 
