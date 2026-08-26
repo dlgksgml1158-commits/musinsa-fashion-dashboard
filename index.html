@@ -980,7 +980,7 @@ function renderSalesChart(data) {
   const dots = data.revenue.map((v, i) => `<circle class="sales-dot" cx="${x(i)}" cy="${y(v)}" r="3"></circle>`).join("");
   const labels = data.months.map((m, i) => `<text class="sales-axis-label" x="${x(i)}" y="${h - 4}" text-anchor="middle">${m}</text>`).join("");
   el.innerHTML = `
-    <svg class="sales-chart-svg" viewBox="0 0 ${w} ${h}">
+    <svg class="sales-chart-svg" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none">
       <polygon class="sales-area" points="${areaPoints}"></polygon>
       <polyline class="sales-line" points="${linePoints}"></polyline>
       ${dots}
