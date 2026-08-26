@@ -768,7 +768,7 @@ function renderBrandShareChart() {
     seg.addEventListener("mouseenter", () => {
       segments.forEach(s => {
         s.setAttribute("d", s.dataset.dNormal);
-        s.style.opacity = s === seg ? "1" : "0.3";
+        s.style.opacity = s === seg ? "1" : "0.7";
       });
       seg.setAttribute("d", seg.dataset.dHover);
       seg.parentNode.appendChild(seg); // SVG has no z-index — move to last so it draws on top
