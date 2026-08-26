@@ -269,7 +269,6 @@
   .sales-edge-handle-left .sales-edge-grip svg { transform: scaleX(-1); }
   .sales-screen-header { display: flex; align-items: baseline; gap: 12px; margin-bottom: 4px; }
   .sales-screen-header h2 { margin: 0; font-size: 18px; }
-  .sales-back-btn { background: none; border: none; font-size: 13px; cursor: pointer; color: var(--text-secondary); padding: 4px 0; }
   .sales-panel-note { font-size: 11px; color: var(--text-muted); margin-bottom: 16px; }
   .sales-kpis { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px; }
   .sales-kpi { background: var(--page); border: 1px solid var(--border); border-radius: 8px; padding: 12px; }
@@ -420,7 +419,6 @@
 
 <div class="screen screen-sales" id="screen-sales">
   <div class="sales-screen-header">
-    <button type="button" class="sales-back-btn" id="sales-back-btn">‹ 대시보드로</button>
     <h2>매출 현황</h2>
   </div>
   <div class="sales-panel-note">샘플 데이터 미리보기 · 브랜드 API 연동 전</div>
@@ -966,7 +964,6 @@ function setupSalesPanel() {
   const rightHandle = document.getElementById("sales-edge-handle");
   const leftHandle = document.getElementById("sales-edge-handle-left");
   const screens = document.getElementById("screens");
-  const backBtn = document.getElementById("sales-back-btn");
   const OPEN_THRESHOLD = 0.1; // 드래그 거리가 화면 너비의 10%를 넘으면 완전히 전환
   let isOpen = false, dragging = false, startX = 0, startTranslate = 0, startedOpen = false, moved = false;
 
@@ -1022,7 +1019,6 @@ function setupSalesPanel() {
 
   bindHandle(rightHandle);
   bindHandle(leftHandle);
-  backBtn.addEventListener("click", () => setOpen(false));
 
   // 가로 스와이프 스크롤 자체는 막되(트랙패드/터치로 화면이 옆으로 밀리지 않도록), 실시간 랭킹/인기 급상승 등
   // 자체 가로 스크롤 영역(.hscroll-row)의 스크롤 여지가 있는 동안은 그대로 두어 그 리스트만 정상 스크롤되게 함.
