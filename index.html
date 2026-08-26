@@ -915,7 +915,7 @@ function setupSalesPanel() {
   const leftHandle = document.getElementById("sales-edge-handle-left");
   const screens = document.getElementById("screens");
   const backBtn = document.getElementById("sales-back-btn");
-  const OPEN_THRESHOLD = 0.3; // 드래그 거리가 화면 너비의 30%를 넘으면 완전히 전환
+  const OPEN_THRESHOLD = 0.1; // 드래그 거리가 화면 너비의 10%를 넘으면 완전히 전환
   let isOpen = false, dragging = false, startX = 0, startTranslate = 0, startedOpen = false, moved = false;
 
   const screenWidth = () => window.innerWidth;
@@ -972,9 +972,8 @@ function setupSalesPanel() {
   bindHandle(leftHandle);
   backBtn.addEventListener("click", () => setOpen(false));
 
-  // Horizontally scrollable rows (실시간 랭킹 카테고리 탭, 인기 급상승, 신규 진입 브랜드, 컬러 팔레트)
-  // get first refusal on any horizontal gesture that starts inside them and still has room to scroll —
-  // only once they've hit their own edge does the gesture fall through to the sales-screen swipe.
+  // 가로 스와이프 스크롤 자체는 막되(트랙패드/터치로 화면이 옆으로 밀리지 않도록), 실시간 랭킹/인기 급상승 등
+  // 자체 가로 스크롤 영역(.hscroll-row)의 스크롤 여지가 있는 동안은 그대로 두어 그 리스트만 정상 스크롤되게 함.
   const hscrollCanConsume = (target, deltaX) => {
     const el = target.closest ? target.closest(".hscroll-row") : null;
     if (!el) return false;
@@ -982,64 +981,11 @@ function setupSalesPanel() {
     if (deltaX < 0) return el.scrollLeft > 1;
     return false;
   };
-
-  // Trackpad horizontal swipe (wheel deltaX)
-  let wheelGestureActive = false, wheelAccum = 0, wheelBase = 0, wheelStartedOpen = false, wheelTimer = null;
   window.addEventListener("wheel", (e) => {
     if (Math.abs(e.deltaX) <= Math.abs(e.deltaY)) return; // predominantly vertical — leave it alone
-    if (hscrollCanConsume(e.target, e.deltaX)) return; // let the inner row scroll itself first
-    e.preventDefault();
-    if (!wheelGestureActive) {
-      wheelGestureActive = true;
-      wheelAccum = 0;
-      wheelStartedOpen = isOpen;
-      wheelBase = isOpen ? -screenWidth() : 0;
-      screens.classList.add("dragging");
-    }
-    clearTimeout(wheelTimer);
-    wheelAccum += e.deltaX;
-    const w = screenWidth();
-    setTransform(Math.min(0, Math.max(-w, wheelBase - wheelAccum)));
-    wheelTimer = setTimeout(() => {
-      wheelGestureActive = false;
-      const w2 = screenWidth();
-      const past30 = Math.abs(wheelAccum) > w2 * OPEN_THRESHOLD;
-      setOpen(past30 ? !wheelStartedOpen : wheelStartedOpen);
-    }, 150);
-  }, { passive: false });
-
-  // Touch swipe (mobile)
-  let touchStartX = 0, touchStartY = 0, touchDecided = false, touchTarget = null;
-  window.addEventListener("touchstart", (e) => {
-    if (e.touches.length !== 1) return;
-    touchStartX = e.touches[0].clientX;
-    touchStartY = e.touches[0].clientY;
-    touchDecided = false;
-    touchTarget = e.target;
-  }, { passive: true });
-  window.addEventListener("touchmove", (e) => {
-    if (e.touches.length !== 1) return;
-    const clientX = e.touches[0].clientX;
-    const dx = touchStartX - clientX;
-    const dy = touchStartY - e.touches[0].clientY;
-    if (!touchDecided) {
-      if (Math.abs(dx) < 10 && Math.abs(dy) < 10) return;
-      touchDecided = true;
-      if (Math.abs(dx) <= Math.abs(dy)) return; // vertical swipe — never hijack
-      if (hscrollCanConsume(touchTarget, dx)) return; // inner row still has room, let it scroll
-      dragging = true; moved = false;
-      startedOpen = isOpen;
-      startTranslate = isOpen ? -screenWidth() : 0;
-      screens.classList.add("dragging");
-    }
-    if (!dragging) return;
-    if (Math.abs(dx) > 5) moved = true;
-    const w = screenWidth();
-    setTransform(Math.min(0, Math.max(-w, startTranslate - dx)));
+    if (hscrollCanConsume(e.target, e.deltaX)) return; // let the inner row scroll itself
     e.preventDefault();
   }, { passive: false });
-  window.addEventListener("touchend", finishDrag);
-  window.addEventListener("touchcancel", finishDrag);
 
   setOpen(false);
 }
