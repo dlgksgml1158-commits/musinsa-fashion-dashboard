@@ -282,7 +282,7 @@
   .sales-kpi .delta.up { color: var(--series-red); }
   .sales-kpi .delta.down { color: var(--series-blue); }
   .sales-chart-title { font-size: 12px; font-weight: 700; color: var(--text-secondary); margin: 0 0 10px; }
-  .sales-chart-svg { width: 100%; height: 260px; overflow: visible; }
+  .sales-chart-svg { width: 100%; height: 400px; overflow: visible; }
   .sales-chart-svg .sales-line { fill: none; stroke: var(--series-blue); stroke-width: 2; }
   .sales-chart-svg .sales-area { fill: color-mix(in srgb, var(--series-blue) 14%, transparent); stroke: none; }
   .sales-chart-svg .sales-dot { fill: var(--series-blue); }
@@ -432,7 +432,7 @@
   </div>
   <div class="sales-panel-note">샘플 데이터 미리보기 · 브랜드 API 연동 전</div>
   <div class="sales-layers-grid">
-    <div class="card sales-layer" style="flex: 2;">
+    <div class="card sales-layer" style="flex: 3;">
       <div class="sales-kpis" id="sales-kpis"></div>
       <div class="sales-chart-title">월별 매출 추이</div>
       <div id="sales-chart"></div>
@@ -969,7 +969,9 @@ function renderSalesWeeklyChange(data) {
 
 function renderSalesChart(data) {
   const el = document.getElementById("sales-chart");
-  const w = 380, h = 260, padL = 30, padR = 10, padT = 10, padB = 20;
+  // Match the viewBox to the container's actual pixel size so the chart fills it exactly
+  // without SVG's default uniform scaling shrinking it back down to a centered, narrower band.
+  const w = Math.round(el.getBoundingClientRect().width) || 380, h = 400, padL = 40, padR = 10, padT = 10, padB = 24;
   const max = Math.max(...data.revenue) * 1.1;
   const min = 0;
   const n = data.revenue.length;
