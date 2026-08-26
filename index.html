@@ -858,12 +858,22 @@ function renderBrandShareChart() {
       const startX = toWrapX(parseFloat(midX));
       const startY = toWrapY(parseFloat(midY));
       const labelRect = infoEl.getBoundingClientRect();
-      const endX = labelRect.left - wrapRect.left - 6;
+      // Stop well clear of the swatch dot in front of the brand name, not right up against it.
+      const endX = labelRect.left - wrapRect.left - 16;
       const endY = labelRect.top - wrapRect.top + labelRect.height / 2;
-      // Right-angle elbow through a fixed vertical channel just past the donut, instead of
-      // one diagonal line at whatever angle the slice happens to be at — reads much cleaner.
-      const cornerX = svgRect.right - wrapRect.left + 8;
-      connectorLine.setAttribute("points", `${startX},${startY} ${cornerX},${startY} ${cornerX},${endY} ${endX},${endY}`);
+      const centerX = toWrapX(50);
+      let points;
+      if (startX >= centerX) {
+        // Slice is already on the label's side (right half of the donut) — a direct
+        // one-bend path looks natural; no need to route all the way around.
+        points = `${startX},${startY} ${endX},${startY} ${endX},${endY}`;
+      } else {
+        // Slice is on the far side — route around the outside via a fixed vertical channel
+        // just past the donut instead of cutting straight across the chart.
+        const cornerX = svgRect.right - wrapRect.left + 8;
+        points = `${startX},${startY} ${cornerX},${startY} ${cornerX},${endY} ${endX},${endY}`;
+      }
+      connectorLine.setAttribute("points", points);
       connectorLine.setAttribute("stroke", seg.getAttribute("fill"));
       connectorLine.classList.add("visible");
     });
