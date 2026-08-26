@@ -251,7 +251,7 @@
      visibly distorts. A transform instead leaves the path geometry untouched and just
      scales the rendered pixels up in place around the shared donut center. */
   .brand-donut-segment { cursor: pointer; transition: d 0.15s ease, opacity 0.15s ease; }
-  .brand-donut-pct-label { font-size: 9px; font-weight: 700; fill: #fff; text-anchor: middle; dominant-baseline: middle; pointer-events: none; paint-order: stroke; stroke: rgba(0,0,0,0.35); stroke-width: 2px; stroke-linejoin: round; }
+  .brand-donut-pct-label { font-size: 7px; font-weight: 700; fill: #000; text-anchor: middle; dominant-baseline: middle; pointer-events: none; }
   .brand-donut-center-count { font-size: 15px; font-weight: 800; fill: var(--text-primary); }
   .brand-donut-center-label { font-size: 6.5px; font-weight: 600; fill: var(--text-muted); }
   .brand-donut-info {
@@ -737,7 +737,7 @@ function renderBrandShareChart() {
   // Real arc paths (not stroked circles via dasharray) so the hover state can grow just
   // the outer radius — the inner edge and the start/end angles never move, so neighboring
   // slices always still meet exactly and no gap can appear.
-  const R_INNER = 32, R_OUTER = 48, R_OUTER_HOVER = 54, R_LABEL = 40;
+  const R_INNER = 32, R_OUTER = 48, R_OUTER_HOVER = 54;
   const GAP = 0.015; // small angular gap between slices, in radians
   let angle = -Math.PI / 2;
   const slices = shown.map(({ brand, count, color }) => {
@@ -747,14 +747,11 @@ function renderBrandShareChart() {
     const pct = Math.round(count / total * 100);
     const dNormal = _donutSlicePath(50, 50, R_OUTER, R_INNER, start, end);
     const dHover = _donutSlicePath(50, 50, R_OUTER_HOVER, R_INNER, start, end);
-    const mid = (start + end) / 2;
-    const labelX = 50 + R_LABEL * Math.cos(mid);
-    const labelY = 50 + R_LABEL * Math.sin(mid);
     angle += span;
-    return { brand, count, pct, color, dNormal, dHover, labelX, labelY };
+    return { brand, count, pct, color, dNormal, dHover };
   });
 
-  const paths = slices.map(s => `<path class="brand-donut-segment" data-brand="${s.brand}" data-count="${s.count}" data-pct="${s.pct}" data-label-x="${s.labelX}" data-label-y="${s.labelY}" d="${s.dNormal}" data-d-normal="${s.dNormal}" data-d-hover="${s.dHover}" fill="${s.color}"></path>`).join("");
+  const paths = slices.map(s => `<path class="brand-donut-segment" data-brand="${s.brand}" data-count="${s.count}" data-pct="${s.pct}" d="${s.dNormal}" data-d-normal="${s.dNormal}" data-d-hover="${s.dHover}" fill="${s.color}"></path>`).join("");
 
   el.innerHTML = `
     <svg class="brand-donut-svg" viewBox="-8 -8 116 116">
@@ -775,10 +772,10 @@ function renderBrandShareChart() {
       });
       seg.setAttribute("d", seg.dataset.dHover);
       seg.parentNode.appendChild(seg); // SVG has no z-index — move to last so it draws on top
-      const { brand, count, pct, labelX, labelY } = seg.dataset;
+      const { brand, count, pct } = seg.dataset;
       infoEl.innerHTML = `<span class="swatch" style="background:${seg.getAttribute("fill")}"></span><b>${brand}</b> · ${count}개 · ${pct}%`;
-      labelEl.setAttribute("x", labelX);
-      labelEl.setAttribute("y", labelY);
+      labelEl.setAttribute("x", "50");
+      labelEl.setAttribute("y", "50");
       labelEl.textContent = `${pct}%`;
       el.querySelector(".brand-donut-svg").appendChild(labelEl); // keep label above the hovered segment
     });
