@@ -243,6 +243,43 @@
   .bar-fill { background: var(--series-blue); height: 100%; border-radius: 4px 0 0 4px; }
   .bar-value { text-align: right; color: var(--text-secondary); font-variant-numeric: tabular-nums; }
 
+  .sales-tab {
+    position: fixed; top: 50%; right: 0; transform: translateY(-50%);
+    width: 26px; height: 88px; background: var(--surface-1); border: 1px solid var(--border); border-right: none;
+    border-radius: 10px 0 0 10px; box-shadow: var(--card-shadow);
+    display: flex; align-items: center; justify-content: center; cursor: grab; z-index: 40; touch-action: none;
+  }
+  .sales-tab:active { cursor: grabbing; }
+  .sales-tab span { writing-mode: vertical-rl; font-size: 12px; font-weight: 700; color: var(--text-secondary); letter-spacing: 1px; }
+  .sales-panel-backdrop {
+    position: fixed; inset: 0; background: rgba(0,0,0,0.25); opacity: 0; pointer-events: none;
+    transition: opacity 0.2s ease; z-index: 45;
+  }
+  .sales-panel-backdrop.visible { opacity: 1; pointer-events: auto; }
+  .sales-panel {
+    position: fixed; top: 0; right: -420px; width: 420px; max-width: 90vw; height: 100%;
+    background: var(--surface-1); box-shadow: -2px 0 16px rgba(0,0,0,0.18); z-index: 50;
+    display: flex; flex-direction: column; padding: 20px; overflow-y: auto; transition: right 0.25s ease;
+  }
+  .sales-panel.dragging { transition: none; }
+  .sales-panel-header { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 4px; }
+  .sales-panel-header h2 { margin: 0; font-size: 16px; }
+  .sales-panel-close { background: none; border: none; font-size: 20px; line-height: 1; cursor: pointer; color: var(--text-secondary); padding: 4px; }
+  .sales-panel-note { font-size: 11px; color: var(--text-muted); margin-bottom: 16px; }
+  .sales-kpis { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px; }
+  .sales-kpi { background: var(--page); border: 1px solid var(--border); border-radius: 8px; padding: 12px; }
+  .sales-kpi .label { font-size: 11px; color: var(--text-muted); margin-bottom: 4px; }
+  .sales-kpi .value { font-size: 18px; font-weight: 800; }
+  .sales-kpi .delta { font-size: 11px; margin-top: 2px; }
+  .sales-kpi .delta.up { color: var(--series-red); }
+  .sales-kpi .delta.down { color: var(--series-blue); }
+  .sales-chart-title { font-size: 12px; font-weight: 700; color: var(--text-secondary); margin: 0 0 10px; }
+  .sales-chart-svg { width: 100%; height: 160px; overflow: visible; }
+  .sales-chart-svg .sales-line { fill: none; stroke: var(--series-blue); stroke-width: 2; }
+  .sales-chart-svg .sales-area { fill: color-mix(in srgb, var(--series-blue) 14%, transparent); stroke: none; }
+  .sales-chart-svg .sales-dot { fill: var(--series-blue); }
+  .sales-chart-svg .sales-axis-label { font-size: 9px; fill: var(--text-muted); }
+
   .brand-donut-wrap { position: relative; display: flex; flex-direction: row; align-items: center; gap: 14px; padding: 4px 0 0; }
   .brand-donut-svg { flex: 0 0 230px; width: 230px; height: 230px; }
   /* r + stroke-width move together so the inner edge (r - stroke-width/2) stays fixed
@@ -365,6 +402,19 @@
   </div>
 
   <footer class="foot">공개 데이터 기반 자동 생성 대시보드 · 자사 매출/브랜드 정보는 포함하지 않습니다.</footer>
+</div>
+
+<div class="sales-tab" id="sales-tab"><span>매출</span></div>
+<div class="sales-panel-backdrop" id="sales-panel-backdrop"></div>
+<div class="sales-panel" id="sales-panel">
+  <div class="sales-panel-header">
+    <h2>매출 현황</h2>
+    <button type="button" class="sales-panel-close" id="sales-panel-close" aria-label="닫기">×</button>
+  </div>
+  <div class="sales-panel-note">샘플 데이터 미리보기 · 브랜드 API 연동 전</div>
+  <div class="sales-kpis" id="sales-kpis"></div>
+  <div class="sales-chart-title">월별 매출 추이</div>
+  <div id="sales-chart"></div>
 </div>
 
 <script>
@@ -804,6 +854,105 @@ function renderPriceChart(gender = "all") {
   `).join("");
 }
 
+// TODO: 브랜드 판매 API 연동 시 이 함수만 실제 fetch 호출로 교체하면 매출 패널이 그대로 작동함.
+// 지금은 연동 전이라 샘플/더미 데이터를 반환.
+async function fetchSalesData() {
+  const months = ["3월", "4월", "5월", "6월", "7월", "8월"];
+  const revenue = [820, 910, 870, 1020, 980, 1140]; // 단위: 만원 (더미)
+  const orders =  [410, 455, 430, 505, 480, 560];   // 더미
+  return { months, revenue, orders };
+}
+
+function renderSalesKpis(data) {
+  const el = document.getElementById("sales-kpis");
+  const n = data.revenue.length;
+  const thisMonth = data.revenue[n - 1];
+  const lastMonth = data.revenue[n - 2];
+  const momPct = Math.round((thisMonth - lastMonth) / lastMonth * 100);
+  const aov = Math.round(thisMonth * 10000 / data.orders[n - 1]);
+  const kpis = [
+    { label: `이번 달 매출 (${data.months[n - 1]})`, value: `${thisMonth.toLocaleString("ko-KR")}만원`, delta: momPct },
+    { label: "전월 대비", value: `${momPct > 0 ? "+" : ""}${momPct}%`, delta: momPct },
+    { label: "이번 달 주문 건수", value: `${data.orders[n - 1].toLocaleString("ko-KR")}건`, delta: null },
+    { label: "평균 주문 금액", value: `${aov.toLocaleString("ko-KR")}원`, delta: null },
+  ];
+  el.innerHTML = kpis.map(k => `
+    <div class="sales-kpi">
+      <div class="label">${k.label}</div>
+      <div class="value">${k.value}</div>
+      ${k.delta !== null ? `<div class="delta ${k.delta >= 0 ? "up" : "down"}">${k.delta >= 0 ? "▲" : "▼"} ${Math.abs(k.delta)}%</div>` : ""}
+    </div>
+  `).join("");
+}
+
+function renderSalesChart(data) {
+  const el = document.getElementById("sales-chart");
+  const w = 380, h = 160, padL = 30, padR = 10, padT = 10, padB = 20;
+  const max = Math.max(...data.revenue) * 1.1;
+  const min = 0;
+  const n = data.revenue.length;
+  const x = i => padL + (i / (n - 1)) * (w - padL - padR);
+  const y = v => padT + (1 - (v - min) / (max - min)) * (h - padT - padB);
+  const linePoints = data.revenue.map((v, i) => `${x(i)},${y(v)}`).join(" ");
+  const areaPoints = `${x(0)},${y(min)} ${linePoints} ${x(n - 1)},${y(min)}`;
+  const dots = data.revenue.map((v, i) => `<circle class="sales-dot" cx="${x(i)}" cy="${y(v)}" r="3"></circle>`).join("");
+  const labels = data.months.map((m, i) => `<text class="sales-axis-label" x="${x(i)}" y="${h - 4}" text-anchor="middle">${m}</text>`).join("");
+  el.innerHTML = `
+    <svg class="sales-chart-svg" viewBox="0 0 ${w} ${h}">
+      <polygon class="sales-area" points="${areaPoints}"></polygon>
+      <polyline class="sales-line" points="${linePoints}"></polyline>
+      ${dots}
+      ${labels}
+    </svg>
+  `;
+}
+
+function setupSalesPanel() {
+  const tab = document.getElementById("sales-tab");
+  const panel = document.getElementById("sales-panel");
+  const backdrop = document.getElementById("sales-panel-backdrop");
+  const closeBtn = document.getElementById("sales-panel-close");
+  let panelWidth = panel.getBoundingClientRect().width;
+  let isOpen = false, dragging = false, startX = 0, startRight = -panelWidth, moved = false;
+
+  const setRight = (px) => { panel.style.right = `${px}px`; };
+  const setOpen = (open) => {
+    isOpen = open;
+    panel.classList.remove("dragging");
+    setRight(open ? 0 : -panelWidth);
+    backdrop.classList.toggle("visible", open);
+  };
+
+  tab.addEventListener("pointerdown", (e) => {
+    dragging = true; moved = false;
+    panelWidth = panel.getBoundingClientRect().width;
+    startX = e.clientX;
+    startRight = isOpen ? 0 : -panelWidth;
+    panel.classList.add("dragging");
+    tab.setPointerCapture(e.pointerId);
+  });
+  tab.addEventListener("pointermove", (e) => {
+    if (!dragging) return;
+    const dx = startX - e.clientX; // dragging left (toward center) opens
+    if (Math.abs(dx) > 5) moved = true;
+    const next = Math.min(0, Math.max(-panelWidth, startRight + dx));
+    setRight(next);
+    backdrop.classList.toggle("visible", next > -panelWidth * 0.95);
+  });
+  tab.addEventListener("pointerup", (e) => {
+    if (!dragging) return;
+    dragging = false;
+    const current = parseFloat(panel.style.right) || 0;
+    if (!moved) { setOpen(!isOpen); return; }
+    setOpen(current > -panelWidth / 2);
+  });
+
+  closeBtn.addEventListener("click", () => setOpen(false));
+  backdrop.addEventListener("click", () => setOpen(false));
+
+  setOpen(false);
+}
+
 function renderAll() {
   renderCategoryTabs();
   renderRankTable();
@@ -837,6 +986,12 @@ async function init() {
   renderKeywords("ms-pop");
   renderAll();
   renderPriceChart();
+
+  setupSalesPanel();
+  fetchSalesData().then(sales => {
+    renderSalesKpis(sales);
+    renderSalesChart(sales);
+  });
 
   document.querySelectorAll("#kw-tabs .tab-btn").forEach(btn => btn.addEventListener("click", () => {
     document.querySelectorAll("#kw-tabs .tab-btn").forEach(b => b.classList.remove("active"));
