@@ -253,6 +253,7 @@
     cursor: grab; z-index: 40; touch-action: none;
     display: flex; align-items: center; justify-content: center;
   }
+  .sales-edge-handle-left { right: auto; left: 0; display: none; }
   .sales-edge-handle:active { cursor: grabbing; }
   .sales-edge-grip {
     width: 5px; height: 60px; border-radius: 3px;
@@ -416,6 +417,7 @@
 </div><!-- /screens -->
 
 <div class="sales-edge-handle" id="sales-edge-handle"><div class="sales-edge-grip"></div></div>
+<div class="sales-edge-handle sales-edge-handle-left" id="sales-edge-handle-left"><div class="sales-edge-grip"></div></div>
 
 <script>
 const DATA_BASE = "data";
@@ -908,7 +910,8 @@ function renderSalesChart(data) {
 }
 
 function setupSalesPanel() {
-  const tab = document.getElementById("sales-edge-handle");
+  const rightHandle = document.getElementById("sales-edge-handle");
+  const leftHandle = document.getElementById("sales-edge-handle-left");
   const screens = document.getElementById("screens");
   const backBtn = document.getElementById("sales-back-btn");
   let isOpen = false, dragging = false, startX = 0, startTranslate = 0, moved = false;
@@ -919,33 +922,39 @@ function setupSalesPanel() {
     isOpen = open;
     screens.classList.remove("dragging");
     setTransform(open ? -screenWidth() : 0);
+    rightHandle.style.display = open ? "none" : "flex";
+    leftHandle.style.display = open ? "flex" : "none";
   };
 
-  tab.addEventListener("pointerdown", (e) => {
-    dragging = true; moved = false;
-    startX = e.clientX;
-    startTranslate = isOpen ? -screenWidth() : 0;
-    screens.classList.add("dragging");
-    tab.setPointerCapture(e.pointerId);
-  });
-  tab.addEventListener("pointermove", (e) => {
-    if (!dragging) return;
-    const dx = startX - e.clientX; // dragging left brings the sales screen in from the right
-    if (Math.abs(dx) > 5) moved = true;
-    const w = screenWidth();
-    const next = Math.min(0, Math.max(-w, startTranslate - dx));
-    setTransform(next);
-  });
-  tab.addEventListener("pointerup", () => {
-    if (!dragging) return;
-    dragging = false;
-    const w = screenWidth();
-    const match = /translateX\((-?[\d.]+)px\)/.exec(screens.style.transform);
-    const current = match ? parseFloat(match[1]) : 0;
-    if (!moved) { setOpen(!isOpen); return; }
-    setOpen(current < -w / 2);
-  });
+  const bindHandle = (handle) => {
+    handle.addEventListener("pointerdown", (e) => {
+      dragging = true; moved = false;
+      startX = e.clientX;
+      startTranslate = isOpen ? -screenWidth() : 0;
+      screens.classList.add("dragging");
+      handle.setPointerCapture(e.pointerId);
+    });
+    handle.addEventListener("pointermove", (e) => {
+      if (!dragging) return;
+      const dx = startX - e.clientX; // dragging left brings the sales screen in from the right
+      if (Math.abs(dx) > 5) moved = true;
+      const w = screenWidth();
+      const next = Math.min(0, Math.max(-w, startTranslate - dx));
+      setTransform(next);
+    });
+    handle.addEventListener("pointerup", () => {
+      if (!dragging) return;
+      dragging = false;
+      const w = screenWidth();
+      const match = /translateX\((-?[\d.]+)px\)/.exec(screens.style.transform);
+      const current = match ? parseFloat(match[1]) : 0;
+      if (!moved) { setOpen(!isOpen); return; }
+      setOpen(current < -w / 2);
+    });
+  };
 
+  bindHandle(rightHandle);
+  bindHandle(leftHandle);
   backBtn.addEventListener("click", () => setOpen(false));
 
   setOpen(false);
