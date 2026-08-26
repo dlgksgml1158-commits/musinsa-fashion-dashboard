@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T09:07:40.720736+00:00",
+  "updatedAt": "2026-08-26T10:02:31.125330+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 70722,
+        "avg": 70924,
         "min": 17910,
         "max": 633820,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 13
       },
       "female": {
-        "avg": 70479,
+        "avg": 70897,
         "min": 26910,
         "max": 208050,
         "count": 29
@@ -915,8 +915,8 @@
           "name": "레터즈 브이넥 와플 스웻셔츠 ( 아이보리 )",
           "price": 85000,
           "originalPrice": 85000,
-          "discountRate": 19,
-          "finalPrice": 68630,
+          "discountRate": 5,
+          "finalPrice": 80750,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260310/6108638/6108638_17761243356493_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-102704",
+          "id": "ms-102929",
           "brand": "",
           "name": "",
           "price": null,
