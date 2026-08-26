@@ -286,7 +286,7 @@
   .sales-chart-svg .sales-line { fill: none; stroke: var(--series-blue); stroke-width: 2; }
   .sales-chart-svg .sales-area { fill: color-mix(in srgb, var(--series-blue) 14%, transparent); stroke: none; }
   .sales-chart-svg .sales-dot { fill: var(--series-blue); }
-  .sales-chart-svg .sales-axis-label { font-size: 9px; fill: var(--text-muted); }
+  .sales-chart-svg .sales-axis-label { font-size: 13px; fill: var(--text-muted); }
   .sales-weekly-value { font-size: 28px; font-weight: 800; margin-top: 4px; }
   .sales-weekly-delta { font-size: 16px; font-weight: 700; margin-top: 6px; }
   .sales-weekly-delta.up { color: var(--series-red); }
@@ -971,7 +971,7 @@ function renderSalesChart(data) {
   const el = document.getElementById("sales-chart");
   // Match the viewBox to the container's actual pixel size so the chart fills it exactly
   // without SVG's default uniform scaling shrinking it back down to a centered, narrower band.
-  const w = Math.round(el.getBoundingClientRect().width) || 380, h = 400, padL = 40, padR = 10, padT = 10, padB = 24;
+  const w = Math.round(el.getBoundingClientRect().width) || 380, h = 400, padL = 40, padR = 10, padT = 10, padB = 30;
   const max = Math.max(...data.revenue) * 1.1;
   const min = 0;
   const n = data.revenue.length;
