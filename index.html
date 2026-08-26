@@ -914,7 +914,8 @@ function setupSalesPanel() {
   const leftHandle = document.getElementById("sales-edge-handle-left");
   const screens = document.getElementById("screens");
   const backBtn = document.getElementById("sales-back-btn");
-  let isOpen = false, dragging = false, startX = 0, startTranslate = 0, moved = false;
+  const OPEN_THRESHOLD = 0.3; // 드래그 거리가 화면 너비의 30%를 넘으면 완전히 전환
+  let isOpen = false, dragging = false, startX = 0, startTranslate = 0, startedOpen = false, moved = false;
 
   const screenWidth = () => window.innerWidth;
   const setTransform = (px) => { screens.style.transform = `translateX(${px}px)`; };
@@ -930,6 +931,7 @@ function setupSalesPanel() {
     handle.addEventListener("pointerdown", (e) => {
       dragging = true; moved = false;
       startX = e.clientX;
+      startedOpen = isOpen;
       startTranslate = isOpen ? -screenWidth() : 0;
       screens.classList.add("dragging");
       handle.setPointerCapture(e.pointerId);
@@ -949,7 +951,9 @@ function setupSalesPanel() {
       const match = /translateX\((-?[\d.]+)px\)/.exec(screens.style.transform);
       const current = match ? parseFloat(match[1]) : 0;
       if (!moved) { setOpen(!isOpen); return; }
-      setOpen(current < -w / 2);
+      const traveled = current - startTranslate; // negative = moved toward open, positive = moved toward closed
+      const past30 = Math.abs(traveled) > w * OPEN_THRESHOLD;
+      setOpen(past30 ? !startedOpen : startedOpen);
     });
   };
 
