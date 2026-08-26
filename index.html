@@ -303,8 +303,8 @@
   .brand-donut-info b { color: var(--text-primary); font-size: 15px; }
   .brand-donut-info .swatch { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
   .brand-donut-connector { position: absolute; inset: 0; pointer-events: none; overflow: visible; }
-  .brand-donut-connector line { stroke-width: 1.5; stroke-dasharray: 3 3; opacity: 0; transition: opacity 0.15s ease; }
-  .brand-donut-connector line.visible { opacity: 0.9; }
+  .brand-donut-connector polyline { fill: none; stroke-width: 1.5; stroke-linejoin: round; opacity: 0; transition: opacity 0.15s ease; }
+  .brand-donut-connector polyline.visible { opacity: 0.85; }
   .brand-donut-connector circle { opacity: 0; transition: opacity 0.15s ease; }
   .brand-donut-connector circle.visible { opacity: 1; }
 
@@ -827,7 +827,7 @@ function renderBrandShareChart() {
       ${paths}
     </svg>
     <svg class="brand-donut-connector" id="brand-donut-connector">
-      <line id="brand-donut-connector-line"></line>
+      <polyline id="brand-donut-connector-line"></polyline>
       <circle id="brand-donut-connector-dot" r="2.5"></circle>
     </svg>
     <div class="brand-donut-info" id="brand-donut-info"></div>
@@ -858,12 +858,12 @@ function renderBrandShareChart() {
       const startX = toWrapX(parseFloat(edgeX));
       const startY = toWrapY(parseFloat(edgeY));
       const labelRect = infoEl.getBoundingClientRect();
-      const endX = labelRect.left - wrapRect.left;
+      const endX = labelRect.left - wrapRect.left - 6;
       const endY = labelRect.top - wrapRect.top + labelRect.height / 2;
-      connectorLine.setAttribute("x1", startX);
-      connectorLine.setAttribute("y1", startY);
-      connectorLine.setAttribute("x2", endX);
-      connectorLine.setAttribute("y2", endY);
+      // Right-angle elbow through a fixed vertical channel just past the donut, instead of
+      // one diagonal line at whatever angle the slice happens to be at — reads much cleaner.
+      const cornerX = svgRect.right - wrapRect.left + 8;
+      connectorLine.setAttribute("points", `${startX},${startY} ${cornerX},${startY} ${cornerX},${endY} ${endX},${endY}`);
       connectorLine.setAttribute("stroke", seg.getAttribute("fill"));
       connectorLine.classList.add("visible");
       connectorDot.setAttribute("cx", startX);
