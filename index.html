@@ -243,6 +243,11 @@
   .bar-fill { background: var(--series-blue); height: 100%; border-radius: 4px 0 0 4px; }
   .bar-value { text-align: right; color: var(--text-secondary); font-variant-numeric: tabular-nums; }
 
+  html, body { height: 100%; }
+  .screens { display: flex; width: 200%; height: 100%; min-height: 100vh; transition: transform 0.3s ease; will-change: transform; }
+  .screens.dragging { transition: none; }
+  .screen { width: 50%; flex-shrink: 0; height: 100%; min-height: 100vh; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+  .screen-sales { padding: 20px; max-width: 640px; }
   .sales-tab {
     position: fixed; top: 50%; right: 0; transform: translateY(-50%);
     width: 26px; height: 88px; background: var(--surface-1); border: 1px solid var(--border); border-right: none;
@@ -251,20 +256,9 @@
   }
   .sales-tab:active { cursor: grabbing; }
   .sales-tab span { writing-mode: vertical-rl; font-size: 12px; font-weight: 700; color: var(--text-secondary); letter-spacing: 1px; }
-  .sales-panel-backdrop {
-    position: fixed; inset: 0; background: rgba(0,0,0,0.25); opacity: 0; pointer-events: none;
-    transition: opacity 0.2s ease; z-index: 45;
-  }
-  .sales-panel-backdrop.visible { opacity: 1; pointer-events: auto; }
-  .sales-panel {
-    position: fixed; top: 0; right: -420px; width: 420px; max-width: 90vw; height: 100%;
-    background: var(--surface-1); box-shadow: -2px 0 16px rgba(0,0,0,0.18); z-index: 50;
-    display: flex; flex-direction: column; padding: 20px; overflow-y: auto; transition: right 0.25s ease;
-  }
-  .sales-panel.dragging { transition: none; }
-  .sales-panel-header { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 4px; }
-  .sales-panel-header h2 { margin: 0; font-size: 16px; }
-  .sales-panel-close { background: none; border: none; font-size: 20px; line-height: 1; cursor: pointer; color: var(--text-secondary); padding: 4px; }
+  .sales-screen-header { display: flex; align-items: baseline; gap: 12px; margin-bottom: 4px; }
+  .sales-screen-header h2 { margin: 0; font-size: 18px; }
+  .sales-back-btn { background: none; border: none; font-size: 13px; cursor: pointer; color: var(--text-secondary); padding: 4px 0; }
   .sales-panel-note { font-size: 11px; color: var(--text-muted); margin-bottom: 16px; }
   .sales-kpis { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px; }
   .sales-kpi { background: var(--page); border: 1px solid var(--border); border-radius: 8px; padding: 12px; }
@@ -307,6 +301,8 @@
 </style>
 </head>
 <body>
+<div class="screens" id="screens">
+<div class="screen" id="screen-main">
 <div class="wrap">
   <header class="top">
     <div>
@@ -403,19 +399,21 @@
 
   <footer class="foot">공개 데이터 기반 자동 생성 대시보드 · 자사 매출/브랜드 정보는 포함하지 않습니다.</footer>
 </div>
+</div><!-- /screen-main -->
 
-<div class="sales-tab" id="sales-tab"><span>매출</span></div>
-<div class="sales-panel-backdrop" id="sales-panel-backdrop"></div>
-<div class="sales-panel" id="sales-panel">
-  <div class="sales-panel-header">
+<div class="screen screen-sales" id="screen-sales">
+  <div class="sales-screen-header">
+    <button type="button" class="sales-back-btn" id="sales-back-btn">‹ 대시보드로</button>
     <h2>매출 현황</h2>
-    <button type="button" class="sales-panel-close" id="sales-panel-close" aria-label="닫기">×</button>
   </div>
   <div class="sales-panel-note">샘플 데이터 미리보기 · 브랜드 API 연동 전</div>
   <div class="sales-kpis" id="sales-kpis"></div>
   <div class="sales-chart-title">월별 매출 추이</div>
   <div id="sales-chart"></div>
 </div>
+</div><!-- /screens -->
+
+<div class="sales-tab" id="sales-tab"><span>매출</span></div>
 
 <script>
 const DATA_BASE = "data";
@@ -909,46 +907,44 @@ function renderSalesChart(data) {
 
 function setupSalesPanel() {
   const tab = document.getElementById("sales-tab");
-  const panel = document.getElementById("sales-panel");
-  const backdrop = document.getElementById("sales-panel-backdrop");
-  const closeBtn = document.getElementById("sales-panel-close");
-  let panelWidth = panel.getBoundingClientRect().width;
-  let isOpen = false, dragging = false, startX = 0, startRight = -panelWidth, moved = false;
+  const screens = document.getElementById("screens");
+  const backBtn = document.getElementById("sales-back-btn");
+  let isOpen = false, dragging = false, startX = 0, startTranslate = 0, moved = false;
 
-  const setRight = (px) => { panel.style.right = `${px}px`; };
+  const screenWidth = () => window.innerWidth;
+  const setTransform = (px) => { screens.style.transform = `translateX(${px}px)`; };
   const setOpen = (open) => {
     isOpen = open;
-    panel.classList.remove("dragging");
-    setRight(open ? 0 : -panelWidth);
-    backdrop.classList.toggle("visible", open);
+    screens.classList.remove("dragging");
+    setTransform(open ? -screenWidth() : 0);
   };
 
   tab.addEventListener("pointerdown", (e) => {
     dragging = true; moved = false;
-    panelWidth = panel.getBoundingClientRect().width;
     startX = e.clientX;
-    startRight = isOpen ? 0 : -panelWidth;
-    panel.classList.add("dragging");
+    startTranslate = isOpen ? -screenWidth() : 0;
+    screens.classList.add("dragging");
     tab.setPointerCapture(e.pointerId);
   });
   tab.addEventListener("pointermove", (e) => {
     if (!dragging) return;
-    const dx = startX - e.clientX; // dragging left (toward center) opens
+    const dx = startX - e.clientX; // dragging left brings the sales screen in from the right
     if (Math.abs(dx) > 5) moved = true;
-    const next = Math.min(0, Math.max(-panelWidth, startRight + dx));
-    setRight(next);
-    backdrop.classList.toggle("visible", next > -panelWidth * 0.95);
+    const w = screenWidth();
+    const next = Math.min(0, Math.max(-w, startTranslate - dx));
+    setTransform(next);
   });
-  tab.addEventListener("pointerup", (e) => {
+  tab.addEventListener("pointerup", () => {
     if (!dragging) return;
     dragging = false;
-    const current = parseFloat(panel.style.right) || 0;
+    const w = screenWidth();
+    const match = /translateX\((-?[\d.]+)px\)/.exec(screens.style.transform);
+    const current = match ? parseFloat(match[1]) : 0;
     if (!moved) { setOpen(!isOpen); return; }
-    setOpen(current > -panelWidth / 2);
+    setOpen(current < -w / 2);
   });
 
-  closeBtn.addEventListener("click", () => setOpen(false));
-  backdrop.addEventListener("click", () => setOpen(false));
+  backBtn.addEventListener("click", () => setOpen(false));
 
   setOpen(false);
 }
