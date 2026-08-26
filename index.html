@@ -736,7 +736,7 @@ function renderBrandShareChart() {
   // Real arc paths (not stroked circles via dasharray) so the hover state can grow just
   // the outer radius — the inner edge and the start/end angles never move, so neighboring
   // slices always still meet exactly and no gap can appear.
-  const R_INNER = 32, R_OUTER = 48, R_OUTER_HOVER = 54;
+  const R_INNER = 32, R_OUTER = 48, R_OUTER_HOVER = 51;
   const GAP = 0.015; // small angular gap between slices, in radians
   let angle = -Math.PI / 2;
   const slices = shown.map(({ brand, count, color }) => {
