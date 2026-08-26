@@ -244,8 +244,8 @@
 
   .brand-donut-body { display: flex; flex-direction: column; align-items: center; gap: 14px; padding: 4px 0 0; }
   .brand-donut-svg { flex-shrink: 0; width: 100%; max-width: 260px; height: auto; }
-  .brand-donut-segment { cursor: pointer; transition: opacity 0.15s; }
-  .brand-donut-segment:hover { opacity: 0.85; }
+  .brand-donut-segment { cursor: pointer; stroke-width: 16px; transition: stroke-width 0.15s ease; }
+  .brand-donut-segment:hover, .brand-donut-segment.is-active { stroke-width: 21px; }
   .brand-donut-center-count { font-size: 15px; font-weight: 800; fill: var(--text-primary); }
   .brand-donut-center-label { font-size: 6.5px; font-weight: 600; fill: var(--text-muted); }
   .brand-donut-info {
@@ -722,7 +722,7 @@ function renderBrandShareChart() {
   const circles = shown.map(({ brand, count, color }) => {
     const len = (count / total) * CIRC;
     const pct = Math.round(count / total * 100);
-    const circle = `<circle class="brand-donut-segment" data-brand="${brand}" data-count="${count}" data-pct="${pct}" cx="50" cy="50" r="${R}" fill="none" stroke="${color}" stroke-width="16" stroke-dasharray="${len.toFixed(2)} ${(CIRC - len).toFixed(2)}" stroke-dashoffset="${(-offset).toFixed(2)}" transform="rotate(-90 50 50)"><title>${brand} ${count}개 (${pct}%)</title></circle>`;
+    const circle = `<circle class="brand-donut-segment" data-brand="${brand}" data-count="${count}" data-pct="${pct}" cx="50" cy="50" r="${R}" fill="none" stroke="${color}" stroke-dasharray="${len.toFixed(2)} ${(CIRC - len).toFixed(2)}" stroke-dashoffset="${(-offset).toFixed(2)}" transform="rotate(-90 50 50)"></circle>`;
     offset += len;
     return circle;
   }).join("");
@@ -733,15 +733,22 @@ function renderBrandShareChart() {
       <text x="50" y="47" text-anchor="middle" class="brand-donut-center-count">${total}</text>
       <text x="50" y="58" text-anchor="middle" class="brand-donut-center-label">TOP ${total}</text>
     </svg>
-    <div class="brand-donut-info" id="brand-donut-info">세그먼트를 눌러보세요</div>
+    <div class="brand-donut-info" id="brand-donut-info">그래프에 마우스를 올려보세요</div>
   `;
 
-  el.querySelectorAll(".brand-donut-segment").forEach(seg => {
-    seg.addEventListener("click", () => {
+  const infoEl = document.getElementById("brand-donut-info");
+  const segments = el.querySelectorAll(".brand-donut-segment");
+  segments.forEach(seg => {
+    seg.addEventListener("mouseenter", () => {
+      segments.forEach(s => s.classList.remove("is-active"));
+      seg.classList.add("is-active");
       const { brand, count, pct } = seg.dataset;
-      document.getElementById("brand-donut-info").innerHTML =
-        `<span class="swatch" style="background:${seg.getAttribute("stroke")}"></span><b>${brand}</b> · ${count}개 · ${pct}%`;
+      infoEl.innerHTML = `<span class="swatch" style="background:${seg.getAttribute("stroke")}"></span><b>${brand}</b> · ${count}개 · ${pct}%`;
     });
+  });
+  el.querySelector(".brand-donut-svg").addEventListener("mouseleave", () => {
+    segments.forEach(s => s.classList.remove("is-active"));
+    infoEl.textContent = "그래프에 마우스를 올려보세요";
   });
 }
 
