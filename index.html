@@ -242,22 +242,18 @@
   .bar-fill { background: var(--series-blue); height: 100%; border-radius: 4px 0 0 4px; }
   .bar-value { text-align: right; color: var(--text-secondary); font-variant-numeric: tabular-nums; }
 
-  .brand-donut-body { display: flex; flex-direction: column; align-items: center; gap: 12px; padding: 4px 0 0; }
-  .brand-donut-svg { flex-shrink: 0; }
+  .brand-donut-body { display: flex; flex-direction: column; align-items: center; gap: 14px; padding: 4px 0 0; }
+  .brand-donut-svg { flex-shrink: 0; width: 100%; max-width: 260px; height: auto; }
+  .brand-donut-segment { cursor: pointer; transition: opacity 0.15s; }
+  .brand-donut-segment:hover { opacity: 0.85; }
   .brand-donut-center-count { font-size: 15px; font-weight: 800; fill: var(--text-primary); }
   .brand-donut-center-label { font-size: 6.5px; font-weight: 600; fill: var(--text-muted); }
-  .brand-donut-legend { width: 100%; display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px 10px; }
-  .brand-donut-legend-item { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; min-width: 0; font-size: 11px; }
-  .brand-donut-legend-item-top { display: flex; align-items: center; gap: 5px; min-width: 0; width: 100%; }
-  .brand-donut-swatch { width: 8px; height: 8px; border-radius: 2px; flex-shrink: 0; }
-  .brand-donut-legend-name {
-    flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
-    color: var(--text-primary); font-weight: 600;
+  .brand-donut-info {
+    display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--text-secondary);
+    min-height: 24px;
   }
-  .brand-donut-legend-pct {
-    color: var(--text-muted); font-weight: 700; font-variant-numeric: tabular-nums;
-    font-size: 10px; padding-left: 13px;
-  }
+  .brand-donut-info b { color: var(--text-primary); font-size: 15px; }
+  .brand-donut-info .swatch { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
 
   .legend { display: flex; gap: 14px; font-size: 11px; color: var(--text-secondary); margin-bottom: 10px; }
   .legend .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 4px; }
@@ -725,29 +721,28 @@ function renderBrandShareChart() {
   let offset = 0;
   const circles = shown.map(({ brand, count, color }) => {
     const len = (count / total) * CIRC;
-    const circle = `<circle cx="50" cy="50" r="${R}" fill="none" stroke="${color}" stroke-width="16" stroke-dasharray="${len.toFixed(2)} ${(CIRC - len).toFixed(2)}" stroke-dashoffset="${(-offset).toFixed(2)}" transform="rotate(-90 50 50)"><title>${brand} ${count}개</title></circle>`;
+    const pct = Math.round(count / total * 100);
+    const circle = `<circle class="brand-donut-segment" data-brand="${brand}" data-count="${count}" data-pct="${pct}" cx="50" cy="50" r="${R}" fill="none" stroke="${color}" stroke-width="16" stroke-dasharray="${len.toFixed(2)} ${(CIRC - len).toFixed(2)}" stroke-dashoffset="${(-offset).toFixed(2)}" transform="rotate(-90 50 50)"><title>${brand} ${count}개 (${pct}%)</title></circle>`;
     offset += len;
     return circle;
   }).join("");
 
-  const legend = shown.map(({ brand, count, color }) => `
-    <div class="brand-donut-legend-item">
-      <span class="brand-donut-legend-item-top">
-        <span class="brand-donut-swatch" style="background:${color}"></span>
-        <span class="brand-donut-legend-name">${brand}</span>
-      </span>
-      <span class="brand-donut-legend-pct">${count}개 · ${Math.round(count / total * 100)}%</span>
-    </div>
-  `).join("");
-
   el.innerHTML = `
-    <svg class="brand-donut-svg" width="92" height="92" viewBox="0 0 100 100">
+    <svg class="brand-donut-svg" viewBox="0 0 100 100">
       ${circles}
       <text x="50" y="47" text-anchor="middle" class="brand-donut-center-count">${total}</text>
       <text x="50" y="58" text-anchor="middle" class="brand-donut-center-label">TOP ${total}</text>
     </svg>
-    <div class="brand-donut-legend">${legend}</div>
+    <div class="brand-donut-info" id="brand-donut-info">세그먼트를 눌러보세요</div>
   `;
+
+  el.querySelectorAll(".brand-donut-segment").forEach(seg => {
+    seg.addEventListener("click", () => {
+      const { brand, count, pct } = seg.dataset;
+      document.getElementById("brand-donut-info").innerHTML =
+        `<span class="swatch" style="background:${seg.getAttribute("stroke")}"></span><b>${brand}</b> · ${count}개 · ${pct}%`;
+    });
+  });
 }
 
 function renderPriceChart(gender = "all") {
