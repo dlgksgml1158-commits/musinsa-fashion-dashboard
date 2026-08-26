@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T08:05:11.309395+00:00",
+  "updatedAt": "2026-08-26T09:07:40.720736+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,22 +327,22 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 48424,
+        "avg": 47072,
         "min": 7900,
         "max": 127800,
         "count": 60
       },
       "male": {
-        "avg": 62795,
+        "avg": 59606,
         "min": 7900,
         "max": 127800,
-        "count": 18
+        "count": 17
       },
       "female": {
-        "avg": 40998,
+        "avg": 40848,
         "min": 16920,
         "max": 97200,
-        "count": 33
+        "count": 34
       },
       "items": [
         {
@@ -1619,22 +1619,22 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 43414,
+        "avg": 42651,
         "min": 9800,
         "max": 231990,
         "count": 60
       },
       "male": {
-        "avg": 39230,
+        "avg": 38370,
         "min": 9800,
         "max": 88990,
-        "count": 33
+        "count": 34
       },
       "female": {
-        "avg": 46682,
+        "avg": 46268,
         "min": 15920,
         "max": 231990,
-        "count": 23
+        "count": 22
       },
       "items": [
         {
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-102937",
+          "id": "ms-102704",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,7 +2265,7 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 67604,
+        "avg": 67424,
         "min": 19900,
         "max": 159000,
         "count": 60
@@ -2277,7 +2277,7 @@
         "count": 27
       },
       "female": {
-        "avg": 60575,
+        "avg": 60124,
         "min": 24400,
         "max": 149400,
         "count": 24
@@ -2500,8 +2500,8 @@
           "name": "[간절기준비]르체 다크그레이 원 턱 와이드 팬츠",
           "price": 59000,
           "originalPrice": 59000,
-          "discountRate": 30,
-          "finalPrice": 41300,
+          "discountRate": 41,
+          "finalPrice": 34700,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260428/6390295/6390295_17872800481375_500.jpg",
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 51252,
+        "avg": 50827,
         "min": 9900,
         "max": 139300,
         "count": 60
@@ -3216,18 +3216,18 @@
         },
         {
           "rank": 20,
-          "id": "ms-5329565",
-          "brand": "아디다스",
-          "name": "BB 트랙 팬츠 - 블랙:크림화이트 / KC9301",
-          "price": 119000,
-          "originalPrice": 119000,
-          "discountRate": 50,
-          "finalPrice": 58990,
+          "id": "ms-6317606",
+          "brand": "무신사 스탠다드 우먼",
+          "name": "[NEW 컬러 출시] 우먼즈 더블 니트 투 턱 와이드 라운지 스웨트 팬츠 [토프]",
+          "price": 39900,
+          "originalPrice": 39900,
+          "discountRate": 0,
+          "finalPrice": 39900,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250818/5329565/5329565_17573005441124_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5329565",
-          "displayGenderText": "공용"
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260415/6317606/6317606_17865081436680_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6317606",
+          "displayGenderText": "여성"
         }
       ]
     },

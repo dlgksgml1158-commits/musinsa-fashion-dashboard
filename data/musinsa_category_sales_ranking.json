@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T08:05:20.811877+00:00",
+  "updatedAt": "2026-08-26T09:07:48.814661+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1006,7 +1006,7 @@
           "finalPrice": 62910,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250812/5315438/5315438_17875404023114_500.jpg",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250812/5315438/5315438_17877344557915_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5315438",
           "displayGenderText": "공용"
         },
@@ -1592,6 +1592,21 @@
         },
         {
           "rank": 5,
+          "id": "ms-5320658",
+          "brand": "1989스탠다드",
+          "name": "베이직 오버핏 기모 목폴라(STPSTDBASIC)",
+          "price": 49900,
+          "originalPrice": 49900,
+          "discountRate": 80,
+          "finalPrice": 9980,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5320658/5320658_17634518169574_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5320658",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 6,
           "id": "ms-3143786",
           "brand": "키뮤어",
           "name": "(카라 OR 라운드) 린넨라이크 하프 니트 2종",
@@ -1606,7 +1621,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "id": "ms-6541551",
           "brand": "효지",
           "name": "26 SS 워셔블 린넨 헨리넥 크롭 니트 (6컬러)",
@@ -1621,7 +1636,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "id": "ms-6203854",
           "brand": "언탭트 스튜디오",
           "name": "워셔블 쿨 코튼 핸리넥 라운드 반팔 니트 5COLOR",
@@ -1636,7 +1651,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "id": "ms-6263413",
           "brand": "알리스",
           "name": "[오정규 x 알리스] 쿨 코튼 레이어드 헨리넥 크롭 하프 니트_2COLOR",
@@ -1651,7 +1666,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-5023733",
           "brand": "편마",
           "name": "Cotton Short Sleeve Polo Knit - 6color",
@@ -1666,7 +1681,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-6109249",
           "brand": "마인드브릿지",
           "name": "[스토커즈 콜라보] [ON]워셔블 케이블 카라 반팔 니트 - 2color",
@@ -1681,7 +1696,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-6014032",
           "brand": "에잇세컨즈",
           "name": "고양이 자카드 풀오버  애쉬",
@@ -1696,7 +1711,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-4785959",
           "brand": "앤드어게인",
           "name": "컴포트 미니멀 라운드 니트",
@@ -1711,7 +1726,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-4035353",
           "brand": "니티드",
           "name": "쿨에버 라운드 반팔 니트티 IVORY",
@@ -1726,7 +1741,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-5114507",
           "brand": "워크온바디오프",
           "name": "이지온 세미 오버핏 스트라이프 / 솔리드 카라 반팔 니트 (5color)",
@@ -1741,7 +1756,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-4783516",
           "brand": "웬즈데이오아시스 포 우먼",
           "name": "W/올웨이즈 하이넥 스트라이프 니트 집업_3Color(WC25-KN06)",
@@ -1756,7 +1771,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-2474966",
           "brand": "엑스톤즈",
           "name": "XTK016 대퍼딜 꽈배기 니트 (BLACK)",
@@ -1771,7 +1786,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-6204461",
           "brand": "언탭트 스튜디오",
           "name": "쿨 라이크 린넨 크로쉐 라운드 반팔 니트 5COLOR",
@@ -1786,7 +1801,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-6234189",
           "brand": "드로우핏",
           "name": "앤더슨 코튼 폴로 하프 니트 [4color]",
@@ -1801,7 +1816,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-6109237",
           "brand": "마인드브릿지",
           "name": "[스토커즈 콜라보] [ON]워셔블 코튼 혼방 카라 반팔 니트 - 3color",
@@ -1813,21 +1828,6 @@
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260310/6109237/6109237_17794256482340_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6109237",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-5020211",
-          "brand": "효지",
-          "name": "SS 워셔블 [케이블 헨리넥] 크롭 반팔 니트 (8컬러)",
-          "price": 65200,
-          "originalPrice": 65200,
-          "discountRate": 60,
-          "finalPrice": 25900,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250413/5020211/5020211_17841797649866_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5020211",
           "displayGenderText": "남성"
         }
       ]
