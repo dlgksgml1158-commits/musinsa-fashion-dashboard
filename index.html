@@ -246,7 +246,11 @@
   html, body { height: 100%; overscroll-behavior-x: none; touch-action: pan-y; }
   .screens { display: flex; width: 200%; height: 100%; min-height: 100vh; transition: transform 0.3s ease; will-change: transform; }
   .screens.dragging { transition: none; }
-  .screen { width: 50%; flex-shrink: 0; height: 100%; min-height: 100vh; overflow-x: hidden; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+  .screen {
+    width: 50%; flex-shrink: 0; height: 100%; min-height: 100vh; overflow-x: hidden; overflow-y: auto;
+    -webkit-overflow-scrolling: touch; scrollbar-width: none;
+  }
+  .screen::-webkit-scrollbar { display: none; } /* the OS scrollbar otherwise sits right where the edge handle does, clipping it */
   .hscroll-row { touch-action: pan-x pan-y; }
   .screen-sales { padding: 20px; max-width: 640px; }
   .sales-edge-handle {
