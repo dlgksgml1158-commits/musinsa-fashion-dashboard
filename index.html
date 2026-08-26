@@ -857,10 +857,10 @@ function renderBrandShareChart() {
       const toWrapY = (viewBoxY) => svgRect.top - wrapRect.top + ((viewBoxY + 8) / 116) * svgRect.height;
       const startX = toWrapX(parseFloat(midX));
       const startY = toWrapY(parseFloat(midY));
-      const labelRect = infoEl.getBoundingClientRect();
-      // Stop well clear of the swatch dot in front of the brand name, not right up against it.
-      const endX = labelRect.left - wrapRect.left - 16;
-      const endY = labelRect.top - wrapRect.top + labelRect.height / 2;
+      // Dock the line onto the edge of the swatch dot — touching it, not crossing through it.
+      const swatchRect = infoEl.querySelector(".swatch").getBoundingClientRect();
+      const endX = swatchRect.left - wrapRect.left;
+      const endY = swatchRect.top - wrapRect.top + swatchRect.height / 2;
       const centerX = toWrapX(50);
       let points;
       if (startX >= centerX) {
