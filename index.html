@@ -261,14 +261,16 @@
   .sales-edge-handle-left { right: auto; left: 0; display: none; }
   .sales-edge-handle:active { cursor: grabbing; }
   .sales-edge-grip {
-    width: 16px; height: 60px; position: relative; pointer-events: none;
+    width: 26px; height: 70px; position: relative; pointer-events: none;
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 14px;
+    box-shadow: var(--card-shadow);
   }
   .sales-edge-grip::before, .sales-edge-grip::after {
-    content: ""; position: absolute; left: 5px; width: 11px; height: 3px; border-radius: 2px;
-    background: var(--text-muted);
+    content: ""; position: absolute; left: 8px; width: 13px; height: 4px; border-radius: 2px;
+    background: var(--text-primary);
   }
-  .sales-edge-grip::before { top: 24px; transform: rotate(45deg); }
-  .sales-edge-grip::after { top: 33px; transform: rotate(-45deg); }
+  .sales-edge-grip::before { top: 28px; transform: rotate(45deg); }
+  .sales-edge-grip::after { top: 38px; transform: rotate(-45deg); }
   .sales-edge-handle-left .sales-edge-grip { transform: scaleX(-1); }
   .sales-screen-header { display: flex; align-items: baseline; gap: 12px; margin-bottom: 4px; }
   .sales-screen-header h2 { margin: 0; font-size: 18px; }
