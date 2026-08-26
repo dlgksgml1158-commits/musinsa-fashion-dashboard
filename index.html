@@ -79,8 +79,9 @@
   }
 
   .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; margin-bottom: 16px; align-items: start; }
-  .rank-and-brand-grid { grid-template-columns: repeat(3, 1fr); }
-  .rank-and-brand-grid > :first-child { grid-column: span 2; }
+  .rank-and-brand-grid { grid-template-columns: repeat(3, 1fr); align-items: stretch; }
+  .rank-and-brand-grid > :first-child { grid-column: span 2; display: flex; flex-direction: column; }
+  .rank-and-brand-grid > :first-child #rank-table-wrap { flex: 1; }
   @media (max-width: 900px) {
     .rank-and-brand-grid { grid-template-columns: 1fr; }
     .rank-and-brand-grid > :first-child { grid-column: span 1; }
