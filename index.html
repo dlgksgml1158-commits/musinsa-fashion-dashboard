@@ -927,6 +927,18 @@ function setupSalesPanel() {
     leftHandle.style.display = open ? "flex" : "none";
   };
 
+  const finishDrag = () => {
+    if (!dragging) return;
+    dragging = false;
+    const w = screenWidth();
+    const match = /translateX\((-?[\d.]+)px\)/.exec(screens.style.transform);
+    const current = match ? parseFloat(match[1]) : 0;
+    if (!moved) { setOpen(!isOpen); return; }
+    const traveled = current - startTranslate; // negative = moved toward open, positive = moved toward closed
+    const past30 = Math.abs(traveled) > w * OPEN_THRESHOLD;
+    setOpen(past30 ? !startedOpen : startedOpen);
+  };
+
   const bindHandle = (handle) => {
     handle.addEventListener("pointerdown", (e) => {
       dragging = true; moved = false;
@@ -944,18 +956,16 @@ function setupSalesPanel() {
       const next = Math.min(0, Math.max(-w, startTranslate - dx));
       setTransform(next);
     });
-    handle.addEventListener("pointerup", () => {
-      if (!dragging) return;
-      dragging = false;
-      const w = screenWidth();
-      const match = /translateX\((-?[\d.]+)px\)/.exec(screens.style.transform);
-      const current = match ? parseFloat(match[1]) : 0;
-      if (!moved) { setOpen(!isOpen); return; }
-      const traveled = current - startTranslate; // negative = moved toward open, positive = moved toward closed
-      const past30 = Math.abs(traveled) > w * OPEN_THRESHOLD;
-      setOpen(past30 ? !startedOpen : startedOpen);
-    });
+    // Finalize on window too — if the pointer is released (or capture is lost) off the
+    // handle, "pointerup" may never fire on it, leaving the drag frozen mid-transition.
+    handle.addEventListener("pointerup", finishDrag);
+    handle.addEventListener("pointercancel", finishDrag);
+    handle.addEventListener("lostpointercapture", finishDrag);
   };
+
+  window.addEventListener("pointerup", finishDrag);
+  window.addEventListener("pointercancel", finishDrag);
+  window.addEventListener("blur", finishDrag);
 
   bindHandle(rightHandle);
   bindHandle(leftHandle);
