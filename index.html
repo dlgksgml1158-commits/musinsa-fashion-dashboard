@@ -242,8 +242,8 @@
   .bar-fill { background: var(--series-blue); height: 100%; border-radius: 4px 0 0 4px; }
   .bar-value { text-align: right; color: var(--text-secondary); font-variant-numeric: tabular-nums; }
 
-  .brand-donut-body { display: flex; flex-direction: column; align-items: center; gap: 14px; padding: 4px 0 0; }
-  .brand-donut-svg { flex-shrink: 0; width: 100%; max-width: 260px; height: auto; }
+  .brand-donut-body { display: flex; flex-direction: row; align-items: center; gap: 14px; padding: 4px 0 0; }
+  .brand-donut-svg { flex: 0 0 150px; width: 150px; height: 150px; }
   /* r + stroke-width move together so the inner edge (r - stroke-width/2) stays fixed
      and only the outer edge grows outward on hover, instead of thickening both ways. */
   /* Changing r/stroke-width directly re-derives the circle's circumference, which no
@@ -255,7 +255,7 @@
   .brand-donut-center-label { font-size: 6.5px; font-weight: 600; fill: var(--text-muted); }
   .brand-donut-info {
     display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--text-secondary);
-    min-height: 24px;
+    flex: 1; min-width: 0; min-height: 24px; flex-wrap: wrap;
   }
   .brand-donut-info b { color: var(--text-primary); font-size: 15px; }
   .brand-donut-info .swatch { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
@@ -756,7 +756,7 @@ function renderBrandShareChart() {
     <svg class="brand-donut-svg" viewBox="-8 -8 116 116">
       ${paths}
     </svg>
-    <div class="brand-donut-info" id="brand-donut-info">그래프에 마우스를 올려보세요</div>
+    <div class="brand-donut-info" id="brand-donut-info"></div>
   `;
 
   const infoEl = document.getElementById("brand-donut-info");
@@ -772,7 +772,7 @@ function renderBrandShareChart() {
   });
   el.querySelector(".brand-donut-svg").addEventListener("mouseleave", () => {
     segments.forEach(s => s.setAttribute("d", s.dataset.dNormal));
-    infoEl.textContent = "그래프에 마우스를 올려보세요";
+    infoEl.textContent = "";
   });
 }
 
