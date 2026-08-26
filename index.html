@@ -983,9 +983,15 @@ function setupSalesPanel() {
     return false;
   };
   window.addEventListener("wheel", (e) => {
-    if (Math.abs(e.deltaX) <= Math.abs(e.deltaY)) return; // predominantly vertical — leave it alone
+    if (e.deltaX === 0) return; // purely vertical — nothing to block
     if (hscrollCanConsume(e.target, e.deltaX)) return; // let the inner row scroll itself
+    // Any horizontal component (even during a diagonal trackpad move) gets swallowed here —
+    // otherwise a mostly-vertical scroll with a slight sideways drift still leaks enough deltaX
+    // to trigger the browser's edge-swipe navigation. We preventDefault the whole event (which
+    // would otherwise also block the vertical part) and re-apply just the vertical scroll by hand.
     e.preventDefault();
+    const activeScreen = document.getElementById(isOpen ? "screen-sales" : "screen-main");
+    activeScreen.scrollTop += e.deltaY;
   }, { passive: false });
 
   setOpen(false);
