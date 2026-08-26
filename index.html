@@ -303,10 +303,11 @@
   .brand-donut-info b { color: var(--text-primary); font-size: 15px; }
   .brand-donut-info .swatch { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
   .brand-donut-connector { position: absolute; inset: 0; pointer-events: none; overflow: visible; }
-  .brand-donut-connector polyline { fill: none; stroke-width: 1.5; stroke-linejoin: round; opacity: 0; transition: opacity 0.15s ease; }
+  .brand-donut-connector polyline {
+    fill: none; stroke-width: 1.5; stroke-linejoin: round; stroke-dasharray: 3 3;
+    opacity: 0; transition: opacity 0.15s ease;
+  }
   .brand-donut-connector polyline.visible { opacity: 0.85; }
-  .brand-donut-connector circle { opacity: 0; transition: opacity 0.15s ease; }
-  .brand-donut-connector circle.visible { opacity: 1; }
 
   .legend { display: flex; gap: 14px; font-size: 11px; color: var(--text-secondary); margin-bottom: 10px; }
   .legend .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 4px; }
@@ -814,13 +815,14 @@ function renderBrandShareChart() {
     const dNormal = _donutSlicePath(50, 50, R_OUTER, R_INNER, start, end);
     const dHover = _donutSlicePath(50, 50, R_OUTER_HOVER, R_INNER, start, end);
     const mid = (start + end) / 2;
-    const edgeX = 50 + R_OUTER_HOVER * Math.cos(mid);
-    const edgeY = 50 + R_OUTER_HOVER * Math.sin(mid);
+    const R_MID = (R_INNER + R_OUTER_HOVER) / 2; // middle of the ring's thickness, not the outer tip
+    const midX = 50 + R_MID * Math.cos(mid);
+    const midY = 50 + R_MID * Math.sin(mid);
     angle += span;
-    return { brand, count, pct, color, dNormal, dHover, edgeX, edgeY };
+    return { brand, count, pct, color, dNormal, dHover, midX, midY };
   });
 
-  const paths = slices.map(s => `<path class="brand-donut-segment" data-brand="${s.brand}" data-count="${s.count}" data-pct="${s.pct}" data-edge-x="${s.edgeX}" data-edge-y="${s.edgeY}" d="${s.dNormal}" data-d-normal="${s.dNormal}" data-d-hover="${s.dHover}" fill="${s.color}"></path>`).join("");
+  const paths = slices.map(s => `<path class="brand-donut-segment" data-brand="${s.brand}" data-count="${s.count}" data-pct="${s.pct}" data-mid-x="${s.midX}" data-mid-y="${s.midY}" d="${s.dNormal}" data-d-normal="${s.dNormal}" data-d-hover="${s.dHover}" fill="${s.color}"></path>`).join("");
 
   el.innerHTML = `
     <svg class="brand-donut-svg" viewBox="-8 -8 116 116">
@@ -828,14 +830,12 @@ function renderBrandShareChart() {
     </svg>
     <svg class="brand-donut-connector" id="brand-donut-connector">
       <polyline id="brand-donut-connector-line"></polyline>
-      <circle id="brand-donut-connector-dot" r="2.5"></circle>
     </svg>
     <div class="brand-donut-info" id="brand-donut-info"></div>
   `;
 
   const infoEl = document.getElementById("brand-donut-info");
   const connectorLine = document.getElementById("brand-donut-connector-line");
-  const connectorDot = document.getElementById("brand-donut-connector-dot");
   const donutSvg = el.querySelector(".brand-donut-svg");
   const segments = el.querySelectorAll(".brand-donut-segment");
   segments.forEach(seg => {
@@ -846,17 +846,17 @@ function renderBrandShareChart() {
       });
       seg.setAttribute("d", seg.dataset.dHover);
       seg.parentNode.appendChild(seg); // SVG has no z-index — move to last so it draws on top
-      const { brand, pct, edgeX, edgeY } = seg.dataset;
+      const { brand, pct, midX, midY } = seg.dataset;
       infoEl.innerHTML = `<span class="swatch" style="background:${seg.getAttribute("fill")}"></span><b>${brand}</b> · ${pct}%`;
 
-      // Draw a short leader line from the hovered segment's edge to the label, so it
+      // Draw a dashed leader line from the middle of the hovered slice to the label, so it
       // reads as "this text belongs to that slice" instead of a floating caption.
       const wrapRect = el.getBoundingClientRect();
       const svgRect = donutSvg.getBoundingClientRect();
       const toWrapX = (viewBoxX) => svgRect.left - wrapRect.left + ((viewBoxX + 8) / 116) * svgRect.width;
       const toWrapY = (viewBoxY) => svgRect.top - wrapRect.top + ((viewBoxY + 8) / 116) * svgRect.height;
-      const startX = toWrapX(parseFloat(edgeX));
-      const startY = toWrapY(parseFloat(edgeY));
+      const startX = toWrapX(parseFloat(midX));
+      const startY = toWrapY(parseFloat(midY));
       const labelRect = infoEl.getBoundingClientRect();
       const endX = labelRect.left - wrapRect.left - 6;
       const endY = labelRect.top - wrapRect.top + labelRect.height / 2;
@@ -866,10 +866,6 @@ function renderBrandShareChart() {
       connectorLine.setAttribute("points", `${startX},${startY} ${cornerX},${startY} ${cornerX},${endY} ${endX},${endY}`);
       connectorLine.setAttribute("stroke", seg.getAttribute("fill"));
       connectorLine.classList.add("visible");
-      connectorDot.setAttribute("cx", startX);
-      connectorDot.setAttribute("cy", startY);
-      connectorDot.setAttribute("fill", seg.getAttribute("fill"));
-      connectorDot.classList.add("visible");
     });
   });
   el.querySelector(".brand-donut-svg").addEventListener("mouseleave", () => {
@@ -879,7 +875,6 @@ function renderBrandShareChart() {
     });
     infoEl.textContent = "";
     connectorLine.classList.remove("visible");
-    connectorDot.classList.remove("visible");
   });
 }
 
