@@ -250,11 +250,7 @@
      longer matches the stroke-dasharray computed for the original radius — the arc
      visibly distorts. A transform instead leaves the path geometry untouched and just
      scales the rendered pixels up in place around the shared donut center. */
-  .brand-donut-segment {
-    cursor: pointer; stroke-width: 16px; transform-box: fill-box; transform-origin: center;
-    transition: transform 0.15s ease;
-  }
-  .brand-donut-segment:hover, .brand-donut-segment.is-active { transform: scale(1.12); }
+  .brand-donut-segment { cursor: pointer; transition: d 0.15s ease; }
   .brand-donut-center-count { font-size: 15px; font-weight: 800; fill: var(--text-primary); }
   .brand-donut-center-label { font-size: 6.5px; font-weight: 600; fill: var(--text-muted); }
   .brand-donut-info {
@@ -713,6 +709,17 @@ function renderDiscountList() {
 const BRAND_DONUT_COLORS = ["#2a78d6", "#4a3aa7", "#1baf7a", "#e87ba4", "#eb6834", "#eda100"];
 const BRAND_DONUT_OTHER_COLOR = "#94a3b8";
 
+function _donutSlicePath(cx, cy, rOuter, rInner, startAngle, endAngle) {
+  const pt = (r, a) => [cx + r * Math.cos(a), cy + r * Math.sin(a)];
+  const [x1, y1] = pt(rOuter, startAngle);
+  const [x2, y2] = pt(rOuter, endAngle);
+  const [x3, y3] = pt(rInner, endAngle);
+  const [x4, y4] = pt(rInner, startAngle);
+  const largeArc = (endAngle - startAngle) > Math.PI ? 1 : 0;
+  return `M ${x1.toFixed(3)} ${y1.toFixed(3)} A ${rOuter} ${rOuter} 0 ${largeArc} 1 ${x2.toFixed(3)} ${y2.toFixed(3)} `
+    + `L ${x3.toFixed(3)} ${y3.toFixed(3)} A ${rInner} ${rInner} 0 ${largeArc} 0 ${x4.toFixed(3)} ${y4.toFixed(3)} Z`;
+}
+
 function renderBrandShareChart() {
   const el = document.getElementById("brand-share-chart");
   const data = currentPlatformData();
@@ -726,19 +733,28 @@ function renderBrandShareChart() {
   if (restCount > 0) shown.push({ brand: "기타", count: restCount, color: BRAND_DONUT_OTHER_COLOR });
   const total = top30.length;
 
-  const R = 40, CIRC = 2 * Math.PI * R;
-  let offset = 0;
-  const circles = shown.map(({ brand, count, color }) => {
-    const len = (count / total) * CIRC;
+  // Real arc paths (not stroked circles via dasharray) so the hover state can grow just
+  // the outer radius — the inner edge and the start/end angles never move, so neighboring
+  // slices always still meet exactly and no gap can appear.
+  const R_INNER = 32, R_OUTER = 48, R_OUTER_HOVER = 54;
+  const GAP = 0.015; // small angular gap between slices, in radians
+  let angle = -Math.PI / 2;
+  const slices = shown.map(({ brand, count, color }) => {
+    const span = (count / total) * 2 * Math.PI;
+    const start = angle + GAP / 2;
+    const end = angle + span - GAP / 2;
     const pct = Math.round(count / total * 100);
-    const circle = `<circle class="brand-donut-segment" data-brand="${brand}" data-count="${count}" data-pct="${pct}" cx="50" cy="50" r="${R}" fill="none" stroke="${color}" stroke-dasharray="${len.toFixed(2)} ${(CIRC - len).toFixed(2)}" stroke-dashoffset="${(-offset).toFixed(2)}"></circle>`;
-    offset += len;
-    return circle;
-  }).join("");
+    const dNormal = _donutSlicePath(50, 50, R_OUTER, R_INNER, start, end);
+    const dHover = _donutSlicePath(50, 50, R_OUTER_HOVER, R_INNER, start, end);
+    angle += span;
+    return { brand, count, pct, color, dNormal, dHover };
+  });
+
+  const paths = slices.map(s => `<path class="brand-donut-segment" data-brand="${s.brand}" data-count="${s.count}" data-pct="${s.pct}" d="${s.dNormal}" data-d-normal="${s.dNormal}" data-d-hover="${s.dHover}" fill="${s.color}"></path>`).join("");
 
   el.innerHTML = `
     <svg class="brand-donut-svg" viewBox="0 0 100 100">
-      <g transform="rotate(-90 50 50)">${circles}</g>
+      ${paths}
       <text x="50" y="54" text-anchor="middle" class="brand-donut-center-count">${total}</text>
     </svg>
     <div class="brand-donut-info" id="brand-donut-info">그래프에 마우스를 올려보세요</div>
@@ -748,14 +764,14 @@ function renderBrandShareChart() {
   const segments = el.querySelectorAll(".brand-donut-segment");
   segments.forEach(seg => {
     seg.addEventListener("mouseenter", () => {
-      segments.forEach(s => s.classList.remove("is-active"));
-      seg.classList.add("is-active");
+      segments.forEach(s => s.setAttribute("d", s.dataset.dNormal));
+      seg.setAttribute("d", seg.dataset.dHover);
       const { brand, count, pct } = seg.dataset;
-      infoEl.innerHTML = `<span class="swatch" style="background:${seg.getAttribute("stroke")}"></span><b>${brand}</b> · ${count}개 · ${pct}%`;
+      infoEl.innerHTML = `<span class="swatch" style="background:${seg.getAttribute("fill")}"></span><b>${brand}</b> · ${count}개 · ${pct}%`;
     });
   });
   el.querySelector(".brand-donut-svg").addEventListener("mouseleave", () => {
-    segments.forEach(s => s.classList.remove("is-active"));
+    segments.forEach(s => s.setAttribute("d", s.dataset.dNormal));
     infoEl.textContent = "그래프에 마우스를 올려보세요";
   });
 }
