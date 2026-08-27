@@ -255,6 +255,7 @@
   .screen-sales { padding: 20px 20px 60px; max-width: 1280px; margin: 0 auto; }
   .sales-layers-grid { display: flex; gap: 16px; align-items: stretch; margin-top: 16px; }
   .sales-layer { flex: 1; min-width: 0; }
+  .sales-layer.stack { display: flex; flex-direction: column; gap: 16px; }
   @media (max-width: 700px) { .sales-layers-grid { flex-direction: column; } }
   .sales-edge-handle {
     position: fixed; top: 0; right: 0; width: 32px; height: 100%;
@@ -445,7 +446,10 @@
       </div>
       <div id="sales-chart"></div>
     </div>
-    <div class="card sales-layer" id="sales-weekly-change"></div>
+    <div class="card sales-layer stack">
+      <div class="sales-weekly-change-layer" id="sales-weekly-change"></div>
+      <!-- 다음 레이어를 여기에 추가 -->
+    </div>
   </div>
 </div>
 </div><!-- /screens -->
