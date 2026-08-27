@@ -435,7 +435,7 @@
   <div class="sales-screen-header">
     <h2>매출 현황</h2>
   </div>
-  <div class="sales-panel-note">샘플 데이터 미리보기 · 브랜드 API 연동 전</div>
+  <div class="sales-panel-note">샘플 데이터 미리보기 · 브랜드 API 연동 전 · 매출·주문 건수·평균 주문 금액은 주문 확정이 아닌 주문 접수 시점 기준</div>
   <div class="sales-layers-grid">
     <div class="card sales-layer" style="flex: 3;">
       <div class="sales-kpis" id="sales-kpis"></div>
@@ -931,6 +931,7 @@ function renderPriceChart(gender = "all") {
 
 // TODO: 브랜드 판매 API 연동 시 이 함수만 실제 fetch 호출로 교체하면 매출 패널이 그대로 작동함.
 // 지금은 연동 전이라 샘플/더미 데이터를 반환.
+// 매출/주문 건수/평균 주문 금액은 모두 주문 확정 시점이 아니라 주문이 들어온(접수된) 시점 기준으로 집계할 것.
 async function fetchSalesData() {
   const months = ["9월", "10월", "11월", "12월", "1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월"]; // 최근 1년
   const revenue = [690, 720, 830, 910, 760, 800, 820, 910, 870, 1020, 980, 1140]; // 단위: 만원 (더미)
