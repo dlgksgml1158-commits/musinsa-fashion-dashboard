@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T00:53:54.829201+00:00",
+  "updatedAt": "2026-08-27T10:40:42.856281+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -117,8 +117,8 @@
           "name": "Trouble Half T-Shirts Gray",
           "price": 48000,
           "originalPrice": 48000,
-          "discountRate": 30,
-          "finalPrice": 33600,
+          "discountRate": 59,
+          "finalPrice": 19450,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260319/6164272/6164272_17754384876789_500.jpg",
@@ -252,8 +252,8 @@
           "name": "JS TOMIE HELLO KITTY TEE_WHITE(NG2GMUT540G)",
           "price": 59000,
           "originalPrice": 59000,
-          "discountRate": 10,
-          "finalPrice": 53100,
+          "discountRate": 0,
+          "finalPrice": 59000,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/6998399/6998399_17863356295074_500.jpg",
@@ -637,8 +637,8 @@
           "name": "에센셜 절개 오버핏 맨투맨_8color",
           "price": 61500,
           "originalPrice": 61500,
-          "discountRate": 53,
-          "finalPrice": 29000,
+          "discountRate": 67,
+          "finalPrice": 19990,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20200818/1552421/1552421_17646597591076_500.jpg",
@@ -1132,6 +1132,21 @@
         },
         {
           "rank": 15,
+          "id": "ms-5397080",
+          "brand": "잇자바이브",
+          "name": "I LOVE CAT NOT YOU CAT EAR HOODIE",
+          "price": 85000,
+          "originalPrice": 85000,
+          "discountRate": 40,
+          "finalPrice": 50580,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250903/5397080/5397080_17618847217078_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5397080",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 16,
           "id": "ms-6265163",
           "brand": "닉켈하우스",
           "name": "닉켈 26 동키 포켓 후드티",
@@ -1146,7 +1161,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-5692389",
           "brand": "그랜피니",
           "name": "슈퍼노말 기모 후드티셔츠 - 미드나잇 블랙",
@@ -1161,7 +1176,22 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 18,
+          "id": "ms-6886227",
+          "brand": "노티카",
+          "name": "[15% 쿠폰] 폴라 벤트 후디(4colors) NFL2256",
+          "price": 79000,
+          "originalPrice": 79000,
+          "discountRate": 15,
+          "finalPrice": 67150,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260721/6886227/6886227_17872979050831_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6886227",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 19,
           "id": "ms-5992402",
           "brand": "디스이즈네버댓",
           "name": "T-Logo LT Hoodie Heather Grey",
@@ -1176,7 +1206,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 20,
           "id": "ms-5799261",
           "brand": "씨큐알",
           "name": "경량 퀵드라이 자외선차단 후드 긴팔 티셔츠",
@@ -1189,36 +1219,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20251203/5799261/5799261_17857313647636_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5799261",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 19,
-          "id": "ms-2722805",
-          "brand": "브라운브레스",
-          "name": "TAG OG HOODIE - BURGUNDY",
-          "price": 89000,
-          "originalPrice": 89000,
-          "discountRate": 0,
-          "finalPrice": 89000,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20220817/2722805/2722805_17685233788556_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/2722805",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-5964437",
-          "brand": "2000아카이브스",
-          "name": "RO DRAPED HOODIE (WHITE)",
-          "price": 98000,
-          "originalPrice": 98000,
-          "discountRate": 37,
-          "finalPrice": 61740,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260130/5964437/5964437_17697612843778_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5964437",
-          "displayGenderText": "여성"
         }
       ]
     },
@@ -1322,8 +1322,8 @@
           "name": "시티보이 오버핏 라이크린넨 타탄 체크셔츠 3Color",
           "price": 42800,
           "originalPrice": 42800,
-          "discountRate": 77,
-          "finalPrice": 9900,
+          "discountRate": 30,
+          "finalPrice": 29960,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260120/5913401/5913401_17698403229226_500.jpg",
@@ -1727,21 +1727,6 @@
         },
         {
           "rank": 14,
-          "id": "ms-6014032",
-          "brand": "에잇세컨즈",
-          "name": "고양이 자카드 풀오버  애쉬",
-          "price": 49900,
-          "originalPrice": 49900,
-          "discountRate": 66,
-          "finalPrice": 16910,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260211/6014032/6014032_17840706605621_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6014032",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 15,
           "id": "ms-5453617",
           "brand": "수아레",
           "name": "데일리 헨리넥 니트 - 5 COLOR",
@@ -1756,7 +1741,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6234189",
           "brand": "드로우핏",
           "name": "앤더슨 코튼 폴로 하프 니트 [4color]",
@@ -1771,7 +1756,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6109237",
           "brand": "마인드브릿지",
           "name": "[스토커즈 콜라보] [ON]워셔블 코튼 혼방 카라 반팔 니트 - 3color",
@@ -1786,7 +1771,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-4035353",
           "brand": "니티드",
           "name": "쿨에버 라운드 반팔 니트티 IVORY",
@@ -1801,7 +1786,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5020211",
           "brand": "효지",
           "name": "SS 워셔블 [케이블 헨리넥] 크롭 반팔 니트 (8컬러)",
@@ -1816,7 +1801,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-3143786",
           "brand": "키뮤어",
           "name": "(카라 OR 라운드) 린넨라이크 하프 니트 2종",
@@ -1829,6 +1814,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230313/3143786/3143786_17515269475776_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3143786",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6543427",
+          "brand": "브렌슨",
+          "name": "워셔블 헨리넥 크롭 반팔 쿨 니트 ( 5Color )",
+          "price": 47400,
+          "originalPrice": 47400,
+          "discountRate": 20,
+          "finalPrice": 37900,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260526/6543427/6543427_17811581686328_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6543427",
+          "displayGenderText": "공용"
         }
       ]
     },
@@ -2153,7 +2153,7 @@
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260806/7009519/7009519_17871185496549_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7009519",
-          "displayGenderText": "남성"
+          "displayGenderText": "공용"
         },
         {
           "rank": 2,
@@ -2512,8 +2512,8 @@
           "name": "[여름원단추가] 유니섹스 세미 와이드 밴딩 슬랙스 블랙",
           "price": 54000,
           "originalPrice": 54000,
-          "discountRate": 55,
-          "finalPrice": 24300,
+          "discountRate": 40,
+          "finalPrice": 32400,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20180406/750908/750908_17736379434172_500.jpg",
@@ -3092,8 +3092,8 @@
           "name": "8부 원턱 버뮤다 스웨트 팬츠 3color",
           "price": 45900,
           "originalPrice": 45900,
-          "discountRate": 46,
-          "finalPrice": 24800,
+          "discountRate": 48,
+          "finalPrice": 24060,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260228/6068184/6068184_17722869289966_500.jpg",
@@ -3197,8 +3197,8 @@
           "name": "MOLLY One Tuck Bermuda Pants Black",
           "price": 85000,
           "originalPrice": 85000,
-          "discountRate": 40,
-          "finalPrice": 51000,
+          "discountRate": 69,
+          "finalPrice": 26180,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260319/6164607/6164607_17739250032121_500.jpg",
@@ -3272,8 +3272,8 @@
           "name": "버뮤다 트레이닝 하프 팬츠 BLACK",
           "price": 62000,
           "originalPrice": 62000,
-          "discountRate": 46,
-          "finalPrice": 33480,
+          "discountRate": 53,
+          "finalPrice": 28980,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250218/4797019/4797019_17794257262326_500.jpg",
