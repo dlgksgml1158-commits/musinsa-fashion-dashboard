@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T10:40:33.732014+00:00",
+  "updatedAt": "2026-08-27T20:49:25.446243+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 48751,
+        "avg": 48527,
         "min": 7900,
         "max": 127800,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 18
       },
       "female": {
-        "avg": 41592,
+        "avg": 41185,
         "min": 19900,
         "max": 97200,
         "count": 33
@@ -382,8 +382,8 @@
           "name": "베이직 언발 오프숄더 긴팔티 차콜",
           "price": 58000,
           "originalPrice": 58000,
-          "discountRate": 5,
-          "finalPrice": 55000,
+          "discountRate": 15,
+          "finalPrice": 49500,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6912802/6912802_17851391692120_500.jpg",
@@ -397,8 +397,8 @@
           "name": "(woman) 리브드 헨리넥 롱슬리브_6Color",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 50,
-          "finalPrice": 29900,
+          "discountRate": 55,
+          "finalPrice": 26910,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260806/7013935/7013935_17860093199415_500.jpg",
@@ -562,8 +562,8 @@
           "name": "(woman) 인시전 헨리넥 포켓 롱슬리브_8Color",
           "price": 79900,
           "originalPrice": 79900,
-          "discountRate": 50,
-          "finalPrice": 39900,
+          "discountRate": 55,
+          "finalPrice": 35910,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6965879/6965879_17860000975844_500.jpg",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 73271,
+        "avg": 72924,
         "min": 17910,
         "max": 633820,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 13
       },
       "female": {
-        "avg": 73588,
+        "avg": 73150,
         "min": 26910,
         "max": 208050,
         "count": 31
@@ -840,8 +840,8 @@
           "name": "(woman) 스웻 크롭 반집업_5Color",
           "price": 119900,
           "originalPrice": 119900,
-          "discountRate": 50,
-          "finalPrice": 59900,
+          "discountRate": 55,
+          "finalPrice": 53910,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260806/7013951/7013951_17860097813123_500.jpg",
@@ -960,8 +960,8 @@
           "name": "캣 스티치 레글런 피그먼트 맨투맨 고스트그레이",
           "price": 76000,
           "originalPrice": 76000,
-          "discountRate": 35,
-          "finalPrice": 49400,
+          "discountRate": 45,
+          "finalPrice": 41800,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250930/5555157/5555157_17592806978863_500.jpg",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 57964,
+        "avg": 58056,
         "min": 15920,
         "max": 162000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 23
       },
       "female": {
-        "avg": 58382,
+        "avg": 58571,
         "min": 15920,
         "max": 144530,
         "count": 29
@@ -1351,8 +1351,8 @@
           "name": "Silky Swan Blouse II [White]",
           "price": 98000,
           "originalPrice": 98000,
-          "discountRate": 28,
-          "finalPrice": 70560,
+          "discountRate": 20,
+          "finalPrice": 78400,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260810/7037153/7037153_17870230324312_500.jpg",
@@ -1411,8 +1411,8 @@
           "name": "레이어드 컷아웃 체크 하프 셔츠 [purple]",
           "price": 84000,
           "originalPrice": 84000,
-          "discountRate": 21,
-          "finalPrice": 66110,
+          "discountRate": 24,
+          "finalPrice": 63750,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250519/5128595/5128595_17852145515081_500.jpg",
@@ -1942,8 +1942,8 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 184996,
-        "min": 39900,
+        "avg": 185031,
+        "min": 35910,
         "max": 600000,
         "count": 60
       },
@@ -1954,8 +1954,8 @@
         "count": 32
       },
       "female": {
-        "avg": 138550,
-        "min": 39900,
+        "avg": 138648,
+        "min": 35910,
         "max": 389000,
         "count": 21
       },
@@ -1997,8 +1997,8 @@
           "name": "(woman) 헤링본 프렌치 워크자켓_Red",
           "price": 99900,
           "originalPrice": 99900,
-          "discountRate": 40,
-          "finalPrice": 59900,
+          "discountRate": 46,
+          "finalPrice": 53910,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260806/7014407/7014407_17860137795619_500.jpg",
@@ -2012,8 +2012,8 @@
           "name": "LIGHT WEIGHT DOWN JACKET BUTTER CREAM(CV2EWUB901A)",
           "price": 239000,
           "originalPrice": 239000,
-          "discountRate": 24,
-          "finalPrice": 181640,
+          "discountRate": 14,
+          "finalPrice": 204350,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260729/6951147/6951147_17864964626989_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-103679",
+          "id": "ms-103844",
           "brand": "",
           "name": "",
           "price": null,
@@ -2087,8 +2087,8 @@
           "name": "(woman) 오버핏 피쉬테일 롱 야상_Khaki",
           "price": 159900,
           "originalPrice": 159900,
-          "discountRate": 44,
-          "finalPrice": 89900,
+          "discountRate": 49,
+          "finalPrice": 80910,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260806/7014385/7014385_17860143790862_500.jpg",
@@ -2147,8 +2147,8 @@
           "name": "[지연 PICK] SOFT AIR HIGH-NECK PADDED JACKET PINK(CV2GFUB902A)",
           "price": 159000,
           "originalPrice": 159000,
-          "discountRate": 24,
-          "finalPrice": 120840,
+          "discountRate": 14,
+          "finalPrice": 135950,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260729/6951150/6951150_17864964361515_500.jpg",
@@ -2265,19 +2265,19 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 68662,
+        "avg": 68722,
         "min": 19900,
         "max": 159000,
         "count": 60
       },
       "male": {
-        "avg": 77694,
+        "avg": 77647,
         "min": 19900,
         "max": 159000,
         "count": 27
       },
       "female": {
-        "avg": 61677,
+        "avg": 61889,
         "min": 24700,
         "max": 149400,
         "count": 23
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 52665,
+        "avg": 52393,
         "min": 9900,
         "max": 139300,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 15
       },
       "female": {
-        "avg": 62304,
+        "avg": 61760,
         "min": 25900,
         "max": 139300,
         "count": 30
@@ -2936,8 +2936,8 @@
           "name": "폴딩 트윌 아일렛 트레이닝 롱팬츠 그레이",
           "price": 83000,
           "originalPrice": 83000,
-          "discountRate": 0,
-          "finalPrice": 83000,
+          "discountRate": 10,
+          "finalPrice": 74700,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260722/6901447/6901447_17851302315715_500.jpg",
