@@ -298,6 +298,13 @@
   .sales-weekly-delta.up { color: var(--series-red); }
   .sales-weekly-delta.down { color: var(--series-blue); }
   .sales-weekly-note { font-size: 12px; color: var(--text-muted); margin-top: 8px; }
+  .order-status-layer { padding-top: 16px; border-top: 1px solid var(--border); }
+  .order-status-layer .sales-chart-title { margin-bottom: 4px; }
+  .order-status-row { display: flex; align-items: center; justify-content: space-between; padding: 10px 0; border-top: 1px solid var(--border); }
+  .order-status-row:first-child { border-top: none; padding-top: 0; }
+  .order-status-label { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--text-secondary); }
+  .order-status-dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+  .order-status-value { font-size: 15px; font-weight: 700; }
 
   .brand-donut-wrap { position: relative; display: flex; flex-direction: row; align-items: center; gap: 14px; padding: 4px 0 0; }
   .brand-donut-svg { flex: 0 0 230px; width: 230px; height: 230px; }
@@ -448,7 +455,7 @@
     </div>
     <div class="card sales-layer stack">
       <div class="sales-weekly-change-layer" id="sales-weekly-change"></div>
-      <!-- 다음 레이어를 여기에 추가 -->
+      <div class="order-status-layer" id="sales-order-status"></div>
     </div>
   </div>
 </div>
@@ -945,6 +952,12 @@ async function fetchSalesData() {
   return { months, revenue, orders, daily };
 }
 
+// TODO: 브랜드 판매 API 연동 시 이 함수만 실제 fetch 호출로 교체하면 주문 처리 현황 레이어가 그대로 작동함.
+// 지금은 연동 전이라 샘플/더미 데이터를 반환. 이번 달 기준 주문 확정/교환/환불 건수.
+async function fetchOrderStatusData() {
+  return { confirmed: 512, exchange: 18, refund: 30 };
+}
+
 function renderSalesKpis(data) {
   const el = document.getElementById("sales-kpis");
   const n = data.revenue.length;
@@ -977,6 +990,24 @@ function renderSalesWeeklyChange(data) {
     <div class="sales-weekly-value">${thisWeek.toLocaleString("ko-KR")}만원</div>
     <div class="sales-weekly-delta ${up ? "up" : "down"}">${up ? "▲" : "▼"} ${Math.abs(pct)}%</div>
     <div class="sales-weekly-note">지난 7일(${lastWeek.toLocaleString("ko-KR")}만원) 대비</div>
+  `;
+}
+
+function renderOrderStatus(data) {
+  const el = document.getElementById("sales-order-status");
+  const rows = [
+    { label: "주문 확정", value: data.confirmed, color: "var(--series-green)" },
+    { label: "교환", value: data.exchange, color: "var(--series-orange)" },
+    { label: "환불", value: data.refund, color: "var(--series-red)" },
+  ];
+  el.innerHTML = `
+    <div class="sales-chart-title">이번 달 주문 처리 현황</div>
+    ${rows.map(r => `
+      <div class="order-status-row">
+        <div class="order-status-label"><span class="order-status-dot" style="background:${r.color}"></span>${r.label}</div>
+        <div class="order-status-value">${r.value.toLocaleString("ko-KR")}건</div>
+      </div>
+    `).join("")}
   `;
 }
 
@@ -1146,6 +1177,7 @@ async function init() {
     renderSalesChart(sales);
     renderSalesWeeklyChange(sales);
   });
+  fetchOrderStatusData().then(renderOrderStatus);
 
   document.querySelectorAll("#kw-tabs .tab-btn").forEach(btn => btn.addEventListener("click", () => {
     document.querySelectorAll("#kw-tabs .tab-btn").forEach(b => b.classList.remove("active"));
