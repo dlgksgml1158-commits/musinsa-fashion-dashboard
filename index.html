@@ -134,9 +134,9 @@
   .news-item a:hover { color: var(--series-blue); }
   .news-item .meta { font-size: 11px; color: var(--text-muted); }
 
-  .scroll-box { max-height: 340px; overflow-y: auto; }
+  .scroll-box { max-height: 340px; overflow-y: auto; overscroll-behavior: contain; }
   #news-body { max-height: 300px; }
-  #seasonal-trend-body { max-height: 220px; overflow-y: auto; }
+  #seasonal-trend-body { max-height: 220px; overflow-y: auto; overscroll-behavior: contain; }
   #season-color-palette {
     display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 8px; margin-bottom: 10px;
     cursor: grab; scroll-snap-type: x proximity;
@@ -148,7 +148,7 @@
   }
   .color-chip .swatch { width: 12px; height: 12px; border-radius: 50%; border: 1px solid var(--border); flex-shrink: 0; }
   .color-chip-empty { font-size: 11px; color: var(--text-muted); margin-bottom: 10px; }
-  .kw-list { list-style: none; margin: 0; padding: 0; max-height: 340px; overflow-y: auto; }
+  .kw-list { list-style: none; margin: 0; padding: 0; max-height: 340px; overflow-y: auto; overscroll-behavior: contain; }
   .kw-list li {
     display: flex; align-items: center; gap: 8px; padding: 6px 0;
     border-top: 1px solid var(--gridline); font-size: 13px;
@@ -236,8 +236,8 @@
   .product-card .pc-price { font-size: 12.5px; font-weight: 600; }
   .product-card .pc-discount { color: var(--series-red); font-size: 12px; margin-right: 4px; }
 
-  .bar-chart { display: flex; flex-direction: column; gap: 10px; max-height: 340px; overflow-y: auto; }
-  #rank-table-wrap { max-height: 480px; overflow-y: auto; }
+  .bar-chart { display: flex; flex-direction: column; gap: 10px; max-height: 340px; overflow-y: auto; overscroll-behavior: contain; }
+  #rank-table-wrap { max-height: 480px; overflow-y: auto; overscroll-behavior: contain; }
   .bar-row { display: grid; grid-template-columns: 96px 1fr 60px; align-items: center; gap: 10px; font-size: 12px; }
   .bar-track { background: var(--gridline); border-radius: 4px; height: 14px; overflow: hidden; }
   .bar-fill { background: var(--series-blue); height: 100%; border-radius: 4px 0 0 4px; }
