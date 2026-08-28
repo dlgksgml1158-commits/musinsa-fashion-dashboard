@@ -245,7 +245,6 @@
 
   html, body { height: 100%; overscroll-behavior-x: none; touch-action: pan-y; }
   .screens { display: flex; width: 200%; height: 100%; min-height: 100vh; transition: transform 0.3s ease; will-change: transform; }
-  .screens.dragging { transition: none; }
   .screen {
     width: 50%; flex-shrink: 0; height: 100%; min-height: 100vh; overflow-x: hidden; overflow-y: auto;
     -webkit-overflow-scrolling: touch; scrollbar-width: none;
@@ -259,11 +258,10 @@
   @media (max-width: 700px) { .sales-layers-grid { flex-direction: column; } }
   .sales-edge-handle {
     position: fixed; top: 0; right: 0; width: 32px; height: 100%;
-    cursor: grab; z-index: 40; touch-action: none;
+    cursor: pointer; z-index: 40;
     display: flex; align-items: center; justify-content: center;
   }
   .sales-edge-handle-left { right: auto; left: 0; display: none; }
-  .sales-edge-handle:active { cursor: grabbing; }
   .sales-edge-grip {
     width: 22px; height: 44px; border-radius: 12px; position: relative; pointer-events: none;
     background: var(--surface-1); border: 1px solid var(--border); box-shadow: var(--card-shadow);
@@ -1167,61 +1165,18 @@ function setupSalesPanel() {
   const rightHandle = document.getElementById("sales-edge-handle");
   const leftHandle = document.getElementById("sales-edge-handle-left");
   const screens = document.getElementById("screens");
-  const OPEN_THRESHOLD = 0.1; // 드래그 거리가 화면 너비의 10%를 넘으면 완전히 전환
-  let isOpen = false, dragging = false, startX = 0, startTranslate = 0, startedOpen = false, moved = false;
+  let isOpen = false;
 
   const screenWidth = () => window.innerWidth;
-  const setTransform = (px) => { screens.style.transform = `translateX(${px}px)`; };
   const setOpen = (open) => {
     isOpen = open;
-    screens.classList.remove("dragging");
-    setTransform(open ? -screenWidth() : 0);
+    screens.style.transform = `translateX(${open ? -screenWidth() : 0}px)`;
     rightHandle.style.display = open ? "none" : "flex";
     leftHandle.style.display = open ? "flex" : "none";
   };
 
-  const finishDrag = () => {
-    if (!dragging) return;
-    dragging = false;
-    const w = screenWidth();
-    const match = /translateX\((-?[\d.]+)px\)/.exec(screens.style.transform);
-    const current = match ? parseFloat(match[1]) : 0;
-    if (!moved) { setOpen(!isOpen); return; }
-    const traveled = current - startTranslate; // negative = moved toward open, positive = moved toward closed
-    const past30 = Math.abs(traveled) > w * OPEN_THRESHOLD;
-    setOpen(past30 ? !startedOpen : startedOpen);
-  };
-
-  const bindHandle = (handle) => {
-    handle.addEventListener("pointerdown", (e) => {
-      dragging = true; moved = false;
-      startX = e.clientX;
-      startedOpen = isOpen;
-      startTranslate = isOpen ? -screenWidth() : 0;
-      screens.classList.add("dragging");
-      handle.setPointerCapture(e.pointerId);
-    });
-    handle.addEventListener("pointermove", (e) => {
-      if (!dragging) return;
-      const dx = startX - e.clientX; // dragging left brings the sales screen in from the right
-      if (Math.abs(dx) > 5) moved = true;
-      const w = screenWidth();
-      const next = Math.min(0, Math.max(-w, startTranslate - dx));
-      setTransform(next);
-    });
-    // Finalize on window too — if the pointer is released (or capture is lost) off the
-    // handle, "pointerup" may never fire on it, leaving the drag frozen mid-transition.
-    handle.addEventListener("pointerup", finishDrag);
-    handle.addEventListener("pointercancel", finishDrag);
-    handle.addEventListener("lostpointercapture", finishDrag);
-  };
-
-  window.addEventListener("pointerup", finishDrag);
-  window.addEventListener("pointercancel", finishDrag);
-  window.addEventListener("blur", finishDrag);
-
-  bindHandle(rightHandle);
-  bindHandle(leftHandle);
+  rightHandle.addEventListener("click", () => setOpen(true));
+  leftHandle.addEventListener("click", () => setOpen(false));
 
   // 가로 스와이프 스크롤 자체는 막되(트랙패드/터치로 화면이 옆으로 밀리지 않도록), 실시간 랭킹/인기 급상승 등
   // 자체 가로 스크롤 영역(.hscroll-row)의 스크롤 여지가 있는 동안은 그대로 두어 그 리스트만 정상 스크롤되게 함.
