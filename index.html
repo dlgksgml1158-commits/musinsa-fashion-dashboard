@@ -500,7 +500,7 @@
         <div id="sales-bestsellers"></div>
       </div>
       <div>
-        <div class="product-perf-subtitle">스테디셀러 (꾸준한 주문)</div>
+        <div class="product-perf-subtitle">스테디셀러 (최근 12주 중 꾸준한 주문)</div>
         <div id="sales-steadysellers"></div>
       </div>
     </div>
@@ -1042,7 +1042,13 @@ async function fetchPositiveAnomalyData() {
 
 // TODO: 브랜드 판매 API 연동 시 이 함수만 교체하면 상품별 판매 현황 레이어가 그대로 작동함.
 // 지금은 연동 전이라 더미 데이터를 반환.
-// bestsellers: 이번 달 판매량 기준 상위 상품. steadysellers: 매출 변동 없이 꾸준히 주문이 들어오는 상품(연속 주문 주차 기준).
+// bestsellers: 이번 달 판매량 기준 상위 상품.
+// steadysellers: "연속 N주"는 단 한 주만 비어도 스트릭이 0으로 리셋돼 너무 예민하므로,
+// 대신 최근 STEADY_SELLER_WINDOW_WEEKS주 중 주문이 발생한 주 수(activeWeeks)로 집계 —
+// 중간에 한두 주 끊겨도 꾸준함이 유지됨. 단, 이 비율만으로는 "예전엔 꾸준했지만 최근엔
+// 끊긴" 상품을 못 걸러내므로, 실제 연동 시에는 최근 1~2주 내 주문 여부도 함께 확인해서
+// 최근 주문이 없는 상품은 제외해야 함.
+const STEADY_SELLER_WINDOW_WEEKS = 12;
 async function fetchProductPerformanceData() {
   const bestsellers = [
     { name: "우먼즈 스탠다드 크루넥 스웨트셔츠", orders: 128 },
@@ -1052,11 +1058,11 @@ async function fetchProductPerformanceData() {
     { name: "미니멀 크로스백", orders: 73 },
   ];
   const steadysellers = [
-    { name: "베이직 코튼 롱슬리브 티셔츠", weeks: 24 },
-    { name: "스탠다드 로고 볼캡", weeks: 20 },
-    { name: "데일리 크루넥 니트", weeks: 18 },
-    { name: "심플 레더 벨트", weeks: 16 },
-    { name: "코튼 편안 양말 3P", weeks: 15 },
+    { name: "베이직 코튼 롱슬리브 티셔츠", activeWeeks: 11 },
+    { name: "스탠다드 로고 볼캡", activeWeeks: 10 },
+    { name: "데일리 크루넥 니트", activeWeeks: 9 },
+    { name: "심플 레더 벨트", activeWeeks: 9 },
+    { name: "코튼 편안 양말 3P", activeWeeks: 8 },
   ];
   return { bestsellers, steadysellers };
 }
@@ -1138,7 +1144,7 @@ function renderProductPerfList(el, items, metricFn) {
 
 function renderProductPerformance(data) {
   renderProductPerfList(document.getElementById("sales-bestsellers"), data.bestsellers, item => `${item.orders.toLocaleString("ko-KR")}건`);
-  renderProductPerfList(document.getElementById("sales-steadysellers"), data.steadysellers, item => `${item.weeks}주 연속`);
+  renderProductPerfList(document.getElementById("sales-steadysellers"), data.steadysellers, item => `${STEADY_SELLER_WINDOW_WEEKS}주 중 ${item.activeWeeks}주`);
 }
 
 function renderSalesChart(data) {
