@@ -305,6 +305,12 @@
   .order-status-label { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--text-secondary); }
   .order-status-dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
   .order-status-value { font-size: 15px; font-weight: 700; }
+  .anomaly-row { display: flex; align-items: center; gap: 16px; padding: 12px 0; border-top: 1px solid var(--border); flex-wrap: wrap; }
+  .anomaly-row:first-child { border-top: none; }
+  .anomaly-period { font-size: 13px; font-weight: 700; min-width: 110px; }
+  .anomaly-metric { font-size: 13px; color: var(--series-blue); font-weight: 700; min-width: 90px; }
+  .anomaly-causes { display: flex; gap: 6px; flex-wrap: wrap; }
+  .cause-chip { font-size: 11px; color: var(--text-muted); border: 1px solid var(--border); border-radius: 999px; padding: 4px 10px; }
 
   .brand-donut-wrap { position: relative; display: flex; flex-direction: row; align-items: center; gap: 14px; padding: 4px 0 0; }
   .brand-donut-svg { flex: 0 0 230px; width: 230px; height: 230px; }
@@ -457,6 +463,13 @@
       <div class="sales-weekly-change-layer" id="sales-weekly-change"></div>
       <div class="order-status-layer" id="sales-order-status"></div>
     </div>
+  </div>
+  <div class="card" style="margin-top: 16px;">
+    <div class="sales-chart-header">
+      <div class="sales-chart-title">매출 부진 원인 진단</div>
+    </div>
+    <div class="sales-panel-note">더미 데이터 · 원인 진단 연동 전</div>
+    <div id="sales-anomaly-list"></div>
   </div>
 </div>
 </div><!-- /screens -->
@@ -958,6 +971,15 @@ async function fetchOrderStatusData() {
   return { confirmed: 512, exchange: 18, refund: 30 };
 }
 
+// TODO: 원인 진단 API/로직 연동 시 이 함수만 교체하면 진단 리스트가 그대로 작동함.
+// 지금은 연동 전이라 더미 데이터를 반환. 각 항목은 매출이 급락한 기간 + 후보 원인 태그.
+async function fetchAnomalyData() {
+  return [
+    { period: "8/12 ~ 8/14", metric: "매출 -18%", causes: ["할인 종료", "카테고리 순위 하락"] },
+    { period: "7/22 ~ 7/24", metric: "매출 -11%", causes: ["경쟁사 프로모션 겹침", "주말 방문자 감소"] },
+  ];
+}
+
 function renderSalesKpis(data) {
   const el = document.getElementById("sales-kpis");
   const n = data.revenue.length;
@@ -1009,6 +1031,18 @@ function renderOrderStatus(data) {
       </div>
     `).join("")}
   `;
+}
+
+function renderAnomalyList(items) {
+  const el = document.getElementById("sales-anomaly-list");
+  if (!items.length) { el.innerHTML = "<div class='muted-note'>감지된 이상 구간이 없습니다.</div>"; return; }
+  el.innerHTML = items.map(item => `
+    <div class="anomaly-row">
+      <div class="anomaly-period">${item.period}</div>
+      <div class="anomaly-metric">${item.metric}</div>
+      <div class="anomaly-causes">${item.causes.map(c => `<span class="cause-chip">${c}</span>`).join("")}</div>
+    </div>
+  `).join("");
 }
 
 function renderSalesChart(data) {
@@ -1178,6 +1212,7 @@ async function init() {
     renderSalesWeeklyChange(sales);
   });
   fetchOrderStatusData().then(renderOrderStatus);
+  fetchAnomalyData().then(renderAnomalyList);
 
   document.querySelectorAll("#kw-tabs .tab-btn").forEach(btn => btn.addEventListener("click", () => {
     document.querySelectorAll("#kw-tabs .tab-btn").forEach(b => b.classList.remove("active"));
