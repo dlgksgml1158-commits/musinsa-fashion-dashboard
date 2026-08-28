@@ -1144,7 +1144,7 @@ function renderProductPerfList(el, items, metricFn) {
 
 function renderProductPerformance(data) {
   renderProductPerfList(document.getElementById("sales-bestsellers"), data.bestsellers, item => `${item.orders.toLocaleString("ko-KR")}건`);
-  renderProductPerfList(document.getElementById("sales-steadysellers"), data.steadysellers, item => `${STEADY_SELLER_WINDOW_WEEKS}주 중 ${item.activeWeeks}주`);
+  renderProductPerfList(document.getElementById("sales-steadysellers"), data.steadysellers, item => `${Math.round(item.activeWeeks / STEADY_SELLER_WINDOW_WEEKS * 100)}% 주문 유지율`);
 }
 
 function renderSalesChart(data) {
