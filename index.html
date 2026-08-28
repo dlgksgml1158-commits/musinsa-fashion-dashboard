@@ -311,6 +311,14 @@
   .anomaly-metric { font-size: 13px; color: var(--series-blue); font-weight: 700; min-width: 90px; }
   .anomaly-causes { display: flex; gap: 6px; flex-wrap: wrap; }
   .cause-chip { font-size: 11px; color: var(--text-muted); border: 1px solid var(--border); border-radius: 999px; padding: 4px 10px; }
+  .product-perf-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 12px; }
+  @media (max-width: 700px) { .product-perf-grid { grid-template-columns: 1fr; } }
+  .product-perf-subtitle { font-size: 12px; font-weight: 700; color: var(--text-secondary); margin-bottom: 4px; }
+  .product-perf-row { display: flex; align-items: center; gap: 10px; padding: 8px 0; border-top: 1px solid var(--border); }
+  .product-perf-row:first-child { border-top: none; }
+  .product-perf-rank { width: 18px; color: var(--text-muted); font-size: 12px; text-align: right; flex: none; }
+  .product-perf-name { flex: 1; font-size: 13px; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .product-perf-metric { font-size: 12px; color: var(--text-muted); white-space: nowrap; flex: none; }
 
   .brand-donut-wrap { position: relative; display: flex; flex-direction: row; align-items: center; gap: 14px; padding: 4px 0 0; }
   .brand-donut-svg { flex: 0 0 230px; width: 230px; height: 230px; }
@@ -470,6 +478,22 @@
     </div>
     <div class="sales-panel-note">더미 데이터 · 원인 진단 연동 전</div>
     <div id="sales-anomaly-list"></div>
+  </div>
+  <div class="card" style="margin-top: 16px;">
+    <div class="sales-chart-header">
+      <div class="sales-chart-title">상품별 판매 현황</div>
+    </div>
+    <div class="sales-panel-note">더미 데이터 · 브랜드 API 연동 전</div>
+    <div class="product-perf-grid">
+      <div>
+        <div class="product-perf-subtitle">베스트셀러 (이번 달)</div>
+        <div id="sales-bestsellers"></div>
+      </div>
+      <div>
+        <div class="product-perf-subtitle">스테디셀러 (꾸준한 주문)</div>
+        <div id="sales-steadysellers"></div>
+      </div>
+    </div>
   </div>
 </div>
 </div><!-- /screens -->
@@ -980,6 +1004,27 @@ async function fetchAnomalyData() {
   ];
 }
 
+// TODO: 브랜드 판매 API 연동 시 이 함수만 교체하면 상품별 판매 현황 레이어가 그대로 작동함.
+// 지금은 연동 전이라 더미 데이터를 반환.
+// bestsellers: 이번 달 판매량 기준 상위 상품. steadysellers: 매출 변동 없이 꾸준히 주문이 들어오는 상품(연속 주문 주차 기준).
+async function fetchProductPerformanceData() {
+  const bestsellers = [
+    { name: "우먼즈 스탠다드 크루넥 스웨트셔츠", orders: 128 },
+    { name: "데일리 와이드 데님 팬츠", orders: 104 },
+    { name: "베이직 코튼 롱슬리브 티셔츠", orders: 96 },
+    { name: "울 블렌드 하프 코트", orders: 81 },
+    { name: "미니멀 크로스백", orders: 73 },
+  ];
+  const steadysellers = [
+    { name: "베이직 코튼 롱슬리브 티셔츠", weeks: 24 },
+    { name: "스탠다드 로고 볼캡", weeks: 20 },
+    { name: "데일리 크루넥 니트", weeks: 18 },
+    { name: "심플 레더 벨트", weeks: 16 },
+    { name: "코튼 편안 양말 3P", weeks: 15 },
+  ];
+  return { bestsellers, steadysellers };
+}
+
 function renderSalesKpis(data) {
   const el = document.getElementById("sales-kpis");
   const n = data.revenue.length;
@@ -1043,6 +1088,21 @@ function renderAnomalyList(items) {
       <div class="anomaly-causes">${item.causes.map(c => `<span class="cause-chip">${c}</span>`).join("")}</div>
     </div>
   `).join("");
+}
+
+function renderProductPerfList(el, items, metricFn) {
+  el.innerHTML = items.map((item, i) => `
+    <div class="product-perf-row">
+      <div class="product-perf-rank">${i + 1}</div>
+      <div class="product-perf-name">${item.name}</div>
+      <div class="product-perf-metric">${metricFn(item)}</div>
+    </div>
+  `).join("");
+}
+
+function renderProductPerformance(data) {
+  renderProductPerfList(document.getElementById("sales-bestsellers"), data.bestsellers, item => `${item.orders.toLocaleString("ko-KR")}건`);
+  renderProductPerfList(document.getElementById("sales-steadysellers"), data.steadysellers, item => `${item.weeks}주 연속`);
 }
 
 function renderSalesChart(data) {
@@ -1213,6 +1273,7 @@ async function init() {
   });
   fetchOrderStatusData().then(renderOrderStatus);
   fetchAnomalyData().then(renderAnomalyList);
+  fetchProductPerformanceData().then(renderProductPerformance);
 
   document.querySelectorAll("#kw-tabs .tab-btn").forEach(btn => btn.addEventListener("click", () => {
     document.querySelectorAll("#kw-tabs .tab-btn").forEach(b => b.classList.remove("active"));
