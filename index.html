@@ -608,6 +608,7 @@ function renderWeather(w) {
     cell.addEventListener("click", () => renderDayDetail(Number(cell.dataset.dayIdx)));
   });
   renderDayDetail(0);
+  preventScrollChaining(el.querySelector(".scroll-box"));
 }
 
 function renderNewsList(items) {
@@ -800,6 +801,17 @@ function enableDragScroll(el) {
   el.addEventListener("click", (e) => {
     if (moved) { e.preventDefault(); e.stopPropagation(); }
   }, true);
+}
+
+// overscroll-behavior: contain covers most browsers, but Safari doesn't reliably stop
+// wheel/trackpad scroll from chaining into the page once an inner box hits its scroll
+// edge — so block it by hand there too.
+function preventScrollChaining(el) {
+  el.addEventListener("wheel", (e) => {
+    const atTop = el.scrollTop <= 0;
+    const atBottom = el.scrollTop + el.clientHeight >= el.scrollHeight - 1;
+    if ((atTop && e.deltaY < 0) || (atBottom && e.deltaY > 0)) e.preventDefault();
+  }, { passive: false });
 }
 
 function renderProductCards(elId, items) {
@@ -1248,6 +1260,11 @@ async function init() {
   enableDragScroll(document.getElementById("hot-products"));
   enableDragScroll(document.getElementById("season-color-palette"));
   enableDragScroll(document.getElementById("category-tabs"));
+
+  preventScrollChaining(document.getElementById("rank-table-wrap"));
+  preventScrollChaining(document.getElementById("news-body"));
+  preventScrollChaining(document.getElementById("seasonal-trend-body"));
+  preventScrollChaining(document.getElementById("discount-list"));
 
   const [musinsa, cm29, searchTrends, naverTrends, weather, news, discountNews, meta, categoryPriceByGender, categorySalesRanking, seasonalTrends] = await Promise.all([
     loadJson("musinsa.json"), loadJson("29cm.json"), loadJson("musinsa_search_trends.json"),
