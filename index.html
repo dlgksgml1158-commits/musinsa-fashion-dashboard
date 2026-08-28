@@ -806,9 +806,14 @@ function enableDragScroll(el) {
 // overscroll-behavior: contain doesn't reliably stop Safari from chaining wheel/trackpad
 // scroll into the page mid-gesture (not just at the scroll edge), so take manual control
 // of scrolling this element instead of leaving it to the browser's native chaining logic.
+// stopPropagation() is required here: the window-level "wheel" listener in setupSalesPanel()
+// treats any nonzero deltaX (common on trackpads even during a "vertical" scroll) as a swipe
+// gesture and manually scrolls #screen-main itself unless the event is stopped before it gets
+// there — otherwise this box and the page both end up scrolling from the same gesture.
 function preventScrollChaining(el) {
   el.addEventListener("wheel", (e) => {
     e.preventDefault();
+    e.stopPropagation();
     const max = el.scrollHeight - el.clientHeight;
     el.scrollTop = Math.min(max, Math.max(0, el.scrollTop + e.deltaY));
   }, { passive: false });
