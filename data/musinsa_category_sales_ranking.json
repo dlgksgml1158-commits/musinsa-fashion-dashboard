@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T01:02:08.607649+00:00",
+  "updatedAt": "2026-08-29T07:55:45.018697+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -37,21 +37,6 @@
         },
         {
           "rank": 3,
-          "id": "ms-2405194",
-          "brand": "캘빈클라인 진",
-          "name": "남 릴렉스핏 스탠다드 로고 반팔 티셔츠 40HM228 YAF",
-          "price": 69000,
-          "originalPrice": 69000,
-          "discountRate": 75,
-          "finalPrice": 17250,
-          "category": "001001",
-          "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20220308/2405194/2405194_17449437201087_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/2405194",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 4,
           "id": "ms-6102395",
           "brand": "수아레",
           "name": "[수아레x패션플래닛] 에어리 크롭 워셔블 하프 니트",
@@ -66,7 +51,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "id": "ms-6497498",
           "brand": "데이",
           "name": "크롭 골지 반팔 헨리넥 티셔츠_5 COLOR",
@@ -81,14 +66,14 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "id": "ms-6593924",
           "brand": "언더오프",
           "name": "롤업 슬리브 크롭 반팔 티셔츠 버건디",
           "price": 37900,
           "originalPrice": 37900,
-          "discountRate": 21,
-          "finalPrice": 29900,
+          "discountRate": 35,
+          "finalPrice": 24720,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260602/6593924/6593924_17803822672936_500.jpg",
@@ -96,7 +81,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-6433502",
           "brand": "누아트 스튜디오",
           "name": "플로우 크롭 반팔 티셔츠_6colors",
@@ -111,7 +96,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-5167907",
           "brand": "브렌슨",
           "name": "컴포트 크롭 반팔티 ( 8Color )",
@@ -126,7 +111,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-6148671",
           "brand": "트릴리온",
           "name": "[기획] 에센셜 CP 이중지 크롭 반팔티_9color",
@@ -141,7 +126,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-6104960",
           "brand": "무신사 스탠다드",
           "name": "레귤러 크롭 티셔츠 (8 colors)",
@@ -156,7 +141,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-1487679",
           "brand": "브론슨",
           "name": "Tompkins Loopwheeled Tubular Tee 4 Color",
@@ -171,7 +156,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-6219957",
           "brand": "언탭트 스튜디오",
           "name": "Urban Youth 퓨어 코튼 오버핏 반팔 티셔츠 8COLOR",
@@ -186,7 +171,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-6108801",
           "brand": "비바라비다",
           "name": "Seastar 링거 반팔 티셔츠",
@@ -201,7 +186,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-7023779",
           "brand": "무신사 스탠다드 우먼",
           "name": "[NCT 127 컬래버] BLINGY 솜뭉칠 티셔츠 [블랙]",
@@ -216,7 +201,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6164272",
           "brand": "아모우",
           "name": "Trouble Half T-Shirts Gray",
@@ -231,7 +216,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6108783",
           "brand": "비바라비다",
           "name": "Chaser 링거 반팔 티셔츠",
@@ -246,7 +231,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-2690691",
           "brand": "허그본",
           "name": "무지 머슬핏 반팔 5컬러",
@@ -261,7 +246,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6183520",
           "brand": "언타이틀 서울",
           "name": "유니콘 타이포 링거 크롭 반팔 네이비",
@@ -276,7 +261,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-4887825",
           "brand": "마하그리드",
           "name": "STRANGE PUPPY TEE_4colors",
@@ -291,7 +276,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6217220",
           "brand": "데이",
           "name": "시그니처 니트 시리즈 (Summer.Ver)",
@@ -304,6 +289,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260330/6217220/6217220_17833173712358_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6217220",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5045545",
+          "brand": "드릭스",
+          "name": "립브드 머슬핏 헨리넥 하프 슬리브_5color",
+          "price": 45000,
+          "originalPrice": 45000,
+          "discountRate": 39,
+          "finalPrice": 27650,
+          "category": "001001",
+          "categoryLabel": "반소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250420/5045545/5045545_17471997167101_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5045545",
+          "displayGenderText": "남성"
         }
       ]
     },
@@ -362,8 +362,8 @@
           "name": "PRDA BIG PATCH RAGLAN LONG SLEEVE GRAY",
           "price": 59000,
           "originalPrice": 59000,
-          "discountRate": 83,
-          "finalPrice": 9900,
+          "discountRate": 50,
+          "finalPrice": 29500,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240812/4318523/4318523_17242865831378_500.jpg",
@@ -392,8 +392,8 @@
           "name": "엠보 스타 롱 슬리브 차콜",
           "price": 49000,
           "originalPrice": 49000,
-          "discountRate": 80,
-          "finalPrice": 9900,
+          "discountRate": 40,
+          "finalPrice": 29400,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250204/4757001/4757001_17394105675308_500.jpg",
@@ -892,8 +892,8 @@
           "name": "003 ‘a’ 로고 스웻셔츠 블랙",
           "price": 79000,
           "originalPrice": 79000,
-          "discountRate": 87,
-          "finalPrice": 9900,
+          "discountRate": 0,
+          "finalPrice": 79000,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20220409/2478032/2478032_17754711277541_500.jpg",
@@ -1487,8 +1487,8 @@
           "name": "케네디 코튼 크롭 워싱 셔츠 [3color]",
           "price": 55000,
           "originalPrice": 55000,
-          "discountRate": 30,
-          "finalPrice": 38500,
+          "discountRate": 10,
+          "finalPrice": 49500,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260810/7035881/7035881_17872758124335_500.jpg",
