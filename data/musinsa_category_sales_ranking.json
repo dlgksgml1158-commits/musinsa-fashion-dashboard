@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T07:55:45.018697+00:00",
+  "updatedAt": "2026-08-29T13:25:20.589015+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1012,6 +1012,21 @@
         },
         {
           "rank": 7,
+          "id": "ms-6917495",
+          "brand": "살로몬",
+          "name": "링크 스웻 후디_LD0390400",
+          "price": 170000,
+          "originalPrice": 170000,
+          "discountRate": 0,
+          "finalPrice": 170000,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260724/6917495/6917495_17870193675277_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6917495",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 8,
           "id": "ms-5397080",
           "brand": "잇자바이브",
           "name": "I LOVE CAT NOT YOU CAT EAR HOODIE",
@@ -1026,7 +1041,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "id": "ms-5415090",
           "brand": "오드스튜디오",
           "name": "와플 커버 스티치 후드 티셔츠 - BEIGE",
@@ -1041,7 +1056,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-5315438",
           "brand": "매든",
           "name": "[류혜영 PICK] [12COLORS] 퍼니 풀오버 후디",
@@ -1056,7 +1071,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-5352832",
           "brand": "비바라비다",
           "name": "[기모선택] My Youth 헤비테리 후드",
@@ -1071,7 +1086,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-6886227",
           "brand": "노티카",
           "name": "[15% 쿠폰] 폴라 벤트 후디(4colors) NFL2256",
@@ -1086,7 +1101,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-4302685",
           "brand": "소라노",
           "name": "SORANO Basic Logo HOODIE [6Color]",
@@ -1101,7 +1116,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-5438121",
           "brand": "디스이즈네버댓",
           "name": "T-Logo Hoodie Heather Grey",
@@ -1116,7 +1131,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-4399142",
           "brand": "와키윌리",
           "name": "레터링 헤비쭈리 후드 블랙",
@@ -1131,7 +1146,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-5273026",
           "brand": "와키윌리",
           "name": "우먼스 타이포 로고 크롭 후디 그레이",
@@ -1146,7 +1161,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-6886226",
           "brand": "노티카",
           "name": "[15% 쿠폰] 폴라 벤트 바라클라바 풀오버(4colors) NFL2246",
@@ -1161,7 +1176,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-6886225",
           "brand": "노티카",
           "name": "[15% 쿠폰] 오션 토템 폴라 후디드 풀오버(4colors) NFL2226",
@@ -1176,7 +1191,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-5692389",
           "brand": "그랜피니",
           "name": "슈퍼노말 기모 후드티셔츠 - 미드나잇 블랙",
@@ -1191,7 +1206,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-4399140",
           "brand": "와키윌리",
           "name": "레터링 헤비쭈리 후드 그레이",
@@ -1203,21 +1218,6 @@
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240903/4399140/4399140_17255041454072_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4399140",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-2990516",
-          "brand": "1989스탠다드",
-          "name": "RV_OUR 1989 후드 (STHSTD-0004)",
-          "price": 67500,
-          "originalPrice": 67500,
-          "discountRate": 45,
-          "finalPrice": 37130,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20221220/2990516/2990516_17865211299718_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/2990516",
           "displayGenderText": "공용"
         }
       ]
