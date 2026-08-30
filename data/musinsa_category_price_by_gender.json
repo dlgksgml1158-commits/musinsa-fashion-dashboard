@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T15:04:43.320045+00:00",
+  "updatedAt": "2026-08-30T18:40:01.227681+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 46247,
+        "avg": 46410,
         "min": 7900,
         "max": 117000,
         "count": 60
@@ -339,8 +339,8 @@
         "count": 16
       },
       "female": {
-        "avg": 42157,
-        "min": 12710,
+        "avg": 42495,
+        "min": 14950,
         "max": 97200,
         "count": 29
       },
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 76336,
+        "avg": 76469,
         "min": 12950,
         "max": 633820,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 15
       },
       "female": {
-        "avg": 69616,
+        "avg": 69882,
         "min": 12950,
         "max": 208050,
         "count": 30
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 62408,
+        "avg": 62494,
         "min": 13800,
         "max": 189000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 25
       },
       "female": {
-        "avg": 61094,
+        "avg": 61292,
         "min": 15920,
         "max": 115200,
         "count": 26
@@ -1456,8 +1456,8 @@
           "name": "레이어드 컷아웃 체크 하프 셔츠 [purple]",
           "price": 84000,
           "originalPrice": 84000,
-          "discountRate": 17,
-          "finalPrice": 69720,
+          "discountRate": 29,
+          "finalPrice": 59890,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250519/5128595/5128595_17852145515081_500.jpg",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 60822,
+        "avg": 60739,
         "min": 7650,
         "max": 683050,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 30
       },
       "female": {
-        "avg": 56965,
+        "avg": 56758,
         "min": 15920,
         "max": 231990,
         "count": 24
@@ -1839,8 +1839,8 @@
           "name": "딥브이넥 루즈핏 니트_MIWKAG906T",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 20,
-          "finalPrice": 39920,
+          "discountRate": 30,
+          "finalPrice": 34930,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/7000716/7000716_17859126374445_500.jpg",
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 176934,
+        "avg": 176786,
         "min": 45830,
         "max": 594000,
         "count": 60
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-103689",
+          "id": "ms-103680",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,7 +2265,7 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 71748,
+        "avg": 71798,
         "min": 24700,
         "max": 188100,
         "count": 60
@@ -2277,7 +2277,7 @@
         "count": 26
       },
       "female": {
-        "avg": 62494,
+        "avg": 62613,
         "min": 24700,
         "max": 149400,
         "count": 25
@@ -2290,8 +2290,8 @@
           "name": "[송이송이 PICK] 카고 코튼팬츠_MIWTJG966J",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 25,
-          "finalPrice": 44930,
+          "discountRate": 20,
+          "finalPrice": 47920,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6938903/6938903_17858934119864_500.jpg",
