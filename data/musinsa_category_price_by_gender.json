@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T05:35:50.493677+00:00",
+  "updatedAt": "2026-08-30T10:44:49.886769+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1296,13 +1296,13 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 62358,
+        "avg": 62408,
         "min": 13800,
         "max": 189000,
         "count": 60
       },
       "male": {
-        "avg": 71262,
+        "avg": 71382,
         "min": 28800,
         "max": 189000,
         "count": 25
@@ -1366,8 +1366,8 @@
           "name": "시어서커 하드 트위스트 체크 셔츠 블랙",
           "price": 99000,
           "originalPrice": 99000,
-          "discountRate": 35,
-          "finalPrice": 64330,
+          "discountRate": 32,
+          "finalPrice": 67320,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260730/6957693/6957693_17853880605313_500.jpg",
@@ -1942,13 +1942,13 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 176791,
+        "avg": 176934,
         "min": 45830,
         "max": 594000,
         "count": 60
       },
       "male": {
-        "avg": 203632,
+        "avg": 203892,
         "min": 49990,
         "max": 594000,
         "count": 33
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-102925",
+          "id": "ms-104265",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,22 +2265,22 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 69622,
-        "min": 21360,
+        "avg": 71748,
+        "min": 24700,
         "max": 188100,
         "count": 60
       },
       "male": {
-        "avg": 80573,
-        "min": 21360,
+        "avg": 82850,
+        "min": 25000,
         "max": 188100,
-        "count": 27
+        "count": 26
       },
       "female": {
-        "avg": 58891,
+        "avg": 62494,
         "min": 24700,
         "max": 149400,
-        "count": 24
+        "count": 25
       },
       "items": [
         {
@@ -2426,7 +2426,7 @@
           "price": 59000,
           "originalPrice": 59000,
           "discountRate": 32,
-          "finalPrice": 40130,
+          "finalPrice": 40090,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20220915/2796118/2796118_17809663324954_500.jpg",
@@ -2588,13 +2588,13 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 46665,
+        "avg": 47057,
         "min": 9900,
         "max": 168000,
         "count": 60
       },
       "male": {
-        "avg": 51177,
+        "avg": 51813,
         "min": 23450,
         "max": 168000,
         "count": 37
@@ -2653,21 +2653,6 @@
         },
         {
           "rank": 4,
-          "id": "ms-2518490",
-          "brand": "무신사 스탠다드",
-          "name": "[쿨탠다드] 리얼 와이드 히든 밴딩 슬랙스 [그레이]",
-          "price": 59900,
-          "originalPrice": 59900,
-          "discountRate": 40,
-          "finalPrice": 35890,
-          "category": "003008",
-          "categoryLabel": "슬랙스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20220427/2518490/2518490_17134178529175_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/2518490",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 5,
           "id": "ms-2578997",
           "brand": "시그니처",
           "name": "더블턱 와이드 슬랙스[그레이]",
@@ -2682,7 +2667,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "id": "ms-4163350",
           "brand": "토피",
           "name": "섬머 내츄럴 와이드 밴딩 슬랙스 (5 COLOURS)",
@@ -2697,7 +2682,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-3154695",
           "brand": "드로우핏",
           "name": "투턱 밴딩 와이드 린넨 슬랙스 [OATMEAL]",
@@ -2712,7 +2697,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-5336697",
           "brand": "라이크더모스트",
           "name": "우먼 스판 히든 세미 부츠컷 슬랙스_차콜",
@@ -2727,7 +2712,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-5310984",
           "brand": "디미트리블랙",
           "name": "어드저스트 투턱 와이드 슬랙스_스트라이프 차콜",
@@ -2742,7 +2727,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-6143064",
           "brand": "무신사 스탠다드 우먼",
           "name": "[NEW 컬러 출시] 우먼즈 로 웨이스트 딥 턱 엑스트라 와이드 히든 밴딩 슬랙스 [다크 브라운]",
@@ -2757,7 +2742,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-3134729",
           "brand": "무신사 스탠다드 우먼",
           "name": "[쿨탠다드] 우먼즈 세미 벌룬 히든 밴딩 슬랙스 [그레이]",
@@ -2772,7 +2757,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-6021344",
           "brand": "아날로그무드",
           "name": "스트라이프 뒷밴딩 와이드 슬랙스 (네이비)",
@@ -2787,7 +2772,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-5328103",
           "brand": "효지",
           "name": "원턱 와이드 슬랙스 (사계절,여름-8컬러)",
@@ -2802,7 +2787,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-6907891",
           "brand": "후러브스아트",
           "name": "[후러브스아트 x 성진] 투턱 스트라이프 와이드 슬랙스 그레이",
@@ -2817,7 +2802,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-5416068",
           "brand": "르아르",
           "name": "스트라이프 커브드 핀턱 슬랙스 [차콜]",
@@ -2832,7 +2817,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-4750069",
           "brand": "워크온바디오프",
           "name": "(여름추가) 레베 세미 와이드 원턱 슬랙스 (2color)",
@@ -2847,7 +2832,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-1960628",
           "brand": "무신사 스탠다드 우먼",
           "name": "[쿨탠다드] 우먼즈 와이드 히든 밴딩 슬랙스 [블랙]",
@@ -2862,7 +2847,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5820531",
           "brand": "무신사 스탠다드",
           "name": "[이도현 PICK] 엑스트라 와이드 투 턱 히든 밴딩 슬랙스 [반다이크 브라운]",
@@ -2877,7 +2862,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-3254294",
           "brand": "효지",
           "name": "[여름] 커스터마이징 롱 세미와이드 슬랙스 (4컬러)",
@@ -2892,7 +2877,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-750908",
           "brand": "후러브스아트",
           "name": "[여름원단추가] 유니섹스 세미 와이드 밴딩 슬랙스 블랙",
@@ -2905,25 +2890,40 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20180406/750908/750908_17736379434172_500.jpg",
           "productUrl": "https://www.musinsa.com/products/750908",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-2578999",
+          "brand": "시그니처",
+          "name": "더블턱 와이드 슬랙스[아이보리]",
+          "price": 59000,
+          "originalPrice": 59000,
+          "discountRate": 51,
+          "finalPrice": 28900,
+          "category": "003008",
+          "categoryLabel": "슬랙스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20220524/2578999/2578999_17761498200236_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/2578999",
+          "displayGenderText": "공용"
         }
       ]
     },
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 47535,
+        "avg": 47780,
         "min": 9900,
         "max": 139300,
         "count": 60
       },
       "male": {
-        "avg": 36295,
+        "avg": 36694,
         "min": 9900,
         "max": 59900,
         "count": 16
       },
       "female": {
-        "avg": 57142,
+        "avg": 57428,
         "min": 18900,
         "max": 139300,
         "count": 29
@@ -2936,8 +2936,8 @@
           "name": "폴딩 트윌 아일렛 트레이닝 롱팬츠 그레이",
           "price": 83000,
           "originalPrice": 83000,
-          "discountRate": 10,
-          "finalPrice": 74700,
+          "discountRate": 0,
+          "finalPrice": 83000,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260722/6901447/6901447_17851302315715_500.jpg",
