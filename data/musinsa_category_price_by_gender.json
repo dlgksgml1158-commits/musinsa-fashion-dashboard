@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-30T10:44:49.886769+00:00",
+  "updatedAt": "2026-08-30T15:04:43.320045+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 35145,
+        "avg": 35330,
         "min": 9990,
         "max": 100000,
         "count": 60
@@ -16,9 +16,9 @@
         "count": 16
       },
       "female": {
-        "avg": 32802,
+        "avg": 33229,
         "min": 15000,
-        "max": 95000,
+        "max": 85500,
         "count": 26
       },
       "items": [
@@ -89,8 +89,8 @@
           "name": "[Disney] 슬림 레귤러핏 그래픽 티셔츠  그레이",
           "price": 29900,
           "originalPrice": 29900,
-          "discountRate": 15,
-          "finalPrice": 25420,
+          "discountRate": 19,
+          "finalPrice": 24220,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260806/7008658/7008658_17859928583549_500.jpg",
@@ -104,8 +104,8 @@
           "name": "스위프트 에어로 핏 반소매 러닝 탑 W - 블랙:라이트 그린 스파크 / IH8115-014",
           "price": 95000,
           "originalPrice": 95000,
-          "discountRate": 0,
-          "finalPrice": 95000,
+          "discountRate": 10,
+          "finalPrice": 85500,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260714/6842612/6842612_17847949033163_500.jpg",
@@ -134,8 +134,8 @@
           "name": "[Disney] 오버핏 그래픽 반소매 티셔츠  브라운",
           "price": 39900,
           "originalPrice": 39900,
-          "discountRate": 15,
-          "finalPrice": 33920,
+          "discountRate": 19,
+          "finalPrice": 32320,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260806/7008622/7008622_17859927858547_500.jpg",
@@ -224,8 +224,8 @@
           "name": "포니 레터링 슬림 세미 크롭티 (레몬)",
           "price": 39000,
           "originalPrice": 39000,
-          "discountRate": 30,
-          "finalPrice": 27300,
+          "discountRate": 0,
+          "finalPrice": 39000,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6968705/6968705_17854796149273_500.jpg",
@@ -650,19 +650,19 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 76294,
+        "avg": 76336,
         "min": 12950,
         "max": 633820,
         "count": 60
       },
       "male": {
-        "avg": 113335,
+        "avg": 114001,
         "min": 17910,
         "max": 633820,
         "count": 15
       },
       "female": {
-        "avg": 69866,
+        "avg": 69616,
         "min": 12950,
         "max": 208050,
         "count": 30
@@ -855,8 +855,8 @@
           "name": "Wappen Graphic Motorcycle Sweatshirt Black",
           "price": 109900,
           "originalPrice": 109900,
-          "discountRate": 18,
-          "finalPrice": 89910,
+          "discountRate": 9,
+          "finalPrice": 99900,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260818/7095386/7095386_17876200235698_500.jpg",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 60852,
+        "avg": 60822,
         "min": 7650,
         "max": 683050,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 30
       },
       "female": {
-        "avg": 57040,
+        "avg": 56965,
         "min": 15920,
         "max": 231990,
         "count": 24
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-104265",
+          "id": "ms-103689",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,22 +2588,22 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 47057,
+        "avg": 46072,
         "min": 9900,
         "max": 168000,
         "count": 60
       },
       "male": {
-        "avg": 51813,
+        "avg": 50502,
         "min": 23450,
         "max": 168000,
-        "count": 37
+        "count": 36
       },
       "female": {
-        "avg": 44270,
+        "avg": 43997,
         "min": 9900,
         "max": 84500,
-        "count": 15
+        "count": 16
       },
       "items": [
         {
@@ -2625,7 +2625,7 @@
           "rank": 2,
           "id": "ms-7011229",
           "brand": "워크온바디오프",
-          "name": "아르코 세미 와이드 커브드 슬랙스 [그레이]",
+          "name": "[시누 PICK] 아르코 세미 와이드 커브드 슬랙스 [그레이]",
           "price": 79000,
           "originalPrice": 79000,
           "discountRate": 31,
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 47780,
+        "avg": 46484,
         "min": 9900,
         "max": 139300,
         "count": 60
@@ -2923,10 +2923,10 @@
         "count": 16
       },
       "female": {
-        "avg": 57428,
+        "avg": 56178,
         "min": 18900,
         "max": 139300,
-        "count": 29
+        "count": 28
       },
       "items": [
         {
