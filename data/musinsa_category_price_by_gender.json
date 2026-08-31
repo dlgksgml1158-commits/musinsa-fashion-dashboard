@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-08-31T16:25:08.189744+00:00",
+  "updatedAt": "2026-08-31T21:32:12.426271+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 33883,
+        "avg": 33660,
         "min": 9900,
         "max": 100000,
         "count": 60
       },
       "male": {
-        "avg": 41697,
+        "avg": 41150,
         "min": 9990,
         "max": 100000,
-        "count": 16
+        "count": 15
       },
       "female": {
-        "avg": 30103,
+        "avg": 30334,
         "min": 10900,
         "max": 85500,
-        "count": 27
+        "count": 28
       },
       "items": [
         {
@@ -54,21 +54,6 @@
         },
         {
           "rank": 3,
-          "id": "ms-6939618",
-          "brand": "댄꼼마",
-          "name": "짱구 닭살커플 반팔 티셔츠 2팩",
-          "price": 60000,
-          "originalPrice": 60000,
-          "discountRate": 17,
-          "finalPrice": 49900,
-          "category": "001001",
-          "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6939618/6939618_17852201914605_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6939618",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 4,
           "id": "ms-6927386",
           "brand": "쿠톤",
           "name": "폴라리스 롤업 세미크롭 반팔 티셔츠 [버건디]",
@@ -83,7 +68,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "id": "ms-7008658",
           "brand": "에잇세컨즈",
           "name": "[Disney] 슬림 레귤러핏 그래픽 티셔츠  그레이",
@@ -98,7 +83,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "id": "ms-6842612",
           "brand": "나이키",
           "name": "스위프트 에어로 핏 반소매 러닝 탑 W - 블랙:라이트 그린 스파크 / IH8115-014",
@@ -113,7 +98,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-4971043",
           "brand": "앰부시",
           "name": "메이크 아트 반소매 티셔츠 - 화이트 / 1211532810",
@@ -128,7 +113,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-7008622",
           "brand": "에잇세컨즈",
           "name": "[Disney] 오버핏 그래픽 반소매 티셔츠  브라운",
@@ -143,7 +128,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-6254168",
           "brand": "미쏘",
           "name": "레이스업 절개 반팔 티셔츠 RE LWG33SS_MIWHWG51QS",
@@ -158,7 +143,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-6907672",
           "brand": "잔스포츠",
           "name": "베이직 로고 티셔츠 Navy",
@@ -173,7 +158,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-6590793",
           "brand": "마인드브릿지",
           "name": "3-버튼 헨리넥 오버핏 반팔 티셔츠 - 2color",
@@ -188,7 +173,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-4651496",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 리브드 멀티 스트라이프 슬림 티셔츠 [옐로우]",
@@ -203,7 +188,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-6968705",
           "brand": "피스메이커",
           "name": "포니 레터링 슬림 세미 크롭티 (레몬)",
@@ -218,7 +203,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-6778501",
           "brand": "무신사 스탠다드",
           "name": "[SSG랜더스 컬래버] 무한인천 피그먼트 다이드 티셔츠 [차콜 그레이]",
@@ -233,7 +218,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6814293",
           "brand": "디스커스 애슬레틱",
           "name": "2026 PENTAPORT 라인업 티셔츠 화이트",
@@ -248,7 +233,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-3182323",
           "brand": "트래블",
           "name": "로고 라인업 피그먼트 반팔티 블랙 차콜",
@@ -263,7 +248,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6370971",
           "brand": "613서울",
           "name": "크랙 식스 포인트 로고 반팔 티셔츠 (와인)",
@@ -278,7 +263,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6162377",
           "brand": "아메스 월드와이드",
           "name": "CLASSIC GRACE TYPO TEE WHITE",
@@ -293,7 +278,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6596367",
           "brand": "유라고",
           "name": "Lace line cap sleeve t-shirt",
@@ -308,7 +293,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6929983",
           "brand": "쿠톤",
           "name": "[2PACK] 폴라리스 롤업 세미크롭 반팔 티셔츠 3COLOR",
@@ -321,6 +306,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260727/6929983/6929983_17851378723043_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6929983",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6968702",
+          "brand": "피스메이커",
+          "name": "피씨이 웨이브 로고 슬림 세미 크롭티 (화이트)",
+          "price": 39000,
+          "originalPrice": 39000,
+          "discountRate": 60,
+          "finalPrice": 15450,
+          "category": "001001",
+          "categoryLabel": "반소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6968702/6968702_17854796091906_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6968702",
+          "displayGenderText": "여성"
         }
       ]
     },
@@ -973,22 +973,22 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 57537,
+        "avg": 56642,
         "min": 17000,
         "max": 159000,
         "count": 60
       },
       "male": {
-        "avg": 66812,
+        "avg": 65986,
         "min": 26320,
         "max": 135000,
-        "count": 16
+        "count": 15
       },
       "female": {
-        "avg": 50024,
-        "min": 28190,
+        "avg": 49044,
+        "min": 25510,
         "max": 98040,
-        "count": 24
+        "count": 25
       },
       "items": [
         {
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 61367,
+        "avg": 61213,
         "min": 19900,
         "max": 189000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 27
       },
       "female": {
-        "avg": 59276,
+        "avg": 58907,
         "min": 24500,
         "max": 109000,
         "count": 25
@@ -1456,8 +1456,8 @@
           "name": "레이어드 컷아웃 체크 하프 셔츠 [purple]",
           "price": 84000,
           "originalPrice": 84000,
-          "discountRate": 17,
-          "finalPrice": 69720,
+          "discountRate": 28,
+          "finalPrice": 60480,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250519/5128595/5128595_17852145515081_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-104453",
+          "id": "ms-103844",
           "brand": "",
           "name": "",
           "price": null,
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 45343,
+        "avg": 45896,
         "min": 9900,
         "max": 139300,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 15
       },
       "female": {
-        "avg": 54773,
+        "avg": 55918,
         "min": 19900,
         "max": 139300,
         "count": 29
