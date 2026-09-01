@@ -322,8 +322,11 @@
   .product-perf-name { flex: 1; font-size: 13px; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .product-perf-metric { font-size: 12px; color: var(--text-muted); white-space: nowrap; flex: none; }
 
-  .brand-donut-wrap { position: relative; display: flex; flex-direction: row; align-items: center; gap: 14px; padding: 4px 0 0; }
-  .brand-donut-svg { flex: 0 0 230px; width: 230px; height: 230px; }
+  .brand-donut-wrap {
+    position: relative; display: flex; flex-direction: row; align-items: center; gap: 14px; padding: 4px 0 0;
+    width: fit-content; max-width: 100%; /* hug the content instead of stretching the legend to the card's far edge */
+  }
+  .brand-donut-svg { flex: 0 0 200px; width: 200px; height: 200px; }
   /* r + stroke-width move together so the inner edge (r - stroke-width/2) stays fixed
      and only the outer edge grows outward on hover, instead of thickening both ways. */
   /* Changing r/stroke-width directly re-derives the circle's circumference, which no
@@ -333,12 +336,11 @@
   .brand-donut-segment { cursor: pointer; transition: d 0.15s ease, opacity 0.15s ease; }
   .brand-donut-center-count { font-size: 15px; font-weight: 800; fill: var(--text-primary); }
   .brand-donut-center-label { font-size: 6.5px; font-weight: 600; fill: var(--text-muted); }
-  .brand-donut-info {
-    display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--text-secondary);
-    position: absolute; top: 24px; left: 210px; right: 0; white-space: nowrap;
-  }
-  .brand-donut-info b { color: var(--text-primary); font-size: 15px; }
-  .brand-donut-info .swatch { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .brand-donut-legend { display: flex; flex-direction: column; gap: 8px; flex: 0 0 150px; min-width: 0; }
+  .brand-donut-legend-row { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--text-secondary); }
+  .brand-donut-legend-row .swatch { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .brand-donut-legend-row b { color: var(--text-primary); font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .brand-donut-legend-row .pct { margin-left: auto; font-weight: 700; color: var(--text-primary); flex-shrink: 0; }
   .brand-donut-connector { position: absolute; inset: 0; pointer-events: none; overflow: visible; }
   .brand-donut-connector polyline {
     fill: none; stroke-width: 1.5; stroke-linejoin: round; stroke-dasharray: 3 3;
@@ -917,7 +919,13 @@ function renderBrandShareChart() {
     return { brand, count, pct, color, dNormal, dHover, midX, midY };
   });
 
-  const paths = slices.map(s => `<path class="brand-donut-segment" data-brand="${s.brand}" data-count="${s.count}" data-pct="${s.pct}" data-mid-x="${s.midX}" data-mid-y="${s.midY}" d="${s.dNormal}" data-d-normal="${s.dNormal}" data-d-hover="${s.dHover}" fill="${s.color}"></path>`).join("");
+  const paths = slices.map((s, i) => `<path class="brand-donut-segment" data-index="${i}" data-brand="${s.brand}" data-count="${s.count}" data-pct="${s.pct}" data-mid-x="${s.midX}" data-mid-y="${s.midY}" d="${s.dNormal}" data-d-normal="${s.dNormal}" data-d-hover="${s.dHover}" fill="${s.color}"></path>`).join("");
+
+  const legendRows = slices.map((s, i) => `
+    <div class="brand-donut-legend-row" data-index="${i}">
+      <span class="swatch" style="background:${s.color}"></span><b>${s.brand}</b><span class="pct">${s.pct}%</span>
+    </div>
+  `).join("");
 
   el.innerHTML = `
     <svg class="brand-donut-svg" viewBox="-8 -8 116 116">
@@ -926,13 +934,13 @@ function renderBrandShareChart() {
     <svg class="brand-donut-connector" id="brand-donut-connector">
       <polyline id="brand-donut-connector-line"></polyline>
     </svg>
-    <div class="brand-donut-info" id="brand-donut-info"></div>
+    <div class="brand-donut-legend" id="brand-donut-legend">${legendRows}</div>
   `;
 
-  const infoEl = document.getElementById("brand-donut-info");
   const connectorLine = document.getElementById("brand-donut-connector-line");
   const donutSvg = el.querySelector(".brand-donut-svg");
   const segments = el.querySelectorAll(".brand-donut-segment");
+  const legendRowEls = el.querySelectorAll(".brand-donut-legend-row");
   segments.forEach(seg => {
     seg.addEventListener("mouseenter", () => {
       segments.forEach(s => {
@@ -941,8 +949,19 @@ function renderBrandShareChart() {
       });
       seg.setAttribute("d", seg.dataset.dHover);
       seg.parentNode.appendChild(seg); // SVG has no z-index — move to last so it draws on top
-      const { brand, pct, midX, midY } = seg.dataset;
-      infoEl.innerHTML = `<span class="swatch" style="background:${seg.getAttribute("fill")}"></span><b>${brand}</b> · ${pct}%`;
+      const { index, midX, midY } = seg.dataset;
+
+      // Collapse the legend down to just the hovered brand's row, so the numbers left
+      // on screen always match the one slice currently highlighted.
+      let activeRow = null;
+      legendRowEls.forEach(row => {
+        const isActive = row.dataset.index === index;
+        // visibility (not display) so the hidden rows still hold their layout space —
+        // otherwise the legend column shrinks to one row and re-centers as a block,
+        // making the surviving row jump to the middle instead of staying in place.
+        row.style.visibility = isActive ? "visible" : "hidden";
+        if (isActive) activeRow = row;
+      });
 
       // Draw a dashed leader line from the middle of the hovered slice to the label, so it
       // reads as "this text belongs to that slice" instead of a floating caption.
@@ -953,7 +972,7 @@ function renderBrandShareChart() {
       const startX = toWrapX(parseFloat(midX));
       const startY = toWrapY(parseFloat(midY));
       // Dock the line onto the edge of the swatch dot — touching it, not crossing through it.
-      const swatchRect = infoEl.querySelector(".swatch").getBoundingClientRect();
+      const swatchRect = activeRow.querySelector(".swatch").getBoundingClientRect();
       const endX = swatchRect.left - wrapRect.left;
       const endY = swatchRect.top - wrapRect.top + swatchRect.height / 2;
       const centerX = toWrapX(50);
@@ -978,7 +997,7 @@ function renderBrandShareChart() {
       s.setAttribute("d", s.dataset.dNormal);
       s.style.opacity = "1";
     });
-    infoEl.textContent = "";
+    legendRowEls.forEach(row => { row.style.visibility = "visible"; });
     connectorLine.classList.remove("visible");
   });
 }
