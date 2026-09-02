@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T05:58:14.609981+00:00",
+  "updatedAt": "2026-09-02T10:21:50.931722+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -332,8 +332,8 @@
           "name": "PRDA BIG PATCH RAGLAN LONG SLEEVE GRAY",
           "price": 59000,
           "originalPrice": 59000,
-          "discountRate": 50,
-          "finalPrice": 29500,
+          "discountRate": 60,
+          "finalPrice": 23600,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240812/4318523/4318523_17242865831378_500.jpg",
@@ -557,8 +557,8 @@
           "name": "VINTAGE LOGO RAGLAN LONG SLEEVE GLOOMY PINK",
           "price": 49000,
           "originalPrice": 49000,
-          "discountRate": 50,
-          "finalPrice": 24500,
+          "discountRate": 60,
+          "finalPrice": 19600,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240812/4318516/4318516_17242865103782_500.jpg",
@@ -649,7 +649,7 @@
           "rank": 3,
           "id": "ms-7013951",
           "brand": "무드인사이드 우먼",
-          "name": "(woman) 스웻 크롭 반집업_5Color",
+          "name": "[한빛 PICK] (woman) 스웻 크롭 반집업_5Color",
           "price": 119900,
           "originalPrice": 119900,
           "discountRate": 50,
@@ -1377,6 +1377,21 @@
         },
         {
           "rank": 11,
+          "id": "ms-4037485",
+          "brand": "스컬프터",
+          "name": "Sheer Pleated Hem Blouse Black",
+          "price": 92000,
+          "originalPrice": 92000,
+          "discountRate": 44,
+          "finalPrice": 51520,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240409/4037485/4037485_17295835943889_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4037485",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 12,
           "id": "ms-6307599",
           "brand": "트릴리온",
           "name": "내츄럴 리조트 롤업 하프 셔츠_3color",
@@ -1391,7 +1406,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-6038635",
           "brand": "효지",
           "name": "26 SS 세미 크롭 라이트웨이트 스트라이프 셔츠 (5컬러)",
@@ -1406,7 +1421,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-983818",
           "brand": "무신사 스탠다드",
           "name": "릴렉스 핏 실키 셔츠 [화이트]",
@@ -1421,7 +1436,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-5866769",
           "brand": "트릴리온",
           "name": "에센셜 옥스포드 크롭 스트라이프 셔츠_3color",
@@ -1436,7 +1451,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-4143736",
           "brand": "무드인사이드",
           "name": "써머 링클 오션 체크남방 _5Color",
@@ -1451,7 +1466,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-983819",
           "brand": "무신사 스탠다드",
           "name": "릴렉스 핏 실키 셔츠 [블랙]",
@@ -1466,7 +1481,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-6212885",
           "brand": "언탭트 스튜디오",
           "name": "시티보이 오버핏 워싱 데님 반팔 셔츠 3COLOR",
@@ -1481,7 +1496,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-994588",
           "brand": "필루미네이트",
           "name": "옵티멀 베이직 셔츠-화이트[린넨＆옥스포드 선택]",
@@ -1496,7 +1511,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-6270421",
           "brand": "수아레",
           "name": "[수아레 × 너드킹] 텐셀 린넨 크롭 셔츠 - 6 COLOR",
@@ -1509,21 +1524,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260407/6270421/6270421_17851288293269_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6270421",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6980114",
-          "brand": "카키포인트",
-          "name": "Plaid Tie Shirt (light gray)",
-          "price": 109000,
-          "originalPrice": 109000,
-          "discountRate": 19,
-          "finalPrice": 88290,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260803/6980114/6980114_17865000656542_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6980114",
-          "displayGenderText": "여성"
         }
       ]
     },
@@ -1757,21 +1757,6 @@
         },
         {
           "rank": 16,
-          "id": "ms-6980168",
-          "brand": "카키포인트",
-          "name": "Signature V-neck Knit (melange)",
-          "price": 115000,
-          "originalPrice": 115000,
-          "discountRate": 19,
-          "finalPrice": 93150,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260803/6980168/6980168_17864994707499_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6980168",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 17,
           "id": "ms-7013515",
           "brand": "아디다스",
           "name": "[제니 협업] 니트 랩 어라운드 가디건 LD4840",
@@ -1786,7 +1771,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6234189",
           "brand": "드로우핏",
           "name": "앤더슨 코튼 폴로 하프 니트 [4color]",
@@ -1801,7 +1786,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-2723767",
           "brand": "수아레",
           "name": "(XXL 추가) 데일리 라운드 니트 - 12 COLOR",
@@ -1816,7 +1801,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6109237",
           "brand": "마인드브릿지",
           "name": "[스토커즈 콜라보] [ON]워셔블 코튼 혼방 카라 반팔 니트 - 3color",
@@ -1829,6 +1814,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260310/6109237/6109237_17794256482340_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6109237",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6999902",
+          "brand": "어널러코드",
+          "name": "레이어드 헨리넥 니트 (네이비)",
+          "price": 53000,
+          "originalPrice": 53000,
+          "discountRate": 30,
+          "finalPrice": 37100,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/6999902/6999902_17872934835042_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6999902",
+          "displayGenderText": "공용"
         }
       ]
     },
@@ -1962,8 +1962,8 @@
           "name": "[씬라이트] 후드 재킷_SPJPG4TC24",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 0,
-          "finalPrice": 59900,
+          "discountRate": 10,
+          "finalPrice": 53910,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260714/6838640/6838640_17878828746139_500.jpg",
@@ -2007,8 +2007,8 @@
           "name": "[씬라이트] 여성 후드 재킷_SPJPG4TG24",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 0,
-          "finalPrice": 59900,
+          "discountRate": 10,
+          "finalPrice": 53910,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260714/6838154/6838154_17865153860313_500.jpg",
@@ -2772,8 +2772,8 @@
           "name": "PWC 에브리데이 벌룬 조거 팬츠_18컬러",
           "price": 53000,
           "originalPrice": 53000,
-          "discountRate": 19,
-          "finalPrice": 42930,
+          "discountRate": 28,
+          "finalPrice": 38160,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250606/5170138/5170138_17707144153582_500.jpg",
@@ -2997,8 +2997,8 @@
           "name": "SIDE STRIPE WIDE PANTS DEEP BLUE",
           "price": 79000,
           "originalPrice": 79000,
-          "discountRate": 58,
-          "finalPrice": 33180,
+          "discountRate": 57,
+          "finalPrice": 34300,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240812/4319462/4319462_17242895757781_500.jpg",
@@ -3107,8 +3107,8 @@
           "name": "8부 원턱 버뮤다 스웨트 팬츠 3color",
           "price": 45900,
           "originalPrice": 45900,
-          "discountRate": 46,
-          "finalPrice": 24800,
+          "discountRate": 48,
+          "finalPrice": 24060,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260228/6068184/6068184_17722869289966_500.jpg",
@@ -3177,6 +3177,21 @@
         },
         {
           "rank": 9,
+          "id": "ms-4903285",
+          "brand": "무신사 스탠다드 스포츠",
+          "name": "[2팩] 퀵드라이 스포츠 7인치 쇼츠 (7color)",
+          "price": 49800,
+          "originalPrice": 49800,
+          "discountRate": 19,
+          "finalPrice": 40340,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250317/4903285/4903285_17745902249337_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4903285",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 10,
           "id": "ms-3513309",
           "brand": "필립페이커",
           "name": "[ 원단 선택  가능]카펜터 버뮤다 스웨트 8부 팬츠 블랙",
@@ -3191,7 +3206,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-6164608",
           "brand": "아모우",
           "name": "Horse One Tuck Bermuda Pants Blue",
@@ -3206,7 +3221,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-4989763",
           "brand": "르아르",
           "name": "에브리데이 버뮤다 데님 쇼츠 [블랙]",
@@ -3221,7 +3236,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-2508821",
           "brand": "어프레쉬",
           "name": "에어스트레치 쇼츠_블랙(러닝 스윔 헬스)",
@@ -3236,7 +3251,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-4766927",
           "brand": "가까이 유니언즈",
           "name": "원턱 8부 스웨트 버뮤다 팬츠 블랙",
@@ -3251,7 +3266,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-5256111",
           "brand": "러닝라이프",
           "name": "스포츠 투인원 러닝 프로 쇼츠 플러스 (3color)",
@@ -3266,7 +3281,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-4797019",
           "brand": "니티드",
           "name": "버뮤다 트레이닝 하프 팬츠 BLACK",
@@ -3281,7 +3296,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-5589930",
           "brand": "레이지비",
           "name": "자이언트핏 와이드 버뮤다 스웨트 팬츠 빅로고 헬스 짐웨어 운동복 반바지 M (2컬러)",
@@ -3296,7 +3311,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-6224315",
           "brand": "고스트리퍼블릭",
           "name": "커브드 사이드 핀턱 벌룬 버뮤다 스웻 반바지 4Color GP-512",
@@ -3311,7 +3326,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-5519895",
           "brand": "레이지비",
           "name": "자이언트핏 와이드 버뮤다 스웨트 팬츠 빅로고 헬스 짐웨어 운동복 반바지 M 블랙",
@@ -3326,7 +3341,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-4060154",
           "brand": "언아웃핏",
           "name": "원턱 워시드 와이드 코튼 쇼츠 6 COLOR",
@@ -3339,21 +3354,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240416/4060154/4060154_17132611456467_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4060154",
           "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6164607",
-          "brand": "아모우",
-          "name": "MOLLY One Tuck Bermuda Pants Black",
-          "price": 85000,
-          "originalPrice": 85000,
-          "discountRate": 63,
-          "finalPrice": 31710,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260319/6164607/6164607_17739250032121_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6164607",
-          "displayGenderText": "남성"
         }
       ]
     }
