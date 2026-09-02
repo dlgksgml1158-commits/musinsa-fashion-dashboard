@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T14:34:36.281283+00:00",
+  "updatedAt": "2026-09-02T18:09:30.736034+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,22 +327,22 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 47931,
+        "avg": 47944,
         "min": 7900,
         "max": 139000,
         "count": 60
       },
       "male": {
-        "avg": 55363,
+        "avg": 56011,
         "min": 7900,
         "max": 139000,
-        "count": 17
+        "count": 16
       },
       "female": {
-        "avg": 44202,
+        "avg": 44262,
         "min": 21200,
         "max": 92340,
-        "count": 25
+        "count": 26
       },
       "items": [
         {
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 61391,
+        "avg": 61924,
         "min": 12950,
         "max": 208050,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 11
       },
       "female": {
-        "avg": 61893,
+        "avg": 62892,
         "min": 12950,
         "max": 208050,
         "count": 32
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 59154,
+        "avg": 59266,
         "min": 17000,
         "max": 159000,
         "count": 60
@@ -985,7 +985,7 @@
         "count": 13
       },
       "female": {
-        "avg": 49436,
+        "avg": 49706,
         "min": 28190,
         "max": 103200,
         "count": 25
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 60147,
+        "avg": 60142,
         "min": 19900,
         "max": 162000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 26
       },
       "female": {
-        "avg": 60911,
+        "avg": 60900,
         "min": 24500,
         "max": 109000,
         "count": 27
@@ -1619,19 +1619,19 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 54299,
+        "avg": 54130,
         "min": 14700,
         "max": 192990,
         "count": 60
       },
       "male": {
-        "avg": 48390,
+        "avg": 47512,
         "min": 22500,
         "max": 192990,
         "count": 28
       },
       "female": {
-        "avg": 55473,
+        "avg": 56050,
         "min": 17910,
         "max": 158940,
         "count": 25
@@ -1719,8 +1719,8 @@
           "name": "에어리 에센셜 카라 하프 니트 [IVORY] / WBE2L05513",
           "price": 63000,
           "originalPrice": 63000,
-          "discountRate": 53,
-          "finalPrice": 29820,
+          "discountRate": 47,
+          "finalPrice": 33180,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260403/6254021/6254021_17852921896496_500.jpg",
@@ -1824,8 +1824,8 @@
           "name": "딥브이넥 루즈핏 니트_MIWKAG906T",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 30,
-          "finalPrice": 34930,
+          "discountRate": 25,
+          "finalPrice": 37460,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/7000716/7000716_17859126374445_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-105023",
+          "id": "ms-104446",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,19 +2265,19 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 60998,
+        "avg": 60807,
         "min": 15000,
         "max": 159000,
         "count": 60
       },
       "male": {
-        "avg": 71398,
+        "avg": 71194,
         "min": 15000,
         "max": 159000,
         "count": 28
       },
       "female": {
-        "avg": 47766,
+        "avg": 47495,
         "min": 22020,
         "max": 101150,
         "count": 21
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 45176,
+        "avg": 45294,
         "min": 9900,
         "max": 111440,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 13
       },
       "female": {
-        "avg": 54272,
+        "avg": 54518,
         "min": 19900,
         "max": 111440,
         "count": 29
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 41217,
+        "avg": 41399,
         "min": 16120,
         "max": 150000,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 30
       },
       "female": {
-        "avg": 41374,
+        "avg": 41811,
         "min": 20000,
         "max": 94250,
         "count": 25
@@ -3334,8 +3334,8 @@
           "name": "Latch Micro Belt Shorts (BLACK)",
           "price": 98000,
           "originalPrice": 98000,
-          "discountRate": 37,
-          "finalPrice": 61740,
+          "discountRate": 30,
+          "finalPrice": 68600,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250911/5442400/5442400_17817596058507_500.jpg",
@@ -3484,8 +3484,8 @@
           "name": "[쁨이 PICK] 시그니처 코튼 숏 팬츠 MDPT052_6 Colors",
           "price": 44000,
           "originalPrice": 44000,
-          "discountRate": 17,
-          "finalPrice": 36630,
+          "discountRate": 8,
+          "finalPrice": 40700,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240304/3920758/3920758_17810526525995_500.jpg",
