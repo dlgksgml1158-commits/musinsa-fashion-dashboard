@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T23:26:51.921167+00:00",
+  "updatedAt": "2026-09-02T01:09:22.509737+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -3177,21 +3177,6 @@
         },
         {
           "rank": 9,
-          "id": "ms-4903285",
-          "brand": "무신사 스탠다드 스포츠",
-          "name": "[2팩] 퀵드라이 스포츠 7인치 쇼츠 (7color)",
-          "price": 49800,
-          "originalPrice": 49800,
-          "discountRate": 19,
-          "finalPrice": 40340,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250317/4903285/4903285_17745902249337_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4903285",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 10,
           "id": "ms-3513309",
           "brand": "필립페이커",
           "name": "[ 원단 선택  가능]카펜터 버뮤다 스웨트 8부 팬츠 블랙",
@@ -3206,7 +3191,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-6164608",
           "brand": "아모우",
           "name": "Horse One Tuck Bermuda Pants Blue",
@@ -3221,7 +3206,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-4989763",
           "brand": "르아르",
           "name": "에브리데이 버뮤다 데님 쇼츠 [블랙]",
@@ -3236,7 +3221,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-2508821",
           "brand": "어프레쉬",
           "name": "에어스트레치 쇼츠_블랙(러닝 스윔 헬스)",
@@ -3251,7 +3236,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-4766927",
           "brand": "가까이 유니언즈",
           "name": "원턱 8부 스웨트 버뮤다 팬츠 블랙",
@@ -3266,7 +3251,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-5256111",
           "brand": "러닝라이프",
           "name": "스포츠 투인원 러닝 프로 쇼츠 플러스 (3color)",
@@ -3281,7 +3266,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-4797019",
           "brand": "니티드",
           "name": "버뮤다 트레이닝 하프 팬츠 BLACK",
@@ -3296,7 +3281,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-5589930",
           "brand": "레이지비",
           "name": "자이언트핏 와이드 버뮤다 스웨트 팬츠 빅로고 헬스 짐웨어 운동복 반바지 M (2컬러)",
@@ -3311,7 +3296,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6224315",
           "brand": "고스트리퍼블릭",
           "name": "커브드 사이드 핀턱 벌룬 버뮤다 스웻 반바지 4Color GP-512",
@@ -3326,7 +3311,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5519895",
           "brand": "레이지비",
           "name": "자이언트핏 와이드 버뮤다 스웨트 팬츠 빅로고 헬스 짐웨어 운동복 반바지 M 블랙",
@@ -3341,7 +3326,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-4060154",
           "brand": "언아웃핏",
           "name": "원턱 워시드 와이드 코튼 쇼츠 6 COLOR",
@@ -3354,6 +3339,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240416/4060154/4060154_17132611456467_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4060154",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6164607",
+          "brand": "아모우",
+          "name": "MOLLY One Tuck Bermuda Pants Black",
+          "price": 85000,
+          "originalPrice": 85000,
+          "discountRate": 63,
+          "finalPrice": 31710,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260319/6164607/6164607_17739250032121_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6164607",
+          "displayGenderText": "남성"
         }
       ]
     }
