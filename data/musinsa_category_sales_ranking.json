@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T01:09:22.509737+00:00",
+  "updatedAt": "2026-09-02T05:58:14.609981+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -12,8 +12,8 @@
           "name": "에어리 크롭 워셔블 하프 니트",
           "price": 49000,
           "originalPrice": 49000,
-          "discountRate": 74,
-          "finalPrice": 12550,
+          "discountRate": 59,
+          "finalPrice": 19900,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260309/6102395/6102395_17846823530758_500.jpg",
@@ -375,10 +375,10 @@
           "id": "ms-6014700",
           "brand": "탄산마그네슘",
           "name": "홀스 래빗 롱슬리브 (화이트)",
-          "price": 69000,
-          "originalPrice": 69000,
+          "price": 74000,
+          "originalPrice": 74000,
           "discountRate": 24,
-          "finalPrice": 52440,
+          "finalPrice": 56240,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260211/6014700/6014700_17775279342903_500.jpg",
@@ -417,6 +417,21 @@
         },
         {
           "rank": 8,
+          "id": "ms-3399783",
+          "brand": "트래블",
+          "name": "리즌 트레일 피그먼트 롱 슬리브 블랙 차콜",
+          "price": 56000,
+          "originalPrice": 56000,
+          "discountRate": 43,
+          "finalPrice": 31920,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20230707/3399783/3399783_16897556858694_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3399783",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 9,
           "id": "ms-5943434",
           "brand": "아디다스",
           "name": "와플 롱 슬리브 폴로 티 - 블랙 / KQ6866",
@@ -431,7 +446,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-6058096",
           "brand": "언타이틀 서울",
           "name": "유니콘 헨리넥 슬럽 롱 슬리브 그레이",
@@ -446,14 +461,14 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-5432652",
           "brand": "탄산마그네슘",
           "name": "마운틴 롱슬리브 (화이트/레드)",
-          "price": 69000,
-          "originalPrice": 69000,
+          "price": 74000,
+          "originalPrice": 74000,
           "discountRate": 24,
-          "finalPrice": 52440,
+          "finalPrice": 56240,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250909/5432652/5432652_17605981290104_500.jpg",
@@ -461,7 +476,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-3399786",
           "brand": "트래블",
           "name": "리즌 트레일 피그먼트 롱 슬리브 고스트 그레이",
@@ -476,7 +491,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-6595818",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 울 텐셀 슬림 스쿱 넥 긴소매 티셔츠 [차콜 그레이]",
@@ -491,7 +506,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-6000058",
           "brand": "길라아카이브",
           "name": "USA LOGO V NECK LONG SLEEVE_GREY",
@@ -506,7 +521,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-4844845",
           "brand": "러닝라이프",
           "name": "마이크로메쉬 기능성 러닝 롱  슬리브 (6color)",
@@ -521,7 +536,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-6614672",
           "brand": "코이리스",
           "name": "로넥 백 레터링 롱 슬리브 티 (4컬러)",
@@ -536,7 +551,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-4318516",
           "brand": "프렌다",
           "name": "VINTAGE LOGO RAGLAN LONG SLEEVE GLOOMY PINK",
@@ -551,7 +566,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-6565989",
           "brand": "무신사 스탠다드",
           "name": "[이도현 PICK] 레귤러 긴소매 크롭 티셔츠 [블랙]",
@@ -566,7 +581,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-5308085",
           "brand": "매든",
           "name": "[류혜영 PICK] [8COLORS] 라인드 와플 롱슬리브",
@@ -581,7 +596,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-6595819",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 울 텐셀 슬림 스쿱 넥 긴소매 티셔츠 [그레이쉬 베이지]",
@@ -594,21 +609,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260602/6595819/6595819_17882255332903_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6595819",
           "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-5395574",
-          "brand": "비바라비다",
-          "name": "044 레글런 롱 슬리브 티셔츠",
-          "price": 44900,
-          "originalPrice": 44900,
-          "discountRate": 30,
-          "finalPrice": 31430,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250903/5395574/5395574_17581763855978_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5395574",
-          "displayGenderText": "공용"
         }
       ]
     },
@@ -1029,7 +1029,7 @@
           "rank": 8,
           "id": "ms-7059777",
           "brand": "슈퍼서브",
-          "name": "[옷미새 미홀 콜라보] [크롭]이글 엠블럼 와플 헨리넥 후드 긴팔 티셔츠-블랙",
+          "name": "[옷미새미홀×슈퍼서브] [크롭]이글 엠블럼 와플 헨리넥 후드 긴팔 티셔츠-블랙",
           "price": 66000,
           "originalPrice": 66000,
           "discountRate": 40,
@@ -1089,7 +1089,7 @@
           "rank": 12,
           "id": "ms-6886226",
           "brand": "노티카",
-          "name": "폴라 벤트 바라클라바 풀오버(4colors) NFL2246",
+          "name": "[15% 쿠폰] 폴라 벤트 바라클라바 풀오버(4colors) NFL2246",
           "price": 79000,
           "originalPrice": 79000,
           "discountRate": 15,
@@ -1107,8 +1107,8 @@
           "name": "SORANO Basic Logo HOODIE [6Color]",
           "price": 119000,
           "originalPrice": 119000,
-          "discountRate": 54,
-          "finalPrice": 55200,
+          "discountRate": 60,
+          "finalPrice": 47920,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240807/4302685/4302685_17229675684379_500.jpg",
@@ -1179,7 +1179,7 @@
           "rank": 18,
           "id": "ms-6886225",
           "brand": "노티카",
-          "name": "오션 토템 폴라 후디드 풀오버(4colors) NFL2226",
+          "name": "[15% 쿠폰] 오션 토템 폴라 후디드 풀오버(4colors) NFL2226",
           "price": 89000,
           "originalPrice": 89000,
           "discountRate": 15,
@@ -3107,8 +3107,8 @@
           "name": "8부 원턱 버뮤다 스웨트 팬츠 3color",
           "price": 45900,
           "originalPrice": 45900,
-          "discountRate": 51,
-          "finalPrice": 22320,
+          "discountRate": 46,
+          "finalPrice": 24800,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260228/6068184/6068184_17722869289966_500.jpg",
@@ -3197,8 +3197,8 @@
           "name": "Horse One Tuck Bermuda Pants Blue",
           "price": 87000,
           "originalPrice": 87000,
-          "discountRate": 63,
-          "finalPrice": 32460,
+          "discountRate": 60,
+          "finalPrice": 34800,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260319/6164608/6164608_17739248891438_500.jpg",
