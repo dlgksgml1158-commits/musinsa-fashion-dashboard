@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-03T14:38:51.603440+00:00",
+  "updatedAt": "2026-09-03T18:08:22.842717+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 33361,
+        "avg": 33427,
         "min": 9900,
         "max": 100000,
         "count": 60
@@ -16,7 +16,7 @@
         "count": 16
       },
       "female": {
-        "avg": 31617,
+        "avg": 31749,
         "min": 10900,
         "max": 70200,
         "count": 30
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 46515,
+        "avg": 46605,
         "min": 7900,
         "max": 132050,
         "count": 60
@@ -339,9 +339,9 @@
         "count": 16
       },
       "female": {
-        "avg": 43702,
+        "avg": 43909,
         "min": 21200,
-        "max": 86400,
+        "max": 91800,
         "count": 26
       },
       "items": [
@@ -1296,19 +1296,19 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 59533,
-        "min": 19900,
+        "avg": 60019,
+        "min": 21720,
         "max": 162000,
         "count": 60
       },
       "male": {
-        "avg": 62782,
-        "min": 19900,
+        "avg": 63167,
+        "min": 21720,
         "max": 162000,
         "count": 26
       },
       "female": {
-        "avg": 60327,
+        "avg": 61037,
         "min": 24500,
         "max": 109000,
         "count": 27
@@ -1336,8 +1336,8 @@
           "name": "Silky Swan Blouse II [White]",
           "price": 98000,
           "originalPrice": 98000,
-          "discountRate": 24,
-          "finalPrice": 74480,
+          "discountRate": 10,
+          "finalPrice": 88450,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260810/7037153/7037153_17870230324312_500.jpg",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 64758,
+        "avg": 64907,
         "min": 14700,
         "max": 683050,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 27
       },
       "female": {
-        "avg": 55632,
+        "avg": 55989,
         "min": 17910,
         "max": 158940,
         "count": 25
@@ -1644,8 +1644,8 @@
           "name": "HEART BUTTON OFF SHOULDER KNIT DARK NAVY",
           "price": 99000,
           "originalPrice": 99000,
-          "discountRate": 28,
-          "finalPrice": 71280,
+          "discountRate": 19,
+          "finalPrice": 80190,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/7002766/7002766_17872194675307_500.jpg",
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 162493,
+        "avg": 162685,
         "min": 35360,
         "max": 594000,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 32
       },
       "female": {
-        "avg": 110636,
+        "avg": 111277,
         "min": 35360,
         "max": 389000,
         "count": 18
@@ -2012,8 +2012,8 @@
           "name": "[SET] 베이직 울 니트 가디건 + 쁘띠 니트 머플러",
           "price": 121000,
           "originalPrice": 121000,
-          "discountRate": 47,
-          "finalPrice": 63890,
+          "discountRate": 34,
+          "finalPrice": 79860,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/7003053/7003053_17872204995088_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-104462",
+          "id": "ms-105243",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,7 +2265,7 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 60934,
+        "avg": 61082,
         "min": 15000,
         "max": 159000,
         "count": 60
@@ -2277,7 +2277,7 @@
         "count": 28
       },
       "female": {
-        "avg": 47856,
+        "avg": 48280,
         "min": 22020,
         "max": 101150,
         "count": 21
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 41413,
+        "avg": 41479,
         "min": 16250,
         "max": 150000,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 30
       },
       "female": {
-        "avg": 41740,
+        "avg": 41898,
         "min": 19900,
         "max": 94250,
         "count": 25
@@ -3454,8 +3454,8 @@
           "name": "HEART POCKET TRUNK SHORT PANTS (9colors)",
           "price": 44000,
           "originalPrice": 44000,
-          "discountRate": 28,
-          "finalPrice": 31680,
+          "discountRate": 19,
+          "finalPrice": 35640,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250528/5155126/5155126_17769160914492_500.jpg",
