@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T01:14:12.080590+00:00",
+  "updatedAt": "2026-09-03T05:56:50.805462+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -432,6 +432,21 @@
         },
         {
           "rank": 9,
+          "id": "ms-3399783",
+          "brand": "트래블",
+          "name": "리즌 트레일 피그먼트 롱 슬리브 블랙 차콜",
+          "price": 56000,
+          "originalPrice": 56000,
+          "discountRate": 43,
+          "finalPrice": 31920,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20230707/3399783/3399783_16897556858694_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3399783",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 10,
           "id": "ms-5432652",
           "brand": "탄산마그네슘",
           "name": "마운틴 롱슬리브 (화이트/레드)",
@@ -446,7 +461,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-6058096",
           "brand": "언타이틀 서울",
           "name": "유니콘 헨리넥 슬럽 롱 슬리브 그레이",
@@ -461,7 +476,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-6595818",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 울 텐셀 슬림 스쿱 넥 긴소매 티셔츠 [차콜 그레이]",
@@ -476,7 +491,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-3399786",
           "brand": "트래블",
           "name": "리즌 트레일 피그먼트 롱 슬리브 고스트 그레이",
@@ -491,7 +506,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-6565989",
           "brand": "무신사 스탠다드",
           "name": "[이도현 PICK] 레귤러 긴소매 크롭 티셔츠 [블랙]",
@@ -506,7 +521,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-7059804",
           "brand": "슈퍼서브",
           "name": "[옷미새미홀×슈퍼서브] [SET]빈티지 배색 레이어드 긴팔 티셔츠 세트-네이비/멜란지",
@@ -521,7 +536,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-6951163",
           "brand": "디미트리블랙",
           "name": "에센셜 RIBBED 롱슬리브 티셔츠_헨리넥 3 COLOR",
@@ -536,7 +551,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-6000058",
           "brand": "길라아카이브",
           "name": "USA LOGO V NECK LONG SLEEVE_GREY",
@@ -551,7 +566,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-4844845",
           "brand": "러닝라이프",
           "name": "마이크로메쉬 기능성 러닝 롱  슬리브 (6color)",
@@ -566,7 +581,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-5395574",
           "brand": "비바라비다",
           "name": "044 레글런 롱 슬리브 티셔츠",
@@ -581,33 +596,18 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-6614672",
           "brand": "코이리스",
           "name": "로넥 백 레터링 롱 슬리브 티 (4컬러)",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 57,
-          "finalPrice": 26020,
+          "discountRate": 58,
+          "finalPrice": 25420,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260605/6614672/6614672_17859945533880_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6614672",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-4318516",
-          "brand": "프렌다",
-          "name": "VINTAGE LOGO RAGLAN LONG SLEEVE GLOOMY PINK",
-          "price": 49000,
-          "originalPrice": 49000,
-          "discountRate": 60,
-          "finalPrice": 19600,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240812/4318516/4318516_17242865103782_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4318516",
           "displayGenderText": "여성"
         }
       ]
@@ -1487,8 +1487,8 @@
           "name": "[수아레 × 너드킹] 텐셀 린넨 크롭 셔츠 - 6 COLOR",
           "price": 59000,
           "originalPrice": 59000,
-          "discountRate": 32,
-          "finalPrice": 39900,
+          "discountRate": 54,
+          "finalPrice": 27060,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260407/6270421/6270421_17851288293269_500.jpg",
@@ -2172,21 +2172,6 @@
         },
         {
           "rank": 3,
-          "id": "ms-7096087",
-          "brand": "알리스",
-          "name": "[NERDKING x ALYSS] 슬릭 세미와이드 데님 팬츠_3COLOR",
-          "price": 74000,
-          "originalPrice": 74000,
-          "discountRate": 35,
-          "finalPrice": 48100,
-          "category": "003002",
-          "categoryLabel": "데님 팬츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260818/7096087/7096087_17878980132883_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7096087",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 4,
           "id": "ms-6255590",
           "brand": "알리스",
           "name": "[NERDKING x ALYSS] 슬릭 커브드 데님 팬츠_4COLOR",
@@ -2201,7 +2186,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "id": "ms-5717317",
           "brand": "워크온바디오프",
           "name": "(여름추가) 에즈 릴렉스 세미 와이드 데님 팬츠 (7color)",
@@ -2216,7 +2201,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "id": "ms-5682006",
           "brand": "텍스",
           "name": "[린넨 라이크/사계절용선택] TX304 커브드 배기 벌룬 데님 (블랙)",
@@ -2231,7 +2216,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-5866558",
           "brand": "어널러코드",
           "name": "브루니 커브드 데님팬츠 (생지)",
@@ -2246,7 +2231,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-3070218",
           "brand": "커스텀어클락",
           "name": "데님 원턱 와이드 팬츠 11 COLOR COOSPT201",
@@ -2261,7 +2246,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-4757347",
           "brand": "언탭트 스튜디오",
           "name": "빈티지 프론트 워싱 와이드 벌룬 데님 팬츠 4Color",
@@ -2276,7 +2261,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-6450039",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 에센셜 커브드 데님 팬츠 [러스티 블루]",
@@ -2291,7 +2276,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-6450036",
           "brand": "무신사 스탠다드 우먼",
           "name": "[한소희 PICK] 우먼즈 에센셜 커브드 데님 팬츠 [미디엄 인디고]",
@@ -2306,7 +2291,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-7051965",
           "brand": "디미트리블랙",
           "name": "[10주년기획] © 모두의 에센셜 데님 팬츠_(커브드 핏) 4 COLOR",
@@ -2321,7 +2306,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-3733978",
           "brand": "플랙",
           "name": "스트레이트 셀비지 B32 데님 팬츠 로우",
@@ -2336,7 +2321,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-6479370",
           "brand": "미쏘",
           "name": "로우라이즈 워싱 부츠컷 데님_MIWTJG536J MIWTJG91QJ",
@@ -2351,7 +2336,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-3791988",
           "brand": "필루미네이트",
           "name": "데미지 워시드 데님 팬츠-미디엄 블루",
@@ -2366,7 +2351,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-4225253",
           "brand": "무신사 스탠다드",
           "name": "[이도현 PICK] 플레어 데님 팬츠 [블랙]",
@@ -2381,7 +2366,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6450038",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 에센셜 커브드 데님 팬츠 [워시드 블랙]",
@@ -2396,7 +2381,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6450040",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 에센셜 커브드 데님 팬츠 [딥 인디고]",
@@ -2411,7 +2396,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-7161040",
           "brand": "디미트리블랙",
           "name": "[10주년기획] © 모두의 에센셜 데님 팬츠_(세미 스트레이트 핏) 4 COLOR",
@@ -2426,7 +2411,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-3663072",
           "brand": "토피",
           "name": "모어 와이드 데님 팬츠 (WASHED RAW BLACK)",
@@ -2438,6 +2423,21 @@
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20231027/3663072/3663072_16988871011427_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3663072",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4747231",
+          "brand": "르아르",
+          "name": "에브리데이 커브드 팬츠 [블랙]",
+          "price": 42000,
+          "originalPrice": 42000,
+          "discountRate": 15,
+          "finalPrice": 35910,
+          "category": "003002",
+          "categoryLabel": "데님 팬츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250130/4747231/4747231_17745029104425_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4747231",
           "displayGenderText": "남성"
         }
       ]
@@ -2752,21 +2752,6 @@
       "items": [
         {
           "rank": 1,
-          "id": "ms-7013393",
-          "brand": "아디다스",
-          "name": "[제니 협업] 플리티드 트랙 팬츠 LD8922",
-          "price": 169000,
-          "originalPrice": 169000,
-          "discountRate": 0,
-          "finalPrice": 169000,
-          "category": "003004",
-          "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260806/7013393/7013393_17860071649831_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7013393",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 2,
           "id": "ms-6197079",
           "brand": "디미트리블랙",
           "name": "VLAD 원턱 커브드 트랙 팬츠_립스탑 3 COLOR",
@@ -2781,7 +2766,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 3,
+          "rank": 2,
           "id": "ms-5170138",
           "brand": "파르티멘토 우먼",
           "name": "PWC 에브리데이 벌룬 조거 팬츠_18컬러",
@@ -2796,7 +2781,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 4,
+          "rank": 3,
           "id": "ms-2112059",
           "brand": "가까이 유니언즈",
           "name": "[여름 or 기모 or 사계절 원단 선택] 원턱 와이드 스웨트팬츠 그레이",
@@ -2811,7 +2796,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "id": "ms-2112061",
           "brand": "가까이 유니언즈",
           "name": "[여름 or 기모 or 사계절 원단 선택] 원턱 와이드 스웨트팬츠 블랙",
@@ -2826,7 +2811,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "id": "ms-6982338",
           "brand": "필루미네이트",
           "name": "[필루미네이트 × 패션플래닛] 헤비 코튼 커브드 스웨트 팬츠-3Color",
@@ -2841,7 +2826,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-2795617",
           "brand": "무신사 스탠다드",
           "name": "더블 니트 투 턱 와이드 라운지 스웨트 팬츠 [블랙]",
@@ -2856,7 +2841,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-1844582",
           "brand": "브렌슨",
           "name": "(Renew Ver.) 원턱 와이드 스웨트 팬츠 ( 8Color ) ( 기모선택 )",
@@ -2871,7 +2856,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-1551839",
           "brand": "제로",
           "name": "Deep One Tuck Sweat Pants [Black]",
@@ -2886,7 +2871,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-1551840",
           "brand": "제로",
           "name": "Deep One Tuck Sweat Pants [Grey]",
@@ -2901,7 +2886,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-5329566",
           "brand": "아디다스",
           "name": "BB 트랙 팬츠 - 나이트스카이 / KC9302",
@@ -2916,7 +2901,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-6047357",
           "brand": "미쏘",
           "name": "[송이송이 PICK] 커브드 밴딩 팬츠_MIWTMG80QC/MIWTMG92QA",
@@ -2931,7 +2916,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-3753631",
           "brand": "무신사 스탠다드 우먼",
           "name": "[쿨탠다드] 우먼즈 베리어블 라운지 스웨트 팬츠 [블랙]",
@@ -2946,7 +2931,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-7161034",
           "brand": "디미트리블랙",
           "name": "VLAD 원턱 커브드 트랙 스웻 팬츠_(3심볼) 3 COLOR",
@@ -2961,7 +2946,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-7051974",
           "brand": "디미트리블랙",
           "name": "VLAD 원턱 커브드 트랙 팬츠_(3심볼 저지) 3 COLOR",
@@ -2976,7 +2961,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-3439140",
           "brand": "토피",
           "name": "파이핑 라인 트랙 스트링 팬츠 (BLACK)",
@@ -2991,7 +2976,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-4319462",
           "brand": "프렌다",
           "name": "SIDE STRIPE WIDE PANTS DEEP BLUE",
@@ -3006,7 +2991,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5802209",
           "brand": "오프메이드",
           "name": "[기모추가] 사이드핀턱 와이드 스웨트팬츠 핀턱 트레이닝바지",
@@ -3021,7 +3006,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-3674341",
           "brand": "바운더리",
           "name": "투턱 와이드 롱 스웨트 팬츠 [블랙]",
@@ -3036,7 +3021,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6917750",
           "brand": "무신사 스탠다드",
           "name": "더블 니트 커브드 스웨트 팬츠 (4 colors)",
@@ -3048,6 +3033,21 @@
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260724/6917750/6917750_17853168250419_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6917750",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-2795616",
+          "brand": "무신사 스탠다드",
+          "name": "더블 니트 투 턱 와이드 라운지 스웨트 팬츠 [미디엄 그레이]",
+          "price": 39900,
+          "originalPrice": 39900,
+          "discountRate": 5,
+          "finalPrice": 37890,
+          "category": "003004",
+          "categoryLabel": "트레이닝/조거",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20220915/2795616/2795616_17639625600448_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/2795616",
           "displayGenderText": "남성"
         }
       ]
