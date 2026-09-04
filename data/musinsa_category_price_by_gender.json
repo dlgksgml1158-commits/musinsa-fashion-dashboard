@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T23:21:26.155406+00:00",
+  "updatedAt": "2026-09-04T01:05:35.992152+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 46971,
+        "avg": 46893,
         "min": 19990,
         "max": 117000,
         "count": 60
@@ -339,10 +339,10 @@
         "count": 18
       },
       "female": {
-        "avg": 46801,
+        "avg": 47198,
         "min": 22720,
         "max": 87480,
-        "count": 33
+        "count": 32
       },
       "items": [
         {
@@ -650,22 +650,22 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 58020,
+        "avg": 58627,
         "min": 12950,
         "max": 227050,
         "count": 60
       },
       "male": {
-        "avg": 59112,
+        "avg": 61022,
         "min": 17910,
         "max": 131100,
-        "count": 8
+        "count": 9
       },
       "female": {
-        "avg": 58146,
+        "avg": 58682,
         "min": 12950,
         "max": 148990,
-        "count": 35
+        "count": 34
       },
       "items": [
         {
@@ -850,21 +850,6 @@
         },
         {
           "rank": 13,
-          "id": "ms-7000197",
-          "brand": "스파오",
-          "name": "그래픽 오프숄더 스웨트셔츠_SPMNG49G54",
-          "price": 39900,
-          "originalPrice": 39900,
-          "discountRate": 0,
-          "finalPrice": 39900,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/7000197/7000197_17859945901372_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7000197",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 14,
           "id": "ms-7013942",
           "brand": "무드인사이드 우먼",
           "name": "(woman) 브이넥 이지 스웻 셔츠_4Color",
@@ -879,7 +864,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6855101",
           "brand": "유희",
           "name": "YOUHEE HEART HALF-NECK SWEATSHIRTS_MELANGE GREY",
@@ -894,7 +879,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-7035556",
           "brand": "어패럴아카이브",
           "name": "[한빛 PICK] Hines deep v-neck sweatshirt - Red",
@@ -909,7 +894,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6596166",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 더블 니트 칼라드 스웨트셔츠 [미디엄 그레이]",
@@ -924,7 +909,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6855105",
           "brand": "유희",
           "name": "[라이브] [주영X유희] HOTFIX OFF-SHOULDER SWEAT SHIRTS_NAVY",
@@ -939,7 +924,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6953081",
           "brand": "오헤시오",
           "name": "STRING OFF SHOULDER SWEATSHIRT, PURPLE",
@@ -954,7 +939,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6618032",
           "brand": "나이키",
           "name": "스튜디오 플리스 라이트웨이트 크루 W - 다크 그레이 헤더:세일 / IM8113-063",
@@ -966,6 +951,21 @@
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260605/6618032/6618032_17841674349935_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6618032",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7130604",
+          "brand": "아디다스",
+          "name": "플리츠 SP 크루넥 - 카키쓰리 / LG4326",
+          "price": 89000,
+          "originalPrice": 89000,
+          "discountRate": 0,
+          "finalPrice": 89000,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260821/7130604/7130604_17876274432579_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7130604",
           "displayGenderText": "여성"
         }
       ]
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 69975,
+        "avg": 70050,
         "min": 9900,
         "max": 683050,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 23
       },
       "female": {
-        "avg": 61472,
+        "avg": 61646,
         "min": 19360,
         "max": 124200,
         "count": 26
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-105244",
+          "id": "ms-105050",
           "brand": "",
           "name": "",
           "price": null,
