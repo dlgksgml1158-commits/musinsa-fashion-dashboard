@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-04T11:30:39.047391+00:00",
+  "updatedAt": "2026-09-04T15:03:10.849861+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 34703,
+        "avg": 34731,
         "min": 11900,
         "max": 88000,
         "count": 59
@@ -16,7 +16,7 @@
         "count": 19
       },
       "female": {
-        "avg": 35244,
+        "avg": 35308,
         "min": 15250,
         "max": 69000,
         "count": 25
@@ -104,8 +104,8 @@
           "name": "[Disney] 오버핏 그래픽 반소매 티셔츠  브라운",
           "price": 39900,
           "originalPrice": 39900,
-          "discountRate": 19,
-          "finalPrice": 32320,
+          "discountRate": 15,
+          "finalPrice": 33920,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260806/7008622/7008622_17859927858547_500.jpg",
@@ -327,13 +327,13 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 46729,
+        "avg": 46702,
         "min": 19990,
         "max": 117000,
         "count": 60
       },
       "male": {
-        "avg": 48440,
+        "avg": 48349,
         "min": 19990,
         "max": 117000,
         "count": 18
@@ -517,8 +517,8 @@
           "name": "코튼 헨리넥 긴팔티 (헤비웨이트) 026956 [3color]",
           "price": 29800,
           "originalPrice": 29800,
-          "discountRate": 5,
-          "finalPrice": 28310,
+          "discountRate": 11,
+          "finalPrice": 26670,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260811/7047595/7047595_17865160005600_500.jpg",
@@ -650,13 +650,13 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 59296,
+        "avg": 58483,
         "min": 12950,
         "max": 227050,
         "count": 60
       },
       "male": {
-        "avg": 66710,
+        "avg": 60610,
         "min": 17910,
         "max": 131100,
         "count": 8
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 61359,
+        "avg": 61113,
         "min": 13800,
         "max": 169000,
         "count": 60
@@ -985,7 +985,7 @@
         "count": 15
       },
       "female": {
-        "avg": 55420,
+        "avg": 54715,
         "min": 25510,
         "max": 169000,
         "count": 21
@@ -1073,8 +1073,8 @@
           "name": "스트라이프 컬러 배색 버튼 베이직 롱 슬리브 후드 티셔츠  [블루]",
           "price": 53000,
           "originalPrice": 53000,
-          "discountRate": 20,
-          "finalPrice": 42400,
+          "discountRate": 34,
+          "finalPrice": 35000,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260811/7046701/7046701_17884013377792_500.jpg",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 69331,
+        "avg": 69371,
         "min": 9900,
         "max": 683050,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 23
       },
       "female": {
-        "avg": 60085,
+        "avg": 60178,
         "min": 23900,
         "max": 124200,
         "count": 26
@@ -1929,8 +1929,8 @@
           "name": "셔츠 레이어드 반소매 풀오버  브라운",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 19,
-          "finalPrice": 48520,
+          "discountRate": 15,
+          "finalPrice": 50920,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260819/7108838/7108838_17871305727846_500.jpg",
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 154617,
+        "avg": 154403,
         "min": 29800,
         "max": 758100,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 26
       },
       "female": {
-        "avg": 93909,
+        "avg": 93269,
         "min": 35360,
         "max": 203490,
         "count": 20
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-105411",
+          "id": "ms-105023",
           "brand": "",
           "name": "",
           "price": null,

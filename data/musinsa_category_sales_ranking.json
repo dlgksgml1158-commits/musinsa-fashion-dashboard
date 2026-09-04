@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T11:30:48.326603+00:00",
+  "updatedAt": "2026-09-04T15:03:19.231159+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -297,8 +297,8 @@
           "name": "Trouble Half T-Shirts Gray",
           "price": 48000,
           "originalPrice": 48000,
-          "discountRate": 59,
-          "finalPrice": 19900,
+          "discountRate": 62,
+          "finalPrice": 18190,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260319/6164272/6164272_17754384876789_500.jpg",
@@ -347,8 +347,8 @@
           "name": "홀스 래빗 롱슬리브 (화이트)",
           "price": 74000,
           "originalPrice": 74000,
-          "discountRate": 24,
-          "finalPrice": 56240,
+          "discountRate": 37,
+          "finalPrice": 46620,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260211/6014700/6014700_17775279342903_500.jpg",
@@ -422,8 +422,8 @@
           "name": "마운틴 롱슬리브 (화이트/레드)",
           "price": 74000,
           "originalPrice": 74000,
-          "discountRate": 24,
-          "finalPrice": 56240,
+          "discountRate": 37,
+          "finalPrice": 46620,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250909/5432652/5432652_17605981290104_500.jpg",
@@ -1882,21 +1882,6 @@
         },
         {
           "rank": 4,
-          "id": "ms-5943429",
-          "brand": "아디다스",
-          "name": "와플 클래식 트랙탑 - 블랙 / KQ6863",
-          "price": 129000,
-          "originalPrice": 129000,
-          "discountRate": 16,
-          "finalPrice": 108990,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260127/5943429/5943429_17745057177730_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5943429",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 5,
           "id": "ms-3758213",
           "brand": "무신사 스탠다드",
           "name": "[시티 레저] 라이트웨이트 패커블 윈드브레이커 재킷 [그레이]",
@@ -1911,7 +1896,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "id": "ms-7161031",
           "brand": "디미트리블랙",
           "name": "[Office] 올시즌 데일리 수트 셋업_2 COLOR",
@@ -1926,7 +1911,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-5532467",
           "brand": "수아레",
           "name": "(컬러 추가) 라이트 시어쉘 패딩 점퍼 - 6 COLOR",
@@ -1941,7 +1926,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-6593577",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 슬럽 리브드 탑 가디건 세트 [블랙]",
@@ -1956,7 +1941,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-4356794",
           "brand": "무신사 스탠다드",
           "name": "[시티 레저] 후디드 라이트 다운 재킷 [블랙]",
@@ -1971,7 +1956,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-5162178",
           "brand": "무신사 스탠다드 우먼",
           "name": "[시티 레저] 우먼즈 후디드 라이트 다운 재킷 [스톤 화이트]",
@@ -1986,7 +1971,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-5329361",
           "brand": "아디다스",
           "name": "후드 집업 - 그레이:블랙 / KC9317",
@@ -2001,7 +1986,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-7011617",
           "brand": "더니트컴퍼니",
           "name": "[스토커즈 콜라보] 워셔블 에센셜 라운드 가디건 4color",
@@ -2016,7 +2001,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-4945148",
           "brand": "아디다스",
           "name": "아디컬러 클래식 트랙탑 (와플) - 원더화이트 / JW0109",
@@ -2031,7 +2016,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-5943431",
           "brand": "아디다스",
           "name": "와플 클래식 트랙탑 - 원더화이트 / KQ6864",
@@ -2046,7 +2031,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6838640",
           "brand": "스파오",
           "name": "[씬라이트] 후드 재킷_SPJPG4TC24",
@@ -2061,7 +2046,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6838154",
           "brand": "스파오",
           "name": "[씬라이트] 여성 후드 재킷_SPJPG4TG24",
@@ -2076,7 +2061,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-3790846",
           "brand": "무신사 스탠다드",
           "name": "백 사틴 오피서 재킷 [카키]",
@@ -2091,7 +2076,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5314369",
           "brand": "시그니처",
           "name": "라운드넥 크롭 니트 가디건[네이비]",
@@ -2106,7 +2091,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6938943",
           "brand": "미쏘",
           "name": "하이넥 페이크레더 자켓_MIWJLG947C",
@@ -2121,7 +2106,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5994876",
           "brand": "아디다스",
           "name": "파이어버드 우븐 트랙탑 - 블랙 / KE1366",
@@ -2134,6 +2119,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260209/5994876/5994876_17706911763333_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5994876",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6100901",
+          "brand": "닉켈하우스",
+          "name": "닉켈 26 동키 후드집업",
+          "price": 149000,
+          "originalPrice": 149000,
+          "discountRate": 27,
+          "finalPrice": 109000,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260309/6100901/6100901_17730403884837_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6100901",
+          "displayGenderText": "공용"
         }
       ]
     },
@@ -3332,8 +3332,8 @@
           "name": "Horse One Tuck Bermuda Pants Vintage Black",
           "price": 87000,
           "originalPrice": 87000,
-          "discountRate": 63,
-          "finalPrice": 32460,
+          "discountRate": 67,
+          "finalPrice": 28980,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260319/6164609/6164609_17739249429282_500.jpg",
