@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T06:03:31.224859+00:00",
+  "updatedAt": "2026-09-04T11:30:48.326603+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -237,8 +237,8 @@
           "name": "프리미엄 머슬핏 무지 티셔츠",
           "price": 34000,
           "originalPrice": 34000,
-          "discountRate": 15,
-          "finalPrice": 28900,
+          "discountRate": 32,
+          "finalPrice": 23120,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240215/3875000/3875000_17824424204845_500.jpg",
@@ -527,8 +527,8 @@
           "name": "우먼즈 울 텐셀 슬림 스쿱 넥 긴소매 티셔츠 [차콜 그레이]",
           "price": 25900,
           "originalPrice": 25900,
-          "discountRate": 5,
-          "finalPrice": 24600,
+          "discountRate": 15,
+          "finalPrice": 21970,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260602/6595818/6595818_17865087434577_500.jpg",
@@ -622,8 +622,8 @@
           "name": "[2PACK/세미크롭핏] 스웨트 셔츠 6colors",
           "price": 109000,
           "originalPrice": 109000,
-          "discountRate": 54,
-          "finalPrice": 49900,
+          "discountRate": 45,
+          "finalPrice": 59900,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250805/5292913/5292913_17667561980040_500.jpg",
@@ -907,8 +907,8 @@
           "name": "그래픽 오프숄더 스웨트셔츠_SPMNG49G54",
           "price": 39900,
           "originalPrice": 39900,
-          "discountRate": 0,
-          "finalPrice": 39900,
+          "discountRate": 5,
+          "finalPrice": 37900,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/7000197/7000197_17884801832735_500.jpg",
@@ -937,6 +937,21 @@
         },
         {
           "rank": 2,
+          "id": "ms-5422209",
+          "brand": "에노시",
+          "name": "ENOSI 36 Logo Patch Hoodie[5Color]",
+          "price": 99000,
+          "originalPrice": 99000,
+          "discountRate": 53,
+          "finalPrice": 46800,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250909/5422209/5422209_17573504725806_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5422209",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 3,
           "id": "ms-5315438",
           "brand": "매든",
           "name": "[류혜영 PICK] [12COLORS] 퍼니 풀오버 후디",
@@ -951,14 +966,14 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "id": "ms-5937520",
           "brand": "스켈리웩",
           "name": "와플 헨리넥 후디[그레이]",
           "price": 53000,
           "originalPrice": 53000,
-          "discountRate": 19,
-          "finalPrice": 43000,
+          "discountRate": 23,
+          "finalPrice": 41000,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260126/5937520/5937520_17719132760157_500.jpg",
@@ -966,7 +981,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "id": "ms-6788300",
           "brand": "스파오",
           "name": "와플 후드 바라클라바 긴팔티_SPFWG4TC10",
@@ -981,7 +996,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "id": "ms-2759813",
           "brand": "세인트페인",
           "name": "SP 팀 로고 후드-멜란지 그레이",
@@ -996,7 +1011,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "id": "ms-7059777",
           "brand": "슈퍼서브",
           "name": "[옷미새미홀×슈퍼서브] [크롭]이글 엠블럼 와플 헨리넥 후드 긴팔 티셔츠-블랙",
@@ -1011,7 +1026,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "id": "ms-5352832",
           "brand": "비바라비다",
           "name": "[기모선택] My Youth 헤비테리 후드",
@@ -1026,7 +1041,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "id": "ms-5438121",
           "brand": "디스이즈네버댓",
           "name": "T-Logo Hoodie Heather Grey",
@@ -1041,7 +1056,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-4302685",
           "brand": "소라노",
           "name": "SORANO Basic Logo HOODIE [6Color]",
@@ -1056,7 +1071,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-2990455",
           "brand": "1989스탠다드",
           "name": "MAIN LOGO 후드 (STHSTD-0017)",
@@ -1071,7 +1086,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-5308081",
           "brand": "매든",
           "name": "[류혜영 PICK] [6COLORS] 퍼니 지그재그 풀오버 후디",
@@ -1086,7 +1101,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-6016046",
           "brand": "브라운브레스",
           "name": "TAG OG HOODIE - 4 COLORS",
@@ -1101,7 +1116,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-5397080",
           "brand": "잇자바이브",
           "name": "I LOVE CAT NOT YOU CAT EAR HOODIE",
@@ -1116,7 +1131,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-5415090",
           "brand": "오드스튜디오",
           "name": "와플 커버 스티치 후드 티셔츠 - BEIGE",
@@ -1131,7 +1146,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-6886226",
           "brand": "노티카",
           "name": "[15% 쿠폰] 폴라 벤트 바라클라바 풀오버(4colors) NFL2246",
@@ -1146,7 +1161,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-6970660",
           "brand": "트릴리온",
           "name": "에센셜 피그먼트 스냅 크롭 후디_5color",
@@ -1161,7 +1176,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-6239442",
           "brand": "리",
           "name": "빅 트위치 로고 후드 오트밀",
@@ -1176,7 +1191,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-5756107",
           "brand": "아워세이아워",
           "name": "[세트] OURS 플라워 크롭 기모 후드 셋업 - 3COLOR",
@@ -1191,7 +1206,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-5270722",
           "brand": "기철",
           "name": "Frame Slub Knit Hoodie (Beige)",
@@ -1204,21 +1219,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250724/5270722/5270722_17642075481380_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5270722",
           "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-4784450",
-          "brand": "무센트",
-          "name": "시그니처 베이직 로고 후드 티 남녀공용 (6컬러)",
-          "price": 79100,
-          "originalPrice": 79100,
-          "discountRate": 50,
-          "finalPrice": 39550,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250213/4784450/4784450_17394070343043_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4784450",
-          "displayGenderText": "남성"
         }
       ]
     },
@@ -1912,6 +1912,21 @@
         },
         {
           "rank": 6,
+          "id": "ms-7161031",
+          "brand": "디미트리블랙",
+          "name": "[Office] 올시즌 데일리 수트 셋업_2 COLOR",
+          "price": 128500,
+          "originalPrice": 128500,
+          "discountRate": 40,
+          "finalPrice": 76900,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260825/7161031/7161031_17878927302965_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7161031",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 7,
           "id": "ms-5532467",
           "brand": "수아레",
           "name": "(컬러 추가) 라이트 시어쉘 패딩 점퍼 - 6 COLOR",
@@ -1926,7 +1941,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "id": "ms-6593577",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 슬럽 리브드 탑 가디건 세트 [블랙]",
@@ -1941,7 +1956,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "id": "ms-4356794",
           "brand": "무신사 스탠다드",
           "name": "[시티 레저] 후디드 라이트 다운 재킷 [블랙]",
@@ -1956,7 +1971,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-5162178",
           "brand": "무신사 스탠다드 우먼",
           "name": "[시티 레저] 우먼즈 후디드 라이트 다운 재킷 [스톤 화이트]",
@@ -1971,7 +1986,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-5329361",
           "brand": "아디다스",
           "name": "후드 집업 - 그레이:블랙 / KC9317",
@@ -1986,7 +2001,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-7011617",
           "brand": "더니트컴퍼니",
           "name": "[스토커즈 콜라보] 워셔블 에센셜 라운드 가디건 4color",
@@ -2001,7 +2016,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-4945148",
           "brand": "아디다스",
           "name": "아디컬러 클래식 트랙탑 (와플) - 원더화이트 / JW0109",
@@ -2016,7 +2031,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-5943431",
           "brand": "아디다스",
           "name": "와플 클래식 트랙탑 - 원더화이트 / KQ6864",
@@ -2031,7 +2046,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-6838640",
           "brand": "스파오",
           "name": "[씬라이트] 후드 재킷_SPJPG4TC24",
@@ -2046,14 +2061,14 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-6838154",
           "brand": "스파오",
           "name": "[씬라이트] 여성 후드 재킷_SPJPG4TG24",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 10,
-          "finalPrice": 53910,
+          "discountRate": 17,
+          "finalPrice": 49900,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260714/6838154/6838154_17884174549576_500.jpg",
@@ -2061,7 +2076,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-3790846",
           "brand": "무신사 스탠다드",
           "name": "백 사틴 오피서 재킷 [카키]",
@@ -2076,7 +2091,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-5314369",
           "brand": "시그니처",
           "name": "라운드넥 크롭 니트 가디건[네이비]",
@@ -2091,7 +2106,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-6938943",
           "brand": "미쏘",
           "name": "하이넥 페이크레더 자켓_MIWJLG947C",
@@ -2106,7 +2121,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-5994876",
           "brand": "아디다스",
           "name": "파이어버드 우븐 트랙탑 - 블랙 / KE1366",
@@ -2119,21 +2134,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260209/5994876/5994876_17706911763333_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5994876",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6100901",
-          "brand": "닉켈하우스",
-          "name": "닉켈 26 동키 후드집업",
-          "price": 149000,
-          "originalPrice": 149000,
-          "discountRate": 27,
-          "finalPrice": 109000,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260309/6100901/6100901_17730403884837_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6100901",
-          "displayGenderText": "공용"
         }
       ]
     },
@@ -2292,21 +2292,6 @@
         },
         {
           "rank": 11,
-          "id": "ms-3733978",
-          "brand": "플랙",
-          "name": "스트레이트 셀비지 B32 데님 팬츠 로우",
-          "price": 129000,
-          "originalPrice": 129000,
-          "discountRate": 81,
-          "finalPrice": 23940,
-          "category": "003002",
-          "categoryLabel": "데님 팬츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20231127/3733978/3733978_17151332834056_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3733978",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 12,
           "id": "ms-6450036",
           "brand": "무신사 스탠다드 우먼",
           "name": "[한소희 PICK] 우먼즈 에센셜 커브드 데님 팬츠 [미디엄 인디고]",
@@ -2321,7 +2306,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-6479370",
           "brand": "미쏘",
           "name": "로우라이즈 워싱 부츠컷 데님_MIWTJG536J MIWTJG91QJ",
@@ -2336,7 +2321,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-3791988",
           "brand": "필루미네이트",
           "name": "데미지 워시드 데님 팬츠-미디엄 블루",
@@ -2351,7 +2336,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-7051965",
           "brand": "디미트리블랙",
           "name": "[10주년기획] © 모두의 에센셜 데님 팬츠_(커브드 핏) 4 COLOR",
@@ -2366,7 +2351,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-4225253",
           "brand": "무신사 스탠다드",
           "name": "[이도현 PICK] 플레어 데님 팬츠 [블랙]",
@@ -2381,7 +2366,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7161040",
           "brand": "디미트리블랙",
           "name": "[10주년기획] © 모두의 에센셜 데님 팬츠_(세미 스트레이트 핏) 4 COLOR",
@@ -2396,7 +2381,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6450038",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 에센셜 커브드 데님 팬츠 [워시드 블랙]",
@@ -2411,7 +2396,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6450040",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 에센셜 커브드 데님 팬츠 [딥 인디고]",
@@ -2426,7 +2411,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-4747231",
           "brand": "르아르",
           "name": "에브리데이 커브드 팬츠 [블랙]",
@@ -2438,6 +2423,21 @@
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250130/4747231/4747231_17745029104425_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4747231",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-3663072",
+          "brand": "토피",
+          "name": "모어 와이드 데님 팬츠 (WASHED RAW BLACK)",
+          "price": 49000,
+          "originalPrice": 49000,
+          "discountRate": 35,
+          "finalPrice": 32000,
+          "category": "003002",
+          "categoryLabel": "데님 팬츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20231027/3663072/3663072_16988871011427_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3663072",
           "displayGenderText": "남성"
         }
       ]
@@ -2862,8 +2862,8 @@
           "name": "[송이송이 PICK] 커브드 밴딩 팬츠_MIWTMG80QC/MIWTMG92QA",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 14,
-          "finalPrice": 42670,
+          "discountRate": 24,
+          "finalPrice": 37710,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260224/6047357/6047357_17858934141692_500.jpg",
