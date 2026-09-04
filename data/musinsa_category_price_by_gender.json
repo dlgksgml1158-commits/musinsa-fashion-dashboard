@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T15:03:10.849861+00:00",
+  "updatedAt": "2026-09-04T18:30:03.296352+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 61113,
+        "avg": 61100,
         "min": 13800,
         "max": 169000,
         "count": 60
@@ -985,7 +985,7 @@
         "count": 15
       },
       "female": {
-        "avg": 54715,
+        "avg": 54678,
         "min": 25510,
         "max": 169000,
         "count": 21
@@ -1268,8 +1268,8 @@
           "name": "ALIVE HOODIE [PIGMENT BLACK]",
           "price": 79000,
           "originalPrice": 79000,
-          "discountRate": 60,
-          "finalPrice": 31600,
+          "discountRate": 61,
+          "finalPrice": 30830,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20241217/4670667/4670667_17351851648231_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-105023",
+          "id": "ms-104460",
           "brand": "",
           "name": "",
           "price": null,
