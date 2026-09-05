@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T12:09:26.602663+00:00",
+  "updatedAt": "2026-09-05T15:22:16.872824+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1377,6 +1377,21 @@
         },
         {
           "rank": 11,
+          "id": "ms-4037485",
+          "brand": "스컬프터",
+          "name": "Sheer Pleated Hem Blouse Black",
+          "price": 92000,
+          "originalPrice": 92000,
+          "discountRate": 66,
+          "finalPrice": 30920,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240409/4037485/4037485_17295835943889_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4037485",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 12,
           "id": "ms-6270421",
           "brand": "수아레",
           "name": "[수아레 × 너드킹] 텐셀 린넨 크롭 셔츠 - 6 COLOR",
@@ -1391,7 +1406,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-7048539",
           "brand": "드로우핏",
           "name": "[오정규X드로우핏] 애프터 세미 크롭 데님 셔츠 [3color]",
@@ -1406,7 +1421,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-6307599",
           "brand": "트릴리온",
           "name": "내츄럴 리조트 롤업 하프 셔츠_3color",
@@ -1421,7 +1436,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-5866769",
           "brand": "트릴리온",
           "name": "에센셜 옥스포드 크롭 스트라이프 셔츠_3color",
@@ -1436,7 +1451,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-4434539",
           "brand": "언탭트 스튜디오",
           "name": "시티보이 빅 오버핏 플레이드 체크 셔츠 3Color",
@@ -1451,7 +1466,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-6970137",
           "brand": "트릴리온",
           "name": "빈티지 우드 버튼 데님 긴팔 셔츠_4color",
@@ -1466,7 +1481,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-994588",
           "brand": "필루미네이트",
           "name": "옵티멀 베이직 셔츠-화이트[린넨＆옥스포드 선택]",
@@ -1481,7 +1496,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-6951157",
           "brand": "디미트리블랙",
           "name": "[10주년기획] © 모두의 데일리 런드리 셔츠_7 COLOR",
@@ -1496,7 +1511,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-3323598",
           "brand": "무신사 스탠다드 우먼",
           "name": "[한소희 PICK] 우먼즈 슬림 핏 셔츠 [화이트]",
@@ -1509,21 +1524,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230525/3323598/3323598_16969793437240_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3323598",
           "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6212885",
-          "brand": "언탭트 스튜디오",
-          "name": "시티보이 오버핏 워싱 데님 반팔 셔츠 3COLOR",
-          "price": 49800,
-          "originalPrice": 49800,
-          "discountRate": 37,
-          "finalPrice": 31380,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260327/6212885/6212885_17745974591526_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6212885",
-          "displayGenderText": "남성"
         }
       ]
     },
