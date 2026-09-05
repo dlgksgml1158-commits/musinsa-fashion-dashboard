@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T08:39:59.214850+00:00",
+  "updatedAt": "2026-09-05T12:09:17.490087+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,13 +327,13 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 46677,
+        "avg": 46652,
         "min": 19990,
         "max": 117000,
         "count": 60
       },
       "male": {
-        "avg": 48432,
+        "avg": 48349,
         "min": 19990,
         "max": 117000,
         "count": 18
@@ -517,8 +517,8 @@
           "name": "코튼 헨리넥 긴팔티 (헤비웨이트) 026956 [3color]",
           "price": 29800,
           "originalPrice": 29800,
-          "discountRate": 6,
-          "finalPrice": 28160,
+          "discountRate": 11,
+          "finalPrice": 26670,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260811/7047595/7047595_17865160005600_500.jpg",
@@ -973,16 +973,16 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 61100,
+        "avg": 59781,
         "min": 13800,
         "max": 169000,
         "count": 60
       },
       "male": {
-        "avg": 77629,
+        "avg": 73531,
         "min": 13800,
         "max": 162000,
-        "count": 15
+        "count": 14
       },
       "female": {
         "avg": 54678,
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 62628,
+        "avg": 62549,
         "min": 24500,
         "max": 180000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 32
       },
       "female": {
-        "avg": 59290,
+        "avg": 59084,
         "min": 24500,
         "max": 109440,
         "count": 23
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-104471",
+          "id": "ms-106012",
           "brand": "",
           "name": "",
           "price": null,
