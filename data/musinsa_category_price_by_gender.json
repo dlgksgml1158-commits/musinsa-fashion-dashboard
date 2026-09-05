@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T00:26:20.854720+00:00",
+  "updatedAt": "2026-09-05T04:42:11.444529+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,20 +327,20 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 46702,
+        "avg": 46677,
         "min": 19990,
         "max": 117000,
         "count": 60
       },
       "male": {
-        "avg": 48349,
+        "avg": 48432,
         "min": 19990,
         "max": 117000,
         "count": 18
       },
       "female": {
-        "avg": 46621,
-        "min": 22720,
+        "avg": 46530,
+        "min": 22380,
         "max": 87480,
         "count": 33
       },
@@ -517,8 +517,8 @@
           "name": "코튼 헨리넥 긴팔티 (헤비웨이트) 026956 [3color]",
           "price": 29800,
           "originalPrice": 29800,
-          "discountRate": 11,
-          "finalPrice": 26670,
+          "discountRate": 6,
+          "finalPrice": 28160,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260811/7047595/7047595_17865160005600_500.jpg",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 58483,
+        "avg": 57855,
         "min": 12950,
         "max": 227050,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 8
       },
       "female": {
-        "avg": 58791,
+        "avg": 57713,
         "min": 12950,
         "max": 148990,
         "count": 35
@@ -840,8 +840,8 @@
           "name": "우먼즈 더블 니트 칼라드 스웨트셔츠 [다크 브라운]",
           "price": 45900,
           "originalPrice": 45900,
-          "discountRate": 5,
-          "finalPrice": 43600,
+          "discountRate": 20,
+          "finalPrice": 36670,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260602/6596164/6596164_17882260329139_500.jpg",
@@ -915,8 +915,8 @@
           "name": "우먼즈 더블 니트 칼라드 스웨트셔츠 [미디엄 그레이]",
           "price": 45900,
           "originalPrice": 45900,
-          "discountRate": 5,
-          "finalPrice": 43600,
+          "discountRate": 25,
+          "finalPrice": 34380,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260602/6596166/6596166_17882260851496_500.jpg",
@@ -1296,19 +1296,19 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 62018,
+        "avg": 62628,
         "min": 24500,
         "max": 180000,
         "count": 60
       },
       "male": {
-        "avg": 64818,
+        "avg": 66495,
         "min": 25560,
         "max": 180000,
         "count": 32
       },
       "female": {
-        "avg": 60030,
+        "avg": 59290,
         "min": 24500,
         "max": 109440,
         "count": 23
@@ -1456,8 +1456,8 @@
           "name": "릴렉스 체크 셔츠 블루",
           "price": 74000,
           "originalPrice": 74000,
-          "discountRate": 44,
-          "finalPrice": 41440,
+          "discountRate": 20,
+          "finalPrice": 59200,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260804/6989124/6989124_17864234689972_500.jpg",
@@ -1471,8 +1471,8 @@
           "name": "레가시 와이어 체크 셔츠 브라운",
           "price": 133000,
           "originalPrice": 133000,
-          "discountRate": 37,
-          "finalPrice": 83790,
+          "discountRate": 10,
+          "finalPrice": 119700,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260810/7037822/7037822_17864239637962_500.jpg",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 69371,
+        "avg": 69472,
         "min": 9900,
         "max": 683050,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 23
       },
       "female": {
-        "avg": 60178,
+        "avg": 60410,
         "min": 23900,
         "max": 124200,
         "count": 26
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 154403,
+        "avg": 154226,
         "min": 29800,
         "max": 758100,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 26
       },
       "female": {
-        "avg": 93269,
+        "avg": 92736,
         "min": 35360,
         "max": 203490,
         "count": 20
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-104447",
+          "id": "ms-105405",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,13 +2265,13 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 72884,
+        "avg": 73492,
         "min": 10000,
         "max": 169100,
         "count": 60
       },
       "male": {
-        "avg": 71372,
+        "avg": 72834,
         "min": 10000,
         "max": 169100,
         "count": 25
@@ -2588,7 +2588,7 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 44854,
+        "avg": 44704,
         "min": 9900,
         "max": 174000,
         "count": 60
@@ -2600,9 +2600,9 @@
         "count": 42
       },
       "female": {
-        "avg": 38653,
+        "avg": 37650,
         "min": 9900,
-        "max": 53910,
+        "max": 49900,
         "count": 9
       },
       "items": [
@@ -2778,8 +2778,8 @@
           "name": "[NEW 컬러 출시] 우먼즈 로 웨이스트 딥 턱 엑스트라 와이드 히든 밴딩 슬랙스 [다크 브라운]",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 10,
-          "finalPrice": 53910,
+          "discountRate": 25,
+          "finalPrice": 44880,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260317/6143064/6143064_17858194691433_500.jpg",
@@ -2911,19 +2911,19 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 50084,
+        "avg": 49793,
         "min": 7900,
         "max": 139000,
         "count": 60
       },
       "male": {
-        "avg": 50683,
+        "avg": 50685,
         "min": 27900,
         "max": 139000,
         "count": 19
       },
       "female": {
-        "avg": 53929,
+        "avg": 53474,
         "min": 7900,
         "max": 122320,
         "count": 23
@@ -2951,8 +2951,8 @@
           "name": "데칼코마니 백 레터링 롱 스웨트 팬츠 [레몬]",
           "price": 69800,
           "originalPrice": 69800,
-          "discountRate": 14,
-          "finalPrice": 59800,
+          "discountRate": 29,
+          "finalPrice": 49330,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260820/7117146/7117146_17872183183236_500.jpg",
@@ -3011,8 +3011,8 @@
           "name": "[UNISEX] 벤틸레이션 팬츠 - 차콜",
           "price": 78000,
           "originalPrice": 78000,
-          "discountRate": 31,
-          "finalPrice": 53850,
+          "discountRate": 40,
+          "finalPrice": 46830,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260810/7035544/7035544_17865990572961_500.jpg",
@@ -3234,13 +3234,13 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 45886,
+        "avg": 45984,
         "min": 10900,
         "max": 109000,
         "count": 60
       },
       "male": {
-        "avg": 41782,
+        "avg": 42008,
         "min": 10900,
         "max": 109000,
         "count": 26
