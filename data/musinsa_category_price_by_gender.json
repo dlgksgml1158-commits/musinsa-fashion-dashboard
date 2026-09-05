@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T19:08:56.070161+00:00",
+  "updatedAt": "2026-09-05T21:23:43.080493+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-104451",
+          "id": "ms-104444",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,13 +2265,13 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 73492,
+        "avg": 73677,
         "min": 10000,
         "max": 169100,
         "count": 60
       },
       "male": {
-        "avg": 72834,
+        "avg": 73278,
         "min": 10000,
         "max": 169100,
         "count": 25
@@ -2470,8 +2470,8 @@
           "name": "[NERDKING x ALYSS] 슬릭 세미와이드 데님 팬츠_3COLOR",
           "price": 74000,
           "originalPrice": 74000,
-          "discountRate": 35,
-          "finalPrice": 48100,
+          "discountRate": 20,
+          "finalPrice": 59200,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260818/7096087/7096087_17884217512389_500.jpg",
