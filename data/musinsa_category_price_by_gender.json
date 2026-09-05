@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T17:24:58.037324+00:00",
+  "updatedAt": "2026-09-05T19:08:56.070161+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 46652,
+        "avg": 46562,
         "min": 19990,
         "max": 117000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 18
       },
       "female": {
-        "avg": 46530,
+        "avg": 46367,
         "min": 22380,
         "max": 87480,
         "count": 33
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 57855,
+        "avg": 57755,
         "min": 12950,
         "max": 227050,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 8
       },
       "female": {
-        "avg": 57713,
+        "avg": 57542,
         "min": 12950,
         "max": 148990,
         "count": 35
@@ -855,8 +855,8 @@
           "name": "그래픽 오프숄더 스웨트셔츠_SPMNG49G54",
           "price": 39900,
           "originalPrice": 39900,
-          "discountRate": 5,
-          "finalPrice": 37900,
+          "discountRate": 20,
+          "finalPrice": 31920,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/7000197/7000197_17884801832735_500.jpg",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 62549,
+        "avg": 62726,
         "min": 24500,
         "max": 180000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 32
       },
       "female": {
-        "avg": 59084,
+        "avg": 59545,
         "min": 24500,
         "max": 109440,
         "count": 23
@@ -1561,8 +1561,8 @@
           "name": "헤이즐 프릴 7부 블라우스 ( 아이보리 )",
           "price": 106000,
           "originalPrice": 106000,
-          "discountRate": 16,
-          "finalPrice": 88800,
+          "discountRate": 6,
+          "finalPrice": 99400,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260811/7045465/7045465_17871997806432_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-104470",
+          "id": "ms-104451",
           "brand": "",
           "name": "",
           "price": null,
