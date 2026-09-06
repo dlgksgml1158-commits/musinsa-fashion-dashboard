@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T17:09:55.211397+00:00",
+  "updatedAt": "2026-09-06T19:19:24.486377+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 58131,
+        "avg": 58264,
         "min": 12950,
         "max": 227050,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 8
       },
       "female": {
-        "avg": 58187,
+        "avg": 58415,
         "min": 12950,
         "max": 148990,
         "count": 35
@@ -855,8 +855,8 @@
           "name": "그래픽 오프숄더 스웨트셔츠_SPMNG49G54",
           "price": 39900,
           "originalPrice": 39900,
-          "discountRate": 20,
-          "finalPrice": 31920,
+          "discountRate": 0,
+          "finalPrice": 39900,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/7000197/7000197_17884801832735_500.jpg",
@@ -1296,8 +1296,8 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 62580,
-        "min": 24500,
+        "avg": 62487,
+        "min": 19960,
         "max": 180000,
         "count": 60
       },
@@ -1308,8 +1308,8 @@
         "count": 32
       },
       "female": {
-        "avg": 60495,
-        "min": 24500,
+        "avg": 60240,
+        "min": 19960,
         "max": 109440,
         "count": 22
       },
@@ -1471,8 +1471,8 @@
           "name": "레이어드 오프숄더 블라우스_MIWBLG931G",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 25,
-          "finalPrice": 44930,
+          "discountRate": 30,
+          "finalPrice": 41930,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260820/7116333/7116333_17883089080325_500.jpg",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 68200,
+        "avg": 68117,
         "min": 9900,
         "max": 683050,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 24
       },
       "female": {
-        "avg": 58744,
+        "avg": 58544,
         "min": 23900,
         "max": 124200,
         "count": 25
@@ -1644,8 +1644,8 @@
           "name": "투톤 레이어드 니트 RE KAG55SS_MIWKAG97QT",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 25,
-          "finalPrice": 37440,
+          "discountRate": 30,
+          "finalPrice": 34930,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/7000712/7000712_17859126257431_500.jpg",
@@ -1899,8 +1899,8 @@
           "name": "딥브이넥 루즈핏 니트_MIWKAG906T",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 25,
-          "finalPrice": 37420,
+          "discountRate": 30,
+          "finalPrice": 34930,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/7000716/7000716_17859126374445_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-104460",
+          "id": "ms-105048",
           "brand": "",
           "name": "",
           "price": null,

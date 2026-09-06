@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T17:10:04.400474+00:00",
+  "updatedAt": "2026-09-06T19:19:33.610029+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -782,21 +782,6 @@
         },
         {
           "rank": 12,
-          "id": "ms-6788392",
-          "brand": "디스커스 애슬레틱",
-          "name": "[2PACK/세미크롭핏] 70s 래글런 스웨트 셔츠 8colors",
-          "price": 109900,
-          "originalPrice": 109900,
-          "discountRate": 45,
-          "finalPrice": 59900,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260706/6788392/6788392_17867041450567_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6788392",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 13,
           "id": "ms-5799678",
           "brand": "라이크더모스트",
           "name": "도트라모 하트하트 오버핏 스웨트셔츠_7colors",
@@ -809,6 +794,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20251203/5799678/5799678_17647260967503_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5799678",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 13,
+          "id": "ms-6788392",
+          "brand": "디스커스 애슬레틱",
+          "name": "[2PACK/세미크롭핏] 70s 래글런 스웨트 셔츠 8colors",
+          "price": 109900,
+          "originalPrice": 109900,
+          "discountRate": 45,
+          "finalPrice": 59900,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260706/6788392/6788392_17867041450567_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6788392",
+          "displayGenderText": "공용"
         },
         {
           "rank": 14,
@@ -1042,6 +1042,21 @@
         },
         {
           "rank": 9,
+          "id": "ms-2990455",
+          "brand": "1989스탠다드",
+          "name": "MAIN LOGO 후드 (STHSTD-0017)",
+          "price": 67500,
+          "originalPrice": 67500,
+          "discountRate": 50,
+          "finalPrice": 33750,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20221220/2990455/2990455_17865219977629_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/2990455",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 10,
           "id": "ms-5438121",
           "brand": "디스이즈네버댓",
           "name": "T-Logo Hoodie Heather Grey",
@@ -1056,7 +1071,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-5352832",
           "brand": "비바라비다",
           "name": "[기모선택] My Youth 헤비테리 후드",
@@ -1068,21 +1083,6 @@
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250822/5352832/5352832_17591064550964_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5352832",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 11,
-          "id": "ms-2990455",
-          "brand": "1989스탠다드",
-          "name": "MAIN LOGO 후드 (STHSTD-0017)",
-          "price": 67500,
-          "originalPrice": 67500,
-          "discountRate": 50,
-          "finalPrice": 33750,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20221220/2990455/2990455_17865219977629_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/2990455",
           "displayGenderText": "공용"
         },
         {
@@ -2022,8 +2022,8 @@
           "name": "하이넥 페이크레더 자켓_MIWJLG947C",
           "price": 129000,
           "originalPrice": 129000,
-          "discountRate": 29,
-          "finalPrice": 91920,
+          "discountRate": 34,
+          "finalPrice": 85780,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6938943/6938943_17878079550836_500.jpg",
@@ -2982,8 +2982,8 @@
           "name": "[송이송이 PICK] 커브드 밴딩 팬츠_MIWTMG80QC/MIWTMG92QA",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 29,
-          "finalPrice": 35560,
+          "discountRate": 34,
+          "finalPrice": 33180,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260224/6047357/6047357_17858934141692_500.jpg",
