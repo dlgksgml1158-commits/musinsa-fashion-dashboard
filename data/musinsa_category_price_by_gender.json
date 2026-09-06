@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T11:08:00.966064+00:00",
+  "updatedAt": "2026-09-06T14:15:29.727055+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 46612,
+        "avg": 46635,
         "min": 19990,
         "max": 117000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 18
       },
       "female": {
-        "avg": 46458,
+        "avg": 46500,
         "min": 22720,
         "max": 87480,
         "count": 33
@@ -347,21 +347,6 @@
       "items": [
         {
           "rank": 1,
-          "id": "ms-6832449",
-          "brand": "튜드먼트",
-          "name": "50s RAGLAN GRAPHIC T-SHIRT_NAVY",
-          "price": 69900,
-          "originalPrice": 69900,
-          "discountRate": 19,
-          "finalPrice": 56620,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260713/6832449/6832449_17853900231291_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6832449",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 2,
           "id": "ms-7102173",
           "brand": "센테어",
           "name": "[2PACK] 리브드 머슬핏 헨리넥 긴팔 티셔츠  _5color",
@@ -376,7 +361,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 3,
+          "rank": 2,
           "id": "ms-6980767",
           "brand": "슈퍼서브",
           "name": "[크롭]골지 텍스처드 브이넥 긴팔 티셔츠-블랙",
@@ -391,7 +376,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 4,
+          "rank": 3,
           "id": "ms-6940683",
           "brand": "엑스톤즈",
           "name": "XTT168 더스트 워싱 레이어드 크롭 롱슬리브 (PURPLE/BROWN)",
@@ -406,7 +391,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "id": "ms-7112643",
           "brand": "퍼지스캔",
           "name": "절개 아일렛 롱슬리브 3color",
@@ -421,7 +406,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "id": "ms-7022626",
           "brand": "챔피온",
           "name": "C로고 오버핏 조그택 롱슬리브 티셔츠 Black",
@@ -436,7 +421,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-6875753",
           "brand": "마리떼 프랑소와 저버",
           "name": "W HENLEY NECK LAYERED LONG SLEEVE TEE navy",
@@ -451,7 +436,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-7091143",
           "brand": "썸웨어버터",
           "name": "Moti Raglan Top - Ivory(Grey)",
@@ -466,7 +451,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-7020449",
           "brand": "락케이크",
           "name": "Collar V Neck Top - Black",
@@ -481,7 +466,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-7000724",
           "brand": "미쏘",
           "name": "시스루 버튼업 긴팔 티셔츠_MIWLWG901A",
@@ -496,7 +481,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-6855075",
           "brand": "유희",
           "name": "ESSENTIAL LOOSE FIT BUTTON LONG SLEEVE_PURPLE",
@@ -511,7 +496,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-7047595",
           "brand": "지오다노",
           "name": "코튼 헨리넥 긴팔티 (헤비웨이트) 026956 [3color]",
@@ -526,7 +511,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-7112313",
           "brand": "에잇세컨즈",
           "name": "[민주킴] 골지 리본 긴소매 티셔츠  블랙",
@@ -541,7 +526,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-7095072",
           "brand": "꼼파뇨",
           "name": "위어드 키튼 롱슬리브 올리브",
@@ -556,7 +541,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6958191",
           "brand": "글로니",
           "name": "G V-COLLAR HENLEY TOP (BLACK)",
@@ -571,7 +556,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-7073972",
           "brand": "세컨드솔트",
           "name": "[소올 PICK] 포니 아카이브 긴팔티 (멜란지그레이)",
@@ -586,7 +571,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7153422",
           "brand": "토아베",
           "name": "Draped Wool Tencel Layered Tee Set (Gray)",
@@ -601,7 +586,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-7116632",
           "brand": "칙스",
           "name": "롤업 탭 버튼 헨리넥 7부 티셔츠 플럼",
@@ -616,7 +601,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-7054759",
           "brand": "유니온블루",
           "name": "GUSSET RAGLAN L/S T-SHIRT [CHARCOAL]",
@@ -631,7 +616,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7024067",
           "brand": "인템포무드",
           "name": "[노미스 X 인템포무드] 오프 버튼 롱 슬리브 : 3컬러",
@@ -644,6 +629,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260807/7024067/7024067_17884168998443_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7024067",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6595055",
+          "brand": "무신사 스탠다드 우먼",
+          "name": "우먼즈 프론트 셔링 긴소매 티셔츠 [버터 크림]",
+          "price": 29900,
+          "originalPrice": 29900,
+          "discountRate": 15,
+          "finalPrice": 25370,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260602/6595055/6595055_17864968573554_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6595055",
+          "displayGenderText": "여성"
         }
       ]
     },
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 60699,
+        "avg": 61408,
         "min": 13800,
         "max": 169000,
         "count": 60
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-105404",
+          "id": "ms-105025",
           "brand": "",
           "name": "",
           "price": null,
