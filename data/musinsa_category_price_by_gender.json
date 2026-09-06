@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-06T01:06:34.661973+00:00",
+  "updatedAt": "2026-09-06T06:05:06.341793+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 34731,
+        "avg": 34677,
         "min": 11900,
         "max": 88000,
         "count": 59
@@ -16,8 +16,8 @@
         "count": 19
       },
       "female": {
-        "avg": 35308,
-        "min": 15250,
+        "avg": 35182,
+        "min": 15750,
         "max": 69000,
         "count": 25
       },
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 46562,
+        "avg": 46612,
         "min": 19990,
         "max": 117000,
         "count": 60
@@ -339,8 +339,8 @@
         "count": 18
       },
       "female": {
-        "avg": 46367,
-        "min": 22380,
+        "avg": 46458,
+        "min": 22720,
         "max": 87480,
         "count": 33
       },
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 57755,
+        "avg": 58263,
         "min": 12950,
         "max": 227050,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 8
       },
       "female": {
-        "avg": 57542,
+        "avg": 58414,
         "min": 12950,
         "max": 148990,
         "count": 35
@@ -840,8 +840,8 @@
           "name": "우먼즈 더블 니트 칼라드 스웨트셔츠 [다크 브라운]",
           "price": 45900,
           "originalPrice": 45900,
-          "discountRate": 20,
-          "finalPrice": 36670,
+          "discountRate": 5,
+          "finalPrice": 43600,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260602/6596164/6596164_17882260329139_500.jpg",
@@ -915,8 +915,8 @@
           "name": "우먼즈 더블 니트 칼라드 스웨트셔츠 [미디엄 그레이]",
           "price": 45900,
           "originalPrice": 45900,
-          "discountRate": 25,
-          "finalPrice": 34380,
+          "discountRate": 5,
+          "finalPrice": 43600,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260602/6596166/6596166_17882260851496_500.jpg",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 62726,
+        "avg": 63010,
         "min": 24500,
         "max": 180000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 32
       },
       "female": {
-        "avg": 59545,
+        "avg": 60284,
         "min": 24500,
         "max": 109440,
         "count": 23
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 154226,
+        "avg": 154893,
         "min": 29800,
         "max": 758100,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 26
       },
       "female": {
-        "avg": 92736,
+        "avg": 94738,
         "min": 35360,
         "max": 203490,
         "count": 20
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-105242",
+          "id": "ms-105025",
           "brand": "",
           "name": "",
           "price": null,
@@ -2102,8 +2102,8 @@
           "name": "[한소희 PICK] 우먼즈 신세틱 레더 하이 넥 블루종 재킷 [블랙]",
           "price": 159900,
           "originalPrice": 159900,
-          "discountRate": 20,
-          "finalPrice": 127870,
+          "discountRate": 5,
+          "finalPrice": 151900,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260611/6652082/6652082_17876231576126_500.jpg",
@@ -2911,19 +2911,19 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 49793,
+        "avg": 48600,
         "min": 7900,
         "max": 139000,
         "count": 60
       },
       "male": {
-        "avg": 50685,
+        "avg": 51111,
         "min": 27900,
         "max": 139000,
         "count": 19
       },
       "female": {
-        "avg": 53474,
+        "avg": 49703,
         "min": 7900,
         "max": 122320,
         "count": 23
@@ -2951,8 +2951,8 @@
           "name": "데칼코마니 백 레터링 롱 스웨트 팬츠 [레몬]",
           "price": 69800,
           "originalPrice": 69800,
-          "discountRate": 29,
-          "finalPrice": 49330,
+          "discountRate": 14,
+          "finalPrice": 59800,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260820/7117146/7117146_17872183183236_500.jpg",
@@ -3011,8 +3011,8 @@
           "name": "[UNISEX] 벤틸레이션 팬츠 - 차콜",
           "price": 78000,
           "originalPrice": 78000,
-          "discountRate": 40,
-          "finalPrice": 46830,
+          "discountRate": 31,
+          "finalPrice": 53850,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260810/7035544/7035544_17865990572961_500.jpg",
