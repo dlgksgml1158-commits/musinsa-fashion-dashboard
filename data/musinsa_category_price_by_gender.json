@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T06:05:06.341793+00:00",
+  "updatedAt": "2026-09-06T11:08:00.966064+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 63010,
+        "avg": 62630,
         "min": 24500,
         "max": 180000,
         "count": 60
@@ -1308,10 +1308,10 @@
         "count": 32
       },
       "female": {
-        "avg": 60284,
+        "avg": 60631,
         "min": 24500,
         "max": 109440,
-        "count": 23
+        "count": 22
       },
       "items": [
         {
@@ -1421,21 +1421,6 @@
         },
         {
           "rank": 8,
-          "id": "ms-6983305",
-          "brand": "비터셀즈",
-          "name": "오버사이즈드 페이브 스트라이프 셔츠-아이보리",
-          "price": 65000,
-          "originalPrice": 65000,
-          "discountRate": 19,
-          "finalPrice": 52650,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260803/6983305/6983305_17872215270570_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6983305",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 9,
           "id": "ms-7063230",
           "brand": "아웃스탠딩",
           "name": "VINTAGE OXFORD BD SHIRT_BLUE",
@@ -1450,7 +1435,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-6989124",
           "brand": "디앤에스알",
           "name": "릴렉스 체크 셔츠 블루",
@@ -1465,7 +1450,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-7037822",
           "brand": "디앤에스알",
           "name": "레가시 와이어 체크 셔츠 브라운",
@@ -1480,7 +1465,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-7116333",
           "brand": "미쏘",
           "name": "레이어드 오프숄더 블라우스_MIWBLG931G",
@@ -1495,7 +1480,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-7048539",
           "brand": "드로우핏",
           "name": "[오정규X드로우핏] 애프터 세미 크롭 데님 셔츠 [3color]",
@@ -1510,7 +1495,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-6085461",
           "brand": "레테르코모",
           "name": "시티팝 프렌치 체크셔츠 다크네이비",
@@ -1525,7 +1510,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6978057",
           "brand": "마인드브릿지",
           "name": "코튼100% 잔 스트라이프 오버핏 긴팔 셔츠",
@@ -1540,7 +1525,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6999953",
           "brand": "그로우하이드",
           "name": "티톤 더블 버튼 슬림 7부 셔츠_차콜",
@@ -1555,7 +1540,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7045465",
           "brand": "레터프롬문",
           "name": "헤이즐 프릴 7부 블라우스 ( 아이보리 )",
@@ -1570,7 +1555,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6957240",
           "brand": "에스피오나지",
           "name": "Multi Check Comfort Shirt Ivory",
@@ -1585,7 +1570,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-7063217",
           "brand": "아웃스탠딩",
           "name": "VINTAGE CHECK BD SHIRT_BEIGE CHECK",
@@ -1600,7 +1585,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6951157",
           "brand": "디미트리블랙",
           "name": "[10주년기획] © 모두의 데일리 런드리 셔츠_7 COLOR",
@@ -1613,19 +1598,34 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260729/6951157/6951157_17860782582034_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6951157",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7104510",
+          "brand": "쿠어",
+          "name": "가먼트 워시드 퍼티그 셔츠 (워시드카키)",
+          "price": 200000,
+          "originalPrice": 200000,
+          "discountRate": 10,
+          "finalPrice": 180000,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260819/7104510/7104510_17871173194815_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7104510",
+          "displayGenderText": "남성"
         }
       ]
     },
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 68543,
+        "avg": 68348,
         "min": 9900,
         "max": 683050,
         "count": 60
       },
       "male": {
-        "avg": 54756,
+        "avg": 54269,
         "min": 9900,
         "max": 159300,
         "count": 24
@@ -1942,13 +1942,13 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 154893,
+        "avg": 154728,
         "min": 29800,
         "max": 758100,
         "count": 60
       },
       "male": {
-        "avg": 199195,
+        "avg": 198815,
         "min": 29800,
         "max": 758100,
         "count": 26
@@ -2012,8 +2012,8 @@
           "name": "베일드 레더 하이넥 크롭 자켓 [블랙]",
           "price": 172000,
           "originalPrice": 172000,
-          "discountRate": 19,
-          "finalPrice": 138890,
+          "discountRate": 25,
+          "finalPrice": 129010,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260818/7096354/7096354_17871564893225_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-105025",
+          "id": "ms-105404",
           "brand": "",
           "name": "",
           "price": null,
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 48600,
+        "avg": 48471,
         "min": 7900,
         "max": 139000,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 19
       },
       "female": {
-        "avg": 49703,
+        "avg": 49368,
         "min": 7900,
         "max": 122320,
         "count": 23
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 45984,
+        "avg": 45988,
         "min": 10900,
         "max": 109000,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 26
       },
       "female": {
-        "avg": 52087,
+        "avg": 52096,
         "min": 23920,
         "max": 109000,
         "count": 24
