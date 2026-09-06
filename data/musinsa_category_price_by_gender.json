@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T14:15:29.727055+00:00",
+  "updatedAt": "2026-09-06T17:09:55.211397+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 58263,
+        "avg": 58131,
         "min": 12950,
         "max": 227050,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 8
       },
       "female": {
-        "avg": 58414,
+        "avg": 58187,
         "min": 12950,
         "max": 148990,
         "count": 35
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 61408,
+        "avg": 61358,
         "min": 13800,
         "max": 169000,
         "count": 60
@@ -985,7 +985,7 @@
         "count": 15
       },
       "female": {
-        "avg": 54678,
+        "avg": 54537,
         "min": 25510,
         "max": 169000,
         "count": 21
@@ -1268,8 +1268,8 @@
           "name": "ALIVE HOODIE [PIGMENT BLACK]",
           "price": 79000,
           "originalPrice": 79000,
-          "discountRate": 61,
-          "finalPrice": 30830,
+          "discountRate": 65,
+          "finalPrice": 27860,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20241217/4670667/4670667_17351851648231_500.jpg",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 62630,
+        "avg": 62580,
         "min": 24500,
         "max": 180000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 32
       },
       "female": {
-        "avg": 60631,
+        "avg": 60495,
         "min": 24500,
         "max": 109440,
         "count": 22
@@ -1471,8 +1471,8 @@
           "name": "레이어드 오프숄더 블라우스_MIWBLG931G",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 20,
-          "finalPrice": 47920,
+          "discountRate": 25,
+          "finalPrice": 44930,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260820/7116333/7116333_17883089080325_500.jpg",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 68348,
+        "avg": 68200,
         "min": 9900,
         "max": 683050,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 24
       },
       "female": {
-        "avg": 59100,
+        "avg": 58744,
         "min": 23900,
         "max": 124200,
         "count": 25
@@ -1779,8 +1779,8 @@
           "name": "HEART BUTTON OFF SHOULDER KNIT DARK NAVY",
           "price": 99000,
           "originalPrice": 99000,
-          "discountRate": 19,
-          "finalPrice": 80190,
+          "discountRate": 28,
+          "finalPrice": 71280,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/7002766/7002766_17872194675307_500.jpg",
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 154728,
+        "avg": 153965,
         "min": 29800,
         "max": 758100,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 26
       },
       "female": {
-        "avg": 94738,
+        "avg": 92448,
         "min": 35360,
         "max": 203490,
         "count": 20
@@ -1997,8 +1997,8 @@
           "name": "BASIC WOOL ARCHIVE CARDIGAN PURPLE",
           "price": 88000,
           "originalPrice": 88000,
-          "discountRate": 19,
-          "finalPrice": 71280,
+          "discountRate": 28,
+          "finalPrice": 63360,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/7002720/7002720_17872202964448_500.jpg",
@@ -2027,8 +2027,8 @@
           "name": "[SET] 베이직 울 니트 가디건 + 쁘띠 니트 머플러",
           "price": 121000,
           "originalPrice": 121000,
-          "discountRate": 34,
-          "finalPrice": 79860,
+          "discountRate": 47,
+          "finalPrice": 63890,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/7003053/7003053_17872204995088_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-105025",
+          "id": "ms-104460",
           "brand": "",
           "name": "",
           "price": null,
@@ -2222,8 +2222,8 @@
           "name": "DOUBLE RIBBON PATTERN WINDBREAKER WHITE",
           "price": 139900,
           "originalPrice": 139900,
-          "discountRate": 28,
-          "finalPrice": 100730,
+          "discountRate": 36,
+          "finalPrice": 89540,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260820/7122232/7122232_17872220497347_500.jpg",
@@ -2265,7 +2265,7 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 73677,
+        "avg": 73529,
         "min": 10000,
         "max": 169100,
         "count": 60
@@ -2277,7 +2277,7 @@
         "count": 25
       },
       "female": {
-        "avg": 75688,
+        "avg": 75131,
         "min": 22020,
         "max": 142600,
         "count": 16
@@ -2588,22 +2588,22 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 44704,
+        "avg": 45458,
         "min": 9900,
         "max": 174000,
         "count": 60
       },
       "male": {
-        "avg": 48690,
+        "avg": 49441,
         "min": 17990,
         "max": 174000,
-        "count": 42
+        "count": 41
       },
       "female": {
-        "avg": 37650,
+        "avg": 40193,
         "min": 9900,
-        "max": 49900,
-        "count": 9
+        "max": 63080,
+        "count": 10
       },
       "items": [
         {
@@ -2911,19 +2911,19 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 48471,
+        "avg": 48304,
         "min": 7900,
         "max": 139000,
         "count": 60
       },
       "male": {
-        "avg": 51111,
+        "avg": 51001,
         "min": 27900,
         "max": 139000,
         "count": 19
       },
       "female": {
-        "avg": 49368,
+        "avg": 49023,
         "min": 7900,
         "max": 122320,
         "count": 23
@@ -3234,19 +3234,19 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 45988,
+        "avg": 45757,
         "min": 10900,
         "max": 109000,
         "count": 60
       },
       "male": {
-        "avg": 42008,
+        "avg": 41805,
         "min": 10900,
         "max": 109000,
         "count": 26
       },
       "female": {
-        "avg": 52096,
+        "avg": 51740,
         "min": 23920,
         "max": 109000,
         "count": 24
