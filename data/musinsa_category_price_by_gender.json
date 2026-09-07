@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-06T22:57:31.498888+00:00",
+  "updatedAt": "2026-09-07T00:32:13.959397+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 34655,
+        "avg": 34803,
         "min": 11900,
         "max": 88000,
         "count": 59
@@ -16,10 +16,10 @@
         "count": 19
       },
       "female": {
-        "avg": 35130,
+        "avg": 34879,
         "min": 15750,
         "max": 69000,
-        "count": 25
+        "count": 26
       },
       "items": [
         {
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 58264,
+        "avg": 58429,
         "min": 12950,
         "max": 227050,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 8
       },
       "female": {
-        "avg": 58415,
+        "avg": 58698,
         "min": 12950,
         "max": 148990,
         "count": 35
@@ -675,8 +675,8 @@
           "name": "[고윤정 착용] SMALL CLASSIC LOGO HALF ZIPUP SWEATSHIRT heather gray",
           "price": 99000,
           "originalPrice": 99000,
-          "discountRate": 10,
-          "finalPrice": 89100,
+          "discountRate": 0,
+          "finalPrice": 99000,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260720/6876064/6876064_17871882921653_500.jpg",
@@ -1619,22 +1619,22 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 68117,
+        "avg": 68129,
         "min": 9900,
         "max": 683050,
         "count": 60
       },
       "male": {
-        "avg": 54269,
+        "avg": 55001,
         "min": 9900,
         "max": 159300,
-        "count": 24
+        "count": 23
       },
       "female": {
-        "avg": 58544,
+        "avg": 57760,
         "min": 23900,
         "max": 124200,
-        "count": 25
+        "count": 26
       },
       "items": [
         {
@@ -1924,17 +1924,17 @@
         },
         {
           "rank": 20,
-          "id": "ms-7108838",
+          "id": "ms-7008807",
           "brand": "에잇세컨즈",
-          "name": "셔츠 레이어드 반소매 풀오버  브라운",
-          "price": 59900,
-          "originalPrice": 59900,
+          "name": "[Disney] 밤비 그래픽 V넥 풀오버  네이비",
+          "price": 44900,
+          "originalPrice": 44900,
           "discountRate": 15,
-          "finalPrice": 50920,
+          "finalPrice": 38170,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260819/7108838/7108838_17871305727846_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7108838",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260806/7008807/7008807_17859930712934_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7008807",
           "displayGenderText": "여성"
         }
       ]
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-104460",
+          "id": "ms-105243",
           "brand": "",
           "name": "",
           "price": null,
