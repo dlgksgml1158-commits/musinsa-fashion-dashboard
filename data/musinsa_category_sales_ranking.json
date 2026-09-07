@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T05:18:45.538262+00:00",
+  "updatedAt": "2026-09-07T10:31:13.610264+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -12,8 +12,8 @@
           "name": "[쿨탠다드] 릴렉스 핏 크루 넥 티셔츠 2팩",
           "price": 39800,
           "originalPrice": 39800,
-          "discountRate": 6,
-          "finalPrice": 37390,
+          "discountRate": 5,
+          "finalPrice": 37790,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20210720/2035287/2035287_17805429050970_500.jpg",
@@ -57,8 +57,8 @@
           "name": "[쿨탠다드] 릴렉스 핏 크루 넥 티셔츠 [블랙]",
           "price": 19900,
           "originalPrice": 19900,
-          "discountRate": 5,
-          "finalPrice": 18890,
+          "discountRate": 0,
+          "finalPrice": 19900,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20200407/1388775/1388775_17767489507780_500.jpg",
@@ -237,8 +237,8 @@
           "name": "레이어드 크루 넥 티셔츠_일반 기장 [화이트]",
           "price": 15900,
           "originalPrice": 15900,
-          "discountRate": 10,
-          "finalPrice": 14290,
+          "discountRate": 0,
+          "finalPrice": 15900,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20210825/2086653/2086653_17772494800708_500.jpg",
@@ -252,8 +252,8 @@
           "name": "릴렉스 핏 크루 넥 티셔츠 2팩",
           "price": 31800,
           "originalPrice": 31800,
-          "discountRate": 10,
-          "finalPrice": 28590,
+          "discountRate": 5,
+          "finalPrice": 30190,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20210719/2034137/2034137_17821170123912_500.jpg",
@@ -1347,6 +1347,21 @@
         },
         {
           "rank": 9,
+          "id": "ms-5251265",
+          "brand": "리메인세컨드",
+          "name": "오버핏 플란넬 포켓 체크 셔츠 [딥블루]",
+          "price": 43500,
+          "originalPrice": 43500,
+          "discountRate": 20,
+          "finalPrice": 34800,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250716/5251265/5251265_17872912962879_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5251265",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 10,
           "id": "ms-5913494",
           "brand": "언탭트 스튜디오",
           "name": "시티보이 오버핏 피그먼트 워싱 셔츠 7Color",
@@ -1361,7 +1376,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-983819",
           "brand": "무신사 스탠다드",
           "name": "릴렉스 핏 실키 셔츠 [블랙]",
@@ -1376,7 +1391,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-983818",
           "brand": "무신사 스탠다드",
           "name": "릴렉스 핏 실키 셔츠 [화이트]",
@@ -1391,7 +1406,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-4434539",
           "brand": "언탭트 스튜디오",
           "name": "시티보이 빅 오버핏 플레이드 체크 셔츠 3Color",
@@ -1406,7 +1421,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-6270421",
           "brand": "수아레",
           "name": "[수아레 × 너드킹] 텐셀 린넨 크롭 셔츠 - 6 COLOR",
@@ -1421,7 +1436,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-3042516",
           "brand": "수아레",
           "name": "에센셜 텐셀 린넨 셔츠 - 9 COLOR",
@@ -1436,7 +1451,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-7096389",
           "brand": "알리스",
           "name": "페일드 체크 크롭 셔츠 [블랙]",
@@ -1451,7 +1466,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-6307599",
           "brand": "트릴리온",
           "name": "내츄럴 리조트 롤업 하프 셔츠_3color",
@@ -1466,7 +1481,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-6951157",
           "brand": "디미트리블랙",
           "name": "[10주년기획] © 모두의 데일리 런드리 셔츠_7 COLOR",
@@ -1481,7 +1496,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-6970137",
           "brand": "트릴리온",
           "name": "빈티지 우드 버튼 데님 긴팔 셔츠_4color",
@@ -1496,7 +1511,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-994588",
           "brand": "필루미네이트",
           "name": "옵티멀 베이직 셔츠-화이트[린넨＆옥스포드 선택]",
@@ -1509,21 +1524,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20190326/994588/994588_17878791359967_500.jpg",
           "productUrl": "https://www.musinsa.com/products/994588",
           "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6976303",
-          "brand": "효지",
-          "name": "[해피가이정호 PICK] 26 FW 스트라이프 세미 크롭 옥스포드 셔츠 (2컬러)",
-          "price": 69000,
-          "originalPrice": 69000,
-          "discountRate": 28,
-          "finalPrice": 49900,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260802/6976303/6976303_17882522027542_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6976303",
-          "displayGenderText": "남성"
         }
       ]
     },
@@ -1857,8 +1857,8 @@
           "name": "포즌 믹스 레터링 후드집업 남녀공용",
           "price": 120500,
           "originalPrice": 120500,
-          "discountRate": 37,
-          "finalPrice": 76420,
+          "discountRate": 51,
+          "finalPrice": 59420,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260727/6928720/6928720_17878813907976_500.jpg",
@@ -1932,8 +1932,8 @@
           "name": "[시티 레저] 라이트웨이트 패커블 윈드브레이커 재킷 [그레이]",
           "price": 39900,
           "originalPrice": 39900,
-          "discountRate": 5,
-          "finalPrice": 37890,
+          "discountRate": 0,
+          "finalPrice": 39900,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20231215/3758213/3758213_17739006715292_500.jpg",
@@ -2022,8 +2022,8 @@
           "name": "하이넥 페이크레더 자켓_MIWJLG947C",
           "price": 129000,
           "originalPrice": 129000,
-          "discountRate": 34,
-          "finalPrice": 85780,
+          "discountRate": 29,
+          "finalPrice": 91920,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6938943/6938943_17878079550836_500.jpg",
@@ -2147,8 +2147,8 @@
           "name": "[이도현 PICK][컬러 추가] 커브드 데님 팬츠 (8 colors)",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 5,
-          "finalPrice": 47390,
+          "discountRate": 0,
+          "finalPrice": 49900,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260304/6078643/6078643_17876252437332_500.jpg",
@@ -2277,6 +2277,21 @@
         },
         {
           "rank": 10,
+          "id": "ms-3733978",
+          "brand": "플랙",
+          "name": "스트레이트 셀비지 B32 데님 팬츠 로우",
+          "price": 129000,
+          "originalPrice": 129000,
+          "discountRate": 76,
+          "finalPrice": 30780,
+          "category": "003002",
+          "categoryLabel": "데님 팬츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20231127/3733978/3733978_17151332834056_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3733978",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 11,
           "id": "ms-6450039",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 에센셜 커브드 데님 팬츠 [러스티 블루]",
@@ -2291,7 +2306,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-6450036",
           "brand": "무신사 스탠다드 우먼",
           "name": "[한소희 PICK] 우먼즈 에센셜 커브드 데님 팬츠 [미디엄 인디고]",
@@ -2306,7 +2321,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-3791988",
           "brand": "필루미네이트",
           "name": "데미지 워시드 데님 팬츠-미디엄 블루",
@@ -2321,7 +2336,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-6450038",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 에센셜 커브드 데님 팬츠 [워시드 블랙]",
@@ -2336,7 +2351,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-7161040",
           "brand": "디미트리블랙",
           "name": "[10주년기획] © 모두의 에센셜 데님 팬츠_(세미 스트레이트 핏) 4 COLOR",
@@ -2351,7 +2366,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-4747231",
           "brand": "르아르",
           "name": "에브리데이 커브드 팬츠 [블랙]",
@@ -2366,7 +2381,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-7051965",
           "brand": "디미트리블랙",
           "name": "[10주년기획] © 모두의 에센셜 데님 팬츠_(커브드 핏) 4 COLOR",
@@ -2381,7 +2396,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-3663072",
           "brand": "토피",
           "name": "모어 와이드 데님 팬츠 (WASHED RAW BLACK)",
@@ -2396,7 +2411,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-6479370",
           "brand": "미쏘",
           "name": "로우라이즈 워싱 부츠컷 데님_MIWTJG536J MIWTJG91QJ",
@@ -2411,7 +2426,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-6450037",
           "brand": "무신사 스탠다드 우먼",
           "name": "[소올 PICK] 우먼즈 에센셜 커브드 데님 팬츠 [라이트 인디고]",
@@ -2423,21 +2438,6 @@
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260511/6450037/6450037_17885942010218_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6450037",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6450040",
-          "brand": "무신사 스탠다드 우먼",
-          "name": "우먼즈 에센셜 커브드 데님 팬츠 [딥 인디고]",
-          "price": 49900,
-          "originalPrice": 49900,
-          "discountRate": 25,
-          "finalPrice": 37380,
-          "category": "003002",
-          "categoryLabel": "데님 팬츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260511/6450040/6450040_17846190805677_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6450040",
           "displayGenderText": "여성"
         }
       ]
@@ -2467,8 +2467,8 @@
           "name": "[쿨탠다드] 원 턱 와이드 밴딩 슬랙스 [블랙]",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 50,
-          "finalPrice": 29890,
+          "discountRate": 35,
+          "finalPrice": 38890,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230309/3134698/3134698_17516088971899_500.jpg",
@@ -2557,8 +2557,8 @@
           "name": "세미 와이드 히든 밴딩 슬랙스 [미디엄 그레이]",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 50,
-          "finalPrice": 24990,
+          "discountRate": 20,
+          "finalPrice": 39890,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20191113/1224095/1224095_17518463307099_500.jpg",
@@ -2572,8 +2572,8 @@
           "name": "[쿨탠다드] 세미 와이드 히든 밴딩 슬랙스 [블랙]",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 50,
-          "finalPrice": 29890,
+          "discountRate": 35,
+          "finalPrice": 38890,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20200508/1436504/1436504_17516080113500_500.jpg",
