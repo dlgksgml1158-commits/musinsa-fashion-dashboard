@@ -1,32 +1,24 @@
 {
-  "updatedAt": "2026-09-07T10:30:41.327048+00:00",
+  "updatedAt": "2026-09-07T16:06:54.088434+00:00",
   "source": "네이버 날씨",
   "city": "서울",
   "current": {
-    "temp": 26.9,
+    "temp": 21.2,
     "weatherLabel": "맑음",
-    "feelsLike": 26.1,
-    "humidity": 45,
-    "windSpeed": 2.2
+    "feelsLike": 21.9,
+    "humidity": 63,
+    "windSpeed": 2.1
   },
   "week": {
-    "avgMax": 28,
+    "avgMax": 27,
     "avgMin": 18,
     "rainDays": 0,
-    "summary": "2026-09-07 ~ 2026-09-13 서울 주간 날씨: 평균 최고 28°C, 최저 18°C. 비 오는 날 0일 포함."
+    "summary": "2026-09-08 ~ 2026-09-14 서울 주간 날씨: 평균 최고 27°C, 최저 18°C. 비 오는 날 0일 포함."
   },
   "days": [
     {
-      "date": "2026-09-07",
-      "dayLabel": "오늘",
-      "tMax": 29.0,
-      "tMin": 19.0,
-      "precipProb": 0,
-      "weatherLabel": "맑음"
-    },
-    {
       "date": "2026-09-08",
-      "dayLabel": "내일",
+      "dayLabel": "오늘",
       "tMax": 30.0,
       "tMin": 18.0,
       "precipProb": 10,
@@ -34,7 +26,7 @@
     },
     {
       "date": "2026-09-09",
-      "dayLabel": "수",
+      "dayLabel": "내일",
       "tMax": 26.0,
       "tMin": 20.0,
       "precipProb": 0,
@@ -69,6 +61,14 @@
       "dayLabel": "일",
       "tMax": 28.0,
       "tMin": 18.0,
+      "precipProb": 20,
+      "weatherLabel": "구름많음"
+    },
+    {
+      "date": "2026-09-14",
+      "dayLabel": "월",
+      "tMax": 27.0,
+      "tMin": 19.0,
       "precipProb": 20,
       "weatherLabel": "구름많음"
     }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T10:31:04.017961+00:00",
+  "updatedAt": "2026-09-07T16:07:13.312359+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 47042,
+        "avg": 46952,
         "min": 19990,
         "max": 117000,
         "count": 60
@@ -339,8 +339,8 @@
         "count": 18
       },
       "female": {
-        "avg": 46716,
-        "min": 22720,
+        "avg": 46752,
+        "min": 23250,
         "max": 87480,
         "count": 33
       },
@@ -397,8 +397,8 @@
           "name": "XTT168 더스트 워싱 레이어드 크롭 롱슬리브 (PURPLE/BROWN)",
           "price": 69000,
           "originalPrice": 69000,
-          "discountRate": 14,
-          "finalPrice": 59000,
+          "discountRate": 24,
+          "finalPrice": 52440,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6940683/6940683_17872819795408_500.jpg",
@@ -487,8 +487,8 @@
           "name": "시스루 버튼업 긴팔 티셔츠_MIWLWG901A",
           "price": 29900,
           "originalPrice": 29900,
-          "discountRate": 24,
-          "finalPrice": 22720,
+          "discountRate": 20,
+          "finalPrice": 23920,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/7000724/7000724_17859126667758_500.jpg",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 58114,
+        "avg": 58100,
         "min": 12950,
         "max": 227050,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 8
       },
       "female": {
-        "avg": 58233,
+        "avg": 58208,
         "min": 12950,
         "max": 148990,
         "count": 35
@@ -1296,19 +1296,19 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 60522,
+        "avg": 60303,
         "min": 23250,
         "max": 180000,
         "count": 60
       },
       "male": {
-        "avg": 63217,
+        "avg": 62823,
         "min": 25560,
         "max": 180000,
         "count": 32
       },
       "female": {
-        "avg": 60153,
+        "avg": 60130,
         "min": 23250,
         "max": 102400,
         "count": 22
@@ -1456,8 +1456,8 @@
           "name": "레이어드 오프숄더 블라우스_MIWBLG931G",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 30,
-          "finalPrice": 41930,
+          "discountRate": 26,
+          "finalPrice": 44170,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260820/7116333/7116333_17883089080325_500.jpg",
@@ -1531,8 +1531,8 @@
           "name": "헤이즐 프릴 7부 블라우스 ( 아이보리 )",
           "price": 106000,
           "originalPrice": 106000,
-          "discountRate": 24,
-          "finalPrice": 80560,
+          "discountRate": 27,
+          "finalPrice": 77820,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260811/7045465/7045465_17871997806432_500.jpg",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 68541,
+        "avg": 68980,
         "min": 9900,
         "max": 683050,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 24
       },
       "female": {
-        "avg": 58563,
+        "avg": 59577,
         "min": 13900,
         "max": 124200,
         "count": 26
@@ -1869,8 +1869,8 @@
           "name": "딥브이넥 루즈핏 니트_MIWKAG906T",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 30,
-          "finalPrice": 34930,
+          "discountRate": 26,
+          "finalPrice": 36820,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/7000716/7000716_17887580341116_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-105837",
+          "id": "ms-105241",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,7 +2265,7 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 73111,
+        "avg": 72938,
         "min": 10000,
         "max": 169100,
         "count": 60
