@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T17:38:40.872300+00:00",
+  "updatedAt": "2026-09-08T20:21:20.826575+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 46882,
+        "avg": 46972,
         "min": 19990,
         "max": 117000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 18
       },
       "female": {
-        "avg": 46752,
+        "avg": 46915,
         "min": 23250,
         "max": 87480,
         "count": 33
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 58220,
+        "avg": 58130,
         "min": 12950,
         "max": 227050,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 8
       },
       "female": {
-        "avg": 58656,
+        "avg": 58502,
         "min": 12950,
         "max": 148990,
         "count": 35
@@ -855,8 +855,8 @@
           "name": "그래픽 오프숄더 스웨트셔츠_SPMNG49G54",
           "price": 39900,
           "originalPrice": 39900,
-          "discountRate": 0,
-          "finalPrice": 39900,
+          "discountRate": 14,
+          "finalPrice": 34510,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/7000197/7000197_17884801832735_500.jpg",
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 62693,
+        "avg": 62251,
         "min": 13800,
         "max": 169000,
         "count": 60
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 69089,
+        "avg": 69107,
         "min": 9900,
         "max": 683050,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 24
       },
       "female": {
-        "avg": 59828,
+        "avg": 59870,
         "min": 13900,
         "max": 124200,
         "count": 26
@@ -1869,8 +1869,8 @@
           "name": "딥브이넥 루즈핏 니트_MIWKAG906T",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 26,
-          "finalPrice": 36820,
+          "discountRate": 24,
+          "finalPrice": 37920,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/7000716/7000716_17887580341116_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-104453",
+          "id": "ms-106352",
           "brand": "",
           "name": "",
           "price": null,
