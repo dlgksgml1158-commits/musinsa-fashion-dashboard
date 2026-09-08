@@ -241,7 +241,13 @@
   .bar-row { display: grid; grid-template-columns: 96px 1fr 60px; align-items: center; gap: 10px; font-size: 12px; }
   .bar-track { background: var(--gridline); border-radius: 4px; height: 14px; overflow: hidden; }
   .bar-fill { background: var(--series-blue); height: 100%; border-radius: 4px 0 0 4px; }
+  .bar-fill-29cm { background: var(--series-aqua); }
   .bar-value { text-align: right; color: var(--text-secondary); font-variant-numeric: tabular-nums; }
+  .bar-group { margin-bottom: 10px; }
+  .bar-group-label { font-size: 12px; margin-bottom: 4px; }
+  .bar-row-sub { grid-template-columns: 56px 1fr 60px; margin-bottom: 3px; }
+  .bar-platform { color: var(--text-muted); font-size: 11px; }
+  .bar-row-sub .bar-track { height: 10px; }
 
   html, body { height: 100%; overscroll-behavior-x: none; touch-action: pan-y; }
   .screens { display: flex; width: 200%; height: 100%; min-height: 100vh; transition: transform 0.3s ease; will-change: transform; }
@@ -443,13 +449,14 @@
       <ul class="kw-list" id="discount-list"><li class="loading">불러오는 중...</li></ul>
     </div>
     <div class="card">
-      <h2>카테고리별 평균 가격대 <span class="tag">무신사 기준</span></h2>
+      <h2>카테고리별 평균 가격대 <span class="tag">무신사 · 29CM</span></h2>
       <div class="tabs" id="gender-tabs">
         <button class="tab-btn active" data-gender="all">전체</button>
         <button class="tab-btn" data-gender="male">남자</button>
         <button class="tab-btn" data-gender="female">여자</button>
       </div>
       <div class="bar-chart" id="price-chart"><div class="loading">불러오는 중...</div></div>
+      <div class="muted-note" style="margin-top:6px;">29CM은 성별 구분 데이터가 없어 전체 기준 평균가만 표시됩니다.</div>
     </div>
   </div>
 
@@ -1002,23 +1009,52 @@ function renderBrandShareChart() {
   });
 }
 
+// 무신사와 29CM은 같은 카테고리를 서로 다른 이름으로 부르는 경우가 있어 라벨을 맞춰준다.
+const CM29_CATEGORY_LABEL_ALIASES = {
+  "반소매 티셔츠": "반팔티",
+  "긴소매 티셔츠": "긴팔티",
+  "후드 티셔츠": "후드티",
+};
+
 function renderPriceChart(gender = "all") {
   const el = document.getElementById("price-chart");
   const categories = state.categoryPriceByGender?.categories || {};
   const codes = Object.keys(categories);
   if (!codes.length) { el.innerHTML = "<div class='loading'>데이터 없음</div>"; return; }
-  const avgs = codes
+
+  const cm29ByLabel = {};
+  Object.values(state.cm29?.priceStats || {}).forEach(stat => {
+    if (stat.label) cm29ByLabel[stat.label] = stat;
+  });
+
+  const rows = codes
     .map(code => ({ cat: categories[code].label, stat: categories[code][gender] }))
     .filter(a => a.stat)
-    .map(a => ({ cat: a.cat, n: a.stat.count, avg: a.stat.avg }))
+    .map(a => {
+      const cm29Label = CM29_CATEGORY_LABEL_ALIASES[a.cat] || a.cat;
+      return { cat: a.cat, avg: a.stat.avg, cm29Avg: cm29ByLabel[cm29Label]?.avg ?? null };
+    })
     .sort((x, y) => y.avg - x.avg);
-  if (!avgs.length) { el.innerHTML = "<div class='muted-note'>표본이 없습니다.</div>"; return; }
-  const max = Math.max(...avgs.map(a => a.avg), 1);
-  el.innerHTML = avgs.map(a => `
-    <div class="bar-row">
-      <div>${a.cat}</div>
-      <div class="bar-track"><div class="bar-fill" style="width:${(a.avg / max * 100).toFixed(1)}%"></div></div>
-      <div class="bar-value">${a.avg.toLocaleString("ko-KR")}</div>
+  if (!rows.length) { el.innerHTML = "<div class='muted-note'>표본이 없습니다.</div>"; return; }
+  const max = Math.max(...rows.map(a => a.avg), ...rows.map(a => a.cm29Avg || 0), 1);
+  el.innerHTML = rows.map(a => `
+    <div class="bar-group">
+      <div class="bar-group-label">${a.cat}</div>
+      <div class="bar-row bar-row-sub">
+        <div class="bar-platform">무신사</div>
+        <div class="bar-track"><div class="bar-fill" style="width:${(a.avg / max * 100).toFixed(1)}%"></div></div>
+        <div class="bar-value">${a.avg.toLocaleString("ko-KR")}</div>
+      </div>
+      <div class="bar-row bar-row-sub">
+        <div class="bar-platform">29CM</div>
+        ${a.cm29Avg != null ? `
+          <div class="bar-track"><div class="bar-fill bar-fill-29cm" style="width:${(a.cm29Avg / max * 100).toFixed(1)}%"></div></div>
+          <div class="bar-value">${a.cm29Avg.toLocaleString("ko-KR")}</div>
+        ` : `
+          <div class="bar-track"></div>
+          <div class="bar-value">-</div>
+        `}
+      </div>
     </div>
   `).join("");
 }
