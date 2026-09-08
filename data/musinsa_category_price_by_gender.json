@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-09-08T05:23:33.292957+00:00",
+  "updatedAt": "2026-09-08T09:52:02.165621+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 34588,
-        "min": 6800,
+        "avg": 35725,
+        "min": 11900,
         "max": 88000,
         "count": 60
       },
       "male": {
-        "avg": 34267,
-        "min": 6800,
+        "avg": 35793,
+        "min": 11900,
         "max": 88000,
-        "count": 19
+        "count": 18
       },
       "female": {
-        "avg": 35058,
+        "avg": 36538,
         "min": 15750,
-        "max": 69000,
-        "count": 26
+        "max": 75000,
+        "count": 27
       },
       "items": [
         {
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 58464,
+        "avg": 58196,
         "min": 12950,
         "max": 227050,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 8
       },
       "female": {
-        "avg": 58832,
+        "avg": 58656,
         "min": 12950,
         "max": 148990,
         "count": 35
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 61562,
+        "avg": 62644,
         "min": 13800,
         "max": 169000,
         "count": 60
@@ -985,10 +985,10 @@
         "count": 15
       },
       "female": {
-        "avg": 54980,
+        "avg": 54564,
         "min": 25510,
         "max": 169000,
-        "count": 22
+        "count": 21
       },
       "items": [
         {
@@ -1283,8 +1283,8 @@
           "name": "V-NECK HOODIE IN MELANGE GREY",
           "price": 78000,
           "originalPrice": 78000,
-          "discountRate": 28,
-          "finalPrice": 56160,
+          "discountRate": 10,
+          "finalPrice": 70200,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260818/7092570/7092570_17872168995283_500.jpg",
@@ -1296,22 +1296,22 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 60408,
+        "avg": 61149,
         "min": 23250,
         "max": 180000,
         "count": 60
       },
       "male": {
-        "avg": 63217,
+        "avg": 63717,
         "min": 25560,
         "max": 180000,
         "count": 32
       },
       "female": {
-        "avg": 59841,
+        "avg": 59562,
         "min": 23250,
         "max": 102400,
-        "count": 22
+        "count": 23
       },
       "items": [
         {
@@ -1421,6 +1421,21 @@
         },
         {
           "rank": 8,
+          "id": "ms-6983305",
+          "brand": "비터셀즈",
+          "name": "오버사이즈드 페이브 스트라이프 셔츠-아이보리",
+          "price": 65000,
+          "originalPrice": 65000,
+          "discountRate": 19,
+          "finalPrice": 52650,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260803/6983305/6983305_17872215270570_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6983305",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 9,
           "id": "ms-7063230",
           "brand": "아웃스탠딩",
           "name": "VINTAGE OXFORD BD SHIRT_BLUE",
@@ -1435,7 +1450,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-6989124",
           "brand": "디앤에스알",
           "name": "릴렉스 체크 셔츠 블루",
@@ -1450,14 +1465,14 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-7116333",
           "brand": "미쏘",
           "name": "레이어드 오프숄더 블라우스_MIWBLG931G",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 26,
-          "finalPrice": 44170,
+          "discountRate": 25,
+          "finalPrice": 44930,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260820/7116333/7116333_17883089080325_500.jpg",
@@ -1465,7 +1480,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-7048539",
           "brand": "드로우핏",
           "name": "[오정규X드로우핏] 애프터 세미 크롭 데님 셔츠 [3color]",
@@ -1480,7 +1495,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-6085461",
           "brand": "레테르코모",
           "name": "시티팝 프렌치 체크셔츠 다크네이비",
@@ -1495,7 +1510,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-6978057",
           "brand": "마인드브릿지",
           "name": "코튼100% 잔 스트라이프 오버핏 긴팔 셔츠",
@@ -1510,7 +1525,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-6999953",
           "brand": "그로우하이드",
           "name": "티톤 더블 버튼 슬림 7부 셔츠_차콜",
@@ -1525,7 +1540,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-7045465",
           "brand": "레터프롬문",
           "name": "헤이즐 프릴 7부 블라우스 ( 아이보리 )",
@@ -1540,7 +1555,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-6957240",
           "brand": "에스피오나지",
           "name": "Multi Check Comfort Shirt Ivory",
@@ -1555,7 +1570,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-7063217",
           "brand": "아웃스탠딩",
           "name": "VINTAGE CHECK BD SHIRT_BEIGE CHECK",
@@ -1570,7 +1585,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-6951157",
           "brand": "디미트리블랙",
           "name": "[10주년기획] © 모두의 데일리 런드리 셔츠_7 COLOR",
@@ -1585,7 +1600,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-7104510",
           "brand": "쿠어",
           "name": "가먼트 워시드 퍼티그 셔츠 (워시드카키)",
@@ -1598,28 +1613,13 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260819/7104510/7104510_17871173194815_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7104510",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-5354751",
-          "brand": "비터셀즈",
-          "name": "오버사이즈드 에센셜 셔츠-아이보리",
-          "price": 59000,
-          "originalPrice": 59000,
-          "discountRate": 24,
-          "finalPrice": 44840,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250822/5354751/5354751_17575786735053_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5354751",
-          "displayGenderText": "여성"
         }
       ]
     },
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 69312,
+        "avg": 69244,
         "min": 9900,
         "max": 683050,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 24
       },
       "female": {
-        "avg": 60342,
+        "avg": 60187,
         "min": 13900,
         "max": 124200,
         "count": 26
@@ -1689,8 +1689,8 @@
           "name": "[소프트얀] 딥 브이넥 니트_SPKWG49G01",
           "price": 29900,
           "originalPrice": 29900,
-          "discountRate": 0,
-          "finalPrice": 29900,
+          "discountRate": 14,
+          "finalPrice": 25860,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260826/7169307/7169307_17877231518504_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-105845",
+          "id": "ms-105836",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,7 +2265,7 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 71614,
+        "avg": 71511,
         "min": 10000,
         "max": 169100,
         "count": 60
@@ -2588,7 +2588,7 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 44942,
+        "avg": 44992,
         "min": 9900,
         "max": 174000,
         "count": 60
@@ -2600,9 +2600,9 @@
         "count": 41
       },
       "female": {
-        "avg": 38102,
+        "avg": 38434,
         "min": 9900,
-        "max": 53910,
+        "max": 56900,
         "count": 9
       },
       "items": [
@@ -2778,8 +2778,8 @@
           "name": "[NEW 컬러 출시] 우먼즈 로 웨이스트 딥 턱 엑스트라 와이드 히든 밴딩 슬랙스 [다크 브라운]",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 10,
-          "finalPrice": 53910,
+          "discountRate": 5,
+          "finalPrice": 56900,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260317/6143064/6143064_17858194691433_500.jpg",
@@ -2911,13 +2911,13 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 49348,
+        "avg": 49113,
         "min": 7900,
         "max": 139000,
         "count": 60
       },
       "male": {
-        "avg": 50638,
+        "avg": 50184,
         "min": 27900,
         "max": 139000,
         "count": 19
@@ -3026,8 +3026,8 @@
           "name": "핀터 크롭 스웻 팬츠 - 3 COLOR",
           "price": 59000,
           "originalPrice": 59000,
-          "discountRate": 32,
-          "finalPrice": 39900,
+          "discountRate": 47,
+          "finalPrice": 31270,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260804/6987908/6987908_17866900533567_500.jpg",
@@ -3368,7 +3368,7 @@
           "finalPrice": 62900,
           "category": "003009",
           "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/prd_img/20260730/6961597/detail_6961597_17860729394688_500.jpg",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260730/6961597/6961597_17860729388590_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6961597",
           "displayGenderText": "여성"
         },
