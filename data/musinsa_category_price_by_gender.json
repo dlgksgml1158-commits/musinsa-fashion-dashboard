@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T22:54:21.311645+00:00",
+  "updatedAt": "2026-09-08T00:45:51.572141+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -973,16 +973,16 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 61534,
+        "avg": 62070,
         "min": 13800,
         "max": 169000,
         "count": 60
       },
       "male": {
-        "avg": 74079,
+        "avg": 76520,
         "min": 13800,
         "max": 162000,
-        "count": 15
+        "count": 14
       },
       "female": {
         "avg": 54904,
@@ -1128,21 +1128,6 @@
         },
         {
           "rank": 10,
-          "id": "ms-7019590",
-          "brand": "인템포무드",
-          "name": "캐빈 라이트 후디 : 3컬러",
-          "price": 57000,
-          "originalPrice": 57000,
-          "discountRate": 30,
-          "finalPrice": 39900,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260807/7019590/7019590_17884151721681_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7019590",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 11,
           "id": "ms-7058608",
           "brand": "난데",
           "name": "CP쭈리 무지 오버핏 후드 티셔츠 7color",
@@ -1157,7 +1142,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-7117345",
           "brand": "칙스",
           "name": "와플 헨리넥 후드 티셔츠 오트밀",
@@ -1172,7 +1157,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-6970728",
           "brand": "러브이즈트루",
           "name": "RL ROSARY HOOD T-SHIRT(BLACK)",
@@ -1187,7 +1172,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-4474670",
           "brand": "신앤리",
           "name": "(W) 테일러 코튼 스웻 후드 티셔츠 네이비",
@@ -1202,7 +1187,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-7103003",
           "brand": "디파이클럽로버스",
           "name": "DCR Sign 레글런 후드 롱슬리브 2color (블랙/메란지)",
@@ -1217,7 +1202,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6968264",
           "brand": "미세키서울",
           "name": "Double placket slim hoodie BLACK",
@@ -1232,7 +1217,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7161037",
           "brand": "디미트리블랙",
           "name": "VLAD 래글런 헨리넥 후드 티셔츠_(VTG 아트웍) 3 COLOR",
@@ -1247,7 +1232,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5484717",
           "brand": "어 월드 올",
           "name": "NAME FONT 오버핏 후드(SAHAWA-0009)",
@@ -1262,7 +1247,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-4670667",
           "brand": "리트리버클럽",
           "name": "ALIVE HOODIE [PIGMENT BLACK]",
@@ -1277,7 +1262,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7092570",
           "brand": "다이닛",
           "name": "V-NECK HOODIE IN MELANGE GREY",
@@ -1289,6 +1274,21 @@
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260818/7092570/7092570_17872168995283_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7092570",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5429074",
+          "brand": "라이크더모스트",
+          "name": "레오파드 패턴 볼링 8 트레이닝 셋업_3colors",
+          "price": 99800,
+          "originalPrice": 99800,
+          "discountRate": 60,
+          "finalPrice": 39920,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250909/5429074/5429074_17574699783472_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5429074",
           "displayGenderText": "여성"
         }
       ]
@@ -1942,22 +1942,22 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 152785,
+        "avg": 152656,
         "min": 23950,
         "max": 758100,
         "count": 60
       },
       "male": {
-        "avg": 205459,
+        "avg": 208287,
         "min": 29800,
         "max": 758100,
-        "count": 25
+        "count": 24
       },
       "female": {
-        "avg": 88696,
+        "avg": 90658,
         "min": 33150,
         "max": 203490,
-        "count": 20
+        "count": 21
       },
       "items": [
         {
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-105425",
+          "id": "ms-105837",
           "brand": "",
           "name": "",
           "price": null,
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 49088,
+        "avg": 49352,
         "min": 7900,
         "max": 139000,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 19
       },
       "female": {
-        "avg": 48936,
+        "avg": 49625,
         "min": 7900,
         "max": 122320,
         "count": 23
