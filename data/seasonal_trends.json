@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T00:45:37.601492+00:00",
+  "updatedAt": "2026-09-08T05:23:19.865486+00:00",
   "items": [
     {
       "title": "'안나 초이'가 조각적인 드레스로 개척하는 '쿠튀르'로가는 길",
@@ -42,6 +42,14 @@
       "source": "FASHIONSNAP"
     },
     {
+      "title": "올해의 트렌드는? 가을 겨울 패션을 갱신하는 6개의 옷입기【여성】",
+      "titleOriginal": "今年のトレンドは？　秋冬ファッションを更新する6つの着こなし【ウィメンズ】",
+      "link": "https://www.fashionsnap.com/article/26aw-key-trend-womens/",
+      "season": "26FW",
+      "pubDate": "2026-09-08T03:00:00+00:00",
+      "source": "FASHIONSNAP"
+    },
+    {
       "title": "제4회 패션의 「극적」이 되는 것은",
       "titleOriginal": "第4回　ファッションの「劇的」なるものとは",
       "link": "https://www.fashionsnap.com/article/paris-fashion-26aw-column-06/",
@@ -71,14 +79,6 @@
       "link": "https://www.fashionsnap.com/article/setchu26aw-inetrview/",
       "season": "26FW",
       "pubDate": "2026-07-27T05:00:00+00:00",
-      "source": "FASHIONSNAP"
-    },
-    {
-      "title": "피렌체 밀라노 파리 총람 \"2027년 봄 여름 남성 트렌드\"전 9기사 정리",
-      "titleOriginal": "フィレンツェ・ミラノ・パリ総覧「2027年春夏メンズトレンド」全9記事まとめ",
-      "link": "https://www.fashionsnap.com/article/2027ss-mens-matome/",
-      "season": "26FW",
-      "pubDate": "2026-07-27T03:00:00+00:00",
       "source": "FASHIONSNAP"
     },
     {
@@ -150,6 +150,10 @@
       }
     ],
     "26FW": [
+      {
+        "label": "블랙",
+        "hex": "#1A1A1A"
+      },
       {
         "label": "그린",
         "hex": "#4B9B6E"
