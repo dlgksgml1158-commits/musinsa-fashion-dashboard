@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T05:24:38.475897+00:00",
+  "updatedAt": "2026-09-09T09:55:51.201035+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -587,8 +587,8 @@
           "name": "83플래그 폴라 버튼 풀오버(5colors) NFL2366",
           "price": 79000,
           "originalPrice": 79000,
-          "discountRate": 30,
-          "finalPrice": 55300,
+          "discountRate": 37,
+          "finalPrice": 49770,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250825/5356728/5356728_17865980292436_500.jpg",
@@ -597,17 +597,17 @@
         },
         {
           "rank": 20,
-          "id": "ms-5861231",
-          "brand": "디스커스 애슬레틱",
-          "name": "[2PACK/세미크롭핏] 피그먼트 롱 슬리브 티셔츠 3colors",
-          "price": 79900,
-          "originalPrice": 79900,
-          "discountRate": 38,
-          "finalPrice": 49900,
+          "id": "ms-7090510",
+          "brand": "데우스 엑스 마키나",
+          "name": "Seoul College Address Ls Tee_Black",
+          "price": 78000,
+          "originalPrice": 78000,
+          "discountRate": 0,
+          "finalPrice": 78000,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20251230/5861231/5861231_17857279703045_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5861231",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260818/7090510/7090510_17885037085111_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7090510",
           "displayGenderText": "공용"
         }
       ]
@@ -942,8 +942,8 @@
           "name": "폴라 벤트 후디(4colors) NFL2256",
           "price": 79000,
           "originalPrice": 79000,
-          "discountRate": 15,
-          "finalPrice": 67150,
+          "discountRate": 37,
+          "finalPrice": 49700,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260721/6886227/6886227_17872979050831_500.jpg",
@@ -1002,11 +1002,11 @@
           "name": "[류혜영 PICK] [12COLORS] 퍼니 풀오버 후디",
           "price": 89900,
           "originalPrice": 89900,
-          "discountRate": 10,
-          "finalPrice": 80910,
+          "discountRate": 20,
+          "finalPrice": 71920,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250812/5315438/5315438_17881689700696_500.jpg",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250812/5315438/5315438_17889343170456_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5315438",
           "displayGenderText": "공용"
         },
@@ -1772,21 +1772,6 @@
         },
         {
           "rank": 17,
-          "id": "ms-7074392",
-          "brand": "아수라",
-          "name": "PURE WOOL DEEP V KNIT (DARK PURPLE)",
-          "price": 98000,
-          "originalPrice": 98000,
-          "discountRate": 19,
-          "finalPrice": 79380,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260813/7074392/7074392_17879195627172_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7074392",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 18,
           "id": "ms-6987920",
           "brand": "수아레",
           "name": "데일리 크롭 카라 니트 - 5 COLOR",
@@ -1801,7 +1786,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-4871107",
           "brand": "데꼬로소",
           "name": "베일 헨리넥 니트 [블랙]",
@@ -1816,7 +1801,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6203854",
           "brand": "언탭트 스튜디오",
           "name": "워셔블 쿨 코튼 핸리넥 라운드 반팔 니트 5COLOR",
@@ -1829,6 +1814,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260326/6203854/6203854_17745123810080_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6203854",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4388024",
+          "brand": "더니트컴퍼니",
+          "name": "워셔블 코튼 크루넥 니트 12color",
+          "price": 57000,
+          "originalPrice": 57000,
+          "discountRate": 60,
+          "finalPrice": 22800,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240830/4388024/4388024_17258834972522_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4388024",
+          "displayGenderText": "남성"
         }
       ]
     },
@@ -2107,6 +2107,21 @@
         },
         {
           "rank": 19,
+          "id": "ms-6991196",
+          "brand": "살로몬",
+          "name": "크로스 인슐레이션 자켓_LD0274200",
+          "price": 320000,
+          "originalPrice": 320000,
+          "discountRate": 0,
+          "finalPrice": 320000,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260804/6991196/6991196_17871305055027_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6991196",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
           "id": "ms-5936556",
           "brand": "웬즈데이오아시스",
           "name": "[NERDKING] 올웨이즈 워셔블 크롭 라운드 가디건_5COLOR",
@@ -2119,21 +2134,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260126/5936556/5936556_17877097090228_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5936556",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6593577",
-          "brand": "무신사 스탠다드 우먼",
-          "name": "우먼즈 슬럽 리브드 탑 가디건 세트 [블랙]",
-          "price": 45900,
-          "originalPrice": 45900,
-          "discountRate": 0,
-          "finalPrice": 45900,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260602/6593577/6593577_17834094494881_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6593577",
-          "displayGenderText": "여성"
         }
       ]
     },
