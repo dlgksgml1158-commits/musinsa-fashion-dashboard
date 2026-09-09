@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T22:46:17.266411+00:00",
+  "updatedAt": "2026-09-09T00:44:47.127515+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 53596,
+        "avg": 53538,
         "min": 23630,
         "max": 132050,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 16
       },
       "female": {
-        "avg": 53803,
+        "avg": 53695,
         "min": 23630,
         "max": 97920,
         "count": 32
@@ -557,21 +557,6 @@
         },
         {
           "rank": 15,
-          "id": "ms-6998131",
-          "brand": "씨타",
-          "name": "Daily Soft Slim Raglan Tee_CTT3039(Navy)",
-          "price": 45000,
-          "originalPrice": 45000,
-          "discountRate": 29,
-          "finalPrice": 31870,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/6998131/6998131_17871834347039_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6998131",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 16,
           "id": "ms-7011351",
           "brand": "플레이스 스튜디오",
           "name": "플레이스 아플리케 큐빅 리벳 포인트 소프트 보트넥 롱슬리브 긴팔 티셔츠 _2COLOR",
@@ -586,7 +571,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7013343",
           "brand": "에이이에이이",
           "name": "FLOWER V NECK TEE [GREEN]",
@@ -601,7 +586,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-7022626",
           "brand": "챔피온",
           "name": "C로고 오버핏 조그택 롱슬리브 티셔츠 Black",
@@ -616,7 +601,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6955600",
           "brand": "마뗑킴",
           "name": "TRIPLE LAYERED MULTI WAY TOP IN NAVY",
@@ -631,7 +616,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7033295",
           "brand": "쿠어",
           "name": "소프트 브러쉬드 멀티핀 스트라이프 티셔츠 (차콜)",
@@ -644,6 +629,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260810/7033295/7033295_17863292416888_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7033295",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6875753",
+          "brand": "마리떼 프랑소와 저버",
+          "name": "W HENLEY NECK LAYERED LONG SLEEVE TEE navy",
+          "price": 79000,
+          "originalPrice": 79000,
+          "discountRate": 0,
+          "finalPrice": 79000,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260720/6875753/6875753_17865947122564_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6875753",
+          "displayGenderText": "여성"
         }
       ]
     },
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-105841",
+          "id": "ms-105850",
           "brand": "",
           "name": "",
           "price": null,
