@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2026-09-09T00:44:47.127515+00:00",
+  "updatedAt": "2026-09-09T05:24:30.181594+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 33251,
+        "avg": 33176,
         "min": 11900,
         "max": 88000,
         "count": 60
       },
       "male": {
-        "avg": 32974,
+        "avg": 33446,
         "min": 11900,
         "max": 88000,
-        "count": 16
+        "count": 15
       },
       "female": {
-        "avg": 34445,
+        "avg": 34304,
         "min": 15250,
         "max": 70200,
         "count": 32
@@ -179,8 +179,8 @@
           "name": "PPG VINTAGE CARTOON TEE WHITE",
           "price": 45000,
           "originalPrice": 45000,
-          "discountRate": 30,
-          "finalPrice": 31500,
+          "discountRate": 40,
+          "finalPrice": 27000,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260703/6778769/6778769_17839295854344_500.jpg",
@@ -327,19 +327,19 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 53538,
+        "avg": 53832,
         "min": 23630,
         "max": 132050,
         "count": 60
       },
       "male": {
-        "avg": 59108,
+        "avg": 60358,
         "min": 28310,
         "max": 132050,
         "count": 16
       },
       "female": {
-        "avg": 53695,
+        "avg": 53825,
         "min": 23630,
         "max": 97920,
         "count": 32
@@ -557,6 +557,21 @@
         },
         {
           "rank": 15,
+          "id": "ms-6998131",
+          "brand": "씨타",
+          "name": "Daily Soft Slim Raglan Tee_CTT3039(Navy)",
+          "price": 45000,
+          "originalPrice": 45000,
+          "discountRate": 29,
+          "finalPrice": 31870,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/6998131/6998131_17889139362378_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6998131",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 16,
           "id": "ms-7011351",
           "brand": "플레이스 스튜디오",
           "name": "플레이스 아플리케 큐빅 리벳 포인트 소프트 보트넥 롱슬리브 긴팔 티셔츠 _2COLOR",
@@ -571,7 +586,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-7013343",
           "brand": "에이이에이이",
           "name": "FLOWER V NECK TEE [GREEN]",
@@ -586,7 +601,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-7022626",
           "brand": "챔피온",
           "name": "C로고 오버핏 조그택 롱슬리브 티셔츠 Black",
@@ -601,7 +616,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-6955600",
           "brand": "마뗑킴",
           "name": "TRIPLE LAYERED MULTI WAY TOP IN NAVY",
@@ -616,7 +631,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-7033295",
           "brand": "쿠어",
           "name": "소프트 브러쉬드 멀티핀 스트라이프 티셔츠 (차콜)",
@@ -629,28 +644,13 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260810/7033295/7033295_17863292416888_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7033295",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6875753",
-          "brand": "마리떼 프랑소와 저버",
-          "name": "W HENLEY NECK LAYERED LONG SLEEVE TEE navy",
-          "price": 79000,
-          "originalPrice": 79000,
-          "discountRate": 0,
-          "finalPrice": 79000,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260720/6875753/6875753_17865947122564_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6875753",
-          "displayGenderText": "여성"
         }
       ]
     },
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 58885,
+        "avg": 58504,
         "min": 12950,
         "max": 227050,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 8
       },
       "female": {
-        "avg": 58812,
+        "avg": 58118,
         "min": 12950,
         "max": 148990,
         "count": 33
@@ -915,8 +915,8 @@
           "name": "우먼즈 더블 니트 칼라드 스웨트셔츠 [다크 브라운]",
           "price": 45900,
           "originalPrice": 45900,
-          "discountRate": 5,
-          "finalPrice": 43600,
+          "discountRate": 20,
+          "finalPrice": 36670,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260602/6596164/6596164_17882260329139_500.jpg",
@@ -1619,16 +1619,16 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 73409,
+        "avg": 73210,
         "min": 9900,
         "max": 683050,
         "count": 60
       },
       "male": {
-        "avg": 56727,
+        "avg": 57440,
         "min": 9900,
         "max": 159300,
-        "count": 22
+        "count": 21
       },
       "female": {
         "avg": 67774,
@@ -1942,19 +1942,19 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 170731,
+        "avg": 170298,
         "min": 29800,
         "max": 594000,
         "count": 60
       },
       "male": {
-        "avg": 251674,
-        "min": 29800,
+        "avg": 260149,
+        "min": 47880,
         "max": 594000,
-        "count": 26
+        "count": 25
       },
       "female": {
-        "avg": 101206,
+        "avg": 100567,
         "min": 33150,
         "max": 227970,
         "count": 25
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-105850",
+          "id": "ms-105864",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,20 +2265,20 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 75262,
+        "avg": 75243,
         "min": 10000,
         "max": 189000,
         "count": 60
       },
       "male": {
-        "avg": 75275,
+        "avg": 76674,
         "min": 10000,
         "max": 189000,
-        "count": 27
+        "count": 26
       },
       "female": {
-        "avg": 76869,
-        "min": 19200,
+        "avg": 76792,
+        "min": 18050,
         "max": 184000,
         "count": 15
       },
@@ -2437,7 +2437,7 @@
           "rank": 11,
           "id": "ms-7066723",
           "brand": "효지",
-          "name": "[해피가이정호 PICK] 26 FW 논페이드 세미 커브드 데님 팬츠 (2컬러)",
+          "name": "26 FW 논페이드 세미 커브드 데님 팬츠 (2컬러)",
           "price": 77000,
           "originalPrice": 77000,
           "discountRate": 43,
@@ -2588,19 +2588,19 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 45623,
+        "avg": 45656,
         "min": 9900,
         "max": 174000,
         "count": 60
       },
       "male": {
-        "avg": 49604,
+        "avg": 50323,
         "min": 15900,
         "max": 174000,
-        "count": 41
+        "count": 40
       },
       "female": {
-        "avg": 42894,
+        "avg": 41692,
         "min": 9900,
         "max": 63080,
         "count": 10
@@ -2889,7 +2889,7 @@
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260327/6213533/6213533_17746008836359_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6213533",
-          "displayGenderText": "남성"
+          "displayGenderText": "공용"
         },
         {
           "rank": 20,
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 50397,
+        "avg": 50014,
         "min": 7900,
         "max": 139000,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 15
       },
       "female": {
-        "avg": 51440,
+        "avg": 51199,
         "min": 7900,
         "max": 122320,
         "count": 25
@@ -2966,8 +2966,8 @@
           "name": "[NEW 컬러 출시] 우먼즈 더블 니트 투 턱 와이드 라운지 스웨트 팬츠 [건메탈]",
           "price": 39900,
           "originalPrice": 39900,
-          "discountRate": 5,
-          "finalPrice": 37900,
+          "discountRate": 20,
+          "finalPrice": 31870,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260415/6317607/6317607_17865081142412_500.jpg",
@@ -2996,8 +2996,8 @@
           "name": "[소올 PICK] 솔트 스웨트 팬츠 (퍼플)",
           "price": 74000,
           "originalPrice": 74000,
-          "discountRate": 34,
-          "finalPrice": 48560,
+          "discountRate": 40,
+          "finalPrice": 44400,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260813/7073959/7073959_17881513296548_500.jpeg",
@@ -3101,8 +3101,8 @@
           "name": "[UNISEX] 벤틸레이션 팬츠 - 차콜",
           "price": 78000,
           "originalPrice": 78000,
-          "discountRate": 31,
-          "finalPrice": 53850,
+          "discountRate": 40,
+          "finalPrice": 46830,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260810/7035544/7035544_17865990572961_500.jpg",
@@ -3221,8 +3221,8 @@
           "name": "[UNISEX] 사이드 스트링 팬츠 - 블랙",
           "price": 64000,
           "originalPrice": 64000,
-          "discountRate": 31,
-          "finalPrice": 43950,
+          "discountRate": 40,
+          "finalPrice": 38190,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260810/7032823/7032823_17866108469988_500.jpg",
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 43499,
+        "avg": 43187,
         "min": 10900,
         "max": 109000,
         "count": 60
