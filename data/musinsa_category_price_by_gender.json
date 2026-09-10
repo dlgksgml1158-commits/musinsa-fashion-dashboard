@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-10T13:42:06.716516+00:00",
+  "updatedAt": "2026-09-10T17:20:22.433656+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 36044,
+        "avg": 36002,
         "min": 11900,
         "max": 88000,
         "count": 60
@@ -16,7 +16,7 @@
         "count": 15
       },
       "female": {
-        "avg": 36484,
+        "avg": 36411,
         "min": 15250,
         "max": 70200,
         "count": 34
@@ -327,8 +327,8 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 56268,
-        "min": 24670,
+        "avg": 56244,
+        "min": 24800,
         "max": 132050,
         "count": 60
       },
@@ -339,8 +339,8 @@
         "count": 16
       },
       "female": {
-        "avg": 56401,
-        "min": 24670,
+        "avg": 56356,
+        "min": 24800,
         "max": 108800,
         "count": 33
       },
@@ -562,8 +562,8 @@
           "name": "Daily Soft Slim Raglan Tee_CTT3039(Navy)",
           "price": 45000,
           "originalPrice": 45000,
-          "discountRate": 29,
-          "finalPrice": 31870,
+          "discountRate": 33,
+          "finalPrice": 30270,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/6998131/6998131_17889139362378_500.jpg",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 60957,
+        "avg": 61212,
         "min": 12950,
         "max": 227050,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 8
       },
       "female": {
-        "avg": 61245,
+        "avg": 61709,
         "min": 12950,
         "max": 148990,
         "count": 33
@@ -1296,13 +1296,13 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 77838,
+        "avg": 78035,
         "min": 19900,
         "max": 378000,
         "count": 60
       },
       "male": {
-        "avg": 80833,
+        "avg": 81191,
         "min": 19900,
         "max": 378000,
         "count": 33
@@ -1426,8 +1426,8 @@
           "name": "DOUBLE FACE GINGHAM WORK SHIRT [CHARCOAL]",
           "price": 118000,
           "originalPrice": 118000,
-          "discountRate": 15,
-          "finalPrice": 100300,
+          "discountRate": 5,
+          "finalPrice": 112100,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260812/7055205/7055205_17882440439459_500.jpg",
@@ -1619,13 +1619,13 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 74989,
+        "avg": 75137,
         "min": 24500,
         "max": 683050,
         "count": 60
       },
       "male": {
-        "avg": 58839,
+        "avg": 59243,
         "min": 24500,
         "max": 159300,
         "count": 22
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-105835",
+          "id": "ms-106349",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,13 +2588,13 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 48161,
+        "avg": 49619,
         "min": 9900,
         "max": 174000,
         "count": 60
       },
       "male": {
-        "avg": 52892,
+        "avg": 55080,
         "min": 15900,
         "max": 174000,
         "count": 40
@@ -3234,13 +3234,13 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 44516,
+        "avg": 44523,
         "min": 9990,
         "max": 109000,
         "count": 60
       },
       "male": {
-        "avg": 43502,
+        "avg": 43520,
         "min": 9990,
         "max": 109000,
         "count": 23
