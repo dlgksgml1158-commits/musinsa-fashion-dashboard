@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-09-11T01:31:56.548216+00:00",
+  "updatedAt": "2026-09-11T06:40:18.499956+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 38754,
+        "avg": 38212,
         "min": 11900,
         "max": 89100,
         "count": 60
       },
       "male": {
-        "avg": 37913,
+        "avg": 37260,
         "min": 11900,
         "max": 89100,
-        "count": 18
+        "count": 19
       },
       "female": {
-        "avg": 36954,
+        "avg": 36252,
         "min": 15250,
         "max": 69000,
-        "count": 31
+        "count": 30
       },
       "items": [
         {
@@ -29,8 +29,8 @@
           "name": "베이직 셔링 7부 티셔츠",
           "price": 43000,
           "originalPrice": 43000,
-          "discountRate": 33,
-          "finalPrice": 28600,
+          "discountRate": 34,
+          "finalPrice": 28590,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260821/7131730/7131730_17872949779651_500.jpg",
@@ -327,22 +327,22 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 53902,
+        "avg": 52990,
         "min": 12260,
         "max": 132050,
         "count": 60
       },
       "male": {
-        "avg": 64968,
+        "avg": 64504,
         "min": 31600,
         "max": 132050,
-        "count": 11
+        "count": 12
       },
       "female": {
-        "avg": 52397,
+        "avg": 50633,
         "min": 12260,
         "max": 108800,
-        "count": 36
+        "count": 35
       },
       "items": [
         {
@@ -587,21 +587,6 @@
         },
         {
           "rank": 17,
-          "id": "ms-7153422",
-          "brand": "토아베",
-          "name": "Draped Wool Tencel Layered Tee Set (Gray)",
-          "price": 79800,
-          "originalPrice": 79800,
-          "discountRate": 0,
-          "finalPrice": 79800,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260825/7153422/7153422_17876259978239_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7153422",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 18,
           "id": "ms-6968434",
           "brand": "미세키서울",
           "name": "Layered placket long sleeve CHARCOAL",
@@ -616,7 +601,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6955600",
           "brand": "마뗑킴",
           "name": "TRIPLE LAYERED MULTI WAY TOP IN NAVY",
@@ -631,7 +616,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6929088",
           "brand": "로긴 앤 로지",
           "name": "V-Neck Oversized One Shoulder 2 in 1 Black&Mint",
@@ -644,13 +629,28 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260727/6929088/6929088_17878815304789_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6929088",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7020449",
+          "brand": "락케이크",
+          "name": "Collar V Neck Top - Black",
+          "price": 74000,
+          "originalPrice": 74000,
+          "discountRate": 32,
+          "finalPrice": 50150,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260807/7020449/7020449_17875333733695_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7020449",
+          "displayGenderText": "여성"
         }
       ]
     },
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 61843,
+        "avg": 60697,
         "min": 9980,
         "max": 148990,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 12
       },
       "female": {
-        "avg": 64525,
+        "avg": 62602,
         "min": 39460,
         "max": 148990,
         "count": 35
@@ -720,8 +720,8 @@
           "name": "[한빛 PICK] Hines deep v-neck sweatshirt - Red",
           "price": 79000,
           "originalPrice": 79000,
-          "discountRate": 20,
-          "finalPrice": 63200,
+          "discountRate": 32,
+          "finalPrice": 53760,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260810/7035556/7035556_17873016365277_500.jpg",
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 67556,
+        "avg": 66632,
         "min": 26150,
         "max": 178000,
         "count": 60
@@ -985,9 +985,9 @@
         "count": 12
       },
       "female": {
-        "avg": 61801,
+        "avg": 59820,
         "min": 31500,
-        "max": 118000,
+        "max": 109650,
         "count": 28
       },
       "items": [
@@ -1133,8 +1133,8 @@
           "name": "Skin Belt Half Hood Zip (블루 블랙)",
           "price": 118000,
           "originalPrice": 118000,
-          "discountRate": 0,
-          "finalPrice": 118000,
+          "discountRate": 24,
+          "finalPrice": 90270,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260807/7024424/7024424_17870406534750_500.png",
@@ -1296,19 +1296,19 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 76814,
+        "avg": 77107,
         "min": 19900,
         "max": 378000,
         "count": 60
       },
       "male": {
-        "avg": 75845,
+        "avg": 76071,
         "min": 19900,
         "max": 378000,
         "count": 35
       },
       "female": {
-        "avg": 79145,
+        "avg": 79567,
         "min": 24500,
         "max": 121840,
         "count": 23
@@ -1619,19 +1619,19 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 74012,
-        "min": 24500,
+        "avg": 73842,
+        "min": 9900,
         "max": 683050,
         "count": 60
       },
       "male": {
-        "avg": 58002,
-        "min": 24500,
+        "avg": 57307,
+        "min": 9900,
         "max": 159300,
         "count": 21
       },
       "female": {
-        "avg": 68865,
+        "avg": 69008,
         "min": 29900,
         "max": 109440,
         "count": 31
@@ -1764,8 +1764,8 @@
           "name": "[PACK] 스크런치 + 브이넥 니트 (4color)",
           "price": 88000,
           "originalPrice": 88000,
-          "discountRate": 28,
-          "finalPrice": 63360,
+          "discountRate": 20,
+          "finalPrice": 70400,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260902/7229456/7229456_17885078118381_500.jpg",
@@ -1903,7 +1903,7 @@
           "finalPrice": 66600,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260818/7096438/7096438_17871584491315_500.jpg",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260818/7096438/7096438_17891035967972_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7096438",
           "displayGenderText": "남성"
         },
@@ -1942,22 +1942,22 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 183362,
+        "avg": 174600,
         "min": 39760,
         "max": 594000,
         "count": 60
       },
       "male": {
-        "avg": 273002,
+        "avg": 252841,
         "min": 58400,
         "max": 594000,
-        "count": 27
+        "count": 28
       },
       "female": {
-        "avg": 105298,
+        "avg": 99928,
         "min": 39920,
-        "max": 226100,
-        "count": 25
+        "max": 162520,
+        "count": 24
       },
       "items": [
         {
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-105841",
+          "id": "ms-105844",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,22 +2265,22 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 75873,
+        "avg": 76989,
         "min": 10000,
         "max": 207000,
         "count": 60
       },
       "male": {
-        "avg": 76852,
+        "avg": 78484,
         "min": 10000,
         "max": 189000,
-        "count": 28
+        "count": 27
       },
       "female": {
-        "avg": 81351,
+        "avg": 82579,
         "min": 29700,
         "max": 207000,
-        "count": 14
+        "count": 15
       },
       "items": [
         {
@@ -2330,6 +2330,21 @@
         },
         {
           "rank": 4,
+          "id": "ms-7020516",
+          "brand": "락케이크",
+          "name": "Harlow Semi Bootcut Denim - Ash Blue",
+          "price": 129000,
+          "originalPrice": 129000,
+          "discountRate": 20,
+          "finalPrice": 103200,
+          "category": "003002",
+          "categoryLabel": "데님 팬츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260807/7020516/7020516_17890895746802_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7020516",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 5,
           "id": "ms-7033221",
           "brand": "쿠어",
           "name": "브러쉬드 세미 릴렉스드 진스 (그레이시블루)",
@@ -2344,7 +2359,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "id": "ms-7161040",
           "brand": "디미트리블랙",
           "name": "[10주년기획] © 모두의 에센셜 데님 팬츠_(세미 스트레이트 핏) 4 COLOR",
@@ -2359,7 +2374,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "id": "ms-6970667",
           "brand": "트릴리온",
           "name": "[논페이드] 커브드 로우 다트 데님 팬츠_블랙",
@@ -2374,7 +2389,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "id": "ms-7033953",
           "brand": "엘무드",
           "name": "코르바 923 데님 애쉬 블루",
@@ -2389,7 +2404,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "id": "ms-6970665",
           "brand": "트릴리온",
           "name": "세미 와이드 릴렉스 데님 팬츠_5color",
@@ -2404,7 +2419,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-5487279",
           "brand": "밀리언코르",
           "name": "포미 워시드블루 스판 부츠컷 데님팬츠",
@@ -2419,7 +2434,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-7057797",
           "brand": "브랜디드",
           "name": "1735 ETERNAL BLACK JEANS [WIDE STRAIGHT]",
@@ -2434,7 +2449,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-6978438",
           "brand": "마인드브릿지",
           "name": "[ON]코튼100% 커브드 와이드 코튼 데일리 데님 팬츠 - 3color",
@@ -2449,7 +2464,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-6988738",
           "brand": "스키즘 인듀싱",
           "name": "EXPOSE LOWRISE DENIM JEANS BLUE",
@@ -2464,7 +2479,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-7066723",
           "brand": "효지",
           "name": "26 FW 논페이드 세미 커브드 데님 팬츠 (2컬러)",
@@ -2479,7 +2494,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-2710671",
           "brand": "에러스익셉티드",
           "name": "DP213 스탠다드 데님팬츠 (Dark Blue)",
@@ -2494,7 +2509,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-7167544",
           "brand": "스웨이드",
           "name": "CURVED FLARE DENIM [VINTAGE BLUE]",
@@ -2509,7 +2524,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-7096087",
           "brand": "알리스",
           "name": "[NERDKING x ALYSS] 슬릭 세미와이드 데님 팬츠_3COLOR",
@@ -2524,7 +2539,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-7074548",
           "brand": "드릭스",
           "name": "[12oz] 워시드 와이드 데님 팬츠_3color",
@@ -2539,7 +2554,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-6879046",
           "brand": "아캄",
           "name": "Dirty Waxed Denim Pants (Blue)",
@@ -2554,7 +2569,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-6989081",
           "brand": "디앤에스알",
           "name": "레가시 플레어 데님 팬츠 빈티지 블루",
@@ -2567,40 +2582,25 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260804/6989081/6989081_17864225331749_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6989081",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-858911",
-          "brand": "토피",
-          "name": "와이드 데님 팬츠 (LIGHT BLUE)",
-          "price": 49000,
-          "originalPrice": 49000,
-          "discountRate": 25,
-          "finalPrice": 36750,
-          "category": "003002",
-          "categoryLabel": "데님 팬츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20180914/858911/858911_6_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/858911",
-          "displayGenderText": "남성"
         }
       ]
     },
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 47612,
+        "avg": 47272,
         "min": 9900,
         "max": 174000,
         "count": 60
       },
       "male": {
-        "avg": 51311,
+        "avg": 51586,
         "min": 23000,
         "max": 174000,
         "count": 38
       },
       "female": {
-        "avg": 47099,
+        "avg": 44527,
         "min": 9900,
         "max": 70550,
         "count": 12
@@ -2673,8 +2673,8 @@
           "name": "우먼즈 플레어 히든 밴딩 슬랙스 [그레이]",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 0,
-          "finalPrice": 49900,
+          "discountRate": 5,
+          "finalPrice": 47400,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260521/6525758/6525758_17877314517029_500.jpg",
@@ -2808,8 +2808,8 @@
           "name": "우먼즈 로 웨이스트 딥 턱 엑스트라 와이드 히든 밴딩 슬랙스 [미디엄 그레이]",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 0,
-          "finalPrice": 59900,
+          "discountRate": 15,
+          "finalPrice": 50910,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20241202/4644449/4644449_17537696796401_500.jpg",
@@ -2898,8 +2898,8 @@
           "name": "Flare Fit Wool Pants (Black) TNPA6F101BK",
           "price": 119000,
           "originalPrice": 119000,
-          "discountRate": 19,
-          "finalPrice": 96650,
+          "discountRate": 10,
+          "finalPrice": 107100,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260814/7080032/7080032_17866753383057_500.jpg",
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 59480,
+        "avg": 59377,
         "min": 7900,
         "max": 139000,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 15
       },
       "female": {
-        "avg": 64613,
+        "avg": 64406,
         "min": 7900,
         "max": 125100,
         "count": 30
@@ -3234,19 +3234,19 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 45289,
+        "avg": 44896,
         "min": 9990,
         "max": 109000,
         "count": 60
       },
       "male": {
-        "avg": 46385,
+        "avg": 45403,
         "min": 9990,
         "max": 109000,
         "count": 22
       },
       "female": {
-        "avg": 44651,
+        "avg": 44580,
         "min": 12900,
         "max": 109000,
         "count": 28
