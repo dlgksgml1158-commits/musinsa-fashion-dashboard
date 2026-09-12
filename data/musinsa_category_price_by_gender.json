@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T09:45:32.247203+00:00",
+  "updatedAt": "2026-09-12T13:11:10.195623+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,14 +650,14 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 60650,
-        "min": 25590,
+        "avg": 59985,
+        "min": 9980,
         "max": 148990,
         "count": 60
       },
       "male": {
-        "avg": 79428,
-        "min": 42990,
+        "avg": 76102,
+        "min": 9980,
         "max": 141550,
         "count": 12
       },
@@ -915,8 +915,8 @@
           "name": "2006 더블 코튼 플리스 스웨트셔츠 더스티퍼플",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 0,
-          "finalPrice": 49900,
+          "discountRate": 80,
+          "finalPrice": 9980,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260827/7185990/7185990_17878276728887_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-105869",
+          "id": "ms-106346",
           "brand": "",
           "name": "",
           "price": null,
