@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T16:28:53.191944+00:00",
+  "updatedAt": "2026-09-13T18:51:50.673526+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 52366,
+        "avg": 52428,
         "min": 12800,
         "max": 132050,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 13
       },
       "female": {
-        "avg": 50694,
+        "avg": 50805,
         "min": 12800,
         "max": 108800,
         "count": 34
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-106744",
+          "id": "ms-106527",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,22 +2588,22 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 46053,
+        "avg": 44234,
         "min": 9900,
         "max": 174000,
         "count": 60
       },
       "male": {
-        "avg": 51429,
+        "avg": 49603,
         "min": 22390,
         "max": 174000,
-        "count": 38
+        "count": 37
       },
       "female": {
-        "avg": 41672,
+        "avg": 39228,
         "min": 9900,
         "max": 70550,
-        "count": 12
+        "count": 13
       },
       "items": [
         {
@@ -2698,21 +2698,6 @@
         },
         {
           "rank": 7,
-          "id": "ms-6462746",
-          "brand": "노이어",
-          "name": "투 턱 워시드 코튼 슬랙스 (브라운)",
-          "price": 140000,
-          "originalPrice": 140000,
-          "discountRate": 15,
-          "finalPrice": 119000,
-          "category": "003008",
-          "categoryLabel": "슬랙스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260512/6462746/6462746_17787266121379_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6462746",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 8,
           "id": "ms-2089220",
           "brand": "효지",
           "name": "[사계절]스트레이트핏 세미와이드 슬랙스 P3005 (5컬러)",
@@ -2727,7 +2712,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-5820531",
           "brand": "무신사 스탠다드",
           "name": "[이도현 PICK] 엑스트라 와이드 투 턱 히든 밴딩 슬랙스 [반다이크 브라운]",
@@ -2742,7 +2727,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-3650953",
           "brand": "트릴리온",
           "name": "에센셜 세미 와이드 슬랙스 (BROWN)",
@@ -2757,7 +2742,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-2578996",
           "brand": "시그니처",
           "name": "더블턱 와이드 슬랙스[블랙]",
@@ -2772,7 +2757,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-6969560",
           "brand": "트릴리온",
           "name": "커브드 절개 와이드 밴딩 슬랙스_블랙",
@@ -2787,7 +2772,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-5361996",
           "brand": "워크온바디오프",
           "name": "시비코 세미 와이드 원턱 릴렉스드 슬랙스 [블랙]",
@@ -2802,7 +2787,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-4644449",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 로 웨이스트 딥 턱 엑스트라 와이드 히든 밴딩 슬랙스 [미디엄 그레이]",
@@ -2817,7 +2802,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-1803235",
           "brand": "메종미네드",
           "name": "SAINT TWO TUCK WIDE PANTS BROWN",
@@ -2832,7 +2817,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-4034427",
           "brand": "리메인세컨드",
           "name": "[2PACK] 이지 세미 와이드 밴딩 슬랙스_4COLOR",
@@ -2847,7 +2832,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-5336697",
           "brand": "라이크더모스트",
           "name": "우먼 스판 히든 세미 부츠컷 슬랙스_차콜",
@@ -2862,7 +2847,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-4035806",
           "brand": "리메인세컨드",
           "name": "이지 세미 와이드 밴딩 슬랙스 [블랙]",
@@ -2877,7 +2862,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-3504230",
           "brand": "무신사 스탠다드",
           "name": "파라슈트 밴딩 슬랙스 [블랙]",
@@ -2892,7 +2877,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7080032",
           "brand": "티엔지티",
           "name": "Flare Fit Wool Pants (Black) TNPA6F101BK",
@@ -2904,6 +2889,21 @@
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260814/7080032/7080032_17866753383057_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7080032",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5152458",
+          "brand": "마인드브릿지",
+          "name": "두굿_와이드 원턱 쿨맥스 밴딩 슬랙스 - 2color",
+          "price": 79900,
+          "originalPrice": 79900,
+          "discountRate": 50,
+          "finalPrice": 39900,
+          "category": "003008",
+          "categoryLabel": "슬랙스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250528/5152458/5152458_17497883296560_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5152458",
           "displayGenderText": "남성"
         }
       ]
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 44987,
+        "avg": 44955,
         "min": 9900,
         "max": 109000,
         "count": 60
@@ -3246,8 +3246,8 @@
         "count": 22
       },
       "female": {
-        "avg": 44768,
-        "min": 12900,
+        "avg": 44699,
+        "min": 10960,
         "max": 109000,
         "count": 28
       },
@@ -3544,8 +3544,8 @@
           "name": "[ACTIVE] 라이트 쇼츠 (나일론)_SPTHG37G11",
           "price": 25900,
           "originalPrice": 25900,
-          "discountRate": 50,
-          "finalPrice": 12900,
+          "discountRate": 58,
+          "finalPrice": 10960,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6185961/6185961_17744000801198_500.jpg",
