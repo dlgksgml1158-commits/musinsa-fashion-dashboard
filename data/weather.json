@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-09-14T06:28:43.075404+00:00",
+  "updatedAt": "2026-09-14T13:08:34.182474+00:00",
   "source": "네이버 날씨",
   "city": "서울",
   "current": {
-    "temp": 26.2,
-    "weatherLabel": "구름많음",
-    "feelsLike": 25.3,
-    "humidity": 44,
-    "windSpeed": 2.7
+    "temp": 20.2,
+    "weatherLabel": "맑음",
+    "feelsLike": 20.0,
+    "humidity": 50,
+    "windSpeed": 2.3
   },
   "week": {
     "avgMax": 28,
@@ -21,8 +21,8 @@
       "dayLabel": "오늘",
       "tMax": 27.0,
       "tMin": 18.0,
-      "precipProb": 20,
-      "weatherLabel": "구름많음"
+      "precipProb": 0,
+      "weatherLabel": "맑음"
     },
     {
       "date": "2026-09-15",
@@ -35,7 +35,7 @@
     {
       "date": "2026-09-16",
       "dayLabel": "수",
-      "tMax": 29.0,
+      "tMax": 28.0,
       "tMin": 15.0,
       "precipProb": 0,
       "weatherLabel": "맑음"
@@ -45,22 +45,22 @@
       "dayLabel": "목",
       "tMax": 28.0,
       "tMin": 17.0,
-      "precipProb": 10,
-      "weatherLabel": "맑음"
+      "precipProb": 20,
+      "weatherLabel": "구름많음"
     },
     {
       "date": "2026-09-18",
       "dayLabel": "금",
       "tMax": 28.0,
-      "tMin": 19.0,
-      "precipProb": 20,
-      "weatherLabel": "구름많음"
+      "tMin": 18.0,
+      "precipProb": 0,
+      "weatherLabel": "맑음"
     },
     {
       "date": "2026-09-19",
       "dayLabel": "토",
       "tMax": 28.0,
-      "tMin": 19.0,
+      "tMin": 18.0,
       "precipProb": 20,
       "weatherLabel": "구름많음"
     },
