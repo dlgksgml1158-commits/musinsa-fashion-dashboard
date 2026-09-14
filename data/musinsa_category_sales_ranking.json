@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T18:44:14.475304+00:00",
+  "updatedAt": "2026-09-14T22:09:28.466400+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -797,6 +797,21 @@
         },
         {
           "rank": 13,
+          "id": "ms-4425038",
+          "brand": "챔피온",
+          "name": "빅 스크립트 로고 크루넥 스웨트셔츠 Normal Navy",
+          "price": 59000,
+          "originalPrice": 59000,
+          "discountRate": 40,
+          "finalPrice": 35400,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240910/4425038/4425038_17429700084189_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4425038",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 14,
           "id": "ms-6796737",
           "brand": "지프",
           "name": "[360g] M-Logo 반집업 맨투맨 (JR5TSU838MR)",
@@ -811,7 +826,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-5355751",
           "brand": "후아유",
           "name": "American Flag Sweatshirt / WHMWG2492U",
@@ -826,7 +841,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-4593868",
           "brand": "난데",
           "name": "CP쭈리 무지 오버핏 맨투맨 9color",
@@ -841,7 +856,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-4704341",
           "brand": "지프",
           "name": "[360g] M-Logo 반집업 맨투맨 (JR5TSU838MB)",
@@ -856,7 +871,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-4673419",
           "brand": "난데",
           "name": "MANHATTAN 프린팅 오버핏 맨투맨 8color",
@@ -871,7 +886,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-1755605",
           "brand": "지프",
           "name": "[360g] M-Logo 반집업 맨투맨 (JR5TSU838BK)",
@@ -886,7 +901,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-947067",
           "brand": "무신사 스탠다드",
           "name": "스웨트셔츠 [블랙]",
@@ -899,21 +914,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20190201/947067/947067_17641181220326_500.jpg",
           "productUrl": "https://www.musinsa.com/products/947067",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-5543992",
-          "brand": "비바라비다",
-          "name": "[기모선택] My Youth 헤비테리 맨투맨",
-          "price": 79900,
-          "originalPrice": 79900,
-          "discountRate": 25,
-          "finalPrice": 59900,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250929/5543992/5543992_17591221212883_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5543992",
-          "displayGenderText": "공용"
         }
       ]
     },
@@ -3222,36 +3222,6 @@
         },
         {
           "rank": 12,
-          "id": "ms-2971574",
-          "brand": "어프레쉬",
-          "name": "[2PACK SET]에어스트레치 쇼츠(러닝 스윔 헬스) 3color",
-          "price": 54000,
-          "originalPrice": 54000,
-          "discountRate": 10,
-          "finalPrice": 48600,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20221205/2971574/2971574_17851150878712_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/2971574",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 13,
-          "id": "ms-6224315",
-          "brand": "고스트리퍼블릭",
-          "name": "커브드 사이드 핀턱 벌룬 버뮤다 스웻 반바지 4Color GP-512",
-          "price": 52300,
-          "originalPrice": 52300,
-          "discountRate": 49,
-          "finalPrice": 26900,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260331/6224315/6224315_17833877496769_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6224315",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 14,
           "id": "ms-5519895",
           "brand": "레이지비",
           "name": "자이언트핏 와이드 버뮤다 스웨트 팬츠 빅로고 헬스 짐웨어 운동복 반바지 M 블랙",
@@ -3266,7 +3236,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 13,
           "id": "ms-2508821",
           "brand": "어프레쉬",
           "name": "에어스트레치 쇼츠_블랙(러닝 스윔 헬스)",
@@ -3281,7 +3251,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 14,
           "id": "ms-5589930",
           "brand": "레이지비",
           "name": "자이언트핏 와이드 버뮤다 스웨트 팬츠 빅로고 헬스 짐웨어 운동복 반바지 M (2컬러)",
@@ -3296,7 +3266,22 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 15,
+          "id": "ms-2971574",
+          "brand": "어프레쉬",
+          "name": "[2PACK SET]에어스트레치 쇼츠(러닝 스윔 헬스) 3color",
+          "price": 54000,
+          "originalPrice": 54000,
+          "discountRate": 10,
+          "finalPrice": 48600,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20221205/2971574/2971574_17851150878712_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/2971574",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 16,
           "id": "ms-6111762",
           "brand": "나이키",
           "name": "마일러 드라이 핏 7인치 브리프 라인드 러닝 쇼츠 M - 블랙 / IF2071-010",
@@ -3311,7 +3296,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-4855848",
           "brand": "난데",
           "name": "버뮤다 원턱 와이드 트레이닝 쇼츠 3color",
@@ -3324,6 +3309,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250304/4855848/4855848_17410832472917_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4855848",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 18,
+          "id": "ms-6224315",
+          "brand": "고스트리퍼블릭",
+          "name": "커브드 사이드 핀턱 벌룬 버뮤다 스웻 반바지 4Color GP-512",
+          "price": 52300,
+          "originalPrice": 52300,
+          "discountRate": 49,
+          "finalPrice": 26900,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260331/6224315/6224315_17833877496769_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6224315",
+          "displayGenderText": "공용"
         },
         {
           "rank": 19,
@@ -3342,18 +3342,18 @@
         },
         {
           "rank": 20,
-          "id": "ms-4766927",
-          "brand": "가까이 유니언즈",
-          "name": "원턱 8부 스웨트 버뮤다 팬츠 블랙",
-          "price": 45000,
-          "originalPrice": 45000,
-          "discountRate": 34,
-          "finalPrice": 29900,
+          "id": "ms-5136477",
+          "brand": "레이지비",
+          "name": "[3PACK] 에어로터치 남여 멀티 스포츠 (러닝 스윔 짐) 반바지 쇼츠 M (3컬러)",
+          "price": 115000,
+          "originalPrice": 115000,
+          "discountRate": 58,
+          "finalPrice": 48240,
           "category": "003009",
           "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250207/4766927/4766927_17391876063709_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4766927",
-          "displayGenderText": "남성"
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250521/5136477/5136477_17805479182098_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5136477",
+          "displayGenderText": "공용"
         }
       ]
     }
