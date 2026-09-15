@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T22:09:19.950925+00:00",
+  "updatedAt": "2026-09-15T00:42:36.787198+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 56008,
+        "avg": 55761,
         "min": 14800,
         "max": 132050,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 12
       },
       "female": {
-        "avg": 55710,
+        "avg": 55484,
         "min": 14800,
         "max": 115200,
         "count": 35
@@ -457,8 +457,8 @@
           "name": "XTT168 더스트 워싱 레이어드 크롭 롱슬리브 (PURPLE/BROWN)",
           "price": 69000,
           "originalPrice": 69000,
-          "discountRate": 10,
-          "finalPrice": 62100,
+          "discountRate": 20,
+          "finalPrice": 55200,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6940683/6940683_17872819795408_500.jpg",
@@ -1296,22 +1296,22 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 77913,
+        "avg": 77334,
         "min": 19900,
         "max": 378000,
         "count": 60
       },
       "male": {
-        "avg": 80091,
+        "avg": 79437,
         "min": 19900,
         "max": 378000,
-        "count": 36
+        "count": 37
       },
       "female": {
-        "avg": 75346,
+        "avg": 74618,
         "min": 24500,
         "max": 128000,
-        "count": 22
+        "count": 21
       },
       "items": [
         {
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-107353",
+          "id": "ms-106526",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,7 +2265,7 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 78324,
+        "avg": 78126,
         "min": 26310,
         "max": 230000,
         "count": 60
@@ -2277,7 +2277,7 @@
         "count": 27
       },
       "female": {
-        "avg": 85798,
+        "avg": 85005,
         "min": 29700,
         "max": 230000,
         "count": 15
