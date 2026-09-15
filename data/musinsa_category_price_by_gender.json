@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T15:06:30.996104+00:00",
+  "updatedAt": "2026-09-15T19:06:22.294373+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 55482,
+        "avg": 55417,
         "min": 12800,
         "max": 132050,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 13
       },
       "female": {
-        "avg": 54421,
+        "avg": 54306,
         "min": 12800,
         "max": 110080,
         "count": 34
@@ -637,8 +637,8 @@
           "name": "Daily Soft Slim Raglan Tee_CTT3039(Navy)",
           "price": 45000,
           "originalPrice": 45000,
-          "discountRate": 35,
-          "finalPrice": 29280,
+          "discountRate": 37,
+          "finalPrice": 28380,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/6998131/6998131_17889139362378_500.jpg",
@@ -1942,13 +1942,13 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 176036,
+        "avg": 182378,
         "min": 31130,
         "max": 594000,
         "count": 60
       },
       "male": {
-        "avg": 251118,
+        "avg": 264708,
         "min": 58400,
         "max": 594000,
         "count": 28
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-106397",
+          "id": "ms-106744",
           "brand": "",
           "name": "",
           "price": null,
