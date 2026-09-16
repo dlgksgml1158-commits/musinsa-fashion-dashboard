@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T18:56:45.508854+00:00",
+  "updatedAt": "2026-09-16T21:47:37.815121+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1942,22 +1942,22 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 159814,
+        "avg": 166936,
         "min": 35100,
         "max": 568000,
         "count": 60
       },
       "male": {
-        "avg": 219685,
+        "avg": 229267,
         "min": 58400,
         "max": 568000,
-        "count": 26
+        "count": 27
       },
       "female": {
-        "avg": 107944,
+        "avg": 110130,
         "min": 38500,
         "max": 268200,
-        "count": 27
+        "count": 26
       },
       "items": [
         {
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-106738",
+          "id": "ms-106744",
           "brand": "",
           "name": "",
           "price": null,
@@ -2247,18 +2247,18 @@
         },
         {
           "rank": 20,
-          "id": "ms-7108771",
-          "brand": "디미트리블랙",
-          "name": "2WAY 에센셜 해링턴 자켓_(C/N 워시드) 4 COLOR",
-          "price": 89900,
-          "originalPrice": 89900,
-          "discountRate": 33,
-          "finalPrice": 59900,
+          "id": "ms-7037223",
+          "brand": "브론슨",
+          "name": "Lot 391 Cossack Goatskin Leather Jacket",
+          "price": 598000,
+          "originalPrice": 598000,
+          "discountRate": 20,
+          "finalPrice": 478400,
           "category": "002",
           "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260819/7108771/7108771_17872799321634_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7108771",
-          "displayGenderText": "공용"
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260810/7037223/7037223_17872773444036_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7037223",
+          "displayGenderText": "남성"
         }
       ]
     },
