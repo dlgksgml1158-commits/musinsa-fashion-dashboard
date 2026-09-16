@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T05:22:51.263016+00:00",
+  "updatedAt": "2026-09-16T10:05:28.901146+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 53935,
+        "avg": 53598,
         "min": 12800,
         "max": 132050,
         "count": 60
@@ -339,10 +339,10 @@
         "count": 12
       },
       "female": {
-        "avg": 53970,
+        "avg": 53911,
         "min": 12800,
         "max": 110080,
-        "count": 38
+        "count": 37
       },
       "items": [
         {
@@ -482,21 +482,6 @@
         },
         {
           "rank": 10,
-          "id": "ms-7095072",
-          "brand": "꼼파뇨",
-          "name": "위어드 키튼 롱슬리브 올리브",
-          "price": 56000,
-          "originalPrice": 56000,
-          "discountRate": 35,
-          "finalPrice": 36400,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260818/7095072/7095072_17872710696712_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7095072",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 11,
           "id": "ms-7108764",
           "brand": "디미트리블랙",
           "name": "VLAD 나일론 코어 풀오버_3 COLOR",
@@ -511,7 +496,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-6978939",
           "brand": "애즈유아",
           "name": "원숄더 셔링 롱슬리브 블랙",
@@ -526,7 +511,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-7046647",
           "brand": "러프사이드",
           "name": "Waffle Long Sleeve Olive",
@@ -541,7 +526,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-7059554",
           "brand": "슬로우애시드",
           "name": "슬럽 래글런 롱슬리브 [네이비]",
@@ -556,7 +541,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6980767",
           "brand": "슈퍼서브",
           "name": "[크롭]골지 텍스처드 브이넥 긴팔 티셔츠-블랙",
@@ -571,7 +556,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-7112643",
           "brand": "퍼지스캔",
           "name": "절개 아일렛 롱슬리브 3color",
@@ -586,7 +571,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6983142",
           "brand": "비터셀즈",
           "name": "에센셜 브이 넥 티-그레이",
@@ -601,7 +586,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-7103342",
           "brand": "썸플레이스",
           "name": "[구효민 pick] 스트라이프 컬러 배색 사선 스냅 라운드넥 나그랑 롱슬리브 티셔츠 [차콜]",
@@ -616,7 +601,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-7153422",
           "brand": "토아베",
           "name": "Draped Wool Tencel Layered Tee Set (Gray)",
@@ -631,7 +616,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6968434",
           "brand": "미세키서울",
           "name": "Layered placket long sleeve CHARCOAL",
@@ -644,13 +629,28 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6968434/6968434_17877238346364_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6968434",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7144038",
+          "brand": "버닝카포네",
+          "name": "BC 크랙 레이어드 롱 슬리브 (BURGUNDY)",
+          "price": 39500,
+          "originalPrice": 39500,
+          "discountRate": 0,
+          "finalPrice": 39500,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260824/7144038/7144038_17875479846653_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7144038",
+          "displayGenderText": "남성"
         }
       ]
     },
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 64946,
+        "avg": 64411,
         "min": 9980,
         "max": 148990,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 14
       },
       "female": {
-        "avg": 65693,
+        "avg": 64847,
         "min": 21900,
         "max": 148990,
         "count": 38
@@ -1296,22 +1296,22 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 76467,
+        "avg": 70463,
         "min": 19900,
-        "max": 378000,
+        "max": 162000,
         "count": 60
       },
       "male": {
-        "avg": 81855,
+        "avg": 72601,
         "min": 19900,
-        "max": 378000,
-        "count": 33
+        "max": 162000,
+        "count": 32
       },
       "female": {
-        "avg": 70549,
+        "avg": 68437,
         "min": 24500,
         "max": 121600,
-        "count": 24
+        "count": 25
       },
       "items": [
         {
@@ -1619,22 +1619,22 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 72819,
+        "avg": 74109,
         "min": 9900,
         "max": 683050,
         "count": 60
       },
       "male": {
-        "avg": 58392,
+        "avg": 57283,
         "min": 9900,
         "max": 159300,
-        "count": 20
+        "count": 18
       },
       "female": {
-        "avg": 66138,
+        "avg": 68227,
         "min": 23900,
-        "max": 137750,
-        "count": 33
+        "max": 133620,
+        "count": 34
       },
       "items": [
         {
@@ -1684,6 +1684,21 @@
         },
         {
           "rank": 4,
+          "id": "ms-7131782",
+          "brand": "룩캐스트",
+          "name": "캐시미어 딥 브이넥 니트 / CASHMERE DEEP V-NECK KNIT_3colors",
+          "price": 138000,
+          "originalPrice": 138000,
+          "discountRate": 15,
+          "finalPrice": 117300,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260821/7131782/7131782_17884829330149_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7131782",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 5,
           "id": "ms-7037385",
           "brand": "드로우핏",
           "name": "플러피 브러쉬 카라 니트 [GREYISH BLUE]",
@@ -1698,7 +1713,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "id": "ms-7188995",
           "brand": "언더오프",
           "name": "헨리넥 배색 레이어드 크롭 니트 버건디",
@@ -1713,7 +1728,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "id": "ms-7229456",
           "brand": "론론",
           "name": "[PACK] 스크런치 + 브이넥 니트 (4color)",
@@ -1728,7 +1743,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "id": "ms-7088559",
           "brand": "몽돌",
           "name": "울 캐시미어 딥 브이넥 니트 탑 퍼플 MDKT138PURPLE",
@@ -1743,7 +1758,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "id": "ms-7049937",
           "brand": "미치코런던 코시노",
           "name": "플레인 브이넥 울 니트 멜란지 그레이",
@@ -1758,7 +1773,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-7044887",
           "brand": "플레이스스튜디오맨",
           "name": "이지 스냅 미니멀 레이어드 헨리넥 소프트 오버핏 긴팔 니트 스웨터_3COLOR",
@@ -1773,7 +1788,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-5395163",
           "brand": "테이크이지",
           "name": "[2PACK] 울 크롭 니트 카키멜 (+솔리드 크롭 티셔츠 증정)",
@@ -1788,7 +1803,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-7009217",
           "brand": "프리버07",
           "name": "Button collar pk knit [FRFA05NT01]_Wine",
@@ -1803,7 +1818,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-7090569",
           "brand": "썸웨어버터",
           "name": "Silk Button Henly Neck Knit - Light Pink",
@@ -1818,7 +1833,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-7122627",
           "brand": "트릴리온",
           "name": "워셔블 크롭 헨리넥 니트_6color",
@@ -1833,10 +1848,10 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-7011235",
           "brand": "폴로 랄프 로렌",
-          "name": "[적립금 5%] 폴로 베어 코튼 리넨 스웨터-네이비",
+          "name": "[적립금 10%] 폴로 베어 코튼 리넨 스웨터-네이비",
           "price": 719000,
           "originalPrice": 719000,
           "discountRate": 5,
@@ -1848,7 +1863,22 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 16,
+          "id": "ms-7079083",
+          "brand": "노이즈",
+          "name": "[김승환 콜라보] 롤업 버튼 울 헨리넥 니트_[LEMON]",
+          "price": 95000,
+          "originalPrice": 95000,
+          "discountRate": 19,
+          "finalPrice": 76950,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260814/7079083/7079083_17881614940337_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7079083",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 17,
           "id": "ms-7188992",
           "brand": "언더오프",
           "name": "헨리넥 배색 레이어드 크롭 니트 블랙",
@@ -1863,7 +1893,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 18,
           "id": "ms-7100820",
           "brand": "에이치덱스",
           "name": "내추럴 바디핏 숏 컷 니트 집업 (Melange Gray)",
@@ -1878,7 +1908,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 19,
           "id": "ms-7037192",
           "brand": "드로우핏",
           "name": "울 모크넥 하프 집업 니트 [4color]",
@@ -1893,7 +1923,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 20,
           "id": "ms-7025073",
           "brand": "셰리오브",
           "name": "파우더 딥 브이 넥 니트-네이비",
@@ -1906,43 +1936,13 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260807/7025073/7025073_17883089573473_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7025073",
           "displayGenderText": "여성"
-        },
-        {
-          "rank": 19,
-          "id": "ms-7049868",
-          "brand": "미치코런던 코시노",
-          "name": "하이넥 캡 슬리브 울 니트 스카이 민트",
-          "price": 62000,
-          "originalPrice": 62000,
-          "discountRate": 15,
-          "finalPrice": 53010,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260811/7049868/7049868_17871047848961_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7049868",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-7096211",
-          "brand": "파르티멘토 우먼",
-          "name": "[우정 PICK] PWC 오버사이즈드 딥 브이넥 니트 탑_네이비",
-          "price": 43350,
-          "originalPrice": 43350,
-          "discountRate": 10,
-          "finalPrice": 39000,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260818/7096211/7096211_17887605023622_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7096211",
-          "displayGenderText": "여성"
         }
       ]
     },
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 159314,
+        "avg": 158955,
         "min": 35100,
         "max": 568000,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 26
       },
       "female": {
-        "avg": 107356,
+        "avg": 106559,
         "min": 38500,
         "max": 268200,
         "count": 27
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-106738",
+          "id": "ms-107369",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,16 +2588,16 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 44232,
+        "avg": 44494,
         "min": 9900,
         "max": 174000,
         "count": 60
       },
       "male": {
-        "avg": 50167,
+        "avg": 49978,
         "min": 23000,
         "max": 174000,
-        "count": 34
+        "count": 35
       },
       "female": {
         "avg": 44080,
@@ -2911,19 +2911,19 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 62442,
+        "avg": 62035,
         "min": 9900,
         "max": 139000,
         "count": 60
       },
       "male": {
-        "avg": 58650,
+        "avg": 57800,
         "min": 9900,
         "max": 139000,
         "count": 14
       },
       "female": {
-        "avg": 78449,
+        "avg": 77928,
         "min": 41860,
         "max": 139000,
         "count": 24
@@ -3234,16 +3234,16 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 44923,
+        "avg": 44899,
         "min": 9900,
         "max": 109000,
         "count": 60
       },
       "male": {
-        "avg": 43531,
+        "avg": 43627,
         "min": 9900,
         "max": 109000,
-        "count": 19
+        "count": 18
       },
       "female": {
         "avg": 47145,
