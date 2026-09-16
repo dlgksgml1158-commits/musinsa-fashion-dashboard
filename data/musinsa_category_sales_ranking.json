@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T10:05:38.047305+00:00",
+  "updatedAt": "2026-09-16T15:03:47.063309+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -697,8 +697,8 @@
           "name": "[오헤시오 컬래버] 폴라 플리스 스냅 풀오버 [미디엄 그레이]",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 10,
-          "finalPrice": 53910,
+          "discountRate": 0,
+          "finalPrice": 59900,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260630/6754625/6754625_17882370241543_500.jpg",
@@ -757,8 +757,8 @@
           "name": "[오헤시오 컬래버] 폴라 플리스 스냅 풀오버 [아이보리]",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 10,
-          "finalPrice": 53910,
+          "discountRate": 0,
+          "finalPrice": 59900,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260630/6754619/6754619_17882370924412_500.jpg",
@@ -1197,8 +1197,8 @@
           "name": "[구효민 pick] 스트라이프 컬러 배색 버튼 베이직 롱 슬리브 후드 티셔츠  [블랙]",
           "price": 53000,
           "originalPrice": 53000,
-          "discountRate": 41,
-          "finalPrice": 31500,
+          "discountRate": 28,
+          "finalPrice": 38160,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260819/7102714/7102714_17884011257302_500.jpg",
@@ -2896,7 +2896,7 @@
           "finalPrice": 29900,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260825/7161034/7161034_17879099065615_500.jpg",
+          "imgUrl": "https://image.msscdn.net/images/prd_img/20260825/7161034/detail_7161034_17878928678176_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7161034",
           "displayGenderText": "공용"
         },
