@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T22:55:38.540863+00:00",
+  "updatedAt": "2026-09-18T00:51:21.458528+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 62946,
+        "avg": 62781,
         "min": 9900,
         "max": 141550,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 15
       },
       "female": {
-        "avg": 63112,
+        "avg": 62803,
         "min": 21900,
         "max": 107100,
         "count": 32
@@ -780,8 +780,8 @@
           "name": "[고윤정 착용] SMALL CLASSIC LOGO HALF ZIPUP SWEATSHIRT heather gray",
           "price": 99000,
           "originalPrice": 99000,
-          "discountRate": 0,
-          "finalPrice": 99000,
+          "discountRate": 10,
+          "finalPrice": 89100,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260720/6876064/6876064_17871882921653_500.jpg",
@@ -1296,22 +1296,22 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 68771,
+        "avg": 68636,
         "min": 9900,
         "max": 162000,
         "count": 60
       },
       "male": {
-        "avg": 69761,
+        "avg": 69775,
         "min": 9900,
         "max": 162000,
-        "count": 33
+        "count": 32
       },
       "female": {
-        "avg": 67610,
+        "avg": 67363,
         "min": 24500,
         "max": 139000,
-        "count": 25
+        "count": 26
       },
       "items": [
         {
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-106512",
+          "id": "ms-105835",
           "brand": "",
           "name": "",
           "price": null,

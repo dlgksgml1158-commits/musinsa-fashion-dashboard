@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T22:55:47.897022+00:00",
+  "updatedAt": "2026-09-18T00:51:30.771258+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -887,21 +887,6 @@
         },
         {
           "rank": 19,
-          "id": "ms-5320206",
-          "brand": "버던트",
-          "name": "니트데님 워싱 스웨트 셔츠 [블랙]",
-          "price": 55000,
-          "originalPrice": 55000,
-          "discountRate": 70,
-          "finalPrice": 16500,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5320206/5320206_17687905643389_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5320206",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
           "id": "ms-4673419",
           "brand": "난데",
           "name": "MANHATTAN 프린팅 오버핏 맨투맨 8color",
@@ -914,6 +899,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20241219/4673419/4673419_17604084214905_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4673419",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5992363",
+          "brand": "디스이즈네버댓",
+          "name": "T-Logo LT Crewneck Navy",
+          "price": 95000,
+          "originalPrice": 95000,
+          "discountRate": 30,
+          "finalPrice": 66500,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260206/5992363/5992363_17707082756962_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5992363",
+          "displayGenderText": "공용"
         }
       ]
     },
