@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-09-18T13:55:25.119303+00:00",
+  "updatedAt": "2026-09-18T17:18:27.778271+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 34720,
-        "min": 11900,
+        "avg": 35020,
+        "min": 14360,
         "max": 89100,
         "count": 60
       },
       "male": {
-        "avg": 33311,
-        "min": 11900,
+        "avg": 34570,
+        "min": 14500,
         "max": 89100,
-        "count": 18
+        "count": 17
       },
       "female": {
         "avg": 32472,
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 55456,
+        "avg": 55629,
         "min": 12800,
         "max": 132050,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 9
       },
       "female": {
-        "avg": 56324,
+        "avg": 56578,
         "min": 12800,
         "max": 115200,
         "count": 41
@@ -650,16 +650,16 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 60435,
+        "avg": 61419,
         "min": 9900,
         "max": 141550,
         "count": 60
       },
       "male": {
-        "avg": 69731,
+        "avg": 73999,
         "min": 9900,
         "max": 141550,
-        "count": 15
+        "count": 14
       },
       "female": {
         "avg": 59425,
@@ -940,21 +940,6 @@
         },
         {
           "rank": 19,
-          "id": "ms-7185990",
-          "brand": "이스트코",
-          "name": "2006 더블 코튼 플리스 스웨트셔츠 더스티퍼플",
-          "price": 49900,
-          "originalPrice": 49900,
-          "discountRate": 80,
-          "finalPrice": 9980,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260827/7185990/7185990_17878276728887_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7185990",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
           "id": "ms-7140076",
           "brand": "엘엠알",
           "name": "오프숄더 슬리브리스 레이어드 맨투맨 GREY",
@@ -967,14 +952,29 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260823/7140076/7140076_17893437114958_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7140076",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7074046",
+          "brand": "트릴리온",
+          "name": "빈티지 V거셋 포켓 데님 맨투맨_2color",
+          "price": 58000,
+          "originalPrice": 58000,
+          "discountRate": 48,
+          "finalPrice": 29990,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260813/7074046/7074046_17877333240584_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7074046",
+          "displayGenderText": "공용"
         }
       ]
     },
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 64566,
-        "min": 31500,
+        "avg": 64818,
+        "min": 33750,
         "max": 178000,
         "count": 60
       },
@@ -985,8 +985,8 @@
         "count": 12
       },
       "female": {
-        "avg": 61274,
-        "min": 31500,
+        "avg": 61814,
+        "min": 39600,
         "max": 109650,
         "count": 28
       },
@@ -1028,8 +1028,8 @@
           "name": "[구효민 pick] 스트라이프 컬러 배색 버튼 베이직 롱 슬리브 후드 티셔츠  [블랙]",
           "price": 53000,
           "originalPrice": 53000,
-          "discountRate": 28,
-          "finalPrice": 38160,
+          "discountRate": 20,
+          "finalPrice": 42400,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260819/7102714/7102714_17884011257302_500.jpg",
@@ -1268,8 +1268,8 @@
           "name": "[구효민 pick] 스트라이프 컬러 배색 버튼 베이직 롱 슬리브 후드 티셔츠  [블루]",
           "price": 53000,
           "originalPrice": 53000,
-          "discountRate": 41,
-          "finalPrice": 31500,
+          "discountRate": 20,
+          "finalPrice": 42400,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260811/7046701/7046701_17884013377792_500.jpg",
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 158374,
+        "avg": 158689,
         "min": 34900,
         "max": 612000,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 26
       },
       "female": {
-        "avg": 97024,
+        "avg": 97780,
         "min": 38500,
         "max": 215100,
         "count": 25
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-107381",
+          "id": "ms-107371",
           "brand": "",
           "name": "",
           "price": null,
