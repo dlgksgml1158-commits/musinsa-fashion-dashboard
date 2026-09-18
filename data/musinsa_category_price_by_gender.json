@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T09:55:07.440784+00:00",
+  "updatedAt": "2026-09-18T13:55:25.119303+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 55584,
+        "avg": 55456,
         "min": 12800,
         "max": 132050,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 9
       },
       "female": {
-        "avg": 56512,
+        "avg": 56324,
         "min": 12800,
         "max": 115200,
         "count": 41
@@ -562,8 +562,8 @@
           "name": "Crest Henley Hoodie Khaki",
           "price": 77000,
           "originalPrice": 77000,
-          "discountRate": 10,
-          "finalPrice": 69300,
+          "discountRate": 20,
+          "finalPrice": 61600,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260727/6931472/6931472_17879078796958_500.jpg",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 68453,
+        "avg": 68447,
         "min": 9900,
         "max": 162000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 33
       },
       "female": {
-        "avg": 67412,
+        "avg": 67398,
         "min": 24500,
         "max": 139000,
         "count": 25
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-107663",
+          "id": "ms-107381",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,13 +2588,13 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 45959,
+        "avg": 45922,
         "min": 9900,
         "max": 174000,
         "count": 60
       },
       "male": {
-        "avg": 53351,
+        "avg": 53291,
         "min": 22390,
         "max": 174000,
         "count": 37
