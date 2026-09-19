@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-09-18T23:47:44.023360+00:00",
+  "updatedAt": "2026-09-19T01:43:00.363654+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 35020,
-        "min": 14360,
+        "avg": 34720,
+        "min": 11900,
         "max": 89100,
         "count": 60
       },
       "male": {
-        "avg": 34570,
-        "min": 14500,
+        "avg": 33311,
+        "min": 11900,
         "max": 89100,
-        "count": 17
+        "count": 18
       },
       "female": {
         "avg": 32472,
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 55629,
+        "avg": 56052,
         "min": 12800,
         "max": 132050,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 9
       },
       "female": {
-        "avg": 56578,
+        "avg": 57197,
         "min": 12800,
         "max": 115200,
         "count": 41
@@ -512,21 +512,6 @@
         },
         {
           "rank": 12,
-          "id": "ms-7095072",
-          "brand": "꼼파뇨",
-          "name": "위어드 키튼 롱슬리브 올리브",
-          "price": 56000,
-          "originalPrice": 56000,
-          "discountRate": 35,
-          "finalPrice": 36400,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260818/7095072/7095072_17872710696712_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7095072",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 13,
           "id": "ms-6978939",
           "brand": "애즈유아",
           "name": "원숄더 셔링 롱슬리브 블랙",
@@ -541,7 +526,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-7009183",
           "brand": "프리버07",
           "name": "Suede color point t-shirt [FRFA05LT13]_Wine",
@@ -556,7 +541,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6931472",
           "brand": "스컬프터",
           "name": "Crest Henley Hoodie Khaki",
@@ -571,7 +556,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-7046647",
           "brand": "러프사이드",
           "name": "Waffle Long Sleeve Olive",
@@ -586,7 +571,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7059554",
           "brand": "슬로우애시드",
           "name": "슬럽 래글런 롱슬리브 [네이비]",
@@ -601,7 +586,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-7240401",
           "brand": "그로우하이드",
           "name": "위즈 언발 레이어드 보트 긴팔 티셔츠_챠콜",
@@ -616,7 +601,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-7108764",
           "brand": "디미트리블랙",
           "name": "VLAD 나일론 코어 풀오버_3 COLOR",
@@ -631,7 +616,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6980767",
           "brand": "슈퍼서브",
           "name": "[크롭]골지 텍스처드 브이넥 긴팔 티셔츠-블랙",
@@ -644,6 +629,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260803/6980767/6980767_17866049048775_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6980767",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7112643",
+          "brand": "퍼지스캔",
+          "name": "절개 아일렛 롱슬리브 3color",
+          "price": 40000,
+          "originalPrice": 40000,
+          "discountRate": 30,
+          "finalPrice": 27900,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260820/7112643/7112643_17871861219969_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7112643",
+          "displayGenderText": "여성"
         }
       ]
     },
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 152369,
+        "avg": 152017,
         "min": 34900,
         "max": 612000,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 25
       },
       "female": {
-        "avg": 100169,
+        "avg": 99357,
         "min": 38500,
         "max": 215100,
         "count": 26
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-107774",
+          "id": "ms-107768",
           "brand": "",
           "name": "",
           "price": null,
