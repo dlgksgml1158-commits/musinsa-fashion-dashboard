@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T21:06:20.995015+00:00",
+  "updatedAt": "2026-09-20T23:19:44.562191+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-107370",
+          "id": "ms-108331",
           "brand": "",
           "name": "",
           "price": null,
@@ -3234,22 +3234,22 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 44337,
+        "avg": 44786,
         "min": 9990,
         "max": 109000,
         "count": 60
       },
       "male": {
-        "avg": 44626,
+        "avg": 46301,
         "min": 9990,
         "max": 109000,
-        "count": 20
+        "count": 19
       },
       "female": {
-        "avg": 45307,
+        "avg": 45128,
         "min": 12900,
         "max": 109000,
-        "count": 30
+        "count": 31
       },
       "items": [
         {
@@ -3419,6 +3419,21 @@
         },
         {
           "rank": 12,
+          "id": "ms-6276334",
+          "brand": "노스페이스",
+          "name": "NS6NS32J 여성 아이스펄스 쇼츠 BLACK",
+          "price": 78000,
+          "originalPrice": 78000,
+          "discountRate": 49,
+          "finalPrice": 39780,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260408/6276334/6276334_17828954542009_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6276334",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 13,
           "id": "ms-6704436",
           "brand": "무신사 스탠다드 우먼",
           "name": "[빅토리아 울] 우먼즈 미니멀 리브드 니트 쇼츠 [블랙]",
@@ -3433,7 +3448,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-5820426",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 마이크로 쇼츠 [블랙]",
@@ -3448,7 +3463,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-6425530",
           "brand": "트릴리온",
           "name": "웨스턴 백포켓 데님 쇼츠_4color",
@@ -3463,7 +3478,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-6989090",
           "brand": "스키즘 인듀싱",
           "name": "[보배 콜라보] LOWRISE COATED HUSSAR SHORTS BLACK",
@@ -3478,7 +3493,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-7127070",
           "brand": "파시온",
           "name": "로미 컷오프 마이크로 숏츠_블랙 Romy Cutoff Micro Shorts_Black",
@@ -3493,7 +3508,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-6997710",
           "brand": "아디다스",
           "name": "[SFTM 컬래버] 투인원 쇼츠 - 블랙 / KW8032",
@@ -3508,7 +3523,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-6997705",
           "brand": "아디다스",
           "name": "[SFTM 컬래버] 투인원 쇼츠 - 블랙 / KW8031",
@@ -3523,7 +3538,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-2552603",
           "brand": "판도라핏",
           "name": "[SHORTS] Hill Black",
@@ -3535,21 +3550,6 @@
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20220511/2552603/2552603_17881621621242_500.jpg",
           "productUrl": "https://www.musinsa.com/products/2552603",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-4970624",
-          "brand": "칙스",
-          "name": "멀티스터드 숏팬츠 블랙",
-          "price": 51000,
-          "originalPrice": 51000,
-          "discountRate": 28,
-          "finalPrice": 36810,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250401/4970624/4970624_17551596319494_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4970624",
           "displayGenderText": "여성"
         }
       ]
