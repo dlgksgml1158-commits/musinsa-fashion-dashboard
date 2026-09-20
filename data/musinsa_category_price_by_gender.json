@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-09-20T12:30:20.805190+00:00",
+  "updatedAt": "2026-09-20T16:22:40.757019+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 34694,
+        "avg": 34669,
         "min": 11900,
         "max": 89100,
         "count": 60
       },
       "male": {
-        "avg": 32868,
+        "avg": 33311,
         "min": 11900,
         "max": 89100,
-        "count": 19
+        "count": 18
       },
       "female": {
-        "avg": 32679,
+        "avg": 32371,
         "min": 14360,
         "max": 58500,
-        "count": 29
+        "count": 30
       },
       "items": [
         {
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 56052,
+        "avg": 56262,
         "min": 12800,
         "max": 132050,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 9
       },
       "female": {
-        "avg": 57197,
+        "avg": 57335,
         "min": 12800,
         "max": 115200,
         "count": 41
@@ -352,8 +352,8 @@
           "name": "소버린 오브 레터링 롱슬리브_블랙",
           "price": 46000,
           "originalPrice": 46000,
-          "discountRate": 28,
-          "finalPrice": 33120,
+          "discountRate": 20,
+          "finalPrice": 36800,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260819/7101703/7101703_17871047164937_500.jpg",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 61576,
+        "avg": 61660,
         "min": 9900,
         "max": 141550,
         "count": 60
@@ -720,8 +720,8 @@
           "name": "코듀로이 하프버튼 세미크롭 맨투맨 3Color GMT-163",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 30,
-          "finalPrice": 34900,
+          "discountRate": 20,
+          "finalPrice": 39900,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260901/7213384/7213384_17883125593489_500.jpg",
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 64818,
+        "avg": 65406,
         "min": 33750,
         "max": 178000,
         "count": 60
@@ -985,7 +985,7 @@
         "count": 12
       },
       "female": {
-        "avg": 61814,
+        "avg": 62422,
         "min": 39600,
         "max": 109650,
         "count": 28
@@ -1103,8 +1103,8 @@
           "name": "스트라이프 스타 아플리케 후드티셔츠 네이비",
           "price": 92000,
           "originalPrice": 92000,
-          "discountRate": 20,
-          "finalPrice": 73600,
+          "discountRate": 15,
+          "finalPrice": 78200,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260903/7235319/7235319_17885071741614_500.jpg",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 73883,
+        "avg": 74203,
         "min": 6900,
         "max": 683050,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 18
       },
       "female": {
-        "avg": 72723,
+        "avg": 73305,
         "min": 29900,
         "max": 157500,
         "count": 33
@@ -1942,22 +1942,22 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 158741,
-        "min": 34900,
+        "avg": 153461,
+        "min": 37800,
         "max": 612000,
         "count": 60
       },
       "male": {
-        "avg": 224017,
+        "avg": 213165,
         "min": 39900,
         "max": 612000,
-        "count": 26
+        "count": 25
       },
       "female": {
-        "avg": 97608,
+        "avg": 99357,
         "min": 38500,
         "max": 215100,
-        "count": 25
+        "count": 26
       },
       "items": [
         {
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-107765",
+          "id": "ms-107353",
           "brand": "",
           "name": "",
           "price": null,
@@ -2159,7 +2159,7 @@
           "rank": 14,
           "id": "ms-6978467",
           "brand": "마인드브릿지",
-          "name": "[COUTURE]아웃포켓 블랙 레더 오버핏 블루종",
+          "name": "[패션플래닛PICK] [COUTURE]아웃포켓 블랙 레더 오버핏 블루종",
           "price": 219000,
           "originalPrice": 219000,
           "discountRate": 0,
@@ -2207,8 +2207,8 @@
           "name": "빈티지 해링턴 재킷 Red",
           "price": 179000,
           "originalPrice": 179000,
-          "discountRate": 10,
-          "finalPrice": 161100,
+          "discountRate": 0,
+          "finalPrice": 179000,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260804/6990497/6990497_17889427269694_500.jpg",
@@ -2265,13 +2265,13 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 76401,
+        "avg": 76592,
         "min": 13860,
         "max": 230000,
         "count": 60
       },
       "male": {
-        "avg": 79180,
+        "avg": 79463,
         "min": 31900,
         "max": 189000,
         "count": 23
@@ -2588,13 +2588,13 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 46838,
+        "avg": 46761,
         "min": 9900,
         "max": 174000,
         "count": 60
       },
       "male": {
-        "avg": 53594,
+        "avg": 53473,
         "min": 22390,
         "max": 174000,
         "count": 38
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 57622,
+        "avg": 57680,
         "min": 9900,
         "max": 143100,
         "count": 60
@@ -3234,22 +3234,22 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 44820,
+        "avg": 44337,
         "min": 9990,
         "max": 109000,
         "count": 60
       },
       "male": {
-        "avg": 46252,
+        "avg": 44626,
         "min": 9990,
         "max": 109000,
-        "count": 19
+        "count": 20
       },
       "female": {
-        "avg": 45223,
+        "avg": 45307,
         "min": 12900,
         "max": 109000,
-        "count": 31
+        "count": 30
       },
       "items": [
         {
@@ -3419,21 +3419,6 @@
         },
         {
           "rank": 12,
-          "id": "ms-6276334",
-          "brand": "노스페이스",
-          "name": "NS6NS32J 여성 아이스펄스 쇼츠 BLACK",
-          "price": 78000,
-          "originalPrice": 78000,
-          "discountRate": 49,
-          "finalPrice": 39780,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260408/6276334/6276334_17828954542009_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6276334",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 13,
           "id": "ms-6704436",
           "brand": "무신사 스탠다드 우먼",
           "name": "[빅토리아 울] 우먼즈 미니멀 리브드 니트 쇼츠 [블랙]",
@@ -3448,7 +3433,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-5820426",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 마이크로 쇼츠 [블랙]",
@@ -3463,7 +3448,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6425530",
           "brand": "트릴리온",
           "name": "웨스턴 백포켓 데님 쇼츠_4color",
@@ -3478,7 +3463,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6989090",
           "brand": "스키즘 인듀싱",
           "name": "[보배 콜라보] LOWRISE COATED HUSSAR SHORTS BLACK",
@@ -3493,7 +3478,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7127070",
           "brand": "파시온",
           "name": "로미 컷오프 마이크로 숏츠_블랙 Romy Cutoff Micro Shorts_Black",
@@ -3508,7 +3493,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6997710",
           "brand": "아디다스",
           "name": "[SFTM 컬래버] 투인원 쇼츠 - 블랙 / KW8032",
@@ -3523,7 +3508,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6997705",
           "brand": "아디다스",
           "name": "[SFTM 컬래버] 투인원 쇼츠 - 블랙 / KW8031",
@@ -3538,7 +3523,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-2552603",
           "brand": "판도라핏",
           "name": "[SHORTS] Hill Black",
@@ -3550,6 +3535,21 @@
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20220511/2552603/2552603_17881621621242_500.jpg",
           "productUrl": "https://www.musinsa.com/products/2552603",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4970624",
+          "brand": "칙스",
+          "name": "멀티스터드 숏팬츠 블랙",
+          "price": 51000,
+          "originalPrice": 51000,
+          "discountRate": 28,
+          "finalPrice": 36810,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250401/4970624/4970624_17551596319494_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4970624",
           "displayGenderText": "여성"
         }
       ]
