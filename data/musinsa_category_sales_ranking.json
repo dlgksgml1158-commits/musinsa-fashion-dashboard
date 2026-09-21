@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T23:19:52.812351+00:00",
+  "updatedAt": "2026-09-21T01:16:30.157912+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -927,8 +927,8 @@
           "name": "와플 후드 바라클라바 긴팔티_SPFWG4TC10",
           "price": 39900,
           "originalPrice": 39900,
-          "discountRate": 10,
-          "finalPrice": 35910,
+          "discountRate": 19,
+          "finalPrice": 32320,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260706/6788300/6788300_17853929939133_500.png",
@@ -1042,21 +1042,6 @@
         },
         {
           "rank": 9,
-          "id": "ms-6951094",
-          "brand": "마이초이도쿄",
-          "name": "MAICHOI Vintage Patch Hoodie [3color]",
-          "price": 109000,
-          "originalPrice": 109000,
-          "discountRate": 37,
-          "finalPrice": 69000,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260729/6951094/6951094_17881068793314_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6951094",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 10,
           "id": "ms-5322476",
           "brand": "리",
           "name": "빅 트위치 로고 후드 티셔츠 블랙",
@@ -1071,7 +1056,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-5438121",
           "brand": "디스이즈네버댓",
           "name": "T-Logo Hoodie Heather Grey",
@@ -1086,7 +1071,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-5937520",
           "brand": "스켈리웩",
           "name": "와플 헨리넥 후디[그레이]",
@@ -1101,7 +1086,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-5352832",
           "brand": "비바라비다",
           "name": "[기모선택] My Youth 헤비테리 후드",
@@ -1116,7 +1101,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-6970660",
           "brand": "트릴리온",
           "name": "[스토커즈 pick] 에센셜 피그먼트 스냅 크롭 후디_5color",
@@ -1131,7 +1116,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-2990455",
           "brand": "1989스탠다드",
           "name": "MAIN LOGO 후드 (STHSTD-0017)",
@@ -1146,7 +1131,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-4311378",
           "brand": "엘라모",
           "name": "무지 후드티 남녀공용 빅사이즈 S~4XL",
@@ -1161,7 +1146,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-5438118",
           "brand": "디스이즈네버댓",
           "name": "T-Logo Hoodie Black",
@@ -1176,7 +1161,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-4272937",
           "brand": "리메인세컨드",
           "name": "오버핏 시그니처 LMS 패치 후디 [그레이]",
@@ -1191,7 +1176,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-2722805",
           "brand": "브라운브레스",
           "name": "TAG OG HOODIE - BURGUNDY",
@@ -1206,18 +1191,33 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
-          "id": "ms-6951093",
-          "brand": "마이초이도쿄",
-          "name": "MAICHOI Flag Archive Hoodie [3color]",
-          "price": 109000,
-          "originalPrice": 109000,
-          "discountRate": 37,
-          "finalPrice": 69000,
+          "rank": 19,
+          "id": "ms-4440027",
+          "brand": "아메스 월드와이드",
+          "name": "BIG TYPO HOODIE BLACK",
+          "price": 74000,
+          "originalPrice": 74000,
+          "discountRate": 36,
+          "finalPrice": 47360,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260729/6951093/6951093_17881068028867_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6951093",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240913/4440027/4440027_17893592819525_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4440027",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4808319",
+          "brand": "디키즈",
+          "name": "트리 로고 후디 Black",
+          "price": 79000,
+          "originalPrice": 79000,
+          "discountRate": 0,
+          "finalPrice": 79000,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250220/4808319/4808319_17883394644291_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4808319",
           "displayGenderText": "공용"
         }
       ]
@@ -1947,8 +1947,8 @@
           "name": "[씬라이트] 여성 후드 재킷_SPJPG4TG24",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 10,
-          "finalPrice": 53900,
+          "discountRate": 19,
+          "finalPrice": 48510,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260714/6838154/6838154_17884174549576_500.jpg",
@@ -1992,8 +1992,8 @@
           "name": "[씬라이트] 후드 재킷_SPJPG4TC24",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 10,
-          "finalPrice": 53910,
+          "discountRate": 19,
+          "finalPrice": 48520,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260714/6838640/6838640_17896088498128_500.jpg",
@@ -2007,8 +2007,8 @@
           "name": "[리사이클] 베이직 퍼플리스 집업_SPFZG4TC01",
           "price": 29900,
           "originalPrice": 29900,
-          "discountRate": 10,
-          "finalPrice": 26910,
+          "discountRate": 19,
+          "finalPrice": 24220,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260706/6788199/6788199_17865090873370_500.png",
@@ -2047,21 +2047,6 @@
         },
         {
           "rank": 15,
-          "id": "ms-5328219",
-          "brand": "효지",
-          "name": "FW 워셔블 에센셜 라운드 크롭 니트 가디건 (7컬러)",
-          "price": 75000,
-          "originalPrice": 75000,
-          "discountRate": 29,
-          "finalPrice": 52900,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250817/5328219/5328219_17882420171560_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5328219",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 16,
           "id": "ms-6917752",
           "brand": "무신사 스탠다드",
           "name": "[리얼덕다운] [시티 레저] 시어 후디드 라이트 다운 재킷 (9 colors)",
@@ -2076,7 +2061,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6061370",
           "brand": "아수라",
           "name": "AUTHENTIC TRENCH JACKET (BEIGE)",
@@ -2091,7 +2076,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-1778404",
           "brand": "토피",
           "name": "2WAY 스웻 후드 집업 (MELANGE GREY)",
@@ -2106,7 +2091,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-7152852",
           "brand": "아디다스",
           "name": "클래식 트랙탑 - 핑크 / KX4264",
@@ -2121,7 +2106,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5311114",
           "brand": "언탭트 스튜디오",
           "name": "2WAY 비건 스웨이드 블루종 자켓 3Color",
@@ -2133,6 +2118,21 @@
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250811/5311114/5311114_17890239121962_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5311114",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5864289",
+          "brand": "디미트리블랙",
+          "name": "ASI 포시즌 에센셜 후드 집업_데님 빈티지 블랙",
+          "price": 65900,
+          "originalPrice": 65900,
+          "discountRate": 39,
+          "finalPrice": 39900,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20251231/5864289/5864289_17679297909685_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5864289",
           "displayGenderText": "공용"
         }
       ]
