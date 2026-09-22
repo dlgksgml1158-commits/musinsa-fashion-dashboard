@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T21:46:45.273488+00:00",
+  "updatedAt": "2026-09-22T23:52:55.184024+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1296,22 +1296,22 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 65482,
-        "min": 19900,
+        "avg": 65815,
+        "min": 22000,
         "max": 162000,
         "count": 60
       },
       "male": {
-        "avg": 69240,
-        "min": 19900,
+        "avg": 70885,
+        "min": 27500,
         "max": 162000,
-        "count": 31
+        "count": 30
       },
       "female": {
-        "avg": 63539,
+        "avg": 62694,
         "min": 22000,
         "max": 149400,
-        "count": 27
+        "count": 28
       },
       "items": [
         {
@@ -1436,6 +1436,21 @@
         },
         {
           "rank": 9,
+          "id": "ms-7218464",
+          "brand": "유젠",
+          "name": "다이애그널 라운드 카라 셔츠_블랙",
+          "price": 44400,
+          "originalPrice": 44400,
+          "discountRate": 10,
+          "finalPrice": 39900,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260901/7218464/7218464_17900688585803_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7218464",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 10,
           "id": "ms-7063217",
           "brand": "아웃스탠딩",
           "name": "VINTAGE CHECK BD SHIRT_BEIGE CHECK",
@@ -1450,7 +1465,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-7230577",
           "brand": "샐리",
           "name": "ST레이어드블라우스_I6C-CBL003",
@@ -1465,7 +1480,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-7129046",
           "brand": "아웃스탠딩",
           "name": "CORDUROY WESTERN SHIRT_BLACK",
@@ -1480,7 +1495,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-7104711",
           "brand": "쿠어",
           "name": "코듀로이 멀티 포켓 셔츠 자켓 (인디핑크)",
@@ -1495,7 +1510,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-7158510",
           "brand": "루나키후",
           "name": "WXTS017 누이아토 체크 셔츠 (BEIGE)",
@@ -1510,7 +1525,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-7202665",
           "brand": "피그먼트",
           "name": "시티피치핀블라우스 (KYBL2606308)",
@@ -1525,7 +1540,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-7244021",
           "brand": "무드인사이드",
           "name": "워시드 세미 크롭 피그먼트 셔츠_Blue",
@@ -1540,7 +1555,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-7210135",
           "brand": "아워데이즈",
           "name": "[오정규X아워데이즈] 세미 크롭 셔츠 [6COLORS]",
@@ -1555,7 +1570,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-4502782",
           "brand": "모더먼트",
           "name": "비기닝 오버사이즈 체크 셔츠 [핑크]",
@@ -1570,7 +1585,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-7107848",
           "brand": "아워호프",
           "name": "포엠 러플 핀턱 블라우스 - Ivory",
@@ -1585,7 +1600,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-7145494",
           "brand": "해브해드",
           "name": "에브리데이 클래식 체크 셔츠 (네이비)",
@@ -1597,21 +1612,6 @@
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260824/7145494/7145494_17875542297887_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7145494",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-7055205",
-          "brand": "유니온블루",
-          "name": "DOUBLE FACE GINGHAM WORK SHIRT [CHARCOAL]",
-          "price": 118000,
-          "originalPrice": 118000,
-          "discountRate": 15,
-          "finalPrice": 100300,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260812/7055205/7055205_17882440439459_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7055205",
           "displayGenderText": "남성"
         }
       ]
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-108791",
+          "id": "ms-108011",
           "brand": "",
           "name": "",
           "price": null,
