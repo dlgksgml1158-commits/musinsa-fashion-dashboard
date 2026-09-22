@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-22T10:23:39.818265+00:00",
+  "updatedAt": "2026-09-22T15:02:57.353803+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 31290,
+        "avg": 31305,
         "min": 11900,
         "max": 89350,
         "count": 60
@@ -16,7 +16,7 @@
         "count": 17
       },
       "female": {
-        "avg": 30832,
+        "avg": 30860,
         "min": 14900,
         "max": 70400,
         "count": 32
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 50901,
+        "avg": 51151,
         "min": 14060,
         "max": 132050,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 9
       },
       "female": {
-        "avg": 50975,
+        "avg": 51341,
         "min": 14060,
         "max": 97280,
         "count": 41
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 55833,
+        "avg": 55980,
         "min": 17900,
         "max": 141550,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 13
       },
       "female": {
-        "avg": 54512,
+        "avg": 54778,
         "min": 19710,
         "max": 96390,
         "count": 33
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 64324,
+        "avg": 64404,
         "min": 19900,
         "max": 162000,
         "count": 60
@@ -1308,9 +1308,9 @@
         "count": 33
       },
       "female": {
-        "avg": 60902,
+        "avg": 61094,
         "min": 22000,
-        "max": 114890,
+        "max": 111440,
         "count": 25
       },
       "items": [
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 69179,
+        "avg": 69205,
         "min": 6900,
         "max": 683050,
         "count": 60
@@ -1631,8 +1631,8 @@
         "count": 17
       },
       "female": {
-        "avg": 65951,
-        "min": 25860,
+        "avg": 65997,
+        "min": 27200,
         "max": 141750,
         "count": 35
       },
@@ -1674,8 +1674,8 @@
           "name": "[소프트얀] 딥 브이넥 니트_SPKWG49G01",
           "price": 29900,
           "originalPrice": 29900,
-          "discountRate": 14,
-          "finalPrice": 25860,
+          "discountRate": 9,
+          "finalPrice": 27200,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260826/7169307/7169307_17891092581531_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-108814",
+          "id": "ms-108822",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,7 +2588,7 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 42881,
+        "avg": 42902,
         "min": 9900,
         "max": 174000,
         "count": 60
@@ -2600,7 +2600,7 @@
         "count": 38
       },
       "female": {
-        "avg": 39332,
+        "avg": 39436,
         "min": 9900,
         "max": 63500,
         "count": 12
@@ -2911,8 +2911,8 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 55312,
-        "min": 9900,
+        "avg": 56408,
+        "min": 16900,
         "max": 143100,
         "count": 60
       },
@@ -2923,10 +2923,10 @@
         "count": 10
       },
       "female": {
-        "avg": 59253,
+        "avg": 59907,
         "min": 24900,
         "max": 139000,
-        "count": 24
+        "count": 25
       },
       "items": [
         {
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 40888,
+        "avg": 40878,
         "min": 12800,
         "max": 109000,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 20
       },
       "female": {
-        "avg": 40160,
+        "avg": 40140,
         "min": 12900,
         "max": 109000,
         "count": 30
@@ -3334,8 +3334,8 @@
           "name": "Two Zipper short pants (Black)",
           "price": 71000,
           "originalPrice": 71000,
-          "discountRate": 28,
-          "finalPrice": 51300,
+          "discountRate": 32,
+          "finalPrice": 48280,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260609/6638871/6638871_17812421117806_500.jpg",

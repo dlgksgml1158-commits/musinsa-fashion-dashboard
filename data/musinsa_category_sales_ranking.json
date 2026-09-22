@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T10:23:47.946222+00:00",
+  "updatedAt": "2026-09-22T15:03:06.214967+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -348,7 +348,7 @@
           "price": 43500,
           "originalPrice": 43500,
           "discountRate": 17,
-          "finalPrice": 36100,
+          "finalPrice": 36110,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250228/4844845/4844845_17736466287340_500.png",
@@ -2092,21 +2092,6 @@
         },
         {
           "rank": 18,
-          "id": "ms-3551101",
-          "brand": "블랙모먼트",
-          "name": "비건 스웨이드 오버핏 미니멀 인시전 스트레이트 집업 자켓 [브라운]",
-          "price": 139000,
-          "originalPrice": 139000,
-          "discountRate": 81,
-          "finalPrice": 26000,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230912/3551101/3551101_16970790961650_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3551101",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 19,
           "id": "ms-5864289",
           "brand": "디미트리블랙",
           "name": "ASI 포시즌 에센셜 후드 집업_데님 빈티지 블랙",
@@ -2121,7 +2106,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6917752",
           "brand": "무신사 스탠다드",
           "name": "[리얼덕다운] [시티 레저] 시어 후디드 라이트 다운 재킷 (9 colors)",
@@ -2133,6 +2118,21 @@
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260724/6917752/6917752_17890189553548_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6917752",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6788199",
+          "brand": "스파오",
+          "name": "[리사이클] 베이직 퍼플리스 집업_SPFZG4TC01",
+          "price": 29900,
+          "originalPrice": 29900,
+          "discountRate": 21,
+          "finalPrice": 23580,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260706/6788199/6788199_17865090873370_500.png",
+          "productUrl": "https://www.musinsa.com/products/6788199",
           "displayGenderText": "남성"
         }
       ]
@@ -3063,7 +3063,7 @@
           "price": 35900,
           "originalPrice": 35900,
           "discountRate": 17,
-          "finalPrice": 29790,
+          "finalPrice": 29800,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20241208/4655528/4655528_17848724072396_500.png",
@@ -3078,7 +3078,7 @@
           "price": 47300,
           "originalPrice": 47300,
           "discountRate": 17,
-          "finalPrice": 39250,
+          "finalPrice": 39260,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250718/5256111/5256111_17736471265189_500.png",
