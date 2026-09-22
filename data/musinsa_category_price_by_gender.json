@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-22T15:02:57.353803+00:00",
+  "updatedAt": "2026-09-22T19:00:04.442473+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 31305,
+        "avg": 31304,
         "min": 11900,
         "max": 89350,
         "count": 60
@@ -16,7 +16,7 @@
         "count": 17
       },
       "female": {
-        "avg": 30860,
+        "avg": 30858,
         "min": 14900,
         "max": 70400,
         "count": 32
@@ -284,8 +284,8 @@
           "name": "캡 슬리브 셔링 티셔츠 [IVORY] / GF2LTS512",
           "price": 39000,
           "originalPrice": 39000,
-          "discountRate": 36,
-          "finalPrice": 24800,
+          "discountRate": 37,
+          "finalPrice": 24750,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260403/6253553/6253553_17780489244365_500.png",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 64404,
+        "avg": 64446,
         "min": 19900,
         "max": 162000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 33
       },
       "female": {
-        "avg": 61094,
+        "avg": 61195,
         "min": 22000,
         "max": 111440,
         "count": 25
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 69205,
+        "avg": 69217,
         "min": 6900,
         "max": 683050,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 17
       },
       "female": {
-        "avg": 65997,
+        "avg": 66017,
         "min": 27200,
         "max": 141750,
         "count": 35
@@ -1942,22 +1942,22 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 142125,
+        "avg": 147713,
         "min": 24660,
         "max": 612000,
         "count": 60
       },
       "male": {
-        "avg": 200011,
+        "avg": 211147,
         "min": 39900,
         "max": 612000,
-        "count": 24
+        "count": 25
       },
       "female": {
-        "avg": 91978,
+        "avg": 89933,
         "min": 38500,
         "max": 161330,
-        "count": 26
+        "count": 25
       },
       "items": [
         {
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-108822",
+          "id": "ms-108784",
           "brand": "",
           "name": "",
           "price": null,
