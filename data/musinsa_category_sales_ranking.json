@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T23:53:04.298553+00:00",
+  "updatedAt": "2026-09-23T01:52:54.897505+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -117,8 +117,8 @@
           "name": "프리미엄 머슬핏 무지 티셔츠",
           "price": 34000,
           "originalPrice": 34000,
-          "discountRate": 36,
-          "finalPrice": 21760,
+          "discountRate": 44,
+          "finalPrice": 19000,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240215/3875000/3875000_17824424204845_500.jpg",
@@ -237,8 +237,8 @@
           "name": "유넥 크롭 반팔티 [8 COL]",
           "price": 32000,
           "originalPrice": 32000,
-          "discountRate": 20,
-          "finalPrice": 25600,
+          "discountRate": 30,
+          "finalPrice": 22400,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250528/5152785/5152785_17786367273477_500.jpg",
@@ -422,8 +422,8 @@
           "name": "레이어드 골지 헨리넥 티셔츠_4 COLOR",
           "price": 55000,
           "originalPrice": 55000,
-          "discountRate": 30,
-          "finalPrice": 38500,
+          "discountRate": 45,
+          "finalPrice": 30250,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260814/7081442/7081442_17875557368606_500.jpg",
@@ -602,8 +602,8 @@
           "name": "립브드 머슬핏 헨리넥 롱 슬리브_5color",
           "price": 46000,
           "originalPrice": 46000,
-          "discountRate": 35,
-          "finalPrice": 29900,
+          "discountRate": 46,
+          "finalPrice": 24990,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250729/5279192/5279192_17550661415773_500.jpg",
@@ -727,8 +727,8 @@
           "name": "우븐 유틸리티 맨투맨 Black",
           "price": 99000,
           "originalPrice": 99000,
-          "discountRate": 81,
-          "finalPrice": 19000,
+          "discountRate": 80,
+          "finalPrice": 19800,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250218/4797868/4797868_17466692541100_500.jpg",
@@ -1672,8 +1672,8 @@
           "name": "[DIMITRI×삭형] © 모두의 SUPIMA® 코튼 니트_(헨리넥) 3COLOR",
           "price": 55500,
           "originalPrice": 55500,
-          "discountRate": 10,
-          "finalPrice": 49900,
+          "discountRate": 28,
+          "finalPrice": 39900,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260909/7282189/7282189_17897090388279_500.jpg",
@@ -1882,6 +1882,21 @@
         },
         {
           "rank": 4,
+          "id": "ms-3551101",
+          "brand": "블랙모먼트",
+          "name": "비건 스웨이드 오버핏 미니멀 인시전 스트레이트 집업 자켓 [브라운]",
+          "price": 139000,
+          "originalPrice": 139000,
+          "discountRate": 81,
+          "finalPrice": 26000,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20230912/3551101/3551101_16970790961650_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3551101",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 5,
           "id": "ms-5329359",
           "brand": "아디다스",
           "name": "후드 집업 - 블랙:크림화이트 / KC9315",
@@ -1896,7 +1911,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "id": "ms-6838627",
           "brand": "스파오",
           "name": "[씬라이트] 시어 후드 재킷_SPJPG4TC26",
@@ -1911,7 +1926,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "id": "ms-7104788",
           "brand": "수아레 우먼",
           "name": "[컬러 추가] (우먼)라이트 시어쉘 패딩 점퍼 - 6 COLOR",
@@ -1926,7 +1941,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "id": "ms-7109331",
           "brand": "수아레",
           "name": "[패션플래닛×수아레] 파인 메리노 울 100 라운드 가디건 - 5 COLOR",
@@ -1941,7 +1956,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "id": "ms-3783092",
           "brand": "디미트리블랙",
           "name": "[크롭선택] ASI 포시즌 에센셜 후드 집업_피그먼트 차콜",
@@ -1956,7 +1971,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-6788199",
           "brand": "스파오",
           "name": "[리사이클] 베이직 퍼플리스 집업_SPFZG4TC01",
@@ -1971,7 +1986,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-5311114",
           "brand": "언탭트 스튜디오",
           "name": "2WAY 비건 스웨이드 블루종 자켓 3Color",
@@ -1986,7 +2001,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-6838154",
           "brand": "스파오",
           "name": "[씬라이트] 여성 후드 재킷_SPJPG4TG24",
@@ -2001,7 +2016,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-6100901",
           "brand": "닉켈하우스",
           "name": "닉켈 26 동키 후드집업",
@@ -2016,7 +2031,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-6838640",
           "brand": "스파오",
           "name": "[씬라이트] 후드 재킷_SPJPG4TC24",
@@ -2031,7 +2046,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-5328219",
           "brand": "효지",
           "name": "FW 워셔블 에센셜 라운드 크롭 니트 가디건 (7컬러)",
@@ -2046,7 +2061,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-5162178",
           "brand": "무신사 스탠다드 우먼",
           "name": "[한소희 PICK] [시티 레저] 우먼즈 후디드 라이트 다운 재킷 [스톤 화이트]",
@@ -2061,7 +2076,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-4945148",
           "brand": "아디다스",
           "name": "아디컬러 클래식 트랙탑 (와플) - 원더화이트 / JW0109",
@@ -2076,7 +2091,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-4356794",
           "brand": "무신사 스탠다드",
           "name": "[시티 레저] 후디드 라이트 다운 재킷 [블랙]",
@@ -2091,7 +2106,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-5864289",
           "brand": "디미트리블랙",
           "name": "ASI 포시즌 에센셜 후드 집업_데님 빈티지 블랙",
@@ -2106,7 +2121,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-5369990",
           "brand": "엔티비씨",
           "name": "2Way 후드 경량 패딩 점퍼",
@@ -2119,21 +2134,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250827/5369990/5369990_17896988478854_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5369990",
           "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6917752",
-          "brand": "무신사 스탠다드",
-          "name": "[리얼덕다운] [시티 레저] 시어 후디드 라이트 다운 재킷 (9 colors)",
-          "price": 139900,
-          "originalPrice": 139900,
-          "discountRate": 10,
-          "finalPrice": 125890,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260724/6917752/6917752_17890189553548_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6917752",
-          "displayGenderText": "남성"
         }
       ]
     },
