@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T01:29:59.721104+00:00",
+  "updatedAt": "2026-09-24T06:28:56.449503+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,14 +650,14 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 56520,
-        "min": 11800,
+        "avg": 55522,
+        "min": 9980,
         "max": 193500,
         "count": 60
       },
       "male": {
-        "avg": 68178,
-        "min": 17900,
+        "avg": 64853,
+        "min": 9980,
         "max": 193500,
         "count": 18
       },
@@ -925,6 +925,21 @@
         },
         {
           "rank": 18,
+          "id": "ms-7185990",
+          "brand": "이스트코",
+          "name": "2006 더블 코튼 플리스 스웨트셔츠 더스티퍼플",
+          "price": 49900,
+          "originalPrice": 49900,
+          "discountRate": 80,
+          "finalPrice": 9980,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260827/7185990/7185990_17878276728887_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7185990",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 19,
           "id": "ms-7140076",
           "brand": "엘엠알",
           "name": "오프숄더 슬리브리스 레이어드 맨투맨 GREY",
@@ -939,7 +954,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-7038568",
           "brand": "브이투",
           "name": "피그먼트 워싱 _도널드_ 스웻셔츠 (CHARCOAL)",
@@ -952,34 +967,19 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260810/7038568/7038568_17877918318426_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7038568",
           "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-7241014",
-          "brand": "길단",
-          "name": "길단 X 빈티지컬렉션 TIGER MUSTANG 맨투맨 티셔츠",
-          "price": 59800,
-          "originalPrice": 59800,
-          "discountRate": 60,
-          "finalPrice": 23920,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260903/7241014/7241014_17884229111946_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7241014",
-          "displayGenderText": "남성"
         }
       ]
     },
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 55070,
+        "avg": 55053,
         "min": 21000,
         "max": 162000,
         "count": 60
       },
       "male": {
-        "avg": 68731,
+        "avg": 68645,
         "min": 29320,
         "max": 162000,
         "count": 12
@@ -1619,13 +1619,13 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 63223,
+        "avg": 63050,
         "min": 6900,
         "max": 159300,
         "count": 60
       },
       "male": {
-        "avg": 58428,
+        "avg": 58084,
         "min": 6900,
         "max": 159300,
         "count": 20
@@ -1749,8 +1749,8 @@
           "name": "헨리넥 배색 레이어드 크롭 니트 버건디",
           "price": 62900,
           "originalPrice": 62900,
-          "discountRate": 45,
-          "finalPrice": 34900,
+          "discountRate": 50,
+          "finalPrice": 31410,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260828/7188995/7188995_17878800247912_500.jpg",
@@ -1914,8 +1914,8 @@
           "name": "헨리넥 배색 레이어드 크롭 니트 블랙",
           "price": 62900,
           "originalPrice": 62900,
-          "discountRate": 45,
-          "finalPrice": 34900,
+          "discountRate": 50,
+          "finalPrice": 31410,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260828/7188992/7188992_17900650437395_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-108789",
+          "id": "ms-108803",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,7 +2265,7 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 68446,
+        "avg": 68293,
         "min": 19700,
         "max": 189000,
         "count": 60
@@ -2277,9 +2277,9 @@
         "count": 24
       },
       "female": {
-        "avg": 58225,
+        "avg": 57685,
         "min": 19700,
-        "max": 169000,
+        "max": 152190,
         "count": 17
       },
       "items": [
@@ -2380,8 +2380,8 @@
           "name": "포미 워시드블루 스판 부츠컷 데님팬츠",
           "price": 54000,
           "originalPrice": 54000,
-          "discountRate": 40,
-          "finalPrice": 32400,
+          "discountRate": 32,
+          "finalPrice": 36720,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250918/5487279/5487279_17810605343340_500.jpg",
@@ -2588,13 +2588,13 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 45752,
+        "avg": 45740,
         "min": 9900,
         "max": 174000,
         "count": 60
       },
       "male": {
-        "avg": 54133,
+        "avg": 54113,
         "min": 17000,
         "max": 174000,
         "count": 38
