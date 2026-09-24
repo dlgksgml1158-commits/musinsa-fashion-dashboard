@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T06:28:56.449503+00:00",
+  "updatedAt": "2026-09-24T12:03:24.074870+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,14 +650,14 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 55522,
-        "min": 9980,
+        "avg": 56520,
+        "min": 11800,
         "max": 193500,
         "count": 60
       },
       "male": {
-        "avg": 64853,
-        "min": 9980,
+        "avg": 68178,
+        "min": 17900,
         "max": 193500,
         "count": 18
       },
@@ -925,21 +925,6 @@
         },
         {
           "rank": 18,
-          "id": "ms-7185990",
-          "brand": "이스트코",
-          "name": "2006 더블 코튼 플리스 스웨트셔츠 더스티퍼플",
-          "price": 49900,
-          "originalPrice": 49900,
-          "discountRate": 80,
-          "finalPrice": 9980,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260827/7185990/7185990_17878276728887_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7185990",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 19,
           "id": "ms-7140076",
           "brand": "엘엠알",
           "name": "오프숄더 슬리브리스 레이어드 맨투맨 GREY",
@@ -954,7 +939,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7038568",
           "brand": "브이투",
           "name": "피그먼트 워싱 _도널드_ 스웻셔츠 (CHARCOAL)",
@@ -967,6 +952,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260810/7038568/7038568_17877918318426_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7038568",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7241014",
+          "brand": "길단",
+          "name": "길단 X 빈티지컬렉션 TIGER MUSTANG 맨투맨 티셔츠",
+          "price": 59800,
+          "originalPrice": 59800,
+          "discountRate": 60,
+          "finalPrice": 23920,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260903/7241014/7241014_17884229111946_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7241014",
+          "displayGenderText": "남성"
         }
       ]
     },
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 63267,
+        "avg": 63191,
         "min": 19900,
         "max": 162000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 31
       },
       "female": {
-        "avg": 61445,
+        "avg": 61275,
         "min": 21000,
         "max": 149400,
         "count": 27
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 63050,
+        "avg": 62996,
         "min": 6900,
         "max": 159300,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 20
       },
       "female": {
-        "avg": 65304,
+        "avg": 65197,
         "min": 29900,
         "max": 141750,
         "count": 31
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-108803",
+          "id": "ms-108802",
           "brand": "",
           "name": "",
           "price": null,
