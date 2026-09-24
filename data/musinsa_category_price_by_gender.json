@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T12:03:24.074870+00:00",
+  "updatedAt": "2026-09-24T17:22:22.977820+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 56520,
+        "avg": 56727,
         "min": 11800,
         "max": 193500,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 18
       },
       "female": {
-        "avg": 54815,
+        "avg": 55260,
         "min": 11800,
         "max": 96390,
         "count": 28
@@ -930,8 +930,8 @@
           "name": "오프숄더 슬리브리스 레이어드 맨투맨 GREY",
           "price": 69000,
           "originalPrice": 69000,
-          "discountRate": 28,
-          "finalPrice": 49800,
+          "discountRate": 10,
+          "finalPrice": 62250,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260823/7140076/7140076_17893437114958_500.jpg",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 63191,
+        "avg": 63233,
         "min": 19900,
         "max": 162000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 31
       },
       "female": {
-        "avg": 61275,
+        "avg": 61369,
         "min": 21000,
         "max": 149400,
         "count": 27
@@ -1619,20 +1619,20 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 62996,
+        "avg": 62564,
         "min": 6900,
         "max": 159300,
         "count": 60
       },
       "male": {
-        "avg": 58084,
+        "avg": 56922,
         "min": 6900,
         "max": 159300,
         "count": 20
       },
       "female": {
-        "avg": 65197,
-        "min": 29900,
+        "avg": 65110,
+        "min": 27200,
         "max": 141750,
         "count": 31
       },
@@ -1689,8 +1689,8 @@
           "name": "[소프트얀] 딥 브이넥 니트_SPKWG49G01",
           "price": 29900,
           "originalPrice": 29900,
-          "discountRate": 0,
-          "finalPrice": 29900,
+          "discountRate": 9,
+          "finalPrice": 27200,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260826/7169307/7169307_17891092581531_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-108802",
+          "id": "ms-109520",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,16 +2265,16 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 68293,
+        "avg": 66192,
         "min": 19700,
         "max": 189000,
         "count": 60
       },
       "male": {
-        "avg": 74901,
+        "avg": 71701,
         "min": 20930,
         "max": 189000,
-        "count": 24
+        "count": 23
       },
       "female": {
         "avg": 57685,
