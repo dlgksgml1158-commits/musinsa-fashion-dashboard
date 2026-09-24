@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T20:34:35.726202+00:00",
+  "updatedAt": "2026-09-24T23:35:19.665256+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -292,17 +292,17 @@
         },
         {
           "rank": 20,
-          "id": "ms-7301510",
-          "brand": "러닝라이프",
-          "name": "테크다이 기능성 러닝 반팔 티셔츠 (4color)",
-          "price": 57600,
-          "originalPrice": 57600,
-          "discountRate": 15,
-          "finalPrice": 49000,
+          "id": "ms-7090076",
+          "brand": "베이프",
+          "name": "LG트윈스 반소매 티셔츠 BLACK",
+          "price": 129000,
+          "originalPrice": 129000,
+          "discountRate": 0,
+          "finalPrice": 129000,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260910/7301510/7301510_17890279670381_500.png",
-          "productUrl": "https://www.musinsa.com/products/7301510",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260818/7090076/7090076_17896290184269_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7090076",
           "displayGenderText": "공용"
         }
       ]
@@ -3132,21 +3132,6 @@
         },
         {
           "rank": 6,
-          "id": "ms-4661069",
-          "brand": "러닝라이프",
-          "name": "스포츠 반바지 쇼츠 베이직",
-          "price": 30500,
-          "originalPrice": 30500,
-          "discountRate": 24,
-          "finalPrice": 23180,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20241211/4661069/4661069_17757183654199_500.png",
-          "productUrl": "https://www.musinsa.com/products/4661069",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 7,
           "id": "ms-4903285",
           "brand": "무신사 스탠다드 스포츠",
           "name": "[2팩] 퀵드라이 스포츠 7인치 쇼츠 (7color)",
@@ -3158,6 +3143,21 @@
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250317/4903285/4903285_17745902249337_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4903285",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 7,
+          "id": "ms-4661069",
+          "brand": "러닝라이프",
+          "name": "스포츠 반바지 쇼츠 베이직",
+          "price": 30500,
+          "originalPrice": 30500,
+          "discountRate": 24,
+          "finalPrice": 23180,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20241211/4661069/4661069_17757183654199_500.png",
+          "productUrl": "https://www.musinsa.com/products/4661069",
           "displayGenderText": "공용"
         },
         {
@@ -3312,21 +3312,6 @@
         },
         {
           "rank": 18,
-          "id": "ms-2971574",
-          "brand": "어프레쉬",
-          "name": "[2PACK SET]에어스트레치 쇼츠(러닝 스윔 헬스) 3color",
-          "price": 54000,
-          "originalPrice": 54000,
-          "discountRate": 32,
-          "finalPrice": 36800,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20221205/2971574/2971574_17851150878712_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/2971574",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 19,
           "id": "ms-4913961",
           "brand": "커버낫",
           "name": "레귤러 C 로고 스웻 쇼츠 Black",
@@ -3338,6 +3323,21 @@
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250319/4913961/4913961_17788182499127_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4913961",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 19,
+          "id": "ms-2971574",
+          "brand": "어프레쉬",
+          "name": "[2PACK SET]에어스트레치 쇼츠(러닝 스윔 헬스) 3color",
+          "price": 54000,
+          "originalPrice": 54000,
+          "discountRate": 32,
+          "finalPrice": 36800,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20221205/2971574/2971574_17851150878712_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/2971574",
           "displayGenderText": "공용"
         },
         {
