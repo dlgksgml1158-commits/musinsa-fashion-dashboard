@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T17:36:06.201025+00:00",
+  "updatedAt": "2026-09-25T20:47:24.638755+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -3282,21 +3282,6 @@
         },
         {
           "rank": 16,
-          "id": "ms-6307708",
-          "brand": "오프메이드",
-          "name": "쓰리턱 버뮤다 와이드 반바지",
-          "price": 38300,
-          "originalPrice": 38300,
-          "discountRate": 61,
-          "finalPrice": 14750,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260414/6307708/6307708_17761482265262_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6307708",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 17,
           "id": "ms-2574822",
           "brand": "브렌슨",
           "name": "(Renew Ver.) 원턱 와이드 반바지 ( 7Color )",
@@ -3309,6 +3294,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20220523/2574822/2574822_17774456124536_500.jpg",
           "productUrl": "https://www.musinsa.com/products/2574822",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 17,
+          "id": "ms-6307708",
+          "brand": "오프메이드",
+          "name": "쓰리턱 버뮤다 와이드 반바지",
+          "price": 38300,
+          "originalPrice": 38300,
+          "discountRate": 61,
+          "finalPrice": 14750,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260414/6307708/6307708_17761482265262_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6307708",
+          "displayGenderText": "남성"
         },
         {
           "rank": 18,
