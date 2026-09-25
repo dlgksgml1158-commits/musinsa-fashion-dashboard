@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T07:04:32.195743+00:00",
+  "updatedAt": "2026-09-25T12:50:43.777672+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1102,21 +1102,6 @@
         },
         {
           "rank": 13,
-          "id": "ms-3030274",
-          "brand": "코드그라피",
-          "name": "[기모 Ver.] CGP 아치 로고 후드티_라이트그레이",
-          "price": 59000,
-          "originalPrice": 59000,
-          "discountRate": 66,
-          "finalPrice": 19900,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230118/3030274/3030274_17703391612432_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3030274",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 14,
           "id": "ms-5438121",
           "brand": "디스이즈네버댓",
           "name": "T-Logo Hoodie Heather Grey",
@@ -1131,7 +1116,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-5352832",
           "brand": "비바라비다",
           "name": "[기모선택] My Youth 헤비테리 후드",
@@ -1146,7 +1131,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-5315438",
           "brand": "매든",
           "name": "[12COLORS] 퍼니 풀오버 후디",
@@ -1161,7 +1146,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-2990438",
           "brand": "1989스탠다드",
           "name": "1989 자수 후드 (STHSTD-0025)",
@@ -1176,7 +1161,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6951113",
           "brand": "아이필블루씨에스엠",
           "name": "CSM Denim Patch Hoodie [4color]",
@@ -1191,7 +1176,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6966040",
           "brand": "언탭트 스튜디오",
           "name": "340G 에센셜 벌룬 오버핏 후드 티셔츠 3Color",
@@ -1206,7 +1191,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5386349",
           "brand": "엘리메노",
           "name": "EL 데이지 ver2 후드티셔츠 3Color",
@@ -1219,6 +1204,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250901/5386349/5386349_17567297087705_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5386349",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4696321",
+          "brand": "낫온리포투데이",
+          "name": "넘버볼 후드티 [버건디]",
+          "price": 79000,
+          "originalPrice": 79000,
+          "discountRate": 38,
+          "finalPrice": 49000,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250103/4696321/4696321_17675760651546_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4696321",
+          "displayGenderText": "공용"
         }
       ]
     },
