@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T07:52:13.307596+00:00",
+  "updatedAt": "2026-09-26T12:30:39.703096+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,13 +650,13 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 56966,
+        "avg": 57098,
         "min": 17900,
         "max": 193500,
         "count": 60
       },
       "male": {
-        "avg": 62204,
+        "avg": 62643,
         "min": 17900,
         "max": 193500,
         "count": 18
@@ -870,8 +870,8 @@
           "name": "리추얼 레코드 맨투맨",
           "price": 63900,
           "originalPrice": 63900,
-          "discountRate": 51,
-          "finalPrice": 31600,
+          "discountRate": 38,
+          "finalPrice": 39500,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260907/7259529/7259529_17888013510944_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-108335",
+          "id": "ms-109184",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,7 +2588,7 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 53768,
+        "avg": 53958,
         "min": 9900,
         "max": 174000,
         "count": 60
@@ -2600,7 +2600,7 @@
         "count": 36
       },
       "female": {
-        "avg": 33144,
+        "avg": 33961,
         "min": 9900,
         "max": 56440,
         "count": 14
