@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T22:22:33.288268+00:00",
+  "updatedAt": "2026-09-28T00:55:49.381674+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,19 +327,19 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 53037,
+        "avg": 52916,
         "min": 15900,
         "max": 97280,
         "count": 60
       },
       "male": {
-        "avg": 46112,
+        "avg": 46488,
         "min": 27900,
         "max": 90250,
         "count": 10
       },
       "female": {
-        "avg": 56643,
+        "avg": 56338,
         "min": 27300,
         "max": 97280,
         "count": 36
@@ -437,6 +437,21 @@
         },
         {
           "rank": 7,
+          "id": "ms-7165069",
+          "brand": "런던다다",
+          "name": "[소라 PICK] Tie Long Sleeve T-Shirt, L.KHAKI",
+          "price": 69000,
+          "originalPrice": 69000,
+          "discountRate": 33,
+          "finalPrice": 45890,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260826/7165069/7165069_17890135863876_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7165069",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 8,
           "id": "ms-6960224",
           "brand": "챔피온",
           "name": "여성 하트 로고 헨리넥 롱슬리브 Medium Grey Melange",
@@ -451,7 +466,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "id": "ms-7141761",
           "brand": "웨닐",
           "name": "프라이데이 레이어드 롱슬리브 티셔츠 2 Color [WALR_4004]",
@@ -466,7 +481,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-6978939",
           "brand": "애즈유아",
           "name": "원숄더 셔링 롱슬리브 블랙",
@@ -481,7 +496,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-7009183",
           "brand": "프리버07",
           "name": "Suede color point t-shirt [FRFA05LT13]_Wine",
@@ -496,7 +511,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-7240401",
           "brand": "그로우하이드",
           "name": "위즈 언발 레이어드 보트 긴팔 티셔츠_챠콜",
@@ -511,7 +526,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-6931472",
           "brand": "스컬프터",
           "name": "Crest Henley Hoodie Khaki",
@@ -526,7 +541,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-7046647",
           "brand": "러프사이드",
           "name": "Waffle Long Sleeve Olive",
@@ -541,7 +556,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-7314590",
           "brand": "9999아카이브",
           "name": "Echo Slub Raglan Long Sleeve",
@@ -556,7 +571,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-7059554",
           "brand": "슬로우애시드",
           "name": "슬럽 래글런 롱슬리브 [네이비]",
@@ -571,7 +586,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-7242453",
           "brand": "무드인사이드",
           "name": "피그다잉 포켓 롱슬리브_3Color",
@@ -586,7 +601,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-6967585",
           "brand": "노티카",
           "name": "폴라 벤트 하프집 풀오버(3colors) NFL2266",
@@ -601,7 +616,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-7108152",
           "brand": "웨이브걸",
           "name": "Pastel Off Shoulder T Shirts (5color)",
@@ -616,7 +631,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-6983142",
           "brand": "비터셀즈",
           "name": "에센셜 브이 넥 티-그레이",
@@ -629,34 +644,19 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260803/6983142/6983142_17872220906999_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6983142",
           "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-7153422",
-          "brand": "토아베",
-          "name": "Draped Wool Tencel Layered Tee Set (Gray)",
-          "price": 79800,
-          "originalPrice": 79800,
-          "discountRate": 15,
-          "finalPrice": 67830,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260825/7153422/7153422_17876259978239_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7153422",
-          "displayGenderText": "여성"
         }
       ]
     },
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 58401,
+        "avg": 58630,
         "min": 14410,
         "max": 193500,
         "count": 60
       },
       "male": {
-        "avg": 61972,
+        "avg": 62734,
         "min": 14410,
         "max": 193500,
         "count": 18
@@ -840,8 +840,8 @@
           "name": "선 페이디드 스웻셔츠 - 하버블루",
           "price": 67000,
           "originalPrice": 67000,
-          "discountRate": 5,
-          "finalPrice": 63650,
+          "discountRate": 0,
+          "finalPrice": 67000,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260827/7184983/7184983_17887588190123_500.jpg",
@@ -930,8 +930,8 @@
           "name": "선 페이디드 스웻셔츠 - 퍼티베이지",
           "price": 67000,
           "originalPrice": 67000,
-          "discountRate": 5,
-          "finalPrice": 63650,
+          "discountRate": 0,
+          "finalPrice": 67000,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260827/7184980/7184980_17887587361046_500.jpg",
@@ -1296,13 +1296,13 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 68216,
+        "avg": 68270,
         "min": 16800,
         "max": 173000,
         "count": 60
       },
       "male": {
-        "avg": 69663,
+        "avg": 69784,
         "min": 19900,
         "max": 162000,
         "count": 27
@@ -1619,19 +1619,19 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 62728,
+        "avg": 63290,
         "min": 6900,
         "max": 159300,
         "count": 60
       },
       "male": {
-        "avg": 61161,
+        "avg": 59957,
         "min": 6900,
         "max": 159300,
         "count": 19
       },
       "female": {
-        "avg": 66672,
+        "avg": 68692,
         "min": 29900,
         "max": 141750,
         "count": 28
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-109185",
+          "id": "ms-108814",
           "brand": "",
           "name": "",
           "price": null,
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 48825,
+        "avg": 48927,
         "min": 5900,
         "max": 143100,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 14
       },
       "female": {
-        "avg": 54071,
+        "avg": 54336,
         "min": 24900,
         "max": 127680,
         "count": 23
@@ -3234,22 +3234,22 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 46739,
+        "avg": 47098,
         "min": 12900,
         "max": 135090,
         "count": 60
       },
       "male": {
-        "avg": 37330,
+        "avg": 36998,
         "min": 13900,
         "max": 89000,
-        "count": 14
+        "count": 13
       },
       "female": {
-        "avg": 50163,
+        "avg": 50497,
         "min": 12900,
         "max": 135090,
-        "count": 38
+        "count": 39
       },
       "items": [
         {
