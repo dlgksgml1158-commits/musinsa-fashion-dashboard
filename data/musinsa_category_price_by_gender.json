@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-29T13:08:27.338761+00:00",
+  "updatedAt": "2026-09-29T18:43:20.574407+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 46987,
+        "avg": 46905,
         "min": 9900,
         "max": 305000,
         "count": 60
@@ -16,10 +16,10 @@
         "count": 15
       },
       "female": {
-        "avg": 25353,
+        "avg": 26050,
         "min": 12900,
         "max": 44420,
-        "count": 23
+        "count": 24
       },
       "items": [
         {
@@ -650,13 +650,13 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 57646,
+        "avg": 57835,
         "min": 14410,
         "max": 193500,
         "count": 60
       },
       "male": {
-        "avg": 62637,
+        "avg": 63267,
         "min": 14410,
         "max": 193500,
         "count": 18
@@ -1296,13 +1296,13 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 68518,
+        "avg": 69250,
         "min": 19900,
         "max": 173000,
         "count": 60
       },
       "male": {
-        "avg": 67482,
+        "avg": 69049,
         "min": 19900,
         "max": 162000,
         "count": 28
@@ -1516,8 +1516,8 @@
           "name": "VINTAGE CHECK BD SHIRT_BEIGE CHECK",
           "price": 108000,
           "originalPrice": 108000,
-          "discountRate": 24,
-          "finalPrice": 82620,
+          "discountRate": 10,
+          "finalPrice": 97200,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260812/7063217/7063217_17872936658185_500.jpg",
@@ -1546,8 +1546,8 @@
           "name": "CORDUROY WESTERN SHIRT_BLACK",
           "price": 128000,
           "originalPrice": 128000,
-          "discountRate": 24,
-          "finalPrice": 97920,
+          "discountRate": 10,
+          "finalPrice": 115200,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260821/7129046/7129046_17881569987790_500.jpg",
@@ -1619,22 +1619,22 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 62380,
+        "avg": 62489,
         "min": 6900,
         "max": 159300,
         "count": 60
       },
       "male": {
-        "avg": 59957,
+        "avg": 61910,
         "min": 6900,
         "max": 159300,
-        "count": 19
+        "count": 20
       },
       "female": {
-        "avg": 66616,
+        "avg": 65658,
         "min": 29900,
         "max": 126000,
-        "count": 28
+        "count": 27
       },
       "items": [
         {
@@ -1942,13 +1942,13 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 147000,
+        "avg": 148373,
         "min": 24660,
         "max": 612000,
         "count": 60
       },
       "male": {
-        "avg": 227631,
+        "avg": 231553,
         "min": 38610,
         "max": 612000,
         "count": 21
@@ -1967,8 +1967,8 @@
           "name": "LEATHER SPORTS JACKET_VINTAGE BLACK",
           "price": 568000,
           "originalPrice": 568000,
-          "discountRate": 15,
-          "finalPrice": 485640,
+          "discountRate": 0,
+          "finalPrice": 568000,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260826/7165322/7165322_17890046417878_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-110020",
+          "id": "ms-110002",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,22 +2588,22 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 53322,
-        "min": 9900,
-        "max": 174000,
+        "avg": 54601,
+        "min": 13000,
+        "max": 178000,
         "count": 60
       },
       "male": {
-        "avg": 61583,
+        "avg": 62243,
         "min": 19700,
-        "max": 174000,
-        "count": 37
+        "max": 178000,
+        "count": 38
       },
       "female": {
-        "avg": 34220,
-        "min": 9900,
+        "avg": 36247,
+        "min": 15900,
         "max": 63500,
-        "count": 13
+        "count": 12
       },
       "items": [
         {
@@ -2658,8 +2658,8 @@
           "name": "WOOL HERRINGBONE OFFICER TROUSERS_CHARCOAL",
           "price": 124000,
           "originalPrice": 124000,
-          "discountRate": 24,
-          "finalPrice": 94860,
+          "discountRate": 10,
+          "finalPrice": 111600,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260901/7219216/7219216_17893509030733_500.jpg",
@@ -2698,21 +2698,6 @@
         },
         {
           "rank": 7,
-          "id": "ms-5336697",
-          "brand": "라이크더모스트",
-          "name": "우먼 스판 히든 세미 부츠컷 슬랙스_차콜",
-          "price": 59800,
-          "originalPrice": 59800,
-          "discountRate": 83,
-          "finalPrice": 9900,
-          "category": "003008",
-          "categoryLabel": "슬랙스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250819/5336697/5336697_17560861231744_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5336697",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 8,
           "id": "ms-7310870",
           "brand": "에스피오나지",
           "name": "Easy Slacks Pants Dark Grey",
@@ -2727,14 +2712,14 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-7310205",
           "brand": "어나더 오피스",
           "name": "[AW] Santiago Slacks flexible 30L (Khaki Brown)",
           "price": 178000,
           "originalPrice": 178000,
-          "discountRate": 5,
-          "finalPrice": 169100,
+          "discountRate": 0,
+          "finalPrice": 178000,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260911/7310205/7310205_17893546475975_500.jpg",
@@ -2742,7 +2727,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-7291671",
           "brand": "유젠",
           "name": "어드저스트 와이드 밴딩 슬랙스_스트라이프 차콜",
@@ -2757,7 +2742,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-7148513",
           "brand": "블레이어",
           "name": "[블레이어 × 이핏] 카일 플레어 슬랙스 [HERRINGBON CHARCOAL]",
@@ -2772,7 +2757,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-6462746",
           "brand": "노이어",
           "name": "투 턱 워시드 코튼 슬랙스 (브라운)",
@@ -2787,14 +2772,14 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-7219236",
           "brand": "아웃스탠딩",
           "name": "WOOL HERRINGBONE OFFICER TROUSERS_D.BROWN",
           "price": 124000,
           "originalPrice": 124000,
-          "discountRate": 24,
-          "finalPrice": 94860,
+          "discountRate": 10,
+          "finalPrice": 111600,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260901/7219236/7219236_17893506952662_500.jpg",
@@ -2802,7 +2787,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-2578996",
           "brand": "시그니처",
           "name": "더블턱 와이드 슬랙스[블랙]",
@@ -2817,7 +2802,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6525758",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 플레어 히든 밴딩 슬랙스 [그레이]",
@@ -2832,7 +2817,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-2089220",
           "brand": "효지",
           "name": "[사계절]스트레이트핏 세미와이드 슬랙스 P3005 (5컬러)",
@@ -2847,7 +2832,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-3650955",
           "brand": "트릴리온",
           "name": "에센셜 세미 와이드 슬랙스 (BLACK)",
@@ -2862,7 +2847,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-4031041",
           "brand": "리메인세컨드",
           "name": "이지 세미 와이드 밴딩 슬랙스 [차콜]",
@@ -2877,7 +2862,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5820531",
           "brand": "무신사 스탠다드",
           "name": "[이도현 PICK] 엑스트라 와이드 투 턱 히든 밴딩 슬랙스 [반다이크 브라운]",
@@ -2892,7 +2877,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5291011",
           "brand": "비긴202",
           "name": "에일로 벨티드 팬츠 [차콜 멀티 스트라이프]",
@@ -2905,19 +2890,34 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250804/5291011/5291011_17551617077692_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5291011",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4752138",
+          "brand": "탑텐",
+          "name": "여성) 테이퍼드 베이커 저지 밴딩 팬츠_MSF2PT2016",
+          "price": 49900,
+          "originalPrice": 49900,
+          "discountRate": 68,
+          "finalPrice": 15900,
+          "category": "003008",
+          "categoryLabel": "슬랙스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250203/4752138/4752138_17385648681891_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4752138",
+          "displayGenderText": "여성"
         }
       ]
     },
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 44360,
+        "avg": 44597,
         "min": 5900,
         "max": 143100,
         "count": 60
       },
       "male": {
-        "avg": 49756,
+        "avg": 50774,
         "min": 16900,
         "max": 109000,
         "count": 14
@@ -3146,8 +3146,8 @@
           "name": "AUTHENTIC VINTAGE COMFORT SWEAT PANTS_3%MELANGE GRAY",
           "price": 89000,
           "originalPrice": 89000,
-          "discountRate": 28,
-          "finalPrice": 64080,
+          "discountRate": 20,
+          "finalPrice": 71200,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260812/7063176/7063176_17872940674731_500.jpg",
