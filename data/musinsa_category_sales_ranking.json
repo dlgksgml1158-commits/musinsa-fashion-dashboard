@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T23:08:56.565309+00:00",
+  "updatedAt": "2026-10-01T02:14:22.317443+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1497,21 +1497,6 @@
         },
         {
           "rank": 19,
-          "id": "ms-6085561",
-          "brand": "레테르코모",
-          "name": "시티팝 프렌치 체크셔츠 스모크블랙",
-          "price": 66000,
-          "originalPrice": 66000,
-          "discountRate": 74,
-          "finalPrice": 16950,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260305/6085561/6085561_17726903221326_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6085561",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
           "id": "ms-5289769",
           "brand": "마인드브릿지",
           "name": "[ON]스트라이프 오버핏 셔츠 - 3color",
@@ -1524,6 +1509,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250804/5289769/5289769_17726775493842_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5289769",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4434539",
+          "brand": "언탭트 스튜디오",
+          "name": "시티보이 빅 오버핏 플레이드 체크 셔츠 3Color",
+          "price": 49960,
+          "originalPrice": 49960,
+          "discountRate": 30,
+          "finalPrice": 34970,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240912/4434539/4434539_17261220660899_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4434539",
+          "displayGenderText": "공용"
         }
       ]
     },
