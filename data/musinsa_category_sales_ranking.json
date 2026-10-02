@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T00:57:25.882741+00:00",
+  "updatedAt": "2026-10-02T06:27:08.587064+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -552,21 +552,6 @@
         },
         {
           "rank": 17,
-          "id": "ms-4844845",
-          "brand": "러닝라이프",
-          "name": "마이크로메쉬 기능성 러닝 롱  슬리브 (6color)",
-          "price": 43500,
-          "originalPrice": 43500,
-          "discountRate": 17,
-          "finalPrice": 36110,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250228/4844845/4844845_17736466287340_500.png",
-          "productUrl": "https://www.musinsa.com/products/4844845",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 18,
           "id": "ms-4886457",
           "brand": "브렌슨",
           "name": "오버핏 1:1 스트라이프 긴팔티 ( 5Color )",
@@ -581,7 +566,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-7241257",
           "brand": "시그니처",
           "name": "크롭 레글런 긴팔 티셔츠[네이비]",
@@ -596,19 +581,34 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5861230",
           "brand": "디스커스 애슬레틱",
           "name": "[2PACK/세미크롭핏] 롱 슬리브 티셔츠",
           "price": 69900,
           "originalPrice": 69900,
-          "discountRate": 57,
-          "finalPrice": 29900,
+          "discountRate": 43,
+          "finalPrice": 39900,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20251230/5861230/5861230_17865326817516_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5861230",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7074443",
+          "brand": "드릭스",
+          "name": "피그먼트 코튼 오버핏 롱 슬리브_6color",
+          "price": 40000,
+          "originalPrice": 40000,
+          "discountRate": 45,
+          "finalPrice": 21800,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260813/7074443/7074443_17877382329009_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7074443",
+          "displayGenderText": "남성"
         }
       ]
     },
@@ -652,8 +652,8 @@
           "name": "[2PACK/세미크롭핏] 스웨트 셔츠 6colors",
           "price": 109000,
           "originalPrice": 109000,
-          "discountRate": 45,
-          "finalPrice": 59900,
+          "discountRate": 36,
+          "finalPrice": 69900,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250805/5292913/5292913_17667561980040_500.jpg",
@@ -1624,14 +1624,14 @@
           "rank": 7,
           "id": "ms-7220362",
           "brand": "알리스",
-          "name": "데님 레이어드 크롭 니트 풀오버 [미드블루]",
+          "name": "데님 레이어드 크롭 니트 풀오버 [블랙]",
           "price": 74000,
           "originalPrice": 74000,
           "discountRate": 25,
           "finalPrice": 55500,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260901/7220362/7220362_17883484507047_500.jpg",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260901/7220362/7220362_17909135228175_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7220362",
           "displayGenderText": "남성"
         },
@@ -1962,8 +1962,8 @@
           "name": "[씬라이트] 여성 후드 재킷_SPJPG4TG24",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 10,
-          "finalPrice": 53910,
+          "discountRate": 15,
+          "finalPrice": 51200,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260714/6838154/6838154_17884174549576_500.jpg",
@@ -2277,6 +2277,21 @@
         },
         {
           "rank": 10,
+          "id": "ms-3663072",
+          "brand": "토피",
+          "name": "모어 와이드 데님 팬츠 (WASHED RAW BLACK)",
+          "price": 49000,
+          "originalPrice": 49000,
+          "discountRate": 35,
+          "finalPrice": 31850,
+          "category": "003002",
+          "categoryLabel": "데님 팬츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20231027/3663072/3663072_16988871011427_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3663072",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 11,
           "id": "ms-4695508",
           "brand": "아워데이즈",
           "name": "리버티 세미 와이드 데님 팬츠 [5COLORS]",
@@ -2291,7 +2306,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-4747231",
           "brand": "르아르",
           "name": "에브리데이 커브드 팬츠 [블랙]",
@@ -2306,7 +2321,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-7009519",
           "brand": "아워데이즈",
           "name": "[젠플록스X아워데이즈] 세미 커브드 데님 팬츠 [3COLORS]",
@@ -2321,7 +2336,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-6119339",
           "brand": "달렌",
           "name": "사이드 핀턱 와이드 나일론 팬츠",
@@ -2336,7 +2351,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-5066602",
           "brand": "데케트",
           "name": "[패션플래닛X데케트][올시즌]Relaxed Wide Denim Jeans DCPT064",
@@ -2351,7 +2366,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-5681967",
           "brand": "텍스",
           "name": "TX301 커브드 배기 벌룬 데님 (중청)",
@@ -2366,7 +2381,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-5681985",
           "brand": "텍스",
           "name": "[린넨 라이크/사계절용선택] TX302 커브드 배기 벌룬 데님 (생지)",
@@ -2381,7 +2396,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-5311382",
           "brand": "언탭트 스튜디오",
           "name": "워시드 오버 와이드 코튼 데님팬츠 3Color",
@@ -2396,7 +2411,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-5911447",
           "brand": "에이지오디",
           "name": "스냅 버튼 커브드 팬츠 [로우 인디고]",
@@ -2411,7 +2426,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-4274049",
           "brand": "리메인세컨드",
           "name": "빈티지 캣워싱 와이드 데님 팬츠 [옐로우 워싱]",
@@ -2424,21 +2439,6 @@
           "imgUrl": "https://image.msscdn.net/images/prd_img/20240725/4274049/detail_4274049_17757836079460_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4274049",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-5916590",
-          "brand": "언탭트 스튜디오",
-          "name": "빈티지 워시드 와이드 데님팬츠 3Color",
-          "price": 49900,
-          "originalPrice": 49900,
-          "discountRate": 30,
-          "finalPrice": 34930,
-          "category": "003002",
-          "categoryLabel": "데님 팬츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260120/5916590/5916590_17700184396328_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5916590",
-          "displayGenderText": "공용"
         }
       ]
     },
