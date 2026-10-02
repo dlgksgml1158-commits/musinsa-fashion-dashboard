@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T21:26:26.852355+00:00",
+  "updatedAt": "2026-10-02T00:57:25.882741+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -411,7 +411,7 @@
           "finalPrice": 41440,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/prd_img/20260211/6014700/detail_6014700_17884008201957_500.jpg",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260211/6014700/6014700_17775279342903_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6014700",
           "displayGenderText": "여성"
         },
@@ -2277,21 +2277,6 @@
         },
         {
           "rank": 10,
-          "id": "ms-3663072",
-          "brand": "토피",
-          "name": "모어 와이드 데님 팬츠 (WASHED RAW BLACK)",
-          "price": 49000,
-          "originalPrice": 49000,
-          "discountRate": 35,
-          "finalPrice": 31850,
-          "category": "003002",
-          "categoryLabel": "데님 팬츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20231027/3663072/3663072_16988871011427_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3663072",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 11,
           "id": "ms-4695508",
           "brand": "아워데이즈",
           "name": "리버티 세미 와이드 데님 팬츠 [5COLORS]",
@@ -2306,7 +2291,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-4747231",
           "brand": "르아르",
           "name": "에브리데이 커브드 팬츠 [블랙]",
@@ -2321,7 +2306,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-7009519",
           "brand": "아워데이즈",
           "name": "[젠플록스X아워데이즈] 세미 커브드 데님 팬츠 [3COLORS]",
@@ -2336,7 +2321,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-6119339",
           "brand": "달렌",
           "name": "사이드 핀턱 와이드 나일론 팬츠",
@@ -2351,7 +2336,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-5066602",
           "brand": "데케트",
           "name": "[패션플래닛X데케트][올시즌]Relaxed Wide Denim Jeans DCPT064",
@@ -2366,7 +2351,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-5681967",
           "brand": "텍스",
           "name": "TX301 커브드 배기 벌룬 데님 (중청)",
@@ -2381,7 +2366,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-5681985",
           "brand": "텍스",
           "name": "[린넨 라이크/사계절용선택] TX302 커브드 배기 벌룬 데님 (생지)",
@@ -2396,7 +2381,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5311382",
           "brand": "언탭트 스튜디오",
           "name": "워시드 오버 와이드 코튼 데님팬츠 3Color",
@@ -2411,7 +2396,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5911447",
           "brand": "에이지오디",
           "name": "스냅 버튼 커브드 팬츠 [로우 인디고]",
@@ -2426,7 +2411,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-4274049",
           "brand": "리메인세컨드",
           "name": "빈티지 캣워싱 와이드 데님 팬츠 [옐로우 워싱]",
@@ -2439,6 +2424,21 @@
           "imgUrl": "https://image.msscdn.net/images/prd_img/20240725/4274049/detail_4274049_17757836079460_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4274049",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5916590",
+          "brand": "언탭트 스튜디오",
+          "name": "빈티지 워시드 와이드 데님팬츠 3Color",
+          "price": 49900,
+          "originalPrice": 49900,
+          "discountRate": 30,
+          "finalPrice": 34930,
+          "category": "003002",
+          "categoryLabel": "데님 팬츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260120/5916590/5916590_17700184396328_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5916590",
+          "displayGenderText": "공용"
         }
       ]
     },
