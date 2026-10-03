@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-10-03T16:32:39.399571+00:00",
+  "updatedAt": "2026-10-03T19:33:45.679154+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 46621,
+        "avg": 46778,
         "min": 9900,
         "max": 305000,
         "count": 60
       },
       "male": {
-        "avg": 31102,
+        "avg": 30409,
         "min": 11900,
         "max": 53600,
-        "count": 13
+        "count": 14
       },
       "female": {
         "avg": 25465,
@@ -99,21 +99,6 @@
         },
         {
           "rank": 6,
-          "id": "ms-4737295",
-          "brand": "리",
-          "name": "스몰 트위치 로고 티셔츠 네이비",
-          "price": 45000,
-          "originalPrice": 45000,
-          "discountRate": 73,
-          "finalPrice": 12000,
-          "category": "001001",
-          "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250122/4737295/4737295_17375294680647_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4737295",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 7,
           "id": "ms-7178917",
           "brand": "더바넷",
           "name": "Wool Tencel Mock-Neck T-Shirt_Mocha",
@@ -128,7 +113,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-7220056",
           "brand": "프린트스타",
           "name": "14수 7.4oz 크롭 헤비웨이트 무지 반팔 티셔츠 - 4 COLOR",
@@ -143,7 +128,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-7090077",
           "brand": "베이프",
           "name": "LG트윈스 반소매 티셔츠 WHITE",
@@ -158,7 +143,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-7113521",
           "brand": "아크테릭스",
           "name": "크래그 SL 코튼 버드 워드 SS 남성 - 24K BLACK / ATQFM09535",
@@ -173,7 +158,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-6349194",
           "brand": "엑스오엑스",
           "name": "리브드 헨리넥 반팔 티셔츠(3color)",
@@ -188,7 +173,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-6778769",
           "brand": "아메스 월드와이드",
           "name": "PPG VINTAGE CARTOON TEE WHITE",
@@ -203,7 +188,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-7235761",
           "brand": "고려대학교",
           "name": "고려대학교 x 무신사 래글런 반소매 티셔츠",
@@ -218,7 +203,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-4144560",
           "brand": "넷소셜클럽",
           "name": "비비드 스트레이트 로고 반팔티 (버건디)",
@@ -233,7 +218,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-7090076",
           "brand": "베이프",
           "name": "LG트윈스 반소매 티셔츠 BLACK",
@@ -248,7 +233,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6448431",
           "brand": "르아브",
           "name": "레이어 스트라이프 브이넥 티셔츠 블루",
@@ -263,7 +248,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6565837",
           "brand": "에스이에스티",
           "name": "Crop Eyelet Cut-out T-shirts Dark Brown",
@@ -278,7 +263,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5969560",
           "brand": "어반디타입",
           "name": "리버사이드 시티 티셔츠_라이트 그레이",
@@ -293,7 +278,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6680485",
           "brand": "노디",
           "name": "코튼 30수 레이어드 헨리넥 반팔 크롭 티셔츠 버건디",
@@ -308,7 +293,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-1356896",
           "brand": "지프",
           "name": "[190g] M-Logo 그래픽 반팔 티 (JR5TSU173WH)",
@@ -321,6 +306,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20200318/1356896/1356896_17732884284217_500.png",
           "productUrl": "https://www.musinsa.com/products/1356896",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7235758",
+          "brand": "고려대학교",
+          "name": "고려대학교 x 무신사 럭비 저지",
+          "price": 54900,
+          "originalPrice": 54900,
+          "discountRate": 0,
+          "finalPrice": 54900,
+          "category": "001001",
+          "categoryLabel": "반소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260903/7235758/7235758_17895210292004_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7235758",
+          "displayGenderText": "공용"
         }
       ]
     },
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-110754",
+          "id": "ms-110002",
           "brand": "",
           "name": "",
           "price": null,
