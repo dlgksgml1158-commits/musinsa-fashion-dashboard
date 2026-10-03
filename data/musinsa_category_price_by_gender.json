@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T06:39:52.388953+00:00",
+  "updatedAt": "2026-10-03T12:06:26.902889+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 59304,
+        "avg": 59320,
         "min": 13800,
         "max": 162000,
         "count": 60
@@ -985,7 +985,7 @@
         "count": 11
       },
       "female": {
-        "avg": 60264,
+        "avg": 60316,
         "min": 25900,
         "max": 109650,
         "count": 19
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-110749",
+          "id": "ms-109996",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,22 +2588,22 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 53838,
+        "avg": 54340,
         "min": 15600,
         "max": 178000,
         "count": 60
       },
       "male": {
-        "avg": 61491,
+        "avg": 61586,
         "min": 24300,
         "max": 178000,
-        "count": 36
+        "count": 37
       },
       "female": {
-        "avg": 36105,
+        "avg": 36215,
         "min": 15900,
         "max": 63500,
-        "count": 12
+        "count": 11
       },
       "items": [
         {
@@ -2743,21 +2743,6 @@
         },
         {
           "rank": 10,
-          "id": "ms-7291671",
-          "brand": "유젠",
-          "name": "어드저스트 와이드 밴딩 슬랙스_스트라이프 차콜",
-          "price": 44400,
-          "originalPrice": 44400,
-          "discountRate": 21,
-          "finalPrice": 34900,
-          "category": "003008",
-          "categoryLabel": "슬랙스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260909/7291671/7291671_17891134425496_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7291671",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 11,
           "id": "ms-7148513",
           "brand": "블레이어",
           "name": "[블레이어 × 이핏] 카일 플레어 슬랙스 [HERRINGBON CHARCOAL]",
@@ -2772,7 +2757,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-5344491",
           "brand": "몽돌",
           "name": "[벨트 SET] 스트라이프 원 턱 와이드 슬랙스 그레이 MDPT025STGRAY",
@@ -2787,7 +2772,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-2578996",
           "brand": "시그니처",
           "name": "더블턱 와이드 슬랙스[블랙]",
@@ -2802,7 +2787,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-2089220",
           "brand": "효지",
           "name": "[사계절]스트레이트핏 세미와이드 슬랙스 P3005 (5컬러)",
@@ -2817,7 +2802,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-5316744",
           "brand": "엘무드",
           "name": "포르티 테일러드 울 개버딘 슬랙스 블랙",
@@ -2832,7 +2817,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-3650955",
           "brand": "트릴리온",
           "name": "에센셜 세미 와이드 슬랙스 (BLACK)",
@@ -2847,7 +2832,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-4031041",
           "brand": "리메인세컨드",
           "name": "이지 세미 와이드 밴딩 슬랙스 [차콜]",
@@ -2862,7 +2847,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5820531",
           "brand": "무신사 스탠다드",
           "name": "[이도현 PICK] 엑스트라 와이드 투 턱 히든 밴딩 슬랙스 [반다이크 브라운]",
@@ -2877,7 +2862,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5291011",
           "brand": "비긴202",
           "name": "에일로 벨티드 팬츠 [차콜 멀티 스트라이프]",
@@ -2892,7 +2877,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-750908",
           "brand": "후러브스아트",
           "name": "유니섹스 세미 와이드 밴딩 슬랙스 블랙",
@@ -2905,6 +2890,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20180406/750908/750908_17736379434172_500.jpg",
           "productUrl": "https://www.musinsa.com/products/750908",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4752138",
+          "brand": "탑텐",
+          "name": "여성) 테이퍼드 베이커 저지 밴딩 팬츠_MSF2PT2016",
+          "price": 49900,
+          "originalPrice": 49900,
+          "discountRate": 68,
+          "finalPrice": 15900,
+          "category": "003008",
+          "categoryLabel": "슬랙스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250203/4752138/4752138_17385648681891_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4752138",
+          "displayGenderText": "여성"
         }
       ]
     },

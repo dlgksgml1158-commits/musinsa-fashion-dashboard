@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-10-03T06:39:39.483734+00:00",
+  "updatedAt": "2026-10-03T12:06:14.259984+00:00",
   "items": [
+    {
+      "title": "바카렐로가 10년의 집대성으로 그린 ​​'산로랑'의 황금시대",
+      "titleOriginal": "ヴァカレロが10年の集大成で描いた「サンローラン」の黄金時代",
+      "link": "https://www.fashionsnap.com/article/saint-laurent27ss/",
+      "season": "27SS",
+      "pubDate": "2026-10-03T06:52:48+00:00",
+      "source": "FASHIONSNAP"
+    },
     {
       "title": "신체제다움 선명하게, 「로에베」가 회귀한 의복을 입는다고 하는 신체적 체험",
       "titleOriginal": "新体制らしさ鮮明に、「ロエベ」が回帰した衣服を着るという身体的体験",
@@ -31,14 +39,6 @@
       "link": "https://www.fashionsnap.com/article/bottega-veneta-27ss-report/",
       "season": "27SS",
       "pubDate": "2026-09-28T21:23:38+00:00",
-      "source": "FASHIONSNAP"
-    },
-    {
-      "title": "2 시즌 눈으로 선명해지는 메릴 로게의 '마르니' 아카이브를 열어 재구축",
-      "titleOriginal": "2シーズン目で鮮明になるメリル・ロッゲの「マルニ」　アーカイヴを開いて再構築",
-      "link": "https://www.fashionsnap.com/article/marni-27ss/",
-      "season": "27SS",
-      "pubDate": "2026-09-28T09:32:01+00:00",
       "source": "FASHIONSNAP"
     },
     {
@@ -123,7 +123,12 @@
     }
   ],
   "seasonColors": {
-    "27SS": [],
+    "27SS": [
+      {
+        "label": "골드",
+        "hex": "#C9A227"
+      }
+    ],
     "26FW": [
       {
         "label": "블랙",
