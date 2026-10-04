@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-04T07:28:39.455275+00:00",
+  "updatedAt": "2026-10-04T13:21:53.769538+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 46778,
-        "min": 9900,
+        "avg": 46991,
+        "min": 11900,
         "max": 305000,
         "count": 60
       },
@@ -16,10 +16,10 @@
         "count": 14
       },
       "female": {
-        "avg": 25465,
+        "avg": 25353,
         "min": 12900,
         "max": 44420,
-        "count": 24
+        "count": 25
       },
       "items": [
         {
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 58936,
+        "avg": 59060,
         "min": 13800,
         "max": 162000,
         "count": 60
@@ -985,10 +985,10 @@
         "count": 12
       },
       "female": {
-        "avg": 61151,
+        "avg": 62083,
         "min": 25900,
         "max": 109650,
-        "count": 19
+        "count": 18
       },
       "items": [
         {
@@ -1068,21 +1068,6 @@
         },
         {
           "rank": 6,
-          "id": "ms-7373213",
-          "brand": "포트레이트서울",
-          "name": "오키드 와플 후디 - 네이비",
-          "price": 63000,
-          "originalPrice": 63000,
-          "discountRate": 28,
-          "finalPrice": 45360,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260919/7373213/7373213_17899333328602_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7373213",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 7,
           "id": "ms-6991802",
           "brand": "필루미네이트",
           "name": "프레이즈 레터링 후디-3Color",
@@ -1097,7 +1082,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-7271855",
           "brand": "낫포너드",
           "name": "4444 Raw Edge Washed Pullover Hood - Black",
@@ -1112,7 +1097,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-7227821",
           "brand": "에이카화이트",
           "name": "AECA WAFFLE HENLEY HOODIE (2color)",
@@ -1127,7 +1112,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-7074155",
           "brand": "트릴리온",
           "name": "바라클라바 와플 풀오버 후디_3color",
@@ -1142,7 +1127,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-7140081",
           "brand": "엘엠알",
           "name": "오프숄더 레터링 그래픽 후드 긴팔 티셔츠 PURPLE PINK",
@@ -1157,7 +1142,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-6966040",
           "brand": "언탭트 스튜디오",
           "name": "340G 에센셜 벌룬 오버핏 후드 티셔츠 3Color",
@@ -1172,7 +1157,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-4415645",
           "brand": "커버낫",
           "name": "부클 저지 후디 차콜",
@@ -1187,7 +1172,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-7345094",
           "brand": "노디",
           "name": "멀티 스트라이프 플리스 후디 퍼플",
@@ -1202,7 +1187,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-7066794",
           "brand": "엘씨디씨티엠",
           "name": "STRIPED STRAP HOODED TOP (KHAKI)",
@@ -1217,7 +1202,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-7253741",
           "brand": "아워시즈",
           "name": "363 투톤 헨리넥 후드 롱 슬리브- 옐로우",
@@ -1232,7 +1217,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7263643",
           "brand": "이유씨티",
           "name": "아일렛 레이스업 후디드 스웻셔츠 - 그레이",
@@ -1247,7 +1232,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5296283",
           "brand": "리메인세컨드",
           "name": "오버핏 빈티지 피그먼트 후디_2COLOR",
@@ -1262,7 +1247,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-7290355",
           "brand": "퍼스텝",
           "name": "유틸 워크 헤비웨이트 후드 네이비 SMHD4780",
@@ -1277,7 +1262,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7240596",
           "brand": "길단",
           "name": "길단 X 빈티지컬렉션 TIGER MUSTANG 후드티셔츠",
@@ -1290,6 +1275,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260903/7240596/7240596_17884212817075_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7240596",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6951094",
+          "brand": "마이초이도쿄",
+          "name": "MAICHOI Vintage Patch Hoodie [3color]",
+          "price": 109000,
+          "originalPrice": 109000,
+          "discountRate": 53,
+          "finalPrice": 51320,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260729/6951094/6951094_17899520855312_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6951094",
+          "displayGenderText": "공용"
         }
       ]
     },
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-110749",
+          "id": "ms-109999",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,13 +2588,13 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 53663,
+        "avg": 53596,
         "min": 13000,
         "max": 178000,
         "count": 60
       },
       "male": {
-        "avg": 61944,
+        "avg": 61836,
         "min": 19700,
         "max": 178000,
         "count": 37
@@ -3234,22 +3234,22 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 48044,
+        "avg": 48127,
         "min": 12900,
         "max": 135090,
         "count": 60
       },
       "male": {
-        "avg": 38717,
+        "avg": 38251,
         "min": 13900,
         "max": 89000,
-        "count": 16
+        "count": 17
       },
       "female": {
-        "avg": 52599,
+        "avg": 53363,
         "min": 12900,
         "max": 135090,
-        "count": 36
+        "count": 35
       },
       "items": [
         {
