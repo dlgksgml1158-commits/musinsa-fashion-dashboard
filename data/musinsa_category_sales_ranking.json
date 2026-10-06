@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T06:34:47.448953+00:00",
+  "updatedAt": "2026-10-06T13:41:46.631171+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -42,7 +42,7 @@
           "name": "Tompkins Loopwheeled Tubular Tee 4 Color",
           "price": 45000,
           "originalPrice": 45000,
-          "discountRate": 33,
+          "discountRate": 34,
           "finalPrice": 29930,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
@@ -486,7 +486,7 @@
           "finalPrice": 41440,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260211/6014700/6014700_17775279342903_500.jpg",
+          "imgUrl": "https://image.msscdn.net/images/prd_img/20260211/6014700/detail_6014700_17884008201957_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6014700",
           "displayGenderText": "여성"
         },
@@ -561,7 +561,7 @@
           "finalPrice": 42180,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250909/5432652/5432652_17605981290104_500.jpg",
+          "imgUrl": "https://image.msscdn.net/images/prd_img/20250909/5432652/detail_5432652_17899572760865_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5432652",
           "displayGenderText": "공용"
         },
@@ -662,13 +662,28 @@
         },
         {
           "rank": 4,
+          "id": "ms-5320766",
+          "brand": "커버낫",
+          "name": "C 로고 맨투맨 Black",
+          "price": 79000,
+          "originalPrice": 79000,
+          "discountRate": 63,
+          "finalPrice": 29000,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5320766/5320766_17906495589622_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5320766",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 5,
           "id": "ms-5292913",
           "brand": "디스커스 애슬레틱",
           "name": "[2PACK/세미크롭핏] 스웨트 셔츠 6colors",
           "price": 109000,
           "originalPrice": 109000,
-          "discountRate": 45,
-          "finalPrice": 59900,
+          "discountRate": 36,
+          "finalPrice": 69900,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250805/5292913/5292913_17667561980040_500.jpg",
@@ -676,7 +691,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "id": "ms-4425064",
           "brand": "챔피온",
           "name": "스몰 스크립트 로고 크루넥 스웨트셔츠 Black",
@@ -691,7 +706,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "id": "ms-4704341",
           "brand": "지프",
           "name": "[360g] M-Logo 반집업 맨투맨 (JR5TSU838MB)",
@@ -706,7 +721,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "id": "ms-4425038",
           "brand": "챔피온",
           "name": "빅 스크립트 로고 크루넥 스웨트셔츠 Normal Navy",
@@ -721,7 +736,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "id": "ms-947067",
           "brand": "무신사 스탠다드",
           "name": "스웨트셔츠 [블랙]",
@@ -736,7 +751,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-4425033",
           "brand": "챔피온",
           "name": "빅 스크립트 로고 크루넥 스웨트셔츠 Normal Grey",
@@ -751,7 +766,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-7194624",
           "brand": "비버리힐스 폴로클럽",
           "name": "남성 시그니처 베이직 로고 맨투맨 4Color TS168",
@@ -766,7 +781,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-3106845",
           "brand": "챔피온",
           "name": "C로고 크루넥 스웨트셔츠 Cream",
@@ -781,7 +796,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-7013951",
           "brand": "무드인사이드 우먼",
           "name": "[한빛 PICK] (woman) 스웻 크롭 반집업_6Color",
@@ -796,7 +811,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-2990264",
           "brand": "1989스탠다드",
           "name": "MAIN LOGO 맨투맨(STMSTD-0017)",
@@ -811,7 +826,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-2090950",
           "brand": "지프",
           "name": "[360g] M-Logo 반집업 맨투맨 (JR5TSU838DA)",
@@ -826,7 +841,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-7074046",
           "brand": "트릴리온",
           "name": "빈티지 V거셋 포켓 데님 맨투맨_2color",
@@ -841,7 +856,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-5811592",
           "brand": "지프",
           "name": "[360g] M-Logo 반집업 맨투맨 (JR5TSU838CE)",
@@ -856,7 +871,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-6966064",
           "brand": "언탭트 스튜디오",
           "name": "340G 에센셜 사이드 절개 오버핏 맨투맨 스웨트 티셔츠 3Color",
@@ -871,7 +886,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-3475395",
           "brand": "웬즈데이오아시스",
           "name": "[기모버전추가]시그니처 오버핏 맨투맨 7COLOR",
@@ -886,7 +901,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-1755605",
           "brand": "지프",
           "name": "[360g] M-Logo 반집업 맨투맨 (JR5TSU838BK)",
@@ -899,21 +914,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20210120/1755605/1755605_17551317401993_500.jpg",
           "productUrl": "https://www.musinsa.com/products/1755605",
           "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6754625",
-          "brand": "무신사 스탠다드 우먼",
-          "name": "[오헤시오 컬래버] 폴라 플리스 스냅 풀오버 [미디엄 그레이]",
-          "price": 59900,
-          "originalPrice": 59900,
-          "discountRate": 0,
-          "finalPrice": 59900,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260630/6754625/6754625_17882370241543_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6754625",
-          "displayGenderText": "여성"
         }
       ]
     },
@@ -2127,8 +2127,8 @@
           "name": "닉켈 26 동키 후드집업",
           "price": 149000,
           "originalPrice": 149000,
-          "discountRate": 49,
-          "finalPrice": 76300,
+          "discountRate": 37,
+          "finalPrice": 94530,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260309/6100901/6100901_17730403884837_500.jpg",
@@ -2842,6 +2842,21 @@
         },
         {
           "rank": 7,
+          "id": "ms-2513018",
+          "brand": "어프레쉬",
+          "name": "에어스트레치 조거팬츠_블랙 트레이닝 [일반/기모/카고 선택]",
+          "price": 39000,
+          "originalPrice": 39000,
+          "discountRate": 43,
+          "finalPrice": 22050,
+          "category": "003004",
+          "categoryLabel": "트레이닝/조거",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20220425/2513018/2513018_17858061457763_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/2513018",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 8,
           "id": "ms-4556447",
           "brand": "스켈리웩",
           "name": "[기모선택] 커브드 원턱 스웨트 팬츠[블랙]",
@@ -2856,7 +2871,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "id": "ms-5308542",
           "brand": "고스트리퍼블릭",
           "name": "커브드 사이드 핀턱 벌룬 스웨트팬츠 GLP-650_블랙",
@@ -2871,7 +2886,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-3467384",
           "brand": "에이지오디",
           "name": "와이드 빅포켓 코튼 카고 밴딩 팬츠 [카키]",
@@ -2886,7 +2901,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-5899292",
           "brand": "디미트리블랙",
           "name": "VLAD 원턱 커브드 컷오프 스웻 팬츠_멜란지",
@@ -2901,7 +2916,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-7161034",
           "brand": "디미트리블랙",
           "name": "VLAD 원턱 커브드 트랙 스웻 팬츠_(3심볼) 3 COLOR",
@@ -2916,7 +2931,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-6917750",
           "brand": "무신사 스탠다드",
           "name": "[26FW 신상] 더블 니트 커브드 스웨트 팬츠 (4 colors)",
@@ -2931,7 +2946,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-5899294",
           "brand": "디미트리블랙",
           "name": "VLAD 원턱 커브드 컷오프 스웻 팬츠_피그먼트 차콜",
@@ -2946,7 +2961,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-5249256",
           "brand": "필루미네이트",
           "name": "에센셜 와이드 스웨트 팬츠-3Color",
@@ -2961,7 +2976,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-6982338",
           "brand": "필루미네이트",
           "name": "[필루미네이트 × 패션플래닛] 헤비 코튼 커브드 스웨트 팬츠-3Color",
@@ -2976,7 +2991,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-1735427",
           "brand": "에스이에스티",
           "name": "[2PACK] 와이드핏 트레이닝 스웨트 팬츠 - 6color",
@@ -2991,7 +3006,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-5367961",
           "brand": "디미트리블랙",
           "name": "VLAD 원턱 커브드 트랙 스웻 팬츠_피그먼트 차콜",
@@ -3006,7 +3021,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-5308541",
           "brand": "고스트리퍼블릭",
           "name": "커브드 사이드 핀턱 벌룬 스웨트팬츠 GLP-650_그레이",
@@ -3021,7 +3036,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-4556449",
           "brand": "스켈리웩",
           "name": "[기모선택] 커브드 원턱 스웨트 팬츠[라이트그레이]",
@@ -3034,21 +3049,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20241024/4556449/4556449_17891087880393_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4556449",
           "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-2820939",
-          "brand": "무신사 스탠다드 우먼",
-          "name": "우먼즈 더블 니트 투 턱 와이드 라운지 스웨트 팬츠 [블랙]",
-          "price": 39900,
-          "originalPrice": 39900,
-          "discountRate": 30,
-          "finalPrice": 27880,
-          "category": "003004",
-          "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20220927/2820939/2820939_17625014945098_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/2820939",
-          "displayGenderText": "여성"
         }
       ]
     },
