@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T19:08:52.076280+00:00",
+  "updatedAt": "2026-10-06T23:07:44.258710+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -3207,36 +3207,6 @@
         },
         {
           "rank": 11,
-          "id": "ms-6575793",
-          "brand": "오프메이드",
-          "name": "사이드스냅 버뮤다 밴딩 팬츠",
-          "price": 34000,
-          "originalPrice": 34000,
-          "discountRate": 60,
-          "finalPrice": 13600,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260529/6575793/6575793_17814909684149_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6575793",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 12,
-          "id": "ms-6275096",
-          "brand": "아디다스",
-          "name": "파이어버드 클래식 숏 팬츠 - 아우라커피:샌디핑크 / KD3672",
-          "price": 55000,
-          "originalPrice": 55000,
-          "discountRate": 49,
-          "finalPrice": 27990,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260408/6275096/6275096_17756943503901_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6275096",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 13,
           "id": "ms-5589930",
           "brand": "레이지비",
           "name": "자이언트핏 와이드 버뮤다 스웨트 팬츠 빅로고 헬스 짐웨어 운동복 반바지 M (2컬러)",
@@ -3251,7 +3221,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 12,
           "id": "ms-5256111",
           "brand": "러닝라이프",
           "name": "스포츠 투인원 러닝 프로 쇼츠 플러스 (3color)",
@@ -3266,22 +3236,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
-          "id": "ms-2439242",
-          "brand": "에이치덱스",
-          "name": "액티브 쇼츠 8 color",
-          "price": 49000,
-          "originalPrice": 49000,
-          "discountRate": 15,
-          "finalPrice": 41650,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20220323/2439242/2439242_17905565501800_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/2439242",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 16,
+          "rank": 13,
           "id": "ms-6307708",
           "brand": "오프메이드",
           "name": "쓰리턱 버뮤다 와이드 반바지",
@@ -3296,7 +3251,22 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 14,
+          "id": "ms-6575793",
+          "brand": "오프메이드",
+          "name": "사이드스냅 버뮤다 밴딩 팬츠",
+          "price": 34000,
+          "originalPrice": 34000,
+          "discountRate": 60,
+          "finalPrice": 13600,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260529/6575793/6575793_17814909684149_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6575793",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 15,
           "id": "ms-4855848",
           "brand": "난데",
           "name": "버뮤다 원턱 와이드 트레이닝 쇼츠 3color",
@@ -3311,7 +3281,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 16,
           "id": "ms-6081212",
           "brand": "렌세",
           "name": "Cargo Micro Rib Shorts Black",
@@ -3326,7 +3296,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 17,
           "id": "ms-2574822",
           "brand": "브렌슨",
           "name": "(Renew Ver.) 원턱 와이드 반바지 ( 7Color )",
@@ -3341,18 +3311,48 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
-          "id": "ms-7313849",
-          "brand": "에트오소메",
-          "name": "Double Belt Low Rise Denim Shorts (Black)",
-          "price": 87000,
-          "originalPrice": 87000,
-          "discountRate": 19,
-          "finalPrice": 70470,
+          "rank": 18,
+          "id": "ms-2439242",
+          "brand": "에이치덱스",
+          "name": "액티브 쇼츠 8 color",
+          "price": 49000,
+          "originalPrice": 49000,
+          "discountRate": 15,
+          "finalPrice": 41650,
           "category": "003009",
           "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260911/7313849/7313849_17891163508842_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7313849",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20220323/2439242/2439242_17905565501800_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/2439242",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 19,
+          "id": "ms-5360073",
+          "brand": "아테즈",
+          "name": "에센셜 원턱 와이드 버뮤다 스웨트 쇼츠 [그레이]",
+          "price": 28000,
+          "originalPrice": 28000,
+          "discountRate": 40,
+          "finalPrice": 16800,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250825/5360073/5360073_17570335457640_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5360073",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-3074974",
+          "brand": "무신사 스탠다드 우먼",
+          "name": "우먼즈 더블 니트 스웨트 쇼츠 [블랙]",
+          "price": 29900,
+          "originalPrice": 29900,
+          "discountRate": 10,
+          "finalPrice": 26910,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20230210/3074974/3074974_16818092685747_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3074974",
           "displayGenderText": "여성"
         }
       ]
