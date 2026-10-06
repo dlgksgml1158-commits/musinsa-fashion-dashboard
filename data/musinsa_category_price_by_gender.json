@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T18:36:12.637596+00:00",
+  "updatedAt": "2026-10-06T00:24:40.197496+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,22 +650,22 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 65275,
+        "avg": 64201,
         "min": 14410,
         "max": 193500,
         "count": 60
       },
       "male": {
-        "avg": 66045,
+        "avg": 66643,
         "min": 14410,
         "max": 193500,
-        "count": 21
+        "count": 22
       },
       "female": {
-        "avg": 71462,
+        "avg": 68575,
         "min": 35550,
         "max": 152100,
-        "count": 26
+        "count": 25
       },
       "items": [
         {
@@ -955,18 +955,18 @@
         },
         {
           "rank": 20,
-          "id": "ms-7057661",
-          "brand": "캘빈클라인 진",
-          "name": "[베몬 PICK] 오프듀티 여성 컷오프 원숄더 스웻 셔츠 A47H298G YZ3",
-          "price": 169000,
-          "originalPrice": 169000,
-          "discountRate": 15,
-          "finalPrice": 143650,
+          "id": "ms-7129269",
+          "brand": "르아르",
+          "name": "에센셜 하프 집업 배색 맨투맨 [레드]",
+          "price": 65000,
+          "originalPrice": 65000,
+          "discountRate": 29,
+          "finalPrice": 46400,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/prd_img/20260812/7057661/detail_7057661_17893499050736_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7057661",
-          "displayGenderText": "여성"
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260821/7129269/7129269_17890354980100_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7129269",
+          "displayGenderText": "남성"
         }
       ]
     },
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-110764",
+          "id": "ms-111103",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,9 +2265,9 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 68949,
+        "avg": 65720,
         "min": 10000,
-        "max": 228650,
+        "max": 224100,
         "count": 60
       },
       "male": {
@@ -2277,9 +2277,9 @@
         "count": 17
       },
       "female": {
-        "avg": 70522,
+        "avg": 63070,
         "min": 19700,
-        "max": 228650,
+        "max": 224100,
         "count": 26
       },
       "items": [
@@ -2588,13 +2588,13 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 54110,
+        "avg": 53150,
         "min": 15600,
         "max": 178000,
         "count": 60
       },
       "male": {
-        "avg": 61214,
+        "avg": 59657,
         "min": 24300,
         "max": 178000,
         "count": 37
@@ -2803,21 +2803,6 @@
         },
         {
           "rank": 14,
-          "id": "ms-5316744",
-          "brand": "엘무드",
-          "name": "포르티 테일러드 울 개버딘 슬랙스 블랙",
-          "price": 175000,
-          "originalPrice": 175000,
-          "discountRate": 50,
-          "finalPrice": 87500,
-          "category": "003008",
-          "categoryLabel": "슬랙스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250812/5316744/5316744_17573898473295_500.png",
-          "productUrl": "https://www.musinsa.com/products/5316744",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 15,
           "id": "ms-3650955",
           "brand": "트릴리온",
           "name": "에센셜 세미 와이드 슬랙스 (BLACK)",
@@ -2832,7 +2817,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-4031041",
           "brand": "리메인세컨드",
           "name": "이지 세미 와이드 밴딩 슬랙스 [차콜]",
@@ -2847,7 +2832,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-5820531",
           "brand": "무신사 스탠다드",
           "name": "[이도현 PICK] 엑스트라 와이드 투 턱 히든 밴딩 슬랙스 [반다이크 브라운]",
@@ -2862,7 +2847,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5291011",
           "brand": "비긴202",
           "name": "에일로 벨티드 팬츠 [차콜 멀티 스트라이프]",
@@ -2877,7 +2862,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-750908",
           "brand": "후러브스아트",
           "name": "유니섹스 세미 와이드 밴딩 슬랙스 블랙",
@@ -2892,7 +2877,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-4752138",
           "brand": "탑텐",
           "name": "여성) 테이퍼드 베이커 저지 밴딩 팬츠_MSF2PT2016",
@@ -2905,6 +2890,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250203/4752138/4752138_17385648681891_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4752138",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-3796553",
+          "brand": "마인드브릿지",
+          "name": "두굿_세미와이드 밴딩 슬랙스 - 5color MAPT01A3",
+          "price": 79900,
+          "originalPrice": 79900,
+          "discountRate": 55,
+          "finalPrice": 35900,
+          "category": "003008",
+          "categoryLabel": "슬랙스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240116/3796553/3796553_17718245564224_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3796553",
+          "displayGenderText": "남성"
         }
       ]
     },
@@ -3234,22 +3234,22 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 48386,
+        "avg": 48155,
         "min": 12900,
         "max": 135090,
         "count": 60
       },
       "male": {
-        "avg": 38600,
+        "avg": 39120,
         "min": 13900,
         "max": 89000,
-        "count": 16
+        "count": 15
       },
       "female": {
-        "avg": 53212,
+        "avg": 52231,
         "min": 12900,
         "max": 135090,
-        "count": 36
+        "count": 37
       },
       "items": [
         {
@@ -3509,6 +3509,21 @@
         },
         {
           "rank": 18,
+          "id": "ms-4421581",
+          "brand": "아디다스",
+          "name": "하이퍼글램 우븐 쇼츠 IT4665",
+          "price": 45000,
+          "originalPrice": 45000,
+          "discountRate": 20,
+          "finalPrice": 36000,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240909/4421581/4421581_17774607290723_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4421581",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 19,
           "id": "ms-6276334",
           "brand": "노스페이스",
           "name": "NS6NS32J 여성 아이스펄스 쇼츠 BLACK",
@@ -3523,7 +3538,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-5820426",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 마이크로 쇼츠 [블랙]",
@@ -3535,21 +3550,6 @@
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20251210/5820426/5820426_17725252132436_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5820426",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-7095642",
-          "brand": "레더리",
-          "name": "나폴레옹 벨티드 쇼츠 [BLACK]",
-          "price": 56000,
-          "originalPrice": 56000,
-          "discountRate": 28,
-          "finalPrice": 40320,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260818/7095642/7095642_17896076129990_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7095642",
           "displayGenderText": "여성"
         }
       ]
