@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T16:41:16.331851+00:00",
+  "updatedAt": "2026-10-07T21:39:33.210671+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 48145,
+        "avg": 48172,
         "min": 9990,
         "max": 159000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 10
       },
       "female": {
-        "avg": 47060,
+        "avg": 47108,
         "min": 15900,
         "max": 94000,
         "count": 34
@@ -497,21 +497,6 @@
         },
         {
           "rank": 11,
-          "id": "ms-7224292",
-          "brand": "도프셉",
-          "name": "Floral Embroidered Keyhole Tee (Ivory)",
-          "price": 59000,
-          "originalPrice": 59000,
-          "discountRate": 10,
-          "finalPrice": 53100,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260902/7224292/7224292_17889385760069_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7224292",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 12,
           "id": "ms-7204835",
           "brand": "락케이크",
           "name": "Cowl Sleeve Hoodie - Black",
@@ -526,7 +511,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-7276265",
           "brand": "티뷰",
           "name": "절개버튼세미오프숄더티셔츠_V6C-CTS008",
@@ -541,7 +526,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-7273452",
           "brand": "메인부스",
           "name": "Washed Henley T-shirt(CHARCOAL)",
@@ -556,7 +541,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-7295719",
           "brand": "페이드",
           "name": "PD 시그니처 로고 세미크롭 긴팔티 3Color",
@@ -571,7 +556,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-7056943",
           "brand": "스켈리웩",
           "name": "유니언잭 래글런 롱 슬리브[블랙]",
@@ -586,7 +571,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7288665",
           "brand": "에잇세컨즈",
           "name": "솔리드 드레이프 긴소매 티셔츠  바이올렛",
@@ -601,7 +586,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-7314435",
           "brand": "9999아카이브",
           "name": "Echo Slub Raglan Long Sleeve",
@@ -616,7 +601,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-7047808",
           "brand": "러프사이드",
           "name": "Multi Stripe Long Sleeve Ocean Blue",
@@ -631,7 +616,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7308914",
           "brand": "가더",
           "name": "Aven T shirt (Charcoal)",
@@ -644,13 +629,28 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260911/7308914/7308914_17893132083820_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7308914",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7309104",
+          "brand": "파시온",
+          "name": "메이비스 나그랑 티_그레이 & 네이비 Mavis Raglan Tee_ Gray & Navy",
+          "price": 48000,
+          "originalPrice": 48000,
+          "discountRate": 20,
+          "finalPrice": 38400,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260911/7309104/7309104_17891006558394_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7309104",
+          "displayGenderText": "여성"
         }
       ]
     },
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 49902,
+        "avg": 49977,
         "min": 9990,
         "max": 193500,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 23
       },
       "female": {
-        "avg": 44799,
+        "avg": 45099,
         "min": 11800,
         "max": 122550,
         "count": 15
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-108779",
+          "id": "ms-111794",
           "brand": "",
           "name": "",
           "price": null,
