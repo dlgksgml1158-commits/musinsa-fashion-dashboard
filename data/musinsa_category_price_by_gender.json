@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T02:30:06.692311+00:00",
+  "updatedAt": "2026-10-07T09:03:55.556527+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 48704,
+        "avg": 48722,
         "min": 9990,
         "max": 159000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 10
       },
       "female": {
-        "avg": 47581,
+        "avg": 47612,
         "min": 15900,
         "max": 94000,
         "count": 34
@@ -650,22 +650,22 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 49701,
+        "avg": 50460,
         "min": 9990,
         "max": 193500,
         "count": 60
       },
       "male": {
-        "avg": 54587,
+        "avg": 54741,
         "min": 11000,
         "max": 193500,
         "count": 23
       },
       "female": {
-        "avg": 44238,
+        "avg": 44755,
         "min": 11800,
         "max": 122550,
-        "count": 14
+        "count": 15
       },
       "items": [
         {
@@ -765,8 +765,8 @@
           "name": "무겐 야미 1996 맨투맨",
           "price": 63900,
           "originalPrice": 63900,
-          "discountRate": 40,
-          "finalPrice": 38320,
+          "discountRate": 38,
+          "finalPrice": 39500,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260907/7259524/7259524_17887960754092_500.jpg",
@@ -810,8 +810,8 @@
           "name": "리추얼 레코드 맨투맨",
           "price": 63900,
           "originalPrice": 63900,
-          "discountRate": 40,
-          "finalPrice": 38320,
+          "discountRate": 38,
+          "finalPrice": 39500,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260907/7259529/7259529_17888013510944_500.jpg",
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 56778,
+        "avg": 55989,
         "min": 14900,
         "max": 129000,
         "count": 60
@@ -985,10 +985,10 @@
         "count": 14
       },
       "female": {
-        "avg": 56345,
+        "avg": 54592,
         "min": 14900,
         "max": 119070,
-        "count": 15
+        "count": 16
       },
       "items": [
         {
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 55819,
+        "avg": 56079,
         "min": 9900,
         "max": 173000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 31
       },
       "female": {
-        "avg": 61824,
+        "avg": 62503,
         "min": 21000,
         "max": 113570,
         "count": 23
@@ -1486,8 +1486,8 @@
           "name": "플리츠 더블 보우 블라우스 블랙",
           "price": 100000,
           "originalPrice": 100000,
-          "discountRate": 34,
-          "finalPrice": 65600,
+          "discountRate": 26,
+          "finalPrice": 73800,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260807/7020660/7020660_17885085324828_500.jpg",
@@ -1619,22 +1619,22 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 67883,
+        "avg": 67893,
         "min": 21890,
         "max": 219000,
         "count": 60
       },
       "male": {
-        "avg": 64671,
+        "avg": 63961,
         "min": 31410,
         "max": 135000,
-        "count": 27
+        "count": 28
       },
       "female": {
-        "avg": 77734,
+        "avg": 79257,
         "min": 21890,
         "max": 219000,
-        "count": 23
+        "count": 22
       },
       "items": [
         {
@@ -1774,21 +1774,6 @@
         },
         {
           "rank": 10,
-          "id": "ms-7108921",
-          "brand": "아워호프",
-          "name": "브러시드 울 헨리넥 래글런 니트 - Melange Grey",
-          "price": 84000,
-          "originalPrice": 84000,
-          "discountRate": 24,
-          "finalPrice": 63840,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260819/7108921/7108921_17895282872846_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7108921",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 11,
           "id": "ms-6947522",
           "brand": "웬즈데이오아시스 포 우먼",
           "name": "[무신사 스폐셜 X 지뚜니] 헤어리 카라 울 블렌드 니트_4COLOR",
@@ -1803,7 +1788,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-7399602",
           "brand": "토피 우먼",
           "name": "[SET] 딥 브이 버튼 니트 + 피치 버튼 슬리브리스 세트",
@@ -1818,7 +1803,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-7363959",
           "brand": "론론",
           "name": "RIBBON SHEEP PATTERN KNIT PULLOVER BROWN",
@@ -1833,7 +1818,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-7245294",
           "brand": "스탠드오버",
           "name": "소프트 헨리넥 니트 [와인]",
@@ -1848,7 +1833,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-7248005",
           "brand": "어널러코드",
           "name": "사선 헨리넥 니트 (3color)",
@@ -1863,7 +1848,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-7310857",
           "brand": "유니온블루",
           "name": "HARU CASHMERE WOOL HENLEY KNIT [MELANGE GRAY]",
@@ -1878,7 +1863,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-4408450",
           "brand": "아미",
           "name": "브러쉬드 터틀넥 니트 - 블랙 / FKS447KN0056001",
@@ -1891,6 +1876,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240905/4408450/4408450_17267935506655_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4408450",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 17,
+          "id": "ms-7129201",
+          "brand": "르아르",
+          "name": "사선 헨리넥 헤비 니트 [토프브라운]",
+          "price": 66000,
+          "originalPrice": 66000,
+          "discountRate": 32,
+          "finalPrice": 44800,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260821/7129201/7129201_17893688373068_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7129201",
+          "displayGenderText": "남성"
         },
         {
           "rank": 18,
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-111792",
+          "id": "ms-111592",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,14 +2265,14 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 56962,
+        "avg": 57004,
         "min": 19900,
         "max": 179000,
         "count": 60
       },
       "male": {
-        "avg": 53839,
-        "min": 29520,
+        "avg": 53993,
+        "min": 31350,
         "max": 148500,
         "count": 15
       },
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 49630,
+        "avg": 49767,
         "min": 9900,
         "max": 252000,
         "count": 60
@@ -2923,9 +2923,9 @@
         "count": 12
       },
       "female": {
-        "avg": 52251,
+        "avg": 54947,
         "min": 9900,
-        "max": 143100,
+        "max": 199000,
         "count": 25
       },
       "items": [
@@ -3234,13 +3234,13 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 43066,
+        "avg": 43211,
         "min": 10200,
         "max": 113760,
         "count": 60
       },
       "male": {
-        "avg": 30178,
+        "avg": 30847,
         "min": 10200,
         "max": 58500,
         "count": 13
