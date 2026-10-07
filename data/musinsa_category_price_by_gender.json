@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T23:07:34.916059+00:00",
+  "updatedAt": "2026-10-07T02:30:06.692311+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -979,10 +979,10 @@
         "count": 60
       },
       "male": {
-        "avg": 65450,
+        "avg": 63768,
         "min": 21900,
         "max": 129000,
-        "count": 15
+        "count": 14
       },
       "female": {
         "avg": 56345,
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-111892",
+          "id": "ms-111792",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,13 +2588,13 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 49339,
+        "avg": 49406,
         "min": 15600,
         "max": 178000,
         "count": 60
       },
       "male": {
-        "avg": 53880,
+        "avg": 53988,
         "min": 23890,
         "max": 178000,
         "count": 37
@@ -2730,7 +2730,7 @@
           "rank": 9,
           "id": "ms-2578996",
           "brand": "시그니처",
-          "name": "더블턱 와이드 슬랙스[블랙]",
+          "name": "[기모선택] 더블턱 와이드 슬랙스[블랙]",
           "price": 59000,
           "originalPrice": 59000,
           "discountRate": 51,
@@ -2823,8 +2823,8 @@
           "name": "두굿_세미와이드 밴딩 슬랙스 - 5color MAPT01A3",
           "price": 79900,
           "originalPrice": 79900,
-          "discountRate": 55,
-          "finalPrice": 35900,
+          "discountRate": 50,
+          "finalPrice": 39890,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240116/3796553/3796553_17718245564224_500.jpg",
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 43674,
+        "avg": 43066,
         "min": 10200,
         "max": 113760,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 13
       },
       "female": {
-        "avg": 47509,
+        "avg": 46496,
         "min": 17280,
         "max": 113760,
         "count": 36
