@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T21:39:33.210671+00:00",
+  "updatedAt": "2026-10-08T01:22:17.600617+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,22 +327,22 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 48172,
+        "avg": 47814,
         "min": 9990,
         "max": 159000,
         "count": 60
       },
       "male": {
-        "avg": 55571,
+        "avg": 56478,
         "min": 28500,
         "max": 109000,
-        "count": 10
+        "count": 9
       },
       "female": {
-        "avg": 47108,
+        "avg": 46503,
         "min": 15900,
         "max": 94000,
-        "count": 34
+        "count": 35
       },
       "items": [
         {
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 55519,
+        "avg": 55442,
         "min": 14500,
         "max": 129000,
         "count": 60
@@ -1296,19 +1296,19 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 54369,
+        "avg": 53400,
         "min": 9900,
         "max": 173000,
         "count": 60
       },
       "male": {
-        "avg": 44505,
+        "avg": 43134,
         "min": 9900,
         "max": 107100,
         "count": 31
       },
       "female": {
-        "avg": 62087,
+        "avg": 61407,
         "min": 21000,
         "max": 132050,
         "count": 23
@@ -1376,21 +1376,6 @@
         },
         {
           "rank": 5,
-          "id": "ms-7244021",
-          "brand": "무드인사이드",
-          "name": "워시드 세미 크롭 피그먼트 셔츠_Blue",
-          "price": 99900,
-          "originalPrice": 99900,
-          "discountRate": 40,
-          "finalPrice": 59900,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260903/7244021/7244021_17884428827331_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7244021",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 6,
           "id": "ms-7355199",
           "brand": "후크",
           "name": "더 시티 코듀로이 셔츠 (차콜)",
@@ -1405,22 +1390,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 7,
-          "id": "ms-7243976",
-          "brand": "무드인사이드",
-          "name": "워시드 세미 크롭 피그먼트 셔츠_Charcoal",
-          "price": 99900,
-          "originalPrice": 99900,
-          "discountRate": 40,
-          "finalPrice": 59900,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260903/7243976/7243976_17884423435382_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7243976",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 8,
+          "rank": 6,
           "id": "ms-7330675",
           "brand": "렌세",
           "name": "Wrinkle Texture Shirt Charcoal",
@@ -1435,7 +1405,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 9,
+          "rank": 7,
           "id": "ms-7068209",
           "brand": "바우로 프로덕트",
           "name": "브라운 체크 웨스턴 셔츠",
@@ -1450,7 +1420,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 8,
           "id": "ms-7179061",
           "brand": "더바넷",
           "name": "Pevia Frill Pintuck Blouse_Black",
@@ -1465,7 +1435,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 9,
           "id": "ms-7311457",
           "brand": "에스피오나지",
           "name": "Vintage Check 1 Pocket Shirt Blue",
@@ -1480,7 +1450,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 10,
           "id": "ms-7020660",
           "brand": "일리고",
           "name": "플리츠 더블 보우 블라우스 블랙",
@@ -1495,7 +1465,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 11,
           "id": "ms-7355541",
           "brand": "후크",
           "name": "더 스테디 체크셔츠 (빈티지 브라운)",
@@ -1510,7 +1480,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 12,
           "id": "ms-7309480",
           "brand": "프리즘웍스",
           "name": "PIGMENT 8W CORDUROY SHIRT 002 _ MINT",
@@ -1525,7 +1495,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 13,
           "id": "ms-7388029",
           "brand": "후크",
           "name": "더 시티 스트라이프 셔츠 (스카이)",
@@ -1540,7 +1510,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 14,
           "id": "ms-7320022",
           "brand": "미쏘",
           "name": "스카프 디테일 블라우스_MIWBLGT21B",
@@ -1555,7 +1525,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 15,
           "id": "ms-7128511",
           "brand": "디키즈",
           "name": "디키즈 x 해칭룸 Regular Shirt Check Dusty Grey",
@@ -1570,7 +1540,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 16,
           "id": "ms-7210135",
           "brand": "아워데이즈",
           "name": "[오정규X아워데이즈] 세미 크롭 셔츠 [6COLORS]",
@@ -1585,7 +1555,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 17,
           "id": "ms-5926416",
           "brand": "알리스",
           "name": "웨스턴 리니어 솔리드 크롭 셔츠 [블랙]",
@@ -1600,7 +1570,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 18,
           "id": "ms-7340915",
           "brand": "알키알카",
           "name": "Tie Layered Blouse (Black)_ALKAS01537",
@@ -1613,19 +1583,49 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260916/7340915/7340915_17895223016386_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7340915",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 19,
+          "id": "ms-7023008",
+          "brand": "무신사 스탠다드",
+          "name": "크롭 옥스포드 셔츠 [화이트]",
+          "price": 39900,
+          "originalPrice": 39900,
+          "discountRate": 0,
+          "finalPrice": 39900,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260807/7023008/7023008_17901477227528_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7023008",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7309477",
+          "brand": "프리즘웍스",
+          "name": "PIGMENT 8W CORDUROY SHIRT 002 _ CHARCOAL",
+          "price": 109000,
+          "originalPrice": 109000,
+          "discountRate": 10,
+          "finalPrice": 98100,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260911/7309477/7309477_17897148324736_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7309477",
+          "displayGenderText": "남성"
         }
       ]
     },
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 68324,
+        "avg": 68292,
         "min": 21890,
         "max": 219000,
         "count": 60
       },
       "male": {
-        "avg": 64925,
+        "avg": 64853,
         "min": 31410,
         "max": 135000,
         "count": 27
@@ -1948,16 +1948,16 @@
         "count": 60
       },
       "male": {
-        "avg": 151696,
+        "avg": 153948,
         "min": 53910,
         "max": 432000,
-        "count": 24
+        "count": 23
       },
       "female": {
-        "avg": 93430,
+        "avg": 93861,
         "min": 24500,
         "max": 152400,
-        "count": 14
+        "count": 15
       },
       "items": [
         {
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-111794",
+          "id": "ms-111604",
           "brand": "",
           "name": "",
           "price": null,
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 46582,
+        "avg": 49454,
         "min": 9900,
         "max": 252000,
         "count": 60
@@ -2923,9 +2923,9 @@
         "count": 12
       },
       "female": {
-        "avg": 47579,
+        "avg": 54471,
         "min": 9900,
-        "max": 143100,
+        "max": 199000,
         "count": 25
       },
       "items": [
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 43211,
+        "avg": 42978,
         "min": 10200,
         "max": 113760,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 13
       },
       "female": {
-        "avg": 46496,
+        "avg": 46108,
         "min": 17280,
         "max": 113760,
         "count": 36
@@ -3319,8 +3319,8 @@
           "name": "Latch Micro Belt Shorts (BLACK)",
           "price": 98000,
           "originalPrice": 98000,
-          "discountRate": 34,
-          "finalPrice": 65170,
+          "discountRate": 48,
+          "finalPrice": 51210,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250911/5442400/5442400_17817596058507_500.jpg",
