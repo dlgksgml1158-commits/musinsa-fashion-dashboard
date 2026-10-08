@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T07:34:08.071598+00:00",
+  "updatedAt": "2026-10-08T14:58:29.318908+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -282,8 +282,8 @@
           "name": "레이어드 크루 넥 티셔츠_일반 기장 2팩",
           "price": 31800,
           "originalPrice": 31800,
-          "discountRate": 12,
-          "finalPrice": 27890,
+          "discountRate": 5,
+          "finalPrice": 30190,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20210910/2122566/2122566_17133406834875_500.jpg",
@@ -692,21 +692,6 @@
         },
         {
           "rank": 6,
-          "id": "ms-5320766",
-          "brand": "커버낫",
-          "name": "C 로고 맨투맨 Black",
-          "price": 79000,
-          "originalPrice": 79000,
-          "discountRate": 78,
-          "finalPrice": 17150,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5320766/5320766_17906495589622_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5320766",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 7,
           "id": "ms-5292913",
           "brand": "디스커스 애슬레틱",
           "name": "[2PACK/세미크롭핏] 스웨트 셔츠 6colors",
@@ -721,7 +706,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-4704341",
           "brand": "지프",
           "name": "[360g] M-Logo 반집업 맨투맨 (JR5TSU838MB)",
@@ -736,7 +721,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-4425038",
           "brand": "챔피온",
           "name": "빅 스크립트 로고 크루넥 스웨트셔츠 Normal Navy",
@@ -751,7 +736,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-947067",
           "brand": "무신사 스탠다드",
           "name": "스웨트셔츠 [블랙]",
@@ -766,7 +751,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-7013951",
           "brand": "무드인사이드 우먼",
           "name": "[한빛 PICK] (woman) 스웻 크롭 반집업_6Color",
@@ -781,7 +766,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-2990264",
           "brand": "1989스탠다드",
           "name": "MAIN LOGO 맨투맨(STMSTD-0017)",
@@ -796,7 +781,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-2090950",
           "brand": "지프",
           "name": "[360g] M-Logo 반집업 맨투맨 (JR5TSU838DA)",
@@ -811,7 +796,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-7074046",
           "brand": "트릴리온",
           "name": "빈티지 V거셋 포켓 데님 맨투맨_2color",
@@ -826,7 +811,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-7194624",
           "brand": "비버리힐스 폴로클럽",
           "name": "남성 시그니처 베이직 로고 맨투맨 4Color TS168",
@@ -841,7 +826,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-1755605",
           "brand": "지프",
           "name": "[360g] M-Logo 반집업 맨투맨 (JR5TSU838BK)",
@@ -856,7 +841,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-3106845",
           "brand": "챔피온",
           "name": "C로고 크루넥 스웨트셔츠 Cream",
@@ -871,7 +856,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-4673419",
           "brand": "난데",
           "name": "MANHATTAN 프린팅 오버핏 맨투맨 스웻셔츠 8color",
@@ -886,7 +871,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-3475395",
           "brand": "웬즈데이오아시스",
           "name": "[기모버전추가]시그니처 오버핏 맨투맨 7COLOR",
@@ -901,7 +886,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5811592",
           "brand": "지프",
           "name": "[360g] M-Logo 반집업 맨투맨 (JR5TSU838CE)",
@@ -914,6 +899,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20251208/5811592/5811592_17841849836760_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5811592",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6754625",
+          "brand": "무신사 스탠다드 우먼",
+          "name": "[오헤시오 컬래버] 폴라 플리스 스냅 풀오버 [미디엄 그레이]",
+          "price": 59900,
+          "originalPrice": 59900,
+          "discountRate": 25,
+          "finalPrice": 44920,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260630/6754625/6754625_17882370241543_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6754625",
+          "displayGenderText": "여성"
         }
       ]
     },
