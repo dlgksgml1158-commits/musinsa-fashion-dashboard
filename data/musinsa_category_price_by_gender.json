@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-09T06:50:11.545534+00:00",
+  "updatedAt": "2026-10-09T13:52:57.988742+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 35109,
+        "avg": 35030,
         "min": 14500,
         "max": 129000,
         "count": 60
@@ -16,7 +16,7 @@
         "count": 25
       },
       "female": {
-        "avg": 36812,
+        "avg": 36517,
         "min": 15200,
         "max": 55100,
         "count": 16
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 51616,
+        "avg": 51331,
         "min": 9990,
         "max": 159000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 10
       },
       "female": {
-        "avg": 49682,
+        "avg": 49148,
         "min": 9990,
         "max": 94000,
         "count": 32
@@ -427,8 +427,8 @@
           "name": "See-Through Tencel Wool Long Sleeve_Warm Gray",
           "price": 78000,
           "originalPrice": 78000,
-          "discountRate": 0,
-          "finalPrice": 78000,
+          "discountRate": 25,
+          "finalPrice": 58500,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260922/7396512/7396512_17901271820088_500.jpg",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 60363,
+        "avg": 60271,
         "min": 18900,
         "max": 173000,
         "count": 60
@@ -1619,13 +1619,13 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 82763,
+        "avg": 82619,
         "min": 24990,
         "max": 606000,
         "count": 60
       },
       "male": {
-        "avg": 88868,
+        "avg": 88535,
         "min": 33000,
         "max": 606000,
         "count": 26
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-111579",
+          "id": "ms-112268",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,13 +2588,13 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 57912,
+        "avg": 57863,
         "min": 15900,
         "max": 178000,
         "count": 60
       },
       "male": {
-        "avg": 67066,
+        "avg": 66999,
         "min": 23900,
         "max": 178000,
         "count": 43
