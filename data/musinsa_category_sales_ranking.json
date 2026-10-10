@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T08:43:25.552922+00:00",
+  "updatedAt": "2026-10-10T14:50:39.824879+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -857,21 +857,6 @@
         },
         {
           "rank": 17,
-          "id": "ms-7455550",
-          "brand": "이스트코",
-          "name": "2006 더블 코튼 플리스 스웨트셔츠 라이트 그레이",
-          "price": 49900,
-          "originalPrice": 49900,
-          "discountRate": 80,
-          "finalPrice": 9980,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20261005/7455550/7455550_17911863066364_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7455550",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 18,
           "id": "ms-5543992",
           "brand": "비바라비다",
           "name": "[기모선택] My Youth 헤비테리 맨투맨",
@@ -886,7 +871,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6966064",
           "brand": "언탭트 스튜디오",
           "name": "340G 에센셜 사이드 절개 오버핏 맨투맨 스웨트 티셔츠 3Color",
@@ -901,7 +886,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-4673419",
           "brand": "난데",
           "name": "MANHATTAN 프린팅 오버핏 맨투맨 스웻셔츠 8color",
@@ -913,6 +898,21 @@
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20241219/4673419/4673419_17897100918571_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4673419",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-3106845",
+          "brand": "챔피온",
+          "name": "C로고 크루넥 스웨트셔츠 Cream",
+          "price": 79000,
+          "originalPrice": 79000,
+          "discountRate": 45,
+          "finalPrice": 43400,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20230224/3106845/3106845_17429694068825_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3106845",
           "displayGenderText": "남성"
         }
       ]

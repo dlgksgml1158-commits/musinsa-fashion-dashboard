@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2026-10-10T08:43:17.371070+00:00",
+  "updatedAt": "2026-10-10T14:50:31.668919+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 35109,
+        "avg": 35137,
         "min": 14500,
         "max": 129000,
         "count": 60
       },
       "male": {
-        "avg": 31536,
+        "avg": 31793,
         "min": 14500,
         "max": 59000,
         "count": 25
       },
       "female": {
-        "avg": 36812,
+        "avg": 36517,
         "min": 15200,
         "max": 55100,
         "count": 16
@@ -327,22 +327,22 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 51336,
+        "avg": 50955,
         "min": 9990,
         "max": 159000,
         "count": 60
       },
       "male": {
-        "avg": 57964,
-        "min": 29980,
+        "avg": 54958,
+        "min": 27900,
         "max": 109000,
-        "count": 9
+        "count": 10
       },
       "female": {
-        "avg": 49895,
+        "avg": 49868,
         "min": 9990,
         "max": 94000,
-        "count": 33
+        "count": 32
       },
       "items": [
         {
@@ -527,21 +527,6 @@
         },
         {
           "rank": 13,
-          "id": "ms-7224292",
-          "brand": "도프셉",
-          "name": "Floral Embroidered Keyhole Tee (Ivory)",
-          "price": 59000,
-          "originalPrice": 59000,
-          "discountRate": 14,
-          "finalPrice": 50740,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260902/7224292/7224292_17889385760069_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7224292",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 14,
           "id": "ms-7129414",
           "brand": "르아르",
           "name": "소프트 스트라이프 롱슬리브 티셔츠 [레드]",
@@ -556,7 +541,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-7342757",
           "brand": "바니쉬먼트",
           "name": "Color raglan cotton long tee (5color)",
@@ -571,7 +556,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-7332196",
           "brand": "뉴발란스",
           "name": "NBNDG15203 / UNI PF 에센셜 베이스레이어 (BLACK)",
@@ -586,7 +571,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7329423",
           "brand": "원헌드레드퍼센트",
           "name": "OHPxHARMONIA 킥플립캣 피그먼트 긴팔티6",
@@ -601,7 +586,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-7273452",
           "brand": "메인부스",
           "name": "Washed Henley T-shirt(CHARCOAL)",
@@ -616,7 +601,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-7295719",
           "brand": "페이드",
           "name": "PD 시그니처 로고 세미크롭 긴팔티 3Color",
@@ -631,7 +616,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7251383",
           "brand": "1989스탠다드",
           "name": "사선 와플 헨리넥 롱 슬리브 (JTOWHL-0002)",
@@ -644,6 +629,21 @@
           "imgUrl": "https://image.msscdn.net/images/prd_img/20260904/7251383/detail_7251383_17894482589300_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7251383",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7310889",
+          "brand": "로시로우",
+          "name": "Lettering Raglan Long Sleeve Tee - Brown",
+          "price": 56900,
+          "originalPrice": 56900,
+          "discountRate": 0,
+          "finalPrice": 56900,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260911/7310889/7310889_17891060756746_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7310889",
+          "displayGenderText": "여성"
         }
       ]
     },
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-111580",
+          "id": "ms-111602",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,13 +2588,13 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 58369,
+        "avg": 58320,
         "min": 15900,
         "max": 178000,
         "count": 60
       },
       "male": {
-        "avg": 66619,
+        "avg": 66553,
         "min": 23900,
         "max": 178000,
         "count": 44
