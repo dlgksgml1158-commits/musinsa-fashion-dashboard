@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T14:12:53.271764+00:00",
+  "updatedAt": "2026-10-11T19:01:39.580538+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 50907,
+        "avg": 51584,
         "min": 9990,
         "max": 159000,
         "count": 60
@@ -339,10 +339,10 @@
         "count": 10
       },
       "female": {
-        "avg": 49778,
+        "avg": 50438,
         "min": 9990,
         "max": 94000,
-        "count": 32
+        "count": 31
       },
       "items": [
         {
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 61172,
+        "avg": 61107,
         "min": 12000,
         "max": 197100,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 23
       },
       "female": {
-        "avg": 71344,
+        "avg": 71126,
         "min": 25900,
         "max": 189000,
         "count": 18
@@ -825,8 +825,8 @@
           "name": "Waffle half zip-up [KNFW07TS05]_Melange gray",
           "price": 114000,
           "originalPrice": 114000,
-          "discountRate": 21,
-          "finalPrice": 89670,
+          "discountRate": 24,
+          "finalPrice": 86850,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260910/7295882/7295882_17890076018511_500.jpg",
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 61317,
+        "avg": 62586,
         "min": 14900,
         "max": 168000,
         "count": 60
@@ -985,10 +985,10 @@
         "count": 15
       },
       "female": {
-        "avg": 60692,
+        "avg": 61967,
         "min": 14900,
         "max": 132300,
-        "count": 15
+        "count": 14
       },
       "items": [
         {
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 59802,
+        "avg": 60506,
         "min": 18900,
         "max": 173000,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 27
       },
       "female": {
-        "avg": 57795,
+        "avg": 59305,
         "min": 18900,
         "max": 110700,
         "count": 28
@@ -1561,8 +1561,8 @@
           "name": "Satin Button Waist Blouse, DUST BLUE",
           "price": 79000,
           "originalPrice": 79000,
-          "discountRate": 29,
-          "finalPrice": 56290,
+          "discountRate": 5,
+          "finalPrice": 75050,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260911/7315031/7315031_17899667162074_500.jpg",
@@ -1619,21 +1619,21 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 84721,
+        "avg": 89524,
         "min": 24990,
-        "max": 606000,
+        "max": 786990,
         "count": 60
       },
       "male": {
-        "avg": 88535,
+        "avg": 95497,
         "min": 33000,
-        "max": 606000,
+        "max": 786990,
         "count": 26
       },
       "female": {
-        "avg": 85181,
+        "avg": 89648,
         "min": 24990,
-        "max": 144000,
+        "max": 210000,
         "count": 24
       },
       "items": [
@@ -1914,8 +1914,8 @@
           "name": "브러쉬드 터틀넥 니트 - 블랙 / FKS447KN0056001",
           "price": 982000,
           "originalPrice": 982000,
-          "discountRate": 89,
-          "finalPrice": 112000,
+          "discountRate": 79,
+          "finalPrice": 210000,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240905/4408450/4408450_17267935506655_500.jpg",
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 105926,
+        "avg": 106304,
         "min": 39990,
         "max": 239000,
         "count": 60
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-112271",
+          "id": "ms-112056",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,19 +2265,19 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 67330,
+        "avg": 68394,
         "min": 26900,
         "max": 329000,
         "count": 60
       },
       "male": {
-        "avg": 82807,
+        "avg": 83846,
         "min": 27650,
         "max": 329000,
         "count": 26
       },
       "female": {
-        "avg": 56776,
+        "avg": 58968,
         "min": 26900,
         "max": 114000,
         "count": 17
@@ -2425,8 +2425,8 @@
           "name": "Adjustable Back Wide Jeans DCWPT032BLUE",
           "price": 85000,
           "originalPrice": 85000,
-          "discountRate": 19,
-          "finalPrice": 68850,
+          "discountRate": 10,
+          "finalPrice": 76500,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260820/7115825/7115825_17906621458410_500.jpg",
@@ -2455,8 +2455,8 @@
           "name": "빈티지 커브드 절개 데님 팬츠  스카이 블루",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 43,
-          "finalPrice": 33940,
+          "discountRate": 44,
+          "finalPrice": 33520,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260903/7233852/7233852_17884198096827_500.jpg",
@@ -2530,8 +2530,8 @@
           "name": "5PK RONDO STRAIGHT DENIM PANTS [RAW BLUE]",
           "price": 108000,
           "originalPrice": 108000,
-          "discountRate": 30,
-          "finalPrice": 75600,
+          "discountRate": 5,
+          "finalPrice": 102600,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260921/7383053/7383053_17914212357258_500.jpg",
@@ -2545,8 +2545,8 @@
           "name": "Signature Slim Low Rise Flared Corduroy Pants DCWPT041CHARCOAL",
           "price": 74000,
           "originalPrice": 74000,
-          "discountRate": 19,
-          "finalPrice": 59940,
+          "discountRate": 10,
+          "finalPrice": 66600,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/prd_img/20260904/7253109/detail_7253109_17893775506562_500.jpg",
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 48180,
+        "avg": 48354,
         "min": 10900,
         "max": 158000,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 12
       },
       "female": {
-        "avg": 52972,
+        "avg": 53245,
         "min": 18590,
         "max": 158000,
         "count": 38
@@ -3289,8 +3289,8 @@
           "name": "포켓 러플 쇼츠 차콜",
           "price": 100000,
           "originalPrice": 100000,
-          "discountRate": 23,
-          "finalPrice": 77400,
+          "discountRate": 19,
+          "finalPrice": 81000,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260915/7336004/7336004_17908401653836_500.jpg",
@@ -3304,8 +3304,8 @@
           "name": "포켓 러플 쇼츠 블랙",
           "price": 100000,
           "originalPrice": 100000,
-          "discountRate": 23,
-          "finalPrice": 77400,
+          "discountRate": 19,
+          "finalPrice": 81000,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260915/7336003/7336003_17908409138407_500.jpg",
