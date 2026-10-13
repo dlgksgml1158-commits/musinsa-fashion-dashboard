@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2026-10-13T07:57:56.560942+00:00",
+  "updatedAt": "2026-10-13T15:28:08.326396+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 34372,
+        "avg": 34888,
         "min": 14500,
         "max": 129000,
         "count": 60
       },
       "male": {
-        "avg": 31943,
+        "avg": 31892,
         "min": 14500,
         "max": 59000,
         "count": 24
       },
       "female": {
-        "avg": 33928,
+        "avg": 35938,
         "min": 15920,
         "max": 51210,
         "count": 16
@@ -89,8 +89,8 @@
           "name": "성수 락 티셔츠 (화이트)",
           "price": 65000,
           "originalPrice": 65000,
-          "discountRate": 40,
-          "finalPrice": 38680,
+          "discountRate": 24,
+          "finalPrice": 49400,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260921/7385428/7385428_17901380046927_500.jpg",
@@ -270,7 +270,7 @@
           "price": 47900,
           "originalPrice": 47900,
           "discountRate": 48,
-          "finalPrice": 24870,
+          "finalPrice": 24730,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260624/6724755/6724755_17839972855080_500.jpg",
@@ -327,19 +327,19 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 50498,
+        "avg": 51295,
         "min": 25100,
         "max": 159000,
         "count": 60
       },
       "male": {
-        "avg": 52137,
-        "min": 25900,
+        "avg": 58353,
+        "min": 26980,
         "max": 109000,
-        "count": 9
+        "count": 10
       },
       "female": {
-        "avg": 50047,
+        "avg": 50155,
         "min": 25990,
         "max": 94000,
         "count": 32
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 61077,
+        "avg": 61049,
         "min": 12000,
         "max": 197100,
         "count": 60
@@ -1296,22 +1296,22 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 59994,
+        "avg": 58929,
         "min": 19000,
         "max": 173000,
         "count": 60
       },
       "male": {
-        "avg": 64619,
+        "avg": 63019,
         "min": 19000,
         "max": 173000,
-        "count": 27
+        "count": 26
       },
       "female": {
-        "avg": 58295,
+        "avg": 57744,
         "min": 21000,
         "max": 110700,
-        "count": 28
+        "count": 29
       },
       "items": [
         {
@@ -1619,19 +1619,19 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 87537,
+        "avg": 85922,
         "min": 24990,
         "max": 786990,
         "count": 60
       },
       "male": {
-        "avg": 97395,
+        "avg": 93718,
         "min": 30050,
         "max": 786990,
         "count": 26
       },
       "female": {
-        "avg": 82712,
+        "avg": 82658,
         "min": 24990,
         "max": 210000,
         "count": 24
@@ -1714,6 +1714,21 @@
         },
         {
           "rank": 6,
+          "id": "ms-6831982",
+          "brand": "엑스오엑스",
+          "name": "에센셜 헨리넥 크롭 니트(6color)",
+          "price": 69000,
+          "originalPrice": 69000,
+          "discountRate": 43,
+          "finalPrice": 39400,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260713/6831982/6831982_17918755575425_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6831982",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 7,
           "id": "ms-7276545",
           "brand": "샐리",
           "name": "리본스티치보트넥울니트_I6C-CKN006",
@@ -1728,7 +1743,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "id": "ms-7346980",
           "brand": "언더오프",
           "name": "아웃도어 하프집 풀오버 니트 그레이",
@@ -1743,7 +1758,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "id": "ms-6897067",
           "brand": "엑스오엑스",
           "name": "에센셜 카라넥 크롭 니트(3color)",
@@ -1758,14 +1773,14 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-7049392",
           "brand": "무아무아",
           "name": "자카드 니트 후드 집업 [오트밀]",
           "price": 97000,
           "originalPrice": 97000,
-          "discountRate": 61,
-          "finalPrice": 38120,
+          "discountRate": 56,
+          "finalPrice": 42350,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260811/7049392/7049392_17897177184487_500.jpg",
@@ -1773,7 +1788,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-7060264",
           "brand": "슈퍼서브",
           "name": "사선 버튼 헨리넥 니트-블랙",
@@ -1788,7 +1803,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-7096754",
           "brand": "미세키서울",
           "name": "Button off shoulder knit BLACK",
@@ -1803,7 +1818,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-7348623",
           "brand": "마인드브릿지",
           "name": "[스토커즈PICK] 멀티 스트라이프 라운드 세미 오버핏 긴팔 니트 - 2color",
@@ -1818,7 +1833,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-6947522",
           "brand": "웬즈데이오아시스 포 우먼",
           "name": "[무신사 스폐셜 X 지뚜니] 헤어리 카라 울 블렌드 니트_4COLOR",
@@ -1833,7 +1848,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-7399602",
           "brand": "토피 우먼",
           "name": "[SET] 딥 브이 버튼 니트 + 피치 버튼 슬리브리스 세트",
@@ -1848,7 +1863,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-7363959",
           "brand": "론론",
           "name": "RIBBON SHEEP PATTERN KNIT PULLOVER BROWN",
@@ -1863,7 +1878,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-7358531",
           "brand": "르아르",
           "name": "[SET] 퓨어 코튼 브이넥 니트 + 소프트 유넥 이너 티셔츠",
@@ -1878,7 +1893,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-7248005",
           "brand": "어널러코드",
           "name": "사선 헨리넥 니트 (3color)",
@@ -1893,7 +1908,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-4408450",
           "brand": "아미",
           "name": "브러쉬드 터틀넥 니트 - 블랙 / FKS447KN0056001",
@@ -1908,7 +1923,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-7363958",
           "brand": "론론",
           "name": "RIBBON SHEEP PATTERN KNIT PULLOVER NAVY",
@@ -1921,28 +1936,13 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260918/7363958/7363958_17897191111866_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7363958",
           "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-7429724",
-          "brand": "디미트리블랙",
-          "name": "케이블 헨리넥 니트_3 COLOR",
-          "price": 49900,
-          "originalPrice": 49900,
-          "discountRate": 20,
-          "finalPrice": 39900,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260930/7429724/7429724_17909218504960_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7429724",
-          "displayGenderText": "공용"
         }
       ]
     },
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 104544,
+        "avg": 104619,
         "min": 39650,
         "max": 239000,
         "count": 60
@@ -1982,8 +1982,8 @@
           "name": "코튼 블렌드 필드 자켓 CHARCOAL",
           "price": 199000,
           "originalPrice": 199000,
-          "discountRate": 24,
-          "finalPrice": 151240,
+          "discountRate": 25,
+          "finalPrice": 149250,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260903/7243030/7243030_17907540515341_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-112541",
+          "id": "ms-111879",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,7 +2588,7 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 58387,
+        "avg": 58571,
         "min": 14900,
         "max": 178000,
         "count": 60
@@ -2600,7 +2600,7 @@
         "count": 44
       },
       "female": {
-        "avg": 37905,
+        "avg": 39011,
         "min": 14900,
         "max": 64350,
         "count": 10
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 54712,
+        "avg": 55183,
         "min": 9900,
         "max": 139300,
         "count": 60
@@ -2923,10 +2923,10 @@
         "count": 17
       },
       "female": {
-        "avg": 55032,
+        "avg": 56005,
         "min": 9900,
         "max": 139300,
-        "count": 25
+        "count": 24
       },
       "items": [
         {
