@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T19:11:11.601751+00:00",
+  "updatedAt": "2026-10-13T01:28:06.113003+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -973,22 +973,22 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 60207,
+        "avg": 59607,
         "min": 19900,
         "max": 159000,
         "count": 60
       },
       "male": {
-        "avg": 56106,
+        "avg": 53042,
         "min": 24900,
-        "max": 99000,
-        "count": 15
+        "max": 94050,
+        "count": 14
       },
       "female": {
-        "avg": 60066,
+        "avg": 60249,
         "min": 19900,
         "max": 132300,
-        "count": 15
+        "count": 16
       },
       "items": [
         {
@@ -1203,21 +1203,6 @@
         },
         {
           "rank": 15,
-          "id": "ms-7231077",
-          "brand": "나이키",
-          "name": "솔로 플리스 풀오버 후디 M - 디퓨즈드 블루:세일 / IX1927-491",
-          "price": 99000,
-          "originalPrice": 99000,
-          "discountRate": 0,
-          "finalPrice": 99000,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260902/7231077/7231077_17888495609108_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7231077",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 16,
           "id": "ms-3474434",
           "brand": "아메스 월드와이드",
           "name": "SURROUNDING STAR RAGLAN HOODIE GREY (AM2DFUM404A)",
@@ -1232,7 +1217,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7345094",
           "brand": "노디",
           "name": "멀티 스트라이프 플리스 후디 퍼플",
@@ -1247,7 +1232,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-7282198",
           "brand": "키치앤키스",
           "name": "후드 롱 슬리브 (26FTP-LSTS01)",
@@ -1262,7 +1247,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-7329134",
           "brand": "원헌드레드퍼센트",
           "name": "OHP 스탠다드 피그먼트 후드 블랙 (기모추가)",
@@ -1277,7 +1262,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7260750",
           "brand": "리메인세컨드",
           "name": "래글런 후드 스웨트셔츠 [2COLOR]",
@@ -1290,6 +1275,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260907/7260750/7260750_17889990346189_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7260750",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7286142",
+          "brand": "쏘비",
+          "name": "믹스 포켓 후드티 (세미크롭) 아이보리",
+          "price": 55000,
+          "originalPrice": 55000,
+          "discountRate": 14,
+          "finalPrice": 47030,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260909/7286142/7286142_17891985662728_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7286142",
+          "displayGenderText": "여성"
         }
       ]
     },
@@ -1619,13 +1619,13 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 86191,
+        "avg": 87559,
         "min": 24990,
         "max": 786990,
         "count": 60
       },
       "male": {
-        "avg": 94193,
+        "avg": 97350,
         "min": 30050,
         "max": 786990,
         "count": 26
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-112267",
+          "id": "ms-112053",
           "brand": "",
           "name": "",
           "price": null,
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 53978,
+        "avg": 54778,
         "min": 9900,
         "max": 139300,
         "count": 60
