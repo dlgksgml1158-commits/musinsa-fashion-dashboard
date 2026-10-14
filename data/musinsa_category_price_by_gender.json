@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T18:44:53.846897+00:00",
+  "updatedAt": "2026-10-14T21:58:28.679632+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-112846",
+          "id": "ms-112267",
           "brand": "",
           "name": "",
           "price": null,
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 55649,
+        "avg": 55014,
         "min": 9900,
         "max": 139300,
         "count": 60
@@ -2961,21 +2961,6 @@
         },
         {
           "rank": 3,
-          "id": "ms-7357314",
-          "brand": "스포츠챔버",
-          "name": "SC 워시드 2001 스웻 팬츠(블루)",
-          "price": 109000,
-          "originalPrice": 109000,
-          "discountRate": 18,
-          "finalPrice": 89900,
-          "category": "003004",
-          "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260917/7357314/7357314_17907342489776_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7357314",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 4,
           "id": "ms-7398407",
           "brand": "페이더먼트",
           "name": "에센셜 배색 코르셋 스웨트 팬츠(블랙)",
@@ -2990,7 +2975,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "id": "ms-7317876",
           "brand": "젝시믹스",
           "name": "소프트 플로우 부츠컷 팬츠",
@@ -3005,7 +2990,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "id": "ms-7401970",
           "brand": "알엑스엠씨",
           "name": "[기모선택] 에이징 넘버 5 스웨트 팬츠 [검정]",
@@ -3020,7 +3005,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-7285531",
           "brand": "바운더리",
           "name": "레터링 로우 스트레이트 핏 롱 스웨트 팬츠 [네이비]",
@@ -3035,7 +3020,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-7438193",
           "brand": "오프메이드",
           "name": "코듀로이 사이드핀턱 커브드 벌룬 밴딩 트레이닝팬츠",
@@ -3050,7 +3035,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-7332633",
           "brand": "스파오",
           "name": "[프렌치테리] 여성 와이드 스웨트팬츠 (기모)_SPMTG4TG01",
@@ -3065,7 +3050,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-7272037",
           "brand": "낫포너드",
           "name": "Dirty Washed Thorns Line Track Pants - Black",
@@ -3080,7 +3065,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-7394625",
           "brand": "베트랙트",
           "name": "무지 피그먼트 커브드 팬츠 [PIGMENT CHARCOAL]",
@@ -3095,7 +3080,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-7152605",
           "brand": "모즈모즈",
           "name": "투턱 와이드 기모 벌룬 스웨트팬츠 챠콜",
@@ -3110,7 +3095,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-7363874",
           "brand": "이지노이지",
           "name": "헤럴딕 엠블럼 더블 웨이스트 스웻 팬츠 - 네이비",
@@ -3125,7 +3110,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-7437967",
           "brand": "오프메이드",
           "name": "[SET] 코듀로이 오버핏 후드 + 사이드핀턱 골덴 커브드 팬츠 트레이닝 세트",
@@ -3140,7 +3125,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-7285057",
           "brand": "쏘비",
           "name": "카모 커브드 롱팬츠 [화이트 카모]",
@@ -3155,7 +3140,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-7152607",
           "brand": "모즈모즈",
           "name": "투턱 와이드 기모 벌룬 스웨트팬츠 블랙",
@@ -3170,7 +3155,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-5253247",
           "brand": "탑텐",
           "name": "여성) 테리 스트레이트 스웨트팬츠_MSF5PT2911",
@@ -3185,7 +3170,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-3504734",
           "brand": "디오스피스",
           "name": "Logo Sweat Pants Brown",
@@ -3200,7 +3185,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-7326287",
           "brand": "단델",
           "name": "DD mending patch rib sweat pants (GREY)",
@@ -3215,7 +3200,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5894434",
           "brand": "고스트리퍼블릭",
           "name": "커브드 사이드 핀턱 벌룬 스웨트팬츠 GLP-650_네이비",
@@ -3228,6 +3213,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260114/5894434/5894434_17848747546272_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5894434",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7152603",
+          "brand": "모즈모즈",
+          "name": "투턱 와이드 기모 벌룬 스웨트팬츠 메란지",
+          "price": 55000,
+          "originalPrice": 55000,
+          "discountRate": 20,
+          "finalPrice": 43800,
+          "category": "003004",
+          "categoryLabel": "트레이닝/조거",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260825/7152603/7152603_17891164032469_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7152603",
+          "displayGenderText": "남성"
         }
       ]
     },
