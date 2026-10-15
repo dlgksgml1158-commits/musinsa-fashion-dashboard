@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T14:17:36.016640+00:00",
+  "updatedAt": "2026-10-15T18:25:01.447226+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 55284,
+        "avg": 55244,
         "min": 26130,
         "max": 159000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 11
       },
       "female": {
-        "avg": 54091,
+        "avg": 54011,
         "min": 26520,
         "max": 94000,
         "count": 30
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 85823,
+        "avg": 85733,
         "min": 19800,
         "max": 786990,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 21
       },
       "female": {
-        "avg": 79483,
+        "avg": 79284,
         "min": 23900,
         "max": 210000,
         "count": 27
@@ -1644,8 +1644,8 @@
           "name": "브러시드 울 헨리넥 래글런 니트 - Melange Grey",
           "price": 84000,
           "originalPrice": 84000,
-          "discountRate": 26,
-          "finalPrice": 62500,
+          "discountRate": 30,
+          "finalPrice": 59140,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260819/7108921/7108921_17895282872846_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-112854",
+          "id": "ms-112855",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,7 +2265,7 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 70728,
+        "avg": 70714,
         "min": 17700,
         "max": 329000,
         "count": 60
@@ -2277,7 +2277,7 @@
         "count": 22
       },
       "female": {
-        "avg": 67724,
+        "avg": 67679,
         "min": 26900,
         "max": 169200,
         "count": 19
@@ -2911,14 +2911,14 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 56232,
+        "avg": 56086,
         "min": 9900,
         "max": 139300,
         "count": 60
       },
       "male": {
-        "avg": 37793,
-        "min": 21840,
+        "avg": 37115,
+        "min": 18720,
         "max": 43800,
         "count": 13
       },
@@ -3041,8 +3041,8 @@
           "name": "코듀로이 사이드핀턱 커브드 벌룬 밴딩 트레이닝팬츠",
           "price": 31200,
           "originalPrice": 31200,
-          "discountRate": 30,
-          "finalPrice": 21840,
+          "discountRate": 40,
+          "finalPrice": 18720,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261001/7438193/7438193_17908412536214_500.jpg",
@@ -3131,8 +3131,8 @@
           "name": "[SET] 코듀로이 오버핏 후드 + 사이드핀턱 골덴 커브드 팬츠 트레이닝 세트",
           "price": 56900,
           "originalPrice": 56900,
-          "discountRate": 30,
-          "finalPrice": 39830,
+          "discountRate": 40,
+          "finalPrice": 34140,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261001/7437967/7437967_17908402646417_500.jpg",
