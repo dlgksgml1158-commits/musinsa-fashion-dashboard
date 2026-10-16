@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-16T02:06:51.780842+00:00",
+  "updatedAt": "2026-10-16T07:21:31.200386+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 33675,
+        "avg": 33326,
         "min": 7650,
         "max": 89850,
         "count": 60
@@ -16,10 +16,10 @@
         "count": 26
       },
       "female": {
-        "avg": 36434,
+        "avg": 36585,
         "min": 15920,
         "max": 59000,
-        "count": 16
+        "count": 17
       },
       "items": [
         {
@@ -144,21 +144,6 @@
         },
         {
           "rank": 9,
-          "id": "ms-7331856",
-          "brand": "뉴발란스",
-          "name": "NBNEG21533 / UNI NB 프렌즈 지구 레터링 반팔티 (WHITE)",
-          "price": 59900,
-          "originalPrice": 59900,
-          "discountRate": 0,
-          "finalPrice": 59900,
-          "category": "001001",
-          "categoryLabel": "반소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260915/7331856/7331856_17894545404121_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7331856",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 10,
           "id": "ms-7220056",
           "brand": "프린트스타",
           "name": "14수 7.4oz 크롭 헤비웨이트 무지 반팔 티셔츠 - 4 COLOR",
@@ -173,7 +158,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-6184019",
           "brand": "드로우핏",
           "name": "[스토커즈X드로우핏] 슬럽 코튼 라운드 티셔츠 [6color]",
@@ -188,7 +173,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-3970067",
           "brand": "엠엠엘지",
           "name": "[2PACK] MMLG TAGLESS HF-T (3TYPE)",
@@ -203,7 +188,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-6192530",
           "brand": "챔피온",
           "name": "[2pack] 릴렉스핏 크루넥 쿨 티셔츠 White/Black",
@@ -218,7 +203,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-7385428",
           "brand": "탄산마그네슘",
           "name": "성수 락 티셔츠 (화이트)",
@@ -233,7 +218,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-4832294",
           "brand": "트위",
           "name": "포에지 빅 레터링 자수 티셔츠",
@@ -248,7 +233,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6238769",
           "brand": "디미트리블랙",
           "name": "[10주년기획] ⓒ 모두의 수소봉제 반팔 티셔츠 (COOLMAX® 원단)_7 COLOR",
@@ -263,7 +248,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6009316",
           "brand": "테이크이지",
           "name": "[기획] (2PACK 코튼16수) 솔리드 크롭 티셔츠 - 3 COLOR",
@@ -278,7 +263,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6276971",
           "brand": "무신사 스탠다드 스포츠",
           "name": "써모메쉬 오버핏 숏슬리브 우먼 (3color)",
@@ -293,7 +278,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-7386176",
           "brand": "나이스고스트클럽",
           "name": "JOJOs STARDUST CRUSADERS JOTARO TEE_BLACK(NG2GFUT501B)",
@@ -308,7 +293,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-6724755",
           "brand": "앨빈클로",
           "name": "무지 소매 배색 롤업 반팔티 AST3682 (4COLOR)",
@@ -321,13 +306,28 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260624/6724755/6724755_17839972855080_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6724755",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-2479911",
+          "brand": "쿠어",
+          "name": "[2PACK] 수피마 코튼 티셔츠",
+          "price": 83000,
+          "originalPrice": 83000,
+          "discountRate": 46,
+          "finalPrice": 44900,
+          "category": "001001",
+          "categoryLabel": "반소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20220411/2479911/2479911_17731079454756_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/2479911",
+          "displayGenderText": "남성"
         }
       ]
     },
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 55612,
+        "avg": 55930,
         "min": 17900,
         "max": 159000,
         "count": 60
@@ -339,10 +339,10 @@
         "count": 9
       },
       "female": {
-        "avg": 52309,
+        "avg": 53455,
         "min": 20720,
         "max": 94000,
-        "count": 31
+        "count": 32
       },
       "items": [
         {
@@ -650,16 +650,16 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 58910,
+        "avg": 58310,
         "min": 12000,
         "max": 169100,
         "count": 60
       },
       "male": {
-        "avg": 53302,
+        "avg": 53336,
         "min": 12000,
         "max": 109000,
-        "count": 17
+        "count": 18
       },
       "female": {
         "avg": 59909,
@@ -745,21 +745,6 @@
         },
         {
           "rank": 6,
-          "id": "ms-7332146",
-          "brand": "뉴발란스",
-          "name": "NBNCG15213 / UNI PF 올데이 맨투맨 (M/GRAY)",
-          "price": 89900,
-          "originalPrice": 89900,
-          "discountRate": 0,
-          "finalPrice": 89900,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260915/7332146/7332146_17894525844388_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7332146",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 7,
           "id": "ms-7460448",
           "brand": "더블유브이프로젝트",
           "name": "[2PACK] 모스윈 카라 맨투맨 4종 HSMT7880",
@@ -774,7 +759,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-7408254",
           "brand": "세인트제임스",
           "name": "봉봉 쁘띠 스웻셔츠 (PNK) ASJF2G3KR20-PNK",
@@ -789,7 +774,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-7295882",
           "brand": "노운베러",
           "name": "Waffle half zip-up [KNFW07TS05]_Melange gray",
@@ -804,7 +789,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-7420612",
           "brand": "에이카화이트",
           "name": "AECA CROP FIT PIGMENT SWEATSHIRTS (3color)",
@@ -819,7 +804,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-7384793",
           "brand": "엄브로",
           "name": "알파플리스 맨투맨 블랙 UR423CFSN2",
@@ -834,7 +819,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-7329128",
           "brand": "원헌드레드퍼센트",
           "name": "OHP 스탠다드 피그먼트 맨투맨 블랙 (기모추가)",
@@ -849,7 +834,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-7212937",
           "brand": "세터",
           "name": "하프 집업 스웨트셔츠 블랙",
@@ -864,7 +849,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-7345305",
           "brand": "꼼파뇨",
           "name": "켄터키 레글런 피그먼트 맨투맨 스모크블랙",
@@ -879,7 +864,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-2698072",
           "brand": "프렌다",
           "name": "COMBINATION DENIM PATCH RAGLAN SWEATSHIRT NAVY",
@@ -894,7 +879,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-7336070",
           "brand": "일리고",
           "name": "루프 레터링 맨투맨 멜란지",
@@ -909,7 +894,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-5931712",
           "brand": "라이크더모스트",
           "name": "헨리넥 배색 오버핏 맨투맨_차콜",
@@ -924,7 +909,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-7364335",
           "brand": "엄브로",
           "name": "HBL OG 코지 기모 이중지 맨투맨 블랙 UR321CFS94",
@@ -939,7 +924,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6761704",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 폴라 플리스 쿼터 집업 [그레이]",
@@ -954,7 +939,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7399634",
           "brand": "엘리메노",
           "name": "EL 나우네버 크롭 맨투맨 티셔츠 2Color",
@@ -967,19 +952,34 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260923/7399634/7399634_17901382058807_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7399634",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7328267",
+          "brand": "후아유",
+          "name": "Patch Fleece Half Zip-up / WHMAG4V21U",
+          "price": 59900,
+          "originalPrice": 59900,
+          "discountRate": 10,
+          "finalPrice": 53910,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260915/7328267/7328267_17913283595797_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7328267",
+          "displayGenderText": "남성"
         }
       ]
     },
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 68699,
+        "avg": 68704,
         "min": 16800,
         "max": 170000,
         "count": 60
       },
       "male": {
-        "avg": 66691,
+        "avg": 67484,
         "min": 17900,
         "max": 170000,
         "count": 15
@@ -1619,8 +1619,8 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 77820,
-        "min": 31920,
+        "avg": 77686,
+        "min": 26800,
         "max": 329000,
         "count": 60
       },
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 126984,
+        "avg": 126883,
         "min": 23920,
         "max": 499000,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 21
       },
       "female": {
-        "avg": 104815,
+        "avg": 104542,
         "min": 23920,
         "max": 231300,
         "count": 22
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-112846",
+          "id": "ms-113376",
           "brand": "",
           "name": "",
           "price": null,
@@ -2057,8 +2057,8 @@
           "name": "트윌런 하이넥 버클 숏 트렌치 자켓_F6F718JK",
           "price": 128000,
           "originalPrice": 128000,
-          "discountRate": 10,
-          "finalPrice": 115200,
+          "discountRate": 15,
+          "finalPrice": 109180,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260915/7332486/7332486_17894498890153_500.jpg",
@@ -2588,22 +2588,22 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 53411,
+        "avg": 53297,
         "min": 18290,
         "max": 178000,
         "count": 60
       },
       "male": {
-        "avg": 59560,
+        "avg": 59801,
         "min": 18290,
         "max": 178000,
-        "count": 40
+        "count": 39
       },
       "female": {
-        "avg": 41458,
+        "avg": 41625,
         "min": 24900,
         "max": 59900,
-        "count": 10
+        "count": 11
       },
       "items": [
         {
@@ -2748,8 +2748,8 @@
           "name": "[2PACK] 이지 세미 와이드 밴딩 슬랙스_4COLOR",
           "price": 81900,
           "originalPrice": 81900,
-          "discountRate": 60,
-          "finalPrice": 32760,
+          "discountRate": 51,
+          "finalPrice": 39800,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240408/4034427/4034427_17562748782811_500.jpg",
@@ -2848,21 +2848,6 @@
         },
         {
           "rank": 17,
-          "id": "ms-3825838",
-          "brand": "리메인세컨드",
-          "name": "[2PACK] 원턱 세미 와이드 히든 밴딩 슬랙스_4COLOR",
-          "price": 88900,
-          "originalPrice": 88900,
-          "discountRate": 41,
-          "finalPrice": 52800,
-          "category": "003008",
-          "categoryLabel": "슬랙스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240126/3825838/3825838_17151318616383_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3825838",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 18,
           "id": "ms-4422647",
           "brand": "비바셔스",
           "name": "RIV Two-Tuck Slacks - 3COL",
@@ -2877,7 +2862,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-3650955",
           "brand": "트릴리온",
           "name": "에센셜 세미 와이드 슬랙스 (BLACK)",
@@ -2892,7 +2877,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-4918819",
           "brand": "커스텀어클락",
           "name": "코튼라이크 벌룬 원턱 슬랙스 6 COLOR COOSPT245",
@@ -2905,13 +2890,28 @@
           "imgUrl": "https://image.msscdn.net/images/prd_img/20250319/4918819/detail_4918819_17865964654499_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4918819",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5125572",
+          "brand": "오우사",
+          "name": "절개 다트 슬랙스팬츠 - 블랙",
+          "price": 70000,
+          "originalPrice": 70000,
+          "discountRate": 10,
+          "finalPrice": 63000,
+          "category": "003008",
+          "categoryLabel": "슬랙스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250519/5125572/5125572_17476323101261_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5125572",
+          "displayGenderText": "남성"
         }
       ]
     },
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 63399,
+        "avg": 63091,
         "min": 7900,
         "max": 228000,
         "count": 60
@@ -2923,10 +2923,10 @@
         "count": 10
       },
       "female": {
-        "avg": 59572,
+        "avg": 60268,
         "min": 9900,
         "max": 134130,
-        "count": 16
+        "count": 17
       },
       "items": [
         {
@@ -3051,6 +3051,21 @@
         },
         {
           "rank": 9,
+          "id": "ms-7456302",
+          "brand": "젝시믹스",
+          "name": "웜 소프트 와이드 팬츠 XFL4PT1117",
+          "price": 84000,
+          "originalPrice": 84000,
+          "discountRate": 15,
+          "finalPrice": 71400,
+          "category": "003004",
+          "categoryLabel": "트레이닝/조거",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20261006/7456302/7456302_17912717975730_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7456302",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 10,
           "id": "ms-7180917",
           "brand": "챔피온",
           "name": "폴라텍 플리스 와이드 팬츠 Black",
@@ -3065,7 +3080,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-7323522",
           "brand": "디미토",
           "name": "[CHAMPION x DIMITO] SCRIPT TRACK BANDED PANTS (WIDE FIT LV.2) YALE BLUE",
@@ -3080,7 +3095,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-7323493",
           "brand": "디미토",
           "name": "[CHAMPION x DIMITO] CHECK WAIST COLLEGE SWEATPANTS OXFORD GREY",
@@ -3095,7 +3110,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-7394625",
           "brand": "베트랙트",
           "name": "무지 피그먼트 커브드 팬츠 [PIGMENT CHARCOAL]",
@@ -3110,7 +3125,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-7398407",
           "brand": "페이더먼트",
           "name": "에센셜 배색 코르셋 스웨트 팬츠(블랙)",
@@ -3125,7 +3140,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-7438193",
           "brand": "오프메이드",
           "name": "코듀로이 사이드핀턱 커브드 벌룬 밴딩 트레이닝팬츠",
@@ -3140,7 +3155,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-7056595",
           "brand": "스켈리웩",
           "name": "[신기 × 스켈리웩] ET BONE FINGER 스웨트 팬츠[차콜]",
@@ -3155,7 +3170,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-7332633",
           "brand": "스파오",
           "name": "[프렌치테리] 여성 와이드 스웨트팬츠 (기모)_SPMTG4TG01",
@@ -3170,7 +3185,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-7433214",
           "brand": "고스트리퍼블릭",
           "name": "커브드 사이드 핀턱 벌룬 스웨트팬츠 GLP-650_피그먼트 차콜",
@@ -3185,7 +3200,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-7045783",
           "brand": "스탠다드에러",
           "name": "[사계절or기모] 87-STAN281 투턱 와이드 루즈핏 스웻팬츠 (4color)",
@@ -3200,7 +3215,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-7366937",
           "brand": "레이지비",
           "name": "더블 트랙 밴딩 스트럭처 와이드 스트링 팬츠 M (3컬러)",
@@ -3213,28 +3228,13 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260918/7366937/7366937_17917866805470_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7366937",
           "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-7421534",
-          "brand": "오헤시오",
-          "name": "FLORAL SIGNATURE PATCH POCKET SWEATPANTS, LAVENDER",
-          "price": 98000,
-          "originalPrice": 98000,
-          "discountRate": 15,
-          "finalPrice": 83790,
-          "category": "003004",
-          "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260929/7421534/7421534_17913754407937_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7421534",
-          "displayGenderText": "여성"
         }
       ]
     },
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 45406,
+        "avg": 46170,
         "min": 19280,
         "max": 85500,
         "count": 60
@@ -3246,10 +3246,10 @@
         "count": 9
       },
       "female": {
-        "avg": 46495,
+        "avg": 46952,
         "min": 19280,
         "max": 85500,
-        "count": 43
+        "count": 44
       },
       "items": [
         {
