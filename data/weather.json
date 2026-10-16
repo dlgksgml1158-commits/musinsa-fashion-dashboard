@@ -1,32 +1,24 @@
 {
-  "updatedAt": "2026-10-15T04:54:15.282118+00:00",
+  "updatedAt": "2026-10-16T02:06:30.077321+00:00",
   "source": "네이버 날씨",
   "city": "서울",
   "current": {
-    "temp": 20.1,
-    "weatherLabel": "흐림",
-    "feelsLike": 20.1,
-    "humidity": 54,
-    "windSpeed": 3.6
+    "temp": 18.9,
+    "weatherLabel": "구름많음",
+    "feelsLike": 18.9,
+    "humidity": 69,
+    "windSpeed": 1.4
   },
   "week": {
-    "avgMax": 21,
-    "avgMin": 12,
-    "rainDays": 2,
-    "summary": "2026-10-15 ~ 2026-10-21 서울 주간 날씨: 평균 최고 21°C, 최저 12°C. 비 오는 날 2일 포함."
+    "avgMax": 20,
+    "avgMin": 11,
+    "rainDays": 1,
+    "summary": "2026-10-16 ~ 2026-10-22 서울 주간 날씨: 평균 최고 20°C, 최저 11°C. 비 오는 날 1일 포함."
   },
   "days": [
     {
-      "date": "2026-10-15",
-      "dayLabel": "오늘",
-      "tMax": 21.0,
-      "tMin": 10.0,
-      "precipProb": 60,
-      "weatherLabel": "구름많고 한때 비"
-    },
-    {
       "date": "2026-10-16",
-      "dayLabel": "내일",
+      "dayLabel": "오늘",
       "tMax": 23.0,
       "tMin": 14.0,
       "precipProb": 20,
@@ -34,8 +26,8 @@
     },
     {
       "date": "2026-10-17",
-      "dayLabel": "토",
-      "tMax": 24.0,
+      "dayLabel": "내일",
+      "tMax": 25.0,
       "tMin": 13.0,
       "precipProb": 30,
       "weatherLabel": "흐림"
@@ -45,7 +37,7 @@
       "dayLabel": "일",
       "tMax": 21.0,
       "tMin": 17.0,
-      "precipProb": 60,
+      "precipProb": 80,
       "weatherLabel": "흐리고 한때 비"
     },
     {
@@ -53,24 +45,32 @@
       "dayLabel": "월",
       "tMax": 20.0,
       "tMin": 13.0,
-      "precipProb": 30,
+      "precipProb": 20,
       "weatherLabel": "구름많음"
     },
     {
       "date": "2026-10-20",
       "dayLabel": "화",
       "tMax": 19.0,
-      "tMin": 9.0,
+      "tMin": 8.0,
       "precipProb": 20,
       "weatherLabel": "구름많음"
     },
     {
       "date": "2026-10-21",
       "dayLabel": "수",
-      "tMax": 17.0,
-      "tMin": 9.0,
+      "tMax": 15.0,
+      "tMin": 10.0,
       "precipProb": 20,
       "weatherLabel": "구름많음"
+    },
+    {
+      "date": "2026-10-22",
+      "dayLabel": "목",
+      "tMax": 16.0,
+      "tMin": 4.0,
+      "precipProb": 10,
+      "weatherLabel": "맑음"
     }
   ]
 }
