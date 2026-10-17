@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T00:50:19.809392+00:00",
+  "updatedAt": "2026-10-17T05:05:46.726534+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 55888,
+        "avg": 56053,
         "min": 17900,
         "max": 159000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 9
       },
       "female": {
-        "avg": 53377,
+        "avg": 53686,
         "min": 23310,
         "max": 94000,
         "count": 32
@@ -367,8 +367,8 @@
           "name": "Slim Stripe Deep V-Neck Tee (Olive)",
           "price": 51000,
           "originalPrice": 51000,
-          "discountRate": 9,
-          "finalPrice": 46410,
+          "discountRate": 0,
+          "finalPrice": 51000,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260902/7224373/7224373_17889383365948_500.jpg",
@@ -1948,10 +1948,10 @@
         "count": 60
       },
       "male": {
-        "avg": 160698,
+        "avg": 165498,
         "min": 39900,
         "max": 499000,
-        "count": 22
+        "count": 21
       },
       "female": {
         "avg": 104760,
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-113330",
+          "id": "ms-112854",
           "brand": "",
           "name": "",
           "price": null,
