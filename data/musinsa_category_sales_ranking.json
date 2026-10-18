@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T19:43:25.910860+00:00",
+  "updatedAt": "2026-10-18T21:57:19.847992+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1072,21 +1072,6 @@
         },
         {
           "rank": 11,
-          "id": "ms-7142902",
-          "brand": "리메인세컨드",
-          "name": "밸런스 핏 스웨트 셋업 [2COLOR]",
-          "price": 108000,
-          "originalPrice": 108000,
-          "discountRate": 63,
-          "finalPrice": 39800,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260824/7142902/7142902_17884134479464_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7142902",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 12,
           "id": "ms-4288948",
           "brand": "디미트리블랙",
           "name": "ASI 포시즌 에센셜 스웻 후드 티셔츠_피그먼트 올리브",
@@ -1098,6 +1083,21 @@
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240801/4288948/4288948_17514414924769_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4288948",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 12,
+          "id": "ms-7142902",
+          "brand": "리메인세컨드",
+          "name": "밸런스 핏 스웨트 셋업 [2COLOR]",
+          "price": 108000,
+          "originalPrice": 108000,
+          "discountRate": 63,
+          "finalPrice": 39800,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260824/7142902/7142902_17884134479464_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7142902",
           "displayGenderText": "공용"
         },
         {
@@ -1392,21 +1392,6 @@
         },
         {
           "rank": 12,
-          "id": "ms-4227441",
-          "brand": "스탠다드에러",
-          "name": "87-STAN083 레트로 플레이드 오버핏 포켓 긴팔 체크 셔츠",
-          "price": 54000,
-          "originalPrice": 54000,
-          "discountRate": 63,
-          "finalPrice": 19900,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240702/4227441/4227441_17738156721895_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4227441",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 13,
           "id": "ms-3323598",
           "brand": "무신사 스탠다드 우먼",
           "name": "[한소희 PICK] 우먼즈 슬림 핏 셔츠 [화이트]",
@@ -1421,7 +1406,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-3883054",
           "brand": "디미트리블랙",
           "name": "바이오 웨스턴 데님 셔츠_인디고",
@@ -1436,7 +1421,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-5275916",
           "brand": "드로우핏",
           "name": "[패션플래닛X드로우핏] 워시드 크롭 옥스퍼드 셔츠 [5color]",
@@ -1451,7 +1436,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-4227437",
           "brand": "스탠다드에러",
           "name": "87-STAN081 원포켓 빈티지 오버핏 긴팔 체크 셔츠",
@@ -1466,7 +1451,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-3889891",
           "brand": "마인드브릿지",
           "name": "[이지케어]드레스 셔츠 - 8color",
@@ -1481,7 +1466,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-983341",
           "brand": "무신사 스탠다드",
           "name": "베이식 드레스 셔츠 [블랙]",
@@ -1496,7 +1481,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-728000",
           "brand": "무신사 스탠다드",
           "name": "베이식 옥스포드 셔츠 [화이트]",
@@ -1511,7 +1496,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-3758301",
           "brand": "무신사 스탠다드",
           "name": "릴렉스드 워시드 포플린 셔츠 [화이트]",
@@ -1524,6 +1509,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20231215/3758301/3758301_17113286333350_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3758301",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4227423",
+          "brand": "스탠다드에러",
+          "name": "87-STAN074 빈티지 팜트리 오버핏 긴팔 체크 셔츠",
+          "price": 54000,
+          "originalPrice": 54000,
+          "discountRate": 71,
+          "finalPrice": 15900,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240702/4227423/4227423_17738149550039_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4227423",
+          "displayGenderText": "공용"
         }
       ]
     },
@@ -2047,21 +2047,6 @@
         },
         {
           "rank": 15,
-          "id": "ms-7223515",
-          "brand": "아크테릭스",
-          "name": "아톰 후디 남성 - BLACK / AJQFM09556",
-          "price": 480000,
-          "originalPrice": 480000,
-          "discountRate": 5,
-          "finalPrice": 456000,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260902/7223515/7223515_17884165319026_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7223515",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 16,
           "id": "ms-5162178",
           "brand": "무신사 스탠다드 우먼",
           "name": "[한소희 PICK] [시티 레저] 우먼즈 후디드 라이트 다운 재킷 [스톤 화이트]",
@@ -2076,7 +2061,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7046980",
           "brand": "파타고니아",
           "name": "멘즈 라이트웨이트 신칠라 스냅-티 풀오버 / 25551R7",
@@ -2091,7 +2076,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-7109260",
           "brand": "수아레",
           "name": "[젠플록스X수아레] 데일리 라운드 크롭 가디건 - 5 COLOR",
@@ -2106,7 +2091,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5943431",
           "brand": "아디다스",
           "name": "와플 클래식 트랙탑 - 원더화이트 / KQ6864",
@@ -2121,7 +2106,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7108774",
           "brand": "디미트리블랙",
           "name": "[10주년기획] © 모두의 Comfortemp® 미드웨이트 패딩_4 COLOR",
@@ -2134,6 +2119,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260819/7108774/7108774_17885055232191_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7108774",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7223515",
+          "brand": "아크테릭스",
+          "name": "아톰 후디 남성 - BLACK / AJQFM09556",
+          "price": 480000,
+          "originalPrice": 480000,
+          "discountRate": 5,
+          "finalPrice": 456000,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260902/7223515/7223515_17884165319026_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7223515",
+          "displayGenderText": "남성"
         }
       ]
     },
@@ -3162,21 +3162,6 @@
         },
         {
           "rank": 8,
-          "id": "ms-1926034",
-          "brand": "제로",
-          "name": "Deep One Tuck Sweat Shorts [Black]",
-          "price": 32000,
-          "originalPrice": 32000,
-          "discountRate": 0,
-          "finalPrice": 32000,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20210428/1926034/1926034_1_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/1926034",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 9,
           "id": "ms-6068184",
           "brand": "난데",
           "name": "8부 원턱 버뮤다 스웨트 팬츠 3color",
@@ -3188,6 +3173,21 @@
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260228/6068184/6068184_17722869289966_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6068184",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 9,
+          "id": "ms-1926034",
+          "brand": "제로",
+          "name": "Deep One Tuck Sweat Shorts [Black]",
+          "price": 32000,
+          "originalPrice": 32000,
+          "discountRate": 0,
+          "finalPrice": 32000,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20210428/1926034/1926034_1_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/1926034",
           "displayGenderText": "남성"
         },
         {
