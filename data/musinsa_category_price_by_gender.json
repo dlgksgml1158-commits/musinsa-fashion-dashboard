@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T06:05:54.214548+00:00",
+  "updatedAt": "2026-10-18T11:25:35.376621+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 56548,
+        "avg": 56884,
         "min": 17900,
         "max": 159000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 10
       },
       "female": {
-        "avg": 54402,
+        "avg": 55051,
         "min": 23310,
         "max": 94000,
         "count": 31
@@ -482,21 +482,6 @@
         },
         {
           "rank": 10,
-          "id": "ms-7324753",
-          "brand": "크림소다랩",
-          "name": "카모 레이어드 하트 슬림 원숄더 롱슬리브 차콜",
-          "price": 39000,
-          "originalPrice": 39000,
-          "discountRate": 27,
-          "finalPrice": 28470,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260914/7324753/7324753_17893737672610_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7324753",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 11,
           "id": "ms-7251385",
           "brand": "1989스탠다드",
           "name": "데끼 레이어드 롱 슬리브 (JTOSTL-0003)",
@@ -511,7 +496,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-7305054",
           "brand": "마이스",
           "name": "SLUB OVERSIZED HENLEY T-SHIRT / PURPLE",
@@ -526,7 +511,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-7366220",
           "brand": "제멋",
           "name": "피그먼트 텍스처 헨리넥 긴팔티 다크그레이 SJLT2712",
@@ -541,7 +526,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-7224471",
           "brand": "도프셉",
           "name": "Slim Stripe Deep V-Neck Tee (Beige)",
@@ -556,7 +541,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-7396512",
           "brand": "그라스플랜",
           "name": "See-Through Tencel Wool Long Sleeve_Warm Gray",
@@ -571,7 +556,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-7363184",
           "brand": "트위",
           "name": "노멀 사선 버튼 카라 긴팔 티셔츠",
@@ -586,7 +571,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7219067",
           "brand": "플레어업",
           "name": "2-Layered Offset Long Sleeve (FL-198_Charcoal)",
@@ -601,7 +586,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-7424863",
           "brand": "소버먼트",
           "name": "[태양xSOVERMENT]워셔블 골지 니트 2버튼 헨리넥 롱슬리브_5colors",
@@ -616,7 +601,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-7239569",
           "brand": "센테어",
           "name": "[2PACK] 리브드 딥 헨리넥 긴팔 티셔츠 _4color",
@@ -631,7 +616,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7395334",
           "brand": "언더오프",
           "name": "크롭 헨리넥 롱슬리브 티셔츠 네이비",
@@ -643,6 +628,21 @@
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260922/7395334/7395334_17900656803185_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7395334",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7381594",
+          "brand": "닉켈하우스",
+          "name": "닉켈 동키 카라 롱슬리브 셔츠",
+          "price": 129000,
+          "originalPrice": 129000,
+          "discountRate": 31,
+          "finalPrice": 89000,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260921/7381594/7381594_17899705823145_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7381594",
           "displayGenderText": "공용"
         }
       ]
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-113373",
+          "id": "ms-113327",
           "brand": "",
           "name": "",
           "price": null,
