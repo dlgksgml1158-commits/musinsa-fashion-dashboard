@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T11:25:35.376621+00:00",
+  "updatedAt": "2026-10-18T14:41:53.078644+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 56884,
+        "avg": 56599,
         "min": 17900,
         "max": 159000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 10
       },
       "female": {
-        "avg": 55051,
+        "avg": 54500,
         "min": 23310,
         "max": 94000,
         "count": 31
@@ -632,18 +632,18 @@
         },
         {
           "rank": 20,
-          "id": "ms-7381594",
-          "brand": "닉켈하우스",
-          "name": "닉켈 동키 카라 롱슬리브 셔츠",
-          "price": 129000,
-          "originalPrice": 129000,
-          "discountRate": 31,
-          "finalPrice": 89000,
+          "id": "ms-7374538",
+          "brand": "포트레이트서울",
+          "name": "플라워 배색 래글런 티셔츠 - 민트소다(mint soda)",
+          "price": 35000,
+          "originalPrice": 35000,
+          "discountRate": 10,
+          "finalPrice": 31500,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260921/7381594/7381594_17899705823145_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7381594",
-          "displayGenderText": "공용"
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260919/7374538/7374538_17899167634764_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7374538",
+          "displayGenderText": "여성"
         }
       ]
     },
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 68211,
+        "avg": 68049,
         "min": 16800,
         "max": 170000,
         "count": 60
@@ -985,10 +985,10 @@
         "count": 15
       },
       "female": {
-        "avg": 65642,
+        "avg": 65046,
         "min": 16800,
         "max": 170000,
-        "count": 14
+        "count": 15
       },
       "items": [
         {
@@ -1188,6 +1188,21 @@
         },
         {
           "rank": 14,
+          "id": "ms-7373213",
+          "brand": "포트레이트서울",
+          "name": "오키드 와플 후디 - 네이비",
+          "price": 63000,
+          "originalPrice": 63000,
+          "discountRate": 10,
+          "finalPrice": 56700,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260919/7373213/7373213_17899333328602_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7373213",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 15,
           "id": "ms-7390629",
           "brand": "레터프롬문",
           "name": "[레터프롬문×구효민] 레터즈 뮤즈 브이넥 후드 ( 멜란지그레이 )",
@@ -1202,7 +1217,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-7271855",
           "brand": "낫포너드",
           "name": "4444 Raw Edge Washed Pullover Hood - Black",
@@ -1217,7 +1232,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-7298900",
           "brand": "베르만 어패럴",
           "name": "고딕 피그먼트 크롭 후드 티셔츠 3colors",
@@ -1232,7 +1247,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-7287437",
           "brand": "센테어",
           "name": "리브드 스트라이프 헨리넥 후드 티셔츠_3color",
@@ -1247,7 +1262,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-7359769",
           "brand": "슈퍼서브",
           "name": "[기모선택]호리젠탈 헨리넥 스웻 후디 - 빈티지네이비",
@@ -1262,7 +1277,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-6276985",
           "brand": "무신사 스탠다드 스포츠",
           "name": "[굿펠로우] 써모메쉬 오버핏 후드풀오버 (4color)",
@@ -1275,21 +1290,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260408/6276985/6276985_17901327863797_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6276985",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-3474434",
-          "brand": "아메스 월드와이드",
-          "name": "SURROUNDING STAR RAGLAN HOODIE GREY (AM2DFUM404A)",
-          "price": 82000,
-          "originalPrice": 82000,
-          "discountRate": 70,
-          "finalPrice": 24600,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230818/3474434/3474434_16932997195320_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3474434",
-          "displayGenderText": "여성"
         }
       ]
     },
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-113327",
+          "id": "ms-113793",
           "brand": "",
           "name": "",
           "price": null,
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 63172,
+        "avg": 63889,
         "min": 7900,
         "max": 228000,
         "count": 60
@@ -2923,10 +2923,10 @@
         "count": 10
       },
       "female": {
-        "avg": 60554,
+        "avg": 60890,
         "min": 9900,
         "max": 139000,
-        "count": 17
+        "count": 18
       },
       "items": [
         {
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 46001,
+        "avg": 46110,
         "min": 19280,
         "max": 79200,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 9
       },
       "female": {
-        "avg": 46742,
+        "avg": 46890,
         "min": 19280,
         "max": 79200,
         "count": 44
