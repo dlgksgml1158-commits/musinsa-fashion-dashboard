@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-18T14:41:53.078644+00:00",
+  "updatedAt": "2026-10-18T17:36:43.329201+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 33326,
+        "avg": 33088,
         "min": 7650,
-        "max": 89850,
+        "max": 79950,
         "count": 60
       },
       "male": {
-        "avg": 33558,
+        "avg": 33009,
         "min": 7650,
-        "max": 89850,
+        "max": 79950,
         "count": 26
       },
       "female": {
@@ -299,8 +299,8 @@
           "name": "무지 소매 배색 롤업 반팔티 AST3682 (4COLOR)",
           "price": 47900,
           "originalPrice": 47900,
-          "discountRate": 46,
-          "finalPrice": 25850,
+          "discountRate": 48,
+          "finalPrice": 24730,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260624/6724755/6724755_17839972855080_500.jpg",
@@ -327,19 +327,19 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 56599,
+        "avg": 57262,
         "min": 17900,
         "max": 159000,
         "count": 60
       },
       "male": {
-        "avg": 57060,
+        "avg": 58420,
         "min": 27000,
         "max": 129000,
         "count": 10
       },
       "female": {
-        "avg": 54500,
+        "avg": 54613,
         "min": 23310,
         "max": 94000,
         "count": 31
@@ -637,8 +637,8 @@
           "name": "플라워 배색 래글런 티셔츠 - 민트소다(mint soda)",
           "price": 35000,
           "originalPrice": 35000,
-          "discountRate": 10,
-          "finalPrice": 31500,
+          "discountRate": 0,
+          "finalPrice": 35000,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260919/7374538/7374538_17899167634764_500.jpg",
@@ -650,13 +650,13 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 57527,
+        "avg": 57568,
         "min": 12000,
         "max": 169100,
         "count": 60
       },
       "male": {
-        "avg": 49774,
+        "avg": 49504,
         "min": 12000,
         "max": 109000,
         "count": 18
@@ -973,19 +973,19 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 68049,
+        "avg": 68243,
         "min": 16800,
         "max": 170000,
         "count": 60
       },
       "male": {
-        "avg": 67484,
+        "avg": 67607,
         "min": 17900,
         "max": 170000,
         "count": 15
       },
       "female": {
-        "avg": 65046,
+        "avg": 65466,
         "min": 16800,
         "max": 170000,
         "count": 15
@@ -1193,8 +1193,8 @@
           "name": "오키드 와플 후디 - 네이비",
           "price": 63000,
           "originalPrice": 63000,
-          "discountRate": 10,
-          "finalPrice": 56700,
+          "discountRate": 0,
+          "finalPrice": 63000,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260919/7373213/7373213_17899333328602_500.jpg",
@@ -1238,8 +1238,8 @@
           "name": "고딕 피그먼트 크롭 후드 티셔츠 3colors",
           "price": 110000,
           "originalPrice": 110000,
-          "discountRate": 35,
-          "finalPrice": 71000,
+          "discountRate": 39,
+          "finalPrice": 67450,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260910/7298900/7298900_17895551253054_500.jpg",
@@ -1619,22 +1619,22 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 77733,
+        "avg": 89665,
         "min": 26800,
-        "max": 329000,
+        "max": 786990,
         "count": 60
       },
       "male": {
-        "avg": 69687,
+        "avg": 102291,
         "min": 33000,
-        "max": 198000,
-        "count": 21
+        "max": 786990,
+        "count": 22
       },
       "female": {
-        "avg": 79154,
+        "avg": 79453,
         "min": 31920,
         "max": 210000,
-        "count": 28
+        "count": 27
       },
       "items": [
         {
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 128213,
+        "avg": 128246,
         "min": 28720,
         "max": 499000,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 20
       },
       "female": {
-        "avg": 103996,
+        "avg": 103499,
         "min": 28720,
         "max": 231300,
         "count": 22
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-113793",
+          "id": "ms-112855",
           "brand": "",
           "name": "",
           "price": null,
@@ -2057,8 +2057,8 @@
           "name": "트윌런 하이넥 버클 숏 트렌치 자켓_F6F718JK",
           "price": 128000,
           "originalPrice": 128000,
-          "discountRate": 15,
-          "finalPrice": 109180,
+          "discountRate": 23,
+          "finalPrice": 98240,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260915/7332486/7332486_17894498890153_500.jpg",
@@ -2222,8 +2222,8 @@
           "name": "폴라텍 컬러블록 플리스 아노락 Brown",
           "price": 129000,
           "originalPrice": 129000,
-          "discountRate": 10,
-          "finalPrice": 116100,
+          "discountRate": 0,
+          "finalPrice": 129000,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260827/7180909/7180909_17899723033673_500.jpg",
@@ -2265,7 +2265,7 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 68537,
+        "avg": 68495,
         "min": 15010,
         "max": 169200,
         "count": 60
@@ -2588,13 +2588,13 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 53151,
+        "avg": 52919,
         "min": 18290,
         "max": 178000,
         "count": 60
       },
       "male": {
-        "avg": 59608,
+        "avg": 59252,
         "min": 18290,
         "max": 178000,
         "count": 39
@@ -2898,8 +2898,8 @@
           "name": "절개 다트 슬랙스팬츠 - 블랙",
           "price": 70000,
           "originalPrice": 70000,
-          "discountRate": 10,
-          "finalPrice": 63000,
+          "discountRate": 14,
+          "finalPrice": 60200,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250519/5125572/5125572_17476323101261_500.jpg",
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 63889,
+        "avg": 64194,
         "min": 7900,
         "max": 228000,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 10
       },
       "female": {
-        "avg": 60890,
+        "avg": 61301,
         "min": 9900,
         "max": 139000,
         "count": 18
@@ -3071,8 +3071,8 @@
           "name": "폴라텍 플리스 와이드 팬츠 Black",
           "price": 109000,
           "originalPrice": 109000,
-          "discountRate": 10,
-          "finalPrice": 98100,
+          "discountRate": 0,
+          "finalPrice": 109000,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260827/7180917/7180917_17900382474745_500.jpg",
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 46110,
+        "avg": 46060,
         "min": 19280,
         "max": 79200,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 9
       },
       "female": {
-        "avg": 46890,
+        "avg": 46822,
         "min": 19280,
         "max": 79200,
         "count": 44
