@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T07:46:12.301245+00:00",
+  "updatedAt": "2026-10-20T13:04:05.178769+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,22 +327,22 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 56935,
+        "avg": 56325,
         "min": 17900,
         "max": 159000,
         "count": 60
       },
       "male": {
-        "avg": 57075,
+        "avg": 56617,
         "min": 27000,
         "max": 129000,
-        "count": 10
+        "count": 9
       },
       "female": {
-        "avg": 54683,
+        "avg": 54174,
         "min": 27120,
         "max": 94000,
-        "count": 31
+        "count": 32
       },
       "items": [
         {
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 56982,
+        "avg": 57131,
         "min": 12000,
         "max": 169100,
         "count": 60
@@ -795,8 +795,8 @@
           "name": "AECA CROP FIT PIGMENT SWEATSHIRTS (3color)",
           "price": 89000,
           "originalPrice": 89000,
-          "discountRate": 40,
-          "finalPrice": 53400,
+          "discountRate": 20,
+          "finalPrice": 71200,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260929/7420612/7420612_17907576967207_500.jpg",
@@ -1619,21 +1619,21 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 72635,
+        "avg": 71735,
         "min": 26800,
-        "max": 210000,
+        "max": 198000,
         "count": 60
       },
       "male": {
-        "avg": 70682,
+        "avg": 70920,
         "min": 33000,
         "max": 198000,
         "count": 21
       },
       "female": {
-        "avg": 76296,
+        "avg": 74262,
         "min": 31920,
-        "max": 210000,
+        "max": 151000,
         "count": 29
       },
       "items": [
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 123538,
+        "avg": 123290,
         "min": 23920,
         "max": 474050,
         "count": 60
@@ -1954,10 +1954,10 @@
         "count": 21
       },
       "female": {
-        "avg": 100962,
+        "avg": 101252,
         "min": 23920,
         "max": 231300,
-        "count": 22
+        "count": 23
       },
       "items": [
         {
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-114148",
+          "id": "ms-114146",
           "brand": "",
           "name": "",
           "price": null,
@@ -2057,8 +2057,8 @@
           "name": "트윌런 하이넥 버클 숏 트렌치 자켓_F6F718JK",
           "price": 128000,
           "originalPrice": 128000,
-          "discountRate": 19,
-          "finalPrice": 103680,
+          "discountRate": 26,
+          "finalPrice": 95220,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260915/7332486/7332486_17894498890153_500.jpg",
@@ -2228,7 +2228,7 @@
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260827/7180909/7180909_17899723033673_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7180909",
-          "displayGenderText": "공용"
+          "displayGenderText": "여성"
         },
         {
           "rank": 19,
@@ -2588,19 +2588,19 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 52912,
+        "avg": 53205,
         "min": 14700,
         "max": 178000,
         "count": 60
       },
       "male": {
-        "avg": 58916,
+        "avg": 60048,
         "min": 14700,
         "max": 178000,
-        "count": 39
+        "count": 38
       },
       "female": {
-        "avg": 42665,
+        "avg": 43536,
         "min": 24900,
         "max": 59900,
         "count": 11
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 63142,
+        "avg": 62776,
         "min": 9900,
         "max": 228000,
         "count": 60
