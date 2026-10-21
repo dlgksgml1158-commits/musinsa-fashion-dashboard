@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T15:23:42.018058+00:00",
+  "updatedAt": "2026-10-21T19:23:30.553740+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 59079,
+        "avg": 58360,
         "min": 9990,
         "max": 159000,
         "count": 60
@@ -339,10 +339,10 @@
         "count": 9
       },
       "female": {
-        "avg": 56839,
-        "min": 24920,
+        "avg": 55037,
+        "min": 9990,
         "max": 84550,
-        "count": 25
+        "count": 26
       },
       "items": [
         {
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 55964,
+        "avg": 53286,
         "min": 9000,
         "max": 197100,
         "count": 60
@@ -662,10 +662,10 @@
         "count": 20
       },
       "female": {
-        "avg": 59940,
+        "avg": 54742,
         "min": 23560,
         "max": 169100,
-        "count": 22
+        "count": 21
       },
       "items": [
         {
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 50077,
+        "avg": 50079,
         "min": 15900,
         "max": 149400,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 25
       },
       "female": {
-        "avg": 57411,
+        "avg": 57417,
         "min": 16800,
         "max": 149400,
         "count": 23
@@ -1576,8 +1576,8 @@
           "name": "링클프리 리벳 셔츠 [BLACK] / GF7LSH507",
           "price": 49000,
           "originalPrice": 49000,
-          "discountRate": 45,
-          "finalPrice": 27060,
+          "discountRate": 44,
+          "finalPrice": 27200,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250204/4755241/4755241_17570577674073_500.jpg",
