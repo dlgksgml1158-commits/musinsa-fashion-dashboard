@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-10-21T10:20:40.974184+00:00",
+  "updatedAt": "2026-10-21T15:23:42.018058+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 33508,
+        "avg": 33539,
         "min": 9900,
         "max": 99000,
         "count": 60
       },
       "male": {
-        "avg": 35028,
+        "avg": 35102,
         "min": 9900,
         "max": 99000,
         "count": 26
@@ -284,8 +284,8 @@
           "name": "무지 소매 배색 롤업 반팔티 AST3682 (4COLOR)",
           "price": 47900,
           "originalPrice": 47900,
-          "discountRate": 46,
-          "finalPrice": 25990,
+          "discountRate": 42,
+          "finalPrice": 27900,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260624/6724755/6724755_17839972855080_500.jpg",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 59046,
+        "avg": 59079,
         "min": 9990,
         "max": 159000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 9
       },
       "female": {
-        "avg": 56760,
+        "avg": 56839,
         "min": 24920,
         "max": 84550,
         "count": 25
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 55931,
+        "avg": 55964,
         "min": 9000,
         "max": 197100,
         "count": 60
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 65065,
+        "avg": 65247,
         "min": 16400,
         "max": 170000,
         "count": 60
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 50100,
+        "avg": 50077,
         "min": 15900,
         "max": 149400,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 25
       },
       "female": {
-        "avg": 57472,
+        "avg": 57411,
         "min": 16800,
         "max": 149400,
         "count": 23
@@ -1591,8 +1591,8 @@
           "name": "레이온블렌드 스트라이프 슬림핏 셔츠  애쉬",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 41,
-          "finalPrice": 29670,
+          "discountRate": 43,
+          "finalPrice": 28270,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260819/7108583/7108583_17871299805452_500.jpg",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 84833,
+        "avg": 85306,
         "min": 17900,
         "max": 650000,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 18
       },
       "female": {
-        "avg": 80478,
+        "avg": 81529,
         "min": 39900,
         "max": 197100,
         "count": 27
@@ -1794,8 +1794,8 @@
           "name": "헨리넥 오버핏 니트 탑 차콜 MDKT132CHARCOAL",
           "price": 82000,
           "originalPrice": 82000,
-          "discountRate": 26,
-          "finalPrice": 61010,
+          "discountRate": 7,
+          "finalPrice": 76260,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260910/7301942/7301942_17896342708003_500.jpg",
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 130488,
+        "avg": 132512,
         "min": 29900,
         "max": 474050,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 20
       },
       "female": {
-        "avg": 91261,
+        "avg": 97653,
         "min": 36750,
         "max": 182000,
         "count": 19
@@ -2016,7 +2016,7 @@
           "finalPrice": 76500,
           "category": "002",
           "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260922/7394098/7394098_17925516671599_500.jpg",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260922/7394098/7394098_17900622190836_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7394098",
           "displayGenderText": "여성"
         },
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-114145",
+          "id": "ms-114162",
           "brand": "",
           "name": "",
           "price": null,
@@ -2202,21 +2202,6 @@
         },
         {
           "rank": 17,
-          "id": "ms-7394247",
-          "brand": "레세터",
-          "name": "오버 사이즈 하이넥 후드 집업_GRAY",
-          "price": 59000,
-          "originalPrice": 59000,
-          "discountRate": 25,
-          "finalPrice": 44250,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260922/7394247/7394247_17925492989395_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7394247",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 18,
           "id": "ms-7270165",
           "brand": "아웃스탠딩",
           "name": "MILITARY FLEECE JACKET_BLACK",
@@ -2231,7 +2216,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-7336255",
           "brand": "일리고",
           "name": "프릴 케이프 코트 아이보리",
@@ -2246,18 +2231,33 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7405135",
           "brand": "에잇세컨즈",
           "name": "방모 라운드넥 숏 재킷  애쉬",
           "price": 89900,
           "originalPrice": 89900,
-          "discountRate": 15,
-          "finalPrice": 76420,
+          "discountRate": 19,
+          "finalPrice": 72820,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260928/7405135/7405135_17907267439402_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7405135",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7401186",
+          "brand": "아메스 월드와이드",
+          "name": "POLAR FLEECE RAGLAN HOODIE ZIP-UP CHARCOAL",
+          "price": 89000,
+          "originalPrice": 89000,
+          "discountRate": 30,
+          "finalPrice": 62300,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260923/7401186/7401186_17907530361448_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7401186",
           "displayGenderText": "여성"
         }
       ]
@@ -2265,7 +2265,7 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 64004,
+        "avg": 65031,
         "min": 14700,
         "max": 169200,
         "count": 60
@@ -2560,8 +2560,8 @@
           "name": "[글랙 × 빛오] GBOP002 사이드 코르셋 레귤러핏 워시드 블랙 데님 팬츠 G26BD8002BK (BLACK)",
           "price": 169000,
           "originalPrice": 169000,
-          "discountRate": 30,
-          "finalPrice": 118300,
+          "discountRate": 10,
+          "finalPrice": 152100,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260914/7318666/7318666_17900572118772_500.jpg",
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 44769,
+        "avg": 44915,
         "min": 10900,
         "max": 88000,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 11
       },
       "female": {
-        "avg": 48583,
+        "avg": 48787,
         "min": 19280,
         "max": 88000,
         "count": 43
