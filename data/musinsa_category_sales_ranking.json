@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T21:44:51.194540+00:00",
+  "updatedAt": "2026-10-21T00:12:03.629793+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1027,21 +1027,6 @@
         },
         {
           "rank": 8,
-          "id": "ms-7142902",
-          "brand": "리메인세컨드",
-          "name": "밸런스 핏 스웨트 셋업 [2COLOR]",
-          "price": 108000,
-          "originalPrice": 108000,
-          "discountRate": 47,
-          "finalPrice": 56800,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260824/7142902/7142902_17884134479464_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7142902",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 9,
           "id": "ms-4302685",
           "brand": "소라노",
           "name": "SORANO Basic Logo HOODIE [6Color]",
@@ -1056,7 +1041,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-5937520",
           "brand": "스켈리웩",
           "name": "와플 헨리넥 후디[그레이]",
@@ -1071,7 +1056,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-4275060",
           "brand": "트래블",
           "name": "넘버세븐 믹스 후드티 오트밀",
@@ -1086,7 +1071,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-4275085",
           "brand": "트래블",
           "name": "스프레이 스타피쉬 피그먼트 후드티 옐로우",
@@ -1101,7 +1086,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-6951093",
           "brand": "마이초이도쿄",
           "name": "MAICHOI Flag Archive Hoodie [3color]",
@@ -1116,7 +1101,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-2990516",
           "brand": "1989스탠다드",
           "name": "RV_OUR 1989 후드 (STHSTD-0004)",
@@ -1131,7 +1116,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-3012571",
           "brand": "트래블",
           "name": "워크샵 디비전 피그먼트 후드티 다크 블루",
@@ -1146,7 +1131,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-4784450",
           "brand": "무센트",
           "name": "시그니처 베이직 로고 후드 티 남녀공용 (6컬러)",
@@ -1161,7 +1146,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-2314616",
           "brand": "토피",
           "name": "에센셜 후드 스웻 셔츠 (MELANGE GREY)",
@@ -1176,7 +1161,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5438121",
           "brand": "디스이즈네버댓",
           "name": "T-Logo Hoodie Heather Grey",
@@ -1191,7 +1176,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5386349",
           "brand": "엘리메노",
           "name": "EL 데이지 ver2 후드티셔츠 3Color",
@@ -1206,7 +1191,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-4288949",
           "brand": "디미트리블랙",
           "name": "ASI 포시즌 에센셜 스웻 후드 티셔츠_피그먼트 네이비",
@@ -1218,6 +1203,21 @@
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240801/4288949/4288949_17514415406487_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4288949",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7105528",
+          "brand": "비바라비다",
+          "name": "[기모선택] Rodea 헤비테리 후드",
+          "price": 93900,
+          "originalPrice": 93900,
+          "discountRate": 38,
+          "finalPrice": 57900,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260819/7105528/7105528_17871229688408_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7105528",
           "displayGenderText": "공용"
         }
       ]
