@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T22:30:11.356690+00:00",
+  "updatedAt": "2026-10-22T00:47:52.105710+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,20 +327,20 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 58360,
-        "min": 9990,
+        "avg": 59721,
+        "min": 16900,
         "max": 159000,
         "count": 60
       },
       "male": {
-        "avg": 50189,
-        "min": 9990,
+        "avg": 55214,
+        "min": 27000,
         "max": 129000,
-        "count": 9
+        "count": 8
       },
       "female": {
-        "avg": 55037,
-        "min": 9990,
+        "avg": 56518,
+        "min": 24920,
         "max": 84550,
         "count": 26
       },
@@ -602,21 +602,6 @@
         },
         {
           "rank": 18,
-          "id": "ms-4296157",
-          "brand": "크리틱",
-          "name": "WORMHOLE INCISION LONG SLEEVE T-SHIRT BLUE",
-          "price": 69000,
-          "originalPrice": 69000,
-          "discountRate": 86,
-          "finalPrice": 9990,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240805/4296157/4296157_17236279868026_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4296157",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 19,
           "id": "ms-7456145",
           "brand": "커버라이즈",
           "name": "엔젤 그래픽 롱슬리브 티셔츠 (화이트/블랙)",
@@ -631,7 +616,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7416161",
           "brand": "오도어",
           "name": "Waffle plain Henley T-shirt",
@@ -644,6 +629,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260929/7416161/7416161_17906824004804_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7416161",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7057084",
+          "brand": "이알티알",
+          "name": "Essential LS T-Shirt White",
+          "price": 61000,
+          "originalPrice": 61000,
+          "discountRate": 10,
+          "finalPrice": 54900,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260812/7057084/7057084_17887710748643_500.png",
+          "productUrl": "https://www.musinsa.com/products/7057084",
+          "displayGenderText": "공용"
         }
       ]
     },
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 65247,
+        "avg": 65046,
         "min": 16400,
         "max": 170000,
         "count": 60
@@ -985,29 +985,14 @@
         "count": 11
       },
       "female": {
-        "avg": 58947,
+        "avg": 57729,
         "min": 16400,
         "max": 170000,
-        "count": 18
+        "count": 19
       },
       "items": [
         {
           "rank": 1,
-          "id": "ms-7424693",
-          "brand": "라이크더모스트",
-          "name": "애스터리스크 심볼 그래픽 오버 후드_3COLORS",
-          "price": 59900,
-          "originalPrice": 59900,
-          "discountRate": 20,
-          "finalPrice": 47920,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260930/7424693/7424693_17907346051233_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7424693",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 2,
           "id": "ms-7438833",
           "brand": "키치앤키스",
           "name": "MAIN LOGO 오버핏 후드 (SOHKNK-100)",
@@ -1022,7 +1007,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 3,
+          "rank": 2,
           "id": "ms-7377807",
           "brand": "대한민국 육군",
           "name": "와플 풀오버 후드 티셔츠 - 블랙",
@@ -1037,7 +1022,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 4,
+          "rank": 3,
           "id": "ms-7323475",
           "brand": "디미토",
           "name": "[CHAMPION x DIMITO] SCRIPT FLEECE HOODIE WARM GREY",
@@ -1052,7 +1037,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "id": "ms-7399485",
           "brand": "비바라비다",
           "name": "[기모선택] Boxer 헤비테리 후드",
@@ -1067,7 +1052,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "id": "ms-7365011",
           "brand": "엄브로",
           "name": "[NCT WISH 픽] HBL 네오 브릿 파이핑 기모 후드 티셔츠 블랙 UR321CHD94",
@@ -1082,7 +1067,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-7129380",
           "brand": "르아르",
           "name": "라이트 플리스 롱슬리브 후디 [빈티지레드]",
@@ -1097,7 +1082,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-7405753",
           "brand": "디스이즈네버댓",
           "name": "GD Dancing Bears Hoodie Off Black",
@@ -1112,7 +1097,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-7319092",
           "brand": "살로몬",
           "name": "쿼터페이스 후디_LD0458800",
@@ -1127,7 +1112,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-7373213",
           "brand": "포트레이트서울",
           "name": "오키드 와플 후디 - 네이비",
@@ -1142,7 +1127,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-7390629",
           "brand": "레터프롬문",
           "name": "레터즈 뮤즈 브이넥 후드 ( 멜란지그레이 )",
@@ -1157,7 +1142,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-3474434",
           "brand": "아메스 월드와이드",
           "name": "SURROUNDING STAR RAGLAN HOODIE GREY (AM2DFUM404A)",
@@ -1172,7 +1157,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-7459542",
           "brand": "마이딥블루메모리즈",
           "name": "(HD) MM SYMBOL LOGO HOODIE (LIGHT GREY)",
@@ -1187,7 +1172,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-7345094",
           "brand": "노디",
           "name": "멀티 스트라이프 플리스 후디 퍼플",
@@ -1202,7 +1187,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-7319097",
           "brand": "살로몬",
           "name": "쿼터페이스 후디_LD0458900",
@@ -1217,7 +1202,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-7428197",
           "brand": "미세키서울",
           "name": "[한나 PICK] Layered twist hoodie knit BLACK",
@@ -1232,7 +1217,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7385733",
           "brand": "얼스캄에라",
           "name": "와플 바라클라바 후디_4컬러",
@@ -1247,7 +1232,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5480539",
           "brand": "커버낫",
           "name": "웜온 시그니처 심볼 플리스 후디 Dark Navy",
@@ -1262,7 +1247,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-7364498",
           "brand": "어반드레스",
           "name": "Sasha Triple Hood_4COL",
@@ -1277,7 +1262,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7335295",
           "brand": "마뗑킴",
           "name": "WAFFLE APPLIQUE LOGO HOOD TOP IN CHARCOAL",
@@ -1290,22 +1275,37 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260915/7335295/7335295_17897113063892_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7335295",
           "displayGenderText": ""
+        },
+        {
+          "rank": 20,
+          "id": "ms-7399663",
+          "brand": "엘리메노",
+          "name": "EL 나우네버 크롭 후드티셔츠 2Color",
+          "price": 62000,
+          "originalPrice": 62000,
+          "discountRate": 24,
+          "finalPrice": 46900,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260923/7399663/7399663_17901434744682_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7399663",
+          "displayGenderText": "남성"
         }
       ]
     },
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 50079,
+        "avg": 50609,
         "min": 15900,
         "max": 149400,
         "count": 60
       },
       "male": {
-        "avg": 50850,
+        "avg": 51144,
         "min": 18290,
         "max": 103550,
-        "count": 25
+        "count": 24
       },
       "female": {
         "avg": 57417,
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 132512,
+        "avg": 134439,
         "min": 29900,
         "max": 474050,
         "count": 60
@@ -1954,10 +1954,10 @@
         "count": 20
       },
       "female": {
-        "avg": 97653,
+        "avg": 100262,
         "min": 36750,
         "max": 182000,
-        "count": 19
+        "count": 20
       },
       "items": [
         {
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-113795",
+          "id": "ms-114147",
           "brand": "",
           "name": "",
           "price": null,
@@ -2172,21 +2172,6 @@
         },
         {
           "rank": 15,
-          "id": "ms-7437158",
-          "brand": "고스트리퍼블릭",
-          "name": "하프집업 풀오버 플리스 맨투맨 2Color GMT-169",
-          "price": 57000,
-          "originalPrice": 57000,
-          "discountRate": 40,
-          "finalPrice": 34200,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20261001/7437158/7437158_17925611398490_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7437158",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 16,
           "id": "ms-6907621",
           "brand": "잔스포츠",
           "name": "로고 플리스 자켓 NAVY",
@@ -2201,7 +2186,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7270165",
           "brand": "아웃스탠딩",
           "name": "MILITARY FLEECE JACKET_BLACK",
@@ -2216,7 +2201,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-7336255",
           "brand": "일리고",
           "name": "프릴 케이프 코트 아이보리",
@@ -2231,7 +2216,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-7405135",
           "brand": "에잇세컨즈",
           "name": "방모 라운드넥 숏 재킷  애쉬",
@@ -2246,7 +2231,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7401186",
           "brand": "아메스 월드와이드",
           "name": "POLAR FLEECE RAGLAN HOODIE ZIP-UP CHARCOAL",
@@ -2259,6 +2244,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260923/7401186/7401186_17907530361448_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7401186",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7473495",
+          "brand": "토마스모어",
+          "name": "플리스 하프집업 - 썬토마토",
+          "price": 73500,
+          "originalPrice": 73500,
+          "discountRate": 0,
+          "finalPrice": 73500,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20261007/7473495/7473495_17913713769492_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7473495",
+          "displayGenderText": "공용"
         }
       ]
     },
