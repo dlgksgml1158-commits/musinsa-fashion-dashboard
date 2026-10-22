@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-10-22T10:42:10.379507+00:00",
+  "updatedAt": "2026-10-22T15:42:23.137961+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 33757,
+        "avg": 33765,
         "min": 9900,
         "max": 99000,
         "count": 60
       },
       "male": {
-        "avg": 35243,
+        "avg": 35263,
         "min": 9900,
         "max": 99000,
         "count": 26
@@ -284,8 +284,8 @@
           "name": "무지 소매 배색 롤업 반팔티 AST3682 (4COLOR)",
           "price": 47900,
           "originalPrice": 47900,
-          "discountRate": 46,
-          "finalPrice": 25990,
+          "discountRate": 45,
+          "finalPrice": 26500,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260624/6724755/6724755_17839972855080_500.jpg",
@@ -1296,13 +1296,13 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 51424,
+        "avg": 51834,
         "min": 18290,
         "max": 149400,
         "count": 60
       },
       "male": {
-        "avg": 54110,
+        "avg": 55340,
         "min": 18290,
         "max": 103550,
         "count": 20
@@ -1396,8 +1396,8 @@
           "name": "SEMI CROP SMALL CHECK SHIRT [BLACK PINK]",
           "price": 82000,
           "originalPrice": 82000,
-          "discountRate": 15,
-          "finalPrice": 69700,
+          "discountRate": 5,
+          "finalPrice": 77900,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260921/7383090/7383090_17913512230823_500.jpg",
@@ -1486,8 +1486,8 @@
           "name": "SEMI CROP CHECK SHIRT [SQUARE BLACK]",
           "price": 82000,
           "originalPrice": 82000,
-          "discountRate": 15,
-          "finalPrice": 69700,
+          "discountRate": 5,
+          "finalPrice": 77900,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260930/7427752/7427752_17914373854297_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-114144",
+          "id": "ms-114147",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,13 +2265,13 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 65546,
+        "avg": 65250,
         "min": 14700,
         "max": 169200,
         "count": 60
       },
       "male": {
-        "avg": 57479,
+        "avg": 56767,
         "min": 19900,
         "max": 148200,
         "count": 25
@@ -2588,19 +2588,19 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 51211,
+        "avg": 51046,
         "min": 11890,
         "max": 178000,
         "count": 60
       },
       "male": {
-        "avg": 51146,
+        "avg": 51121,
         "min": 11890,
         "max": 178000,
         "count": 36
       },
       "female": {
-        "avg": 53509,
+        "avg": 52690,
         "min": 24900,
         "max": 151200,
         "count": 11
@@ -2628,8 +2628,8 @@
           "name": "파라슈트 밴딩 슬랙스 [블랙]",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 70,
-          "finalPrice": 14890,
+          "discountRate": 60,
+          "finalPrice": 19990,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230828/3504230/3504230_16963958728359_500.jpg",
@@ -2673,8 +2673,8 @@
           "name": "우먼즈 브러쉬드 딥 턱 와이드 슬랙스 [미디엄 그레이]",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 0,
-          "finalPrice": 59900,
+          "discountRate": 15,
+          "finalPrice": 50890,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260715/6849483/6849483_17907489125290_500.jpg",
@@ -2911,22 +2911,22 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 58392,
+        "avg": 59069,
         "min": 9900,
         "max": 228000,
         "count": 60
       },
       "male": {
-        "avg": 31865,
+        "avg": 33179,
         "min": 12410,
         "max": 63910,
-        "count": 11
+        "count": 10
       },
       "female": {
-        "avg": 55483,
+        "avg": 55697,
         "min": 9900,
         "max": 127880,
-        "count": 17
+        "count": 18
       },
       "items": [
         {
@@ -3111,21 +3111,6 @@
         },
         {
           "rank": 13,
-          "id": "ms-7438193",
-          "brand": "오프메이드",
-          "name": "코듀로이 사이드핀턱 커브드 벌룬 밴딩 트레이닝팬츠",
-          "price": 31200,
-          "originalPrice": 31200,
-          "discountRate": 40,
-          "finalPrice": 18720,
-          "category": "003004",
-          "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20261001/7438193/7438193_17908412536214_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7438193",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 14,
           "id": "ms-7056595",
           "brand": "스켈리웩",
           "name": "[신기 × 스켈리웩] ET BONE FINGER 스웨트 팬츠[차콜]",
@@ -3140,7 +3125,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-7433214",
           "brand": "고스트리퍼블릭",
           "name": "커브드 사이드 핀턱 벌룬 스웨트팬츠 GLP-650_피그먼트 차콜",
@@ -3155,7 +3140,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-7045783",
           "brand": "스탠다드에러",
           "name": "[사계절or기모] 87-STAN281 투턱 와이드 루즈핏 스웻팬츠 (4color)",
@@ -3170,7 +3155,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7366937",
           "brand": "레이지비",
           "name": "더블 트랙 밴딩 스트럭처 와이드 스트링 팬츠 M (3컬러)",
@@ -3185,7 +3170,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-7421534",
           "brand": "오헤시오",
           "name": "FLORAL SIGNATURE PATCH POCKET SWEATPANTS, LAVENDER",
@@ -3200,7 +3185,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-3503598",
           "brand": "코드그라피",
           "name": "나일론 카고 파라슈트 팬츠 - 카키(701)",
@@ -3215,7 +3200,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-4255086",
           "brand": "탑텐",
           "name": "남성) 테리 스트레이트 스웨트팬츠_MSE5PT1911",
@@ -3228,13 +3213,28 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240717/4255086/4255086_17913385827724_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4255086",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5253247",
+          "brand": "탑텐",
+          "name": "여성) 테리 스트레이트 스웨트팬츠_MSF5PT2911",
+          "price": 39900,
+          "originalPrice": 39900,
+          "discountRate": 75,
+          "finalPrice": 9900,
+          "category": "003004",
+          "categoryLabel": "트레이닝/조거",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250717/5253247/5253247_17909251730558_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5253247",
+          "displayGenderText": "여성"
         }
       ]
     },
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 45255,
+        "avg": 45114,
         "min": 10900,
         "max": 88000,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 11
       },
       "female": {
-        "avg": 48788,
+        "avg": 48591,
         "min": 18800,
         "max": 88000,
         "count": 43
@@ -3469,8 +3469,8 @@
           "name": "우먼즈 폴라 플리스 밴딩 쇼츠 [그레이]",
           "price": 29900,
           "originalPrice": 29900,
-          "discountRate": 0,
-          "finalPrice": 29900,
+          "discountRate": 15,
+          "finalPrice": 25390,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260602/6595799/6595799_17894667182185_500.jpg",
