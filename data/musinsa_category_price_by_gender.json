@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T15:42:23.137961+00:00",
+  "updatedAt": "2026-10-22T19:34:21.139621+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1296,22 +1296,22 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 51834,
+        "avg": 52638,
         "min": 18290,
         "max": 149400,
         "count": 60
       },
       "male": {
-        "avg": 55340,
+        "avg": 56157,
         "min": 18290,
         "max": 103550,
-        "count": 20
+        "count": 19
       },
       "female": {
-        "avg": 57586,
+        "avg": 58854,
         "min": 21000,
         "max": 149400,
-        "count": 23
+        "count": 24
       },
       "items": [
         {
@@ -1436,6 +1436,21 @@
         },
         {
           "rank": 9,
+          "id": "ms-7074621",
+          "brand": "기준",
+          "name": "TWIN-BUTTON STRIPE SHIRT_PINK",
+          "price": 109000,
+          "originalPrice": 109000,
+          "discountRate": 19,
+          "finalPrice": 88020,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260813/7074621/7074621_17891066128066_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7074621",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 10,
           "id": "ms-5289481",
           "brand": "마인드브릿지 우먼",
           "name": "[W]루즈핏 타이 셔츠 - 2color",
@@ -1450,7 +1465,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-4425073",
           "brand": "테이크이지",
           "name": "빈티지 오버 듀플린 체크 셔츠 (차콜)",
@@ -1465,7 +1480,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-4227441",
           "brand": "스탠다드에러",
           "name": "87-STAN083 레트로 플레이드 오버핏 포켓 긴팔 체크 셔츠",
@@ -1480,7 +1495,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-7427752",
           "brand": "유니온블루",
           "name": "SEMI CROP CHECK SHIRT [SQUARE BLACK]",
@@ -1495,7 +1510,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-5926416",
           "brand": "알리스",
           "name": "웨스턴 리니어 솔리드 크롭 셔츠 [블랙]",
@@ -1510,7 +1525,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-5886183",
           "brand": "드로우핏 우먼",
           "name": "플로우 턱 스카프 블라우스 [IVORY]",
@@ -1525,7 +1540,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-3958932",
           "brand": "무드인사이드",
           "name": "(summer)스톤 아이스 세미오버 RN셔츠 _Navy",
@@ -1537,21 +1552,6 @@
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240315/3958932/3958932_17185910962019_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3958932",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 16,
-          "id": "ms-4845178",
-          "brand": "에즈카톤",
-          "name": "리사이클 긴팔셔츠 딥그레이 KMLS6867",
-          "price": 74900,
-          "originalPrice": 74900,
-          "discountRate": 47,
-          "finalPrice": 39800,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250228/4845178/4845178_17407031064770_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4845178",
           "displayGenderText": "남성"
         },
         {
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-114147",
+          "id": "ms-114328",
           "brand": "",
           "name": "",
           "price": null,
@@ -2588,13 +2588,13 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 51046,
+        "avg": 50986,
         "min": 11890,
         "max": 178000,
         "count": 60
       },
       "male": {
-        "avg": 51121,
+        "avg": 51021,
         "min": 11890,
         "max": 178000,
         "count": 36
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 45114,
+        "avg": 45112,
         "min": 10900,
         "max": 88000,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 11
       },
       "female": {
-        "avg": 48591,
+        "avg": 48588,
         "min": 18800,
         "max": 88000,
         "count": 43
