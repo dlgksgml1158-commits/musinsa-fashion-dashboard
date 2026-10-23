@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T22:48:38.759154+00:00",
+  "updatedAt": "2026-10-23T01:03:02.996665+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,22 +650,22 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 51286,
-        "min": 9990,
+        "avg": 51551,
+        "min": 12000,
         "max": 169100,
         "count": 60
       },
       "male": {
-        "avg": 45261,
-        "min": 9990,
+        "avg": 47117,
+        "min": 12000,
         "max": 99190,
-        "count": 20
+        "count": 19
       },
       "female": {
-        "avg": 54584,
+        "avg": 53075,
         "min": 17000,
         "max": 169100,
-        "count": 18
+        "count": 19
       },
       "items": [
         {
@@ -1296,22 +1296,22 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 51275,
+        "avg": 51414,
         "min": 18290,
         "max": 149400,
         "count": 60
       },
       "male": {
-        "avg": 49547,
+        "avg": 49060,
         "min": 18290,
         "max": 77900,
-        "count": 19
+        "count": 20
       },
       "female": {
-        "avg": 60760,
+        "avg": 61655,
         "min": 21000,
         "max": 149400,
-        "count": 26
+        "count": 25
       },
       "items": [
         {
@@ -1571,6 +1571,21 @@
         },
         {
           "rank": 18,
+          "id": "ms-4845178",
+          "brand": "에즈카톤",
+          "name": "리사이클 긴팔셔츠 딥그레이 KMLS6867",
+          "price": 74900,
+          "originalPrice": 74900,
+          "discountRate": 47,
+          "finalPrice": 39800,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250228/4845178/4845178_17407031064770_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4845178",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 19,
           "id": "ms-4755241",
           "brand": "제너럴아이디어",
           "name": "링클프리 리벳 셔츠 [BLACK] / GF7LSH507",
@@ -1585,7 +1600,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-7108583",
           "brand": "에잇세컨즈",
           "name": "레이온블렌드 스트라이프 슬림핏 셔츠  애쉬",
@@ -1598,21 +1613,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260819/7108583/7108583_17871299805452_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7108583",
           "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-5289769",
-          "brand": "마인드브릿지",
-          "name": "[ON]스트라이프 오버핏 셔츠 - 3color",
-          "price": 79900,
-          "originalPrice": 79900,
-          "discountRate": 50,
-          "finalPrice": 39900,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250804/5289769/5289769_17726775493842_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5289769",
-          "displayGenderText": "남성"
         }
       ]
     },
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-114327",
+          "id": "ms-113366",
           "brand": "",
           "name": "",
           "price": null,
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 45596,
+        "avg": 45672,
         "min": 10900,
         "max": 88000,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 9
       },
       "female": {
-        "avg": 48555,
+        "avg": 48656,
         "min": 18800,
         "max": 88000,
         "count": 45
