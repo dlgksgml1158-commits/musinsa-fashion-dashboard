@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T14:40:42.303186+00:00",
+  "updatedAt": "2026-10-24T17:40:56.341033+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 54640,
+        "avg": 55404,
         "min": 12000,
         "max": 197100,
         "count": 60
@@ -662,10 +662,10 @@
         "count": 19
       },
       "female": {
-        "avg": 54124,
+        "avg": 54778,
         "min": 17000,
         "max": 159910,
-        "count": 18
+        "count": 19
       },
       "items": [
         {
@@ -960,8 +960,8 @@
           "name": "WXT110 하나고야 헨리넥 스웻셔츠 (NAVY)",
           "price": 89000,
           "originalPrice": 89000,
-          "discountRate": 15,
-          "finalPrice": 75650,
+          "discountRate": 10,
+          "finalPrice": 80100,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260923/7399681/7399681_17927312856508_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-114156",
+          "id": "ms-114145",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,7 +2265,7 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 64530,
+        "avg": 64630,
         "min": 15010,
         "max": 169200,
         "count": 60
@@ -2277,7 +2277,7 @@
         "count": 27
       },
       "female": {
-        "avg": 71453,
+        "avg": 71736,
         "min": 18910,
         "max": 169200,
         "count": 21
@@ -2395,8 +2395,8 @@
           "name": "WXP116 TIME LESS 스트라이프 데님 롤업 팬츠 (INDIGO)",
           "price": 119000,
           "originalPrice": 119000,
-          "discountRate": 15,
-          "finalPrice": 101150,
+          "discountRate": 10,
+          "finalPrice": 107100,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/prd_img/20260923/7399349/detail_7399349_17906702582841_500.jpg",
