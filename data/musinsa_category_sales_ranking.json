@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T19:47:18.864614+00:00",
+  "updatedAt": "2026-10-25T22:07:27.298580+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -842,6 +842,21 @@
         },
         {
           "rank": 16,
+          "id": "ms-7100197",
+          "brand": "데상트",
+          "name": "코튼 기모 맨투맨",
+          "price": 109000,
+          "originalPrice": 109000,
+          "discountRate": 30,
+          "finalPrice": 76300,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260819/7100197/7100197_17870960236852_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7100197",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 17,
           "id": "ms-3574305",
           "brand": "리브레너",
           "name": "스탠다드 스웨츠 셔츠",
@@ -856,7 +871,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-6966064",
           "brand": "언탭트 스튜디오",
           "name": "340G 에센셜 사이드 절개 오버핏 맨투맨 스웨트 티셔츠 3Color",
@@ -871,7 +886,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-7366321",
           "brand": "원헌드레드퍼센트",
           "name": "OHPxMOAI b캠핑 피그먼트 맨투맨",
@@ -886,7 +901,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-4704341",
           "brand": "지프",
           "name": "[360g] M-Logo 반집업 맨투맨 (JR5TSU838MB)",
@@ -898,21 +913,6 @@
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250108/4704341/4704341_17412474701281_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4704341",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-4593868",
-          "brand": "난데",
-          "name": "CP쭈리 무지 오버핏 맨투맨 9color",
-          "price": 43500,
-          "originalPrice": 43500,
-          "discountRate": 41,
-          "finalPrice": 25800,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20241106/4593868/4593868_17865048893006_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4593868",
           "displayGenderText": "공용"
         }
       ]
@@ -1482,21 +1482,6 @@
         },
         {
           "rank": 18,
-          "id": "ms-3758302",
-          "brand": "무신사 스탠다드",
-          "name": "릴렉스드 워시드 포플린 셔츠 [스카이 블루]",
-          "price": 39900,
-          "originalPrice": 39900,
-          "discountRate": 35,
-          "finalPrice": 25990,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20231215/3758302/3758302_17079823206712_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3758302",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 19,
           "id": "ms-1333644",
           "brand": "무신사 스탠다드",
           "name": "와이드 스프레드 칼라 드레스 셔츠 [화이트]",
@@ -1508,6 +1493,21 @@
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20200304/1333644/1333644_1_500.jpg",
           "productUrl": "https://www.musinsa.com/products/1333644",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 19,
+          "id": "ms-3758302",
+          "brand": "무신사 스탠다드",
+          "name": "릴렉스드 워시드 포플린 셔츠 [스카이 블루]",
+          "price": 39900,
+          "originalPrice": 39900,
+          "discountRate": 35,
+          "finalPrice": 25990,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20231215/3758302/3758302_17079823206712_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3758302",
           "displayGenderText": "남성"
         },
         {
@@ -3282,18 +3282,18 @@
         },
         {
           "rank": 16,
-          "id": "ms-2574822",
-          "brand": "브렌슨",
-          "name": "(Renew Ver.) 원턱 와이드 반바지 ( 7Color )",
-          "price": 33700,
-          "originalPrice": 33700,
-          "discountRate": 20,
-          "finalPrice": 26900,
+          "id": "ms-3378572",
+          "brand": "무신사 스탠다드 우먼",
+          "name": "우먼즈 원 턱 와이드 코듀로이 쇼츠 [카키 브라운]",
+          "price": 39900,
+          "originalPrice": 39900,
+          "discountRate": 15,
+          "finalPrice": 33890,
           "category": "003009",
           "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20220523/2574822/2574822_17774456124536_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/2574822",
-          "displayGenderText": "공용"
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20230622/3378572/3378572_17677815533394_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3378572",
+          "displayGenderText": "여성"
         },
         {
           "rank": 17,
@@ -3342,18 +3342,18 @@
         },
         {
           "rank": 20,
-          "id": "ms-3378572",
-          "brand": "무신사 스탠다드 우먼",
-          "name": "우먼즈 원 턱 와이드 코듀로이 쇼츠 [카키 브라운]",
-          "price": 39900,
-          "originalPrice": 39900,
-          "discountRate": 15,
-          "finalPrice": 33890,
+          "id": "ms-2574822",
+          "brand": "브렌슨",
+          "name": "(Renew Ver.) 원턱 와이드 반바지 ( 7Color )",
+          "price": 33700,
+          "originalPrice": 33700,
+          "discountRate": 20,
+          "finalPrice": 26900,
           "category": "003009",
           "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230622/3378572/3378572_17677815533394_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3378572",
-          "displayGenderText": "여성"
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20220523/2574822/2574822_17774456124536_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/2574822",
+          "displayGenderText": "공용"
         }
       ]
     }
