@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-10-26T05:07:53.282133+00:00",
+  "updatedAt": "2026-10-26T11:18:29.683182+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 33859,
+        "avg": 33866,
         "min": 9990,
         "max": 94050,
         "count": 60
       },
       "male": {
-        "avg": 34245,
+        "avg": 34260,
         "min": 9990,
         "max": 94050,
         "count": 28
@@ -119,8 +119,8 @@
           "name": "Trouble Half T-Shirts Gray",
           "price": 48000,
           "originalPrice": 48000,
-          "discountRate": 61,
-          "finalPrice": 18770,
+          "discountRate": 60,
+          "finalPrice": 19200,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260319/6164272/6164272_17754384876789_500.jpg",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 60900,
+        "avg": 60974,
         "min": 16800,
         "max": 159000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 7
       },
       "female": {
-        "avg": 55982,
+        "avg": 56129,
         "min": 16800,
         "max": 94000,
         "count": 30
@@ -602,21 +602,6 @@
         },
         {
           "rank": 18,
-          "id": "ms-7148235",
-          "brand": "애즈온",
-          "name": "CLAY STRIPE LONG SLEEVE / GRAY",
-          "price": 62000,
-          "originalPrice": 62000,
-          "discountRate": 0,
-          "finalPrice": 62000,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/prd_img/20260824/7148235/detail_7148235_17877305052797_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7148235",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 19,
           "id": "ms-7424515",
           "brand": "소버먼트",
           "name": "[태양xSOVERMENT]페이크 투톤 레이어드 롱슬리브_6colors",
@@ -631,7 +616,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7456145",
           "brand": "커버라이즈",
           "name": "엔젤 그래픽 롱슬리브 티셔츠 (화이트/블랙)",
@@ -644,13 +629,28 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261006/7456145/7456145_17912476443941_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7456145",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7416161",
+          "brand": "오도어",
+          "name": "Waffle plain Henley T-shirt",
+          "price": 79000,
+          "originalPrice": 79000,
+          "discountRate": 14,
+          "finalPrice": 67550,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260929/7416161/7416161_17906824004804_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7416161",
+          "displayGenderText": "여성"
         }
       ]
     },
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 55107,
+        "avg": 55585,
         "min": 14900,
         "max": 197100,
         "count": 60
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 50456,
+        "avg": 51122,
         "min": 18290,
         "max": 149400,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 20
       },
       "female": {
-        "avg": 62855,
+        "avg": 62694,
         "min": 21000,
         "max": 149400,
         "count": 24
@@ -1546,8 +1546,8 @@
           "name": "링클프리 리벳 셔츠 [BLACK] / GF7LSH507",
           "price": 49000,
           "originalPrice": 49000,
-          "discountRate": 43,
-          "finalPrice": 28000,
+          "discountRate": 47,
+          "finalPrice": 25900,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250204/4755241/4755241_17570577674073_500.jpg",
@@ -1619,19 +1619,19 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 76770,
+        "avg": 76123,
         "min": 14900,
         "max": 650000,
         "count": 60
       },
       "male": {
-        "avg": 94009,
+        "avg": 91969,
         "min": 26550,
         "max": 650000,
         "count": 18
       },
       "female": {
-        "avg": 74798,
+        "avg": 74726,
         "min": 21890,
         "max": 152150,
         "count": 29
@@ -1843,7 +1843,7 @@
           "finalPrice": 39340,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260722/6897067/6897067_17927413656583_500.jpg",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260722/6897067/6897067_17930004091036_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6897067",
           "displayGenderText": "남성"
         },
@@ -1870,7 +1870,7 @@
           "price": 114000,
           "originalPrice": 114000,
           "discountRate": 15,
-          "finalPrice": 97470,
+          "finalPrice": 96450,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260901/7212545/7212545_17896266455926_500.jpg",
@@ -1914,8 +1914,8 @@
           "name": "[민정 PICK] Nordic deer wool knit [FRFA07NT07]_Cream",
           "price": 117000,
           "originalPrice": 117000,
-          "discountRate": 14,
-          "finalPrice": 100040,
+          "discountRate": 15,
+          "finalPrice": 98990,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261001/7437383/7437383_17917329342290_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-114325",
+          "id": "ms-114320",
           "brand": "",
           "name": "",
           "price": null,
@@ -2265,19 +2265,19 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 66162,
-        "min": 17450,
+        "avg": 65949,
+        "min": 14970,
         "max": 169200,
         "count": 60
       },
       "male": {
-        "avg": 58017,
-        "min": 17450,
+        "avg": 57831,
+        "min": 14970,
         "max": 148200,
         "count": 27
       },
       "female": {
-        "avg": 72018,
+        "avg": 71663,
         "min": 18910,
         "max": 169200,
         "count": 22
@@ -2564,7 +2564,7 @@
           "finalPrice": 39600,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250822/5354462/5354462_17929829498686_500.jpg",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250822/5354462/5354462_17929979676261_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5354462",
           "displayGenderText": "남성"
         },
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 45834,
+        "avg": 45769,
         "min": 10900,
         "max": 88000,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 9
       },
       "female": {
-        "avg": 48958,
+        "avg": 48871,
         "min": 18800,
         "max": 88000,
         "count": 45
@@ -3469,8 +3469,8 @@
           "name": "Latch Micro Belt Shorts (BLACK)",
           "price": 98000,
           "originalPrice": 98000,
-          "discountRate": 35,
-          "finalPrice": 63550,
+          "discountRate": 30,
+          "finalPrice": 68600,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250911/5442400/5442400_17817596058507_500.jpg",
