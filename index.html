@@ -546,17 +546,27 @@ function buildDaySuggestions(day) {
   const items = [];
   const tMax = Math.round(day.tMax), tMin = Math.round(day.tMin), precip = day.precipProb, label = day.weatherLabel || "";
 
-  if (tMax >= 30) {
-    items.push({ item: "반팔 티셔츠 / 린넨 셔츠", reason: `최고 ${tMax}°C — 무더운 날씨, 통기성 좋은 여름 상의 수요 증가 예상` });
-    items.push({ item: "반바지 / 숏 팬츠", reason: "더운 날씨로 시원한 하의 카테고리 인기 상승 전망" });
-  } else if (tMax >= 25) {
-    items.push({ item: "반팔 티셔츠", reason: `최고 ${tMax}°C — 무난한 여름 날씨` });
-  } else if (tMax >= 18) {
-    items.push({ item: "얇은 긴팔 / 가디건", reason: `최고 ${tMax}°C — 선선한 날씨, 얇은 겉옷 수요` });
-  } else if (tMax >= 10) {
-    items.push({ item: "자켓 / 니트", reason: `최고 ${tMax}°C — 쌀쌀한 날씨, 보온 아이템 수요` });
+  // 패딩 계열은 최저기온 기준: 0°C 미만 → 패딩, 5°C 미만 → 경량 패딩
+  const padding = tMin < 0
+    ? { item: "패딩", reason: `최저 ${tMin}°C — 영하 날씨, 방한 아이템 수요 증가` }
+    : tMin < 5
+      ? { item: "경량 패딩", reason: `최저 ${tMin}°C — 아침/저녁 추운 날씨, 가벼운 방한 아이템 수요` }
+      : null;
+
+  if (padding && tMax < 18) {
+    items.push(padding);
   } else {
-    items.push({ item: "패딩 / 두꺼운 아우터", reason: `최고 ${tMax}°C — 추운 날씨, 방한 아이템 수요 증가` });
+    if (tMax >= 30) {
+      items.push({ item: "반팔 티셔츠 / 린넨 셔츠", reason: `최고 ${tMax}°C — 무더운 날씨, 통기성 좋은 여름 상의 수요 증가 예상` });
+      items.push({ item: "반바지 / 숏 팬츠", reason: "더운 날씨로 시원한 하의 카테고리 인기 상승 전망" });
+    } else if (tMax >= 25) {
+      items.push({ item: "반팔 티셔츠", reason: `최고 ${tMax}°C — 무난한 여름 날씨` });
+    } else if (tMax >= 18) {
+      items.push({ item: "얇은 긴팔 / 가디건", reason: `최고 ${tMax}°C — 선선한 날씨, 얇은 겉옷 수요` });
+    } else {
+      items.push({ item: "자켓 / 니트", reason: `최고 ${tMax}°C — 쌀쌀한 날씨, 보온 아이템 수요` });
+    }
+    if (padding) items.push(padding); // 낮엔 따뜻해도 아침 최저가 낮으면 패딩도 함께 추천
   }
 
   if (precip >= 60) {
