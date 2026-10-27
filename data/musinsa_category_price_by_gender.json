@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T21:44:32.567373+00:00",
+  "updatedAt": "2026-10-27T00:02:13.170828+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 60974,
+        "avg": 60920,
         "min": 16800,
         "max": 159000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 7
       },
       "female": {
-        "avg": 56129,
+        "avg": 56022,
         "min": 16800,
         "max": 94000,
         "count": 30
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 76023,
+        "avg": 75910,
         "min": 14900,
         "max": 650000,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 18
       },
       "female": {
-        "avg": 74519,
+        "avg": 74285,
         "min": 21890,
         "max": 152150,
         "count": 29
@@ -1689,8 +1689,8 @@
           "name": "울 부클 헨리넥 풀오버 브라운",
           "price": 68000,
           "originalPrice": 68000,
-          "discountRate": 5,
-          "finalPrice": 64600,
+          "discountRate": 10,
+          "finalPrice": 61200,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/prd_img/20260922/7393067/detail_7393067_17901271098748_500.jpg",
@@ -1839,8 +1839,8 @@
           "name": "울 부클 헨리넥 풀오버 멜란지 차콜",
           "price": 68000,
           "originalPrice": 68000,
-          "discountRate": 5,
-          "finalPrice": 64600,
+          "discountRate": 10,
+          "finalPrice": 61200,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/prd_img/20260922/7393066/detail_7393066_17901269310967_500.jpg",
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-114939",
+          "id": "ms-114330",
           "brand": "",
           "name": "",
           "price": null,
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 45769,
+        "avg": 45918,
         "min": 10900,
         "max": 88000,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 9
       },
       "female": {
-        "avg": 48871,
+        "avg": 49070,
         "min": 18800,
         "max": 88000,
         "count": 45
