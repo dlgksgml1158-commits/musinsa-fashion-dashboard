@@ -605,7 +605,27 @@ function renderDayDetail(idx) {
 function renderWeather(w) {
   const el = document.getElementById("weather-card");
   if (!w) { el.innerHTML = "<h2>서울 날씨</h2><div class='loading'>데이터 없음</div>"; return; }
-  const week = (w.days || []).map((d, i) => `
+
+  // weather.json can lag behind (the source occasionally blocks the update job), so never trust
+  // days[0] to be "today": drop days already in the past and derive 오늘/내일/요일 from the date.
+  const todayStr = new Date().toLocaleDateString("sv-SE", { timeZone: "Asia/Seoul" });
+  const tomorrowStr = new Date(Date.now() + 86400000).toLocaleDateString("sv-SE", { timeZone: "Asia/Seoul" });
+  const WEEKDAYS = ["일", "월", "화", "수", "목", "금", "토"];
+  const liveDays = (w.days || []).filter(d => d.date >= todayStr).map(d => ({
+    ...d,
+    dayLabel: d.date === todayStr ? "오늘" : d.date === tomorrowStr ? "내일" : WEEKDAYS[new Date(d.date + "T12:00:00Z").getUTCDay()],
+  }));
+  if (!liveDays.length) { el.innerHTML = "<h2>서울 날씨</h2><div class='loading'>날씨 데이터가 오래되어 표시할 수 없습니다</div>"; return; }
+  if (liveDays.length !== (w.days || []).length) {
+    const avgMax = Math.round(liveDays.reduce((s, d) => s + d.tMax, 0) / liveDays.length);
+    const avgMin = Math.round(liveDays.reduce((s, d) => s + d.tMin, 0) / liveDays.length);
+    const rainDays = liveDays.filter(d => d.precipProb >= 40).length;
+    w = { ...w, week: { ...w.week, summary: `${liveDays[0].date} ~ ${liveDays[liveDays.length - 1].date} 서울 주간 날씨: 평균 최고 ${avgMax}°C, 최저 ${avgMin}°C. 비 오는 날 ${rainDays}일 포함.` } };
+  }
+  w = { ...w, days: liveDays };
+  state.weather = w; // renderDayDetail() reads the day list from state
+
+  const week = w.days.map((d, i) => `
     <div class="week-day-cell ${i === 0 ? "is-selected" : ""}" data-day-idx="${i}">
       <div class="wd-label">${d.dayLabel}</div>
       <div class="wd-date">${d.date.slice(5).replace("-", ".")}</div>

@@ -68,7 +68,7 @@ def _parse_naver_date(md_text, today):
     return candidate.isoformat()
 
 
-def fetch_weather():
+def _fetch_weather_naver():
     html = fetch_text("https://search.naver.com/search.naver?query=%EC%84%9C%EC%9A%B8%EB%82%A0%EC%94%A8")
     soup = BeautifulSoup(html, "html.parser")
     today = datetime.now(timezone.utc).astimezone().date()
@@ -142,6 +142,76 @@ def fetch_weather():
         },
         "days": days,
     }
+
+
+# WMO weather codes (Open-Meteo) -> the short Korean labels the dashboard matches on
+# ("비"/"눈" substrings drive the umbrella / boots suggestions).
+def _wmo_label(code):
+    if code in (0, 1):
+        return "맑음"
+    if code == 2:
+        return "구름많음"
+    if code in (3, 45, 48):
+        return "흐림"
+    if code in (71, 73, 75, 77, 85, 86):
+        return "눈"
+    if code is None:
+        return "-"
+    return "비"  # drizzle / rain / showers / thunderstorm
+
+
+def _fetch_weather_open_meteo():
+    """Fallback when Naver blocks the runner (HTTP 403 from GitHub Actions IPs)."""
+    url = (
+        "https://api.open-meteo.com/v1/forecast?latitude=37.5665&longitude=126.978"
+        "&current=temperature_2m,apparent_temperature,relative_humidity_2m,wind_speed_10m,weather_code"
+        "&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weather_code"
+        "&timezone=Asia%2FSeoul&forecast_days=7&wind_speed_unit=ms"
+    )
+    data = fetch_json(url)
+    cur, daily = data["current"], data["daily"]
+    weekday = ["월", "화", "수", "목", "금", "토", "일"]
+    days = []
+    for i, date_str in enumerate(daily["time"]):
+        d = datetime.strptime(date_str, "%Y-%m-%d")
+        days.append({
+            "date": date_str,
+            "dayLabel": "오늘" if i == 0 else "내일" if i == 1 else weekday[d.weekday()],
+            "tMax": float(round(daily["temperature_2m_max"][i])),
+            "tMin": float(round(daily["temperature_2m_min"][i])),
+            "precipProb": int(daily["precipitation_probability_max"][i] or 0),
+            "weatherLabel": _wmo_label(daily["weather_code"][i]),
+        })
+    avg_max = round(sum(d["tMax"] for d in days) / len(days))
+    avg_min = round(sum(d["tMin"] for d in days) / len(days))
+    rain_days = sum(1 for d in days if d["precipProb"] >= 40)
+    return {
+        "updatedAt": datetime.now(timezone.utc).isoformat(),
+        "source": "Open-Meteo",
+        "city": "서울",
+        "current": {
+            "temp": cur["temperature_2m"],
+            "weatherLabel": _wmo_label(cur["weather_code"]),
+            "feelsLike": cur["apparent_temperature"],
+            "humidity": int(cur["relative_humidity_2m"]),
+            "windSpeed": cur["wind_speed_10m"],
+        },
+        "week": {
+            "avgMax": avg_max,
+            "avgMin": avg_min,
+            "rainDays": rain_days,
+            "summary": f"{days[0]['date']} ~ {days[-1]['date']} 서울 주간 날씨: 평균 최고 {avg_max}°C, 최저 {avg_min}°C. 비 오는 날 {rain_days}일 포함.",
+        },
+        "days": days,
+    }
+
+
+def fetch_weather():
+    try:
+        return _fetch_weather_naver()
+    except Exception as e:
+        print(f"naver weather failed ({e}); falling back to Open-Meteo")
+        return _fetch_weather_open_meteo()
 
 
 # Verified against musinsa.com's live category tree (category/Category query under
