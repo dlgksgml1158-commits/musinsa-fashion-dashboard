@@ -1,33 +1,33 @@
 {
-  "updatedAt": "2026-10-28T18:56:32.317567+00:00",
+  "updatedAt": "2026-10-28T22:54:43.093142+00:00",
   "source": "네이버 날씨",
   "city": "서울",
   "current": {
-    "temp": 4.4,
-    "weatherLabel": "맑음",
-    "feelsLike": 2.9,
-    "humidity": 61,
-    "windSpeed": 1.8
+    "temp": 5.4,
+    "weatherLabel": "흐림",
+    "feelsLike": 3.5,
+    "humidity": 63,
+    "windSpeed": 2.3
   },
   "week": {
     "avgMax": 14,
-    "avgMin": 5,
+    "avgMin": 6,
     "rainDays": 2,
-    "summary": "2026-10-29 ~ 2026-11-04 서울 주간 날씨: 평균 최고 14°C, 최저 5°C. 비 오는 날 2일 포함."
+    "summary": "2026-10-29 ~ 2026-11-04 서울 주간 날씨: 평균 최고 14°C, 최저 6°C. 비 오는 날 2일 포함."
   },
   "days": [
     {
       "date": "2026-10-29",
       "dayLabel": "오늘",
-      "tMax": 14.0,
+      "tMax": 13.0,
       "tMin": 5.0,
-      "precipProb": 70,
-      "weatherLabel": "흐리고 한때 비"
+      "precipProb": 60,
+      "weatherLabel": "흐리고 가끔 비"
     },
     {
       "date": "2026-10-30",
       "dayLabel": "내일",
-      "tMax": 19.0,
+      "tMax": 18.0,
       "tMin": 9.0,
       "precipProb": 10,
       "weatherLabel": "맑음"
@@ -35,7 +35,7 @@
     {
       "date": "2026-10-31",
       "dayLabel": "토",
-      "tMax": 14.0,
+      "tMax": 13.0,
       "tMin": 7.0,
       "precipProb": 20,
       "weatherLabel": "구름많음"
@@ -46,29 +46,29 @@
       "tMax": 12.0,
       "tMin": 5.0,
       "precipProb": 60,
-      "weatherLabel": "흐리고 한때 비"
+      "weatherLabel": "흐리고 가끔 비"
     },
     {
       "date": "2026-11-02",
       "dayLabel": "월",
-      "tMax": 13.0,
-      "tMin": 5.0,
+      "tMax": 14.0,
+      "tMin": 6.0,
       "precipProb": 10,
       "weatherLabel": "맑음"
     },
     {
       "date": "2026-11-03",
       "dayLabel": "화",
-      "tMax": 12.0,
-      "tMin": 2.0,
+      "tMax": 13.0,
+      "tMin": 3.0,
       "precipProb": 10,
       "weatherLabel": "맑음"
     },
     {
       "date": "2026-11-04",
       "dayLabel": "수",
-      "tMax": 13.0,
-      "tMin": 3.0,
+      "tMax": 14.0,
+      "tMin": 4.0,
       "precipProb": 10,
       "weatherLabel": "맑음"
     }

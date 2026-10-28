@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T18:56:53.866580+00:00",
+  "updatedAt": "2026-10-28T22:55:00.626991+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 61000,
+        "avg": 61925,
         "min": 10900,
         "max": 170000,
         "count": 60
@@ -985,10 +985,10 @@
         "count": 13
       },
       "female": {
-        "avg": 65948,
-        "min": 16400,
+        "avg": 69045,
+        "min": 24640,
         "max": 170000,
-        "count": 17
+        "count": 16
       },
       "items": [
         {
@@ -1188,21 +1188,6 @@
         },
         {
           "rank": 14,
-          "id": "ms-3474434",
-          "brand": "아메스 월드와이드",
-          "name": "SURROUNDING STAR RAGLAN HOODIE GREY (AM2DFUM404A)",
-          "price": 82000,
-          "originalPrice": 82000,
-          "discountRate": 80,
-          "finalPrice": 16400,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230818/3474434/3474434_16932997195320_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3474434",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 15,
           "id": "ms-7529794",
           "brand": "페이더먼트",
           "name": "기획_500g 헤비웨이트 오버핏 후드 맨투맨 (블랙,그레이,아이,오트베이지,화이트그레이)",
@@ -1217,7 +1202,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-7319097",
           "brand": "살로몬",
           "name": "쿼터페이스 후디_LD0458900",
@@ -1232,7 +1217,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7459542",
           "brand": "마이딥블루메모리즈",
           "name": "(HD) MM SYMBOL LOGO HOODIE (LIGHT GREY)",
@@ -1247,7 +1232,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5480539",
           "brand": "커버낫",
           "name": "웜온 시그니처 심볼 플리스 후디 Dark Navy",
@@ -1262,7 +1247,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-7401697",
           "brand": "오피쉬",
           "name": "Lace Henley Hoodie, Beige",
@@ -1277,7 +1262,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-4813649",
           "brand": "디스이즈네버댓",
           "name": "POLARTEC® Alpha Direct 60 Hoodie Green",
@@ -1290,13 +1275,28 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250220/4813649/4813649_17400439707217_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4813649",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7294568",
+          "brand": "레터프롬문",
+          "name": "레터즈 뮤즈 브이넥 후드 ( 챠콜 )",
+          "price": 90000,
+          "originalPrice": 90000,
+          "discountRate": 19,
+          "finalPrice": 72900,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260910/7294568/7294568_17895359085671_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7294568",
+          "displayGenderText": "여성"
         }
       ]
     },
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 47500,
+        "avg": 47529,
         "min": 14990,
         "max": 149400,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 22
       },
       "female": {
-        "avg": 55517,
+        "avg": 55596,
         "min": 16800,
         "max": 149400,
         "count": 22
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-114939",
+          "id": "ms-114941",
           "brand": "",
           "name": "",
           "price": null,
