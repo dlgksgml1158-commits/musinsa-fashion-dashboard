@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T06:23:25.425683+00:00",
+  "updatedAt": "2026-10-28T13:16:14.255792+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -237,8 +237,8 @@
           "name": "베이직 반팔 티셔츠 026540 [20color]",
           "price": 11800,
           "originalPrice": 11800,
-          "discountRate": 15,
-          "finalPrice": 10000,
+          "discountRate": 19,
+          "finalPrice": 9500,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260318/6154891/6154891_17797802021533_500.jpg",
@@ -1192,6 +1192,21 @@
         },
         {
           "rank": 19,
+          "id": "ms-6970660",
+          "brand": "트릴리온",
+          "name": "[약기모] 에센셜 피그먼트 스냅 크롭 후디_5color",
+          "price": 58000,
+          "originalPrice": 58000,
+          "discountRate": 38,
+          "finalPrice": 35990,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6970660/6970660_17864360117218_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6970660",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
           "id": "ms-5422209",
           "brand": "에노시",
           "name": "ENOSI 36 Logo Patch Hoodie[5Color]",
@@ -1203,21 +1218,6 @@
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250909/5422209/5422209_17573504725806_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5422209",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-5438121",
-          "brand": "디스이즈네버댓",
-          "name": "T-Logo Hoodie Heather Grey",
-          "price": 109000,
-          "originalPrice": 109000,
-          "discountRate": 0,
-          "finalPrice": 109000,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250910/5438121/5438121_17682811390976_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5438121",
           "displayGenderText": "공용"
         }
       ]
@@ -1927,21 +1927,6 @@
         },
         {
           "rank": 7,
-          "id": "ms-4356794",
-          "brand": "무신사 스탠다드",
-          "name": "[시티 레저] 후디드 라이트 다운 재킷 [블랙]",
-          "price": 109900,
-          "originalPrice": 109900,
-          "discountRate": 10,
-          "finalPrice": 98890,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240822/4356794/4356794_17890558965193_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4356794",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 8,
           "id": "ms-5532467",
           "brand": "수아레",
           "name": "(컬러 추가) 라이트 시어쉘 패딩 점퍼 - 6 COLOR",
@@ -1956,7 +1941,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-1567317",
           "brand": "지프",
           "name": "2WAY 마운틴 1941 라이너 플리스 집업 (JR5TZU091BK)",
@@ -1971,7 +1956,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-5586886",
           "brand": "스탠다드에러",
           "name": "87-STAN276 에센셜 커브드 후드 경량 패딩 6COLOR",
@@ -1986,7 +1971,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-7069868",
           "brand": "리메인세컨드",
           "name": "후드 경량 패딩 점퍼 [2COLOR]",
@@ -2001,7 +1986,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-3390508",
           "brand": "스탠다드에러",
           "name": "87-STAN009  [리뉴얼] 스탠다드 블루종 스웨이드 자켓 블랙",
@@ -2016,7 +2001,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-7108774",
           "brand": "디미트리블랙",
           "name": "[10주년기획] © 모두의 Comfortemp® 미드웨이트 패딩_4 COLOR",
@@ -2031,7 +2016,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-7104788",
           "brand": "수아레 우먼",
           "name": "[컬러 추가] (우먼)라이트 시어쉘 패딩 점퍼 - 6 COLOR",
@@ -2046,7 +2031,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-5162177",
           "brand": "무신사 스탠다드 우먼",
           "name": "[리얼덕다운] [시티 레저] 우먼즈 후디드 라이트 다운 재킷 [블랙]",
@@ -2061,7 +2046,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6796676",
           "brand": "무신사 스탠다드 우먼",
           "name": "[리얼덕다운] [시티 레저] 우먼즈 시어 후디드 라이트 다운 재킷 [클라우디 블루]",
@@ -2076,7 +2061,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6979389",
           "brand": "마리끌레르",
           "name": "스웻 후드 배색 경량 패딩(MAGDPD09MBK)",
@@ -2091,7 +2076,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-7109260",
           "brand": "수아레",
           "name": "[젠플록스X수아레] 데일리 라운드 크롭 가디건 - 5 COLOR",
@@ -2106,7 +2091,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5369990",
           "brand": "엔티비씨",
           "name": "2Way 후드 경량 패딩 점퍼",
@@ -2121,7 +2106,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5148062",
           "brand": "무신사 스탠다드",
           "name": "[시티 레저] 후디드 라이트 다운 재킷 [스톤 화이트]",
@@ -2134,6 +2119,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250527/5148062/5148062_17890954956308_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5148062",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-1670498",
+          "brand": "지프",
+          "name": "2WAY 마운틴 1941 라이너 플리스 집업 (JR5TZU091IV)",
+          "price": 85000,
+          "originalPrice": 85000,
+          "discountRate": 53,
+          "finalPrice": 39990,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20201030/1670498/1670498_17615290574286_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/1670498",
+          "displayGenderText": "여성"
         }
       ]
     },
@@ -3027,8 +3027,8 @@
           "name": "VLAD 원턱 커브드 컷오프 스웻 팬츠_멜란지",
           "price": 37900,
           "originalPrice": 37900,
-          "discountRate": 0,
-          "finalPrice": 37900,
+          "discountRate": 11,
+          "finalPrice": 33900,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260115/5899292/5899292_17688835815724_500.jpg",
@@ -3212,8 +3212,8 @@
           "name": "트랙 엔젤 자수 백포켓 버뮤다 팬츠 그레이",
           "price": 45000,
           "originalPrice": 45000,
-          "discountRate": 10,
-          "finalPrice": 40500,
+          "discountRate": 37,
+          "finalPrice": 28350,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260409/6280755/6280755_17766733337017_500.jpg",
