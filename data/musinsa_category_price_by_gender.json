@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T21:01:21.829948+00:00",
+  "updatedAt": "2026-10-28T00:35:27.985327+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,22 +650,22 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 58128,
+        "avg": 58325,
         "min": 14900,
         "max": 169100,
         "count": 60
       },
       "male": {
-        "avg": 59670,
+        "avg": 60645,
         "min": 27500,
         "max": 117970,
-        "count": 20
+        "count": 18
       },
       "female": {
-        "avg": 61956,
+        "avg": 61486,
         "min": 17000,
         "max": 169100,
-        "count": 20
+        "count": 22
       },
       "items": [
         {
@@ -700,21 +700,6 @@
         },
         {
           "rank": 3,
-          "id": "ms-7460460",
-          "brand": "더블유브이프로젝트",
-          "name": "모스윈 카라 맨투맨 네이비 HSMT7880",
-          "price": 53000,
-          "originalPrice": 53000,
-          "discountRate": 30,
-          "finalPrice": 36900,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20261006/7460460/7460460_17912692654763_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7460460",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 4,
           "id": "ms-7510581",
           "brand": "에이카",
           "name": "[기모] EVERYDAY AECA CLOVER BRUSHED SWEAT SHIRTS (4color)",
@@ -729,7 +714,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "id": "ms-7506238",
           "brand": "나이스고스트클럽",
           "name": "FLEECE HALF SNAP PULLOVER_PURPLE(NG2GFUB960A)",
@@ -744,7 +729,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "id": "ms-7431345",
           "brand": "유라고",
           "name": "Fleece logo half zip-up",
@@ -759,7 +744,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-7129345",
           "brand": "르아르",
           "name": "플리스 스냅 하프넥 풀오버 [차콜]",
@@ -774,22 +759,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 8,
-          "id": "ms-7460448",
-          "brand": "더블유브이프로젝트",
-          "name": "[2PACK] 모스윈 카라 맨투맨 4종 HSMT7880",
-          "price": 106000,
-          "originalPrice": 106000,
-          "discountRate": 39,
-          "finalPrice": 64900,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20261006/7460448/7460448_17912692478853_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7460448",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 9,
+          "rank": 7,
           "id": "ms-7408254",
           "brand": "세인트제임스",
           "name": "봉봉 쁘띠 스웻셔츠 (PNK) ASJF2G3KR20-PNK",
@@ -804,7 +774,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 8,
           "id": "ms-7384793",
           "brand": "엄브로",
           "name": "알파플리스 맨투맨 블랙 UR423CFSN2",
@@ -819,7 +789,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 9,
           "id": "ms-7231087",
           "brand": "나이키",
           "name": "솔로 플리스 크루넥 스웻셔츠 M - 토탈 블랙:세일 / IX1937-001",
@@ -834,7 +804,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 10,
           "id": "ms-7212937",
           "brand": "세터",
           "name": "하프 집업 스웨트셔츠 블랙",
@@ -849,7 +819,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 11,
           "id": "ms-7420612",
           "brand": "에이카",
           "name": "AECA CROP FIT PIGMENT SWEATSHIRTS (3color)",
@@ -864,7 +834,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 12,
           "id": "ms-2698072",
           "brand": "프렌다",
           "name": "COMBINATION DENIM PATCH RAGLAN SWEATSHIRT NAVY",
@@ -879,7 +849,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 13,
           "id": "ms-7336070",
           "brand": "일리고",
           "name": "루프 레터링 맨투맨 멜란지",
@@ -894,7 +864,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 14,
           "id": "ms-5931712",
           "brand": "라이크더모스트",
           "name": "헨리넥 배색 오버핏 맨투맨_차콜",
@@ -909,7 +879,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 15,
           "id": "ms-7364335",
           "brand": "엄브로",
           "name": "HBL OG 코지 기모 이중지 맨투맨 블랙 UR321CFS94",
@@ -924,7 +894,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 16,
           "id": "ms-3067370",
           "brand": "프렌다",
           "name": "GENERATION PP COLLARED SWEATSHIRT HEATHER GRAY",
@@ -939,7 +909,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 17,
           "id": "ms-7399681",
           "brand": "루나키후",
           "name": "WXT110 하나고야 헨리넥 스웻셔츠 (NAVY)",
@@ -954,7 +924,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 18,
           "id": "ms-7408252",
           "brand": "세인트제임스",
           "name": "봉봉 쁘띠 스웻셔츠 (RED) ASJF2G3KR20-RED",
@@ -967,6 +937,36 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260928/7408252/7408252_17905799525356_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7408252",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 19,
+          "id": "ms-7102911",
+          "brand": "엄브로",
+          "name": "[엄브로 × 아이우에오] 알파플리스 스탠넥 하프집업 네이비 UR423CFSN1",
+          "price": 129000,
+          "originalPrice": 129000,
+          "discountRate": 9,
+          "finalPrice": 117970,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260819/7102911/7102911_17924721726024_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7102911",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4465988",
+          "brand": "더마일",
+          "name": "피그먼트 아웃사이더  오리진 맨투맨 스웨트 셔츠 [피그먼트 카키]",
+          "price": 57000,
+          "originalPrice": 57000,
+          "discountRate": 26,
+          "finalPrice": 41900,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240926/4465988/4465988_17297510084070_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4465988",
+          "displayGenderText": "남성"
         }
       ]
     },
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 47165,
+        "avg": 47157,
         "min": 18290,
         "max": 149400,
         "count": 60
@@ -1308,10 +1308,10 @@
         "count": 22
       },
       "female": {
-        "avg": 57175,
+        "avg": 55787,
         "min": 21000,
         "max": 149400,
-        "count": 21
+        "count": 22
       },
       "items": [
         {
@@ -2037,7 +2037,7 @@
         },
         {
           "rank": 6,
-          "id": "ms-114888",
+          "id": "ms-114931",
           "brand": "",
           "name": "",
           "price": null,
