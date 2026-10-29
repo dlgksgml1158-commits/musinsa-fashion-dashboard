@@ -298,7 +298,7 @@ def fetch_category_price_by_gender():
     return {"updatedAt": datetime.now(timezone.utc).isoformat(), "categories": categories}
 
 
-def fetch_musinsa_sales_ranking(code, sort_code="SALE_ONE_WEEK_COUNT", size=20):
+def fetch_musinsa_sales_ranking(code, sort_code="SALE_ONE_WEEK_COUNT", size=30):  # fetch extra: banner cards get dropped, then top 20 products kept
     # Found by watching the real sort dropdown on musinsa.com (판매수량순 → 1주일) fire this
     # exact request in the browser network log — plain HTTP, no session/auth needed.
     url = (
@@ -319,7 +319,7 @@ def fetch_category_sales_ranking():
             continue
         categories[code] = {
             "label": label,
-            "items": [_normalize_item(it, i + 1, code, label) for i, it in enumerate([x for x in items if x.get("goodsName")])],
+            "items": [_normalize_item(it, i + 1, code, label) for i, it in enumerate([x for x in items if x.get("goodsName")][:20])],
         }
         time.sleep(0.5)
     return {
