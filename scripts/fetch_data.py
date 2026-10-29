@@ -285,6 +285,7 @@ def fetch_category_price_by_gender():
         except Exception as e:
             print(f"failed musinsa category {code}: {e}")
             continue
+        items = [it for it in items if it.get("goodsName")]  # category lists mix in banner cards (no goodsName)
         normalized = [_normalize_item(it, i + 1, code, label) for i, it in enumerate(items)]
         categories[code] = {
             "label": label,
@@ -318,7 +319,7 @@ def fetch_category_sales_ranking():
             continue
         categories[code] = {
             "label": label,
-            "items": [_normalize_item(it, i + 1, code, label) for i, it in enumerate(items)],
+            "items": [_normalize_item(it, i + 1, code, label) for i, it in enumerate([x for x in items if x.get("goodsName")])],
         }
         time.sleep(0.5)
     return {

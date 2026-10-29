@@ -804,6 +804,8 @@ function renderRankTable() {
 }
 
 function renderProductTableHtml(rows) {
+  // drop banner/ad placeholders that slipped into old JSON (no name/url), then re-rank
+  rows = rows.filter(r => r.name && r.productUrl).map((r, i) => ({ ...r, rank: i + 1 }));
   return `
     <table class="rank-table">
       <thead><tr><th>순위</th><th>상품</th><th>가격</th><th>할인율</th></tr></thead>
@@ -813,7 +815,7 @@ function renderProductTableHtml(rows) {
             <td>${item.rank}</td>
             <td>
               <div style="display:flex; align-items:center; gap:8px;">
-                <img src="${item.imgUrl}" loading="lazy" alt="">
+                <img src="${item.imgUrl}" loading="lazy" referrerpolicy="no-referrer" alt="">
                 <div>
                   <a href="${item.productUrl}" target="_blank" rel="noopener" class="prod-name">${item.name}</a>
                   <div class="prod-brand">${item.brand}${item.change === "NEW" ? "<span class='new-badge'>NEW</span>" : ""}</div>
@@ -871,7 +873,7 @@ function renderProductCards(elId, items) {
   if (!items?.length) { el.innerHTML = "<div class='loading'>데이터 없음</div>"; return; }
   el.innerHTML = items.map(item => `
     <a class="product-card" href="${item.productUrl}" target="_blank" rel="noopener">
-      <img src="${item.imgUrl}" loading="lazy" alt="">
+      <img src="${item.imgUrl}" loading="lazy" referrerpolicy="no-referrer" alt="">
       <div class="pc-body">
         <div class="pc-brand">${item.brand}</div>
         <div class="pc-name">${item.name}</div>
