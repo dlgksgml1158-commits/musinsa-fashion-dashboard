@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T07:25:34.518600+00:00",
+  "updatedAt": "2026-10-29T07:56:34.069020+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1966,7 +1966,7 @@
           "finalPrice": 49900,
           "category": "002",
           "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20251014/5586886/5586886_17731933688310_500.jpg",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20251014/5586886/5586886_17932589358331_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5586886",
           "displayGenderText": "공용"
         },
@@ -2002,6 +2002,21 @@
         },
         {
           "rank": 12,
+          "id": "ms-3390508",
+          "brand": "스탠다드에러",
+          "name": "87-STAN009  [리뉴얼] 스탠다드 블루종 스웨이드 자켓 블랙",
+          "price": 89000,
+          "originalPrice": 89000,
+          "discountRate": 55,
+          "finalPrice": 39900,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20230630/3390508/3390508_17551524634252_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3390508",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 13,
           "id": "ms-7069868",
           "brand": "리메인세컨드",
           "name": "후드 경량 패딩 점퍼 [2COLOR]",
@@ -2016,7 +2031,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-6979389",
           "brand": "마리끌레르",
           "name": "스웻 후드 배색 경량 패딩(MAGDPD09MBK)",
@@ -2031,7 +2046,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-5369990",
           "brand": "엔티비씨",
           "name": "2Way 후드 경량 패딩 점퍼",
@@ -2046,7 +2061,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-6039369",
           "brand": "무신사 스탠다드 우먼",
           "name": "[시티 레저] 우먼즈 후디드 라이트 다운 재킷 [민트 그레이]",
@@ -2061,7 +2076,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-6796676",
           "brand": "무신사 스탠다드 우먼",
           "name": "[리얼덕다운] [시티 레저] 우먼즈 시어 후디드 라이트 다운 재킷 [클라우디 블루]",
@@ -2076,7 +2091,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-7109260",
           "brand": "수아레",
           "name": "[젠플록스X수아레] 데일리 라운드 크롭 가디건 - 5 COLOR",
@@ -2091,7 +2106,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-5148062",
           "brand": "무신사 스탠다드",
           "name": "[시티 레저] 후디드 라이트 다운 재킷 [스톤 화이트]",
@@ -2106,7 +2121,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-1670498",
           "brand": "지프",
           "name": "2WAY 마운틴 1941 라이너 플리스 집업 (JR5TZU091IV)",
@@ -2119,21 +2134,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20201030/1670498/1670498_17615290574286_500.jpg",
           "productUrl": "https://www.musinsa.com/products/1670498",
           "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-5311114",
-          "brand": "언탭트 스튜디오",
-          "name": "2WAY 비건 스웨이드 블루종 자켓 3Color",
-          "price": 81200,
-          "originalPrice": 81200,
-          "discountRate": 30,
-          "finalPrice": 56840,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250811/5311114/5311114_17890239121962_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5311114",
-          "displayGenderText": "공용"
         }
       ]
     },
@@ -3072,21 +3072,6 @@
         },
         {
           "rank": 2,
-          "id": "ms-1519475",
-          "brand": "레이지비",
-          "name": "컴팩트 2in1 러닝 쇼츠 남녀 스포츠 반바지 레깅스 (헬스 워터 운동) 팬츠 M 2컬러",
-          "price": 39900,
-          "originalPrice": 39900,
-          "discountRate": 31,
-          "finalPrice": 27460,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20200717/1519475/1519475_17730386715982_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/1519475",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 3,
           "id": "ms-6595799",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 폴라 플리스 밴딩 쇼츠 [그레이]",
@@ -3101,7 +3086,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 4,
+          "rank": 3,
           "id": "ms-7000662",
           "brand": "미쏘",
           "name": "[울] 숏 반바지_MIWTHGT24B",
@@ -3116,7 +3101,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "id": "ms-4655528",
           "brand": "러닝라이프",
           "name": "스포츠 반바지 쇼츠 프로 (2IN1) (4color)",
@@ -3131,7 +3116,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "id": "ms-5132747",
           "brand": "에트오소메",
           "name": "[유인 PICK] Leather Patch Cargo Short Pants (Black)",
@@ -3146,7 +3131,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-6280769",
           "brand": "루프",
           "name": "트랙 엔젤 자수 백포켓 버뮤다 팬츠 네이비",
@@ -3161,7 +3146,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-6068184",
           "brand": "난데",
           "name": "8부 원턱 버뮤다 스웨트 팬츠 3color",
@@ -3176,7 +3161,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-5504963",
           "brand": "무신사 스탠다드 우먼",
           "name": "[한소희 PICK] 우먼즈 마이크로 데님 쇼츠 [블랙]",
@@ -3191,7 +3176,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-6595800",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 폴라 플리스 밴딩 쇼츠 [블랙]",
@@ -3206,7 +3191,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-4855848",
           "brand": "난데",
           "name": "버뮤다 원턱 와이드 트레이닝 쇼츠 3color",
@@ -3221,7 +3206,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-6280755",
           "brand": "루프",
           "name": "트랙 엔젤 자수 백포켓 버뮤다 팬츠 그레이",
@@ -3236,7 +3221,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-4072866",
           "brand": "데꼬로소",
           "name": "워싱 코튼 밴딩 원턱 하프 팬츠 [아이보리]",
@@ -3251,7 +3236,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-7331670",
           "brand": "쿄이",
           "name": "TRIPLE ZIP FOIL SHORTS (BLACK)",
@@ -3266,7 +3251,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-4536956",
           "brand": "웬즈데이오아시스 포 우먼",
           "name": "포시즌 코듀로이 하프 밴딩 팬츠 4COLOR",
@@ -3281,7 +3266,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6704436",
           "brand": "무신사 스탠다드 우먼",
           "name": "[빅토리아 울] 우먼즈 미니멀 리브드 니트 쇼츠 [블랙]",
@@ -3296,7 +3281,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-3378572",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 원 턱 와이드 코듀로이 쇼츠 [카키 브라운]",
@@ -3311,7 +3296,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-6704435",
           "brand": "무신사 스탠다드 우먼",
           "name": "[한소희 PICK] [빅토리아 울] 우먼즈 미니멀 리브드 니트 쇼츠 [헤더 그레이]",
@@ -3326,7 +3311,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6108170",
           "brand": "스파오",
           "name": "[COOL] 원턱 버뮤다 쇼츠_SPMTG26C02",
@@ -3341,7 +3326,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7095642",
           "brand": "레더리",
           "name": "나폴레옹 벨티드 쇼츠 [BLACK]",
@@ -3354,6 +3339,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260818/7095642/7095642_17896076129990_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7095642",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-3106045",
+          "brand": "무신사 스탠다드",
+          "name": "더블 니트 원 턱 와이드 스웨트 쇼츠 [블랙]",
+          "price": 35900,
+          "originalPrice": 35900,
+          "discountRate": 0,
+          "finalPrice": 35900,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20230224/3106045/3106045_16831566365756_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3106045",
+          "displayGenderText": "남성"
         }
       ]
     }
