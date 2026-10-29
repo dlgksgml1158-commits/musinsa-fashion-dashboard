@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T14:43:51.131979+00:00",
+  "updatedAt": "2026-10-29T19:55:15.035043+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 61525,
+        "avg": 61601,
         "min": 16900,
         "max": 158000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 9
       },
       "female": {
-        "avg": 57876,
+        "avg": 58032,
         "min": 21000,
         "max": 96000,
         "count": 29
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 62613,
+        "avg": 62558,
         "min": 10900,
         "max": 170000,
         "count": 60
@@ -985,7 +985,7 @@
         "count": 14
       },
       "female": {
-        "avg": 71898,
+        "avg": 71691,
         "min": 24640,
         "max": 170000,
         "count": 16
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 49459,
+        "avg": 49573,
         "min": 18290,
         "max": 149400,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 22
       },
       "female": {
-        "avg": 58327,
+        "avg": 58638,
         "min": 21000,
         "max": 149400,
         "count": 22
@@ -1942,19 +1942,19 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 159750,
+        "avg": 159943,
         "min": 29900,
         "max": 536400,
         "count": 60
       },
       "male": {
-        "avg": 200952,
+        "avg": 201895,
         "min": 29900,
         "max": 499000,
         "count": 21
       },
       "female": {
-        "avg": 126136,
+        "avg": 125808,
         "min": 37500,
         "max": 229000,
         "count": 25
@@ -2072,8 +2072,8 @@
           "name": "SAINT WORK BLOUSON [BLACK]",
           "price": 198000,
           "originalPrice": 198000,
-          "discountRate": 20,
-          "finalPrice": 158400,
+          "discountRate": 10,
+          "finalPrice": 178200,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261006/7459003/7459003_17914234766303_500.jpg",
@@ -2265,19 +2265,19 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 65396,
+        "avg": 66120,
         "min": 14970,
         "max": 169200,
         "count": 60
       },
       "male": {
-        "avg": 58441,
+        "avg": 59098,
         "min": 14970,
         "max": 148200,
         "count": 30
       },
       "female": {
-        "avg": 76837,
+        "avg": 78130,
         "min": 18910,
         "max": 169200,
         "count": 22
@@ -2305,8 +2305,8 @@
           "name": "EXTRA WIDE DENIM PANTS [MISTIC BLUE]",
           "price": 98000,
           "originalPrice": 98000,
-          "discountRate": 30,
-          "finalPrice": 68600,
+          "discountRate": 20,
+          "finalPrice": 78400,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261006/7457146/7457146_17914230241749_500.jpg",
@@ -2425,8 +2425,8 @@
           "name": "펜타 사이드 핀턱 데님 팬츠 남녀공용 (2컬러)",
           "price": 83200,
           "originalPrice": 83200,
-          "discountRate": 45,
-          "finalPrice": 46130,
+          "discountRate": 50,
+          "finalPrice": 41420,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250418/5041723/5041723_17512661715851_500.jpg",
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 64762,
+        "avg": 64853,
         "min": 5900,
         "max": 228000,
         "count": 60
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 48516,
+        "avg": 48448,
         "min": 10900,
         "max": 90000,
         "count": 60
