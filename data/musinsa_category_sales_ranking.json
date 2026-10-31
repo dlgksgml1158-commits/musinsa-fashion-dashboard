@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T06:22:50.982464+00:00",
+  "updatedAt": "2026-10-31T12:51:17.741199+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -2062,21 +2062,6 @@
         },
         {
           "rank": 16,
-          "id": "ms-6796676",
-          "brand": "무신사 스탠다드 우먼",
-          "name": "[리얼덕다운] [시티 레저] 우먼즈 시어 후디드 라이트 다운 재킷 [클라우디 블루]",
-          "price": 139900,
-          "originalPrice": 139900,
-          "discountRate": 0,
-          "finalPrice": 139900,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260707/6796676/6796676_17870362670507_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6796676",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 17,
           "id": "ms-6917753",
           "brand": "무신사 스탠다드",
           "name": "[시티 레저] 플러피 플리스 집업 재킷 (6 colors)",
@@ -2091,7 +2076,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5438735",
           "brand": "트릴리온",
           "name": "라이트 후디 패딩 자켓_그레이",
@@ -2106,7 +2091,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5311114",
           "brand": "언탭트 스튜디오",
           "name": "2WAY 비건 스웨이드 블루종 자켓 3Color",
@@ -2121,7 +2106,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-1670498",
           "brand": "지프",
           "name": "2WAY 마운틴 1941 라이너 플리스 집업 (JR5TZU091IV)",
@@ -2134,6 +2119,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20201030/1670498/1670498_17615290574286_500.jpg",
           "productUrl": "https://www.musinsa.com/products/1670498",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-947087",
+          "brand": "무신사 스탠다드",
+          "name": "후디드 스웨트 집업 [블랙]",
+          "price": 45900,
+          "originalPrice": 45900,
+          "discountRate": 10,
+          "finalPrice": 41290,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20190201/947087/947087_17132486620617_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/947087",
+          "displayGenderText": "남성"
         }
       ]
     },
