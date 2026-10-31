@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T00:53:30.903235+00:00",
+  "updatedAt": "2026-10-31T06:22:42.989434+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 57952,
+        "avg": 58472,
         "min": 14900,
         "max": 148000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 16
       },
       "female": {
-        "avg": 54293,
+        "avg": 55269,
         "min": 21000,
         "max": 89000,
         "count": 32
@@ -382,8 +382,8 @@
           "name": "[앨리스 펑크X유라고] Stripe logo boxy t-shirt",
           "price": 74000,
           "originalPrice": 74000,
-          "discountRate": 24,
-          "finalPrice": 56240,
+          "discountRate": 5,
+          "finalPrice": 70300,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260921/7384730/7384730_17909083627247_500.jpg",
@@ -547,8 +547,8 @@
           "name": "HS Doodle Photo L/S(W)_Blue",
           "price": 73000,
           "originalPrice": 73000,
-          "discountRate": 15,
-          "finalPrice": 62050,
+          "discountRate": 0,
+          "finalPrice": 73000,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261002/7444189/7444189_17909100358869_500.jpg",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 54898,
+        "avg": 55501,
         "min": 16500,
         "max": 158000,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 18
       },
       "female": {
-        "avg": 59318,
+        "avg": 60362,
         "min": 17000,
         "max": 149000,
         "count": 20
@@ -810,8 +810,8 @@
           "name": "Fleece logo half zip-up",
           "price": 110000,
           "originalPrice": 110000,
-          "discountRate": 24,
-          "finalPrice": 83600,
+          "discountRate": 5,
+          "finalPrice": 104500,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260930/7431345/7431345_17917143135861_500.jpg",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 49216,
+        "avg": 49496,
         "min": 14700,
         "max": 149400,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 24
       },
       "female": {
-        "avg": 61351,
+        "avg": 62116,
         "min": 22000,
         "max": 149400,
         "count": 22
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 76814,
+        "avg": 78628,
         "min": 17900,
         "max": 650000,
         "count": 60
@@ -1631,10 +1631,10 @@
         "count": 19
       },
       "female": {
-        "avg": 67243,
+        "avg": 67531,
         "min": 19710,
         "max": 168990,
-        "count": 29
+        "count": 28
       },
       "items": [
         {
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 144397,
+        "avg": 144729,
         "min": 29900,
         "max": 536400,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 19
       },
       "female": {
-        "avg": 121218,
+        "avg": 121928,
         "min": 62300,
         "max": 229000,
         "count": 28
@@ -2012,8 +2012,8 @@
           "name": "N2B Padded Jumper / WHJPG4T27F",
           "price": 129000,
           "originalPrice": 129000,
-          "discountRate": 20,
-          "finalPrice": 103200,
+          "discountRate": 28,
+          "finalPrice": 92880,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261012/7487193/7487193_17917892409904_500.jpg",
@@ -2588,7 +2588,7 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 44607,
+        "avg": 45007,
         "min": 13690,
         "max": 134400,
         "count": 60
@@ -2600,7 +2600,7 @@
         "count": 33
       },
       "female": {
-        "avg": 49294,
+        "avg": 51141,
         "min": 18910,
         "max": 134400,
         "count": 13
