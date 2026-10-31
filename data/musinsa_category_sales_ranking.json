@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T17:24:12.659275+00:00",
+  "updatedAt": "2026-10-31T20:30:41.557132+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -647,21 +647,6 @@
         },
         {
           "rank": 3,
-          "id": "ms-5944821",
-          "brand": "커버낫",
-          "name": "C 로고 맨투맨 블랙",
-          "price": 79000,
-          "originalPrice": 79000,
-          "discountRate": 56,
-          "finalPrice": 35100,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260127/5944821/5944821_17784661495336_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5944821",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 4,
           "id": "ms-6710476",
           "brand": "무신사 스탠다드",
           "name": "[리뉴얼] 오버사이즈 스웨트셔츠 [블랙]",
@@ -673,6 +658,21 @@
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260622/6710476/6710476_17852887609904_500.jpg",
           "productUrl": "https://www.musinsa.com/products/6710476",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 4,
+          "id": "ms-5944821",
+          "brand": "커버낫",
+          "name": "C 로고 맨투맨 블랙",
+          "price": 79000,
+          "originalPrice": 79000,
+          "discountRate": 56,
+          "finalPrice": 35100,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260127/5944821/5944821_17784661495336_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5944821",
           "displayGenderText": "남성"
         },
         {
@@ -1192,6 +1192,21 @@
         },
         {
           "rank": 19,
+          "id": "ms-1642904",
+          "brand": "무신사 스탠다드",
+          "name": "헤비웨이트 오버사이즈 후디드 스웨트셔츠 [미디엄 그레이]",
+          "price": 55900,
+          "originalPrice": 55900,
+          "discountRate": 32,
+          "finalPrice": 37990,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20201012/1642904/1642904_17503170317321_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/1642904",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
           "id": "ms-5438121",
           "brand": "디스이즈네버댓",
           "name": "T-Logo Hoodie Heather Grey",
@@ -1203,21 +1218,6 @@
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250910/5438121/5438121_17682811390976_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5438121",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-7074155",
-          "brand": "트릴리온",
-          "name": "바라클라바 와플 풀오버 후디_3color",
-          "price": 50000,
-          "originalPrice": 50000,
-          "discountRate": 26,
-          "finalPrice": 36990,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260813/7074155/7074155_17883157563871_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7074155",
           "displayGenderText": "공용"
         }
       ]
