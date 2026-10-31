@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T21:09:14.782928+00:00",
+  "updatedAt": "2026-10-31T00:53:30.903235+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 54852,
+        "avg": 54898,
         "min": 16500,
         "max": 158000,
         "count": 60
@@ -662,7 +662,7 @@
         "count": 18
       },
       "female": {
-        "avg": 59179,
+        "avg": 59318,
         "min": 17000,
         "max": 149000,
         "count": 20
@@ -2588,7 +2588,7 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 44624,
+        "avg": 44607,
         "min": 13690,
         "max": 134400,
         "count": 60
@@ -2600,8 +2600,8 @@
         "count": 33
       },
       "female": {
-        "avg": 49370,
-        "min": 19900,
+        "avg": 49294,
+        "min": 18910,
         "max": 134400,
         "count": 13
       },
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 62534,
+        "avg": 62498,
         "min": 5900,
         "max": 228000,
         "count": 60
@@ -2923,10 +2923,10 @@
         "count": 10
       },
       "female": {
-        "avg": 70079,
+        "avg": 70043,
         "min": 9410,
         "max": 178200,
-        "count": 29
+        "count": 30
       },
       "items": [
         {
@@ -2946,6 +2946,21 @@
         },
         {
           "rank": 2,
+          "id": "ms-7556100",
+          "brand": "아디다스",
+          "name": "에센셜 컨템퍼러리 플리스 배럴 팬츠 KF6248",
+          "price": 69000,
+          "originalPrice": 69000,
+          "discountRate": 0,
+          "finalPrice": 69000,
+          "category": "003004",
+          "categoryLabel": "트레이닝/조거",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20261019/7556100/7556100_17924019317751_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7556100",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 3,
           "id": "ms-6968074",
           "brand": "디키즈",
           "name": "폴라텍 플리스 더블니 팬츠 Black",
@@ -2960,7 +2975,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "id": "ms-3475861",
           "brand": "웬즈데이오아시스",
           "name": "피그먼트 카고 스웨트 팬츠(5col)",
@@ -2975,7 +2990,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "id": "ms-7323522",
           "brand": "디미토",
           "name": "[CHAMPION x DIMITO] SCRIPT TRACK BANDED PANTS (WIDE FIT LV.2) YALE BLUE",
@@ -2990,7 +3005,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "id": "ms-7394625",
           "brand": "베트랙트",
           "name": "무지 피그먼트 커브드 팬츠 [PIGMENT CHARCOAL]",
@@ -3005,7 +3020,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "id": "ms-7456302",
           "brand": "젝시믹스",
           "name": "웜 소프트 와이드 팬츠 XFL4PT1117",
@@ -3020,7 +3035,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "id": "ms-7417429",
           "brand": "비터셀즈",
           "name": "트위티 스웻팬츠-차콜",
@@ -3035,7 +3050,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "id": "ms-7461625",
           "brand": "유니버스 가먼트",
           "name": "[가훤 pick] 데일리 와이드 플리스 팬츠_NAVY",
@@ -3050,7 +3065,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-5200298",
           "brand": "탑텐",
           "name": "남성) 코튼 테리 스트레이트 스웨트팬츠_MSF5PT1911",
@@ -3065,7 +3080,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-7395377",
           "brand": "로라로라",
           "name": "FLEECE CURVED JOGGER PANTS DEEP PURPLE",
@@ -3080,7 +3095,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-7524678",
           "brand": "오에스아이",
           "name": "와이드 핀턱 벌룬 스웻팬츠 버건디",
@@ -3095,7 +3110,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-7289415",
           "brand": "엑스톤즈",
           "name": "[송필드 콜라보] XF022 엔드리스 벨로아 기모 스웨트 팬츠 (BLACK)",
@@ -3110,7 +3125,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-7456294",
           "brand": "젝시믹스",
           "name": "웜 소프트 아웃포켓 부츠컷 팬츠 XFL4PT1116",
@@ -3125,7 +3140,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-7438193",
           "brand": "오프메이드",
           "name": "[기모추가] 코듀로이 사이드핀턱 커브드 벌룬 밴딩 트레이닝팬츠",
@@ -3140,7 +3155,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-7481199",
           "brand": "페이더먼트",
           "name": "밍크 기모 부츠컷 스웨트 팬츠(블랙)",
@@ -3155,7 +3170,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-7450309",
           "brand": "아수라",
           "name": "WARM KNIT BOOTCUT PANTS (CHARCOAL)",
@@ -3170,7 +3185,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-7421533",
           "brand": "오헤시오",
           "name": "FLORAL SIGNATURE PATCH POCKET SWEATPANTS, CHARCOAL",
@@ -3185,7 +3200,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-7384470",
           "brand": "엄브로",
           "name": "쉐르파 플리스 조거 팬츠 브라운 UR423CFPO5",
@@ -3200,7 +3215,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-7417559",
           "brand": "비터셀즈",
           "name": "트위티 스웻팬츠-옐로우",
@@ -3213,21 +3228,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260929/7417559/7417559_17921208999723_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7417559",
           "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-7045783",
-          "brand": "스탠다드에러",
-          "name": "[사계절or기모] 87-STAN281 투턱 와이드 루즈핏 스웻팬츠 (4color)",
-          "price": 47000,
-          "originalPrice": 47000,
-          "discountRate": 30,
-          "finalPrice": 32900,
-          "category": "003004",
-          "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260811/7045783/7045783_17872791410033_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7045783",
-          "displayGenderText": "공용"
         }
       ]
     },

@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-30T21:08:38.722382+00:00",
+  "updatedAt": "2026-10-31T00:53:11.728283+00:00",
   "source": "Open-Meteo",
   "city": "서울",
   "current": {
-    "temp": 10.2,
-    "weatherLabel": "흐림",
-    "feelsLike": 9.3,
-    "humidity": 99,
-    "windSpeed": 1.86
+    "temp": 10.7,
+    "weatherLabel": "맑음",
+    "feelsLike": 8.6,
+    "humidity": 70,
+    "windSpeed": 1.84
   },
   "week": {
     "avgMax": 14,
@@ -21,7 +21,7 @@
       "dayLabel": "오늘",
       "tMax": 13.0,
       "tMin": 7.0,
-      "precipProb": 76,
+      "precipProb": 47,
       "weatherLabel": "흐림"
     },
     {
@@ -29,7 +29,7 @@
       "dayLabel": "내일",
       "tMax": 11.0,
       "tMin": 6.0,
-      "precipProb": 75,
+      "precipProb": 70,
       "weatherLabel": "비"
     },
     {
@@ -37,7 +37,7 @@
       "dayLabel": "월",
       "tMax": 13.0,
       "tMin": 6.0,
-      "precipProb": 59,
+      "precipProb": 41,
       "weatherLabel": "흐림"
     },
     {
@@ -45,31 +45,31 @@
       "dayLabel": "화",
       "tMax": 15.0,
       "tMin": 3.0,
-      "precipProb": 4,
+      "precipProb": 6,
       "weatherLabel": "비"
     },
     {
       "date": "2026-11-04",
       "dayLabel": "수",
-      "tMax": 16.0,
+      "tMax": 17.0,
       "tMin": 6.0,
-      "precipProb": 0,
+      "precipProb": 2,
       "weatherLabel": "흐림"
     },
     {
       "date": "2026-11-05",
       "dayLabel": "목",
-      "tMax": 18.0,
-      "tMin": 10.0,
-      "precipProb": 24,
+      "tMax": 19.0,
+      "tMin": 9.0,
+      "precipProb": 31,
       "weatherLabel": "비"
     },
     {
       "date": "2026-11-06",
       "dayLabel": "금",
-      "tMax": 13.0,
+      "tMax": 12.0,
       "tMin": 0.0,
-      "precipProb": 2,
+      "precipProb": 14,
       "weatherLabel": "비"
     }
   ]
