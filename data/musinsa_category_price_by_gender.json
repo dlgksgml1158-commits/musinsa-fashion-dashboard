@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T20:41:51.922790+00:00",
+  "updatedAt": "2026-11-01T23:58:51.964395+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 54022,
+        "avg": 54162,
         "min": 16500,
         "max": 149000,
         "count": 60
@@ -780,8 +780,8 @@
           "name": "플리스 스냅 하프넥 풀오버 [그레이]",
           "price": 58000,
           "originalPrice": 58000,
-          "discountRate": 31,
-          "finalPrice": 39900,
+          "discountRate": 28,
+          "finalPrice": 42000,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260821/7129342/7129342_17921286149017_500.jpg",
@@ -840,8 +840,8 @@
           "name": "플리스 스냅 하프넥 풀오버 [올리브]",
           "price": 58000,
           "originalPrice": 58000,
-          "discountRate": 31,
-          "finalPrice": 39900,
+          "discountRate": 28,
+          "finalPrice": 42000,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260821/7129348/7129348_17923766799636_500.jpg",
@@ -930,8 +930,8 @@
           "name": "플리스 스냅 하프넥 풀오버 [차콜]",
           "price": 58000,
           "originalPrice": 58000,
-          "discountRate": 31,
-          "finalPrice": 39900,
+          "discountRate": 28,
+          "finalPrice": 42000,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260821/7129345/7129345_17923767030618_500.jpg",
@@ -973,16 +973,16 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 64291,
+        "avg": 63124,
         "min": 10900,
         "max": 207990,
         "count": 60
       },
       "male": {
-        "avg": 67328,
+        "avg": 64162,
         "min": 10900,
         "max": 170000,
-        "count": 17
+        "count": 16
       },
       "female": {
         "avg": 66864,
@@ -1083,21 +1083,6 @@
         },
         {
           "rank": 7,
-          "id": "ms-7365011",
-          "brand": "엄브로",
-          "name": "[NCT WISH 픽] HBL 네오 브릿 파이핑 기모 후드 티셔츠 블랙 UR321CHD94",
-          "price": 129000,
-          "originalPrice": 129000,
-          "discountRate": 9,
-          "finalPrice": 117970,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260918/7365011/7365011_17924721406700_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7365011",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 8,
           "id": "ms-7510582",
           "brand": "에이카",
           "name": "[기모] EVERYDAY AECA CLOVER BRUSHED HOODIE (4color)",
@@ -1112,7 +1097,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-7601669",
           "brand": "오실롯",
           "name": "A20 투웨이 사선버튼 나그랑 하이넥 후드 티셔츠_멜란지",
@@ -1127,7 +1112,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-7405396",
           "brand": "스파오",
           "name": "[먼작귀] 후드 스웨트셔츠(Light Melange Gray)_SPMHG49U01",
@@ -1142,7 +1127,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-7405753",
           "brand": "디스이즈네버댓",
           "name": "GD Dancing Bears Hoodie Off Black",
@@ -1157,7 +1142,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-7319092",
           "brand": "살로몬",
           "name": "쿼터페이스 후디_LD0458800",
@@ -1172,7 +1157,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-656043",
           "brand": "비마이티",
           "name": "네오프렌 오버핏 후드티 챠콜",
@@ -1187,7 +1172,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-7390629",
           "brand": "레터프롬문",
           "name": "레터즈 뮤즈 브이넥 후드 ( 멜란지그레이 )",
@@ -1202,7 +1187,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-7434552",
           "brand": "엘리메노",
           "name": "EL 스트리트 아트워크 오버핏 기모 후드티셔츠 2Color",
@@ -1217,7 +1202,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-7440289",
           "brand": "퍼스텝",
           "name": "[2PACK] 시티 레이어 피그먼트 후드 5종 SMHD4789",
@@ -1232,7 +1217,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7319097",
           "brand": "살로몬",
           "name": "쿼터페이스 후디_LD0458900",
@@ -1247,7 +1232,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-7506222",
           "brand": "나이스고스트클럽",
           "name": "BABY GUARDIANS FLUFFY HOODIE_PINK(NG2GFUM402A)",
@@ -1262,7 +1247,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5480539",
           "brand": "커버낫",
           "name": "웜온 시그니처 심볼 플리스 후디 Dark Navy",
@@ -1277,7 +1262,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7172725",
           "brand": "스켈리웩",
           "name": "폴라 플리스 버튼 후디[블랙]",
@@ -1290,6 +1275,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260826/7172725/7172725_17921167210555_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7172725",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5318266",
+          "brand": "카인즈",
+          "name": "에디셔널 베이직 라벨 오버핏 후드_Gray",
+          "price": 85000,
+          "originalPrice": 85000,
+          "discountRate": 31,
+          "finalPrice": 59000,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5318266/5318266_17550603557230_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5318266",
+          "displayGenderText": "여성"
         }
       ]
     },
@@ -1942,22 +1942,22 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 142054,
-        "min": 29900,
+        "avg": 140142,
+        "min": 23320,
         "max": 536400,
         "count": 60
       },
       "male": {
-        "avg": 177517,
+        "avg": 179838,
         "min": 29900,
-        "max": 474050,
-        "count": 18
+        "max": 499000,
+        "count": 17
       },
       "female": {
-        "avg": 114848,
-        "min": 47680,
+        "avg": 111895,
+        "min": 23320,
         "max": 193590,
-        "count": 30
+        "count": 31
       },
       "items": [
         {
@@ -2102,8 +2102,8 @@
           "name": "밀리터리 퍼 칼라 덱 자켓 [브라운]",
           "price": 155000,
           "originalPrice": 155000,
-          "discountRate": 27,
-          "finalPrice": 113000,
+          "discountRate": 17,
+          "finalPrice": 129000,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260928/7405161/7405161_17926274958069_500.jpg",
@@ -2162,8 +2162,8 @@
           "name": "칼 구스다운 후드자켓 BLACK",
           "price": 499000,
           "originalPrice": 499000,
-          "discountRate": 5,
-          "finalPrice": 474050,
+          "discountRate": 0,
+          "finalPrice": 499000,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260930/7424700/7424700_17907346385154_500.jpg",
@@ -2588,13 +2588,13 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 43556,
+        "avg": 43700,
         "min": 14900,
         "max": 137000,
         "count": 60
       },
       "male": {
-        "avg": 42974,
+        "avg": 43238,
         "min": 18290,
         "max": 111600,
         "count": 33
