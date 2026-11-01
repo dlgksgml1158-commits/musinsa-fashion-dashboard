@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T02:41:16.683171+00:00",
+  "updatedAt": "2026-11-01T09:48:46.000826+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -222,8 +222,8 @@
           "name": "프리미엄 머슬핏 무지 티셔츠",
           "price": 34000,
           "originalPrice": 34000,
-          "discountRate": 28,
-          "finalPrice": 24470,
+          "discountRate": 35,
+          "finalPrice": 22030,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240215/3875000/3875000_17824424204845_500.jpg",
@@ -1972,6 +1972,21 @@
         },
         {
           "rank": 10,
+          "id": "ms-7104788",
+          "brand": "수아레 우먼",
+          "name": "[컬러 추가] (우먼)라이트 시어쉘 패딩 점퍼 - 6 COLOR",
+          "price": 165000,
+          "originalPrice": 165000,
+          "discountRate": 46,
+          "finalPrice": 89900,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260819/7104788/7104788_17875486705995_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7104788",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 11,
           "id": "ms-1567317",
           "brand": "지프",
           "name": "2WAY 마운틴 1941 라이너 플리스 집업 (JR5TZU091BK)",
@@ -1986,7 +2001,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-3390508",
           "brand": "스탠다드에러",
           "name": "[오정규 PICK] 87-STAN009  [리뉴얼] 스탠다드 블루종 스웨이드 자켓 블랙",
@@ -2001,7 +2016,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-5369990",
           "brand": "엔티비씨",
           "name": "2Way 후드 경량 패딩 점퍼",
@@ -2016,7 +2031,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-7069868",
           "brand": "리메인세컨드",
           "name": "후드 경량 패딩 점퍼 [2COLOR]",
@@ -2031,7 +2046,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-6917753",
           "brand": "무신사 스탠다드",
           "name": "[시티 레저] 플러피 플리스 집업 재킷 (6 colors)",
@@ -2046,7 +2061,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-7109260",
           "brand": "수아레",
           "name": "[젠플록스X수아레] 데일리 라운드 크롭 가디건 - 5 COLOR",
@@ -2061,7 +2076,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-5438735",
           "brand": "트릴리온",
           "name": "라이트 후디 패딩 자켓_그레이",
@@ -2076,7 +2091,22 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 18,
+          "id": "ms-5689568",
+          "brand": "라티젠",
+          "name": "L21 SNOW FUR HOOD ZIP-UP(KHAKI)",
+          "price": 213000,
+          "originalPrice": 213000,
+          "discountRate": 37,
+          "finalPrice": 134190,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20251105/5689568/5689568_17623262110636_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5689568",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 19,
           "id": "ms-947087",
           "brand": "무신사 스탠다드",
           "name": "후디드 스웨트 집업 [블랙]",
@@ -2091,7 +2121,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 20,
           "id": "ms-5311114",
           "brand": "언탭트 스튜디오",
           "name": "2WAY 비건 스웨이드 블루종 자켓 3Color",
@@ -2104,36 +2134,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250811/5311114/5311114_17890239121962_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5311114",
           "displayGenderText": "공용"
-        },
-        {
-          "rank": 19,
-          "id": "ms-7133665",
-          "brand": "무신사 스탠다드",
-          "name": "[with CTR] [시티 레저] 메시 플리스 후디드 긴소매 티셔츠 (7 colors)",
-          "price": 49900,
-          "originalPrice": 49900,
-          "discountRate": 40,
-          "finalPrice": 29990,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260821/7133665/7133665_17876399402272_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7133665",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-3551101",
-          "brand": "블랙모먼트",
-          "name": "비건 스웨이드 오버핏 미니멀 인시전 스트레이트 집업 자켓 [브라운]",
-          "price": 139000,
-          "originalPrice": 139000,
-          "discountRate": 71,
-          "finalPrice": 39900,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230912/3551101/3551101_16970790961650_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3551101",
-          "displayGenderText": "남성"
         }
       ]
     },
@@ -3107,8 +3107,8 @@
           "name": "컴팩트 2in1 러닝 쇼츠 남녀 스포츠 레깅스 M (3컬러)",
           "price": 39900,
           "originalPrice": 39900,
-          "discountRate": 30,
-          "finalPrice": 27900,
+          "discountRate": 31,
+          "finalPrice": 27460,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20200717/1519475/1519475_17932602209374_500.jpg",
