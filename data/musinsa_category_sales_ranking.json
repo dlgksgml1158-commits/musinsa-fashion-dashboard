@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T03:57:15.695184+00:00",
+  "updatedAt": "2026-11-02T11:50:33.741689+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -40,10 +40,10 @@
           "id": "ms-6087434",
           "brand": "8톤트럭케이스",
           "name": "[반팔티셔츠 체력안내문]남여공용 오버핏",
-          "price": 18900,
-          "originalPrice": 18900,
+          "price": 22800,
+          "originalPrice": 22800,
           "discountRate": 0,
-          "finalPrice": 18900,
+          "finalPrice": 22800,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260305/6087434/6087434_17726966764838_500.jpg",
@@ -637,8 +637,8 @@
           "name": "[전체 옵션 재입고] [2PACK/세미크롭핏] 스웨트 셔츠 6colors",
           "price": 109000,
           "originalPrice": 109000,
-          "discountRate": 54,
-          "finalPrice": 49900,
+          "discountRate": 36,
+          "finalPrice": 69900,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250805/5292913/5292913_17667561980040_500.jpg",
@@ -857,6 +857,21 @@
         },
         {
           "rank": 17,
+          "id": "ms-3475395",
+          "brand": "웬즈데이오아시스",
+          "name": "[기모버전추가]시그니처 오버핏 맨투맨 7COLOR",
+          "price": 55000,
+          "originalPrice": 55000,
+          "discountRate": 25,
+          "finalPrice": 41250,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20230818/3475395/3475395_17905819271368_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3475395",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 18,
           "id": "ms-6719692",
           "brand": "무신사 스탠다드",
           "name": "[리뉴얼] 기모 스웨트셔츠 [블랙]",
@@ -871,7 +886,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-5543992",
           "brand": "비바라비다",
           "name": "[기모선택] My Youth 헤비테리 맨투맨",
@@ -886,7 +901,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-4595633",
           "brand": "이스트코",
           "name": "[2-PACK] 컴포트 미드웨이트 스웨트셔츠",
@@ -899,21 +914,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20241107/4595633/4595633_17883340007559_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4595633",
           "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-1582356",
-          "brand": "소버먼트",
-          "name": "980G 피그먼트 맨투맨-차콜-",
-          "price": 81900,
-          "originalPrice": 81900,
-          "discountRate": 30,
-          "finalPrice": 57330,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20200903/1582356/1582356_1_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/1582356",
-          "displayGenderText": "남성"
         }
       ]
     },
@@ -1266,7 +1266,7 @@
           "finalPrice": 33890,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20180305/728000/728000_17286256542856_500.jpg",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20180305/728000/728000_17935946707578_500.jpg",
           "productUrl": "https://www.musinsa.com/products/728000",
           "displayGenderText": "남성"
         },
@@ -1296,7 +1296,7 @@
           "finalPrice": 33890,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20210401/1875849/1875849_3_500.jpg",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20210401/1875849/1875849_17935950459319_500.jpg",
           "productUrl": "https://www.musinsa.com/products/1875849",
           "displayGenderText": "남성"
         },
@@ -1639,7 +1639,7 @@
           "rank": 8,
           "id": "ms-6917755",
           "brand": "무신사 스탠다드",
-          "name": "[선착순 사은품] 에센셜 크루 넥 니트 (10 colors)",
+          "name": "에센셜 크루 넥 니트 (10 colors)",
           "price": 39900,
           "originalPrice": 39900,
           "discountRate": 20,
@@ -2092,6 +2092,21 @@
         },
         {
           "rank": 18,
+          "id": "ms-6039369",
+          "brand": "무신사 스탠다드 우먼",
+          "name": "[시티 레저] 우먼즈 후디드 라이트 다운 재킷 [민트 그레이]",
+          "price": 109900,
+          "originalPrice": 109900,
+          "discountRate": 0,
+          "finalPrice": 109900,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260223/6039369/6039369_17901553373456_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6039369",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 19,
           "id": "ms-7069868",
           "brand": "리메인세컨드",
           "name": "후드 경량 패딩 점퍼 [2COLOR]",
@@ -2106,7 +2121,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-5438735",
           "brand": "트릴리온",
           "name": "라이트 후디 패딩 자켓_그레이",
@@ -2119,21 +2134,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250910/5438735/5438735_17575615961166_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5438735",
           "displayGenderText": "공용"
-        },
-        {
-          "rank": 20,
-          "id": "ms-7109260",
-          "brand": "수아레",
-          "name": "[젠플록스X수아레] 데일리 라운드 크롭 가디건 - 5 COLOR",
-          "price": 59000,
-          "originalPrice": 59000,
-          "discountRate": 34,
-          "finalPrice": 39000,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260819/7109260/7109260_17881382407417_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7109260",
-          "displayGenderText": "남성"
         }
       ]
     },
@@ -3093,7 +3093,7 @@
           "price": 49900,
           "originalPrice": 49900,
           "discountRate": 20,
-          "finalPrice": 39910,
+          "finalPrice": 39920,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/7000662/7000662_17901275442560_500.jpg",
