@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T02:41:33.508045+00:00",
+  "updatedAt": "2026-11-03T10:09:03.104173+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -1857,8 +1857,8 @@
           "name": "[리사이클] 베이직 퍼플리스 집업_SPFZG4TC01",
           "price": 29900,
           "originalPrice": 29900,
-          "discountRate": 19,
-          "finalPrice": 24210,
+          "discountRate": 11,
+          "finalPrice": 26710,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260706/6788199/6788199_17918633849384_500.png",
@@ -2017,21 +2017,6 @@
         },
         {
           "rank": 13,
-          "id": "ms-5162178",
-          "brand": "무신사 스탠다드 우먼",
-          "name": "[한소희 PICK] [시티 레저] 우먼즈 후디드 라이트 다운 재킷 [스톤 화이트]",
-          "price": 109900,
-          "originalPrice": 109900,
-          "discountRate": 0,
-          "finalPrice": 109900,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250602/5162178/5162178_17888650510734_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5162178",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 14,
           "id": "ms-1567317",
           "brand": "지프",
           "name": "2WAY 마운틴 1941 라이너 플리스 집업 (JR5TZU091BK)",
@@ -2046,7 +2031,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-6917753",
           "brand": "무신사 스탠다드",
           "name": "[시티 레저] 플러피 플리스 집업 재킷 (6 colors)",
@@ -2061,7 +2046,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-3390508",
           "brand": "스탠다드에러",
           "name": "[오정규 PICK] 87-STAN009  [리뉴얼] 스탠다드 블루종 스웨이드 자켓 블랙",
@@ -2076,7 +2061,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7133665",
           "brand": "무신사 스탠다드",
           "name": "[with CTR] [시티 레저] 메시 플리스 후디드 긴소매 티셔츠 (7 colors)",
@@ -2091,7 +2076,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5438735",
           "brand": "트릴리온",
           "name": "라이트 후디 패딩 자켓_그레이",
@@ -2106,7 +2091,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5401055",
           "brand": "디미트리블랙",
           "name": "[리뉴얼] 라이트 쉘 경량 PCK 다운 자켓_블랙",
@@ -2121,7 +2106,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7069868",
           "brand": "리메인세컨드",
           "name": "후드 경량 패딩 점퍼 [2COLOR]",
@@ -2133,6 +2118,21 @@
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260813/7069868/7069868_17918536072545_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7069868",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5311114",
+          "brand": "언탭트 스튜디오",
+          "name": "2WAY 비건 스웨이드 블루종 자켓 3Color",
+          "price": 81200,
+          "originalPrice": 81200,
+          "discountRate": 51,
+          "finalPrice": 39900,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250811/5311114/5311114_17890239121962_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5311114",
           "displayGenderText": "공용"
         }
       ]
@@ -2192,8 +2192,8 @@
           "name": "모어 와이드 데님 팬츠 (WASHED RAW BLACK)",
           "price": 49000,
           "originalPrice": 49000,
-          "discountRate": 10,
-          "finalPrice": 44100,
+          "discountRate": 19,
+          "finalPrice": 39690,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20231027/3663072/3663072_16988871011427_500.jpg",
