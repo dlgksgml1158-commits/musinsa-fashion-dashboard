@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T02:46:29.932376+00:00",
+  "updatedAt": "2026-11-04T09:59:33.851097+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -447,21 +447,6 @@
         },
         {
           "rank": 10,
-          "id": "ms-5356728",
-          "brand": "노티카",
-          "name": "83플래그 폴라 버튼 풀오버(5colors) NFL2366",
-          "price": 79000,
-          "originalPrice": 79000,
-          "discountRate": 15,
-          "finalPrice": 67150,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250825/5356728/5356728_17906393385109_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5356728",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 11,
           "id": "ms-1629101",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 릴렉스드 크루 넥 긴소매 티셔츠 [화이트]",
@@ -476,7 +461,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-3417707",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 슬림 크루 넥 긴소매 티셔츠 [블랙]",
@@ -491,7 +476,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-4251981",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 슬림 크루 넥 긴소매 티셔츠 [멜란지 그레이]",
@@ -506,7 +491,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-3417708",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 슬림 크루 넥 긴소매 티셔츠 [크림]",
@@ -521,7 +506,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-1144989",
           "brand": "무신사 스탠다드",
           "name": "베이식 긴소매 티셔츠 [화이트]",
@@ -536,7 +521,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-1629100",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 릴렉스드 크루 넥 긴소매 티셔츠 [블랙]",
@@ -551,7 +536,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-5840392",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 리브드 슬림 헨리 넥 긴소매 티셔츠 [미디엄 그레이]",
@@ -566,7 +551,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-996234",
           "brand": "무신사 스탠다드",
           "name": "크루 넥 긴소매 티셔츠 [블랙]",
@@ -581,7 +566,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-404474",
           "brand": "브렌슨",
           "name": "베이직 긴팔티셔츠 4종 ( 5Color )",
@@ -596,7 +581,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5046318",
           "brand": "1993스튜디오",
           "name": "베이직 우먼 롱슬리브 (8colors)",
@@ -609,6 +594,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250421/5046318/5046318_17913396621492_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5046318",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4886714",
+          "brand": "드릭스",
+          "name": "특양면 오버핏 롱 슬리브 티셔츠_5color",
+          "price": 37000,
+          "originalPrice": 37000,
+          "discountRate": 30,
+          "finalPrice": 25900,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250312/4886714/4886714_17417603907744_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4886714",
+          "displayGenderText": "남성"
         }
       ]
     },
@@ -942,8 +942,8 @@
           "name": "와플 후드 바라클라바 긴팔티_SPFWG4TC10",
           "price": 39900,
           "originalPrice": 39900,
-          "discountRate": 0,
-          "finalPrice": 39900,
+          "discountRate": 10,
+          "finalPrice": 35910,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260706/6788300/6788300_17853929939133_500.png",
@@ -1461,7 +1461,7 @@
           "finalPrice": 15890,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20190315/983823/983823_16760176532347_500.jpg",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20190315/983823/983823_17937814578011_500.jpg",
           "productUrl": "https://www.musinsa.com/products/983823",
           "displayGenderText": "남성"
         },
@@ -1637,6 +1637,21 @@
         },
         {
           "rank": 8,
+          "id": "ms-5290694",
+          "brand": "드로우핏",
+          "name": "[서강준PICK] 소프트 울 크롭 라운드 니트 [7color]",
+          "price": 55000,
+          "originalPrice": 55000,
+          "discountRate": 10,
+          "finalPrice": 49500,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250804/5290694/5290694_17878801647145_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5290694",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 9,
           "id": "ms-6917755",
           "brand": "무신사 스탠다드",
           "name": "에센셜 크루 넥 니트 (10 colors)",
@@ -1651,7 +1666,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-2139143",
           "brand": "드로우핏",
           "name": "[서강준PICK] 터틀넥 니트 티셔츠 [9COLORS]",
@@ -1666,7 +1681,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-6987920",
           "brand": "수아레",
           "name": "데일리 크롭 카라 니트 - 5 COLOR",
@@ -1681,7 +1696,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-5717292",
           "brand": "워크온바디오프",
           "name": "레스티드 세미 오버핏 모크넥 니트 (4color)",
@@ -1696,7 +1711,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-2139132",
           "brand": "드로우핏",
           "name": "[서강준PICK] 모크넥 니트 티셔츠 [9COLORS]",
@@ -1711,7 +1726,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-7479827",
           "brand": "수아레",
           "name": "올데이 워셔블 모크넥 니트 - 4COLOR",
@@ -1726,7 +1741,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-6960952",
           "brand": "언탭트 스튜디오",
           "name": "오버핏 케이블 반집업 카라 니트 3Color",
@@ -1741,7 +1756,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-6959802",
           "brand": "언탭트 스튜디오",
           "name": "오버핏 에센셜 헨리넥 라운드 니트 4Color",
@@ -1756,7 +1771,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-4657481",
           "brand": "무드인사이드",
           "name": "프리미엄 시엘 라운드 니트_12Color",
@@ -1771,7 +1786,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-7455031",
           "brand": "데이",
           "name": "크롭 에어울 라운드 니트_6 COLOR",
@@ -1786,7 +1801,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-7282189",
           "brand": "디미트리블랙",
           "name": "[DIMITRI×삭형] © 모두의 SUPIMA® 코튼 니트_(헨리넥) 3COLOR",
@@ -1801,7 +1816,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-7220362",
           "brand": "알리스",
           "name": "데님 레이어드 크롭 니트 풀오버 [블랙]",
@@ -1814,21 +1829,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260901/7220362/7220362_17909135228175_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7220362",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-4285909",
-          "brand": "언탭트 스튜디오",
-          "name": "오버핏 케이블 라운드 니트 6COLOR",
-          "price": 49960,
-          "originalPrice": 49960,
-          "discountRate": 30,
-          "finalPrice": 34970,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240731/4285909/4285909_17247442451593_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4285909",
-          "displayGenderText": "공용"
         }
       ]
     },
@@ -1842,8 +1842,8 @@
           "name": "[씬라이트] 후드 재킷_SPJPG4TC24",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 10,
-          "finalPrice": 53910,
+          "discountRate": 19,
+          "finalPrice": 48510,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260714/6838640/6838640_17923731815532_500.jpg",
@@ -1858,7 +1858,7 @@
           "price": 29900,
           "originalPrice": 29900,
           "discountRate": 11,
-          "finalPrice": 26710,
+          "finalPrice": 26600,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260706/6788199/6788199_17918633849384_500.png",
@@ -1908,7 +1908,7 @@
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250925/5532467/5532467_17875486261088_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5532467",
-          "displayGenderText": "공용"
+          "displayGenderText": "남성"
         },
         {
           "rank": 6,
@@ -2479,7 +2479,7 @@
           "rank": 3,
           "id": "ms-750908",
           "brand": "후러브스아트",
-          "name": "[ 기모 or 논기모 ] 유니섹스 세미 와이드 밴딩 슬랙스 블랙",
+          "name": "[ 속기모 or 논기모 ] 유니섹스 세미 와이드 밴딩 슬랙스 블랙",
           "price": 54000,
           "originalPrice": 54000,
           "discountRate": 45,
@@ -3306,7 +3306,7 @@
           "finalPrice": 27460,
           "category": "003009",
           "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20200717/1519475/1519475_17932602209374_500.jpg",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20200717/1519475/1519475_17937716785154_500.jpg",
           "productUrl": "https://www.musinsa.com/products/1519475",
           "displayGenderText": "공용"
         },
