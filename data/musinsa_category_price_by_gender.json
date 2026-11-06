@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T17:35:15.813386+00:00",
+  "updatedAt": "2026-11-06T22:26:49.918829+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -2265,22 +2265,22 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 61830,
-        "min": 9900,
+        "avg": 62397,
+        "min": 13990,
         "max": 339000,
         "count": 60
       },
       "male": {
-        "avg": 43410,
-        "min": 9900,
+        "avg": 44867,
+        "min": 13990,
         "max": 102400,
-        "count": 24
+        "count": 23
       },
       "female": {
-        "avg": 75352,
+        "avg": 73697,
         "min": 29700,
         "max": 169200,
-        "count": 18
+        "count": 19
       },
       "items": [
         {
@@ -2300,21 +2300,6 @@
         },
         {
           "rank": 2,
-          "id": "ms-4370336",
-          "brand": "크림소다랩",
-          "name": "스트라이프 블루 데님 레일로드 워크 카고 팬츠",
-          "price": 79000,
-          "originalPrice": 79000,
-          "discountRate": 87,
-          "finalPrice": 9900,
-          "category": "003002",
-          "categoryLabel": "데님 팬츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240826/4370336/4370336_17575567148669_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4370336",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 3,
           "id": "ms-7640439",
           "brand": "아워데이즈",
           "name": "아르노 커브드 와이드 데님 팬츠 [RUSTY BLUE]",
@@ -2329,7 +2314,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 4,
+          "rank": 3,
           "id": "ms-7457146",
           "brand": "브랜디드",
           "name": "EXTRA WIDE DENIM PANTS [MISTIC BLUE]",
@@ -2344,7 +2329,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "id": "ms-7490752",
           "brand": "어널러코드",
           "name": "브루니 커브드 데님팬츠 (2color)",
@@ -2359,7 +2344,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "id": "ms-7599497",
           "brand": "디스이즈네버댓",
           "name": "60 Selvedge Denim Pant Ox Blue",
@@ -2374,7 +2359,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-7503830",
           "brand": "론론",
           "name": "ROSE POINT DENIM PANTS MEDIUM BLUE",
@@ -2389,7 +2374,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-7401212",
           "brand": "데이",
           "name": "스트레이트 핏 데님 팬츠_BLACK",
@@ -2404,7 +2389,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-7093407",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 속기모 커브드 데님 팬츠 [워시드 블랙]",
@@ -2419,7 +2404,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-7468295",
           "brand": "락케이크",
           "name": "Bonnie Low Rise Straight Jeans - Ash Blue",
@@ -2434,7 +2419,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-3467190",
           "brand": "에이지오디",
           "name": "와이드 데님 팬츠 [그레이]",
@@ -2449,7 +2434,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-7565477",
           "brand": "하츠코시",
           "name": "SLASH WASHED LOW DENIM",
@@ -2464,7 +2449,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-5333371",
           "brand": "아티스트웨어",
           "name": "하버핏 워시드 와이드 데님팬츠",
@@ -2479,7 +2464,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-5956411",
           "brand": "놈브레",
           "name": "뒷밴딩 무지 워싱 와이드 데님 팬츠[라이트블루]",
@@ -2494,7 +2479,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-7489716",
           "brand": "카인다미",
           "name": "골반볼륨업 인디고 캣워싱 부츠컷 팬츠",
@@ -2509,7 +2494,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6507751",
           "brand": "세컨드솔트",
           "name": "벌룬 데미지 데님 팬츠 (빈티지블루)",
@@ -2524,7 +2509,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7473063",
           "brand": "애즈온",
           "name": "SUNFADE DENIM PANTS / INDIGO",
@@ -2539,7 +2524,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-3328930",
           "brand": "람",
           "name": "RC003 릴랙스 보이핏 데님 팬츠 (5color, 일반/기모ver.)",
@@ -2554,7 +2539,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-3460277",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 속기모 스트레이트 데님 팬츠 [미디엄 인디고]",
@@ -2569,7 +2554,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5874297",
           "brand": "아워데이즈",
           "name": "아르노 커브드 와이드 데님 팬츠 [LIGHT BLUE]",
@@ -2581,6 +2566,21 @@
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260107/5874297/5874297_17715710292325_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5874297",
+          "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-5941781",
+          "brand": "트릴리온",
+          "name": "스트레이트 워싱 데님 팬츠_5color",
+          "price": 49800,
+          "originalPrice": 49800,
+          "discountRate": 70,
+          "finalPrice": 14970,
+          "category": "003002",
+          "categoryLabel": "데님 팬츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260127/5941781/5941781_17695901084152_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5941781",
           "displayGenderText": "남성"
         }
       ]
