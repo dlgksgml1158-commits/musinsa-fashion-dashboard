@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T08:57:58.074118+00:00",
+  "updatedAt": "2026-11-07T15:18:39.509984+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,15 +650,15 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 47488,
+        "avg": 48021,
         "min": 11000,
-        "max": 152100,
+        "max": 159920,
         "count": 60
       },
       "male": {
-        "avg": 67378,
+        "avg": 69376,
         "min": 18810,
-        "max": 152100,
+        "max": 159920,
         "count": 16
       },
       "female": {
@@ -973,22 +973,22 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 57837,
+        "avg": 59267,
         "min": 9900,
         "max": 178000,
         "count": 60
       },
       "male": {
-        "avg": 50143,
-        "min": 25600,
+        "avg": 52031,
+        "min": 31600,
         "max": 119000,
-        "count": 14
+        "count": 13
       },
       "female": {
-        "avg": 57370,
+        "avg": 55946,
         "min": 14900,
         "max": 109000,
-        "count": 19
+        "count": 20
       },
       "items": [
         {
@@ -1068,21 +1068,6 @@
         },
         {
           "rank": 6,
-          "id": "ms-2096580",
-          "brand": "코드그라피",
-          "name": "CGP 아치 로고 후드티_그레이",
-          "price": 69000,
-          "originalPrice": 69000,
-          "discountRate": 70,
-          "finalPrice": 20700,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20210830/2096580/2096580_17580038434871_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/2096580",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 7,
           "id": "ms-7604806",
           "brand": "노이아고",
           "name": "NOI1949 플리스 러닝 워머 후드 (카키베이지)",
@@ -1097,7 +1082,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-7576054",
           "brand": "썸플레이스 맨",
           "name": "데일리 에센셜 하이넥 절개 라인 포인트 루즈핏 세미 크롭 긴팔 후드 티셔츠_2COLOR",
@@ -1112,7 +1097,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-7605927",
           "brand": "미쏘",
           "name": "버튼업 스트라이프 후드 티셔츠_MIWLWGV24A",
@@ -1127,7 +1112,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-7511759",
           "brand": "원헌드레드퍼센트",
           "name": "OHPxAIDAEVE 지구에온날 피그먼트 후드6",
@@ -1142,7 +1127,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-7425207",
           "brand": "나이키",
           "name": "스튜디오 플리스 미디엄 웨이트 오버사이즈 풀오버 후디 W - 라이트 브리티시 탠:세일 / IM8503-281",
@@ -1157,7 +1142,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-7601674",
           "brand": "오실롯",
           "name": "A20 투웨이 사선버튼 나그랑 하이넥 후드 티셔츠_블랙",
@@ -1172,7 +1157,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-3802853",
           "brand": "트래블",
           "name": "워크샵 라인 래글런 나일론 믹스 후드티 네이비",
@@ -1187,7 +1172,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-7524454",
           "brand": "본투윈",
           "name": "BIG CHROME REFLECTIVE LINE FLEECE HOODIE [MELANGE GREY]",
@@ -1202,7 +1187,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-7384008",
           "brand": "엄브로",
           "name": "[NCT WISH 픽] 에센셜 기모 스몰로고 후드 티셔츠 네이비 UR423CHDO1",
@@ -1217,7 +1202,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-7502335",
           "brand": "스파오",
           "name": "플리스 스트라이프 후드 긴팔티_SPLSG4TG01",
@@ -1232,7 +1217,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7475113",
           "brand": "길단",
           "name": "길단 X 빈티지컬렉션 MONTANA 후드티셔츠",
@@ -1247,7 +1232,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-7405391",
           "brand": "스파오",
           "name": "[먼작귀] 후드 스웨트셔츠(Cream)_SPMHG49U01",
@@ -1262,7 +1247,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-7511629",
           "brand": "원헌드레드퍼센트",
           "name": "OHPxGOODD4 굿디 빅캣 피그먼트 후드6",
@@ -1277,7 +1262,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7323475",
           "brand": "디미토",
           "name": "[CHAMPION x DIMITO] SCRIPT FLEECE HOODIE WARM GREY",
@@ -1290,6 +1275,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260914/7323475/7323475_17909201812475_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7323475",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4340058",
+          "brand": "탑텐",
+          "name": "공용) 롤링스톤즈 콜라보 그래픽 후디_MSE4TH3001",
+          "price": 59900,
+          "originalPrice": 59900,
+          "discountRate": 83,
+          "finalPrice": 9900,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240819/4340058/4340058_17909251144565_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4340058",
+          "displayGenderText": "공용"
         }
       ]
     },
