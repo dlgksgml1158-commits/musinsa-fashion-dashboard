@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T01:54:59.072669+00:00",
+  "updatedAt": "2026-11-08T08:06:21.059312+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 53636,
+        "avg": 53773,
         "min": 6990,
         "max": 159000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 9
       },
       "female": {
-        "avg": 54810,
+        "avg": 55015,
         "min": 7510,
         "max": 117300,
         "count": 40
@@ -352,8 +352,8 @@
           "name": "안녕자두야X탄산 윙크 꼬꼬 롱슬리브 (그레이/차콜)",
           "price": 84000,
           "originalPrice": 84000,
-          "discountRate": 34,
-          "finalPrice": 55860,
+          "discountRate": 24,
+          "finalPrice": 63840,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260921/7385506/7385506_17920460397057_500.jpg",
@@ -397,8 +397,8 @@
           "name": "안녕자두야X탄산 마운틴 자두 레이어드 롱슬리브 (네이비)",
           "price": 89000,
           "originalPrice": 89000,
-          "discountRate": 33,
-          "finalPrice": 59190,
+          "discountRate": 24,
+          "finalPrice": 67640,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260921/7385457/7385457_17914465555058_500.jpeg",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 68801,
+        "avg": 68520,
         "min": 14990,
         "max": 182070,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 21
       },
       "female": {
-        "avg": 63934,
+        "avg": 63407,
         "min": 27000,
         "max": 103500,
         "count": 32
@@ -1644,8 +1644,8 @@
           "name": "헤어리 울 랩 버튼 니트 - Brown",
           "price": 79000,
           "originalPrice": 79000,
-          "discountRate": 24,
-          "finalPrice": 60040,
+          "discountRate": 33,
+          "finalPrice": 52540,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261012/7493901/7493901_17920675279983_500.jpg",
@@ -1840,7 +1840,7 @@
           "price": 49900,
           "originalPrice": 49900,
           "discountRate": 23,
-          "finalPrice": 38650,
+          "finalPrice": 38610,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261023/7605926/7605926_17927430092139_500.jpg",
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 137437,
+        "avg": 137068,
         "min": 39900,
         "max": 323100,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 15
       },
       "female": {
-        "avg": 129691,
+        "avg": 128999,
         "min": 39900,
         "max": 272800,
         "count": 32
@@ -2911,13 +2911,13 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 52749,
+        "avg": 52693,
         "min": 5900,
         "max": 142560,
         "count": 60
       },
       "male": {
-        "avg": 40223,
+        "avg": 40039,
         "min": 9900,
         "max": 119000,
         "count": 18
@@ -3086,8 +3086,8 @@
           "name": "기모 코듀로이 사이드핀턱 커브드 벌룬 밴딩 트레이닝팬츠",
           "price": 33200,
           "originalPrice": 33200,
-          "discountRate": 30,
-          "finalPrice": 23240,
+          "discountRate": 40,
+          "finalPrice": 19920,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261023/7595989/7595989_17926815897048_500.jpg",
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 47998,
+        "avg": 47970,
         "min": 18880,
         "max": 89000,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 2
       },
       "female": {
-        "avg": 48146,
+        "avg": 48115,
         "min": 18880,
         "max": 87300,
         "count": 54
