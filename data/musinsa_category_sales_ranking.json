@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T20:54:00.829675+00:00",
+  "updatedAt": "2026-11-10T03:00:12.394005+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -742,8 +742,8 @@
           "name": "Button Fleece Half Zip-up / WHMAG4V22U",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 0,
-          "finalPrice": 59900,
+          "discountRate": 34,
+          "finalPrice": 39830,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260129/5952288/5952288_17931677388862_500.jpg",
@@ -1192,21 +1192,6 @@
         },
         {
           "rank": 19,
-          "id": "ms-4275087",
-          "brand": "트래블",
-          "name": "미스트 워크샵 콤비네이션 래글런 후드티 블루",
-          "price": 79000,
-          "originalPrice": 79000,
-          "discountRate": 60,
-          "finalPrice": 31600,
-          "category": "001004",
-          "categoryLabel": "후드 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240725/4275087/4275087_17313050227934_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4275087",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 20,
           "id": "ms-3876972",
           "brand": "무아무아",
           "name": "[쭈리/기모] 스티치 콤비 후디 [6color]",
@@ -1219,6 +1204,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240216/3876972/3876972_17514208391640_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3876972",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4272965",
+          "brand": "리메인세컨드",
+          "name": "오버핏 시그니처 LMS 패치 후디 [네이비]",
+          "price": 74900,
+          "originalPrice": 74900,
+          "discountRate": 50,
+          "finalPrice": 37450,
+          "category": "001004",
+          "categoryLabel": "후드 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240725/4272965/4272965_17605950992041_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4272965",
+          "displayGenderText": "공용"
         }
       ]
     },
@@ -1962,8 +1962,8 @@
           "name": "[컬러 추가] (우먼)라이트 시어쉘 패딩 점퍼 - 6 COLOR",
           "price": 165000,
           "originalPrice": 165000,
-          "discountRate": 33,
-          "finalPrice": 109900,
+          "discountRate": 46,
+          "finalPrice": 89900,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260819/7104788/7104788_17875486705995_500.jpg",
@@ -2949,7 +2949,7 @@
           "rank": 14,
           "id": "ms-5367961",
           "brand": "디미트리블랙",
-          "name": "VLAD 원턱 커브드 트랙 스웻 팬츠_피그먼트 차콜",
+          "name": "[기모 선택] VLAD 원턱 커브드 트랙 스웻 팬츠_피그먼트 차콜",
           "price": 49200,
           "originalPrice": 49200,
           "discountRate": 31,
@@ -3207,36 +3207,6 @@
         },
         {
           "rank": 11,
-          "id": "ms-7313849",
-          "brand": "에트오소메",
-          "name": "Double Belt Low Rise Denim Shorts (Black)",
-          "price": 87000,
-          "originalPrice": 87000,
-          "discountRate": 10,
-          "finalPrice": 78300,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260911/7313849/7313849_17891163508842_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7313849",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 12,
-          "id": "ms-6068184",
-          "brand": "난데",
-          "name": "8부 원턱 버뮤다 스웨트 팬츠 3color",
-          "price": 45900,
-          "originalPrice": 45900,
-          "discountRate": 46,
-          "finalPrice": 24800,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260228/6068184/6068184_17722869289966_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6068184",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 13,
           "id": "ms-7565433",
           "brand": "하츠코시",
           "name": "DOUBLE ZIP CORDUROY SHORTS, BLACK",
@@ -3251,7 +3221,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 12,
           "id": "ms-5504963",
           "brand": "무신사 스탠다드 우먼",
           "name": "[한소희 PICK] 우먼즈 마이크로 데님 쇼츠 [블랙]",
@@ -3266,22 +3236,22 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
-          "id": "ms-5136477",
-          "brand": "레이지비",
-          "name": "[3PACK] 에어로터치 남여 멀티 스포츠 (러닝 스윔 짐) 반바지 쇼츠 M (3컬러)",
-          "price": 115000,
-          "originalPrice": 115000,
-          "discountRate": 48,
-          "finalPrice": 59400,
+          "rank": 13,
+          "id": "ms-6068184",
+          "brand": "난데",
+          "name": "8부 원턱 버뮤다 스웨트 팬츠 3color",
+          "price": 45900,
+          "originalPrice": 45900,
+          "discountRate": 46,
+          "finalPrice": 24800,
           "category": "003009",
           "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250521/5136477/5136477_17805479182098_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5136477",
-          "displayGenderText": "공용"
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260228/6068184/6068184_17722869289966_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6068184",
+          "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 14,
           "id": "ms-4536956",
           "brand": "웬즈데이오아시스 포 우먼",
           "name": "포시즌 코듀로이 하프 밴딩 팬츠 4COLOR",
@@ -3296,7 +3266,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 15,
           "id": "ms-1519475",
           "brand": "레이지비",
           "name": "컴팩트 2in1 러닝 쇼츠 남녀 스포츠 레깅스 M (3컬러)",
@@ -3311,7 +3281,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 16,
           "id": "ms-3758271",
           "brand": "무신사 스탠다드",
           "name": "코튼 밴딩 쇼츠 [크림]",
@@ -3326,7 +3296,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 17,
           "id": "ms-3758270",
           "brand": "무신사 스탠다드",
           "name": "코튼 밴딩 쇼츠 [블랙]",
@@ -3341,19 +3311,49 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
-          "id": "ms-5527838",
-          "brand": "탑텐 키즈",
-          "name": "공용 더 웜 본딩 조거 팬츠_MKF4PP3013",
-          "price": 59900,
-          "originalPrice": 59900,
-          "discountRate": 57,
-          "finalPrice": 25900,
+          "rank": 18,
+          "id": "ms-7313849",
+          "brand": "에트오소메",
+          "name": "Double Belt Low Rise Denim Shorts (Black)",
+          "price": 87000,
+          "originalPrice": 87000,
+          "discountRate": 10,
+          "finalPrice": 78300,
           "category": "003009",
           "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250925/5527838/5527838_17866126220045_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5527838",
-          "displayGenderText": "공용"
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260911/7313849/7313849_17891163508842_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7313849",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 19,
+          "id": "ms-7095642",
+          "brand": "레더리",
+          "name": "나폴레옹 벨티드 쇼츠 [BLACK]",
+          "price": 56000,
+          "originalPrice": 56000,
+          "discountRate": 37,
+          "finalPrice": 35280,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260818/7095642/7095642_17896076129990_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7095642",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4172811",
+          "brand": "나이키",
+          "name": "드라이 핏 폼 7인치 언라인드 버서타일 쇼츠 M - 블랙:화이트 / DV9858-010",
+          "price": 59000,
+          "originalPrice": 59000,
+          "discountRate": 19,
+          "finalPrice": 47790,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20240603/4172811/4172811_17188447540673_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4172811",
+          "displayGenderText": "남성"
         }
       ]
     }
