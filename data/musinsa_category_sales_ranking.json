@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T03:00:12.394005+00:00",
+  "updatedAt": "2026-11-10T10:47:09.539879+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -222,8 +222,8 @@
           "name": "[5천원 즉시 할인] 프리미엄 머슬핏 무지 티셔츠",
           "price": 34000,
           "originalPrice": 34000,
-          "discountRate": 28,
-          "finalPrice": 24480,
+          "discountRate": 44,
+          "finalPrice": 19040,
           "category": "001001",
           "categoryLabel": "반소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240215/3875000/3875000_17824424204845_500.jpg",
@@ -797,21 +797,6 @@
         },
         {
           "rank": 13,
-          "id": "ms-5944821",
-          "brand": "커버낫",
-          "name": "C 로고 맨투맨 블랙",
-          "price": 79000,
-          "originalPrice": 79000,
-          "discountRate": 51,
-          "finalPrice": 38710,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260127/5944821/5944821_17784661495336_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5944821",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 14,
           "id": "ms-4704341",
           "brand": "지프",
           "name": "[360g] M-Logo 반집업 맨투맨 (JR5TSU838MB)",
@@ -826,14 +811,14 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-7521873",
           "brand": "지오다노",
           "name": "테리 크루넥 풀오버 맨투맨 026958 [15color]",
           "price": 19800,
           "originalPrice": 19800,
-          "discountRate": 0,
-          "finalPrice": 19800,
+          "discountRate": 5,
+          "finalPrice": 18810,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261015/7521873/7521873_17920246738707_500.jpg",
@@ -841,7 +826,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-1336836",
           "brand": "브렌슨",
           "name": "(Renew Ver.) 루즈핏 스웨트 셔츠 ( 9Color ) ( 기모선택 )",
@@ -856,7 +841,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6719692",
           "brand": "무신사 스탠다드",
           "name": "기모 스웨트셔츠 [블랙]",
@@ -871,7 +856,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5702119",
           "brand": "아모우",
           "name": "R.A.F Henley Neck GREY",
@@ -886,7 +871,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-1582356",
           "brand": "소버먼트",
           "name": "980G 피그먼트 맨투맨-차콜-",
@@ -901,7 +886,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7074145",
           "brand": "트릴리온",
           "name": "커버 스티치 피그먼트 맨투맨_4color",
@@ -913,6 +898,21 @@
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260813/7074145/7074145_17870498620178_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7074145",
+          "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7271753",
+          "brand": "언탭트 스튜디오",
+          "name": "340G Urban Youth 에센셜 사이드 절개 오버핏 맨투맨 스웨트 티셔츠 9Color",
+          "price": 56900,
+          "originalPrice": 56900,
+          "discountRate": 30,
+          "finalPrice": 39830,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260908/7271753/7271753_17888361749149_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7271753",
           "displayGenderText": "공용"
         }
       ]
@@ -1857,8 +1857,8 @@
           "name": "[리사이클] 베이직 퍼플리스 집업_SPFZG4TC01",
           "price": 29900,
           "originalPrice": 29900,
-          "discountRate": 2,
-          "finalPrice": 29410,
+          "discountRate": 12,
+          "finalPrice": 26410,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260706/6788199/6788199_17918633849384_500.png",
@@ -1932,8 +1932,8 @@
           "name": "[씬라이트] 여성 후드 재킷_SPJPG4TG24",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 10,
-          "finalPrice": 53910,
+          "discountRate": 23,
+          "finalPrice": 45830,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260714/6838154/6838154_17884174549576_500.jpg",
@@ -2118,7 +2118,7 @@
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20210830/2098325/2098325_17920293143880_500.jpg",
           "productUrl": "https://www.musinsa.com/products/2098325",
-          "displayGenderText": "남성"
+          "displayGenderText": "공용"
         },
         {
           "rank": 20,
@@ -2297,8 +2297,8 @@
           "name": "루즈 스트레이트 데님 팬츠 [워시드 블랙]",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 5,
-          "finalPrice": 47390,
+          "discountRate": 10,
+          "finalPrice": 44890,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230201/3051700/3051700_16865346886429_500.jpg",
@@ -2737,8 +2737,8 @@
           "name": "테이퍼드 히든 밴딩 크롭 슬랙스 [블랙]",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 10,
-          "finalPrice": 44890,
+          "discountRate": 30,
+          "finalPrice": 34990,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20190910/1149328/1149328_17222375113367_500.jpg",

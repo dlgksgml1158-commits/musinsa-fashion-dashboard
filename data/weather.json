@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-10T02:59:41.578699+00:00",
+  "updatedAt": "2026-11-10T10:46:35.600560+00:00",
   "source": "네이버 날씨",
   "city": "서울",
   "current": {
-    "temp": 8.6,
+    "temp": 8.1,
     "weatherLabel": "맑음",
-    "feelsLike": 7.6,
-    "humidity": 35,
-    "windSpeed": 1.9
+    "feelsLike": 8.1,
+    "humidity": 64,
+    "windSpeed": 0.9
   },
   "week": {
     "avgMax": 15,
@@ -36,7 +36,7 @@
       "date": "2026-11-12",
       "dayLabel": "목",
       "tMax": 16.0,
-      "tMin": 5.0,
+      "tMin": 6.0,
       "precipProb": 0,
       "weatherLabel": "맑음"
     },
@@ -51,8 +51,8 @@
     {
       "date": "2026-11-14",
       "dayLabel": "토",
-      "tMax": 13.0,
-      "tMin": 9.0,
+      "tMax": 14.0,
+      "tMin": 10.0,
       "precipProb": 60,
       "weatherLabel": "흐리고 비"
     },
@@ -68,7 +68,7 @@
       "date": "2026-11-16",
       "dayLabel": "월",
       "tMax": 14.0,
-      "tMin": 7.0,
+      "tMin": 8.0,
       "precipProb": 20,
       "weatherLabel": "구름많음"
     }
