@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-11-11T03:12:09.358119+00:00",
-  "source": "네이버 날씨",
+  "updatedAt": "2026-11-11T11:13:56.391487+00:00",
+  "source": "Open-Meteo",
   "city": "서울",
   "current": {
-    "temp": 12.3,
-    "weatherLabel": "흐림",
-    "feelsLike": 12.3,
-    "humidity": 59,
+    "temp": 9.9,
+    "weatherLabel": "맑음",
+    "feelsLike": 8.6,
+    "humidity": 81,
     "windSpeed": 1.0
   },
   "week": {
     "avgMax": 15,
-    "avgMin": 8,
+    "avgMin": 7,
     "rainDays": 2,
-    "summary": "2026-11-11 ~ 2026-11-17 서울 주간 날씨: 평균 최고 15°C, 최저 8°C. 비 오는 날 2일 포함."
+    "summary": "2026-11-11 ~ 2026-11-17 서울 주간 날씨: 평균 최고 15°C, 최저 7°C. 비 오는 날 2일 포함."
   },
   "days": [
     {
       "date": "2026-11-11",
       "dayLabel": "오늘",
-      "tMax": 16.0,
-      "tMin": 5.0,
+      "tMax": 14.0,
+      "tMin": 4.0,
       "precipProb": 0,
       "weatherLabel": "맑음"
     },
@@ -29,48 +29,48 @@
       "dayLabel": "내일",
       "tMax": 16.0,
       "tMin": 6.0,
-      "precipProb": 20,
-      "weatherLabel": "구름많음"
+      "precipProb": 0,
+      "weatherLabel": "맑음"
     },
     {
       "date": "2026-11-13",
       "dayLabel": "금",
-      "tMax": 18.0,
+      "tMax": 17.0,
       "tMin": 8.0,
-      "precipProb": 20,
-      "weatherLabel": "구름많음"
+      "precipProb": 2,
+      "weatherLabel": "흐림"
     },
     {
       "date": "2026-11-14",
       "dayLabel": "토",
       "tMax": 13.0,
-      "tMin": 10.0,
-      "precipProb": 60,
-      "weatherLabel": "흐리고 비"
+      "tMin": 9.0,
+      "precipProb": 88,
+      "weatherLabel": "비"
     },
     {
       "date": "2026-11-15",
       "dayLabel": "일",
       "tMax": 17.0,
-      "tMin": 9.0,
-      "precipProb": 20,
-      "weatherLabel": "구름많음"
+      "tMin": 8.0,
+      "precipProb": 22,
+      "weatherLabel": "흐림"
     },
     {
       "date": "2026-11-16",
       "dayLabel": "월",
-      "tMax": 14.0,
+      "tMax": 15.0,
       "tMin": 8.0,
-      "precipProb": 20,
-      "weatherLabel": "구름많음"
+      "precipProb": 2,
+      "weatherLabel": "흐림"
     },
     {
       "date": "2026-11-17",
       "dayLabel": "화",
-      "tMax": 12.0,
-      "tMin": 8.0,
-      "precipProb": 60,
-      "weatherLabel": "흐리고 비"
+      "tMax": 14.0,
+      "tMin": 7.0,
+      "precipProb": 95,
+      "weatherLabel": "비"
     }
   ]
 }

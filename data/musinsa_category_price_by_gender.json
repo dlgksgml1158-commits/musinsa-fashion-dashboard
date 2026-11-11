@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T03:12:42.922311+00:00",
+  "updatedAt": "2026-11-11T11:14:16.631299+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,13 +327,13 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 47435,
+        "avg": 47331,
         "min": 7900,
         "max": 159000,
         "count": 60
       },
       "male": {
-        "avg": 40705,
+        "avg": 40084,
         "min": 7900,
         "max": 97200,
         "count": 10
@@ -427,8 +427,8 @@
           "name": "SOLARLITE 롱 슬리브 MELANGE GRAY",
           "price": 69000,
           "originalPrice": 69000,
-          "discountRate": 10,
-          "finalPrice": 62100,
+          "discountRate": 19,
+          "finalPrice": 55890,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261013/7504026/7504026_17918795583120_500.jpg",
@@ -650,13 +650,13 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 48484,
+        "avg": 47484,
         "min": 11000,
         "max": 250990,
         "count": 60
       },
       "male": {
-        "avg": 61396,
+        "avg": 57867,
         "min": 11000,
         "max": 159920,
         "count": 17
@@ -973,13 +973,13 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 53478,
+        "avg": 53648,
         "min": 13350,
         "max": 140600,
         "count": 60
       },
       "male": {
-        "avg": 53954,
+        "avg": 54592,
         "min": 23000,
         "max": 139000,
         "count": 16
@@ -1104,7 +1104,7 @@
           "price": 49900,
           "originalPrice": 49900,
           "discountRate": 20,
-          "finalPrice": 39920,
+          "finalPrice": 39910,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261023/7605927/7605927_17927430129382_500.jpg",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 40900,
+        "avg": 40904,
         "min": 7900,
         "max": 123250,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 30
       },
       "female": {
-        "avg": 44097,
+        "avg": 44106,
         "min": 21000,
         "max": 123250,
         "count": 23
@@ -1547,7 +1547,7 @@
           "price": 49900,
           "originalPrice": 49900,
           "discountRate": 20,
-          "finalPrice": 39700,
+          "finalPrice": 39920,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/7000847/7000847_17918719916941_500.jpg",
@@ -1619,22 +1619,22 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 58673,
+        "avg": 58329,
         "min": 14880,
         "max": 179000,
         "count": 60
       },
       "male": {
-        "avg": 57857,
+        "avg": 56704,
         "min": 14990,
         "max": 179000,
-        "count": 19
+        "count": 21
       },
       "female": {
-        "avg": 58087,
+        "avg": 58218,
         "min": 14880,
         "max": 103500,
-        "count": 33
+        "count": 31
       },
       "items": [
         {
@@ -1839,8 +1839,8 @@
           "name": "WOMAN 홀가먼트 크루넥 니트 [CHARCOAL] / GF3LKP528",
           "price": 42000,
           "originalPrice": 42000,
-          "discountRate": 25,
-          "finalPrice": 31500,
+          "discountRate": 36,
+          "finalPrice": 27000,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261016/7539635/7539635_17929816903222_500.jpg",
@@ -1855,7 +1855,7 @@
           "price": 98000,
           "originalPrice": 98000,
           "discountRate": 32,
-          "finalPrice": 67130,
+          "finalPrice": 67050,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261015/7521752/7521752_17920712236752_500.jpg",
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 147124,
+        "avg": 147172,
         "min": 30800,
         "max": 359100,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 14
       },
       "female": {
-        "avg": 137438,
+        "avg": 137517,
         "min": 39900,
         "max": 272800,
         "count": 37
@@ -2147,8 +2147,8 @@
           "name": "(woman) M-65 필드 레더 자켓_Black",
           "price": 179900,
           "originalPrice": 179900,
-          "discountRate": 39,
-          "finalPrice": 109900,
+          "discountRate": 44,
+          "finalPrice": 99900,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261014/7518476/7518476_17919676534915_500.jpg",
@@ -2265,22 +2265,22 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 61571,
+        "avg": 63099,
         "min": 9900,
         "max": 339000,
         "count": 60
       },
       "male": {
-        "avg": 44375,
+        "avg": 46323,
         "min": 9900,
         "max": 102400,
-        "count": 22
+        "count": 20
       },
       "female": {
-        "avg": 71501,
+        "avg": 70819,
         "min": 29700,
         "max": 169200,
-        "count": 19
+        "count": 20
       },
       "items": [
         {
@@ -2300,21 +2300,6 @@
         },
         {
           "rank": 2,
-          "id": "ms-4370336",
-          "brand": "크림소다랩",
-          "name": "스트라이프 블루 데님 레일로드 워크 카고 팬츠",
-          "price": 79000,
-          "originalPrice": 79000,
-          "discountRate": 87,
-          "finalPrice": 9900,
-          "category": "003002",
-          "categoryLabel": "데님 팬츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240826/4370336/4370336_17575567148669_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4370336",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 3,
           "id": "ms-7640439",
           "brand": "아워데이즈",
           "name": "아르노 커브드 와이드 데님 팬츠 [RUSTY BLUE]",
@@ -2329,7 +2314,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 4,
+          "rank": 3,
           "id": "ms-7479884",
           "brand": "하이스쿨디스코",
           "name": "베이직 부츠컷 데님 팬츠",
@@ -2344,7 +2329,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "id": "ms-7490752",
           "brand": "어널러코드",
           "name": "브루니 커브드 데님팬츠 (2color)",
@@ -2359,7 +2344,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "id": "ms-7599497",
           "brand": "디스이즈네버댓",
           "name": "60 Selvedge Denim Pant Ox Blue",
@@ -2374,7 +2359,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-7503830",
           "brand": "론론",
           "name": "ROSE POINT DENIM PANTS MEDIUM BLUE",
@@ -2389,7 +2374,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-7642406",
           "brand": "플레이스 스튜디오",
           "name": "빈티지 워시드 데미지 크로스 리벳 포인트 와이드 스트레이트 데님 팬츠_2COLOR",
@@ -2404,7 +2389,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-7528560",
           "brand": "어반드레스",
           "name": "힙 다트 커브드 팬츠_4COL",
@@ -2419,7 +2404,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-3467190",
           "brand": "에이지오디",
           "name": "와이드 데님 팬츠 [그레이]",
@@ -2434,7 +2419,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-7445473",
           "brand": "윔 바이 리돔",
           "name": "Vintage Washed Curved Denim",
@@ -2449,7 +2434,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-7565477",
           "brand": "하츠코시",
           "name": "SLASH WASHED LOW DENIM",
@@ -2464,7 +2449,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-5333371",
           "brand": "아티스트웨어",
           "name": "하버핏 워시드 와이드 데님팬츠",
@@ -2479,7 +2464,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-5956411",
           "brand": "놈브레",
           "name": "뒷밴딩 무지 워싱 와이드 데님 팬츠[라이트블루]",
@@ -2494,14 +2479,14 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-7489716",
           "brand": "카인다미",
           "name": "골반볼륨업 인디고 캣워싱 부츠컷 팬츠",
           "price": 89000,
           "originalPrice": 89000,
-          "discountRate": 25,
-          "finalPrice": 66750,
+          "discountRate": 0,
+          "finalPrice": 89000,
           "category": "003002",
           "categoryLabel": "데님 팬츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261012/7489716/7489716_17917787742167_500.jpg",
@@ -2509,7 +2494,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-6507751",
           "brand": "세컨드솔트",
           "name": "벌룬 데미지 데님 팬츠 (빈티지블루)",
@@ -2524,7 +2509,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7473063",
           "brand": "애즈온",
           "name": "SUNFADE DENIM PANTS / INDIGO",
@@ -2539,7 +2524,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-3328930",
           "brand": "람",
           "name": "RC003 릴랙스 보이핏 데님 팬츠 (5color, 일반/기모ver.)",
@@ -2554,7 +2539,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-3460277",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 속기모 스트레이트 데님 팬츠 [미디엄 인디고]",
@@ -2569,7 +2554,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5874297",
           "brand": "아워데이즈",
           "name": "아르노 커브드 와이드 데님 팬츠 [LIGHT BLUE]",
@@ -2582,6 +2567,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260107/5874297/5874297_17715710292325_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5874297",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7617889",
+          "brand": "하츠코시",
+          "name": "[BOOTSCUT] Y2K VINTAGE KASUMI DENIM",
+          "price": 112000,
+          "originalPrice": 112000,
+          "discountRate": 30,
+          "finalPrice": 78400,
+          "category": "003002",
+          "categoryLabel": "데님 팬츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20261026/7617889/7617889_17929927114976_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7617889",
+          "displayGenderText": "여성"
         }
       ]
     },
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 47278,
+        "avg": 47248,
         "min": 18880,
         "max": 89000,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 3
       },
       "female": {
-        "avg": 47468,
+        "avg": 47435,
         "min": 18880,
         "max": 87300,
         "count": 53
@@ -3289,8 +3289,8 @@
           "name": "코듀로이 쇼츠  블랙",
           "price": 39900,
           "originalPrice": 39900,
-          "discountRate": 43,
-          "finalPrice": 22600,
+          "discountRate": 48,
+          "finalPrice": 20920,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260930/7429166/7429166_17912499603284_500.jpg",
