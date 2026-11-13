@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T17:54:43.998725+00:00",
+  "updatedAt": "2026-11-13T22:56:10.739183+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 139576,
+        "avg": 139582,
         "min": 42900,
         "max": 323100,
         "count": 60
@@ -1954,9 +1954,9 @@
         "count": 13
       },
       "female": {
-        "avg": 133879,
+        "avg": 133890,
         "min": 51000,
-        "max": 256370,
+        "max": 256750,
         "count": 37
       },
       "items": [
@@ -2208,7 +2208,7 @@
           "price": 368000,
           "originalPrice": 368000,
           "discountRate": 30,
-          "finalPrice": 256370,
+          "finalPrice": 256750,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261021/7576655/7576655_17930774329391_500.jpg",
