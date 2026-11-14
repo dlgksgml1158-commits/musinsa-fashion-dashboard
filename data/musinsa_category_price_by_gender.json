@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T02:46:34.603344+00:00",
+  "updatedAt": "2026-11-14T09:32:34.666935+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 51273,
+        "avg": 51588,
         "min": 12000,
         "max": 299000,
         "count": 60
@@ -662,10 +662,10 @@
         "count": 15
       },
       "female": {
-        "avg": 43778,
+        "avg": 45120,
         "min": 13000,
         "max": 94050,
-        "count": 22
+        "count": 21
       },
       "items": [
         {
@@ -856,7 +856,7 @@
           "price": 79000,
           "originalPrice": 79000,
           "discountRate": 84,
-          "finalPrice": 12780,
+          "finalPrice": 12770,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240816/4335513/4335513_17260404158725_500.jpg",
@@ -930,8 +930,8 @@
           "name": "스코틀 오버핏 맨투맨ge0123",
           "price": 57800,
           "originalPrice": 57800,
-          "discountRate": 64,
-          "finalPrice": 21010,
+          "discountRate": 60,
+          "finalPrice": 23120,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261101/7675634/7675634_17936930242944_500.png",
@@ -2911,13 +2911,13 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 58401,
+        "avg": 58305,
         "min": 5900,
         "max": 166250,
         "count": 60
       },
       "male": {
-        "avg": 43716,
+        "avg": 43378,
         "min": 14500,
         "max": 119000,
         "count": 17
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 48708,
+        "avg": 48706,
         "min": 14460,
         "max": 96390,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 3
       },
       "female": {
-        "avg": 49388,
+        "avg": 49387,
         "min": 14460,
         "max": 96390,
         "count": 54
