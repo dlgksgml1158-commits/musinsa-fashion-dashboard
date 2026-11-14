@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T16:10:51.460116+00:00",
+  "updatedAt": "2026-11-14T20:48:42.398577+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1619,22 +1619,22 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 59968,
+        "avg": 59834,
         "min": 18890,
         "max": 179000,
         "count": 60
       },
       "male": {
-        "avg": 51436,
+        "avg": 50715,
         "min": 18890,
         "max": 150100,
-        "count": 15
+        "count": 16
       },
       "female": {
-        "avg": 58274,
+        "avg": 58554,
         "min": 19710,
         "max": 99750,
-        "count": 38
+        "count": 37
       },
       "items": [
         {
@@ -1654,21 +1654,6 @@
         },
         {
           "rank": 2,
-          "id": "ms-7521752",
-          "brand": "로브로브",
-          "name": "[채정안PICK] 무디 투웨이 니트_IVORY",
-          "price": 98000,
-          "originalPrice": 98000,
-          "discountRate": 47,
-          "finalPrice": 51600,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20261015/7521752/7521752_17920712236752_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7521752",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 3,
           "id": "ms-7495406",
           "brand": "페이지플린",
           "name": "울 블렌드 헤어리 라운드넥 니트_P6CKN046C",
@@ -1683,7 +1668,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 4,
+          "rank": 3,
           "id": "ms-7601218",
           "brand": "위시드",
           "name": "레이어드 배색 라운드 긴팔 니트 (WICDNT004)",
@@ -1698,7 +1683,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "id": "ms-7503888",
           "brand": "론론",
           "name": "CUT OFF BELL SLEEVE KNIT IVORY",
@@ -1713,7 +1698,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "id": "ms-7669826",
           "brand": "블루멀",
           "name": "데일리 오픈 헨리넥 니트 - 6COLOR",
@@ -1728,7 +1713,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-7477487",
           "brand": "썸웨어버터",
           "name": "Alden Wool Raglan Knit - Grey(Black)",
@@ -1743,7 +1728,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-7530175",
           "brand": "스파오",
           "name": "[소프트얀] 헤어리 레이스 브이넥 스웨터_SPKWG4TG04",
@@ -1758,7 +1743,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-7078147",
           "brand": "노드유",
           "name": "숄더 패널 레이어드 스티치 니트 버건디",
@@ -1773,7 +1758,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-7538712",
           "brand": "폴리그램",
           "name": "소프트 울 세미 크롭 브이넥 니트 - Burgundy",
@@ -1788,7 +1773,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-7690974",
           "brand": "피그먼트",
           "name": "후드나그랑꽈니트 (ZYSW260740)",
@@ -1803,7 +1788,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-7551551",
           "brand": "데이",
           "name": "트랙 에어울 니트 자켓_3 COLOR",
@@ -1818,7 +1803,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-7551757",
           "brand": "비버리힐스 폴로클럽",
           "name": "여성 어텀 케이블 포인트 라운드 니트 6Color TK105",
@@ -1833,7 +1818,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-7519638",
           "brand": "블루멀",
           "name": "데일리 헨리넥 니트 - 6COLOR",
@@ -1848,7 +1833,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-7605580",
           "brand": "밀리언코르",
           "name": "헤어리 브이넥 긴팔니트(베이지)",
@@ -1863,7 +1848,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-7503890",
           "brand": "론론",
           "name": "CUT OFF BELL SLEEVE KNIT OLIVE",
@@ -1878,7 +1863,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7401256",
           "brand": "유라고",
           "name": "Bear boxy V-neck knit",
@@ -1893,7 +1878,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-7479396",
           "brand": "와이케이",
           "name": "노르딕 패턴 반집업 니트 크림",
@@ -1908,7 +1893,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-7630727",
           "brand": "무드인사이드",
           "name": "시그니처 램스울 새들 라운드 니트_8Color",
@@ -1923,7 +1908,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7539635",
           "brand": "제너럴아이디어",
           "name": "WOMAN 홀가먼트 크루넥 니트 [CHARCOAL] / GF3LKP528",
@@ -1935,6 +1920,21 @@
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261016/7539635/7539635_17929816903222_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7539635",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7480209",
+          "brand": "메무아",
+          "name": "포그 헤어리 오버 울니트",
+          "price": 89000,
+          "originalPrice": 89000,
+          "discountRate": 0,
+          "finalPrice": 89000,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20261008/7480209/7480209_17914408747308_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7480209",
           "displayGenderText": "여성"
         }
       ]
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 49348,
+        "avg": 49347,
         "min": 14460,
         "max": 96390,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 3
       },
       "female": {
-        "avg": 49924,
+        "avg": 49923,
         "min": 14460,
         "max": 96390,
         "count": 53
