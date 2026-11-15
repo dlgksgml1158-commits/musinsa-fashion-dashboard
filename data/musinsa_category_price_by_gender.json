@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T06:53:29.279060+00:00",
+  "updatedAt": "2026-11-15T14:22:59.979551+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 47438,
+        "avg": 46834,
         "min": 7900,
         "max": 159000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 9
       },
       "female": {
-        "avg": 45060,
+        "avg": 44237,
         "min": 9900,
         "max": 116100,
         "count": 44
@@ -452,21 +452,6 @@
         },
         {
           "rank": 8,
-          "id": "ms-7718676",
-          "brand": "제로시",
-          "name": "ZRS 스트라이프 배색 나그랑 헨리넥 롱슬리브 (오트밀/카키)",
-          "price": 68000,
-          "originalPrice": 68000,
-          "discountRate": 30,
-          "finalPrice": 47600,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20261105/7718676/7718676_17938652677755_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7718676",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 9,
           "id": "ms-7185648",
           "brand": "애즈온",
           "name": "EASE POCKET LONG SLEEVE / KHAKI",
@@ -481,7 +466,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-7503814",
           "brand": "론론",
           "name": "MIX PATTERN RAGLAN LONG SLEEVE FLORAL GREY",
@@ -496,7 +481,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-7560664",
           "brand": "리",
           "name": "우먼 패턴 레이어드 롱슬리브 그레이",
@@ -511,7 +496,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-7516033",
           "brand": "로타입",
           "name": "Lace Double-layered Long Sleeve Top - Black",
@@ -526,7 +511,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-7577588",
           "brand": "플리즈노팔로우",
           "name": "Amelia Lace Halter Long Sleeve Top (Brown)",
@@ -541,7 +526,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-7504026",
           "brand": "247시리즈",
           "name": "SOLARLITE 롱 슬리브 MELANGE GRAY",
@@ -556,7 +541,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-7562121",
           "brand": "무센트",
           "name": "포즌 슬림 원 숄더 롱 슬리브 티",
@@ -571,7 +556,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-7543226",
           "brand": "쏘비",
           "name": "세미크롭 hoof 긴팔티 [그레이 멜란지]",
@@ -586,7 +571,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7646922",
           "brand": "베이직하우스",
           "name": "순면 30수 뉴베이직 라운드넥 긴팔티셔츠 (2color)",
@@ -601,7 +586,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-7505689",
           "brand": "유니온스튜디오",
           "name": "[26FW 신상] 레귤러 세미크롭 헨리넥 롱슬리브 ( 네이비 )",
@@ -616,7 +601,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-7564389",
           "brand": "렌세",
           "name": "Hairy Eyelet V-Neck Tee Charcoal",
@@ -631,7 +616,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7527852",
           "brand": "유우프",
           "name": "드리미 홀스 그래픽 티 - 옐로우 베이지",
@@ -644,13 +629,28 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261015/7527852/7527852_17942719690226_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7527852",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-4968826",
+          "brand": "51퍼센트",
+          "name": "Mesh henly neck longsleeve - Black",
+          "price": 142000,
+          "originalPrice": 142000,
+          "discountRate": 10,
+          "finalPrice": 127800,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20250331/4968826/4968826_17442618895966_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/4968826",
+          "displayGenderText": "남성"
         }
       ]
     },
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 51588,
+        "avg": 52064,
         "min": 12000,
         "max": 299000,
         "count": 60
@@ -662,10 +662,10 @@
         "count": 15
       },
       "female": {
-        "avg": 45120,
+        "avg": 45513,
         "min": 13000,
         "max": 94050,
-        "count": 21
+        "count": 22
       },
       "items": [
         {
