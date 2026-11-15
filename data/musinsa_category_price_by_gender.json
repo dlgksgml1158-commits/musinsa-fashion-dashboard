@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T19:51:44.955166+00:00",
+  "updatedAt": "2026-11-15T23:36:31.107789+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -1296,16 +1296,16 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 42190,
-        "min": 7900,
+        "avg": 43053,
+        "min": 12410,
         "max": 130500,
         "count": 60
       },
       "male": {
-        "avg": 37548,
-        "min": 7900,
+        "avg": 38960,
+        "min": 15890,
         "max": 69300,
-        "count": 22
+        "count": 21
       },
       "female": {
         "avg": 49220,
@@ -1496,21 +1496,6 @@
         },
         {
           "rank": 13,
-          "id": "ms-4805241",
-          "brand": "앤드어게인",
-          "name": "컴포트 페이퍼 셔츠 (블랙",
-          "price": 69600,
-          "originalPrice": 69600,
-          "discountRate": 89,
-          "finalPrice": 7900,
-          "category": "001002",
-          "categoryLabel": "셔츠/블라우스",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20250219/4805241/4805241_17575712092439_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4805241",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 14,
           "id": "ms-7430100",
           "brand": "드릭스",
           "name": "메탈 로고 데님 코듀로이 셔츠_3color",
@@ -1525,7 +1510,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-4695999",
           "brand": "무신사 스탠다드",
           "name": "릴렉스드 쓰리 핀 스트라이프 포플린 셔츠 [블루/화이트]",
@@ -1540,7 +1525,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-2154603",
           "brand": "더블유브이프로젝트",
           "name": "프레첼 코듀로이 셔츠 카키브라운 JJLS7525",
@@ -1555,7 +1540,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7347097",
           "brand": "에잇세컨즈",
           "name": "하이넥 카울 블라우스웨트 브라운",
@@ -1570,7 +1555,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-7306107",
           "brand": "로엠",
           "name": "[령은PICK] 리본 타이 블라우스 RMBLG4TS12",
@@ -1585,7 +1570,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-7420660",
           "brand": "트릴리온",
           "name": "원포켓 코듀로이 데님 셔츠_2color",
@@ -1600,7 +1585,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-5975600",
           "brand": "아틀리에 나인",
           "name": "N HALTER SLEEVELESS LAYERED BLOUSE (BL-4404)",
@@ -1613,6 +1598,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260203/5975600/5975600_17707726450101_500.jpg",
           "productUrl": "https://www.musinsa.com/products/5975600",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7072073",
+          "brand": "데이",
+          "name": "립 스웨이드 셔츠_2 COLOR",
+          "price": 61000,
+          "originalPrice": 61000,
+          "discountRate": 40,
+          "finalPrice": 36850,
+          "category": "001002",
+          "categoryLabel": "셔츠/블라우스",
+          "imgUrl": "https://image.msscdn.net/images/prd_img/20260813/7072073/detail_7072073_17872749767357_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7072073",
+          "displayGenderText": "남성"
         }
       ]
     },
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 49815,
+        "avg": 50023,
         "min": 14460,
         "max": 107100,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 3
       },
       "female": {
-        "avg": 50453,
+        "avg": 50688,
         "min": 14460,
         "max": 107100,
         "count": 53
@@ -3439,8 +3439,8 @@
           "name": "[울] 숏 반바지_MIWTHGT24B",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 25,
-          "finalPrice": 37420,
+          "discountRate": 0,
+          "finalPrice": 49900,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/7000662/7000662_17901275442560_500.jpg",
