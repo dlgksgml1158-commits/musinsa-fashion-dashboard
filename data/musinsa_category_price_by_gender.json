@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T11:57:59.682580+00:00",
+  "updatedAt": "2026-11-18T19:49:07.564668+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 45988,
+        "avg": 46432,
         "min": 7900,
         "max": 159000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 9
       },
       "female": {
-        "avg": 45164,
+        "avg": 45743,
         "min": 9900,
         "max": 116100,
         "count": 46
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 51588,
+        "avg": 51659,
         "min": 13360,
         "max": 139000,
         "count": 60
@@ -985,7 +985,7 @@
         "count": 18
       },
       "female": {
-        "avg": 50408,
+        "avg": 50573,
         "min": 13360,
         "max": 122550,
         "count": 26
@@ -1043,8 +1043,8 @@
           "name": "[박선민 pick] 언발란스 스트랩 로고 장식 베이직 소프트 후드 슬림핏 긴팔 롱슬리브 티셔츠_3COLOR",
           "price": 51000,
           "originalPrice": 51000,
-          "discountRate": 36,
-          "finalPrice": 32640,
+          "discountRate": 37,
+          "finalPrice": 31920,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261028/7640318/7640318_17932410197868_500.jpg",
@@ -1088,8 +1088,8 @@
           "name": "버튼업 스트라이프 후드 티셔츠_MIWLWGV24A",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 25,
-          "finalPrice": 37420,
+          "discountRate": 15,
+          "finalPrice": 42410,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261023/7605927/7605927_17927430129382_500.jpg",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 53498,
+        "avg": 53665,
         "min": 18890,
         "max": 179000,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 20
       },
       "female": {
-        "avg": 52711,
+        "avg": 52981,
         "min": 19710,
         "max": 95760,
         "count": 37
@@ -1942,19 +1942,19 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 140852,
+        "avg": 140822,
         "min": 47410,
         "max": 323280,
         "count": 60
       },
       "male": {
-        "avg": 113394,
+        "avg": 112882,
         "min": 59900,
         "max": 323100,
         "count": 16
       },
       "female": {
-        "avg": 153298,
+        "avg": 153471,
         "min": 47410,
         "max": 323280,
         "count": 37
@@ -1982,8 +1982,8 @@
           "name": "[박선민 pick] 시어링 퍼 하이넥 빈티지 스웨이드 버클 스트랩 포인트 무스탕 자켓 [베이지]",
           "price": 99000,
           "originalPrice": 99000,
-          "discountRate": 36,
-          "finalPrice": 63360,
+          "discountRate": 28,
+          "finalPrice": 71280,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261022/7585913/7585913_17938565818547_500.jpg",
@@ -2087,8 +2087,8 @@
           "name": "[박선민 pick] 하이넥 시어링 더블 스냅 소프트 카라 퍼 벨티드 클래식 숏 코트 무스탕 자켓 [블랙]",
           "price": 96000,
           "originalPrice": 96000,
-          "discountRate": 36,
-          "finalPrice": 61440,
+          "discountRate": 38,
+          "finalPrice": 59920,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261022/7585563/7585563_17926312743037_500.jpg",
@@ -2588,13 +2588,13 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 47900,
+        "avg": 48386,
         "min": 17490,
         "max": 170100,
         "count": 60
       },
       "male": {
-        "avg": 50938,
+        "avg": 51631,
         "min": 17490,
         "max": 170100,
         "count": 42
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 51586,
+        "avg": 52281,
         "min": 5900,
         "max": 178200,
         "count": 60
@@ -2923,7 +2923,7 @@
         "count": 15
       },
       "female": {
-        "avg": 65472,
+        "avg": 66862,
         "min": 9900,
         "max": 178200,
         "count": 30
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 48868,
+        "avg": 49034,
         "min": 18590,
         "max": 89000,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 4
       },
       "female": {
-        "avg": 49707,
+        "avg": 49899,
         "min": 18590,
         "max": 87300,
         "count": 52
@@ -3454,8 +3454,8 @@
           "name": "[울] 숏 반바지_MIWTHGT24B",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 20,
-          "finalPrice": 39920,
+          "discountRate": 0,
+          "finalPrice": 49900,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/7000662/7000662_17901275442560_500.jpg",
