@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T09:33:20.970585+00:00",
+  "updatedAt": "2026-11-19T18:42:21.562538+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 46244,
+        "avg": 46259,
         "min": 7900,
         "max": 159000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 9
       },
       "female": {
-        "avg": 45872,
+        "avg": 45891,
         "min": 9900,
         "max": 116100,
         "count": 46
@@ -382,8 +382,8 @@
           "name": "배색 헨리넥 긴소매 티셔츠  라이트 그레이",
           "price": 39900,
           "originalPrice": 39900,
-          "discountRate": 15,
-          "finalPrice": 33920,
+          "discountRate": 19,
+          "finalPrice": 32320,
           "category": "001010",
           "categoryLabel": "긴소매 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261029/7659451/7659451_17932598216656_500.jpg",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 48601,
+        "avg": 48600,
         "min": 7200,
         "max": 299000,
         "count": 60
@@ -840,8 +840,8 @@
           "name": "레센 사이드 래더패치 맨투맨 남녀공용",
           "price": 65000,
           "originalPrice": 65000,
-          "discountRate": 38,
-          "finalPrice": 40000,
+          "discountRate": 39,
+          "finalPrice": 39900,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261104/7707958/7707958_17937824641788_500.jpg",
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 51132,
+        "avg": 51173,
         "min": 13360,
         "max": 139000,
         "count": 60
@@ -985,7 +985,7 @@
         "count": 18
       },
       "female": {
-        "avg": 48670,
+        "avg": 48766,
         "min": 13360,
         "max": 122550,
         "count": 26
@@ -1088,8 +1088,8 @@
           "name": "버튼업 스트라이프 후드 티셔츠_MIWLWGV24A",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 25,
-          "finalPrice": 37420,
+          "discountRate": 20,
+          "finalPrice": 39910,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261023/7605927/7605927_17927430129382_500.jpg",
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 44941,
+        "avg": 44997,
         "min": 12410,
         "max": 130500,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 18
       },
       "female": {
-        "avg": 49626,
+        "avg": 49735,
         "min": 12410,
         "max": 130500,
         "count": 31
@@ -1486,8 +1486,8 @@
           "name": "하이넥 카울 블라우스웨트 브라운",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 15,
-          "finalPrice": 42420,
+          "discountRate": 21,
+          "finalPrice": 39440,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260916/7347097/7347097_17897177160729_500.jpg",
@@ -1619,22 +1619,22 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 53543,
+        "avg": 54481,
         "min": 18890,
         "max": 179000,
         "count": 60
       },
       "male": {
-        "avg": 46160,
+        "avg": 47021,
         "min": 18890,
         "max": 89900,
-        "count": 20
+        "count": 19
       },
       "female": {
-        "avg": 52784,
+        "avg": 53659,
         "min": 19900,
         "max": 95760,
-        "count": 37
+        "count": 38
       },
       "items": [
         {
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 144267,
+        "avg": 144164,
         "min": 47410,
         "max": 323280,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 15
       },
       "female": {
-        "avg": 153255,
+        "avg": 153088,
         "min": 47410,
         "max": 323280,
         "count": 37
@@ -2252,8 +2252,8 @@
           "name": "[올데이자켓] 칼라리스 울자켓 RMJKG4VA11",
           "price": 129000,
           "originalPrice": 129000,
-          "discountRate": 19,
-          "finalPrice": 104240,
+          "discountRate": 24,
+          "finalPrice": 98040,
           "category": "002",
           "categoryLabel": "아우터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261019/7552788/7552788_17930625900676_500.jpg",
@@ -2911,7 +2911,7 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 52275,
+        "avg": 52432,
         "min": 5900,
         "max": 178200,
         "count": 60
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 48897,
+        "avg": 49104,
         "min": 18590,
         "max": 89000,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 4
       },
       "female": {
-        "avg": 49732,
+        "avg": 49972,
         "min": 18590,
         "max": 87300,
         "count": 52
