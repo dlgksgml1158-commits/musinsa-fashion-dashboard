@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T19:49:07.564668+00:00",
+  "updatedAt": "2026-11-19T01:31:55.643514+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 51659,
+        "avg": 51576,
         "min": 13360,
         "max": 139000,
         "count": 60
@@ -985,7 +985,7 @@
         "count": 18
       },
       "female": {
-        "avg": 50573,
+        "avg": 50381,
         "min": 13360,
         "max": 122550,
         "count": 26
@@ -1088,8 +1088,8 @@
           "name": "버튼업 스트라이프 후드 티셔츠_MIWLWGV24A",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 15,
-          "finalPrice": 42410,
+          "discountRate": 25,
+          "finalPrice": 37420,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261023/7605927/7605927_17927430129382_500.jpg",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 53665,
+        "avg": 53540,
         "min": 18890,
         "max": 179000,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 20
       },
       "female": {
-        "avg": 52981,
+        "avg": 52779,
         "min": 19710,
         "max": 95760,
         "count": 37
@@ -2265,22 +2265,22 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 60046,
+        "avg": 59904,
         "min": 9900,
         "max": 339000,
         "count": 60
       },
       "male": {
-        "avg": 42495,
+        "avg": 42358,
         "min": 9900,
         "max": 99200,
-        "count": 22
+        "count": 21
       },
       "female": {
-        "avg": 62158,
+        "avg": 60955,
         "min": 28130,
         "max": 169200,
-        "count": 20
+        "count": 21
       },
       "items": [
         {
@@ -3234,22 +3234,22 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 49034,
+        "avg": 49750,
         "min": 18590,
         "max": 89000,
         "count": 60
       },
       "male": {
-        "avg": 49522,
+        "avg": 52618,
         "min": 32390,
         "max": 89000,
-        "count": 4
+        "count": 5
       },
       "female": {
-        "avg": 49899,
+        "avg": 49718,
         "min": 18590,
         "max": 87300,
-        "count": 52
+        "count": 53
       },
       "items": [
         {
@@ -3454,8 +3454,8 @@
           "name": "[울] 숏 반바지_MIWTHGT24B",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 0,
-          "finalPrice": 49900,
+          "discountRate": 15,
+          "finalPrice": 42420,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/7000662/7000662_17901275442560_500.jpg",
