@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T12:31:32.345650+00:00",
+  "updatedAt": "2026-11-20T21:03:06.532091+00:00",
   "popular": [
     {
       "rank": 1,
@@ -8,23 +8,23 @@
     },
     {
       "rank": 2,
-      "keyword": "경량패딩",
-      "rankIncrement": 0
-    },
-    {
-      "rank": 3,
       "keyword": "니트",
       "rankIncrement": 0
     },
     {
-      "rank": 4,
-      "keyword": "후드티",
+      "rank": 3,
+      "keyword": "경량패딩",
       "rankIncrement": 0
     },
     {
+      "rank": 4,
+      "keyword": "코트",
+      "rankIncrement": 1
+    },
+    {
       "rank": 5,
-      "keyword": "어그",
-      "rankIncrement": 0
+      "keyword": "후드티",
+      "rankIncrement": -1
     },
     {
       "rank": 6,
@@ -33,75 +33,75 @@
     },
     {
       "rank": 7,
-      "keyword": "코트",
-      "rankIncrement": 0
+      "keyword": "무스탕",
+      "rankIncrement": 1
     },
     {
       "rank": 8,
-      "keyword": "맨투맨",
-      "rankIncrement": 0
+      "keyword": "어그",
+      "rankIncrement": -1
     },
     {
       "rank": 9,
-      "keyword": "바지",
-      "rankIncrement": 3
+      "keyword": "후드집업",
+      "rankIncrement": 0
     },
     {
       "rank": 10,
-      "keyword": "후리스",
-      "rankIncrement": -1
+      "keyword": "바지",
+      "rankIncrement": 0
     }
   ],
   "rising": [
     {
       "rank": 1,
-      "keyword": "지오다노",
-      "rankIncrement": 120
+      "keyword": "파자마",
+      "rankIncrement": 139
     },
     {
       "rank": 2,
-      "keyword": "퍼 패딩",
-      "rankIncrement": 149
+      "keyword": "살로몬",
+      "rankIncrement": 249
     },
     {
       "rank": 3,
-      "keyword": "락피쉬웨더웨어",
-      "rankIncrement": 128
+      "keyword": "파타고니아",
+      "rankIncrement": 187
     },
     {
       "rank": 4,
-      "keyword": "귀걸이",
-      "rankIncrement": 191
+      "keyword": "겨울모자",
+      "rankIncrement": 164
     },
     {
       "rank": 5,
-      "keyword": "로맨틱무브",
-      "rankIncrement": 143
+      "keyword": "플리스 팬츠",
+      "rankIncrement": 100
     },
     {
       "rank": 6,
-      "keyword": "워커",
-      "rankIncrement": 110
+      "keyword": "브론슨",
+      "rankIncrement": 133
     },
     {
       "rank": 7,
-      "keyword": "키즈패딩",
-      "rankIncrement": 154
+      "keyword": "트레이닝 셋업",
+      "rankIncrement": 141
     },
     {
       "rank": 8,
-      "keyword": "비비안 웨스트우드",
-      "rankIncrement": 169
+      "keyword": "기모 후드티",
+      "rankIncrement": 161
     },
     {
       "rank": 9,
-      "keyword": "단톤",
-      "rankIncrement": 218
+      "keyword": "패딩코트",
+      "rankIncrement": 288
     },
     {
       "rank": 10,
-      "keyword": "더콜디스트모먼트",
-      "rankIncrement": 184
+      "keyword": "캐리어",
+      "rankIncrement": 103
     }
   ]
 }
