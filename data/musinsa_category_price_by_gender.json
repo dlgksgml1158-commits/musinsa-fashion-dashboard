@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T18:18:38.002436+00:00",
+  "updatedAt": "2026-11-21T23:29:23.108446+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 49178,
+        "avg": 45635,
         "min": 7200,
         "max": 299000,
         "count": 60
@@ -662,9 +662,9 @@
         "count": 14
       },
       "female": {
-        "avg": 52307,
+        "avg": 42644,
         "min": 13000,
-        "max": 238500,
+        "max": 119000,
         "count": 22
       },
       "items": [
@@ -850,21 +850,6 @@
         },
         {
           "rank": 13,
-          "id": "ms-4354748",
-          "brand": "이자벨마랑",
-          "name": "로스 맨투맨 - 에크루:카키 / SW0093FAA1M07EECKI",
-          "price": 699000,
-          "originalPrice": 699000,
-          "discountRate": 66,
-          "finalPrice": 238500,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20240821/4354748/4354748_17254426890167_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/4354748",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 14,
           "id": "ms-7718439",
           "brand": "시그니처",
           "name": "플리스 하프 스냅 풀오버[그레이]",
@@ -879,7 +864,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-5332680",
           "brand": "코드그라피",
           "name": "(우먼) 스트라이프 카라 맨투맨_올리브",
@@ -894,7 +879,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-7444092",
           "brand": "모더먼트",
           "name": "썸홀 래글런 스웨트셔츠 [블루그레이]",
@@ -909,7 +894,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7306608",
           "brand": "폴로 랄프 로렌",
           "name": "라이트웨이트 플리스 쿼터 지퍼",
@@ -924,7 +909,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-7445286",
           "brand": "나이키",
           "name": "조던 브루클린 크루넥 스웻셔츠 M - 뉴트럴 그레이:헤더:유니버시티 레드 / IU0257-054",
@@ -939,7 +924,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-7518740",
           "brand": "아조바이아조",
           "name": "[KOIN] Pigment Triple Terry Sweatshirt [CHARCOAL]",
@@ -954,7 +939,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-851670",
           "brand": "더블유브이프로젝트",
           "name": "블루밍 맨투맨 다크와인 JJMT7204",
@@ -967,6 +952,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20180907/851670/851670_2_500.jpg",
           "productUrl": "https://www.musinsa.com/products/851670",
           "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7259492",
+          "brand": "히루카 아카이브",
+          "name": "로스트 유스 포에버 맨투맨",
+          "price": 63900,
+          "originalPrice": 63900,
+          "discountRate": 48,
+          "finalPrice": 33530,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260907/7259492/7259492_17897146152223_500.png",
+          "productUrl": "https://www.musinsa.com/products/7259492",
+          "displayGenderText": ""
         }
       ]
     },
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 146694,
+        "avg": 142737,
         "min": 48800,
         "max": 359200,
         "count": 60
@@ -1954,10 +1954,10 @@
         "count": 15
       },
       "female": {
-        "avg": 156135,
+        "avg": 153384,
         "min": 49800,
         "max": 359200,
-        "count": 37
+        "count": 38
       },
       "items": [
         {
@@ -2265,16 +2265,16 @@
     "003002": {
       "label": "데님 팬츠",
       "all": {
-        "avg": 59724,
+        "avg": 60659,
         "min": 5990,
         "max": 339000,
         "count": 60
       },
       "male": {
-        "avg": 40351,
+        "avg": 41505,
         "min": 5990,
         "max": 99200,
-        "count": 23
+        "count": 22
       },
       "female": {
         "avg": 63656,
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 52902,
+        "avg": 52900,
         "min": 24100,
         "max": 118500,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 4
       },
       "female": {
-        "avg": 53852,
+        "avg": 53849,
         "min": 24100,
         "max": 118500,
         "count": 53
@@ -3365,7 +3365,7 @@
           "price": 49900,
           "originalPrice": 49900,
           "discountRate": 20,
-          "finalPrice": 39920,
+          "finalPrice": 39800,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260729/6949566/6949566_17890874701963_500.jpg",
