@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T03:34:41.526508+00:00",
+  "updatedAt": "2026-11-21T11:51:17.455998+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 48940,
+        "avg": 48732,
         "min": 7200,
         "max": 299000,
         "count": 60
@@ -662,9 +662,9 @@
         "count": 15
       },
       "female": {
-        "avg": 51791,
+        "avg": 51224,
         "min": 13000,
-        "max": 250990,
+        "max": 238500,
         "count": 22
       },
       "items": [
@@ -781,7 +781,7 @@
           "price": 79000,
           "originalPrice": 79000,
           "discountRate": 84,
-          "finalPrice": 12710,
+          "finalPrice": 12700,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240816/4335513/4335513_17260404158725_500.jpg",
@@ -855,8 +855,8 @@
           "name": "로스 맨투맨 - 에크루:카키 / SW0093FAA1M07EECKI",
           "price": 699000,
           "originalPrice": 699000,
-          "discountRate": 64,
-          "finalPrice": 250990,
+          "discountRate": 66,
+          "finalPrice": 238500,
           "category": "001005",
           "categoryLabel": "맨투맨/스웨트",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240821/4354748/4354748_17254426890167_500.jpg",
@@ -973,19 +973,19 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 51817,
+        "avg": 51715,
         "min": 11000,
         "max": 139000,
         "count": 60
       },
       "male": {
-        "avg": 57495,
+        "avg": 59245,
         "min": 11000,
         "max": 139000,
-        "count": 17
+        "count": 18
       },
       "female": {
-        "avg": 49119,
+        "avg": 49116,
         "min": 13360,
         "max": 122550,
         "count": 27
@@ -1089,7 +1089,7 @@
           "price": 49900,
           "originalPrice": 49900,
           "discountRate": 20,
-          "finalPrice": 39800,
+          "finalPrice": 39710,
           "category": "001004",
           "categoryLabel": "후드 티셔츠",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261023/7605927/7605927_17927430129382_500.jpg",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 52708,
+        "avg": 52500,
         "min": 18890,
         "max": 179000,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 17
       },
       "female": {
-        "avg": 50313,
+        "avg": 50001,
         "min": 19900,
         "max": 98000,
         "count": 40
@@ -1719,8 +1719,8 @@
           "name": "[소프트얀] 헤어리 레이스 브이넥 스웨터_SPKWG4TG04",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 5,
-          "finalPrice": 47410,
+          "discountRate": 30,
+          "finalPrice": 34930,
           "category": "001006",
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261015/7530175/7530175_17945481185647_500.jpg",
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 142035,
+        "avg": 142284,
         "min": 47310,
         "max": 359200,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 15
       },
       "female": {
-        "avg": 148579,
+        "avg": 148984,
         "min": 47310,
         "max": 359200,
         "count": 37
@@ -2588,13 +2588,13 @@
     "003008": {
       "label": "슬랙스",
       "all": {
-        "avg": 49289,
+        "avg": 49176,
         "min": 17490,
         "max": 170100,
         "count": 60
       },
       "male": {
-        "avg": 53276,
+        "avg": 53119,
         "min": 17490,
         "max": 170100,
         "count": 43
@@ -3234,7 +3234,7 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 49331,
+        "avg": 49256,
         "min": 18590,
         "max": 89000,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 4
       },
       "female": {
-        "avg": 49800,
+        "avg": 49715,
         "min": 18590,
         "max": 87300,
         "count": 53
