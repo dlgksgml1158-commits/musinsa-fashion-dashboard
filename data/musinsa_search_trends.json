@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T05:08:48.855938+00:00",
+  "updatedAt": "2026-11-22T16:47:42.271362+00:00",
   "popular": [
     {
       "rank": 1,
@@ -9,21 +9,21 @@
     {
       "rank": 2,
       "keyword": "니트",
-      "rankIncrement": 0
+      "rankIncrement": 1
     },
     {
       "rank": 3,
-      "keyword": "경량패딩",
-      "rankIncrement": 0
+      "keyword": "어그",
+      "rankIncrement": -1
     },
     {
       "rank": 4,
-      "keyword": "어그",
+      "keyword": "후드티",
       "rankIncrement": 0
     },
     {
       "rank": 5,
-      "keyword": "후드티",
+      "keyword": "경량패딩",
       "rankIncrement": 0
     },
     {
@@ -34,74 +34,74 @@
     {
       "rank": 7,
       "keyword": "맨투맨",
-      "rankIncrement": 1
+      "rankIncrement": 0
     },
     {
       "rank": 8,
-      "keyword": "바지",
-      "rankIncrement": -1
-    },
-    {
-      "rank": 9,
       "keyword": "비니",
       "rankIncrement": 0
     },
     {
+      "rank": 9,
+      "keyword": "무스탕",
+      "rankIncrement": 1
+    },
+    {
       "rank": 10,
-      "keyword": "롱패딩",
-      "rankIncrement": 0
+      "keyword": "나이키",
+      "rankIncrement": -1
     }
   ],
   "rising": [
     {
       "rank": 1,
-      "keyword": "래플",
-      "rankIncrement": 115
+      "keyword": "코드그라피 패딩",
+      "rankIncrement": 107
     },
     {
       "rank": 2,
-      "keyword": "블레이저",
-      "rankIncrement": 117
+      "keyword": "오프숄더",
+      "rankIncrement": 127
     },
     {
       "rank": 3,
-      "keyword": "글로니",
-      "rankIncrement": 188
+      "keyword": "코드그라피 덕다운",
+      "rankIncrement": 131
     },
     {
       "rank": 4,
-      "keyword": "코닥",
-      "rankIncrement": 132
+      "keyword": "챔피온 패딩",
+      "rankIncrement": 167
     },
     {
       "rank": 5,
-      "keyword": "시티레저",
-      "rankIncrement": 182
+      "keyword": "스타킹",
+      "rankIncrement": 225
     },
     {
       "rank": 6,
-      "keyword": "경량 패딩",
-      "rankIncrement": 126
+      "keyword": "에이치덱스",
+      "rankIncrement": 113
     },
     {
       "rank": 7,
-      "keyword": "노스페이스 뮬",
-      "rankIncrement": 106
+      "keyword": "롱스커트",
+      "rankIncrement": 117
     },
     {
       "rank": 8,
-      "keyword": "레드윙",
-      "rankIncrement": 196
+      "keyword": "아수라",
+      "rankIncrement": 107
     },
     {
       "rank": 9,
-      "keyword": "리버시블 무스탕",
-      "rankIncrement": 166
+      "keyword": "헬로키티",
+      "rankIncrement": 182
     },
     {
       "rank": 10,
-      "keyword": "레드윙슈즈",
-      "rankIncrement": 200
+      "keyword": "하이넥 코트",
+      "rankIncrement": 103
     }
   ]
 }
