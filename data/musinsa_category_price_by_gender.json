@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T23:29:23.108446+00:00",
+  "updatedAt": "2026-11-22T03:20:38.986570+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 47098,
+        "avg": 47062,
         "min": 6990,
         "max": 159000,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 7
       },
       "female": {
-        "avg": 47543,
+        "avg": 47497,
         "min": 7510,
         "max": 129000,
         "count": 48
@@ -1942,7 +1942,7 @@
     "002": {
       "label": "아우터",
       "all": {
-        "avg": 142737,
+        "avg": 142972,
         "min": 48800,
         "max": 359200,
         "count": 60
@@ -1954,7 +1954,7 @@
         "count": 15
       },
       "female": {
-        "avg": 153384,
+        "avg": 153755,
         "min": 49800,
         "max": 359200,
         "count": 38
@@ -2911,22 +2911,22 @@
     "003004": {
       "label": "트레이닝/조거",
       "all": {
-        "avg": 54672,
+        "avg": 55886,
         "min": 5900,
         "max": 178200,
         "count": 60
       },
       "male": {
-        "avg": 42900,
+        "avg": 44287,
         "min": 14800,
         "max": 119000,
-        "count": 16
+        "count": 15
       },
       "female": {
-        "avg": 70148,
+        "avg": 71004,
         "min": 9900,
         "max": 178200,
-        "count": 28
+        "count": 29
       },
       "items": [
         {
@@ -3141,21 +3141,6 @@
         },
         {
           "rank": 15,
-          "id": "ms-7543884",
-          "brand": "오에스아이",
-          "name": "와이드 커브드 벌룬 스웻팬츠 51 네이비",
-          "price": 36900,
-          "originalPrice": 36900,
-          "discountRate": 40,
-          "finalPrice": 22100,
-          "category": "003004",
-          "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20261016/7543884/7543884_17921391645282_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7543884",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 16,
           "id": "ms-5872180",
           "brand": "페이더먼트",
           "name": "[사계절or기모_원단선택]부츠컷 스웨트 팬츠",
@@ -3170,7 +3155,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-6193410",
           "brand": "놈브레",
           "name": "프리미엄 사이드 자수 라인 와이드 트랙 팬츠[브라운]",
@@ -3185,7 +3170,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-7544432",
           "brand": "크림소다랩",
           "name": "[6주년기획]씨알에스디엘 레터링 조거 트레이닝 팬츠",
@@ -3200,7 +3185,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-7573815",
           "brand": "아모우",
           "name": "투 몰리 원턱 스웻 팬츠 블랙",
@@ -3215,7 +3200,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7676504",
           "brand": "음",
           "name": "헤비후리스 스트링 기모안감 와이드밴딩팬츠 3COLOR",
@@ -3228,13 +3213,28 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261102/7676504/7676504_17935822984624_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7676504",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7670626",
+          "brand": "인무드",
+          "name": "융기모 코듀로이 와이드 트레이닝 팬츠 [브라운]",
+          "price": 52000,
+          "originalPrice": 52000,
+          "discountRate": 4,
+          "finalPrice": 49800,
+          "category": "003004",
+          "categoryLabel": "트레이닝/조거",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20261030/7670626/7670626_17933529400693_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7670626",
+          "displayGenderText": "여성"
         }
       ]
     },
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 52900,
+        "avg": 52709,
         "min": 24100,
         "max": 118500,
         "count": 60
@@ -3246,7 +3246,7 @@
         "count": 4
       },
       "female": {
-        "avg": 53849,
+        "avg": 53632,
         "min": 24100,
         "max": 118500,
         "count": 53
