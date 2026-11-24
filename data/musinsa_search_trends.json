@@ -1,107 +1,107 @@
 {
-  "updatedAt": "2026-11-23T14:02:45.718354+00:00",
+  "updatedAt": "2026-11-24T00:38:37.748347+00:00",
   "popular": [
     {
       "rank": 1,
-      "keyword": "패딩",
-      "rankIncrement": 0
+      "keyword": "어그",
+      "rankIncrement": 1
     },
     {
       "rank": 2,
-      "keyword": "어그",
-      "rankIncrement": 0
+      "keyword": "패딩",
+      "rankIncrement": -1
     },
     {
       "rank": 3,
       "keyword": "니트",
-      "rankIncrement": 0
+      "rankIncrement": 1
     },
     {
       "rank": 4,
       "keyword": "경량패딩",
-      "rankIncrement": 0
+      "rankIncrement": -1
     },
     {
       "rank": 5,
-      "keyword": "후드티",
-      "rankIncrement": 0
-    },
-    {
-      "rank": 6,
       "keyword": "코트",
-      "rankIncrement": 0
-    },
-    {
-      "rank": 7,
-      "keyword": "맨투맨",
-      "rankIncrement": 0
-    },
-    {
-      "rank": 8,
-      "keyword": "바지",
-      "rankIncrement": 0
-    },
-    {
-      "rank": 9,
-      "keyword": "후리스",
       "rankIncrement": 2
     },
     {
-      "rank": 10,
-      "keyword": "무스탕",
+      "rank": 6,
+      "keyword": "롱패딩",
       "rankIncrement": -1
+    },
+    {
+      "rank": 7,
+      "keyword": "후드티",
+      "rankIncrement": -1
+    },
+    {
+      "rank": 8,
+      "keyword": "후리스",
+      "rankIncrement": 1
+    },
+    {
+      "rank": 9,
+      "keyword": "맨투맨",
+      "rankIncrement": -1
+    },
+    {
+      "rank": 10,
+      "keyword": "목도리",
+      "rankIncrement": 0
     }
   ],
   "rising": [
     {
       "rank": 1,
-      "keyword": "아디다스 패딩",
-      "rankIncrement": 101
+      "keyword": "래플",
+      "rankIncrement": 118
     },
     {
       "rank": 2,
-      "keyword": "유라고",
-      "rankIncrement": 101
+      "keyword": "아더에러",
+      "rankIncrement": 195
     },
     {
       "rank": 3,
-      "keyword": "칙스",
-      "rankIncrement": 134
+      "keyword": "카고팬츠",
+      "rankIncrement": 116
     },
     {
       "rank": 4,
-      "keyword": "파브레가",
-      "rankIncrement": 138
+      "keyword": "도프제이슨",
+      "rankIncrement": 151
     },
     {
       "rank": 5,
-      "keyword": "남자 코트",
-      "rankIncrement": 142
+      "keyword": "고어텍스",
+      "rankIncrement": 130
     },
     {
       "rank": 6,
-      "keyword": "시티 레저 후디드 라이트 다운 재킷",
-      "rankIncrement": 201
+      "keyword": "니트 가디건",
+      "rankIncrement": 156
     },
     {
       "rank": 7,
-      "keyword": "밀로 아카이브",
-      "rankIncrement": 146
+      "keyword": "남자 코트",
+      "rankIncrement": 130
     },
     {
       "rank": 8,
-      "keyword": "쿠폰",
-      "rankIncrement": 163
+      "keyword": "글로니",
+      "rankIncrement": 225
     },
     {
       "rank": 9,
-      "keyword": "블랙업",
-      "rankIncrement": 144
+      "keyword": "무탠다드 코트",
+      "rankIncrement": 191
     },
     {
       "rank": 10,
-      "keyword": "커버낫 패딩",
-      "rankIncrement": 148
+      "keyword": "이너티",
+      "rankIncrement": 113
     }
   ]
 }
