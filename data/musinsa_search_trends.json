@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T08:33:07.473160+00:00",
+  "updatedAt": "2026-11-24T19:49:26.931378+00:00",
   "popular": [
     {
       "rank": 1,
@@ -8,100 +8,100 @@
     },
     {
       "rank": 2,
-      "keyword": "어그",
-      "rankIncrement": 0
-    },
-    {
-      "rank": 3,
       "keyword": "니트",
       "rankIncrement": 0
     },
     {
+      "rank": 3,
+      "keyword": "어그",
+      "rankIncrement": 0
+    },
+    {
       "rank": 4,
-      "keyword": "경량패딩",
+      "keyword": "후드티",
       "rankIncrement": 0
     },
     {
       "rank": 5,
       "keyword": "코트",
-      "rankIncrement": 0
+      "rankIncrement": 1
     },
     {
       "rank": 6,
-      "keyword": "롱패딩",
-      "rankIncrement": 0
+      "keyword": "경량패딩",
+      "rankIncrement": -1
     },
     {
       "rank": 7,
-      "keyword": "후드티",
-      "rankIncrement": 0
-    },
-    {
-      "rank": 8,
-      "keyword": "무스탕",
-      "rankIncrement": 0
-    },
-    {
-      "rank": 9,
       "keyword": "비니",
       "rankIncrement": 0
     },
     {
-      "rank": 10,
+      "rank": 8,
+      "keyword": "후드집업",
+      "rankIncrement": 0
+    },
+    {
+      "rank": 9,
       "keyword": "맨투맨",
-      "rankIncrement": 1
+      "rankIncrement": 0
+    },
+    {
+      "rank": 10,
+      "keyword": "무스탕",
+      "rankIncrement": 0
     }
   ],
   "rising": [
     {
       "rank": 1,
-      "keyword": "남자 코트",
-      "rankIncrement": 116
+      "keyword": "코튼 미니멀 라운드 니트",
+      "rankIncrement": 141
     },
     {
       "rank": 2,
-      "keyword": "나이키 경량패딩",
-      "rankIncrement": 154
+      "keyword": "매든",
+      "rankIncrement": 133
     },
     {
       "rank": 3,
-      "keyword": "클락스",
-      "rankIncrement": 179
+      "keyword": "스카프",
+      "rankIncrement": 180
     },
     {
       "rank": 4,
-      "keyword": "타입서비스",
-      "rankIncrement": 116
+      "keyword": "엘리엇 에밀",
+      "rankIncrement": 149
     },
     {
       "rank": 5,
-      "keyword": "아디다스 삼바",
-      "rankIncrement": 102
+      "keyword": "겨울신발",
+      "rankIncrement": 185
     },
     {
       "rank": 6,
-      "keyword": "수아레 니트",
-      "rankIncrement": 105
+      "keyword": "토마스모어",
+      "rankIncrement": 123
     },
     {
       "rank": 7,
-      "keyword": "파카",
-      "rankIncrement": 236
+      "keyword": "반바지",
+      "rankIncrement": 121
     },
     {
       "rank": 8,
-      "keyword": "k2",
-      "rankIncrement": 108
+      "keyword": "러닝",
+      "rankIncrement": 116
     },
     {
       "rank": 9,
-      "keyword": "밀로 아카이브",
-      "rankIncrement": 170
+      "keyword": "유니온블루",
+      "rankIncrement": 139
     },
     {
       "rank": 10,
-      "keyword": "무센트",
-      "rankIncrement": 200
+      "keyword": "와이드 슬랙스",
+      "rankIncrement": 162
     }
   ]
 }
