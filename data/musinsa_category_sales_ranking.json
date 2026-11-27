@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T00:06:49.762792+00:00",
+  "updatedAt": "2026-11-27T08:50:33.934628+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -662,6 +662,21 @@
         },
         {
           "rank": 4,
+          "id": "ms-5560239",
+          "brand": "칙스",
+          "name": "973 맨투맨 (5 Color / 기모 ver)",
+          "price": 57000,
+          "originalPrice": 57000,
+          "discountRate": 51,
+          "finalPrice": 27930,
+          "category": "001005",
+          "categoryLabel": "맨투맨/스웨트",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20251001/5560239/5560239_17634284086998_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/5560239",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 5,
           "id": "ms-4425066",
           "brand": "챔피온",
           "name": "스몰 스크립트 로고 크루넥 스웨트셔츠 Normal Grey",
@@ -676,7 +691,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "id": "ms-4673419",
           "brand": "난데",
           "name": "( 기모 선택 )MANHATTAN 프린팅 오버핏 맨투맨 스웻셔츠 8color",
@@ -691,7 +706,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "id": "ms-3475395",
           "brand": "웬즈데이오아시스",
           "name": "[기모버전추가]시그니처 오버핏 맨투맨 7COLOR",
@@ -706,7 +721,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "id": "ms-1582356",
           "brand": "소버먼트",
           "name": "980G 피그먼트 맨투맨-차콜-",
@@ -721,7 +736,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "id": "ms-3562530",
           "brand": "세터",
           "name": "클래식 로고 스웨트셔츠 클래식 블랙",
@@ -736,7 +751,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "ms-5276013",
           "brand": "트릴리온",
           "name": "[기모추가] 레더 패치 데님 카라 럭비 맨투맨_네이비",
@@ -751,7 +766,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "id": "ms-2705740",
           "brand": "무신사 스탠다드",
           "name": "오버사이즈 스웨트셔츠 [블랙]",
@@ -766,7 +781,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "id": "ms-1336836",
           "brand": "브렌슨",
           "name": "(Renew Ver.) 루즈핏 스웨트 셔츠 ( 5Color ) ( 기모선택 )",
@@ -781,7 +796,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "id": "ms-6719692",
           "brand": "무신사 스탠다드",
           "name": "기모 스웨트셔츠 [블랙]",
@@ -796,7 +811,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "id": "ms-947068",
           "brand": "무신사 스탠다드",
           "name": "스웨트셔츠 [멜란지 그레이]",
@@ -811,7 +826,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "id": "ms-4704341",
           "brand": "지프",
           "name": "[360g] M-Logo 반집업 맨투맨 (JR5TSU838MB)",
@@ -826,7 +841,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-1755605",
           "brand": "지프",
           "name": "[360g] M-Logo 반집업 맨투맨 (JR5TSU838BK)",
@@ -841,7 +856,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-7074145",
           "brand": "트릴리온",
           "name": "커버 스티치 피그먼트 맨투맨_4color",
@@ -856,7 +871,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-5543992",
           "brand": "비바라비다",
           "name": "[기모선택] My Youth 헤비테리 맨투맨",
@@ -871,7 +886,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-7213384",
           "brand": "고스트리퍼블릭",
           "name": "코듀로이 하프버튼 세미크롭 맨투맨 3Color GMT-163",
@@ -886,7 +901,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-2990274",
           "brand": "1989스탠다드",
           "name": "SMALL CENTER 맨투맨 (STMSTD-0015)",
@@ -899,21 +914,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20221220/2990274/2990274_17865180516439_500.jpg",
           "productUrl": "https://www.musinsa.com/products/2990274",
           "displayGenderText": ""
-        },
-        {
-          "rank": 20,
-          "id": "ms-5589008",
-          "brand": "1993스튜디오",
-          "name": "90S 트랙 스웨트셔츠 (7colors)",
-          "price": 85000,
-          "originalPrice": 85000,
-          "discountRate": 56,
-          "finalPrice": 37500,
-          "category": "001005",
-          "categoryLabel": "맨투맨/스웨트",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20251014/5589008/5589008_17948803301448_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/5589008",
-          "displayGenderText": "공용"
         }
       ]
     },
@@ -1277,8 +1277,8 @@
           "name": "링클프리 드레스 셔츠 [화이트]",
           "price": 39900,
           "originalPrice": 39900,
-          "discountRate": 10,
-          "finalPrice": 35890,
+          "discountRate": 5,
+          "finalPrice": 37890,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20210401/1875849/1875849_17935950459319_500.jpg",
@@ -2262,24 +2262,9 @@
         },
         {
           "rank": 9,
-          "id": "ms-3455327",
-          "brand": "무신사 스탠다드",
-          "name": "디스트로이드 니 와이드 데님 팬츠 [라이트 인디고]",
-          "price": 55900,
-          "originalPrice": 55900,
-          "discountRate": 89,
-          "finalPrice": 5990,
-          "category": "003002",
-          "categoryLabel": "데님 팬츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20230809/3455327/3455327_16935384887685_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/3455327",
-          "displayGenderText": "남성"
-        },
-        {
-          "rank": 10,
           "id": "ms-3663072",
           "brand": "토피",
-          "name": "모어 와이드 데님 팬츠 (WASHED RAW BLACK)",
+          "name": "[기모 선택] 모어 와이드 데님 팬츠 (WASHED RAW BLACK)",
           "price": 49000,
           "originalPrice": 49000,
           "discountRate": 35,
@@ -2291,7 +2276,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-3791988",
           "brand": "필루미네이트",
           "name": "데미지 워시드 데님 팬츠-미디엄 블루",
@@ -2306,7 +2291,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-5311382",
           "brand": "언탭트 스튜디오",
           "name": "워시드 오버 와이드 코튼 데님팬츠 3Color",
@@ -2321,7 +2306,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-7009519",
           "brand": "아워데이즈",
           "name": "[젠플록스X아워데이즈] 세미 커브드 데님 팬츠 [5COLORS]",
@@ -2336,7 +2321,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-4164429",
           "brand": "언탭트 스튜디오",
           "name": "빈티지 프론트 워싱 와이드 청바지 데님 팬츠",
@@ -2351,7 +2336,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-4695508",
           "brand": "아워데이즈",
           "name": "리버티 세미 와이드 데님 팬츠 [5COLORS]",
@@ -2366,7 +2351,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-4747231",
           "brand": "르아르",
           "name": "에브리데이 커브드 팬츠 [블랙]",
@@ -2381,7 +2366,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-2268294",
           "brand": "무신사 스탠다드",
           "name": "레귤러 핏 데님 팬츠 [블랙]",
@@ -2396,7 +2381,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5681967",
           "brand": "텍스",
           "name": "TX301 커브드 배기 벌룬 데님 (중청)",
@@ -2411,7 +2396,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-5920850",
           "brand": "언탭트 스튜디오",
           "name": "프론트 사이드 투턱 와이드 벌룬 데님팬츠 4Color",
@@ -2426,7 +2411,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-3525289",
           "brand": "와르",
           "name": "M210 더티 오일 데님 팬츠_진청 [숏기장 추가]",
@@ -2439,6 +2424,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230904/3525289/3525289_17678581250452_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3525289",
           "displayGenderText": "남성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7499386",
+          "brand": "리메인세컨드",
+          "name": "[기모] 빈티지 캣워싱 와이드 데님 팬츠 [옐로우 워싱]",
+          "price": 64000,
+          "originalPrice": 64000,
+          "discountRate": 69,
+          "finalPrice": 19800,
+          "category": "003002",
+          "categoryLabel": "데님 팬츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20261013/7499386/7499386_17930690228538_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7499386",
+          "displayGenderText": "공용"
         }
       ]
     },
@@ -2527,8 +2527,8 @@
           "name": "헤비웨이트 속기모 와이드 히든 밴딩 슬랙스 [블랙]",
           "price": 59900,
           "originalPrice": 59900,
-          "discountRate": 10,
-          "finalPrice": 53890,
+          "discountRate": 5,
+          "finalPrice": 56890,
           "category": "003008",
           "categoryLabel": "슬랙스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20201030/1670232/1670232_16722981564858_500.jpg",
@@ -2791,7 +2791,7 @@
           "finalPrice": 19990,
           "category": "003004",
           "categoryLabel": "트레이닝/조거",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20231107/3690591/3690591_17909251058949_500.jpg",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20231107/3690591/3690591_17957591884783_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3690591",
           "displayGenderText": "공용"
         },
