@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T18:30:26.681819+00:00",
+  "updatedAt": "2026-11-28T01:34:14.751959+00:00",
   "period": "최근 1주일 판매량순",
   "categories": {
     "001001": {
@@ -507,6 +507,21 @@
         },
         {
           "rank": 14,
+          "id": "ms-3765563",
+          "brand": "무신사 스탠다드 우먼",
+          "name": "[4만원 이상 구매 시 구매 가능] 우먼즈 릴렉스드 크루 넥 긴팔 티셔츠 [화이트]",
+          "price": 19900,
+          "originalPrice": 19900,
+          "discountRate": 70,
+          "finalPrice": 5900,
+          "category": "001010",
+          "categoryLabel": "긴소매 티셔츠",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20231222/3765563/3765563_17047033960808_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/3765563",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 15,
           "id": "ms-3898614",
           "brand": "베르만 어패럴",
           "name": "와플 니트 익스트림 오버핏 롱슬리브 4color",
@@ -521,7 +536,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "id": "ms-5334425",
           "brand": "비터셀즈",
           "name": "[2 PACK-컬러추가]에센셜 골지 티-11 colors",
@@ -536,7 +551,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "id": "ms-5484281",
           "brand": "브렌슨",
           "name": "컴포트 크롭 긴팔티 ( 6Color )",
@@ -551,7 +566,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-3417709",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 슬림 크루 넥 긴소매 티셔츠 [화이트]",
@@ -566,7 +581,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "id": "ms-4886457",
           "brand": "브렌슨",
           "name": "오버핏 1:1 스트라이프 긴팔티 ( 5Color )",
@@ -581,7 +596,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "id": "ms-3481227",
           "brand": "무신사 스탠다드",
           "name": "[힛탠다드] 크루 넥 긴소매 티셔츠 [블랙]",
@@ -594,21 +609,6 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20230821/3481227/3481227_17530885798889_500.jpg",
           "productUrl": "https://www.musinsa.com/products/3481227",
           "displayGenderText": "남성"
-        },
-        {
-          "rank": 20,
-          "id": "ms-6981524",
-          "brand": "필루미네이트",
-          "name": "리플 스트라이프 니트 롱 슬리브-3Color",
-          "price": 49000,
-          "originalPrice": 49000,
-          "discountRate": 37,
-          "finalPrice": 30900,
-          "category": "001010",
-          "categoryLabel": "긴소매 티셔츠",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260803/6981524/6981524_17895242418089_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6981524",
-          "displayGenderText": "공용"
         }
       ]
     },
@@ -2062,21 +2062,6 @@
         },
         {
           "rank": 16,
-          "id": "ms-7877993",
-          "brand": "무신사 스탠다드",
-          "name": "[4만원 이상 구매 시 구매 가능] 샤기 플리스 집업 재킷 [크림]",
-          "price": 29900,
-          "originalPrice": 29900,
-          "discountRate": 74,
-          "finalPrice": 7900,
-          "category": "002",
-          "categoryLabel": "아우터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20261124/7877993/7877993_17955078788201_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7877993",
-          "displayGenderText": "공용"
-        },
-        {
-          "rank": 17,
           "id": "ms-5356728",
           "brand": "노티카",
           "name": "83플래그 폴라 버튼 풀오버(5colors) NFL2366",
@@ -2091,7 +2076,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-4541364",
           "brand": "언탭트 스튜디오",
           "name": "2WAY 에센셜 푸퍼 베이직 헤비 숏패딩 2Color",
@@ -2106,7 +2091,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-6917753",
           "brand": "무신사 스탠다드",
           "name": "[시티 레저] 플러피 플리스 집업 재킷 (6 colors)",
@@ -2121,7 +2106,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-4356794",
           "brand": "무신사 스탠다드",
           "name": "[시티 레저] 후디드 라이트 다운 재킷 [블랙]",
@@ -2134,6 +2119,21 @@
           "imgUrl": "https://image.msscdn.net/images/goods_img/20240822/4356794/4356794_17890558965193_500.jpg",
           "productUrl": "https://www.musinsa.com/products/4356794",
           "displayGenderText": "공용"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7307134",
+          "brand": "아모우",
+          "name": "AMOU Polar Fleece Anorak CREAM",
+          "price": 119000,
+          "originalPrice": 119000,
+          "discountRate": 75,
+          "finalPrice": 29750,
+          "category": "002",
+          "categoryLabel": "아우터",
+          "imgUrl": "https://image.msscdn.net/images/prd_img/20260911/7307134/detail_7307134_17901411708348_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7307134",
+          "displayGenderText": "남성"
         }
       ]
     },
@@ -3092,8 +3092,8 @@
           "name": "[2팩] 퀵드라이 스포츠 7인치 쇼츠 (7color)",
           "price": 49800,
           "originalPrice": 49800,
-          "discountRate": 29,
-          "finalPrice": 35470,
+          "discountRate": 20,
+          "finalPrice": 39900,
           "category": "003009",
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20250317/4903285/4903285_17745902249337_500.jpg",
@@ -3252,17 +3252,17 @@
         },
         {
           "rank": 14,
-          "id": "ms-7554699",
-          "brand": "카키포인트",
-          "name": "Tab Knit Shorts (melange)",
-          "price": 112000,
-          "originalPrice": 112000,
-          "discountRate": 19,
-          "finalPrice": 90720,
+          "id": "ms-7539801",
+          "brand": "페이지플린",
+          "name": "소프트 기모 핀턱 숏 팬츠_S6DPT001C",
+          "price": 59000,
+          "originalPrice": 59000,
+          "discountRate": 70,
+          "finalPrice": 17910,
           "category": "003009",
           "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20261019/7554699/7554699_17939267712429_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7554699",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20261016/7539801/7539801_17936115902601_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7539801",
           "displayGenderText": "여성"
         },
         {
@@ -3282,6 +3282,21 @@
         },
         {
           "rank": 16,
+          "id": "ms-7554699",
+          "brand": "카키포인트",
+          "name": "Tab Knit Shorts (melange)",
+          "price": 112000,
+          "originalPrice": 112000,
+          "discountRate": 19,
+          "finalPrice": 90720,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20261019/7554699/7554699_17939267712429_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7554699",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 17,
           "id": "ms-3378570",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 원 턱 와이드 코듀로이 쇼츠 [블랙]",
@@ -3296,7 +3311,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "id": "ms-7566491",
           "brand": "에트오소메",
           "name": "Double Belt Corduroy Short Pants (Black)",
@@ -3308,21 +3323,6 @@
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261020/7566491/7566491_17925813532542_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7566491",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 18,
-          "id": "ms-7539801",
-          "brand": "페이지플린",
-          "name": "소프트 기모 핀턱 숏 팬츠_S6DPT001C",
-          "price": 59000,
-          "originalPrice": 59000,
-          "discountRate": 70,
-          "finalPrice": 17910,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20261016/7539801/7539801_17936115902601_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7539801",
           "displayGenderText": "여성"
         },
         {

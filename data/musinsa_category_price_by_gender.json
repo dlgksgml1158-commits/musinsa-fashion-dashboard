@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-11-27T18:30:18.410657+00:00",
+  "updatedAt": "2026-11-28T01:34:05.762820+00:00",
   "categories": {
     "001001": {
       "label": "반소매 티셔츠",
       "all": {
-        "avg": 36153,
+        "avg": 36226,
         "min": 11790,
         "max": 169000,
         "count": 60
       },
       "male": {
-        "avg": 33954,
+        "avg": 34118,
         "min": 11790,
         "max": 169000,
         "count": 27
@@ -327,7 +327,7 @@
     "001010": {
       "label": "긴소매 티셔츠",
       "all": {
-        "avg": 41644,
+        "avg": 41718,
         "min": 11910,
         "max": 170100,
         "count": 60
@@ -339,7 +339,7 @@
         "count": 7
       },
       "female": {
-        "avg": 40055,
+        "avg": 40149,
         "min": 11910,
         "max": 103990,
         "count": 47
@@ -650,7 +650,7 @@
     "001005": {
       "label": "맨투맨/스웨트",
       "all": {
-        "avg": 40052,
+        "avg": 39712,
         "min": 5990,
         "max": 299000,
         "count": 60
@@ -662,10 +662,10 @@
         "count": 16
       },
       "female": {
-        "avg": 38180,
+        "avg": 37604,
         "min": 9990,
         "max": 70560,
-        "count": 25
+        "count": 24
       },
       "items": [
         {
@@ -973,7 +973,7 @@
     "001004": {
       "label": "후드 티셔츠",
       "all": {
-        "avg": 48874,
+        "avg": 48966,
         "min": 5990,
         "max": 179100,
         "count": 60
@@ -985,7 +985,7 @@
         "count": 10
       },
       "female": {
-        "avg": 46917,
+        "avg": 47095,
         "min": 12900,
         "max": 179100,
         "count": 31
@@ -1296,7 +1296,7 @@
     "001002": {
       "label": "셔츠/블라우스",
       "all": {
-        "avg": 41420,
+        "avg": 41461,
         "min": 12130,
         "max": 115200,
         "count": 60
@@ -1308,7 +1308,7 @@
         "count": 21
       },
       "female": {
-        "avg": 45625,
+        "avg": 45720,
         "min": 19490,
         "max": 115200,
         "count": 26
@@ -1396,8 +1396,8 @@
           "name": "탑 레이어드 셔츠_MIWYAG639G MIWYAG71QG MIWYWGT0QG",
           "price": 49900,
           "originalPrice": 49900,
-          "discountRate": 25,
-          "finalPrice": 37430,
+          "discountRate": 20,
+          "finalPrice": 39920,
           "category": "001002",
           "categoryLabel": "셔츠/블라우스",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260416/6322099/6322099_17917903863603_500.jpg",
@@ -1619,7 +1619,7 @@
     "001006": {
       "label": "니트/스웨터",
       "all": {
-        "avg": 96418,
+        "avg": 96114,
         "min": 5990,
         "max": 2980000,
         "count": 60
@@ -1631,7 +1631,7 @@
         "count": 12
       },
       "female": {
-        "avg": 47292,
+        "avg": 46857,
         "min": 16110,
         "max": 151620,
         "count": 42
@@ -1639,21 +1639,6 @@
       "items": [
         {
           "rank": 1,
-          "id": "ms-7631486",
-          "brand": "런던다다",
-          "name": "Merino Wool Loose V-Neck Knit, CHARCOAL",
-          "price": 59000,
-          "originalPrice": 59000,
-          "discountRate": 29,
-          "finalPrice": 42040,
-          "category": "001006",
-          "categoryLabel": "니트/스웨터",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20261027/7631486/7631486_17931703786240_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/7631486",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 2,
           "id": "ms-7669826",
           "brand": "블루멀",
           "name": "데일리 오픈 헨리넥 니트 - 6COLOR",
@@ -1668,7 +1653,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 3,
+          "rank": 2,
           "id": "ms-7667210",
           "brand": "페이지플린",
           "name": "케이블 하이넥 집업 니트_P6DKN002C",
@@ -1683,7 +1668,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 4,
+          "rank": 3,
           "id": "ms-7704070",
           "brand": "수아레",
           "name": "데일리 모크넥 집업 니트 - 5COLOR",
@@ -1698,7 +1683,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "id": "ms-7630891",
           "brand": "무드인사이드",
           "name": "위드 메리노 울 반집업 니트_3Color",
@@ -1713,7 +1698,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "id": "ms-7530175",
           "brand": "스파오",
           "name": "[소프트얀] 헤어리 레이스 브이넥 스웨터_SPKWG4TG04",
@@ -1728,7 +1713,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "id": "ms-7738842",
           "brand": "프렌치시크",
           "name": "르에나 꼬임소매 골지 폴라 니트_F6F508KN",
@@ -1743,7 +1728,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-7714421",
           "brand": "유라고",
           "name": "Feather stripe collar knit",
@@ -1758,7 +1743,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-7788164",
           "brand": "미쏘",
           "name": "[미쏘x지애] [캐시미어블렌드] 브이넥 니트_MIWKAH19AA",
@@ -1773,7 +1758,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-7618970",
           "brand": "레프트서울",
           "name": "캐시미어 블렌드 헤어리 라운드넥 니트 [브라운]",
@@ -1788,7 +1773,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-7681428",
           "brand": "메르시마리에",
           "name": "마엘 헤어리 루즈 니트",
@@ -1803,7 +1788,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-7690974",
           "brand": "피그먼트",
           "name": "후드나그랑꽈니트 (ZYSW260740)",
@@ -1818,7 +1803,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-7367696",
           "brand": "메종 마르지엘라",
           "name": "엘보우 패치 하프 집업 니트 - 네이비 블루 / S50HA1072S18147511",
@@ -1833,7 +1818,7 @@
           "displayGenderText": "공용"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-7642328",
           "brand": "나인식스뉴욕",
           "name": "라인 배색 언발 루즈핏 긴팔 니트 (NQ4KT033L0)",
@@ -1848,7 +1833,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-7665255",
           "brand": "블루멀",
           "name": "데일리 오픈 헨리넥 니트 - 6COLOR",
@@ -1863,7 +1848,7 @@
           "displayGenderText": "남성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-7601582",
           "brand": "프렌치시크",
           "name": "브라운디 하프넥 반팔 니트_F6F584KN",
@@ -1878,7 +1863,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-7605580",
           "brand": "밀리언코르",
           "name": "헤어리 브이넥 긴팔니트(베이지)",
@@ -1893,7 +1878,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-7529457",
           "brand": "스파오",
           "name": "홀터넥 레이어드 니트_SPKWG49G04",
@@ -1908,7 +1893,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-7493901",
           "brand": "아워호프",
           "name": "헤어리 울 랩 버튼 니트 - Brown",
@@ -1923,7 +1908,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7703944",
           "brand": "칙스",
           "name": "브러쉬드 헨리넥 버튼 오버핏 니트 민트",
@@ -1935,6 +1920,21 @@
           "categoryLabel": "니트/스웨터",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20261104/7703944/7703944_17937700075614_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7703944",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-7749948",
+          "brand": "썸웨어버터",
+          "name": "Snow Bear Cowhichan Sweater - Navy",
+          "price": 228000,
+          "originalPrice": 228000,
+          "discountRate": 34,
+          "finalPrice": 151620,
+          "category": "001006",
+          "categoryLabel": "니트/스웨터",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20261110/7749948/7749948_17949923457101_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/7749948",
           "displayGenderText": "여성"
         }
       ]
@@ -3234,19 +3234,19 @@
     "003009": {
       "label": "반바지",
       "all": {
-        "avg": 44717,
+        "avg": 45037,
         "min": 16870,
         "max": 92160,
         "count": 60
       },
       "male": {
-        "avg": 39303,
+        "avg": 40042,
         "min": 17550,
         "max": 80100,
         "count": 6
       },
       "female": {
-        "avg": 44438,
+        "avg": 44717,
         "min": 16870,
         "max": 92160,
         "count": 53
@@ -3329,21 +3329,6 @@
         },
         {
           "rank": 6,
-          "id": "ms-6595799",
-          "brand": "무신사 스탠다드 우먼",
-          "name": "우먼즈 폴라 플리스 밴딩 쇼츠 [그레이]",
-          "price": 29900,
-          "originalPrice": 29900,
-          "discountRate": 15,
-          "finalPrice": 25390,
-          "category": "003009",
-          "categoryLabel": "반바지",
-          "imgUrl": "https://image.msscdn.net/images/goods_img/20260602/6595799/6595799_17894667182185_500.jpg",
-          "productUrl": "https://www.musinsa.com/products/6595799",
-          "displayGenderText": "여성"
-        },
-        {
-          "rank": 7,
           "id": "ms-4720624",
           "brand": "무센트",
           "name": "세피 마이크로 쇼츠 (4컬러)",
@@ -3358,7 +3343,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "id": "ms-7834348",
           "brand": "에트오소메",
           "name": "Fleece Two zipper Short Pants (Black)",
@@ -3373,7 +3358,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "id": "ms-5260737",
           "brand": "레더리",
           "name": "다즐링 메테오 마이크로 쇼츠 [BLACK]",
@@ -3388,7 +3373,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "id": "ms-7539801",
           "brand": "페이지플린",
           "name": "소프트 기모 핀턱 숏 팬츠_S6DPT001C",
@@ -3403,7 +3388,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 11,
+          "rank": 10,
           "id": "ms-7671120",
           "brand": "허그유어스킨",
           "name": "HYS X YOON SOAP 크로스 스터드 플랩 쇼츠 (블랙)",
@@ -3418,7 +3403,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 12,
+          "rank": 11,
           "id": "ms-7554699",
           "brand": "카키포인트",
           "name": "Tab Knit Shorts (melange)",
@@ -3433,7 +3418,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 13,
+          "rank": 12,
           "id": "ms-5330964",
           "brand": "빼빼",
           "name": "밴딩 실버 펜던트 니트 하프 팬츠 2Color",
@@ -3448,7 +3433,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 14,
+          "rank": 13,
           "id": "ms-4536956",
           "brand": "웬즈데이오아시스 포 우먼",
           "name": "포시즌 코듀로이 하프 밴딩 팬츠 4COLOR",
@@ -3463,7 +3448,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 15,
+          "rank": 14,
           "id": "ms-7000662",
           "brand": "미쏘",
           "name": "[울] 숏 반바지_MIWTHGT24B",
@@ -3478,7 +3463,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "id": "ms-7094960",
           "brand": "로긴 앤 로지",
           "name": "Micro Shorts Black",
@@ -3493,7 +3478,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "id": "ms-4374046",
           "brand": "몽돌",
           "name": "[3color] 윈터ver) 시그니처 모직 숏팬츠 MDPT052FW",
@@ -3508,7 +3493,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 18,
+          "rank": 17,
           "id": "ms-5773785",
           "brand": "어패럴아카이브",
           "name": "Elo wool knit shorts - Black",
@@ -3523,7 +3508,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 19,
+          "rank": 18,
           "id": "ms-3074974",
           "brand": "무신사 스탠다드 우먼",
           "name": "우먼즈 더블 니트 스웨트 쇼츠 [블랙]",
@@ -3538,7 +3523,7 @@
           "displayGenderText": "여성"
         },
         {
-          "rank": 20,
+          "rank": 19,
           "id": "ms-7357696",
           "brand": "미쏘",
           "name": "케이블 니트 쇼츠_MIWTHGV14T",
@@ -3550,6 +3535,21 @@
           "categoryLabel": "반바지",
           "imgUrl": "https://image.msscdn.net/images/goods_img/20260917/7357696/7357696_17908378106751_500.jpg",
           "productUrl": "https://www.musinsa.com/products/7357696",
+          "displayGenderText": "여성"
+        },
+        {
+          "rank": 20,
+          "id": "ms-6519732",
+          "brand": "러프넥",
+          "name": "Flap Pocket Short Pants Black",
+          "price": 79000,
+          "originalPrice": 79000,
+          "discountRate": 10,
+          "finalPrice": 71100,
+          "category": "003009",
+          "categoryLabel": "반바지",
+          "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519732/6519732_17794391993164_500.jpg",
+          "productUrl": "https://www.musinsa.com/products/6519732",
           "displayGenderText": "여성"
         }
       ]
